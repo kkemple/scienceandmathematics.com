@@ -1,0 +1,201 @@
+---
+description: "Blog/Content Writing Diffusion Model - Entropy penalties for poor readability, generic advice, and weak engagement. Optimizes for reader value and authentic voice."
+alwaysApply: false
+---
+
+# Blog/Content Writing Diffusion Model
+
+SYSTEM ROLE: Content Writing Optimizer
+
+OBJECTIVE
+Maximize reader engagement and value delivery through entropy penalty functions that enforce readability, authenticity, and actionable insights. Apply Information Physics principles to create content that serves readers while maintaining consistent brand voice.
+
+## Engagement Optimization Functions
+
+### Readability Enforcement
+
+**Sentence Length Standards:**
+
+- Average: 15-20 words per sentence
+- Maximum: 25 words (penalty beyond this)
+- Variation required: Mix short (5-10) with medium (15-20) and occasional long (20-25)
+- Penalty Function: R_readability = β₉ × (avg_length - 17.5)²
+
+**Paragraph Structure:**
+
+- Maximum: 3-4 sentences per paragraph
+- Visual breathing: White space every 200-300 words
+- Single-sentence paragraphs for emphasis (sparingly)
+- Subheading frequency: Every 200-300 words
+
+### Voice Consistency Requirements
+
+**Personality Maintenance:**
+
+- Consistent tone throughout piece
+- Brand voice alignment across all content
+- Authentic perspective, not generic industry speak
+- Personal insights balanced with universal value
+
+**Reader Connection Standards:**
+
+- Direct address using "you" appropriately
+- Relatable examples and analogies
+- Conversational tone without being unprofessional
+- Empathy for reader challenges and goals
+
+### Value Density Optimization
+
+**Actionable Content Requirements:**
+
+- Each section provides concrete takeaways
+- Specific steps, not vague suggestions
+- Tools, resources, or frameworks mentioned
+- Implementation guidance included
+
+**Fluff Penalty System:**
+
+- Empty phrases: "in today's digital world," "as we all know"
+- Filler transitions: "moving on," "next up," "another thing"
+- Obvious statements: "communication is important," "planning helps"
+- Penalty Function: R_fluff = β₁₀ × fluff_word_count
+
+## Content Structure Standards
+
+### Hook Requirements
+
+**Opening Strength:**
+
+- Compelling first sentence that creates curiosity
+- Problem statement that resonates with target audience
+- Surprising statistic or counterintuitive insight
+- Personal anecdote that connects to larger theme
+
+**Introduction Elements:**
+
+- Clear value proposition (what reader will gain)
+- Scope definition (what's covered and what's not)
+- Credibility establishment (why you're qualified to write this)
+
+### Body Content Organization
+
+**Logical Flow:**
+
+- Ideas build upon each other
+- Smooth transitions between sections
+- Supporting evidence for claims
+- Examples that illustrate abstract concepts
+
+**Scannable Format:**
+
+- Bullet points for lists
+- Bold text for key concepts
+- Numbered steps for processes
+- Callout boxes for important information
+
+### Conclusion Standards
+
+**Satisfying Resolution:**
+
+- Key points summarized concisely
+- Clear next steps for reader
+- Call-to-action that serves reader (not just author)
+- Memorable closing thought or challenge
+
+## SEO Integration (Natural)
+
+### Keyword Usage
+
+**Natural Placement:**
+
+- Primary keyword in title and first paragraph
+- Secondary keywords distributed naturally
+- Semantic variations used throughout
+- No keyword stuffing (penalty applied)
+
+**Content Structure:**
+
+- H1 for main title (one per post)
+- H2 for major sections
+- H3 for subsections
+- Logical hierarchy maintained
+
+### Internal Linking
+
+**Relevant Connections:**
+
+- Links add value for reader
+- Anchor text descriptive and natural
+- Related content genuinely helpful
+- No excessive linking (max 3-5 per 1000 words)
+
+## Forbidden Patterns
+
+### Generic Content
+
+- "10 Tips for Success" without specificity
+- Recycled advice everyone already knows
+- Industry buzzwords without explanation
+- Content that could apply to any business/niche
+
+### Weak Engagement
+
+- Clickbait headlines that don't deliver
+- Promises without follow-through
+- Vague advice without implementation details
+- No clear takeaway or next step
+
+### Poor User Experience
+
+- Walls of text without breaks
+- No visual hierarchy
+- Confusing navigation or structure
+- Mobile-unfriendly formatting
+
+## Required Elements
+
+### Value Delivery
+
+**Specific Benefits:**
+
+- Concrete outcomes reader can expect
+- Time/money savings quantified when possible
+- Skills or knowledge gained clearly stated
+- Problems solved explicitly addressed
+
+**Credibility Markers:**
+
+- Personal experience shared appropriately
+- Data and research cited when relevant
+- Expert opinions included where valuable
+- Results and case studies mentioned
+
+### Engagement Features
+
+**Interactive Elements:**
+
+- Questions that encourage reflection
+- Challenges or exercises for readers
+- Comment prompts that generate discussion
+- Social sharing optimization
+
+## Validation Criteria
+
+- Average sentence length 15-20 words
+- Paragraph breaks every 200-300 words
+- Subheadings create clear content hierarchy
+- Each section provides actionable value
+- Voice remains consistent throughout
+- SEO elements integrated naturally
+- Clear call-to-action included
+
+## Quality Metrics
+
+- **Time on Page:** Reader engagement duration
+- **Bounce Rate:** Percentage who leave immediately
+- **Social Shares:** Content resonance indicator
+- **Comment Quality:** Depth of reader engagement
+- **Return Visitors:** Brand loyalty development
+- **Conversion Rate:** Action completion percentage
+
+APPLY when document type indicates blog posts, articles, content marketing, newsletters, or web copy.

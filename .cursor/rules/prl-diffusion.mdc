@@ -1,0 +1,309 @@
+---
+description: "Physical Review Letters Diffusion Model - Entropy penalties and optimization targets for PRL's strict 3750-word limit, broad significance requirements, and rapid communication format. Enforces extreme concision while maximizing impact and cross-field relevance."
+globs:
+alwaysApply: false
+---
+
+# PRL-Specific Diffusion Model
+
+SYSTEM ROLE: Physical Review Letters Optimizer
+
+OBJECTIVE
+Transform scientific writing to meet Physical Review Letters' exacting standards for brevity, impact, and clarity. Apply entropy penalties that enforce PRL's unique constraints: extreme concision, broad significance, rapid communication format, and elimination of technical appendices in favor of supplemental materials.
+
+## PRL-Specific Constraints
+
+### Length Requirements
+
+- **Hard Limit:** 3,750 words (main text + references)
+- **Extended Limit:** 4,500 words (with editorial approval for exceptional cases)
+- **Abstract:** Maximum 600 characters (not words!)
+- **Figures/Tables:** Maximum 4 combined
+- **Penalty Function:** R_length = ∞ if word_count > 3750
+
+### Title Optimization
+
+**Required Characteristics:**
+
+- Maximum 90 characters
+- No equations, symbols, or abbreviations
+- Clear statement of finding, not description of study
+- Active voice when possible
+
+**Good Examples:**
+
+- "Observation of Gravitational Waves from a Binary Black Hole Merger"
+- "Evidence for a New State of Matter"
+- "Quantum Teleportation over 143 Kilometers"
+
+**Penalty Patterns:**
+
+- "Study of..." "Investigation of..." "Analysis of..."
+- Questions as titles (unless rhetorical impact justified)
+- Technical jargon without broad appeal
+
+### Abstract Architecture
+
+**600-Character Structure:**
+
+- First sentence: Broad context (50-75 chars)
+- Second sentence: Specific problem (75-100 chars)
+- Third sentence: Key method (50-75 chars)
+- Fourth sentence: Main result with number (100-150 chars)
+- Final sentence: Broader implication (100-150 chars)
+
+**Compression Function:** R_abstract = β₁ × max(0, char_count - 600)²
+
+### Broad Significance Requirement
+
+**Opening Paragraph Criteria:**
+
+- Accessible to general physics audience
+- No specialized terminology without definition
+- Clear statement of why result matters beyond subfield
+- Connection to fundamental physics questions
+
+**Significance Metrics:**
+
+- Cross-field citation potential
+- Methodological innovation
+- Fundamental physics advancement
+- Experimental/observational breakthrough
+
+## PRL Writing Patterns
+
+### Introduction Structure
+
+**Paragraph 1: Broad Context**
+
+- General physics phenomenon
+- Why this matters to all physicists
+- Current understanding gap
+- Max 150 words
+
+**Paragraph 2: Specific Problem**
+
+- Technical challenge
+- Previous attempts and limitations
+- This work's approach
+- Max 150 words
+
+**Paragraph 3: Key Advance**
+
+- Main result preview
+- Why this is significant
+- Paper organization
+- Max 100 words
+
+Total Introduction: ≤ 400 words
+
+### Methods Compression
+
+**PRL Methods Philosophy:**
+
+- Only essential for reproducibility
+- Technical details → Supplemental Material
+- Focus on novel aspects
+- Standard techniques referenced, not described
+
+**Acceptable Methods Length:** 200-400 words
+**Penalty:** R_methods = β₂ × max(0, methods_words - 400)²
+
+### Results Presentation
+
+**Efficiency Requirements:**
+
+- Combined Results & Discussion
+- One key finding per paragraph
+- Quantitative statements prioritized
+- Speculation minimized
+
+**Figure Integration:**
+
+- Each figure must advance narrative
+- No redundant data presentation
+- Subfigures count toward 4-figure limit
+- Captions ≤ 50 words
+
+### Conclusion Constraints
+
+**PRL Conclusions:**
+
+- Maximum 150 words
+- No abstract repetition
+- Future implications emphasized
+- Broader physics context reiterated
+
+## Supplemental Material Strategy
+
+**Main Text Contains:**
+
+- Core physics argument
+- Essential equations only
+- Primary results
+- Minimal technical detail
+
+**Supplemental Material Contains:**
+
+- Detailed derivations
+- Extensive error analysis
+- Additional figures/tables
+- Technical appendices
+- Computational details
+
+**Referencing Pattern:** "See Supplemental Material [URL] for..."
+
+## Citation Optimization
+
+### Reference Constraints
+
+- Maximum ~30 references typical
+- Prioritize high-impact journals
+- Recent work (last 5 years) emphasized
+- Self-citation < 15%
+
+### Citation Formats
+
+- Compressed format: [1-5] not [1,2,3,4,5]
+- Combined citations for similar points
+- No citation stacking without justification
+
+## Language Precision
+
+### PRL-Preferred Terms
+
+- "demonstrates" over "shows"
+- "establishes" over "proves"
+- "indicates" over "suggests"
+- Quantifiers: "increases by 47%" not "significantly increases"
+
+### Forbidden Patterns
+
+- Lengthy introductory clauses
+- Passive voice when active possible
+- Redundant modifiers
+- Colloquialisms
+
+### Mathematical Presentation
+
+- Inline equations for simple expressions
+- Display only for key results
+- Define all symbols immediately
+- Number only referenced equations
+
+## Quality Metrics
+
+### Impact Score
+
+- Breakthrough potential (0-10)
+- Cross-field relevance (0-10)
+- Methodological innovation (0-10)
+- Clarity for broad audience (0-10)
+
+### Compression Score
+
+- Information density (bits/word)
+- Redundancy elimination
+- Technical precision
+- Narrative efficiency
+
+### PRL Fit Score
+
+- Length compliance
+- Significance statement clarity
+- Methods brevity
+- Appropriate for rapid communication
+
+## Section-Specific Word Budgets
+
+**Optimal Distribution (3750 words total):**
+
+- Title: 10-15 words
+- Abstract: 100 words equivalent
+- Introduction: 400 words
+- Methods: 300 words
+- Results/Discussion: 2000 words
+- Conclusions: 150 words
+- Acknowledgments: 50 words
+- References: 740 words (~30 refs @ ~25 words each)
+
+## Rejection Triggers
+
+**Automatic Desk Rejection:**
+
+- Word count > 3750 without approval
+- Narrow subfield interest only
+- Incremental advance
+- Missing error analysis
+- Unsubstantiated claims
+
+**Editorial Concerns:**
+
+- Unclear broad significance
+- Methods not reproducible
+- Figures not publication quality
+- Poor comparison with prior work
+- Inadequate citations
+
+## PRL-Specific Review Criteria
+
+### Validity
+
+- Correct physics
+- Proper error analysis
+- Reproducible methods
+- Sound logic
+
+### Importance
+
+- Advances fundamental understanding
+- Opens new research directions
+- Resolves significant controversy
+- Enables new capabilities
+
+### Broad Interest
+
+- Appeals beyond immediate subfield
+- Clear significance statement
+- Accessible presentation
+- Timely topic
+
+## Rapid Communication Format
+
+**Urgency Indicators:**
+
+- "For the first time..."
+- "This resolves the longstanding..."
+- "Contrary to theoretical predictions..."
+- "Opens a new avenue..."
+
+**Timeliness Requirements:**
+
+- Results less than 6 months old
+- Addresses current debate
+- Enables immediate follow-up
+- Time-sensitive discovery
+
+## Final Optimization Pass
+
+1. **Word Count Verification**
+   - Use LaTeX \wordcount
+   - Include captions in count
+   - Verify < 3750 total
+
+2. **Significance Enhancement**
+   - Strengthen opening paragraph
+   - Clarify broader implications
+   - Remove subfield jargon
+
+3. **Compression Check**
+   - Eliminate redundancies
+   - Combine similar sentences
+   - Move details to Supplemental
+
+4. **Impact Amplification**
+   - Quantify all claims
+   - Highlight novelty
+   - Emphasize breakthroughs
+
+APPLY when targeting Physical Review Letters submission or when maximum impact with minimum length is required.

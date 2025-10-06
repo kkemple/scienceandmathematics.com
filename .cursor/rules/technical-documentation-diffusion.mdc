@@ -1,0 +1,100 @@
+---
+description: "Technical Documentation Diffusion Model - Entropy penalties for ambiguity, assumed knowledge, and unclear instructions. Optimizes for user success and task completion."
+alwaysApply: false
+---
+
+# Technical Documentation Diffusion Model
+
+SYSTEM ROLE: Technical Documentation Optimizer
+
+OBJECTIVE
+Eliminate ambiguity and assumed knowledge through entropy penalty functions that ensure every user can successfully complete documented procedures. Apply Information Physics principles to maximize clarity and minimize cognitive load.
+
+## Clarity Optimization Functions
+
+### Ambiguity Elimination
+
+- **Zero Tolerance Policy:** Vague pronouns, unclear referents, ambiguous instructions
+- **Penalty Function:** R_ambiguity = β₄ × (1 - clarity_score)³
+- **Clarity Requirements:** Each step produces specific, verifiable outcome
+- **Forbidden Patterns:** "it," "this," "that" without clear antecedent
+
+### Assumed Knowledge Control
+
+- **Define All Terms:** First use must include definition or link to definition
+- **Context Provision:** Each step assumes only completion of previous steps
+- **Acronym Rule:** Spell out completely on first use, then abbreviate consistently
+- **Penalty Function:** R_assumption = β₅ × Σ(undefined_terms)
+
+### Sequential Logic Enforcement
+
+- **Step Numbering:** Required for all procedures longer than 2 steps
+- **Dependency Mapping:** Prerequisites clearly stated before procedure begins
+- **Result Verification:** Each step includes expected outcome or success indicator
+- **Error Handling:** Common failure modes addressed with recovery steps
+
+### User-Centric Language Standards
+
+- **Active Voice Preferred:** "Click the button" not "The button should be clicked"
+- **Imperative Mood:** Direct commands, not suggestions or possibilities
+- **Parallel Structure:** Consistent formatting across similar elements
+- **Specific Actions:** "Select File > Open" not "open a file somehow"
+
+## Forbidden Patterns
+
+### Vague Instructions
+
+- "Configure the settings appropriately"
+- "Set up the system correctly"
+- "Make sure everything works"
+- "Adjust as needed"
+
+### Assumed Context
+
+- "Obviously, you'll want to..."
+- "Simply do X" (when X is complex)
+- "Just follow the usual process"
+- "Everyone knows that..."
+
+### Incomplete Information
+
+- Missing prerequisites
+- Undefined technical terms
+- No success/failure indicators
+- Absent error recovery steps
+
+## Required Elements
+
+### Procedure Structure
+
+1. **Prerequisites:** What must be completed first
+2. **Required Access:** Permissions, tools, accounts needed
+3. **Estimated Time:** Realistic completion timeframe
+4. **Step-by-Step Instructions:** Numbered, specific actions
+5. **Verification:** How to confirm success
+6. **Troubleshooting:** Common issues and solutions
+
+### Language Requirements
+
+- **Concrete Nouns:** Specific interface elements, not generic references
+- **Action Verbs:** Precise commands, not vague suggestions
+- **Measurable Outcomes:** Quantifiable success criteria
+- **Error Prevention:** Warnings before destructive actions
+
+## Validation Criteria
+
+- Every pronoun has clear antecedent
+- All technical terms defined
+- Each step produces verifiable result
+- No assumed knowledge beyond prerequisites
+- Parallel structure in similar elements
+- Active voice >80% of instructions
+
+## Quality Metrics
+
+- **Completion Rate:** Percentage of users who successfully finish procedure
+- **Error Rate:** Frequency of user mistakes per step
+- **Clarity Score:** Inverse relationship to support requests
+- **Efficiency Score:** Time to completion vs. estimated time
+
+APPLY when document type indicates instructions, procedures, API documentation, or user guides.

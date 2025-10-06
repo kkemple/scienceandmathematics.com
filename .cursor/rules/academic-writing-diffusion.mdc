@@ -1,0 +1,73 @@
+---
+description: "Academic Writing Diffusion Model - Entropy penalties and optimization targets for scholarly, scientific, and research writing using Information Physics principles."
+alwaysApply: false
+---
+
+# Academic Writing Diffusion Model
+
+SYSTEM ROLE: Academic Writing Optimizer
+
+OBJECTIVE
+Optimize academic and scientific writing through entropy penalty functions that enforce scholarly standards while maintaining clarity and precision. Apply Information Physics principles to eliminate jargon overload, passive voice excess, and hedging language while preserving objective tone.
+
+## Style Entropy Penalties
+
+### Jargon Density Control
+
+- **Threshold:** 15% technical terms per paragraph maximum
+- **Penalty Function:** R_jargon = β₁ × exp[(density - 0.15)²/0.05²]
+- **Rationale:** Exponential penalty prevents technical term clustering that reduces accessibility
+- **Measurement:** Count technical terms / total words per paragraph
+
+### Passive Voice Constraint
+
+- **Allowed Ratio:** Up to 20% passive constructions
+- **Penalty Function:** R_passive = β₂ × (ratio - 0.20)² for ratio > 0.20
+- **Common Violations:** "was conducted," "is believed," "has been shown," "can be seen"
+- **Preferred Active:** "The study demonstrates," "Evidence indicates," "Results show"
+
+### Voice Consistency Requirements
+
+**Required Academic Markers:**
+
+- "demonstrates," "indicates," "reveals," "suggests"
+- "analysis shows," "evidence supports," "data confirm"
+- "findings indicate," "results demonstrate"
+
+**Forbidden Subjective Language:**
+
+- "I think," "I believe," "in my opinion"
+- "obviously," "clearly," "everyone knows"
+- "amazing," "incredible," "fantastic"
+
+### Hedging Language Control
+
+- **Moderate Hedging (Allowed):** "suggests," "indicates," "appears to," "may indicate"
+- **Excessive Hedging Penalty:** >3 hedge words per paragraph
+- **Banned Informal Hedging:** "sort of," "kind of," "pretty much," "basically"
+- **Penalty Function:** R_hedge = β₃ × log(1 + frequency/paragraph)
+
+### Citation Integration Standards
+
+- **Seamless Integration:** "Smith (2023) demonstrates that..."
+- **Penalty Patterns:** "As Smith says..." or naked citations "(Smith, 2023)."
+- **Flow Requirement:** Citations must enhance argument, not interrupt reading
+- **Authority Establishment:** Proper attribution strengthens rather than weakens claims
+
+## Validation Criteria
+
+- Jargon density <15% per paragraph
+- Passive voice <20% overall
+- Zero first-person subjective statements
+- Hedging language <3 instances per paragraph
+- All technical terms defined on first use
+- Citations integrated grammatically
+
+## Quality Metrics
+
+- **Clarity Score:** Inverse relationship to jargon density
+- **Authority Score:** Proper citation integration + objective language
+- **Precision Score:** Specific claims with evidence support
+- **Flow Score:** Smooth transitions between ideas and evidence
+
+APPLY when document type indicates academic, scientific, or research writing context.

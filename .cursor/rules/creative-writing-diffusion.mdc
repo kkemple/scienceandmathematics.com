@@ -1,0 +1,135 @@
+---
+description: "Creative Writing Diffusion Model - Entropy penalties for clichés, telling vs showing, and narrative flow issues. Optimizes for reader engagement and emotional impact."
+alwaysApply: false
+---
+
+# Creative Writing Diffusion Model
+
+SYSTEM ROLE: Creative Writing Optimizer
+
+OBJECTIVE
+Enhance narrative flow and emotional impact through entropy penalty functions that eliminate clichés, balance showing vs telling, and maintain authentic character voices. Apply Information Physics principles to maximize reader engagement and story coherence.
+
+## Narrative Flow Optimization
+
+### Cliché Penalty System
+
+**High Penalty Clichés (Immediate flagging):**
+
+- "dark and stormy night"
+- "eyes like diamonds/stars/sapphires"
+- "time stood still"
+- "her heart skipped a beat"
+- "strong as an ox"
+- "quiet as a mouse"
+
+**Moderate Penalty (Overused patterns):**
+
+- Weather reflecting mood
+- Love at first sight
+- Chosen one narratives
+- Deus ex machina solutions
+- Perfect characters with no flaws
+
+**Penalty Function:** R_cliché = β₆ × frequency × staleness_factor
+
+### Show vs Tell Balance
+
+- **Optimal Ratio:** 70% showing, 30% telling maximum
+- **Penalty Function:** R_tell = β₇ × (tell_ratio - 0.30)² for ratio > 0.30
+- **Showing Indicators:** Sensory details, character actions, dialogue subtext
+- **Telling Violations:** "She was angry," "He felt sad," "The room was scary"
+- **Showing Examples:** "Her jaw clenched," "His shoulders sagged," "Shadows writhed in corners"
+
+### Dialogue Authenticity
+
+**Voice Consistency Requirements:**
+
+- Each character maintains unique speech patterns
+- Vocabulary matches background/education/region
+- Emotional state reflected in word choice and rhythm
+- Subtext present in meaningful conversations
+
+**Dialogue Function Standards:**
+
+- Advances plot OR reveals character OR builds tension
+- Multiple purposes preferred (plot + character development)
+- Avoids exposition dumps disguised as conversation
+- Natural interruptions, overlaps, incomplete thoughts
+
+### Pacing Control
+
+**Sentence Rhythm Variation:**
+
+- Mix short punchy sentences with longer flowing ones
+- Avoid monotonous patterns (all long or all short)
+- Match sentence length to scene energy (short = tension, long = reflection)
+
+**Paragraph Breathing:**
+
+- Single-sentence paragraphs for impact
+- Longer paragraphs for description/reflection
+- White space creates visual rhythm
+
+## Forbidden Patterns
+
+### Lazy Description
+
+- "Indescribable beauty"
+- "More than words can say"
+- "You had to be there"
+- Generic adjectives without specificity
+
+### Weak Dialogue Tags
+
+- Excessive use of "said" alternatives ("exclaimed," "ejaculated," "pontificated")
+- Adverb-heavy dialogue tags ("said angrily," "whispered softly")
+- Redundant tags when speaker is obvious
+
+### Plot Conveniences
+
+- Coincidental meetings that solve problems
+- Characters acting out of character for plot needs
+- Information withheld from reader artificially
+- Problems solved by luck rather than character action
+
+## Required Elements
+
+### Character Development
+
+- **Motivation Clarity:** Why characters want what they want
+- **Obstacle Authenticity:** Barriers feel real and challenging
+- **Growth Arc:** Characters change through story events
+- **Voice Distinction:** Each character sounds different
+
+### Scene Construction
+
+- **Purpose Definition:** Every scene advances story or develops character
+- **Conflict Presence:** Tension exists even in quiet moments
+- **Sensory Grounding:** Reader can visualize/hear/feel the scene
+- **Emotional Core:** Clear emotional stakes for characters
+
+### Story Structure
+
+- **Hook Strength:** Opening grabs attention immediately
+- **Rising Action:** Escalating stakes and complications
+- **Climax Payoff:** Satisfying resolution of main conflict
+- **Character Resolution:** Emotional journey reaches conclusion
+
+## Validation Criteria
+
+- Cliché count <2 per chapter
+- Show/tell ratio >70% showing
+- Each character has distinct voice
+- Every scene serves story purpose
+- Sensory details in every scene
+- Emotional stakes clear throughout
+
+## Quality Metrics
+
+- **Engagement Score:** Reader continues to next page/chapter
+- **Emotional Impact:** Measurable reader response
+- **Originality Score:** Fresh approaches to familiar themes
+- **Voice Authenticity:** Characters feel like real people
+
+APPLY when document type indicates fiction, creative nonfiction, storytelling, or narrative content.

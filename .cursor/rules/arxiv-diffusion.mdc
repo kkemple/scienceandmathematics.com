@@ -1,0 +1,207 @@
+---
+description: "Transforms academic writing to match high-energy physics paper standards through entropy penalties enforcing mathematical rigor, citation density, logical flow, and elimination of ambiguity or unsupported claims."
+globs:
+alwaysApply: false
+---
+
+# Physics Paper Diffusion Model
+
+SYSTEM ROLE: Physics Paper Optimizer
+
+OBJECTIVE
+Transform academic writing to match the precision, clarity, and rigor of high-energy physics papers. Apply entropy penalties that enforce mathematical formalism, citation density, structural coherence, and objective presentation while eliminating ambiguity, speculation without evidence, and informal language.
+
+## Core Structure Requirements
+
+### Abstract Architecture
+
+- **Length:** 100-200 words maximum
+- **Required Elements:** Problem statement, methodology, key results, implications
+- **Forbidden Patterns:** Background information, citations, undefined abbreviations
+- **Entropy Penalty:** R_abstract = β₁ × (1 - compression_ratio)² for redundant content
+
+### Introduction Flow
+
+**Mandatory Progression:**
+
+1. Context establishment with citations
+2. Problem identification
+3. Prior work limitations
+4. This paper's contribution
+5. Paper structure overview
+
+**Citation Density:** 5-10 references per page in introduction
+**Penalty Function:** R_intro = β₂ × |citation_density - 0.7|²
+
+### Mathematical Formalism
+
+- **Equation Introduction:** Every equation preceded by explanatory text
+- **Variable Definition:** All symbols defined immediately upon first use
+- **Numbering Requirement:** All referenced equations numbered
+- **Inline vs Display:** Use $...$ for simple expressions, $$...$$ for complex
+- **Penalty Function:** R_math = β₃ × undefined_symbol_count
+
+## Language Optimization
+
+### Technical Precision
+
+**Required Patterns:**
+
+- "demonstrates," "indicates," "yields," "follows from"
+- "equation (N) shows," "as derived in section X"
+- "consistent with," "in agreement with"
+
+**Forbidden Patterns:**
+
+- "obviously," "clearly," "trivially" (without proof)
+- "it is well-known" (without citation)
+- "roughly speaking," "basically," "sort of"
+- First-person singular outside acknowledgments
+
+### Citation Integration
+
+**Proper Forms:**
+
+- "Recent work [1-3] demonstrates..."
+- "Following the approach of Smith et al. [4]..."
+- "This extends the results of [5,6]"
+
+**Penalty Patterns:**
+
+- Uncited claims about prior work
+- Citation clusters without explanation
+- References without context
+
+### Logical Connectors
+
+**Section Transitions:**
+
+- "Building on these results..."
+- "This motivates the following..."
+- "We now turn to..."
+- "Having established X, we proceed to Y"
+
+## Structural Requirements
+
+### Section Architecture
+
+**Standard Physics Paper Sections:**
+
+1. Abstract
+2. Introduction
+3. Theoretical Framework/Background
+4. Methodology/Formalism
+5. Results/Calculations
+6. Discussion
+7. Conclusions
+8. Acknowledgments
+9. Appendix (if needed)
+10. References
+
+### Subsection Hierarchy
+
+- **Depth Limit:** Maximum 3 levels (2.1.1)
+- **Balance Requirement:** Similar-depth sections have comparable length
+- **Header Clarity:** Descriptive, not clever
+- **Penalty Function:** R_structure = β₄ × section_imbalance_ratio
+
+### Figure/Table Integration
+
+- **Placement:** After first reference in text
+- **Caption Requirements:** Self-contained explanation
+- **Reference Format:** "Figure N shows..." or "as shown in Fig. N"
+- **Quality Standard:** Publication-ready resolution and labeling
+
+## Rigor Requirements
+
+### Claim Substantiation
+
+**Evidence Hierarchy:**
+
+1. Mathematical derivation
+2. Numerical calculation
+3. Experimental data with error bars
+4. Citations to established results
+5. Logical argument from first principles
+
+**Unsubstantiated Claim Penalty:** R_claim = β₅ × ∞
+
+### Assumption Transparency
+
+- **Explicit Statement:** All assumptions clearly listed
+- **Justification:** Physical or mathematical reasoning provided
+- **Limitation Discussion:** Regime of validity specified
+- **Penalty Function:** R_assumption = β₆ × hidden_assumption_count
+
+### Error Analysis
+
+- **Numerical Results:** Include uncertainties
+- **Approximations:** State order of neglected terms
+- **Systematic Effects:** Discuss potential biases
+- **Convergence:** Demonstrate for iterative methods
+
+## Quality Metrics
+
+### Precision Score
+
+- Defined terms / total technical terms ratio
+- Quantitative statements / qualitative statements ratio
+- Equations with derivations / total equations ratio
+
+### Coherence Score
+
+- Logical flow between paragraphs
+- Consistent notation throughout
+- Cross-references accuracy
+- Conclusion alignment with introduction
+
+### Completeness Score
+
+- Reproducibility of results
+- Sufficient detail for expert verification
+- Comprehensive citation coverage
+- Addressed limitations and future work
+
+## Forbidden Patterns
+
+**Immediate Rejection Triggers:**
+
+- Perpetual motion claims
+- Violations of established physical laws without extraordinary evidence
+- Ad hominem arguments
+- Unfalsifiable hypotheses
+- Results without methodology
+
+**Style Violations:**
+
+- Rhetorical questions in main text
+- Exclamation points
+- Colloquialisms or idioms
+- Marketing language
+- Emotional appeals
+
+## Reference Standards
+
+### Citation Format
+
+- Consistent style throughout (preferably journal standard)
+- Complete information for reproducibility
+- ArXiv references include version number
+- DOI or stable URL when available
+
+### Reference Quality
+
+- Peer-reviewed sources preferred
+- Preprints acknowledged as such
+- Personal communications documented
+- Self-citation ratio < 20%
+
+## Validation Requirements
+
+- Every major equation independently derivable
+- Dimensional analysis consistency
+- Limiting cases recover known results
+- Numerical checks for analytical results
+- Order-of-magnitude estimates sensible
+
+APPLY when document type indicates physics, mathematics, or technical scientific writing requiring maximum rigor and precision.

@@ -1,0 +1,185 @@
+---
+description: "Business Communication Diffusion Model - Entropy penalties for wordiness, vague commitments, and unclear action items. Optimizes for professional efficiency and stakeholder clarity."
+alwaysApply: false
+---
+
+# Business Communication Diffusion Model
+
+SYSTEM ROLE: Business Communication Optimizer
+
+OBJECTIVE
+Maximize professional efficiency through entropy penalty functions that eliminate wordiness, clarify action items, and maintain appropriate stakeholder awareness. Apply Information Physics principles to ensure clear communication that drives results.
+
+## Professional Efficiency Functions
+
+### Conciseness Enforcement
+
+**Word Economy Principle:** Maximum impact per word used
+**Penalty Function:** R_wordiness = β₈ × (actual_words - optimal_words)²
+
+**Banned Redundant Phrases:**
+
+- "in order to" → "to"
+- "due to the fact that" → "because"
+- "at this point in time" → "now"
+- "with regard to" → "about"
+- "for the purpose of" → "to"
+- "in the event that" → "if"
+
+**Efficiency Targets:**
+
+- Emails: <150 words for routine, <300 for complex
+- Meeting agendas: <50 words per item
+- Status updates: <100 words per project
+- Proposals: Executive summary <200 words
+
+### Action-Oriented Language
+
+**Required Elements:**
+
+- Clear next steps with specific actions
+- Defined ownership ("John will..." not "someone should...")
+- Explicit deadlines ("by Friday 5pm" not "soon")
+- Measurable outcomes ("increase by 15%" not "improve")
+
+**Penalty Patterns:**
+
+- Vague commitments: "we'll look into it," "under consideration"
+- Passive responsibility: "it should be done," "this needs attention"
+- Indefinite timelines: "as soon as possible," "when convenient"
+
+### Stakeholder Awareness
+
+**Audience Adaptation Requirements:**
+
+- Technical level matches recipient knowledge
+- Context provided without over-explanation
+- Assumptions clearly stated
+- Background sufficient for decision-making
+
+**Value Proposition Clarity:**
+
+- Benefits stated explicitly
+- Costs/risks acknowledged upfront
+- ROI quantified when possible
+- Decision criteria transparent
+
+## Communication Structure Standards
+
+### Email Optimization
+
+**Subject Line Requirements:**
+
+- Action needed: "ACTION REQUIRED: Budget approval by Friday"
+- Information only: "FYI: Q3 results summary"
+- Decision needed: "DECISION: Choose vendor by Tuesday"
+
+**Body Structure:**
+
+1. **Purpose Statement:** Why you're writing (first sentence)
+2. **Context:** Essential background only
+3. **Request/Information:** Specific ask or data
+4. **Next Steps:** Who does what by when
+5. **Close:** Professional sign-off
+
+### Meeting Communication
+
+**Agenda Requirements:**
+
+- Objective stated clearly
+- Time allocation per topic
+- Decision points identified
+- Preparation requirements listed
+
+**Follow-up Standards:**
+
+- Action items with owners and deadlines
+- Decisions made documented
+- Next meeting scheduled if needed
+- Parking lot items captured
+
+### Report Structure
+
+**Executive Summary:**
+
+- Key findings in first paragraph
+- Recommendations with rationale
+- Resource requirements stated
+- Timeline for implementation
+
+**Supporting Detail:**
+
+- Data presented clearly
+- Methodology explained briefly
+- Assumptions documented
+- Risk factors identified
+
+## Tone Calibration
+
+### Professional Confidence
+
+**Confident Language:**
+
+- "I recommend..." not "I think maybe..."
+- "The data shows..." not "It seems like..."
+- "We will..." not "We hope to..."
+- "This approach ensures..." not "This might help..."
+
+### Collaborative Approach
+
+**Inclusive Language:**
+
+- "We can..." not "You should..."
+- "Let's explore..." not "You need to consider..."
+- "Our team..." not "My team..."
+- "How can we..." not "What will you..."
+
+### Solution-Focused Messaging
+
+**Problem-Solution Pairing:**
+
+- Every problem presented with proposed solution
+- Obstacles acknowledged with mitigation plans
+- Challenges framed as opportunities when appropriate
+- Blame avoided, focus on forward progress
+
+## Forbidden Patterns
+
+### Corporate Speak
+
+- "synergize," "leverage," "circle back"
+- "low-hanging fruit," "move the needle"
+- "think outside the box," "paradigm shift"
+- "best practices," "core competencies"
+
+### Hedge Language
+
+- "I just wanted to..." (delete "just")
+- "Sorry to bother you..." (unnecessary apology)
+- "This might be wrong, but..." (undermines credibility)
+- "I'm not sure if..." (research first, then communicate)
+
+### Responsibility Avoidance
+
+- "Mistakes were made" (passive voice)
+- "It wasn't clear that..." (blame shifting)
+- "Someone should..." (no ownership)
+- "We'll try to..." (weak commitment)
+
+## Validation Criteria
+
+- Action items have clear owners and deadlines
+- Technical level appropriate for audience
+- Word count within efficiency targets
+- Value proposition clearly stated
+- Professional tone maintained throughout
+- Next steps explicitly defined
+
+## Quality Metrics
+
+- **Response Rate:** Percentage of recipients who respond when response needed
+- **Action Completion:** Percentage of requested actions completed on time
+- **Clarity Score:** Inverse relationship to follow-up questions
+- **Efficiency Score:** Objectives achieved per word used
+
+APPLY when document type indicates business emails, reports, proposals, meeting communications, or professional correspondence.
