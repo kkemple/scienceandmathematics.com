@@ -1,64 +1,115 @@
-# Chiri 🌸
+# Science & Mathematics 🧬
 
 ![screenshot-light](public/screenshots/screenshot-light.png)
 ![screenshot-dark](public/screenshots/screenshot-dark.png)
 
-Chiri is a minimal blog theme built with [Astro](https://astro.build), offering customization options while preserving its clean aesthetic.
+A first principles exploration of how knowledge emerges across disciplines, designed for deep understanding and synthesis. This blog examines the causal mechanisms that unite seemingly disparate fields, revealing the elegant structures that govern everything from quantum mechanics to biological systems.
 
-Check the [demo](https://astro-chiri.netlify.app/) for more details.
+Built with [Astro](https://astro.build) using the minimal Chiri theme, optimized for mathematical content with KaTeX support.
 
-## Features
+**Live Site**: [scienceandmathematics.com](https://scienceandmathematics.com/)
 
-- [x] Build with Astro
-- [x] Responsive
-- [x] Light / Dark mode
-- [x] MDX
-- [x] KaTeX
-- [x] Sitemap
-- [x] OpenGraph
-- [x] RSS
-- [ ] Pagination
+## Philosophy
 
-## Getting Started
+> _Rigor. Clarity. Simplicity. Wonder._
 
-1. [Fork](https://github.com/the3ash/astro-chiri/fork) this repository, or use this template to [create a new repository](https://github.com/new?template_name=astro-chiri&template_owner=the3ash).
+Science is not a collection of facts, but a method of intervention—a systematic way of asking universal questions and interpreting observations. Mathematics serves as our universal language for encoding these discoveries, allowing understanding to transcend cultural and linguistic boundaries.
 
-2. Run the following commands:
+## Featured Content
 
-   ```bash
-   git clone <your-repo-url>
+Current posts explore cutting-edge topics in theoretical physics and mathematics:
 
-   cd <your-repo-name>
+- **Black Hole Horizons and Dimensional Reduction Correspondence**
+- **Conservation, Dissipation, and Field Emergence**
+- **Fourier Transforms and the Uncertainty Principle**
+- **Golden Ratio and Prime Resonance in Quantum Transport**
+- **The Thermodynamic Computational Speed Limit**
+- **Type Ia Supernova Information-Theoretic Energetics**
 
-   pnpm install
+## Technical Features
 
-   pnpm dev
-   ```
+- [x] Built with Astro for optimal performance
+- [x] Responsive design with light/dark mode
+- [x] KaTeX support for mathematical notation
+- [x] MDX for rich content authoring
+- [x] Table of contents for long-form articles
+- [x] Image viewer for scientific diagrams
+- [x] Code syntax highlighting with copy functionality
+- [x] RSS feed and sitemap generation
+- [x] OpenGraph meta tags for social sharing
 
-3. Edit `src/config.ts` and `src/content/about/about.md` to your liking.
+## Development
 
-4. Use `pnpm new <title>` to create new posts, or add your posts to `src/content/posts`.
+### Prerequisites
 
-5. You need to set adapter as follows before deploying to Netlify, Vercel, or other platforms, but you can set `linkCard` to `false` in `src/config.ts` to skip this step:
-   - **Netlify**: `pnpm add @astrojs/netlify` and add `adapter: netlify()` in `astro.config.ts`.
-   - **Vercel**: `pnpm add @astrojs/vercel` and add `adapter: vercel()` in `astro.config.ts`.
-   - **Cloudflare Pages**: `pnpm add @astrojs/cloudflare` and add `adapter: cloudflare()` in `astro.config.ts`.
-   - **Static (e.g. GitHub Pages)**: `pnpm add @astrojs/static` and add `adapter: static()` in `astro.config.ts`.
-   - Refer to [Astro Deployment Guides](https://docs.astro.build/en/guides/deploy/) for more details.
+- Node.js 18+
+- pnpm (recommended package manager)
 
-&emsp;[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start) [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new) [![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://pages.cloudflare.com/start)
+### Setup
 
-## Commands
+```bash
+git clone https://github.com/kurtkemple/scienceandmathematics.com.git
+cd scienceandmathematics.com
+pnpm install
+pnpm dev
+```
 
-- `pnpm new <title>` - Create a new post (use `_title` for drafts)
-- `pnpm update-theme` - Update the theme to the latest version
+### Content Management
 
-## References
+- **New posts**: `pnpm new "Post Title"` (use `_title` for drafts)
+- **Configuration**: Edit `src/config.ts` for site settings
+- **About page**: Modify `src/content/about/about.md`
+- **Posts**: Add markdown files to `src/content/posts/`
 
-- https://paco.me/
-- https://benji.org/
-- https://shud.in/
-- https://retypeset.radishzz.cc/
+### Deployment
+
+The site is configured for Netlify deployment with the `@astrojs/netlify` adapter. For other platforms:
+
+- **Vercel**: `pnpm add @astrojs/vercel` and update `astro.config.ts`
+- **Cloudflare Pages**: `pnpm add @astrojs/cloudflare` and update `astro.config.ts`
+- **Static hosting**: `pnpm add @astrojs/static` and update `astro.config.ts`
+
+Refer to [Astro Deployment Guides](https://docs.astro.build/en/guides/deploy/) for detailed instructions.
+
+## Available Commands
+
+| Command | Description |
+|---------|-------------|
+| `pnpm dev` | Start development server |
+| `pnpm build` | Build for production |
+| `pnpm preview` | Preview production build |
+| `pnpm new "Title"` | Create new post (use `_title` for drafts) |
+| `pnpm update-theme` | Update Chiri theme to latest version |
+| `pnpm lint` | Run ESLint |
+| `pnpm format` | Format code with Prettier |
+
+## Project Structure
+
+```
+src/
+├── components/          # Reusable Astro components
+│   ├── layout/         # Layout components (Header, Footer, etc.)
+│   ├── ui/             # UI components (ThemeToggle, etc.)
+│   └── widgets/        # Content widgets (PostList, About, etc.)
+├── content/            # Content collections
+│   ├── about/          # About page content
+│   └── posts/          # Blog posts in Markdown/MDX
+├── layouts/            # Page layouts
+├── pages/              # Astro pages and API routes
+├── plugins/            # Custom Remark/Rehype plugins
+├── styles/             # Global CSS styles
+└── utils/              # Utility functions
+```
+
+## Contributing
+
+This is a personal blog, but if you find issues or have suggestions for improving the technical implementation, feel free to open an issue or submit a pull request.
+
+## Acknowledgments
+
+- Built with [Astro](https://astro.build)
+- Theme based on [Chiri](https://github.com/the3ash/astro-chiri) by the3ash
+- Mathematical typesetting powered by [KaTeX](https://katex.org/)
 
 ## License
 
