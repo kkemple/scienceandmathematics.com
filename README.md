@@ -1,8 +1,5 @@
 # Science & Mathematics 🧬
 
-![screenshot-light](public/screenshots/screenshot-light.png)
-![screenshot-dark](public/screenshots/screenshot-dark.png)
-
 A first principles exploration of how knowledge emerges across disciplines, designed for deep understanding and synthesis. This blog examines the causal mechanisms that unite seemingly disparate fields, revealing the elegant structures that govern everything from quantum mechanics to biological systems.
 
 Built with [Astro](https://astro.build) using the minimal Chiri theme, optimized for mathematical content with KaTeX support.
