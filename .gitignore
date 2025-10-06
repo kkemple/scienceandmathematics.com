@@ -3,6 +3,7 @@ dist/
 .output/
 .notes/
 .cursor/
+.github/
 
 # Generated types
 .astro/
