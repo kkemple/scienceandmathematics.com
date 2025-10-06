@@ -7,7 +7,7 @@ export const themeConfig: ThemeConfig = {
 		title: "Science & Mathematics", // Site title
 		author: "Kurtis Kemple", // Author name
 		description:
-			"Rigor. Clarity. Accessibility. Simplicity. These are the values that all good science and mathematics should strive for.", // Site description
+			"A first principles exploration of how knowledge emerges across disciplines, designed for deep understanding and synthesis. Examining the causal mechanisms that unite seemingly disparate fields, revealing elegant structures from quantum mechanics to biological systems.", // Site description
 		language: "en-US", // Default language
 	},
 
