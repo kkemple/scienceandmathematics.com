@@ -5,7 +5,7 @@ pubDate: '2025-06-06'
 
 Use these directives to embed media:
 
-```
+```markdown
 ::link{url="https://xxxxx.xxx"}
 
 ::spotify{url="https://open.spotify.com/type/xxxxx"}
@@ -21,7 +21,7 @@ Use these directives to embed media:
 ::neodb{url="https://neodb.social/category/xxxxx"}
 ```
 
-```
+```markdown
 🟡
 
 When embedded content is still loading,
@@ -32,7 +32,7 @@ the table of contents positioning may be inaccurate.
 
 ::link{url="https://pitchfork.com/reviews/albums/ichiko-aoba-luminescent-creatures/"}
 
-```
+```markdown
 🟡
 
 If you don’t need Link Card,
