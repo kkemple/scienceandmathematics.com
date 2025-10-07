@@ -95,7 +95,7 @@ $$
 \Delta\psi = \int_{r}^{r_s} \frac{dr'}{r' - r_s} = \ln\left(\frac{r - r_s}{l_P}\right).
 $$
 
-Quantum cutoff at Planck length $l_P$ yields maximum winding number $n_{max} = \frac{1}{2\pi}\ln\left(\frac{r_s}{l_P}\right) \approx 14$ for stellar-mass black holes. These quantized winding sectors provide topologically protected information channels—local perturbations cannot change winding number without global reorganization.
+Quantum cutoff at Planck length $l_P$ yields maximum winding number $n_{max} = \frac{1}{2\pi}\ln\left(\frac{r_s}{l_P}\right) \approx 14$ for stellar-mass black holes. These [quantized winding sectors](/lets-derive-an-information-theoretic-conservation-law) provide topologically protected information channels—local perturbations cannot change winding number without global reorganization.
 
 The topology demands dimensional reduction. The $S^3$ structure encodes 3D information on a 2D surface through winding phase relationships.
 
@@ -182,9 +182,9 @@ LISA observations of extreme mass ratio inspirals will probe near-horizon struct
 
 Multiple derivations reaching identical dimensional reduction through independent mathematical routes suggests this structure is not formalism-dependent but represents genuine physical reorganization at event horizons. The black hole horizon marks a dimensional phase transition—a boundary where spacetime topology fundamentally changes to accommodate extreme gravitational information processing demands.
 
-The dual-sector structure with $N_{max} = 2N_{BH}$ resolves the information paradox by providing sufficient processing capacity. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, allowing complete information throughput during evaporation. Not approximately. Exactly twice. That precision matters.
+The dual-sector structure with $N_{max} = 2N_{BH}$ resolves the information paradox by providing sufficient processing capacity. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, allowing [complete information throughput during evaporation](/lets-derive-an-information-theoretic-conservation-law). Not approximately. Exactly twice. That precision matters.
 
-This framework connects microscopic quantum information principles to macroscopic gravitational phenomena. The Planck scale sets all dimensional constants. The factor of two emerges from chiral structure. The winding number quantization follows from topology. The mathematics flows from demanding consistency between quantum mechanics, general relativity, and thermodynamics at horizons—just constraints doing what constraints do when you push them to extremes.
+This framework connects microscopic quantum information principles to macroscopic gravitational phenomena. The [Planck scale sets all dimensional constants](/computational-spacetime-and-the-rayleigh-jeans-resolution). The factor of two emerges from chiral structure. The winding number quantization follows from topology. The mathematics flows from demanding consistency between quantum mechanics, general relativity, and thermodynamics at horizons—just [constraints doing what constraints do](/information-field-theory-from-constraint-to-cosmos) when you push them to extremes.
 
 [^1]: Isi, M., Farr, W. M., Giesler, M., Scheel, M. A., & Teukolsky, S. A. (2021). Testing the No-Hair Theorem with GW150914. *Physical Review Letters*, 127(1), 011103.
 

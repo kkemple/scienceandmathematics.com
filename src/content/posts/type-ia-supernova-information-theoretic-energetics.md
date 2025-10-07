@@ -73,7 +73,7 @@ This represents the information reorganization during the transition from electr
 
 ## The Energy Calculation
 
-Landauer's principle establishes that erasing or reorganizing information costs energy $E = k_B T \ln 2$ per bit at temperature $T$ [^2]. For the phase transition occurring at shock temperature $T_s$, the total energy associated with information reorganization is,
+[Landauer's principle](/the-thermodynamic-computational-speed-limit) establishes that erasing or reorganizing information costs energy $E = k_B T \ln 2$ per bit at temperature $T$ [^2]. For the phase transition occurring at shock temperature $T_s$, the total energy associated with information reorganization is,
 
 $$
 E = \Delta N_b k_B T_s \ln 2.
@@ -141,7 +141,7 @@ The information perspective suggests that variation in Type Ia brightness reflec
 
 ## Implications
 
-The calculation demonstrates that thermodynamic cost of phase space reorganization yields explosion energy matching observations to within an order of magnitude. This correspondence suggests information-theoretic accounting may capture essential aspects of stellar collapse energetics.
+The calculation demonstrates that thermodynamic cost of phase space reorganization yields explosion energy matching observations to within an order of magnitude. This correspondence suggests [information-theoretic accounting](/information-field-theory-from-constraint-to-cosmos) may capture essential aspects of stellar collapse energetics.
 
 The framework makes no physical claims about mechanism—it simply counts accessible states before and after transition, multiplies by temperature, and obtains energy. That this matches observed supernova energies indicates phase space geometry constrains explosion energetics independent of detailed nuclear burning models.
 

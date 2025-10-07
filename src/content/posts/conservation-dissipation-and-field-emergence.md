@@ -177,7 +177,7 @@ $$
 \lambda = \frac{\hbar}{\sqrt{2mE_0}}.
 $$
 
-Phase transitions occur at critical overlap values [^9]. Bose-Einstein condensation emerges when $n \lambda_T^3 \approx 2.612$, with thermal de Broglie wavelength $\lambda_T = h/\sqrt{2\pi m k_B T}$. Fermi degeneracy appears at $n \lambda_F^3 \approx 1$. Gravitational collapse initiates when density reaches $n \approx 1/\lambda_g^3$ with $\lambda_g = \hbar/\sqrt{GMm^2/r}$.
+Phase transitions occur at critical overlap values [^9]. The [uncertainty principle constrains wavelength-position products](/fourier-transforms-and-the-uncertainty-principle) through Fourier conjugacy. Bose-Einstein condensation emerges when $n \lambda_T^3 \approx 2.612$, with thermal de Broglie wavelength $\lambda_T = h/\sqrt{2\pi m k_B T}$. Fermi degeneracy appears at $n \lambda_F^3 \approx 1$. Gravitational collapse initiates when density reaches $n \approx 1/\lambda_g^3$ with $\lambda_g = \hbar/\sqrt{GMm^2/r}$.
 
 Distinct perturbation mechanisms drive transitions through different pathways. Thermal fluctuations modify wavelength as $\lambda \propto T^{-1/2}$. Geometric compression alters density following $n \propto r^{-3}$. Interaction strength affects coherence length through $\lambda \propto \exp(1/g_{int})$ where $g_{int}$ quantifies coupling strength.
 
@@ -201,7 +201,7 @@ recovering the Boltzmann distribution.
 
 ## Application to Field Theories
 
-The framework reproduces established field equations with dissipation emerging from thermal coupling. Electromagnetic fields in conductors obey Maxwell's equations,
+The framework reproduces established field equations with dissipation emerging from thermal coupling. Electromagnetic fields in conductors obey [Maxwell's equations](/information-field-theory-from-constraint-to-cosmos),
 
 $$
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}, \quad \nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0\epsilon_0 \frac{\partial \mathbf{E}}{\partial t},
@@ -245,7 +245,7 @@ Black holes saturate the theoretical limit at $10^{43}$ bits/second per solar ma
 
 Field equations emerge from three information-theoretic constraints without assuming underlying physics. Conservation with symmetry generates the conservative dynamics—Maxwell from U(1), Klein-Gordon from Lorentz invariance, Euler from Galilean symmetry. The dissipation coefficient $\eta$ quantifies information loss to thermal reservoirs, ranging from $10^{-6}$ for elementary particles through $10^{-3}$ (atoms), $10^{-2}$ (molecules), $10^{-1}$ (biological systems) to unity for black holes. Quantum overlap $\Omega = n\lambda^d$ triggers phase transitions when crossing critical thresholds.
 
-The exponential hierarchy in $\eta$ reflects organizational complexity—each order of magnitude represents additional degrees of freedom requiring maintenance. Black holes saturate at $\eta = 1$, processing information at the Planck frequency limit $10^{43}$ Hz. All other systems operate below this bound, their processing rates determined by $\dot{I} = \sum_k \eta_k E_k/(\hbar \ln 2)$. Fields aren't fundamental entities but information channels whose dynamics follow from constraint optimization. Conservation ensures causality. Dissipation enforces the second law. Quantum overlap sets critical phenomena. Together they generate physics from pure information theory.
+The exponential hierarchy in $\eta$ reflects organizational complexity—each order of magnitude represents additional degrees of freedom requiring maintenance. Black holes saturate at $\eta = 1$, [processing information at the Planck frequency limit](/the-thermodynamic-computational-speed-limit) $10^{43}$ Hz. All other systems operate below this bound, their processing rates determined by $\dot{I} = \sum_k \eta_k E_k/(\hbar \ln 2)$. Fields aren't fundamental entities but information channels whose dynamics follow from constraint optimization. Conservation ensures causality. Dissipation enforces the second law. Quantum overlap sets critical phenomena. Together they generate physics from pure information theory.
 
 [^1]: Noether, E. (1918). Invariante Variationsprobleme. *Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse*, 1918, 235-257.
 

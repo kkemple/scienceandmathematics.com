@@ -41,7 +41,7 @@ $$
 
 In physically relevant dimensions, the coupling scales as $\lambda(2) = \phi^{-1} = 0.618$ (2D), $\lambda(3) = \phi^{-2} = 0.382$ (3D), and $\lambda(4) = \phi^{-4} = 0.146$ (4D).
 
-The golden ratio's continued fraction representation [1;1,1,1,...] establishes it as the most irrational number—maximally distant from any rational approximation through Hurwitz's theorem [^2]. Rational phase relationships $p/q$ generate resonances that localize quantum states. The golden ratio systematically avoids these resonances.
+The golden ratio's continued fraction representation [1;1,1,1,...] establishes it as the most irrational number—maximally distant from any rational approximation through Hurwitz's theorem [^2]. Rational phase relationships $p/q$ generate resonances that localize quantum states. The golden ratio systematically avoids these resonances, making it a [fundamental constant in information field theory](/information-field-theory-from-constraint-to-cosmos).
 
 The Harper-Hofstadter model (the "Ten Martini Problem") measures these effects. The Almost Mathieu operator,
 

@@ -7,7 +7,7 @@ Chess grandmaster Garry Kasparov burned 6,000 calories during his 1984 world cha
 
 ## The Physical Basis of Thought
 
-Landauer proved in 1961 that information erasure has a fundamental energy cost [^1],
+[Landauer proved in 1961](/the-thermodynamic-computational-speed-limit) that information erasure has a fundamental energy cost [^1],
 
 $$
 E_{min} = k_B T \ln 2,
@@ -112,7 +112,7 @@ Consciousness feels different because it is different—thermodynamically unique
 
 Every thought traces an unbroken thermodynamic chain from the Big Bang's entropy gradient through stellar nucleosynthesis to neural systems achieving self-reference. Twenty watts of organized matter performs recursive computation, transforming glucose and oxygen into the experience of being. This isn't metaphor—it's measurable energy flow creating awareness.
 
-The brain's $\eta = 0.1$ matches the sustainable limit across all biology, while its 5% metacognitive overhead mirrors black hole self-reference. These aren't coincidences but consequences of information processing at thermodynamic boundaries. Consciousness emerges where matter achieves sufficient complexity for self-modeling while remaining energetically viable—a narrow window in the vast parameter space of possible physics.
+The brain's $\eta = 0.1$ matches the sustainable limit across all biology, while its 5% metacognitive overhead mirrors [black hole self-reference](/black-hole-horizons-and-dimensional-reduction-correspondence). These aren't coincidences but consequences of [information processing at thermodynamic boundaries](/the-thermodynamic-computational-speed-limit). Consciousness emerges where matter achieves sufficient complexity for self-modeling while remaining energetically viable—a narrow window in the vast parameter space of possible physics.
 
 Consciousness is recursive thermodynamic computation achieving self-reference. The framework doesn't diminish experience but reveals its nature—not exception to physical law but its most sophisticated expression. We are matter organized to the very edge of what thermodynamics allows, consuming 20 watts to maintain the recursive loop that generates the feeling of "I". The hard problem dissolves into heat flow, entropy production, and the inexorable mathematics of self-referential systems operating at $\eta = 0.1$.
 

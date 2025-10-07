@@ -47,7 +47,7 @@ $$
 \dot{I}_{BH} = 4 \times 10^{43} \left(\frac{M}{M_{\odot}}\right) \text{ bits/s}.
 $$
 
-A solar-mass black hole processes $10^{43}$ bits/s. The Planck frequency is $f_P = \sqrt{c^5/(\hbar G)} \approx 1.855 \times 10^{43}$ Hz. Black holes process information at the Planck frequency—the shortest meaningful timescale in physics.
+A solar-mass black hole processes $10^{43}$ bits/s. The [Planck frequency](/computational-spacetime-and-the-rayleigh-jeans-resolution) is $f_P = \sqrt{c^5/(\hbar G)} \approx 1.855 \times 10^{43}$ Hz. Black holes process information at the Planck frequency—the shortest meaningful timescale in physics.
 
 This isn't coincidence. The Planck time $t_P = \sqrt{\hbar G/c^5}$ represents the fundamental tick of the universe's clock [^3]. Black holes achieve maximum computational density by processing one bit per Planck time per Planck area on their horizon [^2].
 
@@ -151,7 +151,7 @@ The hierarchy emerges from a single principle: systems process information at ra
 
 Black holes aren't just gravitational objects—they're nature's maximum-rate information processors. The Planck frequency isn't just a dimensional constant—it's the fundamental clock rate of reality. The speed of light isn't fundamental—it emerges from information processing constraints.
 
-This perspective inverts traditional physics. Instead of matter and energy as primary with information as description, information processing is primary with matter and energy as manifestations. Gravity isn't geometry—it's the computational cost of maintaining patterns against entropy.
+This perspective inverts traditional physics. Instead of matter and energy as primary with information as description, [information processing is primary](/information-field-theory-from-constraint-to-cosmos) with matter and energy as manifestations. Gravity isn't geometry—it's the computational cost of maintaining patterns against entropy.
 
 The universe computes its own evolution at the maximum rate physics allows. Black holes achieve this maximum. Everything else processes slower, limited by how far it sits from the computational horizon. The constraint reveals the structure: reality is information processing at the Planck scale, and everything else—matter, energy, spacetime—emerges from this computational substrate.
 
