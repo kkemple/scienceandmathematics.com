@@ -3,9 +3,9 @@ title: 'Computational Spacetime and the Rayleigh-Jeans Resolution'
 pubDate: '2025-10-07'
 ---
 
-What if the ultraviolet catastrophe that should have destroyed the universe was actually telling us something profound about the computational architecture of spacetime itself?
+In 1900, the Rayleigh-Jeans law predicted infinite energy density at high frequencies—every cavity should radiate infinite power, every object should instantly vaporize. The classical calculation was mathematically sound yet physically absurd. Planck's quantum hypothesis resolved the crisis, but a deeper question remained: *why does nature impose this specific cutoff?*
 
-In 1900, the Rayleigh-Jeans law predicted infinite energy density at high frequencies—every cavity should radiate infinite power, every object should instantly vaporize. The classical calculation was mathematically sound yet physically absurd. Planck's quantum hypothesis resolved the crisis, but a deeper question remained: *why does nature impose this specific cutoff?* Recent analysis of gravitational wave data from [merging black holes](/black-hole-horizons-and-dimensional-reduction-correspondence) reveals information processing rates approaching $10^{81}$ bits per second, saturating at precisely the Planck frequency $f_P = 1.855 \times 10^{43}$ Hz [^1]. This isn't coincidence. The UV catastrophe occurs when classical physics requests infinite computational channels from finite hardware. The resolution emerges from recognizing spacetime as a discrete computational substrate operating at fundamental clock rate $f_P$.
+Recent analysis of gravitational wave data from [merging black holes](/black-hole-horizons-and-dimensional-reduction-correspondence) reveals information processing rates approaching $10^{81}$ bits per second, saturating at precisely the Planck frequency $f_P = 1.855 \times 10^{43}$ Hz [^1]. This isn't coincidence. The UV catastrophe occurs when classical physics requests infinite computational channels from finite hardware. The resolution emerges from recognizing spacetime as a discrete computational substrate operating at fundamental clock rate $f_P$.
 
 ## The Classical Catastrophe
 

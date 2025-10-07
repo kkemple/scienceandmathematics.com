@@ -3,7 +3,7 @@ title: 'Type Ia Supernova Information-Theoretic Energetics'
 pubDate: '2025-09-29'
 ---
 
-What if you could predict a stellar explosion's energy by counting bits of information that reorganize during this catastrophic phase transition? Type Ia supernovae release approximately $10^{44}$ J with consistency that makes them cosmological standard candles. Standard astrophysical models invoke carbon detonation cascades through white dwarf cores. An alternative mathematical framework counts phase space reorganization from electron to neutron degeneracy—thermodynamics and geometry.
+Did you know you can predict a stellar explosion's energy by counting bits of information that reorganize during this catastrophic phase transition? Type Ia supernovae release approximately $10^{44}$ J with consistency that makes them cosmological standard candles. Standard astrophysical models invoke carbon detonation cascades through white dwarf cores. An alternative mathematical framework counts phase space reorganization from electron to neutron degeneracy—thermodynamics and geometry.
 
 ## The Chandrasekhar Boundary
 
