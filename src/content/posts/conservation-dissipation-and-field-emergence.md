@@ -1,6 +1,6 @@
 ---
 title: 'Conservation, Dissipation, and Field Emergence'
-pubDate: '2025-10-08'
+pubDate: '2025-10-06'
 ---
 
 Conservation plus symmetry equals field equations. Start with a single constraint—a conserved current $n^\mu$ with vanishing divergence—and impose symmetry requirements. U(1) gauge symmetry generates Maxwell's equations. Lorentz invariance yields Klein-Gordon. Galilean symmetry produces Euler's fluid equations. No assumptions about underlying physics, just mathematical consistency. Add dissipation through thermal coupling with coefficient $\eta$ ranging from $10^{-6}$ for elementary particles to unity for black holes. The complete framework—conservation, dissipation, and quantum overlap—reproduces field dynamics from electromagnetism to gravitation through pure constraint satisfaction.
@@ -73,7 +73,7 @@ $$
 \Box \phi + \frac{dV}{d\phi} = 0,
 $$
 
-where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu = \partial_\mu \partial^\mu$ is the d'Alembertian (wave operator). The quadratic potential $V(\phi) = m^2\phi^2/2$ yields,
+where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian (wave operator). In flat spacetime, $\Box = \partial_\mu \partial^\mu$. The quadratic potential $V(\phi) = m^2\phi^2/2$ yields,
 
 $$
 (\Box + m^2)\phi = 0.

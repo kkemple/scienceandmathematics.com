@@ -16,7 +16,7 @@ $$
 For a mass $M$ with rest energy $Mc^2$ at the Hawking temperature $T_H = \hbar c^3/(8\pi GMk_B)$, this becomes,
 
 $$
-N_{max} = \frac{Mc^2}{k_B T_H \ln 2} = \frac{8\pi GM^2}{\hbar \ln 2}.
+N_{max} = \frac{Mc^2}{k_B T_H \ln 2} = \frac{8\pi GM^2}{\hbar c \ln 2}.
 $$
 
 These operations cannot happen instantaneously. The minimum time for information to cross a system of radius $R$ is the light-crossing time,
@@ -28,7 +28,7 @@ $$
 The maximum information processing rate follows as,
 
 $$
-\dot{I}_{max} = \frac{N_{max}}{t_{min}} = \frac{8\pi GM^2}{R\hbar \ln 2}.
+\dot{I}_{max} = \frac{N_{max}}{t_{min}} = \frac{8\pi GM^2c}{R\hbar \ln 2}.
 $$
 
 This rate depends on both mass and radius. Compressing mass into smaller volume increases the processing rate. The limit occurs when $R = R_S = 2GM/c^2$—the Schwarzschild radius.
@@ -38,7 +38,7 @@ This rate depends on both mass and radius. Compressing mass into smaller volume 
 For a black hole with $R = R_S$, the processing rate becomes,
 
 $$
-\dot{I}_{BH} = \frac{8\pi GM^2}{R_S \hbar \ln 2} = \frac{8\pi GM^2c^2}{2GM\hbar \ln 2} = \frac{4Mc^2}{\hbar \ln 2}.
+\dot{I}_{BH} = \frac{8\pi GM^2c}{R_S \hbar \ln 2} = \frac{8\pi GM^2c^3}{2GM\hbar \ln 2} = \frac{4\pi GMc^3}{\hbar \ln 2}.
 $$
 
 Numerically, this evaluates to,
@@ -84,7 +84,7 @@ Systems closer to their Schwarzschild radius require more energy for pattern mai
 Remarkably, the information processing rate scales identically,
 
 $$
-\dot{I}_{max} = \frac{4Mc^2}{\hbar \ln 2} \frac{R_S}{R}.
+\dot{I}_{max} = \frac{4\pi GMc^3}{\hbar \ln 2} \frac{R_S}{R}.
 $$
 
 Pattern maintenance energy and information processing rate are proportional. Systems process information at rates determined by their gravitational compression—how close they sit to black hole density.
