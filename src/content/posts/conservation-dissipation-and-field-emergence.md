@@ -45,7 +45,7 @@ $$
 \mathcal{L} = -\frac{1}{4}F_{\mu\nu}F^{\mu\nu},
 $$
 
-where $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$ is the field tensor. Varying the action gives Maxwell's equations,
+where $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$ is the field tensor. Varying the action gives Maxwell's equations [^13],
 
 $$
 \partial_\mu F^{\mu\nu} = 0, \quad \partial_{[\mu}F_{\nu\rho]} = 0.
@@ -137,7 +137,7 @@ where $\Gamma_k$ quantifies thermal relaxation rate and $E_0$ sets the character
 
 ## Microscopic Origin of Dissipation
 
-Quantum mechanics determines $\eta$ through system-environment coupling strength. Fermi's golden rule yields the transition rate [^8],
+Quantum mechanics determines $\eta$ through system-environment coupling strength. Fermi's golden rule yields the transition rate [^14],
 
 $$
 \Gamma = \frac{2\pi}{\hbar}|g|^2 \rho(E),
@@ -159,7 +159,7 @@ $$
 
 where $\alpha = e^2/(4\pi\epsilon_0\hbar c) = 1/137$ is the fine structure constant.
 
-Complex systems exhibit enhanced dissipation through geometric factors [^6]. Atoms achieve $\eta_a = \eta_0 \times \sqrt{a_0/r_n} \times \sqrt{Z} \approx 10^{-3}$ through nuclear-electron coupling. Molecules reach $\eta_m \approx 10^{-2}$ via additional vibrational and rotational modes. Biological systems attain $\eta_b \approx 10^{-1}$ through hierarchical organization across multiple scales. Black holes saturate the bound at $\eta = 1$, with all available energy maintaining horizon structure against Hawking radiation.
+Complex systems exhibit enhanced dissipation through geometric factors [^6]. Atoms achieve $\eta_a = \eta_0 \times \sqrt{a_0/r_n} \times \sqrt{Z} \approx 10^{-3}$ through nuclear-electron coupling [^15]. Molecules reach $\eta_m \approx 10^{-2}$ via additional vibrational and rotational modes. Biological systems attain $\eta_b \approx 10^{-1}$ through hierarchical organization across multiple scales. Black holes saturate the bound at $\eta = 1$, with all available energy maintaining horizon structure against Hawking radiation.
 
 ## The Quantum Overlap Criterion
 
@@ -261,8 +261,6 @@ The exponential hierarchy in $\eta$ reflects organizational complexity—each or
 
 [^7]: Kubo, R. (1957). Statistical-Mechanical Theory of Irreversible Processes. *Journal of the Physical Society of Japan*, 12(6), 570-586.
 
-[^8]: Dirac, P. A. M. (1927). The Quantum Theory of the Emission and Absorption of Radiation. *Proceedings of the Royal Society A*, 114(767), 243-265.
-
 [^9]: Pitaevskii, L., & Stringari, S. (2003). *Bose-Einstein Condensation*. Oxford University Press.
 
 [^10]: Weinberg, S. (1972). *Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity*. John Wiley & Sons.
@@ -270,3 +268,9 @@ The exponential hierarchy in $\eta$ reflects organizational complexity—each or
 [^11]: Shannon, C. E. (1948). A Mathematical Theory of Communication. *Bell System Technical Journal*, 27(3), 379-423.
 
 [^12]: Lloyd, S. (2000). Ultimate physical limits to computation. *Nature*, 406(6799), 1047-1054.
+
+[^13]: Jackson, J. D. (1999). *Classical Electrodynamics* (3rd ed.). Wiley.
+
+[^14]: Sakurai, J. J., & Napolitano, J. (2017). *Modern Quantum Mechanics* (2nd ed.). Cambridge University Press.
+
+[^15]: Ashcroft, N. W., & Mermin, N. D. (1976). *Solid State Physics*. Holt, Rinehart and Winston.

@@ -105,7 +105,7 @@ This factor of 2 from chirality matches the Landauer-Bekenstein-Hawking factor $
 
 ## Photon Statistics from Voxel Dynamics
 
-Bose-Einstein statistics emerge naturally from voxel occupation. Consider electromagnetic mode with frequency $\nu$ containing $n$ photons. The voxel lattice encodes this as collective excitation amplitude across multiple voxels.
+Bose-Einstein statistics [^7] emerge naturally from voxel occupation. Consider electromagnetic mode with frequency $\nu$ containing $n$ photons. The voxel lattice encodes this as collective excitation amplitude across multiple voxels.
 
 The key insight: identical bosons in the same mode share computational representation. Adding photon $n+1$ requires no additional information beyond incrementing occupation number. This allows unlimited bosonic occupation without violating information bounds.
 
@@ -129,7 +129,7 @@ Second, the holographic principle restricts total information capacity. Instead 
 
 Third, voxel dynamics naturally generates quantum statistics. High-frequency modes demand more computational resources per photon, leading to occupation numbers that follow $\langle n \rangle = 1/(e^{h\nu/k_B T} - 1)$. The exponential suppression isn't imposed—it emerges from resource allocation in the underlying lattice.
 
-These three constraints converge on Planck's law,
+These three constraints converge on Planck's law [^8],
 
 $$
 u(\nu, T) = \frac{8\pi \nu^2}{c^3} \times \frac{h\nu}{e^{h\nu/k_B T} - 1}.
@@ -143,13 +143,13 @@ The UV catastrophe never happens. What appeared as a fundamental failure of clas
 
 The voxel lattice framework makes specific testable predictions beyond standard quantum field theory:
 
-**Lorentz violation at Planck scale**: Photon dispersion relations should deviate from $E = pc$ near $f_P$. The effect scales as,
+**Lorentz violation at Planck scale** [^6]: Photon dispersion relations should deviate from $E = pc$ near $f_P$. The effect scales as,
 
 $$
 v_g = c\left(1 - \alpha\left(\frac{E}{E_P}\right)^2\right),
 $$
 
-where $\alpha \sim 1$ and $E_P = \hbar f_P$. Gamma-ray bursts at cosmological distances could accumulate measurable arrival time differences between high and low energy photons [^6].
+where $\alpha \sim 1$ and $E_P = \hbar f_P$. Gamma-ray bursts at cosmological distances could accumulate measurable arrival time differences between high and low energy photons.
 
 **Discrete spectrum at extreme energies**: The voxel lattice predicts discrete frequency levels spaced by $\Delta \nu = f_P/N_{voxel}$ where $N_{voxel}$ is the number of voxels in the cavity. For Planck-scale cavities, the spectrum becomes visibly discrete rather than continuous.
 
@@ -182,3 +182,7 @@ This framework connects disparate phenomena. Black hole entropy counts voxels on
 [^5]: Hawking, S. W., Perry, M. J., & Strominger, A. (2016). Soft Hair on Black Holes. *Physical Review Letters*, 116(23), 231301.
 
 [^6]: Amelino-Camelia, G. (2013). Quantum-Spacetime Phenomenology. *Living Reviews in Relativity*, 16(1), 5.
+
+[^7]: Bose, S. N. (1924). Plancks Gesetz und Lichtquantenhypothese. *Zeitschrift für Physik*, 26(1), 178-181.
+
+[^8]: Planck, M. (1900). Zur Theorie des Gesetzes der Energieverteilung im Normalspectrum. *Verhandlungen der Deutschen Physikalischen Gesellschaft*, 2, 237-245.

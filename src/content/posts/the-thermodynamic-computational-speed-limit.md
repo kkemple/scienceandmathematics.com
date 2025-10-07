@@ -13,7 +13,7 @@ $$
 N_{max} = \frac{E}{k_B T \ln 2}.
 $$
 
-For a mass $M$ with rest energy $Mc^2$ at the Hawking temperature $T_H = \hbar c^3/(8\pi GMk_B)$, this becomes,
+For a mass $M$ with rest energy $Mc^2$ at the Hawking temperature $T_H = \hbar c^3/(8\pi GMk_B)$ [^6], this becomes,
 
 $$
 N_{max} = \frac{Mc^2}{k_B T_H \ln 2} = \frac{8\pi GM^2}{\hbar c \ln 2}.
@@ -47,7 +47,7 @@ $$
 \dot{I}_{BH} = 4 \times 10^{43} \left(\frac{M}{M_{\odot}}\right) \text{ bits/s}.
 $$
 
-A solar-mass black hole processes $10^{43}$ bits/s. The [Planck frequency](/computational-spacetime-and-the-rayleigh-jeans-resolution) is $f_P = \sqrt{c^5/(\hbar G)} \approx 1.855 \times 10^{43}$ Hz. Black holes process information at the Planck frequency—the shortest meaningful timescale in physics.
+A solar-mass black hole processes $10^{43}$ bits/s. The [Planck frequency](/computational-spacetime-and-the-rayleigh-jeans-resolution) is $f_P = \sqrt{c^5/(\hbar G)} \approx 1.855 \times 10^{43}$ Hz [^7]. Black holes process information at the Planck frequency—the shortest meaningful timescale in physics.
 
 This isn't coincidence. The Planck time $t_P = \sqrt{\hbar G/c^5}$ represents the fundamental tick of the universe's clock [^3]. Black holes achieve maximum computational density by processing one bit per Planck time per Planck area on their horizon [^2].
 
@@ -164,3 +164,7 @@ The universe computes its own evolution at the maximum rate physics allows. Blac
 [^4]: 't Hooft, G. (1993). Dimensional Reduction in Quantum Gravity. arXiv:gr-qc/9310026.
 
 [^5]: Lloyd, S. (2000). Ultimate physical limits to computation. *Nature*, 406(6799), 1047-1054.
+
+[^6]: Hawking, S. W. (1975). Particle Creation by Black Holes. *Communications in Mathematical Physics*, 43(3), 199-220.
+
+[^7]: Mohr, P. J., Newell, D. B., & Taylor, B. N. (2016). CODATA recommended values of the fundamental physical constants: 2014. *Reviews of Modern Physics*, 88(3), 035009. arXiv\:1507.07956.

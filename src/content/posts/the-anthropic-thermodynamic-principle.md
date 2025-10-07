@@ -3,7 +3,7 @@ title: 'The Anthropic Thermodynamic Principle'
 pubDate: '2025-09-17'
 ---
 
-Chess grandmaster Garry Kasparov burned 6,000 calories during his 1984 world championship match—twice an adult's daily intake—without leaving his chair. His heart rate spiked to 160 beats per minute while his body temperature rose 2-3°F during critical positions. By the end of 48 games, he'd lost 22 pounds. This wasn't stress. This was the thermodynamic cost of thought made visible. Every thought obeys Landauer's principle—information processing requires energy, produces heat, and increases universal entropy. Your brain reading these words consumes 20 watts continuously—not metaphorically, but measurably through glucose metabolism and thermal emission. Consciousness isn't separate from physics. It emerges from thermodynamic computation achieving recursive self-reference.
+Chess grandmaster Garry Kasparov burned 6,000 calories during his 1984 world championship match—twice an adult's daily intake—without leaving his chair. His heart rate spiked to 160 beats per minute while his body temperature rose 2-3°F during critical positions. By the end of 48 games, he'd lost 22 pounds [^6]. This wasn't stress. This was the thermodynamic cost of thought made visible. Every thought obeys Landauer's principle—information processing requires energy, produces heat, and increases universal entropy. Your brain reading these words consumes 20 watts continuously—not metaphorically, but measurably through glucose metabolism and thermal emission. Consciousness isn't separate from physics. It emerges from thermodynamic computation achieving recursive self-reference.
 
 ## The Physical Basis of Thought
 
@@ -15,7 +15,7 @@ $$
 
 where $k_B = 1.38 \times 10^{-23}$ J/K is Boltzmann's constant and $T$ is temperature. At body temperature (310 K), each bit operation requires minimum $2.97 \times 10^{-21}$ joules. No engineering improvement can reduce this—it's a thermodynamic law like conservation of energy.
 
-The human brain's 20-watt power consumption sets its theoretical information processing limit,
+The human brain's 20-watt power consumption [^5] sets its theoretical information processing limit,
 
 $$
 \Gamma_{max} = \frac{P_{brain}}{k_B T \ln 2} = \frac{20}{1.38 \times 10^{-23} \times 310 \times 0.693} = 6.74 \times 10^{21} \text{ bits/s}.
@@ -123,3 +123,7 @@ Consciousness is recursive thermodynamic computation achieving self-reference. T
 [^3]: Hawking, S. W., Perry, M. J., & Strominger, A. (2016). Soft Hair on Black Holes. *Physical Review Letters*, 116(23), 231301.
 
 [^4]: Siegel, J. M. (2009). Sleep viewed as a state of adaptive inactivity. *Nature Reviews Neuroscience*, 10(10), 747-753.
+
+[^5]: Raichle, M. E., & Gusnard, D. A. (2002). Appraising the brain's energy budget. *Proceedings of the National Academy of Sciences*, 99(16), 10237-10239.
+
+[^6]: Troubat, N., Fargeas-Gluck, M.-A., Tulppo, M., & Dugué, B. (2009). The stress of chess players as a model to study the effects of psychological stimuli on physiological responses: An example of substrate oxidation and heart rate variability in man. *European Journal of Applied Physiology*, 105(3), 343-349.

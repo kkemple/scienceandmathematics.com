@@ -9,7 +9,7 @@ In February 2025, LIGO-Virgo detected gravitational waves from merging black hol
 
 ## The Geometric Path
 
-The Schwarzschild metric describes spacetime curvature around a non-rotating black hole of mass $M$ with Schwarzschild radius $r_s = 2GM/c^2$. Near the horizon, the metric components reveal strong anisotropy between radial and tangential directions.
+The Schwarzschild metric describes spacetime curvature around a non-rotating black hole of mass $M$ with Schwarzschild radius $r_s = 2GM/c^2$ [^4]. Near the horizon, the metric components reveal strong anisotropy between radial and tangential directions.
 
 The proper distance between adjacent points separated by coordinate distance $dr$ becomes,
 
@@ -39,7 +39,7 @@ $$
 T_H = \frac{\hbar c^3}{8\pi G M k_B}.
 $$
 
-Landauer's principle establishes the maximum number of irreversible bit operations sustainable by energy $E$ at temperature $T$ as $N_{max} = E/(k_B T \ln 2)$ [^4]. For a black hole with rest energy $Mc^2$,
+Landauer's principle establishes the maximum number of irreversible bit operations sustainable by energy $E$ at temperature $T$ as $N_{max} = E/(k_B T \ln 2)$ [^5]. For a black hole with rest energy $Mc^2$,
 
 $$
 N_{max} = \frac{Mc^2}{k_B T_H \ln 2} = \frac{8\pi G M^2}{\hbar c \ln 2}.
@@ -57,7 +57,7 @@ $$
 N_{max} = 2 N_{BH}.
 $$
 
-This exact factor of two—the Landauer-Bekenstein-Hawking constant—requires explanation. The horizon processes information at twice the rate expected from naive entropy counting. The resolution emerges from recognizing that two-dimensional surfaces support independent left-moving and right-moving excitations [^5][^6]. Chiral separation on the 2D horizon allows simultaneous processing through dual channels,
+This exact factor of two—the Landauer-Bekenstein-Hawking constant—requires explanation. The horizon processes information at twice the rate expected from naive entropy counting. The resolution emerges from recognizing that two-dimensional surfaces support independent left-moving and right-moving excitations [^6][^7]. Chiral separation on the 2D horizon allows simultaneous processing through dual channels,
 
 $$
 \dot{I} = \dot{I}_L + \dot{I}_R = 2\dot{I}_{1D}.
@@ -81,7 +81,7 @@ $$
 
 This finite site count indicates the radial dimension has compactified. Points that appear infinitely separated in proper distance correspond to finite phase separation in the compactified coordinate.
 
-The compactified radial dimension forms a circle $S^1$ with each point on the 2D horizon sphere $S^2$ having an attached circle. This structure is the Hopf fibration, yielding total topology $S^3$. Parameterize using two complex numbers with $|z_1|^2 + |z_2|^2 = 1$,
+The compactified radial dimension forms a circle $S^1$ with each point on the 2D horizon sphere $S^2$ having an attached circle. This structure is the Hopf fibration [^8], yielding total topology $S^3$. Parameterize using two complex numbers with $|z_1|^2 + |z_2|^2 = 1$,
 
 $$
 z_1 = \cos(\xi/2) e^{i(\psi + \phi)/2}, \quad z_2 = \sin(\xi/2) e^{i(\psi - \phi)/2}.
@@ -101,7 +101,7 @@ The topology demands dimensional reduction. The $S^3$ structure encodes 3D infor
 
 ## The Information Processing Path
 
-Processing rate constraints reveal dimensional structure through computational capacity bounds. Black holes saturate the Planck frequency limit $f_P = \sqrt{c^5/(\hbar G)} = 1.855 \times 10^{43}$ Hz, representing the fastest possible information processing.
+Processing rate constraints reveal dimensional structure through computational capacity bounds. Black holes saturate the Planck frequency limit $f_P = \sqrt{c^5/(\hbar G)} = 1.855 \times 10^{43}$ Hz [^9], representing the fastest possible information processing.
 
 For a 10 $M_{\odot}$ black hole, the total processing rate is,
 
@@ -119,7 +119,7 @@ Dimensional reduction to 2D eliminates this bottleneck. Surface processing with 
 
 ## The Entropic Gravity Path
 
-Bianconi's framework interprets the spacetime metric as a quantum density matrix encoding information about matter fields [^7]. The metric $g_{\mu\nu}$ becomes an effective description of how information propagates through regions with varying matter content.
+Bianconi's framework interprets the spacetime metric as a quantum density matrix encoding information about matter fields [^10]. The metric $g_{\mu\nu}$ becomes an effective description of how information propagates through regions with varying matter content.
 
 Matter fields induce metric perturbations through the G-field,
 
@@ -147,16 +147,16 @@ The entropic formalism shows dimensional reduction as informational necessity. M
 
 ## All Roads Lead to the Same Horizon
 
-Here's what makes this convergence compelling. Five independent frameworks—differential geometry, thermodynamics, topology, information theory, and entropic gravity—each built from different axioms, each following different mathematical machinery. Yet they converge on identical structure at black hole horizons [^8] [^9]. Dimensional reduction from 3D to 2D. Dual chiral sectors. $S^3$ topology. Same answers, different routes.
+Here's what makes this convergence compelling. Five independent frameworks—differential geometry, thermodynamics, topology, information theory, and entropic gravity—each built from different axioms, each following different mathematical machinery. Yet they converge on identical structure at black hole horizons [^11] [^12]. Dimensional reduction from 3D to 2D. Dual chiral sectors. $S^3$ topology. Same answers, different routes.
 
 The universal structure:
 
-- 2D surface with conformal symmetry (Virasoro algebra)
+- 2D surface with conformal symmetry (Virasoro algebra) [^13]
 - Dual chiral sectors with central charges $c_L = c_R$
 - $S^3$ topology from radial compactification to $S^1$
 - Quantized winding numbers: $n = 0, 1, \ldots, n_{max}$
 - Processing capacity $N_{max} = 2N_{BH}$ from dual sectors
-- Central charge $c = 24r_s^2/l_P^2$ from horizon area
+- Central charge $c = 24r_s^2/l_P^2$ from horizon area [^17]
 
 The convergence transcends formalism. Geometric arguments from metric singularities, thermodynamic requirements from Landauer-Bekenstein equality, topological constraints from compactification, information-theoretic processing bounds, and entropic action principles all generate the same 2D+$S^1$ structure through entirely different mathematical machinery.
 
@@ -174,15 +174,15 @@ $$
 
 Statistical analysis of stacked O5 observations could detect these correlations through departures from random phase distributions. The $n_{max} \approx 14$ discrete sectors should manifest as spectral features separated by characteristic phase intervals $\Delta\psi = 2\pi/n_{max}$.
 
-For primordial black holes with $M < 10^{15}$ g, Hawking temperature exceeds 100 GeV, enabling direct particle emission. The winding structure scales with mass: $n_{max} = \frac{1}{2\pi}\ln\left(\frac{r_s}{l_P}\right)$. Smaller black holes have fewer topological sectors, potentially creating detectable gaps in emission spectra at angles $\psi = 2\pi n$.
+For primordial black holes [^14] with $M < 10^{15}$ g, Hawking temperature exceeds 100 GeV, enabling direct particle emission. The winding structure scales with mass: $n_{max} = \frac{1}{2\pi}\ln\left(\frac{r_s}{l_P}\right)$. Smaller black holes have fewer topological sectors, potentially creating detectable gaps in emission spectra at angles $\psi = 2\pi n$.
 
-LISA observations of extreme mass ratio inspirals will probe near-horizon structure through gravitational self-force effects. Winding transitions could appear as phase jumps in the waveform with characteristic frequency shifts $\Delta f/f \sim 1/n_{max} \sim 0.07$ for solar-mass objects.
+LISA observations [^15] of extreme mass ratio inspirals will probe near-horizon structure through gravitational self-force effects. Winding transitions could appear as phase jumps in the waveform with characteristic frequency shifts $\Delta f/f \sim 1/n_{max} \sim 0.07$ for solar-mass objects.
 
 ## Implications
 
 Multiple derivations reaching identical dimensional reduction through independent mathematical routes suggests this structure is not formalism-dependent but represents genuine physical reorganization at event horizons. The black hole horizon marks a dimensional phase transition—a boundary where spacetime topology fundamentally changes to accommodate extreme gravitational information processing demands.
 
-The dual-sector structure with $N_{max} = 2N_{BH}$ resolves the information paradox by providing sufficient processing capacity. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, allowing [complete information throughput during evaporation](/lets-derive-an-information-theoretic-conservation-law). Not approximately. Exactly twice. That precision matters.
+The dual-sector structure with $N_{max} = 2N_{BH}$ resolves the information paradox [^16] by providing sufficient processing capacity. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, allowing [complete information throughput during evaporation](/lets-derive-an-information-theoretic-conservation-law). Not approximately. Exactly twice. That precision matters.
 
 This framework connects microscopic quantum information principles to macroscopic gravitational phenomena. The [Planck scale sets all dimensional constants](/computational-spacetime-and-the-rayleigh-jeans-resolution). The factor of two emerges from chiral structure. The winding number quantization follows from topology. The mathematics flows from demanding consistency between quantum mechanics, general relativity, and thermodynamics at horizons—just [constraints doing what constraints do](/information-field-theory-from-constraint-to-cosmos) when you push them to extremes.
 
@@ -192,14 +192,30 @@ This framework connects microscopic quantum information principles to macroscopi
 
 [^3]: Hawking, S. W. (1975). Particle Creation by Black Holes. *Communications in Mathematical Physics*, 43(3), 199-220.
 
-[^4]: Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183-191.
+[^4]: Schwarzschild, K. (1916). Über das Gravitationsfeld eines Massenpunktes nach der Einsteinschen Theorie. *Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften zu Berlin*, 189-196.
 
-[^5]: Hawking, S. W., Perry, M. J., & Strominger, A. (2016). Soft Hair on Black Holes. *Physical Review Letters*, 116(23), 231301. arXiv\:1601.00921.
+[^5]: Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183-191.
 
-[^6]: Hawking, S. W., Perry, M. J., & Strominger, A. (2018). Superrotation Charge and Supertranslation Hair on Black Holes. arXiv\:1810.01847.
+[^6]: Hawking, S. W., Perry, M. J., & Strominger, A. (2016). Soft Hair on Black Holes. *Physical Review Letters*, 116(23), 231301. arXiv\:1601.00921.
 
-[^7]: Bianconi, G. (2024). Gravity from Entropy. *Physical Review D*, 111(6), 066001. arXiv\:2408.14391.
+[^7]: Hawking, S. W., Perry, M. J., & Strominger, A. (2018). Superrotation Charge and Supertranslation Hair on Black Holes. arXiv\:1810.01847.
 
-[^8]: Strominger, A., & Vafa, C. (1996). Microscopic Origin of the Bekenstein-Hawking Entropy. *Physics Letters B*, 379(1-4), 99-104.
+[^8]: Hopf, H. (1931). Über die Abbildungen der dreidimensionalen Sphäre auf die Kugelfläche. *Mathematische Annalen*, 104(1), 637-665.
 
-[^9]: Carlip, S. (2005). Conformal Field Theory, (2+1)-Dimensional Gravity, and the BTZ Black Hole. *Classical and Quantum Gravity*, 22(12), R85-R124.
+[^9]: Mohr, P. J., Newell, D. B., & Taylor, B. N. (2016). CODATA recommended values of the fundamental physical constants: 2014. *Reviews of Modern Physics*, 88(3), 035009. arXiv\:1507.07956.
+
+[^10]: Bianconi, G. (2024). Gravity from Entropy. *Physical Review D*, 111(6), 066001. arXiv\:2408.14391.
+
+[^11]: Strominger, A., & Vafa, C. (1996). Microscopic Origin of the Bekenstein-Hawking Entropy. *Physics Letters B*, 379(1-4), 99-104.
+
+[^12]: Carlip, S. (2005). Conformal Field Theory, (2+1)-Dimensional Gravity, and the BTZ Black Hole. *Classical and Quantum Gravity*, 22(12), R85-R124.
+
+[^13]: Blöte, H. W. J., Cardy, J. L., & Nightingale, M. P. (1986). Conformal invariance, the central charge, and universal finite-size amplitudes at criticality. *Physical Review Letters*, 56(7), 742-745.
+
+[^14]: Carr, B. J., & Hawking, S. W. (1974). Black Holes in the Early Universe. *Monthly Notices of the Royal Astronomical Society*, 168(2), 399-415.
+
+[^15]: Amaro-Seoane, P., Audley, H., Babak, S., Baker, J., Barausse, E., et al. (2017). Laser Interferometer Space Antenna. arXiv\:1702.00786.
+
+[^16]: Hawking, S. W. (1976). Breakdown of Predictability in Gravitational Collapse. *Physical Review D*, 14(10), 2460-2473.
+
+[^17]: Guica, M., Hartman, T., Song, W., & Strominger, A. (2009). The Kerr/CFT Correspondence. *Physical Review D*, 80(12), 124008. arXiv\:0809.4266.

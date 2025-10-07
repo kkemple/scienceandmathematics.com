@@ -7,7 +7,7 @@ The uncertainty principle $\Delta x \Delta p \geq \hbar/2$ predates quantum mech
 
 ## The Transform Pair
 
-The Fourier transform connects time-domain and frequency-domain representations of any function. For a signal $f(t)$, the transform is,
+The Fourier transform connects time-domain and frequency-domain representations of any function [^5]. For a signal $f(t)$, the transform is,
 
 $$
 \hat{f}(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} \, dt.
@@ -45,7 +45,7 @@ $$
 \hat{f}(\omega) = \sqrt{2\pi}\sigma_t \exp\left(-\frac{\sigma_t^2 \omega^2}{2}\right).
 $$
 
-The product $\sigma_t \sigma_\omega = 1$ is exact for Gaussians—the unique functions achieving minimum uncertainty. Temporal compression (decreasing $\sigma_t$) demands frequency expansion (increasing $\sigma_\omega$) to preserve this mathematical identity.
+The product $\sigma_t \sigma_\omega = 1$ is exact for Gaussians—the unique functions achieving minimum uncertainty [^6]. Temporal compression (decreasing $\sigma_t$) demands frequency expansion (increasing $\sigma_\omega$) to preserve this mathematical identity.
 
 ## Mathematical Derivation via Cauchy-Schwarz
 
@@ -170,3 +170,7 @@ The exact correspondence between Fourier mathematics and physical uncertainty su
 [^3]: Wigner, E. (1932). On the Quantum Correction For Thermodynamic Equilibrium. *Physical Review*, 40(5), 749-759.
 
 [^4]: Kittel, C. (2004). *Introduction to Solid State Physics* (8th ed.). John Wiley & Sons.
+
+[^5]: Arfken, G. B., Weber, H. J., & Harris, F. E. (2013). *Mathematical Methods for Physicists* (7th ed.). Academic Press.
+
+[^6]: Reed, M., & Simon, B. (1980). *Methods of Modern Mathematical Physics I: Functional Analysis* (Revised ed.). Academic Press.
