@@ -1,6 +1,6 @@
 ---
 title: 'Computational Spacetime and the Rayleigh-Jeans Resolution'
-pubDate: '2025-10-07'
+pubDate: '2025-10-08'
 ---
 
 In 1900, the Rayleigh-Jeans law predicted infinite energy density at high frequencies—every cavity should radiate infinite power, every object should instantly vaporize. The classical calculation was mathematically sound yet physically absurd. Planck's quantum hypothesis resolved the crisis, but a deeper question remained: *why does nature impose this specific cutoff?*
@@ -169,7 +169,7 @@ The UV catastrophe pointed to something profound—classical physics assumes inf
 
 The Planck frequency $f_P$ emerges as fundamental—not derived but primary. All other scales follow: Planck length $\ell_P = c/f_P$, Planck time $t_P = 1/f_P$, Planck energy $E_P = \hbar f_P$. The universe computes at this rate. Black holes saturate it. The UV catastrophe occurs when physics requests processing beyond it.
 
-This framework connects disparate phenomena. Black hole entropy counts voxels on the horizon. [Hawking radiation](/lets-derive-an-information-theoretic-conservation-law) is information leakage through the computational boundary. [Dimensional reduction near horizons](/black-hole-horizons-and-dimensional-reduction-correspondence) optimizes processing efficiency. The same voxel lattice architecture underlies all three, operating at clock rate $f_P$ with information capacity set by holographic bounds. The [renormalization group flow](/information-field-theory-from-constraint-to-cosmos) emerging from this substrate, with coupling constant $\rho^* = 3.29$, generates the complete field theory structure.
+This framework connects disparate phenomena. Black hole entropy counts voxels on the horizon. [Hawking radiation](/lets-derive-an-information-theoretic-conservation-law) is information leakage through the computational boundary. [Dimensional reduction near horizons](/black-hole-horizons-and-dimensional-reduction-correspondence) optimizes processing efficiency. The same [voxel lattice architecture](/what-if-spacetime-isnt-so-continuous) underlies all three, operating at clock rate $f_P$ with information capacity set by holographic bounds. The [renormalization group flow](/information-field-theory-from-constraint-to-cosmos) emerging from this substrate, with coupling constant $\rho^* = 3.29$, generates the complete field theory structure.
 
 [^1]: Abbott, B. P., et al. (LIGO Scientific Collaboration and Virgo Collaboration) (2016). Observation of Gravitational Waves from a Binary Black Hole Merger. *Physical Review Letters*, 116(6), 061102.
 
