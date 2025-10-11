@@ -301,6 +301,8 @@ $$
 
 with each update. The computational limits of that process force the discrete structure we observe. At its deepest level, the universe is mathematics—information processing on a 6D boundary lattice, forever calculating what happens next.
 
+[^1]: Landauer, R. (1961). Irreversibility and heat generation in the computing process. *IBM Journal of Research and Development*, 5(3), 183-191.
+
 [^2]: Planck, M. (1900). Zur Theorie des Gesetzes der Energieverteilung im Normalspectrum. *Verhandlungen der Deutschen Physikalischen Gesellschaft*, 2, 237-245.
 
 [^3]: Wheeler, J. A., & Feynman, R. P. (1949). Classical electrodynamics in terms of direct interparticle action. *Reviews of Modern Physics*, 21(3), 425-433.
