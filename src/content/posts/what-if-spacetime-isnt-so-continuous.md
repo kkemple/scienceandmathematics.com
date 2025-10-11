@@ -8,7 +8,7 @@ Every measurable property of our universe is finite. Energy is finite ($\approx 
 Consider what continuous spacetime requires. A continuous field at even one point demands infinite precision—infinite bits to specify its exact value. Multiply by the infinite points in any finite volume, and you need infinite information just to describe the universe's state, let alone update it. Landauer's principle establishes that processing each bit requires minimum energy [^1],
 
 $$
-E_0 = k_B T \ln 2,
+E_{\min} = k_B T \ln 2,
 $$
 
 where $k_B$ is Boltzmann's constant and $T$ is the system temperature. The calculation is stark—infinite bits times finite energy per bit equals infinite energy required. But we have finite energy ($\approx 10^{69}$ J). Continuous spacetime cannot exist with available resources.
