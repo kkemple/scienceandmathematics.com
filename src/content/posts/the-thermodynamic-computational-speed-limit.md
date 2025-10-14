@@ -61,7 +61,7 @@ where $M_P = \sqrt{\hbar c/G}$ is the Planck mass. A Planck-mass black hole proc
 
 ## Pattern Maintenance Energy
 
-Consider matter as organized information requiring energy to maintain its pattern against entropy. For a gravitationally bound system of mass $M$ and radius $R$, the binding energy is,
+Consider matter as [organized information requiring energy to maintain its pattern against entropy](/binding-energy-as-information-maintenance-tax). For a gravitationally bound system of mass $M$ and radius $R$, the binding energy is,
 
 $$
 E_b = \frac{GM^2}{R}.

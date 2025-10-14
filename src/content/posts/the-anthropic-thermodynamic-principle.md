@@ -33,7 +33,7 @@ Multiplying by $10^{11}$ neurons gives $7.6 \times 10^{16}$ bits/s—remarkably 
 
 ## The Hierarchy of Maintenance Costs
 
-Not all complexity costs equally. A salt crystal maintains itself through ionic bonds—near-zero energy expenditure. A dormant virus requires no metabolic energy. But living cells continuously pump ions, synthesize proteins, repair damage. The thermodynamic tax scales predictably with organizational complexity.
+Not all complexity costs equally. A salt crystal maintains itself through ionic bonds—near-zero energy expenditure. A dormant virus requires no metabolic energy. But living cells continuously pump ions, synthesize proteins, repair damage. The [thermodynamic tax scales predictably with organizational complexity](/binding-energy-as-information-maintenance-tax).
 
 Define the complexity overhead as energy beyond minimum pattern maintenance,
 

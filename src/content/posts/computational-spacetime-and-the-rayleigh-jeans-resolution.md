@@ -1,5 +1,5 @@
 ---
-title: 'Computational Spacetime and the Rayleigh-Jeans Resolution'
+title: 'Computational Spacetime & the Rayleigh-Jeans Resolution'
 pubDate: '2025-10-08'
 ---
 

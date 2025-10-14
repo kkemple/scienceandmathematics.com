@@ -1,9 +1,9 @@
 ---
-title: 'Conservation, Dissipation, and Field Emergence'
+title: 'Conservation, Dissipation, & Field Emergence'
 pubDate: '2025-10-06'
 ---
 
-Conservation plus symmetry equals field equations. Start with a single constraint—a conserved current $n^\mu$ with vanishing divergence—and impose symmetry requirements. U(1) gauge symmetry generates Maxwell's equations. Lorentz invariance yields Klein-Gordon. Galilean symmetry produces Euler's fluid equations. No assumptions about underlying physics, just mathematical consistency. Add dissipation through thermal coupling with coefficient $\eta$ ranging from $10^{-6}$ for elementary particles to unity for black holes. The complete framework—conservation, dissipation, and quantum overlap—reproduces field dynamics from electromagnetism to gravitation through pure constraint satisfaction.
+Conservation plus symmetry equals field equations. Start with a single constraint—a conserved current $n^\mu$ with vanishing divergence—and impose symmetry requirements. U(1) gauge symmetry generates Maxwell's equations. Lorentz invariance yields Klein-Gordon. Galilean symmetry produces Euler's fluid equations. No assumptions about underlying physics, just mathematical consistency. Add dissipation through thermal coupling with coefficient $\eta$ ranging from $10^{-6}$ for elementary particles to unity for black holes, [quantifying the energy required to maintain organizational structure](/binding-energy-as-information-maintenance-tax). The complete framework—conservation, dissipation, and quantum overlap—reproduces field dynamics from electromagnetism to gravitation through pure constraint satisfaction.
 
 ## The Conservation Constraint
 

@@ -5,7 +5,7 @@ pubDate: '2025-10-07'
 
 The hierarchy of matter—elementary particles to atoms to molecules to black holes—obeys a single renormalization group flow with universal exponent $\nu = 0.304$. Not approximately. Exactly.
 
-Every physical system dissipates information to thermal degrees of freedom at characteristic rate $\eta$. Elementary particles leak at $\eta = 10^{-6}$, atoms at $10^{-3}$, molecules at $10^{-2}$, biological systems at $10^{-1}$, and black holes saturate the bound at unity. This exponential progression emerges from renormalization group equations with beta function $\beta(\eta) = -\eta[1-\eta](\rho^* + (d-2)\log\phi/2)$, where $\rho^* = 3.29$ appears as a fundamental coupling constant analogous to fine structure $\alpha$ or gravitational $G$. White dwarf cooling anomalies at $R/R_S = 10^3$ exhibit critical behavior with power-law divergence precisely matching this exponent [^1]. The framework constructs a complete field theory where information, dissipation, and dimension become dynamical fields generating all known field equations through pure constraint satisfaction.
+Every physical system dissipates information to thermal degrees of freedom at characteristic rate $\eta$. Elementary particles leak at $\eta = 10^{-6}$, atoms at $10^{-3}$, molecules at $10^{-2}$, biological systems at $10^{-1}$, and black holes saturate the bound at unity. This exponential progression emerges from renormalization group equations with beta function $\beta(\eta) = -\eta[1-\eta](\rho^* + (d-2)\log\phi/2)$, where $\rho^* = 3.29$ appears as a fundamental coupling constant analogous to fine structure $\alpha$ or gravitational $G$. White dwarf trajectories through the basin of attraction threshold at $R/R_S = 10^3$ exhibit critical behavior with power-law divergence precisely matching this exponent [^1]. The framework constructs a complete field theory where information, dissipation, and dimension become dynamical fields generating all known field equations through pure constraint satisfaction.
 
 ## Conservation from Information Flow
 
@@ -152,7 +152,7 @@ $$
 \nu = \frac{1}{\rho^*} = 0.304,
 $$
 
-determines critical behavior. Systems approaching $\eta = 1$ exhibit power-law divergences with this universal exponent, explaining anomalies in white dwarf cooling and predicting similar transitions in quantum computing architectures.
+determines critical behavior. Systems approaching $\eta = 1$ exhibit power-law divergences with this universal exponent, explaining [white dwarf information bankruptcy trajectories](/binding-energy-as-information-maintenance-tax) and predicting similar transitions in quantum computing architectures.
 
 ## Field Theory from RG Flow
 
@@ -219,7 +219,7 @@ violates conservation due to dissipation: $\partial_\mu j^\mu_{\mathcal{I}} = -\
 
 The renormalization group flow generates five testable predictions spanning astrophysics to quantum computing.
 
-First, white dwarf cooling exhibits anomalies precisely at $R/R_S = 10^3$ where the dissipation field reaches critical value $\eta_c$. The predicted age depression $\Delta \tau = \tau_0[(R/R_S - 10^3)/10^3]^{-\rho^*}$ matches the observed 0.56 Gyr anomaly in Gaia data [^1], providing direct evidence for the RG flow in stellar remnants.
+First, white dwarf trajectories enter the basin of attraction toward organizational collapse precisely at $R/R_S = 10^3$ where the dissipation field reaches critical value $\eta_c \approx 0.46$. The predicted age depression $\Delta \tau = \tau_0[(R/R_S - 10^3)/10^3]^{-\rho^*}$ matches the observed 0.56 Gyr delays in 18,937 white dwarfs [^1], providing direct evidence for the RG flow mechanism in stellar remnants.
 
 Second, the field equation $\Box\mathcal{I} = -\eta k_B T \ln 2/\ell_P^3$ predicts information waves propagating at light speed with damping coefficient $\eta$. These waves should manifest as persistent memory effects in gravitational wave detectors—correlations between successive merger events encoding information about intervening spacetime.
 
@@ -237,7 +237,7 @@ The mathematics reveals fields as information flow patterns through spacetime. M
 
 The coupling constant $\rho^* = 3.29$ appears fundamental—not derived but measured, like fine structure constant $\alpha$ or gravitational constant $G$. Its precise value determines the spacing between organizational levels, the critical exponent for phase transitions, and the maximum coherent qubit number. The golden ratio factor $\phi$ emerges naturally from optimization principles in quantum transport and information encoding.
 
-Every observable phenomenon—white dwarf cooling anomalies, black hole thermodynamics, quantum decoherence—follows the same RG flow trajectory. The [voxel lattice computational substrate](/computational-spacetime-and-the-rayleigh-jeans-resolution), emerging from [self-consistency requirements of finite information processing](/what-if-spacetime-isnt-so-continuous), sets the UV cutoff at Planck frequency $f_P = 1.855 \times 10^{43}$ Hz. The IR fixed point at $\eta = 1$ defines black hole saturation where systems process at maximum rate $10^{43}$ bits/second per solar mass [^6]. Between these extremes, the flow equation $\eta(\mu) = 1/(1 + A\mu^{K(d)})$ with $K(d) = \rho^* + (d-2)\log\phi/2$ generates the entire hierarchy of matter. The universal exponent $\nu = 0.304$ governs all critical phenomena. Information field theory isn't just another formalism—it reveals the single mathematical structure underlying physical reality.
+Every observable phenomenon—white dwarf information bankruptcy trajectories, black hole thermodynamics, quantum decoherence—follows the same RG flow trajectory. The [voxel lattice computational substrate](/computational-spacetime-and-the-rayleigh-jeans-resolution), emerging from [self-consistency requirements of finite information processing](/what-if-spacetime-isnt-so-continuous), sets the UV cutoff at Planck frequency $f_P = 1.855 \times 10^{43}$ Hz. The IR fixed point at $\eta = 1$ defines black hole saturation where systems process at maximum rate $10^{43}$ bits/second per solar mass [^6]. Between these extremes, the flow equation $\eta(\mu) = 1/(1 + A\mu^{K(d)})$ with $K(d) = \rho^* + (d-2)\log\phi/2$ generates the entire hierarchy of matter. The universal exponent $\nu = 0.304$ governs all critical phenomena. Information field theory isn't just another formalism—it reveals the single mathematical structure underlying physical reality.
 
 [^1]: Cheng, S., Cummings, J. D., & Ménard, B. (2019). A Cooling Anomaly of High-mass White Dwarfs. *The Astrophysical Journal*, 886(2), 100.
 

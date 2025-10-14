@@ -173,7 +173,7 @@ Black holes manifest as maximum compression. At the event horizon $r = r_s$ (whe
 
 The lattice structure alone cannot capture all physical phenomena—we need additional fields tracking organizational state. Each voxel carries organizational state in addition to position, capturing how voxels process information throughout the universe.
 
-The dissipation field $\eta$ measures what fraction of energy maintains structure against thermal entropy. From [quantum mechanics and Fermi's golden rule](/conservation-dissipation-and-field-emergence) [^6], the elementary dissipation rate is,
+The dissipation field $\eta$ measures what fraction of energy [maintains structure against thermal entropy](/binding-energy-as-information-maintenance-tax). From [quantum mechanics and Fermi's golden rule](/conservation-dissipation-and-field-emergence) [^6], the elementary dissipation rate is,
 
 $$
 \eta_0 = \alpha^2\sqrt{\frac{m_e}{m_p}} \approx 10^{-6},
@@ -317,7 +317,7 @@ LISA observations of extreme mass ratio inspirals could detect dimensional phase
 
 Primordial black holes with $M < 10^{15}$ g reaching Planck temperature explode at frequency $f_P = 1.855 \times 10^{43}$ Hz, releasing energy quantized in approximately $10^{6}$ correlated particles [^14]. The organizational charge $\mathcal{C} = 1.71$ must be conserved, distributed among product particles. Conservation-constrained explosions produce discrete spectral lines at integer multiples of Planck energy, creating specific spectrum gaps at angles $2\pi n/n_{\rm max}$.
 
-White dwarf crystallization at $\eta \sim 10^{-2}$ modifies cooling rates by factor $(1 + \eta^2\rho^*\ln\phi) \sim 1.0003$. [Gaia observations of white dwarf luminosity functions](/lets-derive-an-information-theoretic-conservation-law) show anomalous cooling delays of 0.56 Gyr matching this prediction within 15% uncertainty [^15].
+White dwarf trajectory toward the basin of attraction threshold at $R/R_S = 10^3$ shows organizational complexity divergence. [Analysis of 18,937 white dwarfs](/lets-derive-an-information-theoretic-conservation-law) reveals information bankruptcy mechanism with 0.56 Gyr cooling delays matching predicted power-law exponent $\nu = 0.304$ within 15% uncertainty [^15].
 
 ## The Complete Picture
 
@@ -327,7 +327,7 @@ The universe is a 6D voxel lattice updating at Planck frequency $f_P = 1.855 \ti
 
 Constants emerge from self-consistency requirements. The value $\rho^* = 3.29$ follows from quantum transport theory. The golden ratio $\phi = (1+\sqrt{5})/2$ minimizes interference through its unique continued fraction structure. Factors of 3 count spatial dimensions. These represent mathematical necessities.
 
-The framework generates specific testable predictions distinguishing it from general relativity: quantum computers should generate additional gravitational effects, black hole mergers should show dimensional phase transitions, primordial black holes should explode with quantized energy spectra, white dwarf cooling deviates from standard models, and [Type Ia supernovae show brightness variations](/type-ia-supernova-information-theoretic-energetics) consistent with informational charge conservation.
+The framework generates specific testable predictions distinguishing it from general relativity: quantum computers should generate additional gravitational effects, black hole mergers should show dimensional phase transitions, primordial black holes should explode with quantized energy spectra, white dwarf trajectories reveal information bankruptcy mechanisms, and [Type Ia supernovae show brightness variations](/type-ia-supernova-information-theoretic-energetics) consistent with informational charge conservation.
 
 Every equation flows from one fundamental constraint—information updates require finite resources. The universe exists because non-existence would violate self-consistency. Reality computes itself into existence one Planck tick at a time, solving,
 
