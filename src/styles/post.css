@@ -75,17 +75,24 @@
   text-align: justify !important;
 }
 
+/* Table wrapper for horizontal scrolling */
+.prose .table-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.75em 0;
+  border-radius: 8px;
+}
+
 /* Tables */
 .prose table {
-  table-layout: fixed;
+  table-layout: auto;
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  margin: 1.75em 0;
+  margin: 0;
   font-size: var(--font-size-m);
   border: 1px solid var(--border);
   border-radius: 8px;
-  overflow: hidden;
 }
 
 /* Table cells */
@@ -110,6 +117,7 @@
 .prose th {
   background: var(--astro-code-background);
   font-weight: var(--font-weight-bold);
+  white-space: nowrap;
 }
 
 /* Images */

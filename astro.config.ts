@@ -10,6 +10,7 @@ import remarkReadingTime from "./src/plugins/remark-reading-time.mjs";
 import rehypeCleanup from "./src/plugins/rehype-cleanup.mjs";
 import rehypeImageProcessor from "./src/plugins/rehype-image-processor.mjs";
 import rehypeCopyCode from "./src/plugins/rehype-copy-code.mjs";
+import rehypeTableWrapper from "./src/plugins/rehype-table-wrapper.mjs";
 import remarkTOC from "./src/plugins/remark-toc.mjs";
 import { themeConfig } from "./src/config";
 import { imageConfig } from "./src/utils/image-config";
@@ -39,6 +40,7 @@ export default defineConfig({
 		],
 		rehypePlugins: [
 			rehypeKatex,
+			rehypeTableWrapper,
 			rehypeCleanup,
 			rehypeImageProcessor,
 			rehypeCopyCode,
