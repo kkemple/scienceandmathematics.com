@@ -61,19 +61,17 @@ where $M_P = \sqrt{\hbar c/G}$ is the Planck mass. A Planck-mass black hole proc
 
 ## Pattern Maintenance Energy
 
-Consider matter as [organized information requiring energy to maintain its pattern against entropy](/binding-energy-as-information-maintenance-tax). For a gravitationally bound system of mass $M$ and radius $R$, the binding energy is,
+Consider matter as [organized information requiring energy to maintain its pattern against entropy](/binding-energy-critical-radii-and-information-maintenance-tax). Each fundamental force imposes characteristic maintenance costs through force-specific bankruptcy radii—the scale where maintenance equals available energy. For the strong force at QCD confinement, $r_{\text{QCD}} \approx 1$ fm. For electromagnetic binding, $r_{\text{EM}} = ke^2/(m_ec^2) \approx 2.8 \times 10^{-15}$ m. For gravitational systems, $r_{\text{grav}} = R_S = 2GM/c^2$.
+
+The general maintenance cost follows,
 
 $$
-E_b = \frac{GM^2}{R}.
+\frac{E_m}{Mc^2} = \frac{r_{\text{crit}}}{r} \times \eta,
 $$
 
-This represents the energy cost of maintaining the system's structure against dispersal. The fraction of total mass-energy required for pattern maintenance equals,
+where $r_{\text{crit}}$ is the force-specific bankruptcy radius and $\eta$ is the complexity overhead. Elementary particles achieve $\eta_{\text{elem}} \approx 10^{-6}$, atoms require $\eta_{\text{atom}} \approx 10^{-3}$, molecules need $\eta_{\text{mol}} \approx 10^{-2}$, and biological systems approach the ceiling at $\eta_{\text{bio}} \sim 10^{-1}$.
 
-$$
-\frac{E_m}{Mc^2} = \frac{GM}{Rc^2} = \frac{R_S}{2R}.
-$$
-
-From quantum mechanics, the factor of 2 emerges from superposition of maintenance modes, giving,
+For gravitationally bound systems dominating at stellar scales and beyond, the maintenance fraction simplifies through $\eta \to 1$ and $r_{\text{crit}} = R_S$,
 
 $$
 \frac{E_m}{Mc^2} = \frac{R_S}{R}.
@@ -81,13 +79,13 @@ $$
 
 Systems closer to their Schwarzschild radius require more energy for pattern maintenance. Black holes, with $R = R_S$, dedicate all their mass-energy to maintaining their horizon structure.
 
-Remarkably, the information processing rate scales identically,
+Remarkably, the information processing rate scales identically for gravitational systems,
 
 $$
 \dot{I}_{max} = \frac{4\pi GMc^3}{\hbar \ln 2} \frac{R_S}{R}.
 $$
 
-Pattern maintenance energy and information processing rate are proportional. Systems process information at rates determined by their gravitational compression—how close they sit to black hole density.
+Pattern maintenance energy and information processing rate are proportional. Gravitationally bound systems process information at rates determined by their compression—how close they sit to black hole density.
 
 ## The Emergent Speed of Light
 
@@ -115,7 +113,7 @@ $$
 E = N_b k_B T \ln 2.
 $$
 
-For a self-gravitating system, the information content relates to phase space volume. A system of mass $M$ and radius $R$ has phase space scaling as,
+For any bound system, the information content relates to accessible phase space volume. A system of mass $M$ and radius $R$ has phase space scaling as,
 
 $$
 \Omega \sim \left(\frac{MR}{\hbar}\right)^{3N/2},
@@ -127,7 +125,7 @@ $$
 N_b = \frac{3N}{2} \log_2\left(\frac{MR}{\hbar}\right).
 $$
 
-As systems approach black hole density ($R \to R_S$), the information content approaches the Bekenstein bound,
+Thermal and quantum fluctuations constantly randomize configurations, requiring continuous energy expenditure. Equating this maintenance energy with binding energy through the appropriate force-specific bankruptcy radius yields the information cost. For gravitational systems specifically, as they approach black hole density ($R \to R_S$), information content approaches the Bekenstein bound,
 
 $$
 N_b \to \frac{4\pi GM^2}{\hbar c \ln 2} = \frac{A}{4\ell_P^2 \ln 2},
@@ -137,23 +135,23 @@ where $A = 4\pi R_S^2$ is the horizon area. The information saturates at 1 bit p
 
 ## Universal Processing Hierarchy
 
-Gravitational compression determines information processing rates across all physical systems. The relationship $\dot{I} \propto R_S/R$ creates a universal hierarchy spanning 40 orders of magnitude.
+Information processing rates follow from binding energy ratios $r_{\text{crit}}/r$ across all force regimes. For gravitationally dominated systems at stellar scales and beyond, the relationship $\dot{I} \propto R_S/R$ creates a hierarchy spanning 40 orders of magnitude.
 
 At the fundamental limit, Planck-scale black holes process at exactly $f_P = 1.855 \times 10^{43}$ Hz—one bit per Planck time. This represents the universe's maximum clock rate. Stellar-mass black holes achieve the same rate density but distributed across their horizons: a solar-mass black hole processes $10^{43}$ bits/s total, spread over $10^{76}$ Planck areas on its $4\pi R_S^2$ surface.
 
-Compact stellar remnants approach but cannot reach this limit. Neutron stars with $R \approx 3R_S$ process at $\dot{I} \approx 10^{42}$ bits/s—precisely one-third the black hole rate, as predicted by the $R_S/R$ scaling. White dwarfs, stabilized by electron degeneracy at $R \approx 10^3 R_S$, achieve $\dot{I} \approx 10^{40}$ bits/s. The thousand-fold radius increase translates directly to thousand-fold processing reduction.
+Compact stellar remnants approach but cannot reach this limit. Neutron stars with $R \approx 3R_S$ process at $\dot{I} \approx 10^{42}$ bits/s—precisely one-third the black hole rate, as predicted by the $R_S/R$ scaling. [White dwarfs, stabilized by electron degeneracy at $R \approx 10^3 R_S$](/binding-energy-critical-radii-and-information-maintenance-tax), achieve $\dot{I} \approx 10^{40}$ bits/s. The thousand-fold radius increase translates directly to thousand-fold processing reduction.
 
-Ordinary matter operates far below these limits. A kilogram of silicon at room temperature has $R/R_S \approx 10^{30}$, suppressing its processing rate by the same factor. Even quantum computers cannot escape this constraint—they remain bound by $\dot{I}_{max}$ for their physical mass and size, regardless of architectural cleverness [^5].
+Ordinary matter operates far below gravitational limits, dominated instead by electromagnetic and quantum force regimes with their own characteristic bankruptcy radii. A kilogram of silicon at room temperature has $R/R_S \approx 10^{30}$, but its actual processing constraints arise from electronic and phononic timescales set by electromagnetic binding, not gravitational compression. Even quantum computers cannot escape fundamental constraints—they remain bound by $\dot{I}_{max}$ for their physical mass, size, and dominant force regime, regardless of architectural cleverness [^5].
 
-The hierarchy emerges from a single principle: systems process information at rates proportional to their gravitational binding energy. As matter approaches black hole density, more energy goes toward pattern maintenance against entropy. Black holes represent the endpoint where all available energy maintains the horizon structure, saturating the Planck frequency bound. Every other system operates as a fraction of this universal maximum.
+The hierarchy emerges from a single principle: systems process information at rates proportional to their binding energy through the appropriate force regime. As gravitationally bound matter approaches black hole density, more energy goes toward pattern maintenance against entropy. Black holes represent the gravitational endpoint where all available energy maintains the horizon structure, saturating the Planck frequency bound. Every other system operates as a fraction of this universal maximum.
 
 ## Implications
 
 Black holes aren't just gravitational objects—they're nature's maximum-rate information processors. The Planck frequency isn't just a dimensional constant—it's the fundamental clock rate of reality. The speed of light isn't fundamental—it emerges from information processing constraints.
 
-This perspective inverts traditional physics. Instead of matter and energy as primary with information as description, [information processing is primary](/information-field-theory-from-constraint-to-cosmos) with matter and energy as manifestations. Gravity isn't geometry—it's the computational cost of maintaining patterns against entropy.
+This perspective inverts traditional physics. Instead of matter and energy as primary with information as description, [information processing is primary](/information-field-theory-from-constraint-to-cosmos) with matter and energy as manifestations. Binding forces across all regimes—strong, electromagnetic, gravitational—represent the computational cost of maintaining patterns against entropy.
 
-The universe computes its own evolution at the maximum rate physics allows. Black holes achieve this maximum. Everything else processes slower, limited by how far it sits from the computational horizon. The constraint reveals the structure: reality is information processing at the Planck scale, and everything else—matter, energy, spacetime—emerges from this computational substrate.
+The universe computes its own evolution at the maximum rate physics allows. Black holes achieve this maximum for gravitational systems. Everything else processes slower, limited by its distance from the appropriate force-specific bankruptcy radius. The constraint reveals the structure: reality is information processing at the Planck scale, and everything else—matter, energy, spacetime—emerges from this computational substrate.
 
 [^1]: Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183-191.
 
