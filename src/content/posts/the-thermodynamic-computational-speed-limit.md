@@ -49,7 +49,7 @@ $$
 
 A solar-mass black hole processes $10^{43}$ bits/s. The [Planck frequency](/computational-spacetime-and-the-rayleigh-jeans-resolution) is $f_P = \sqrt{c^5/(\hbar G)} \approx 1.855 \times 10^{43}$ Hz [^7]. Black holes process information at the Planck frequency—the shortest meaningful timescale in physics.
 
-This isn't coincidence. The Planck time $t_P = \sqrt{\hbar G/c^5}$ represents the fundamental tick of the universe's clock [^3]. Black holes achieve maximum computational density by processing one bit per Planck time per Planck area on their horizon [^2].
+The Planck time $t_P = \sqrt{\hbar G/c^5}$ represents the fundamental tick of the universe's clock [^3]. Black holes achieve maximum computational density by processing one bit per Planck time per Planck area on their horizon [^2].
 
 For any mass, the black hole processing rate scales as,
 
@@ -85,7 +85,7 @@ $$
 \dot{I}_{max} = \frac{4\pi GMc^3}{\hbar \ln 2} \frac{R_S}{R}.
 $$
 
-Pattern maintenance energy and information processing rate are proportional. Gravitationally bound systems process information at rates determined by their compression—how close they sit to black hole density.
+The pattern maintenance energy and information processing rate are proportional. Gravitationally bound systems process information at rates determined by their compression—how close they sit to black hole density.
 
 ## The Emergent Speed of Light
 
@@ -135,7 +135,7 @@ where $A = 4\pi R_S^2$ is the horizon area. The information saturates at 1 bit p
 
 ## Universal Processing Hierarchy
 
-Information processing rates follow from binding energy ratios $r_{\text{crit}}/r$ across all force regimes. For gravitationally dominated systems at stellar scales and beyond, the relationship $\dot{I} \propto R_S/R$ creates a hierarchy spanning 40 orders of magnitude.
+The information processing rates follow from binding energy ratios $r_{\text{crit}}/r$ across all force regimes. For gravitationally dominated systems at stellar scales and beyond, the relationship $\dot{I} \propto R_S/R$ creates a hierarchy spanning 40 orders of magnitude.
 
 At the fundamental limit, Planck-scale black holes process at exactly $f_P = 1.855 \times 10^{43}$ Hz—one bit per Planck time. This represents the universe's maximum clock rate. Stellar-mass black holes achieve the same rate density but distributed across their horizons: a solar-mass black hole processes $10^{43}$ bits/s total, spread over $10^{76}$ Planck areas on its $4\pi R_S^2$ surface.
 
@@ -147,7 +147,7 @@ The hierarchy emerges from a single principle: systems process information at ra
 
 ## Implications
 
-Black holes aren't just gravitational objects—they're nature's maximum-rate information processors. The Planck frequency isn't just a dimensional constant—it's the fundamental clock rate of reality. The speed of light isn't fundamental—it emerges from information processing constraints.
+Black holes are nature's maximum-rate information processors. The Planck frequency is the fundamental clock rate of reality. The speed of light emerges from information processing constraints.
 
 This perspective inverts traditional physics. Instead of matter and energy as primary with information as description, [information processing is primary](/information-field-theory-from-constraint-to-cosmos) with matter and energy as manifestations. Binding forces across all regimes—strong, electromagnetic, gravitational—represent the computational cost of maintaining patterns against entropy.
 

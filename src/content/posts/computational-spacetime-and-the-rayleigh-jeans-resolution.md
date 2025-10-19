@@ -41,7 +41,7 @@ $$
 N_{bits} = \frac{A}{4\ell_P^2 \ln 2} = \frac{\pi R^2}{\ell_P^2 \ln 2}.
 $$
 
-Information scales with area, not volume. This immediately bounds the number of computational channels. For sphere radius $R$, the maximum mode frequency becomes,
+Information scales with area. This immediately bounds the number of computational channels. For sphere radius $R$, the maximum mode frequency becomes,
 
 $$
 \nu_{max} = \frac{c}{\lambda_{min}} = \frac{c}{2\ell_P} = \frac{f_P}{2}.
@@ -63,9 +63,9 @@ $$
 
 ## Information Flow Architecture
 
-The voxel lattice exhibits specific information flow patterns. Each voxel state represents electromagnetic field configuration $A_\mu(x)$. Classical fields emerge as low-frequency collective modes across many voxels. Photons are quantized excitations propagating through the network.
+The voxel lattice exhibits specific information flow patterns. Each voxel state represents an electromagnetic field configuration $A_\mu(x)$. Classical fields emerge as low-frequency collective modes across many voxels. Photons are quantized excitations propagating through the network.
 
-Conservation of information flow through the lattice yields Maxwell's equations. Consider information current $j^\mu$ satisfying $\partial_\mu j^\mu = 0$. Identifying $j^\mu$ with electromagnetic field tensor $F^{\mu\nu}$ gives,
+Conservation of information flow through the lattice yields Maxwell's equations. Consider an information current $j^\mu$ satisfying $\partial_\mu j^\mu = 0$. Identifying $j^\mu$ with the electromagnetic field tensor $F^{\mu\nu}$ gives,
 
 $$
 \partial_\mu F^{\mu\nu} = 0, \quad \partial_{[\mu}F_{\nu\rho]} = 0.
@@ -73,13 +73,13 @@ $$
 
 These are Maxwell's equations in vacuum, emerging from information conservation on the lattice.
 
-The processing rate per unit area follows from black hole thermodynamics. A horizon processes information at rate,
+The processing rate per unit area follows from black hole thermodynamics. A horizon processes information at the rate,
 
 $$
 \dot{I} = f_P \times \frac{A}{4\ell_P^2} = \frac{c^5 A}{4\hbar G}.
 $$
 
-For stellar-mass black holes, this reaches $10^{81}$ bits/second. The horizon saturates computational capacity—every Planck area processes at maximum rate $f_P$. This explains why black holes have maximum entropy for given area [^4].
+For stellar-mass black holes, this reaches $10^{81}$ bits/second. The horizon saturates the computational capacity—every Planck area processes at the maximum rate $f_P$. This explains why black holes have maximum entropy for a given area [^4].
 
 ## Dimensional Structure and Mode Counting
 
@@ -107,7 +107,7 @@ This factor of 2 from chirality matches the Landauer-Bekenstein-Hawking factor $
 
 Bose-Einstein statistics [^7] emerge naturally from voxel occupation. Consider electromagnetic mode with frequency $\nu$ containing $n$ photons. The voxel lattice encodes this as collective excitation amplitude across multiple voxels.
 
-The key insight: identical bosons in the same mode share computational representation. Adding photon $n+1$ requires no additional information beyond incrementing occupation number. This allows unlimited bosonic occupation without violating information bounds.
+The key insight: identical bosons in the same mode share a computational representation. Adding photon $n+1$ requires no additional information beyond incrementing the occupation number. This allows unlimited bosonic occupation without violating information bounds.
 
 At thermal equilibrium, occupation number maximizes entropy subject to energy constraint. For mode frequency $\nu$ at temperature $T$,
 
@@ -127,7 +127,7 @@ The complete resolution of Rayleigh-Jeans emerges from three computational const
 
 First, spacetime's finite clock rate creates a hard boundary. Oscillations are limited to $\nu_{max} = f_P/2$, the Nyquist limit of the universe's fundamental processing speed. Modes above this frequency exceed the temporal resolution of the computational substrate.
 
-Second, the holographic principle restricts total information capacity. Instead of scaling with volume as classical physics assumes, information must fit within the bound $N_{bits} \leq A/(4\ell_P^2 \ln 2)$. Electromagnetic data gets compressed onto surfaces, not packed into volumes. This changes everything about high-frequency mode counting.
+Second, the holographic principle restricts total information capacity. Information must fit within the bound $N_{bits} \leq A/(4\ell_P^2 \ln 2)$. Electromagnetic data gets compressed onto surfaces. This changes everything about high-frequency mode counting.
 
 Third, voxel dynamics naturally generates quantum statistics. High-frequency modes demand more computational resources per photon, leading to occupation numbers that follow $\langle n \rangle = 1/(e^{h\nu/k_B T} - 1)$. The exponential suppression emerges from resource allocation in the underlying lattice.
 

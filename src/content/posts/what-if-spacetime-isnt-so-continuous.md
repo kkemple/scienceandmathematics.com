@@ -25,7 +25,7 @@ $$
 G_{\mu\nu} \propto \frac{\delta S}{\delta g^{\mu\nu}},
 $$
 
-where $G_{\mu\nu}$ is the Einstein tensor and $g^{\mu\nu}$ is the metric. Both require finite resources to process. Wheeler and Feynman confronted similar circularity in electrodynamics [^3]. What discrete structure satisfies these constraints simultaneously?
+where $G_{\mu\nu}$ is the Einstein tensor and $g^{\mu\nu}$ is the metric. Both require finite resources to process. Wheeler and Feynman confronted a similar circularity in electrodynamics [^3]. What discrete structure satisfies these constraints simultaneously?
 
 Two independent calculations reveal the universe's absolute information limit. The thermodynamic approach uses the universe's total energy ($E_{\rm tot} \approx 10^{70}$ J), age ($t_0 \approx 10^{17}$ s), and CMB temperature ($T \approx 2.7$ K) to compute,
 
