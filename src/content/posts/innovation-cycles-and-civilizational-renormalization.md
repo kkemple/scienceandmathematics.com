@@ -23,10 +23,10 @@ Exploitation fills the possibility space through rapid innovation. Once fire was
 
 Saturation occurs when easy gains exhaust. The low-hanging fruit gets picked. Remaining improvements require disproportionate effort. Agricultural societies cleared available fertile land. Industrial societies extracted accessible resources. Information societies processed obvious datasets. The growth rate transitions from exponential to logarithmic as the system approaches a local optimum.
 
-Crisis manifests when organizational overhead approaches the bankruptcy threshold. Maintaining existing complexity consumes an increasing fraction of productive capacity. For civilizations with maintenance overhead $\eta$, the complexity multiplier:
+Crisis manifests when organizational overhead approaches the bankruptcy threshold. Maintaining existing complexity consumes an increasing fraction of productive capacity. For civilizations with maintenance overhead $\eta$, the complexity multiplier,
 
 $$
-M(\eta) = (1-\eta)^{-\rho^*}
+M(\eta) = (1-\eta)^{-\rho^*},
 $$
 
 where $\rho^* = 3.29$ is [prime resonance constant](/golden-ratio-and-prime-resonance-in-quantum-transport). At critical threshold $\eta_c = 1/\rho^* \approx 0.304$, overhead diverges. Systems cannot sustain 30% coordination costs—collapse or transformation becomes inevitable.
@@ -37,40 +37,40 @@ Breakthrough represents a phase transition to a new organizational state. Not in
 
 The innovation cycle admits a precise representation through organizational overhead dynamics. Define the exploitation parameter $\epsilon(t)$ measuring how thoroughly the possibility space fills, ranging from 0 (discovery) to 1 (complete saturation).
 
-The overhead evolution follows:
+The overhead evolution follows,
 
 $$
-\eta(t) = \eta_0 + (\eta_c - \eta_0) \times \frac{\epsilon(t)}{1 - k\epsilon(t)}
+\eta(t) = \eta_0 + (\eta_c - \eta_0) \times \frac{\epsilon(t)}{1 - k\epsilon(t)},
 $$
 
-where $\eta_0$ is baseline overhead at discovery, $\eta_c \approx 0.304$ is bankruptcy threshold, and $k$ determines saturation sharpness. The exploitation parameter grows through:
+where $\eta_0$ is baseline overhead at discovery, $\eta_c \approx 0.304$ is bankruptcy threshold, and $k$ determines saturation sharpness. The exploitation parameter grows through,
 
 $$
-\frac{d\epsilon}{dt} = r\epsilon(1-\epsilon) - \delta\eta
+\frac{d\epsilon}{dt} = r\epsilon(1-\epsilon) - \delta\eta,
 $$
 
 combining logistic growth (first term) with overhead friction (second term). As $\epsilon \to 1$, overhead approaches $\eta_c$ and growth rate collapses.
 
-The crisis timing follows from requiring $\eta = \eta_c$:
+The crisis timing follows from requiring $\eta = \eta_c$,
 
 $$
-t_{\text{crisis}} = t_0 + \frac{1}{r}\ln\left(\frac{\eta_c - \eta_0}{\eta_1 - \eta_0}\right)
+t_{\text{crisis}} = t_0 + \frac{1}{r}\ln\left(\frac{\eta_c - \eta_0}{\eta_1 - \eta_0}\right),
 $$
 
 where $\eta_1$ is initial growth phase overhead. This predicts crisis occurs logarithmically after discovery—rapid initial exploitation followed by extended saturation period before breakdown.
 
-The maintenance cost scales through the complexity multiplier. During exploitation, productive capacity must overcome growing overhead:
+The maintenance cost scales through the complexity multiplier. During exploitation, productive capacity must overcome growing overhead,
 
 $$
-C_{\text{prod}}(t) > C_{\text{main}}(t) = C_0 \times (1-\eta(t))^{-\rho^*}
+C_{\text{prod}}(t) > C_{\text{main}}(t) = C_0 \times (1-\eta(t))^{-\rho^*}.
 $$
 
 When overhead reaches the bankruptcy threshold, maintaining existing structure requires infinite energy. The system faces a binary choice—collapse to a lower organizational level or breakthrough to a higher level with lower effective overhead.
 
-The breakthrough timing depends on the exploration of adjacent possibility spaces. While the primary innovation saturates, secondary exploration continues. The breakthrough probability follows:
+The breakthrough timing depends on the exploration of adjacent possibility spaces. While the primary innovation saturates, secondary exploration continues. The breakthrough probability follows,
 
 $$
-P_{\text{breakthrough}}(t) = 1 - \exp\left[-\lambda \int_0^t \eta(\tau)^2 d\tau\right]
+P_{\text{breakthrough}}(t) = 1 - \exp\left[-\lambda \int_0^t \eta(\tau)^2 d\tau\right],
 $$
 
 where $\lambda$ quantifies exploration rate. High overhead $\eta$ increases pressure for alternatives, accelerating breakthrough probability. The integral ensures probability accumulates—the longer saturation persists, the more likely breakthrough occurs.

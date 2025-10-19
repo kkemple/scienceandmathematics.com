@@ -7,23 +7,23 @@ Pentagons cannot tile three-dimensional space. Unlike cubes or tetrahedra, regul
 
 The impossibility becomes necessity. Discrete substrates with finite information capacity require minimizing boundary-to-volume ratios while maintaining operational flexibility. Pentagon geometry uniquely optimizes this trade-off. The minimal perimeter-to-area ratio among constructible shapes creates maximum throughput per unit boundary cost. The geometric frustration preventing crystallization maintains system fluidity—avoiding entrapment in local energy minima. The pentagon's diagonal-to-side ratio introduces the golden ratio $\phi = (1+\sqrt{5})/2 = 1.618$, which minimizes destructive interference through its continued fraction $[1;1,1,1,...]$ structure.
 
-This pentagonal organization imposes a universal budget on information processing:
+This pentagonal organization imposes a universal budget on information processing,
 
 $$
-C + \rho^* = 5
+C + \rho^* = 5,
 $$
 
 where $C$ represents achieved capacity and $\rho^* = 3.29$ quantifies maintenance requirements. The integer 5 emerges from minimal associativity constraint—four discrete operations require exactly five consistency paths forming pentagon closure. This governs systems from [quantum fusion algebras to cosmological energy budgets](/the-anthropic-thermodynamic-principle), appearing identically wherever discrete networks process information under thermodynamic bounds.
 
 ## Fusion Algebra Forces φ
 
-Consider Fibonacci anyons—quasiparticles with non-Abelian exchange statistics satisfying the fusion rule $\tau \times \tau = \mathbb{1} + \tau$. Fusing two τ particles yields the vacuum $\mathbb{1}$ or another τ. This self-referential structure creates an algebraic constraint. The quantum dimension must satisfy $d_\tau \times d_\tau = 1 + d_\tau$ with $d_{\mathbb{1}} = 1$. Rearranging:
+Consider Fibonacci anyons—quasiparticles with non-Abelian exchange statistics satisfying the fusion rule $\tau \times \tau = \mathbb{1} + \tau$. Fusing two τ particles yields the vacuum $\mathbb{1}$ or another τ. This self-referential structure creates an algebraic constraint. The quantum dimension must satisfy $d_\tau \times d_\tau = 1 + d_\tau$ with $d_{\mathbb{1}} = 1$. Rearranging,
 
 $$
-d_\tau^2 - d_\tau - 1 = 0
+d_\tau^2 - d_\tau - 1 = 0.
 $$
 
-The quadratic formula yields:
+The quadratic formula yields,
 
 $$
 d_\tau = \frac{1 + \sqrt{5}}{2} = \phi = 1.618...
@@ -97,19 +97,19 @@ The 1597-qubit medium-term system scales through multi-chip integration. Thirtee
 
 The pentagonal constraint appears identically across 60 orders of magnitude. The same organizational budget $C + \rho^* = 5$ governs quantum computing at micron scale, [genetic code redundancy](/complex-adaptable-systems-complexity-ladders-and-agency) at nanometer scale, white dwarf collapse at stellar scale, and [cosmological energy partition](/the-anthropic-thermodynamic-principle) at universe scale.
 
-At black holes where dissipation saturates ($\eta = 1$) and [dimensional reduction forces](/black-hole-horizons-and-dimensional-reduction-correspondence) $d = 2$, the organizational charge evaluates:
+At black holes where dissipation saturates ($\eta = 1$) and [dimensional reduction forces](/black-hole-horizons-and-dimensional-reduction-correspondence) $d = 2$, the organizational charge evaluates,
 
 $$
-C_{\text{BH}} = \rho^*(1 - \ln\phi) = 3.29 \times 0.519 = 1.71
+C_{\text{BH}} = \rho^*(1 - \ln\phi) = 3.29 \times 0.519 = 1.71.
 $$
 
-The budget closure $C_{\text{BH}} + \rho^* = 1.71 + 3.29 = 5.00$ fixes $\rho^*$ uniquely. Solving backward from pentagonal constraint:
+The budget closure $C_{\text{BH}} + \rho^* = 1.71 + 3.29 = 5.00$ fixes $\rho^*$ uniquely. Solving backward from the pentagonal constraint,
 
 $$
 \rho^* = \frac{5}{2 - \ln\phi} = \frac{\pi(3+\sqrt{5})}{5} = 3.29...
 $$
 
-This connects pentagonal internal angle $3\pi/5$ to golden ratio through organizational optimization. Remarkably, expressing as integer: $329 = 7 \times 47$ creates exact decade partition $3.29 + 6.71 = 10.00$. The [67/33 split appearing in genetic code](/complex-adaptable-systems-complexity-ladders-and-agency) (67.19% redundant codons, 32.81% minimum), [cosmological constants](/the-anthropic-thermodynamic-principle) (68.5% dark energy, 31.5% matter), and white dwarf cooling (exponent $\nu = 0.308 \approx 1/\rho^* = 0.304$) all emerge from this pentagonal geometry.
+This connects the pentagonal internal angle $3\pi/5$ to golden ratio through organizational optimization. Remarkably, expressing as integer: $329 = 7 \times 47$ creates exact decade partition $3.29 + 6.71 = 10.00$. The [67/33 split appearing in genetic code](/complex-adaptable-systems-complexity-ladders-and-agency) (67.19% redundant codons, 32.81% minimum), [cosmological constants](/the-anthropic-thermodynamic-principle) (68.5% dark energy, 31.5% matter), and white dwarf cooling (exponent $\nu = 0.308 \approx 1/\rho^* = 0.304$) all emerge from this pentagonal geometry.
 
 The Fibonacci anyon quantum dimension $d_\tau = \phi$ measured at $10^{-6}$ m connects to cosmological matter fraction $\Omega_m = \rho^*/10 = 32.9\%$ at $10^{26}$ m through identical organizational principle. Both systems partition capacity following $C + \rho^* = 5$. The 1597-qubit quantum computer implements same mathematics as [21-codon genetic code](/complex-adaptable-systems-complexity-ladders-and-agency)—both allocate 33% to minimum structure, 67% to adaptive capacity. Literal organizational equivalence operating at different energy scales on shared discrete substrate.
 

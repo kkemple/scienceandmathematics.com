@@ -51,24 +51,24 @@ The emerged molecular structures—proteins, lipids, nucleic acids—become cons
 
 Before examining full biological systems, consider how the recursive ladder operates at the molecular level through the genetic code. DNA uses 4-letter alphabet (A, T, G, C) forming 3-nucleotide codons encoding 20 amino acids plus stop signal—21 outcomes total from $4^3 = 64$ possible codons. This creates redundancy. Multiple codons map to the same amino acid.
 
-The framework predicts how this redundancy distributes. From [pentagonal constraints in discrete spacetime](/what-if-spacetime-isnt-so-continuous), the organizational charge satisfies $C + \rho^* = 5$ where $\rho^* = 3.29$. This forces decade partition for systems with base-10 scaling:
+The framework predicts how this redundancy distributes. From [pentagonal constraints in discrete spacetime](/what-if-spacetime-isnt-so-continuous), the organizational charge satisfies $C + \rho^* = 5$ where $\rho^* = 3.29$. This forces a decade partition for systems with base-10 scaling,
 
 $$
-f_{\text{structure}} = \frac{\rho^*}{10} = \frac{3.29}{10} = 0.329 = 32.9\%
-$$
-
-$$
-f_{\text{capacity}} = \frac{10 - \rho^*}{10} = \frac{6.71}{10} = 0.671 = 67.1\%
-$$
-
-Structure represents the minimum information maintaining coherent states. Capacity represents the available degrees of freedom for transitions. For the genetic code with 64 codons, this predicts:
-
-$$
-\text{Minimum codons needed: } 64 \times 0.329 = 21.06 \approx 21
+f_{\text{structure}} = \frac{\rho^*}{10} = \frac{3.29}{10} = 0.329 = 32.9\%,
 $$
 
 $$
-\text{Redundant codons: } 64 \times 0.671 = 42.94 \approx 43
+f_{\text{capacity}} = \frac{10 - \rho^*}{10} = \frac{6.71}{10} = 0.671 = 67.1\%.
+$$
+
+Structure represents the minimum information maintaining coherent states. Capacity represents the available degrees of freedom for transitions. For the genetic code with 64 codons, this predicts,
+
+$$
+\text{Minimum codons needed: } 64 \times 0.329 = 21.06 \approx 21,
+$$
+
+$$
+\text{Redundant codons: } 64 \times 0.671 = 42.94 \approx 43.
 $$
 
 The actual genetic code has exactly 21 outcomes (20 amino acids + 1 stop). The minimum fraction is $21/64 = 0.328125 = 32.81\%$. The redundant fraction is $43/64 = 0.671875 = 67.19\%$. The deviations from prediction: 0.27% for structure, 0.13% for capacity. This is zero-parameter prediction from discrete geometry matching molecular biology to sub-percent precision.
@@ -97,10 +97,10 @@ At this scale, something new appears. Biological systems operating at maintenanc
 
 ## The Biological Sweet Spot
 
-Agency emerges when systems reach a precise thermodynamic window. The human brain consuming 20 watts for 1.4 kg mass [^7] operates at:
+Agency emerges when systems reach a precise thermodynamic window. The human brain consuming 20 watts for 1.4 kg mass [^7] operates at,
 
 $$
-\eta_{\text{bio}} = \frac{P \cdot t}{Mc^2} \sim 0.1
+\eta_{\text{bio}} = \frac{P \cdot t}{Mc^2} \sim 0.1,
 $$
 
 representing 10% maintenance overhead—maximum sustainable fraction dedicated to pattern preservation while retaining environmental response capacity.

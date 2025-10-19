@@ -19,10 +19,10 @@ $$
 \tau_{\text{mech}} = \frac{m}{\gamma} \approx 0.1 \text{ s}
 $$
 
-Neural motor planning adds roughly 50 milliseconds [^6]. The total timescale yields maximum phoneme production rate:
+Neural motor planning adds roughly 50 milliseconds [^6]. The total timescale yields the maximum phoneme production rate,
 
 $$
-f_{\text{max}} = \frac{1}{0.15 \text{ s}} \approx 6.7 \text{ phonemes/s}
+f_{\text{max}} = \frac{1}{0.15 \text{ s}} \approx 6.7 \text{ phonemes/s}.
 $$
 
 This mechanical bottleneck determines the universal speech rate. The brain operates far below its information processing capacity—the constraint is the serial mechanical actuator, the vocal tract itself.
@@ -31,10 +31,10 @@ Languages balance phoneme inventory size against memory and articulation demands
 
 Languages with larger inventories compensate with shorter words. Rotokas uses 11 phonemes but requires longer words. !Xóõ employs 112 phonemes (including clicks) but uses fewer phonemes per word. The information rate—phonemes per second times bits per phoneme—remains constant across all strategies.
 
-With maximum rate around 6.7 phonemes per second and optimal inventory near 40 phonemes:
+With maximum rate around 6.7 phonemes per second and optimal inventory near 40 phonemes,
 
 $$
-\dot{I} = f \times \log_2 N = 6.7 \times 5.32 \approx 36 \text{ bits/s}
+\dot{I} = f \times \log_2 N = 6.7 \times 5.32 \approx 36 \text{ bits/s}.
 $$
 
 The empirical observation across all studied languages is 39.15 ± 0.39 bits per second. The 8% discrepancy reflects prosodic information—stress, intonation, rhythm—and phonotactic constraints where phoneme sequences aren't independent. The derivation captures the dominant constraint: tissue mechanics sets the rate, not thermodynamics or neural processing.
@@ -59,66 +59,66 @@ Kleiber's law—metabolic rate scaling as $P \propto M^{3/4}$—emerges from thi
 
 ## Organizational Bankruptcy Threshold
 
-Organizations are information processing systems operating under the same thermodynamic constraints as physical systems. From the [binding energy framework](/binding-energy-critical-radii-and-information-maintenance-tax), organizational overhead follows the complexity multiplier:
+Organizations are information processing systems operating under the same thermodynamic constraints as physical systems. From the [binding energy framework](/binding-energy-critical-radii-and-information-maintenance-tax), organizational overhead follows the complexity multiplier,
 
 $$
-M(\eta,d) = \phi^{2^{d-2}} \times (1-\eta)^{-\rho^*}
+M(\eta,d) = \phi^{2^{d-2}} \times (1-\eta)^{-\rho^*},
 $$
 
 where $\phi = (1+\sqrt{5})/2$ is the [golden ratio](/golden-ratio-and-prime-resonance-in-quantum-transport), $\rho^* = 3.29$ is the universal coupling constant, and $\eta$ is the dissipation coefficient representing fraction of capacity dedicated to maintenance overhead.
 
-The bankruptcy factor $(1-\eta)^{-\rho^*}$ diverges as $\eta$ approaches unity. At the critical threshold:
+The bankruptcy factor $(1-\eta)^{-\rho^*}$ diverges as $\eta$ approaches unity. At the critical threshold,
 
 $$
-\eta_c = \frac{1}{\rho^*} \approx 0.304
+\eta_c = \frac{1}{\rho^*} \approx 0.304,
 $$
 
 systems face catastrophic reorganization. Beyond 30% overhead dedicated to coordination rather than productive work, maintaining coherence requires exponentially increasing energy. This isn't gradual degradation—it's mathematical divergence.
 
-For an organization operating at $\eta = 0.3$ (approaching the threshold), the overhead multiplier reaches:
+For an organization operating at $\eta = 0.3$ (approaching the threshold), the overhead multiplier reaches,
 
 $$
-M(0.3) = (0.7)^{-3.29} \approx 2.9
+M(0.3) = (0.7)^{-3.29} \approx 2.9.
 $$
 
-Nearly a factor of 3 increase in required energy. At $\eta = 0.35$ (past the threshold):
+Nearly a factor of 3 increase in required energy. At $\eta = 0.35$ (past the threshold),
 
 $$
-M(0.35) = (0.65)^{-3.29} \approx 4.1
+M(0.35) = (0.65)^{-3.29} \approx 4.1.
 $$
 
 The overhead explodes. This threshold appears across 57 orders of magnitude in physical systems—from QCD confinement to white dwarf collapse to organizational bankruptcy. The same mathematical structure governs nuclear binding, gravitational systems, and human organizations.
 
 ## Predictable Failure Timescales
 
-Systems claiming exemption from maintenance costs fail at quantitatively predictable timescales when overhead exceeds the bankruptcy threshold. The failure timescale follows:
+Systems claiming exemption from maintenance costs fail at quantitatively predictable timescales when overhead exceeds the bankruptcy threshold. The failure timescale follows,
 
 $$
-t_{\text{failure}} = t_{\text{char}} \times \exp\left[\rho^* \times \frac{\eta_c - \eta}{\eta_c}\right]
+t_{\text{failure}} = t_{\text{char}} \times \exp\left[\rho^* \times \frac{\eta_c - \eta}{\eta_c}\right],
 $$
 
 where $t_{\text{char}}$ is characteristic organizational timescale and $\eta$ is actual overhead.
 
-Consider a company with a quarterly reporting cycle ($t_{\text{char}} = 0.25$ years) operating at $\eta = 0.35$—past the bankruptcy threshold. The framework predicts:
+Consider a company with a quarterly reporting cycle ($t_{\text{char}} = 0.25$ years) operating at $\eta = 0.35$—past the bankruptcy threshold. The framework predicts,
 
 $$
-t_{\text{failure}} = 0.25 \times \exp\left[3.29 \times \frac{0.304 - 0.35}{0.304}\right] \approx 0.22 \text{ years}
+t_{\text{failure}} = 0.25 \times \exp\left[3.29 \times \frac{0.304 - 0.35}{0.304}\right] \approx 0.22 \text{ years}.
 $$
 
 Collapse within 2-3 quarters. This matches observed behavior when high-growth companies suddenly miss targets and cascade into insolvency. The trigger isn't external shock—it's crossing the information bankruptcy threshold where maintaining organizational coherence requires more energy than available capacity.
 
-Organizations demanding constant availability accumulate maintenance debt through the $(1-\eta)^{-\rho^*}$ overhead factor. For an individual operating at $\eta = 0.95$ (5% capacity toward personal maintenance):
+Organizations demanding constant availability accumulate maintenance debt through the $(1-\eta)^{-\rho^*}$ overhead factor. For an individual operating at $\eta = 0.95$ (5% capacity toward personal maintenance),
 
 $$
-M(0.95) = (0.05)^{-3.29} \approx 229
+M(0.95) = (0.05)^{-3.29} \approx 229.
 $$
 
 Maintaining this state requires a factor of 229 increase in available energy—impossible without an external source. The system draws from stored reserves (sleep, health, relationships) until reserves deplete, typically 6-18 months. This matches empirical burnout timelines in high-intensity organizations [^10]. The math predicts the timeline.
 
-Software projects exhibit the same dynamics. Code complexity grows with features while refactoring capacity remains constant. When complexity overhead exceeds the critical threshold, more effort goes toward managing existing complexity than adding capability. For a project with a monthly release cycle and complexity overhead $\eta = 0.32$:
+Software projects exhibit the same dynamics. Code complexity grows with features while refactoring capacity remains constant. When complexity overhead exceeds the critical threshold, more effort goes toward managing existing complexity than adding capability. For a project with a monthly release cycle and complexity overhead $\eta = 0.32$,
 
 $$
-t_{\text{failure}} = 1 \times \exp\left[3.29 \times \frac{0.304 - 0.32}{0.304}\right] \approx 0.85 \text{ months}
+t_{\text{failure}} = 1 \times \exp\left[3.29 \times \frac{0.304 - 0.32}{0.304}\right] \approx 0.85 \text{ months}.
 $$
 
 Development velocity collapse within a single sprint. This matches common experience where teams suddenly "can't ship anything" despite no obvious trigger [^11]. The trigger is crossing the information bankruptcy threshold.

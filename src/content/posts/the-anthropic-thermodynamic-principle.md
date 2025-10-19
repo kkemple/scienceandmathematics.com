@@ -17,13 +17,13 @@ $$
 
 where $k_B = 1.38 \times 10^{-23}$ J/K is Boltzmann's constant and $T$ is temperature. At body temperature 310 K, each bit operation requires minimum $2.97 \times 10^{-21}$ joules. No engineering improvement can reduce this—it's thermodynamic law like conservation of energy.
 
-The human brain's 20-watt power consumption [^3] sets theoretical information processing limit,
+The human brain's 20-watt power consumption [^3] sets the theoretical information processing limit,
 
 $$
 \Gamma_{\max} = \frac{P_{\text{brain}}}{k_B T \ln 2} = \frac{20}{2.97 \times 10^{-21}} \approx 6.7 \times 10^{21} \text{ bits/s}.
 $$
 
-Actual neural computation operates roughly $10^4$ to $10^5$ times above Landauer limit—remarkably efficient for biological machinery—yielding approximately $10^{16}$ to $10^{17}$ bits per second. This represents order of magnitude estimate rather than precise calculation. The brain processes information near fundamental physical limits while maintaining energy efficiency exceeding any artificial system.
+Actual neural computation operates roughly $10^4$ to $10^5$ times above the Landauer limit—remarkably efficient for biological machinery—yielding approximately $10^{16}$ to $10^{17}$ bits per second. This represents order of magnitude estimate rather than precise calculation. The brain processes information near fundamental physical limits while maintaining energy efficiency exceeding any artificial system.
 
 ## The Dissipation Hierarchy
 
