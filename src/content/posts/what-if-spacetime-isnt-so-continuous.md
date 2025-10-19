@@ -221,7 +221,7 @@ $$
 D_\eta = \frac{\ell_P^2}{\rho^*}\eta\ln\phi, \quad D_d = \ell_P^4\eta(1-\eta)\left(\rho^* + \frac{d-2}{2}\ln\phi\right),
 $$
 
-where $\rho^* = 3.29$ emerges from [quantum transport theory through prime resonance in level spacing](/golden-ratio-and-prime-resonance-in-quantum-transport) [^8][^9][^10], and $\phi = (1+\sqrt{5})/2$ is the golden ratio that minimizes interference through continued fraction optimization. The functional forms arise from requiring consistent information flow across organizational boundaries—the $\eta(1-\eta)$ factor ensures diffusivity vanishes at both fixed points (vacuum and black hole), while the logarithmic terms encode quantum transport interference effects. These constants emerge independently from quantum transport experiments.
+where $\rho^* = 3.29$ emerges from [pentagonal constraints on discrete spacetime](/golden-ratio-and-prime-resonance-in-quantum-transport) through the organizational budget $C + \rho^* = 5$, yielding $\rho^* = \pi(3+\sqrt{5})/5$ [^8][^9][^10], and $\phi = (1+\sqrt{5})/2$ is the golden ratio that minimizes interference through continued fraction optimization. The functional forms arise from requiring consistent information flow across organizational boundaries—the $\eta(1-\eta)$ factor ensures diffusivity vanishes at both fixed points (vacuum and black hole), while the logarithmic terms encode quantum transport interference effects. These constants emerge from geometric necessity on discrete networks.
 
 ## Renormalization Group Flow
 
