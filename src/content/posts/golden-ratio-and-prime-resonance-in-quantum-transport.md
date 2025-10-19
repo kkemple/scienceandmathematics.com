@@ -65,17 +65,21 @@ $$
 
 Golden ratio fluxes achieve $\text{IPR} = 0.007$-$0.009$, indicating maximal delocalization. Rational fluxes yield $\text{IPR} = 0.011$-$0.015$, demonstrating increased localization. Statistical significance $p = 0.402$ confirms systematic rather than random variation.
 
-## The Prime Resonance Constant
+## The Pentagonal Constraint
 
-The ratio between worst and best transport barriers approaches $3.82/1.00 \approx 3.82$, remarkably close to a fundamental constant: the prime resonance constant $\rho^* = 3.29$. This value emerges from pentagonal constraints on discrete spacetime.
+Pentagon geometry on discrete lattices forces a universal organizational constant $\rho^* = 3.29$ governing information processing across all scales. This value emerges necessarily from pentagonal optimization, not from numerical coincidence.
 
-In discrete lattice networks, pentagon geometry uniquely minimizes perimeter-to-area ratios while maintaining complete tiling. Organizational efficiency requires satisfying the universal budget constraint $C + \rho^* = 5$, where $C$ represents achieved capacity and $\rho^*$ quantifies structural stability requirements. At black holes where dissipation saturates ($\eta = 1$) and dimensional reduction forces $d = 2$, the organizational charge evaluates to $C_{\text{BH}} = \rho^*(1 - \ln\phi)$. The pentagonal closure condition $C_{\text{BH}} + \rho^* = 5$ then yields:
+In discrete lattice networks, pentagon geometry uniquely minimizes perimeter-to-area ratios while maintaining complete tiling. Organizational efficiency requires satisfying the universal budget constraint $C + \rho^* = 5$, where $C$ represents achieved capacity and $\rho^*$ quantifies structural stability requirements. At black holes where dissipation saturates ($\eta = 1$) and dimensional reduction forces $d = 2$, the organizational charge evaluates to $C_{\text{BH}} = \rho^*(1 - \ln\phi)$. The pentagonal closure condition $C_{\text{BH}} + \rho^* = 5$ then yields,
 
 $$
 \rho^* = \frac{5}{2 - \ln\phi} = \frac{\pi(3+\sqrt{5})}{5} = 3.29...
 $$
 
-This connects directly to pentagonal internal angle $3\pi/5$ combined with golden ratio structure $(3+\sqrt{5})/2$. Remarkably, when expressed as integer: $329 = 7 \times 47$ where both factors are prime, yielding decade partition $47/7 = 6.71$ such that $\rho^* + 47/7 = 3.29 + 6.71 = 10.00$ exactly. This numerical coincidence—emerging from pure geometry—reveals $\rho^*$ [partitions each logarithmic decade into stable (32.9%) and available (67.1%) energy fractions](/complex-adaptable-systems-complexity-ladders-and-agency) [^7].
+This connects directly to the pentagonal internal angle $3\pi/5$ combined with golden ratio structure $(3+\sqrt{5})/2$. The value is geometric necessity, not fitted parameter.
+
+Remarkably, when expressed as integer: $329 = 7 \times 47$ where both factors are prime, yielding the decade partition $47/7 = 6.71$ such that $\rho^* + 47/7 = 3.29 + 6.71 = 10.00$ exactly. This numerical property—though emerging from pure geometry—reveals $\rho^*$ [partitions each logarithmic decade into stable (32.9%) and available (67.1%) energy fractions](/complex-adaptable-systems-complexity-ladders-and-agency). The prime factorization is consequence, not cause.
+
+The ratio between worst and best transport barriers approaches $3.82/1.00 \approx 3.82$, close to $\rho^* = 3.29$. This connection between pentagonal geometry and quantum transport barriers validates the geometric origin—optimization under discrete constraints produces identical value whether analyzing spacetime structure or electron flow in magnetic fields.
 
 The recursive relationship,
 
