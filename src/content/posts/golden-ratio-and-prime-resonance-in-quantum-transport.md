@@ -75,7 +75,7 @@ $$
 \rho^* = \frac{5}{2 - \ln\phi} = \frac{\pi(3+\sqrt{5})}{5} = 3.29...
 $$
 
-This connects directly to pentagonal internal angle $3\pi/5$ combined with golden ratio structure $(3+\sqrt{5})/2$. Remarkably, when expressed as integer: $329 = 7 \times 47$ where both factors are prime, yielding decade partition $47/7 = 6.71$ such that $\rho^* + 47/7 = 3.29 + 6.71 = 10.00$ exactly. This numerical coincidence—emerging from pure geometry—reveals $\rho^*$ partitions each logarithmic decade into stable (32.9%) and available (67.1%) energy fractions [^7].
+This connects directly to pentagonal internal angle $3\pi/5$ combined with golden ratio structure $(3+\sqrt{5})/2$. Remarkably, when expressed as integer: $329 = 7 \times 47$ where both factors are prime, yielding decade partition $47/7 = 6.71$ such that $\rho^* + 47/7 = 3.29 + 6.71 = 10.00$ exactly. This numerical coincidence—emerging from pure geometry—reveals $\rho^*$ [partitions each logarithmic decade into stable (32.9%) and available (67.1%) energy fractions](/complex-adaptable-systems-complexity-ladders-and-agency) [^7].
 
 The recursive relationship,
 
