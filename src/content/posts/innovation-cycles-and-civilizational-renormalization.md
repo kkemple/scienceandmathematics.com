@@ -29,7 +29,7 @@ $$
 M(\eta) = (1-\eta)^{-\rho^*},
 $$
 
-where $\rho^* = 3.29$ emerges from [pentagonal constraints on discrete spacetime](/golden-ratio-and-prime-resonance-in-quantum-transport). At the critical threshold $\eta_c = 1/\rho^* \approx 0.304$, overhead diverges. Systems cannot sustain 30% coordination costs—collapse or transformation becomes inevitable.
+where $\rho^* = 3.29$ emerges from [pentagonal constraints on finite lattices](/golden-ratio-and-prime-resonance-in-quantum-transport). At the critical threshold $\eta_c = 1/\rho^* \approx 0.304$, overhead diverges. Systems cannot sustain 30% coordination costs—collapse or transformation becomes inevitable.
 
 This bankruptcy threshold appears universally. The same organizational limit governs [biological systems at η ~ 0.1](/the-anthropic-thermodynamic-principle), [genetic code redundancy at 67%](/complex-adaptable-systems-complexity-ladders-and-agency), white dwarf collapse, and cosmological energy partition. Civilizations face identical constraint as quantum systems and stellar remnants—all process information on discrete substrates under thermodynamic bounds.
 

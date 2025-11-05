@@ -151,22 +151,6 @@ The organizational charge $C = 5 - \rho^*\eta$ quantifies available capacity. At
 
 The ceiling $\eta < 0.304$ sets fundamental scaling limit. Architecture must respect this threshold. Estimated maximum: approximately 10,000 coherent qubits per domain. Further scaling requires modular approach—multiple quantum processors connected through photonic networks, analogous to classical distributed computing. The constraint derives from $C + \rho^* = 5$ as organizational law governing discrete information processing.
 
-## Pentagon Across Physics
-
-The budget constraint $C + \rho^* = 5$ appears wherever discrete networks process information under capacity limits.
-
-Topological field theory derives pentagon identities from category theory applied to anyonic systems [^11]. This ensures modular invariance and unitary consistency of braiding operations. Abstract mathematics without reference to discrete spacetime.
-
-Quantum critical systems exhibit energy level ratios converging to $\phi$. Measurements of cobalt niobate at quantum phase transition reveal excitation energies in ratio 1.618 [^12], connecting E₈ symmetry to golden ratio through independent route. Different physics, same mathematics.
-
-[The genetic code allocates](/complex-adaptable-systems-complexity-ladders-and-agency) 21 minimum codons (32.81%) and 43 redundant codons (67.19%). Deviations from predicted $\rho^*/10 = 32.9\%$ and $(10-\rho^*)/10 = 67.1\%$ remain under 0.3%. A zero-parameter prediction from pentagonal decade partition.
-
-White dwarf cooling follows a [power-law](/binding-energy-critical-radii-and-information-maintenance-tax) with exponent $\nu = 0.308 \pm 0.015$ [^13]. The framework predicts $\nu = 1/\rho^* = 0.304$. Analysis of 18,937 stellar remnants confirms this within 1.3% accuracy. [Information bankruptcy at Chandrasekhar mass](/type-ia-supernova-information-theoretic-energetics) releases $4.3 \times 10^{44}$ J through $(1-\eta)^{-\rho^*}$ divergence.
-
-[Cosmological observations](/the-anthropic-thermodynamic-principle) measure dark energy $\Omega_\Lambda = 68.5\%$ and matter $\Omega_m = 31.5\%$ [^14]. Predicted partition: $(10-\rho^*)/10 = 67.1\%$ capacity, $\rho^*/10 = 32.9\%$ structure. Deviations: 2.1% and 3.8% respectively. Geometrically locked complements from $C + \rho^* = 5$.
-
-The convergence transcends coincidence when category theorists deriving pentagon identities, quantum engineers measuring $\phi$, molecular biologists counting codons, astrophysicists observing white dwarfs, and cosmologists measuring dark energy reach identical mathematical structures through separate routes without cross-pollination. Such a pattern indicates a fundamental constraint on information organization in discrete systems under thermodynamic bounds.
-
 ## Laboratory Validation Window
 
 Quantum computing provides experimental access to pentagonal constraints within controlled laboratory timescales. Cosmological measurements yield a single data point per observable. Stellar evolution operates on megayear scales. Molecular biology observes a fixed genetic code without parameter variation. Quantum computers enable systematic experimentation—tune frequencies continuously, vary qubit counts systematically, test alternative geometries, implement negative controls.
@@ -196,11 +180,3 @@ Optimization on discrete networks—whether anyonic fusion, qubit decoherence, g
 [^9]: Kim, Y., Erlandson, A., Perdue, G., Landsman, K. A., & Lensky, Y. D. (2025). Non-Abelian anyon braiding on a quantum processor. UC Santa Barbara Quantum Foundry.
 
 [^10]: Bramwell, S. T., & Gingras, M. J. P. (2001). Spin ice state in frustrated magnetic pyrochlore materials. *Science*, 294(5546), 1495-1501.
-
-[^11]: Kitaev, A. Yu. (2003). Fault-tolerant quantum computation by anyons. *Annals of Physics*, 303(1), 2-30.
-
-[^12]: Coldea, R., Tennant, D. A., Wheeler, E. M., Wawrzynska, E., Prabhakaran, D., Telling, M., Habicht, K., Smeibidl, P., & Kiefer, K. (2010). Quantum criticality in an Ising chain: Experimental evidence for emergent E₈ symmetry. *Science*, 327(5962), 177-180.
-
-[^13]: Cheng, S., Cummings, J. D., & Ménard, B. (2019). A cooling anomaly of high-mass white dwarfs. *The Astrophysical Journal*, 886(2), 100.
-
-[^14]: Planck Collaboration. (2020). Planck 2018 results. VI. Cosmological parameters. *Astronomy & Astrophysics*, 641, A6.

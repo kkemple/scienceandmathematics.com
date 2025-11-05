@@ -51,7 +51,7 @@ The emerged molecular structures—proteins, lipids, nucleic acids—become cons
 
 Before examining full biological systems, consider how the recursive ladder operates at the molecular level through the genetic code. DNA uses 4-letter alphabet (A, T, G, C) forming 3-nucleotide codons encoding 20 amino acids plus stop signal—21 outcomes total from $4^3 = 64$ possible codons. This creates redundancy. Multiple codons map to the same amino acid.
 
-The framework predicts how this redundancy distributes. From [pentagonal constraints in discrete spacetime](/what-if-spacetime-isnt-so-continuous), the organizational charge satisfies $C + \rho^* = 5$ where $\rho^* = 3.29$. This forces a decade partition for systems with base-10 scaling,
+The framework predicts how this redundancy distributes. From [pentagonal constraints on finite lattices](/what-if-spacetime-isnt-so-continuous), the organizational charge satisfies $C + \rho^* = 5$ where $\rho^* = 3.29$. This forces a decade partition for systems with base-10 scaling,
 
 $$
 f_{\text{structure}} = \frac{\rho^*}{10} = \frac{3.29}{10} = 0.329 = 32.9\%,

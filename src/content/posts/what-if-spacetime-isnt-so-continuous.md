@@ -207,7 +207,7 @@ $$
 \mathcal{M} = \mathcal{F}[\mathcal{M}],
 $$
 
-requires exactly these coordinates—four for spacetime from relativistic causality, two for organization from the necessity of tracking both dissipation $\eta$ and dimensionality $d$. The universe becomes the eigenstate of its own existence operator.
+requires exactly these coordinates—four for spacetime from relativistic causality, two for organization from the necessity of tracking both dissipation $\eta$ and dimensionality $d$. The universe becomes the eigenstate of its own existence operator, with the constraint eigenvalues $\{\pi, \phi, 10\}$ determining the stationary geometry through the variational framework.
 
 The metric has structure,
 
@@ -221,7 +221,7 @@ $$
 D_\eta = \frac{\ell_P^2}{\rho^*}\eta\ln\phi, \quad D_d = \ell_P^4\eta(1-\eta)\left(\rho^* + \frac{d-2}{2}\ln\phi\right),
 $$
 
-where $\rho^* = 3.29$ emerges from [pentagonal constraints on discrete spacetime](/golden-ratio-and-prime-resonance-in-quantum-transport) through the organizational budget $C + \rho^* = 5$, yielding $\rho^* = \pi(3+\sqrt{5})/5$ [^8][^9][^10], and $\phi = (1+\sqrt{5})/2$ is the golden ratio that minimizes interference through continued fraction optimization. The functional forms arise from requiring consistent information flow across organizational boundaries—the $\eta(1-\eta)$ factor ensures diffusivity vanishes at both fixed points (vacuum and black hole), while the logarithmic terms encode quantum transport interference effects. These constants emerge from geometric necessity on discrete networks.
+where $\rho^* = 3.29$ and $\phi = (1+\sqrt{5})/2$ are [constraint eigenvalues from the unified variational framework](/golden-ratio-and-prime-resonance-in-quantum-transport). The composite invariant $\mathcal{I} = 4\pi\phi^2 \approx 32.9$ couples isotropy ($\pi$-sector, appearing in rotational symmetry of $g_{\mu\nu}$) and recursion ($\phi$-sector, appearing in logarithmic terms), yielding $\rho^* = \mathcal{I}/10 = 4\pi\phi^2/10$ through the decade resonance eigenvalue sector. The organizational budget $C + \rho^* = 5$ reflects the $C_{10}$ symmetry constraint. The functional forms arise from requiring consistent information flow across organizational boundaries—the $\eta(1-\eta)$ factor ensures diffusivity vanishes at both fixed points (vacuum and black hole), while the logarithmic terms encode quantum transport interference effects. These constants emerge as stationary ratios of the constraint functional, not arbitrary parameters but mathematical necessities determined by the eigenvalue structure.
 
 ## Renormalization Group Flow
 
@@ -323,9 +323,9 @@ White dwarf trajectory toward the basin of attraction threshold at $R/R_S = 10^3
 
 The discrete lattice structure emerges inevitably from information theory. When reality must process its own state transitions with finite resources, a unique self-consistent solution materializes.
 
-The universe is a 6D voxel lattice updating at Planck frequency $f_P = 1.855 \times 10^{43}$ Hz. Information resides on boundaries between voxels at density $I = A/4\ell_P^2\ln 2$. Matter creates topological defects that displace the lattice, producing strain patterns we interpret as gravity. Black holes mark where the lattice terminates—the literal edge of computational substrate. The organizational fields $\eta$ and $d$ serve as genuine coordinates, evolving through renormalization group flow toward fixed points while conserving charge $\mathcal{C} = 1.71$ through Noether's theorem. This charge appears in Einstein's equations as a varying cosmological constant connecting microscopic information structure to macroscopic spacetime curvature.
+The universe as a 6D voxel lattice updating at Planck frequency $f_P = 1.855 \times 10^{43}$ Hz. Information resides on boundaries between voxels at density $I = A/4\ell_P^2\ln 2$. Matter creates topological defects that displace the lattice, producing strain patterns we interpret as gravity. Black holes mark where the lattice terminates—the literal edge of computational substrate. The organizational fields $\eta$ and $d$ serve as genuine coordinates, evolving through renormalization group flow toward fixed points while conserving charge $\mathcal{C} = 1.71$ through Noether's theorem. This charge appears in Einstein's equations as a varying cosmological constant connecting microscopic information structure to macroscopic spacetime curvature.
 
-Constants emerge from self-consistency requirements. The value $\rho^* = 3.29$ follows from quantum transport theory. The golden ratio $\phi = (1+\sqrt{5})/2$ minimizes interference through its unique continued fraction structure. Factors of 3 count spatial dimensions. These represent mathematical necessities.
+Constants emerge as [constraint eigenvalues from a unified variational framework](/golden-ratio-and-prime-resonance-in-quantum-transport) governing coherence on finite lattices. The three eigenvalue sectors—$\pi$ (isotropy closure), $\phi$ (recursive self-similarity), and the decade resonance (2×5)—arise as fixed points balancing rotational isotropy, scaling invariance, and discrete parity. The composite invariant $\mathcal{I} = 4\pi\phi^2 \approx 32.9$ couples isotropy and recursion, appearing as $\rho^* = \mathcal{I}/10 = 3.29$ through the decade resonance. The golden ratio $\phi = (1+\sqrt{5})/2$ minimizes interference through its unique continued fraction structure [1;1,1,1,...], representing the $\phi$-sector eigenvalue. These represent mathematical necessities—not arbitrary parameters but stationary ratios of the constraint functional.
 
 The framework generates specific testable predictions distinguishing it from general relativity: quantum computers should generate additional gravitational effects, black hole mergers should show dimensional phase transitions, primordial black holes should explode with quantized energy spectra, white dwarf trajectories reveal information bankruptcy mechanisms, and [Type Ia supernovae show brightness variations](/type-ia-supernova-information-theoretic-energetics) consistent with informational charge conservation.
 
@@ -350,12 +350,6 @@ with each update. The computational limits of that process force the discrete st
 [^6]: Fermi, E. (1950). *Nuclear Physics*. University of Chicago Press.
 
 [^7]: Hawking, S. W. (1975). Particle creation by black holes. *Communications in Mathematical Physics*, 43(3), 199-220.
-
-[^8]: Harper, P. G. (1955). Single band motion of conduction electrons in a uniform magnetic field. *Proceedings of the Physical Society A*, 68(10), 874.
-
-[^9]: Hofstadter, D. R. (1976). Energy levels and wave functions of Bloch electrons in rational and irrational magnetic fields. *Physical Review B*, 14(6), 2239.
-
-[^10]: Avila, A., & Jitomirskaya, S. (2009). The ten martini problem. *Annals of Mathematics*, 170(1), 303-342.
 
 [^11]: Wilson, K. G. (1975). The renormalization group: Critical phenomena and the Kondo problem. *Reviews of Modern Physics*, 47(4), 773.
 
