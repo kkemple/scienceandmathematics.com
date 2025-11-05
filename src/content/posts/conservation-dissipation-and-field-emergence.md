@@ -157,9 +157,9 @@ $$
 \eta_0 = \alpha^2 \sqrt{\frac{m_e}{M}} \approx 10^{-6},
 $$
 
-where $\alpha = e^2/(4\pi\epsilon_0\hbar c) = 1/137$ is the fine structure constant.
+where $\alpha = e^2/(4\pi\epsilon_0\hbar c) = 1/137$ is the fine structure constant. This elementary dissipation rate emerges from quantum mechanics through Fermi's golden rule—the same principle governing atomic transitions produces the baseline organizational overhead that cascades through all higher scales.
 
-Complex systems exhibit enhanced dissipation through geometric factors [^6]. Atoms achieve $\eta_a = \eta_0 \times \sqrt{a_0/r_n} \times \sqrt{Z} \approx 10^{-3}$ through nuclear-electron coupling [^15]. Molecules reach $\eta_m \approx 10^{-2}$ via additional vibrational and rotational modes. Biological systems attain $\eta_b \approx 10^{-1}$ through hierarchical organization across multiple scales. Black holes saturate the bound at $\eta = 1$, with all available energy maintaining horizon structure against Hawking radiation.
+Complex systems exhibit enhanced dissipation through geometric factors [^6]. Atoms achieve $\eta_a = \eta_0 \times \sqrt{a_0/r_n} \times \sqrt{Z} \approx 10^{-3}$ through nuclear-electron coupling [^15]. Molecules reach $\eta_m \approx 10^{-2}$ via additional vibrational and rotational modes. Biological systems attain $\eta_b \approx 10^{-1}$ through hierarchical organization across multiple scales. Black holes saturate the bound at $\eta = 1$, with all available energy maintaining horizon structure against Hawking radiation. The exponential progression—each order of magnitude representing a decade jump—emerges from the [constraint eigenvalue framework's](/golden-ratio-and-prime-resonance-in-quantum-transport) decade resonance eigenvalue, where the organizational budget $C + \rho^* = 5$ forces logarithmic spacing through the renormalization group flow.
 
 ## The Quantum Overlap Criterion
 
@@ -239,7 +239,7 @@ $$
 \dot{I} = \sum_k \eta_k \frac{E_k}{\hbar \ln 2}.
 $$
 
-Black holes saturate the theoretical limit at $10^{43}$ bits/second per solar mass through $\eta = 1$ across all modes [^12]. Physical systems operate at fractions of this bound—atoms at $10^{-3}$, molecules at $10^{-2}$, biological systems at $10^{-1}$ of maximum throughput.
+Black holes saturate the theoretical limit at $10^{43}$ bits/second per solar mass through $\eta = 1$ across all modes [^12]. This maximum rate equals the [Planck frequency](/computational-spacetime-and-the-rayleigh-jeans-resolution) $f_P = 1.855 \times 10^{43}$ Hz—the fundamental clock rate of the [voxel lattice computational substrate](/what-if-spacetime-isnt-so-continuous). Physical systems operate at fractions of this bound—atoms at $10^{-3}$, molecules at $10^{-2}$, biological systems at $10^{-1}$ of maximum throughput. The hierarchy follows exactly from the dissipation field $\eta$: each order of magnitude reduction in $\eta$ corresponds to one decade reduction in processing capacity, creating the exponential progression from quantum fields to biological systems to black holes.
 
 ## Fundamental Structure
 

@@ -101,7 +101,7 @@ $$
 \rho_{2D,total} = \rho_{2D,L} + \rho_{2D,R} = \frac{4\pi \nu}{c^2}.
 $$
 
-This factor of 2 from chirality matches the Landauer-Bekenstein-Hawking factor $N_{max} = 2N_{BH}$ discovered independently through thermodynamic analysis [^5].
+This factor of 2 from chirality matches the Landauer-Bekenstein-Hawking factor $N_{max} = 2N_{BH}$ discovered independently through thermodynamic analysis [^5]. The same doubling appears in [rotating black hole informational charge](/lets-derive-an-information-theoretic-conservation-law) where $\mathcal{C}_{\text{Kerr}} \approx 1.71(1 + J/M^2)$ reaches $3.42$ for extremal rotation—exactly twice the Schwarzschild value. Two completely different calculations—mode counting from dimensional reduction and charge conservation from renormalization group symmetry—produce the identical factor of 2. This convergence occurs because both measure the dual chiral structure on 2D horizons, where left-moving and right-moving modes remain independent.
 
 ## Photon Statistics from Voxel Dynamics
 
@@ -139,7 +139,7 @@ $$
 
 The classical factor $8\pi\nu^2/c^3$ counts modes. The quantum factor $h\nu/(e^{h\nu/k_B T} - 1)$ sets energy per mode. The product stays finite because computational limits cap the frequency, quantum statistics suppress occupation, and holography bounds total information.
 
-The UV catastrophe never happens. What appeared as a fundamental failure of classical physics becomes the foundation for understanding spacetime's discrete architecture. The catastrophe was nature's way of telling us that infinite information cannot flow through finite computational channels.
+The UV catastrophe never happens. What appeared as a fundamental failure of classical physics becomes the foundation for understanding spacetime's discrete architecture. The catastrophe was nature's way of telling us that infinite information cannot flow through finite computational channels. The three constraints—finite clock rate, holographic capacity, and quantum statistics—work together to transform the divergence into Planck's law. Each constraint addresses a different aspect: the clock rate caps frequency, holography bounds total information, and quantum statistics suppresses high-frequency occupation. Together they produce the exact quantum field theory structure from computational limits alone.
 
 ## Observable Predictions
 
@@ -171,7 +171,7 @@ The UV catastrophe pointed to something profound—classical physics assumes inf
 
 The Planck frequency $f_P$ emerges as fundamental and primary. All other scales follow: Planck length $\ell_P = c/f_P$, Planck time $t_P = 1/f_P$, Planck energy $E_P = \hbar f_P$. The universe computes at this rate. Black holes saturate it. The UV catastrophe occurs when physics requests processing beyond it.
 
-This framework connects disparate phenomena. Black hole entropy counts voxels on the horizon. [Hawking radiation](/lets-derive-an-information-theoretic-conservation-law) is information leakage through the computational boundary. [Dimensional reduction near horizons](/black-hole-horizons-and-dimensional-reduction-correspondence) optimizes processing efficiency. The same [voxel lattice architecture](/what-if-spacetime-isnt-so-continuous) underlies all three, operating at clock rate $f_P$ with information capacity set by holographic bounds. The [renormalization group flow](/information-field-theory-from-constraint-to-cosmos) emerging from this substrate, with coupling constant $\rho^* = 3.29$, generates the complete field theory structure.
+This framework connects disparate phenomena. Black hole entropy counts voxels on the horizon. [Hawking radiation](/lets-derive-an-information-theoretic-conservation-law) is information leakage through the computational boundary. [Dimensional reduction near horizons](/black-hole-horizons-and-dimensional-reduction-correspondence) optimizes processing efficiency. The same [voxel lattice architecture](/what-if-spacetime-isnt-so-continuous) underlies all three, operating at clock rate $f_P$ with information capacity set by holographic bounds. The [renormalization group flow](/information-field-theory-from-constraint-to-cosmos) emerging from this substrate, with coupling constant $\rho^* = 3.29$ from the [constraint eigenvalue framework](/golden-ratio-and-prime-resonance-in-quantum-transport), generates the complete field theory structure. The same organizational constant $\rho^*$ that governs [pentagonal information processing](/pentagonal-constraints-and-quantum-computing) and [quantum transport optimization](/golden-ratio-and-prime-resonance-in-quantum-transport) appears in the renormalization group beta functions, connecting electromagnetic field theory to discrete lattice optimization through the constraint eigenvalue structure.
 
 [^1]: Abbott, B. P., et al. (LIGO Scientific Collaboration and Virgo Collaboration) (2016). Observation of Gravitational Waves from a Binary Black Hole Merger. *Physical Review Letters*, 116(6), 061102.
 

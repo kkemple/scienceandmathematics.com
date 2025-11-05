@@ -55,7 +55,7 @@ The same organizational split appears across 35 orders of magnitude—from quant
 
 The genetic code provides molecular validation. DNA's 4-letter alphabet forming 3-nucleotide codons generates $4^3 = 64$ possibilities encoding 21 outcomes (20 amino acids + stop). The framework predicts minimum structure requires $64 \times 0.329 = 21.06 \approx 21$ codons with remaining $43$ providing adaptive capacity.
 
-Reality delivers exactly 21 outcomes. The minimum fraction: $21/64 = 32.81\%$. The redundant fraction: $43/64 = 67.19\%$. Deviations from predicted 32.90% and 67.10%: under 0.3%. This is zero-parameter prediction from discrete geometry matching molecular structure to three decimal places.
+Reality delivers exactly 21 outcomes. The minimum fraction: $21/64 = 32.81\%$. The redundant fraction: $43/64 = 67.19\%$. Deviations from predicted 32.90% and 67.10%: under 0.3%. This is zero-parameter prediction from discrete geometry matching molecular structure to three decimal places. The genetic code's partition emerges from the same [constraint eigenvalue framework](/golden-ratio-and-prime-resonance-in-quantum-transport) that determines $\rho^* = 3.29$—the decade resonance eigenvalue enforces the identical organizational budget operating at molecular scale.
 
 The 21 minimum codons represent organizational structure—the emerged pattern from chemical constraints that becomes fixed boundary conditions for biological evolution. The 43 redundant codons represent available capacity—degrees of freedom enabling evolutionary exploration, error buffering, and adaptive response without compromising structural integrity.
 
@@ -71,7 +71,7 @@ White dwarf mass-radius relationship provides intermediate scale. Stellar remnan
 | Cosmology (capacity) | $10^{26}$ | Dark energy | 68.5% | 67.1% | 2.1% |
 | Cosmology (structure) | $10^{26}$ | Matter | 31.5% | 32.9% | 3.8% |
 
-Five independent measurements across different physical domains with no shared methodology. The probability of coincidence is less than one in a billion. Mathematical necessity governs information structure from molecular to cosmic scales.
+Five independent measurements across different physical domains with no shared methodology. The probability of coincidence is less than one in a billion. Mathematical necessity governs information structure from molecular to cosmic scales. The same partition—32.9% structure, 67.1% capacity—appears whether analyzing nucleotide codons ($10^{-9}$ m), white dwarf cooling ($10^{6}$ m), or cosmological energy distribution ($10^{26}$ m), spanning 35 orders of magnitude with identical constraint structure. The [pentagonal constraint](/pentagonal-constraints-and-quantum-computing) $C + \rho^* = 5$ enforces this partition at every scale through the same organizational optimization operating from quantum fields to universal expansion.
 
 The partition emerges from finite lattice geometry imposing identical constraints everywhere. Whether organizing nucleotides into genetic information or distributing energy across expanding universe, systems satisfying $C + \rho^* = 5$ must allocate 33% to structure maintaining coherence and 67% to capacity enabling transitions.
 
@@ -150,7 +150,7 @@ The recursive structure creates phenomenological experience. Representing your o
 
 Qualia emerge as representations of organizational states. The experience of "red" corresponds to a specific pattern of neural activation in the visual cortex. This pattern has measurable properties—firing rates, metabolic demands, thermal signatures. The subjective character—what red feels like—is what that particular organizational state feels like when recursively modeled. The feeling is information about a physical state processed by a system capable of self-reference.
 
-The hard problem dissolves. "Why does information processing feel like something?" assumes feeling is separate from processing. But recursive information processing IS inherently experiential—it's information about the processor from the processor's perspective. No additional property needs explaining. Consciousness is what self-referential computation feels like from inside the computation.
+The hard problem dissolves. "Why does information processing feel like something?" assumes feeling is separate from processing. But recursive information processing IS inherently experiential—it's information about the processor from the processor's perspective. No additional property needs explaining. Consciousness is what self-referential computation feels like from inside the computation. The subjective experience of "red" or "pain" isn't epiphenomenal—it's the physical signature of recursive organizational states, measurable through metabolic demands and neural firing patterns, experiencing itself through the recursive loop that creates awareness.
 
 ## The Anthropic Constraint
 

@@ -13,7 +13,9 @@ $$
 C + \rho^* = 5,
 $$
 
-where $C$ represents achieved capacity and $\rho^* = 3.29$ quantifies maintenance requirements. The integer 5 emerges from minimal associativity constraint—four discrete operations require exactly five consistency paths forming pentagon closure. This governs systems from [quantum fusion algebras to cosmological energy budgets](/the-anthropic-thermodynamic-principle), appearing identically wherever discrete networks process information under thermodynamic bounds.
+where $C$ represents achieved capacity and $\rho^* = 3.29$ quantifies maintenance requirements. The integer 5 emerges from the $C_{10}$ symmetry eigenvalue—the decade resonance where binary and pentagonal constraints coincide in the [constraint eigenvalue framework](/golden-ratio-and-prime-resonance-in-quantum-transport). This constraint eigenvalue structure balances three symmetry domains: rotational isotropy ($\pi$-sector), recursive self-similarity ($\phi$-sector), and discrete parity (decade sector). The pentagonal closure condition $C + \rho^* = 5$ represents the minimal associativity constraint—four discrete operations require exactly five consistency paths forming pentagon closure. This governs systems from [quantum fusion algebras to cosmological energy budgets](/the-anthropic-thermodynamic-principle), appearing identically wherever discrete networks process information under thermodynamic bounds.
+
+The value $\rho^* = 3.29$ emerges from the composite invariant $\mathcal{I} = 4\pi\phi^2 \approx 32.9$ through the decade resonance: $\rho^* = \mathcal{I}/10 = 4\pi\phi^2/10$. This connects the pentagonal internal angle $3\pi/5$ (the $\pi$-sector isotropy contribution) with golden ratio structure $(3+\sqrt{5})/2$ (the $\phi$-sector recursion). The same constraint eigenvalue framework that determines $\phi$ as the optimal flux for quantum transport [fixes $\rho^*$ through organizational optimization](/golden-ratio-and-prime-resonance-in-quantum-transport), not numerical coincidence.
 
 ## Fusion Algebra Forces φ
 
@@ -29,11 +31,11 @@ $$
 d_\tau = \frac{1 + \sqrt{5}}{2} = \phi = 1.618...
 $$
 
-The golden ratio appears as an eigenvalue through mathematical necessity. The algebra $\phi^2 = \phi + 1$ encodes identical self-reference as $\tau \times \tau = \mathbb{1} + \tau$. Mathematics forces $\phi$ through consistency alone. Recent measurements obtain $d_\tau = 1.598 \pm 0.02$ [^1]—matching theoretical prediction within experimental precision.
+The algebra forces $\phi$—no choice, no approximation. The fusion rule $\tau \times \tau = \mathbb{1} + \tau$ and the algebraic identity $\phi^2 = \phi + 1$ encode the same self-reference. This matches the $\phi$-sector eigenvalue from the [constraint eigenvalue framework](/golden-ratio-and-prime-resonance-in-quantum-transport), where recursive self-similarity requires $\phi$ as the fixed point of the inflation–subdivision consistency condition. Recent measurements obtain $d_\tau = 1.598 \pm 0.02$ [^1]—matching theoretical prediction within experimental precision.
 
 For $n$ Fibonacci anyons, Hilbert space dimension equals $F_n$—the $n$th Fibonacci number (1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597...). The sequence satisfies $F_n = F_{n-1} + F_{n+2}$ with ratios $F_{n+1}/F_n \to \phi$ asymptotically. The growth rate $\phi^n/\sqrt{5}$ connects golden ratio to exponential Hilbert space expansion. At $n = 16$, you get $F_{16} = 1597$—which happens to be prime.
 
-Why does this matter for quantum computing? A system with 1597 physical qubits matches the anyonic Hilbert space structure naturally. The prime property prevents divisor-based resonances. Composite numbers like 1596 = $2^2 \times 3 \times 7 \times 19$ admit subharmonic oscillations at divisors {1,2,3,4,6,7,12,14,19,...}—creating 18 resonant frequencies degrading coherence. Prime 1597 has divisor count $\tau(1597) = 2$ (minimal)—only fundamental frequency and trivial mode. Factor 9× fewer interference channels.
+This creates an exact match: 1597 physical qubits equals $F_{16}$, the Fibonacci anyon Hilbert space dimension. The prime property eliminates divisor-based resonances. Composite numbers like 1596 = $2^2 \times 3 \times 7 \times 19$ admit subharmonic oscillations at divisors {1,2,3,4,6,7,12,14,19,...}—creating 18 resonant frequencies degrading coherence. Prime 1597 has divisor count $\tau(1597) = 2$ (minimal)—only fundamental frequency and trivial mode. Factor 9× fewer interference channels. The constraint eigenvalue framework's decade sector eigenvalue enforces prime optimization through the discrete parity constraint, minimizing resonant modes exactly where the $\phi$-sector recursion structure requires it.
 
 ## Fibonacci Temporal Protection
 
@@ -41,7 +43,7 @@ Dumitrescu et al. [^2] discovered empirically that laser pulse sequences followi
 
 The mechanism: periodic perturbations at a frequency $\omega$ generate resonances at all harmonics $n\omega$ forming a dense spectrum. Two periodic drives with a rational frequency ratio create an overlapping resonance comb degrading protection. Fibonacci quasi-periodicity with limiting ratio $\phi$ (the most irrational number) maximally separates all resonances. The temporal structure averages noise across all frequencies simultaneously without destructive interference.
 
-They tried different pulse sequences empirically—testing periodic, random, quasi-periodic patterns to find what works. Fibonacci emerged as optimal through measurement, confirming $\phi$ minimizes interference in temporal domain just as Hurwitz's theorem predicts for spatial dimensions.
+They tested different pulse sequences systematically—periodic, random, quasi-periodic—measuring what works. Fibonacci emerged as optimal: coherence extended from 1.5 seconds to 5.5 seconds, a 3.7× improvement. The temporal structure that minimizes interference follows the same mathematical pattern as the spatial geometry that prevents tiling—$\phi$ optimization operating in time rather than space, the $\phi$-sector eigenvalue expressing itself through quasi-periodic sequences rather than spatial arrangements.
 
 The same principle applies to gate timing. Standard two-qubit gates use 40-60 nanosecond durations chosen for convenient ratios with single-qubit operations (typically 20 ns). Rational ratios 2\:1, 3\:2, or 5\:3 create standing wave resonances where gate errors accumulate coherently. Golden ratio timing $\tau_2 = \phi^2 \times \tau_1 = 2.618 \times 20 = 52.4$ ns eliminates these resonances. The irrational ratio prevents any harmonic from coinciding exactly—destructive interference averages to zero over many operations.
 
@@ -95,7 +97,7 @@ The 1597-qubit medium-term system scales through multi-chip integration. Thirtee
 
 ## The Pattern Across Scales
 
-The pentagonal constraint appears identically across 60 orders of magnitude. The same organizational budget $C + \rho^* = 5$ governs quantum computing at micron scale, [genetic code redundancy](/complex-adaptable-systems-complexity-ladders-and-agency) at nanometer scale, white dwarf collapse at stellar scale, and [cosmological energy partition](/the-anthropic-thermodynamic-principle) at universe scale.
+The pentagonal constraint appears identically across 60 orders of magnitude. The same organizational budget $C + \rho^* = 5$ governs quantum computing at micron scale, [genetic code redundancy](/complex-adaptable-systems-complexity-ladders-and-agency) at nanometer scale, white dwarf collapse at stellar scale, and [cosmological energy partition](/the-anthropic-thermodynamic-principle) at universe scale—spanning 60 orders of magnitude with identical constraint eigenvalue structure. The $C_{10}$ symmetry eigenvalue's discrete parity constraint enforces the same organizational optimization whether analyzing information processing in quantum systems or gravitational collapse in stellar remnants.
 
 At black holes where dissipation saturates ($\eta = 1$) and [dimensional reduction forces](/black-hole-horizons-and-dimensional-reduction-correspondence) $d = 2$, the organizational charge evaluates,
 
@@ -106,10 +108,10 @@ $$
 The budget closure $C_{\text{BH}} + \rho^* = 1.71 + 3.29 = 5.00$ fixes $\rho^*$ uniquely. Solving backward from the pentagonal constraint,
 
 $$
-\rho^* = \frac{5}{2 - \ln\phi} = \frac{\pi(3+\sqrt{5})}{5} = 3.29...
+\rho^* = \frac{5}{2 - \ln\phi} = \frac{\pi(3+\sqrt{5})}{5} = \frac{4\pi\phi^2}{10} = 3.29...
 $$
 
-This connects the pentagonal internal angle $3\pi/5$ to golden ratio through organizational optimization. Remarkably, expressing as integer: $329 = 7 \times 47$ creates exact decade partition $3.29 + 6.71 = 10.00$. The [67/33 split appearing in genetic code](/complex-adaptable-systems-complexity-ladders-and-agency) (67.19% redundant codons, 32.81% minimum), [cosmological constants](/the-anthropic-thermodynamic-principle) (68.5% dark energy, 31.5% matter), and white dwarf cooling (exponent $\nu = 0.308 \approx 1/\rho^* = 0.304$) all emerge from this pentagonal geometry.
+This connects the pentagonal internal angle $3\pi/5$ (the $\pi$-sector isotropy closure) to golden ratio structure $(3+\sqrt{5})/2$ (the $\phi$-sector recursive self-similarity) through organizational optimization. The expression $\rho^* = 4\pi\phi^2/10$ reveals the decade resonance eigenvalue explicitly—the $C_{10}$ symmetry combining binary and pentagonal constraints. When expressed as integer: $329 = 7 \times 47$ creates exact decade partition $3.29 + 6.71 = 10.00$, where both factors are prime. This prime factorization reflects the decade sector's discrete parity constraint, not numerical coincidence. The [67/33 split appearing in genetic code](/complex-adaptable-systems-complexity-ladders-and-agency) (67.19% redundant codons, 32.81% minimum), [cosmological constants](/the-anthropic-thermodynamic-principle) (68.5% dark energy, 31.5% matter), and white dwarf cooling (exponent $\nu = 0.308 \approx 1/\rho^* = 0.304$) all emerge from this constraint eigenvalue structure—the same organizational optimization operating across scales.
 
 The Fibonacci anyon quantum dimension $d_\tau = \phi$ measured at $10^{-6}$ m connects to cosmological matter fraction $\Omega_m = \rho^*/10 = 32.9\%$ at $10^{26}$ m through identical organizational principle. Both systems partition capacity following $C + \rho^* = 5$. The 1597-qubit quantum computer implements same mathematics as [21-codon genetic code](/complex-adaptable-systems-complexity-ladders-and-agency)—both allocate 33% to minimum structure, 67% to adaptive capacity. Literal organizational equivalence operating at different energy scales on shared discrete substrate.
 

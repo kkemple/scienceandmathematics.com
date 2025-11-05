@@ -39,7 +39,7 @@ $$
 I_H = \frac{A_H}{4\ell_P^2 \ln 2} \approx 10^{123} \text{ bits}.
 $$
 
-Two completely different physical principles—thermodynamics and holography—converge on the same limit. Continuous spacetime requires infinite information; the universe provides $10^{123}$ bits. This mismatch makes continuous spacetime impossible.
+Two completely different physical principles—thermodynamics (counting energy-time work) and holography (counting surface area units)—converge on the identical limit $10^{123}$ bits. This convergence occurs because both measure the same fundamental constraint: the universe's computational capacity. Continuous spacetime requires infinite information; the universe provides $10^{123}$ bits. This mismatch makes continuous spacetime impossible.
 
 Information theory provides the resolution. Both action and spacetime reduce to information updates constrained by thermodynamics and quantum mechanics. The Margolus-Levitin theorem establishes that processing requires minimum time per operation,
 
@@ -117,7 +117,7 @@ $$
 \mathcal{L} = \mathcal{U}[\mathcal{L}],
 $$
 
-represents a lattice structure remaining invariant under its own update dynamics. This self-consistency requirement yields a unique solution—a cubic lattice with spacing $\ell_P$ that updates every $t_P$ and stores information on boundaries at density,
+represents a lattice structure remaining invariant under its own update dynamics. This self-consistency requirement breaks the circularity: instead of action needing spacetime and spacetime needing action, both emerge from the constraint that the computational substrate must process its own state transitions. This yields a unique solution—a cubic lattice with spacing $\ell_P$ that updates every $t_P$ and stores information on boundaries at density,
 
 $$
 I = \frac{A}{4\ell_P^2\ln 2},
@@ -291,13 +291,13 @@ $$
 4\pi\phi^2 = 10\rho^*,
 $$
 
-exact to four significant figures: $4\pi \times 2.618 = 32.899$ while $10 \times 3.29 = 32.90$. This exact relationship reveals $\rho^*$ as,
+exact to four significant figures: $4\pi \times 2.618 = 32.899$ while $10 \times 3.29 = 32.90$. This exact relationship connects the [constraint eigenvalue framework's](/golden-ratio-and-prime-resonance-in-quantum-transport) composite invariant $\mathcal{I} = 4\pi\phi^2$ to the decade resonance eigenvalue through $\rho^* = \mathcal{I}/10$. The identity reveals $\rho^*$ as,
 
 $$
 \rho^* = \frac{\pi(3+\sqrt{5})}{5},
 $$
 
-connecting prime resonance to the golden ratio and circle geometry. The refined formula becomes,
+connecting the $\pi$-sector (isotropy) and $\phi$-sector (recursion) eigenvalues to the decade resonance. The refined formula becomes,
 
 $$
 \alpha^{-1} = 2\pi(3+\sqrt{5})\phi^3 = 139.37.
@@ -309,7 +309,7 @@ $$
 \alpha^{-1} = 2\pi(3+\sqrt{5})\phi^3\left(1 - \frac{\rho^*}{200}\right) = 137.08,
 $$
 
-where the factor 200 = $2 \times 10^2$ represents dual chirality integrated over two organizational decades. The observed value is 137.035999206(11). The framework predicts the fine structure constant to 0.03% accuracy from pure geometry using only $\pi$, $\phi$, and their structural relationships.
+where the factor 200 = $2 \times 10^2$ represents dual chirality integrated over two organizational decades. The observed value is 137.035999206(11). The framework predicts the fine structure constant to 0.03% accuracy from pure geometry using only $\pi$, $\phi$, and their structural relationships—no adjustable parameters, no fitting. The electromagnetic coupling strength emerges from the same constraint eigenvalue structure that governs [quantum transport optimization](/golden-ratio-and-prime-resonance-in-quantum-transport) and [pentagonal information processing](/pentagonal-constraints-and-quantum-computing).
 
 Information-dense systems with high $\eta$ should curve spacetime beyond their mass by factor $(1 + \eta M/M_0)$, where $M_0$ is a characteristic mass scale. A quantum computer processing information curves spacetime differently than an inert mass of the same energy. The correction scales as $\eta M$—negligible for atoms where $\eta \sim 10^{-6}$ but potentially measurable for dense quantum systems approaching $\eta \sim 0.1$ with precision atom interferometry achieving $10^{-9}$ gravitational potential resolution.
 
