@@ -21,7 +21,7 @@ $$
 Q = \int_\Sigma \sqrt{g} \, n^\mu dS_\mu,
 $$
 
-remains constant in time. This is Gauss's theorem in curved spacetime—the total "charge" Q is conserved.
+remains constant in time. This is Gauss's theorem in curved spacetime—the total "charge" $Q$ is conserved.
 
 Specific field equations follow from introducing an action functional $S[\phi]$ where $\phi$ represents field degrees of freedom. Noether's theorem connects symmetries to conserved currents [^1],
 
@@ -45,7 +45,7 @@ $$
 \mathcal{L} = -\frac{1}{4}F_{\mu\nu}F^{\mu\nu},
 $$
 
-where $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$ is the field tensor. Varying the action gives Maxwell's equations [^13],
+where $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$ is the field tensor. Varying the action gives Maxwell's equations [^3],
 
 $$
 \partial_\mu F^{\mu\nu} = 0, \quad \partial_{[\mu}F_{\nu\rho]} = 0.
@@ -67,7 +67,7 @@ $$
 S[\phi] = \int d^4x \sqrt{-g} \left[-\frac{1}{2}\partial_\mu \phi \partial^\mu \phi - V(\phi)\right].
 $$
 
-This yields the Klein-Gordon equation [^3] [^4],
+This yields the Klein-Gordon equation [^4] [^5],
 
 $$
 \Box \phi + \frac{dV}{d\phi} = 0,
@@ -89,7 +89,7 @@ encoding probability flux or particle number conservation.
 
 ## Fluid Dynamics from Galilean Symmetry
 
-For non-relativistic fluids, impose Galilean rather than Lorentz invariance [^5]. The conserved quantities are mass and momentum. Mass conservation gives,
+For non-relativistic fluids, impose Galilean rather than Lorentz invariance [^6]. The conserved quantities are mass and momentum. Mass conservation gives,
 
 $$
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0,
@@ -127,7 +127,7 @@ $$
 
 where $\omega_k$ represents the natural frequency from conservative dynamics, $\eta_k$ quantifies dissipation strength for mode k, $\phi_k^0$ denotes the thermal equilibrium value, and $\xi_k(t)$ describes Gaussian white noise with correlation $\langle \xi_k(t) \xi_{k'}(t') \rangle = \delta_{kk'} \delta(t-t')$.
 
-The dissipation coefficient connects microscopic relaxation to macroscopic dynamics [^6][^7],
+The dissipation coefficient connects microscopic relaxation to macroscopic dynamics [^7][^8],
 
 $$
 \eta_k = \frac{\Gamma_k}{E_0/\hbar},
@@ -137,7 +137,7 @@ where $\Gamma_k$ quantifies thermal relaxation rate and $E_0$ sets the character
 
 ## Microscopic Origin of Dissipation
 
-Quantum mechanics determines $\eta$ through system-environment coupling strength. Fermi's golden rule yields the transition rate [^14],
+Quantum mechanics determines $\eta$ through system-environment coupling strength. Fermi's golden rule yields the transition rate [^9],
 
 $$
 \Gamma = \frac{2\pi}{\hbar}|g|^2 \rho(E),
@@ -159,7 +159,7 @@ $$
 
 where $\alpha = e^2/(4\pi\epsilon_0\hbar c) = 1/137$ is the fine structure constant. This elementary dissipation rate emerges from quantum mechanics through Fermi's golden rule—the same principle governing atomic transitions produces the baseline organizational overhead that cascades through all higher scales.
 
-Complex systems exhibit enhanced dissipation through geometric factors [^6]. Atoms achieve $\eta_a = \eta_0 \times \sqrt{a_0/r_n} \times \sqrt{Z} \approx 10^{-3}$ through nuclear-electron coupling [^15]. Molecules reach $\eta_m \approx 10^{-2}$ via additional vibrational and rotational modes. Biological systems attain $\eta_b \approx 10^{-1}$ through hierarchical organization across multiple scales. Black holes saturate the bound at $\eta = 1$, with all available energy maintaining horizon structure against Hawking radiation. The exponential progression—each order of magnitude representing a decade jump—emerges from the [constraint eigenvalue framework's](/golden-ratio-and-prime-resonance-in-quantum-transport) decade resonance eigenvalue, where the organizational budget $C + \rho^* = 5$ forces logarithmic spacing through the renormalization group flow.
+Complex systems exhibit enhanced dissipation through geometric factors [^7]. Atoms achieve $\eta_a = \eta_0 \times \sqrt{a_0/r_n} \times \sqrt{Z} \approx 10^{-3}$ through nuclear-electron coupling [^10]. Molecules reach $\eta_m \approx 10^{-2}$ via additional vibrational and rotational modes. Biological systems attain $\eta_b \approx 10^{-1}$ through hierarchical organization across multiple scales. Black holes saturate the bound at $\eta = 1$, with all available energy maintaining horizon structure against Hawking radiation. The exponential progression—each order of magnitude representing a decade jump—emerges from the [constraint eigenvalue framework's](/golden-ratio-and-prime-resonance-in-quantum-transport) decade resonance eigenvalue, where the organizational budget $C + \rho^* = 5$ forces logarithmic spacing through the renormalization group flow.
 
 ## The Quantum Overlap Criterion
 
@@ -177,7 +177,7 @@ $$
 \lambda = \frac{\hbar}{\sqrt{2mE_0}}.
 $$
 
-Phase transitions occur at critical overlap values [^9]. The [uncertainty principle constrains wavelength-position products](/fourier-transforms-and-the-uncertainty-principle) through Fourier conjugacy. Bose-Einstein condensation emerges when $n \lambda_T^3 \approx 2.612$, with thermal de Broglie wavelength $\lambda_T = h/\sqrt{2\pi m k_B T}$. Fermi degeneracy appears at $n \lambda_F^3 \approx 1$. Gravitational collapse initiates when density reaches $n \approx 1/\lambda_g^3$ with $\lambda_g = \hbar/\sqrt{GMm^2/r}$.
+Phase transitions occur at critical overlap values [^11]. The [uncertainty principle constrains wavelength-position products](/fourier-transforms-and-the-uncertainty-principle) through Fourier conjugacy. Bose-Einstein condensation emerges when $n \lambda_T^3 \approx 2.612$, with thermal de Broglie wavelength $\lambda_T = h/\sqrt{2\pi m k_B T}$. Fermi degeneracy appears at $n \lambda_F^3 \approx 1$. Gravitational collapse initiates when density reaches $n \approx 1/\lambda_g^3$ with $\lambda_g = \hbar/\sqrt{GMm^2/r}$.
 
 Distinct perturbation mechanisms drive transitions through different pathways. Thermal fluctuations modify wavelength as $\lambda \propto T^{-1/2}$. Geometric compression alters density following $n \propto r^{-3}$. Interaction strength affects coherence length through $\lambda \propto \exp(1/g_{int})$ where $g_{int}$ quantifies coupling strength.
 
@@ -191,7 +191,7 @@ $$
 
 The first term $\{\phi, H\}$ represents conservative Hamiltonian evolution from the action principle. The second term drives dissipation toward equilibrium. The third term adds thermal fluctuations maintaining detailed balance.
 
-The fluctuation-dissipation theorem establishes thermal equilibrium [^7],
+The fluctuation-dissipation theorem establishes thermal equilibrium [^8],
 
 $$
 P(\phi_k) \propto \exp\left(-\frac{E_k}{k_B T}\right),
@@ -217,7 +217,7 @@ $$
 
 where kinematic viscosity $\nu = \eta v_{th}^2/\omega_v$ relates dissipation coefficient to thermal velocity and vorticity frequency.
 
-Gravitational systems governed by Einstein's equations [^10],
+Gravitational systems governed by Einstein's equations [^12],
 
 $$
 R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R = 8\pi G T_{\mu\nu},
@@ -227,7 +227,7 @@ exhibit effective dissipation $\eta_g = (r_s/r)^{\alpha}$ where $r_s = 2GM/c^2$ 
 
 ## Information Processing Interpretation
 
-Information theory reveals the fundamental connection [^11],
+Information theory reveals the fundamental connection [^13],
 
 $$
 \frac{dI_k}{dt} = \frac{\eta_k}{\ln 2},
@@ -239,7 +239,7 @@ $$
 \dot{I} = \sum_k \eta_k \frac{E_k}{\hbar \ln 2}.
 $$
 
-Black holes saturate the theoretical limit at $10^{43}$ bits/second per solar mass through $\eta = 1$ across all modes [^12]. This maximum rate equals the [Planck frequency](/computational-spacetime-and-the-rayleigh-jeans-resolution) $f_P = 1.855 \times 10^{43}$ Hz—the fundamental clock rate of the [voxel lattice computational substrate](/what-if-spacetime-isnt-so-continuous). Physical systems operate at fractions of this bound—atoms at $10^{-3}$, molecules at $10^{-2}$, biological systems at $10^{-1}$ of maximum throughput. The hierarchy follows exactly from the dissipation field $\eta$: each order of magnitude reduction in $\eta$ corresponds to one decade reduction in processing capacity, creating the exponential progression from quantum fields to biological systems to black holes.
+Black holes saturate the theoretical limit at $10^{43}$ bits/second per solar mass through $\eta = 1$ across all modes [^14]. This maximum rate equals the [Planck frequency](/computational-spacetime-and-the-rayleigh-jeans-resolution) $f_P = 1.855 \times 10^{43}$ Hz—the fundamental clock rate of the [voxel lattice computational substrate](/what-if-spacetime-isnt-so-continuous). Physical systems operate at fractions of this bound—atoms at $10^{-3}$, molecules at $10^{-2}$, biological systems at $10^{-1}$ of maximum throughput. The hierarchy follows exactly from the dissipation field $\eta$: each order of magnitude reduction in $\eta$ corresponds to one decade reduction in processing capacity, creating the exponential progression from quantum fields to biological systems to black holes.
 
 ## Fundamental Structure
 
@@ -251,26 +251,26 @@ The exponential hierarchy in $\eta$ reflects organizational complexity—each or
 
 [^2]: Yang, C. N., & Mills, R. L. (1954). Conservation of Isotopic Spin and Isotopic Gauge Invariance. *Physical Review*, 96(1), 191-195.
 
-[^3]: Klein, O. (1926). Quantentheorie und fünfdimensionale Relativitätstheorie. *Zeitschrift für Physik*, 37(12), 895-906.
+[^3]: Jackson, J. D. (1999). *Classical Electrodynamics* (3rd ed.). Wiley.
 
-[^4]: Gordon, W. (1926). Der Comptoneffekt nach der Schrödingerschen Theorie. *Zeitschrift für Physik*, 40(1-2), 117-133.
+[^4]: Klein, O. (1926). Quantentheorie und fünfdimensionale Relativitätstheorie. *Zeitschrift für Physik*, 37(12), 895-906.
 
-[^5]: Landau, L. D., & Lifshitz, E. M. (1987). *Fluid Mechanics* (2nd ed.). Pergamon Press.
+[^5]: Gordon, W. (1926). Der Comptoneffekt nach der Schrödingerschen Theorie. *Zeitschrift für Physik*, 40(1-2), 117-133.
 
-[^6]: Zwanzig, R. (1960). Ensemble Method in the Theory of Irreversibility. *Journal of Chemical Physics*, 33(5), 1338-1341.
+[^6]: Landau, L. D., & Lifshitz, E. M. (1987). *Fluid Mechanics* (2nd ed.). Pergamon Press.
 
-[^7]: Kubo, R. (1957). Statistical-Mechanical Theory of Irreversible Processes. *Journal of the Physical Society of Japan*, 12(6), 570-586.
+[^7]: Zwanzig, R. (1960). Ensemble Method in the Theory of Irreversibility. *Journal of Chemical Physics*, 33(5), 1338-1341.
 
-[^9]: Pitaevskii, L., & Stringari, S. (2003). *Bose-Einstein Condensation*. Oxford University Press.
+[^8]: Kubo, R. (1957). Statistical-Mechanical Theory of Irreversible Processes. *Journal of the Physical Society of Japan*, 12(6), 570-586.
 
-[^10]: Weinberg, S. (1972). *Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity*. John Wiley & Sons.
+[^9]: Sakurai, J. J., & Napolitano, J. (2017). *Modern Quantum Mechanics* (2nd ed.). Cambridge University Press.
 
-[^11]: Shannon, C. E. (1948). A Mathematical Theory of Communication. *Bell System Technical Journal*, 27(3), 379-423.
+[^10]: Ashcroft, N. W., & Mermin, N. D. (1976). *Solid State Physics*. Holt, Rinehart and Winston.
 
-[^12]: Lloyd, S. (2000). Ultimate physical limits to computation. *Nature*, 406(6799), 1047-1054.
+[^11]: Pitaevskii, L., & Stringari, S. (2003). *Bose-Einstein Condensation*. Oxford University Press.
 
-[^13]: Jackson, J. D. (1999). *Classical Electrodynamics* (3rd ed.). Wiley.
+[^12]: Weinberg, S. (1972). *Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity*. John Wiley & Sons.
 
-[^14]: Sakurai, J. J., & Napolitano, J. (2017). *Modern Quantum Mechanics* (2nd ed.). Cambridge University Press.
+[^13]: Shannon, C. E. (1948). A Mathematical Theory of Communication. *Bell System Technical Journal*, 27(3), 379-423.
 
-[^15]: Ashcroft, N. W., & Mermin, N. D. (1976). *Solid State Physics*. Holt, Rinehart and Winston.
+[^14]: Lloyd, S. (2000). Ultimate physical limits to computation. *Nature*, 406(6799), 1047-1054.
