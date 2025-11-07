@@ -61,7 +61,7 @@ In the dot-com bubble, short-sale constraints created asymmetric liquidity. Inte
 
 Modern banks face multiple overlapping capital requirements that create hard stops on participation in reflexive episodes. Basel III mandates include Tier 1 capital ratio ≥4% of risk-weighted assets, leverage ratio ≥4%, with higher requirements for systemically important banks.
 
-In the 2008 crisis, major investment banks operated with leverage ratios as high as 40\:1. **At 40\:1 leverage, a 2.5% decline in asset values wipes out all equity.** When mark-to-market accounting forced asset write-downs, margin calls triggered forced sales at fire-sale prices, requiring immediate mark-downs of similar assets across the system. This created a vicious cycle: write-downs → margin calls → forced sales → lower prices → more write-downs.
+In the 2008 crisis, major investment banks operated with leverage ratios as high as 40\:1. **At 40:1 leverage, a 2.5% decline in asset values wipes out all equity.** When mark-to-market accounting forced asset write-downs, margin calls triggered forced sales at fire-sale prices, requiring immediate mark-downs of similar assets across the system. This created a vicious cycle: write-downs → margin calls → forced sales → lower prices → more write-downs.
 
 The leverage constraint became absolutely binding on September 15, 2008, when Lehman Brothers filed for bankruptcy with \$639 billion in assets and \$613 billion in debts. Lehman held 906,000 derivative transactions with \$35 trillion notional value and over 200 subsidiaries in 21 countries. The interconnectedness meant counterparty risk calculations became intractable overnight. The TED spread spiked to 465 basis points (bp) versus a normal ~30bp. Corporate commercial paper outstanding fell from \$2.2 trillion to ~\$1.2 trillion in two months. These were not reflexive perceptions—they were hard constraints on institutional capacity to extend credit.
 
@@ -159,7 +159,7 @@ When constraints bound, the result was catastrophic: \$1.755 trillion in market 
 
 ### 2008 Crisis: Network Percolation Threshold
 
-House prices rose 92% cumulatively from 1996-2006 versus only 27% from 1890-1996. The price-credit-price spiral featured rising prices enabling increased lending enabling more demand enabling higher prices. Financial engineering amplified leverage through multiple layers: major investment banks operated with leverage ratios as high as 40:1.
+House prices rose 92% cumulatively from 1996-2006 versus only 27% from 1890-1996. The price-credit-price spiral featured rising prices enabling increased lending enabling more demand enabling higher prices. Financial engineering amplified leverage through multiple layers: major investment banks operated with leverage ratios as high as 40\:1.
 
 Constraint analysis would have identified the network topology risk. Lehman Brothers held 906,000 derivative transactions with \$35 trillion notional value and over 200 subsidiaries in 21 countries. Network analysis measuring degree centrality and betweenness would have revealed Lehman as a critical node whose failure would exceed the percolation threshold for systemic contagion. The constraint wasn't just leverage ratios—it was the network structure itself.
 
