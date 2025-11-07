@@ -152,7 +152,7 @@ $$
 \nu = \frac{1}{\rho^*} = 0.304,
 $$
 
-determines critical behavior. Systems approaching $\eta = 1$ exhibit power-law divergences with this universal exponent, explaining [white dwarf information bankruptcy trajectories](/binding-energy-as-information-maintenance-tax) and predicting similar transitions in quantum computing architectures.
+determines critical behavior. Systems approaching $\eta = 1$ exhibit power-law divergences with this universal exponent, explaining [white dwarf information bankruptcy trajectories](/binding-energy-critical-radii-and-information-maintenance-tax) and predicting similar transitions in quantum computing architectures.
 
 ## Field Theory from RG Flow
 

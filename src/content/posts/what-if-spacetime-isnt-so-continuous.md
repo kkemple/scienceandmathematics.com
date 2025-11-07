@@ -173,7 +173,7 @@ Black holes manifest as maximum compression. At the event horizon $r = r_s$ (whe
 
 The lattice structure alone cannot capture all physical phenomena—we need additional fields tracking organizational state. Each voxel carries organizational state in addition to position, capturing how voxels process information throughout the universe.
 
-The dissipation field $\eta$ measures what fraction of energy [maintains structure against thermal entropy](/binding-energy-as-information-maintenance-tax). From [quantum mechanics and Fermi's golden rule](/conservation-dissipation-and-field-emergence) [^6], the elementary dissipation rate is,
+The dissipation field $\eta$ measures what fraction of energy [maintains structure against thermal entropy](/binding-energy-critical-radii-and-information-maintenance-tax). From [quantum mechanics and Fermi's golden rule](/conservation-dissipation-and-field-emergence) [^6], the elementary dissipation rate is,
 
 $$
 \eta_0 = \alpha^2\sqrt{\frac{m_e}{m_p}} \approx 10^{-6},
