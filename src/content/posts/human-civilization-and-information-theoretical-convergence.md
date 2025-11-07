@@ -5,11 +5,11 @@ pubDate: '2025-08-14'
 
 Human societies consistently create systems that exhibit remarkably information-theoretical patterns. This phenomenon appears across all civilizations, time periods, and scales—from ancient calendar systems to modern organizational structures. These patterns emerge from a fundamental logical chain:
 
-**Information processing has thermodynamic costs.** Landauer's principle establishes that any logically irreversible information operation must dissipate energy [^1]. This is a physical law: processing information requires work, and work requires energy.
+- **Information processing has thermodynamic costs:** Landauer's principle establishes that any logically irreversible information operation must dissipate energy [^1]. This is a physical law: processing information requires work, and work requires energy.
 
-**Biological systems inherit these constraints.** The human brain demonstrates this directly: it consumes 20 watts—approximately 20% of total body energy—despite comprising only 2% of body mass [^2]. The nervous system compresses sensory input through hierarchical filtering stages [^3]. Each compression stage requires energy according to thermodynamic principles. Information processing in biological systems is constrained by the same physical laws that govern all information systems.
+- **Biological systems inherit these constraints:** The human brain demonstrates this directly: it consumes 20 watts—approximately 20% of total body energy—despite comprising only 2% of body mass [^2]. The nervous system compresses sensory input through hierarchical filtering stages [^3]. Each compression stage requires energy according to thermodynamic principles. Information processing in biological systems is constrained by the same physical laws that govern all information systems.
 
-**Human social systems are physical systems made of biological agents.** Organizations, markets, and civilizations are networks of biological information processors (humans) coordinating through information exchange. Every decision, communication, and coordination requires biological agents to process information, which requires energy, which faces thermodynamic constraints.
+- **Human social systems are physical systems made of biological agents:** Organizations, markets, and civilizations are networks of biological information processors (humans) coordinating through information exchange. Every decision, communication, and coordination requires biological agents to process information, which requires energy, which faces thermodynamic constraints.
 
 **Therefore, social systems inherit these constraints.** If information processing has thermodynamic costs, and biological systems face these constraints, and social systems are made of biological information processors, then social systems must operate under the same fundamental constraints. This is a logical consequence of the physical structure of social systems.
 
