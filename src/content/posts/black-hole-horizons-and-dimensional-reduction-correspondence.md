@@ -156,7 +156,7 @@ The universal structure:
 - $S^3$ topology from radial compactification to $S^1$
 - Quantized winding numbers: $n = 0, 1, \ldots, n_{max}$
 - Processing capacity $N_{max} = 2N_{BH}$ from dual sectors
-- Central charge $c = 24r_s^2/l_P^2$ from horizon area [^17]
+- Central charge $c = 24r_s^2/l_P^2$ from horizon area [^14]
 
 The convergence transcends formalism. Geometric arguments from metric singularities, thermodynamic requirements from Landauer-Bekenstein equality, topological constraints from compactification, information-theoretic processing bounds, and entropic action principles all generate the same 2D+$S^1$ structure through entirely different mathematical machinery.
 
@@ -174,15 +174,15 @@ $$
 
 Statistical analysis of stacked O5 observations could detect these correlations through departures from random phase distributions. The $n_{max} \approx 14$ discrete sectors should manifest as spectral features separated by characteristic phase intervals $\Delta\psi = 2\pi/n_{max}$.
 
-For primordial black holes [^14] with $M < 10^{15}$ g, Hawking temperature exceeds 100 GeV, enabling direct particle emission. The winding structure scales with mass: $n_{max} = \frac{1}{2\pi}\ln\left(\frac{r_s}{l_P}\right)$. Smaller black holes have fewer topological sectors, potentially creating detectable gaps in emission spectra at angles $\psi = 2\pi n$.
+For primordial black holes [^15] with $M < 10^{15}$ g, Hawking temperature exceeds 100 GeV, enabling direct particle emission. The winding structure scales with mass: $n_{max} = \frac{1}{2\pi}\ln\left(\frac{r_s}{l_P}\right)$. Smaller black holes have fewer topological sectors, potentially creating detectable gaps in emission spectra at angles $\psi = 2\pi n$.
 
-LISA observations [^15] of extreme mass ratio inspirals will probe near-horizon structure through gravitational self-force effects. Winding transitions could appear as phase jumps in the waveform with characteristic frequency shifts $\Delta f/f \sim 1/n_{max} \sim 0.07$ for solar-mass objects.
+LISA observations [^16] of extreme mass ratio inspirals will probe near-horizon structure through gravitational self-force effects. Winding transitions could appear as phase jumps in the waveform with characteristic frequency shifts $\Delta f/f \sim 1/n_{max} \sim 0.07$ for solar-mass objects.
 
 ## Implications
 
 Multiple derivations reaching identical dimensional reduction through independent mathematical routes suggests this structure represents genuine physical reorganization at event horizons. The black hole horizon marks a dimensional phase transition—a boundary where spacetime topology fundamentally changes to accommodate extreme gravitational information processing demands.
 
-The dual-sector structure with $N_{max} = 2N_{BH}$ resolves the information paradox [^16] by providing sufficient processing capacity. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, allowing [complete information throughput during evaporation](/lets-derive-an-information-theoretic-conservation-law). Exactly twice. That precision matters—the factor of 2 isn't approximate but emerges from the topological structure of 2D surfaces supporting independent chiral sectors. The same dual structure appears in the [constraint eigenvalue framework](/golden-ratio-and-prime-resonance-in-quantum-transport) where rotating black holes carry informational charge $\mathcal{C} = 3.42 = 2 \times 1.71$ at extremal rotation, reflecting the dual chiral contribution to the organizational constant $\rho^* = 3.29$ that partitions capacity at every scale.
+The dual-sector structure with $N_{max} = 2N_{BH}$ resolves the information paradox [^17] by providing sufficient processing capacity. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, allowing [complete information throughput during evaporation](/lets-derive-an-information-theoretic-conservation-law). Exactly twice. That precision matters—the factor of 2 isn't approximate but emerges from the topological structure of 2D surfaces supporting independent chiral sectors. The same dual structure appears in the [constraint eigenvalue framework](/golden-ratio-and-prime-resonance-in-quantum-transport) where rotating black holes carry informational charge $\mathcal{C} = 3.42 = 2 \times 1.71$ at extremal rotation, reflecting the dual chiral contribution to the organizational constant $\rho^* = 3.29$ that partitions capacity at every scale.
 
 This framework connects microscopic quantum information principles to macroscopic gravitational phenomena. The [Planck scale sets all dimensional constants](/computational-spacetime-and-the-rayleigh-jeans-resolution) within the [6D voxel lattice computational substrate](/what-if-spacetime-isnt-so-continuous). The factor of two emerges from chiral structure. The winding number quantization follows from topology. The mathematics flows from demanding consistency between quantum mechanics, general relativity, and thermodynamics at horizons—just [constraints doing what constraints do](/information-field-theory-from-constraint-to-cosmos) when you push them to extremes.
 
@@ -212,10 +212,10 @@ This framework connects microscopic quantum information principles to macroscopi
 
 [^13]: Blöte, H. W. J., Cardy, J. L., & Nightingale, M. P. (1986). Conformal invariance, the central charge, and universal finite-size amplitudes at criticality. *Physical Review Letters*, 56(7), 742-745.
 
-[^14]: Carr, B. J., & Hawking, S. W. (1974). Black Holes in the Early Universe. *Monthly Notices of the Royal Astronomical Society*, 168(2), 399-415.
+[^14]: Guica, M., Hartman, T., Song, W., & Strominger, A. (2009). The Kerr/CFT Correspondence. *Physical Review D*, 80(12), 124008. arXiv\:0809.4266.
 
-[^15]: Amaro-Seoane, P., Audley, H., Babak, S., Baker, J., Barausse, E., et al. (2017). Laser Interferometer Space Antenna. arXiv\:1702.00786.
+[^15]: Carr, B. J., & Hawking, S. W. (1974). Black Holes in the Early Universe. *Monthly Notices of the Royal Astronomical Society*, 168(2), 399-415.
 
-[^16]: Hawking, S. W. (1976). Breakdown of Predictability in Gravitational Collapse. *Physical Review D*, 14(10), 2460-2473.
+[^16]: Amaro-Seoane, P., Audley, H., Babak, S., Baker, J., Barausse, E., et al. (2017). Laser Interferometer Space Antenna. arXiv\:1702.00786.
 
-[^17]: Guica, M., Hartman, T., Song, W., & Strominger, A. (2009). The Kerr/CFT Correspondence. *Physical Review D*, 80(12), 124008. arXiv\:0809.4266.
+[^17]: Hawking, S. W. (1976). Breakdown of Predictability in Gravitational Collapse. *Physical Review D*, 14(10), 2460-2473.

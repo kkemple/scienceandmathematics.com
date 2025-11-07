@@ -81,7 +81,7 @@ QCD and electromagnetic forces operate far from bankruptcy, enabling stable stru
 
 ## Information Bankruptcy Trajectory
 
-White dwarfs accreting mass toward the Chandrasekhar limit $M_{\text{Ch}} = 1.36 M_{\odot}$ [^3] provide a natural laboratory for studying information bankruptcy. The complete trajectory reveals that organizational complexity determines collapse.
+White dwarfs accreting mass toward the Chandrasekhar limit $M_{\text{Ch}} = 1.36 M_{\odot}$ [^2] provide a natural laboratory for studying information bankruptcy. The complete trajectory reveals that organizational complexity determines collapse.
 
 The complexity multiplier quantifying the overhead beyond baseline requirements follows,
 
@@ -107,7 +107,7 @@ The dimensional factor $\phi^{2^{d-2}}$ drops modestly from 2.61 to 2.15 as $d$ 
 
 ### Basin of Attraction Entrance
 
-The observational anomaly at $R/R_S = 10^3$ from analysis of 18,937 white dwarfs [^2] corresponds to $M \approx 1.17 M_{\odot}$ where $\eta = 0.46$ and $(1-\eta)^{-\rho^*} = 5.66$. This marks the boundary where thermodynamic bankruptcy becomes inevitable rather than merely possible—the entrance to the basin of attraction toward organizational collapse.
+The observational anomaly at $R/R_S = 10^3$ from analysis of 18,937 white dwarfs [^3] corresponds to $M \approx 1.17 M_{\odot}$ where $\eta = 0.46$ and $(1-\eta)^{-\rho^*} = 5.66$. This marks the boundary where thermodynamic bankruptcy becomes inevitable rather than merely possible—the entrance to the basin of attraction toward organizational collapse.
 
 Before this threshold, complexity overhead grows slowly—a factor of 3.6 from $M = 0.6$ to $1.17 M_{\odot}$. After crossing $R/R_S = 10^3$, overhead explodes—a factor of 36 from $M = 1.17$ to $1.35 M_{\odot}$. The $(1-\eta)^{-\rho^*}$ value of 5.66 at the anomaly threshold represents the onset of nonlinear divergence. Systems maintain $\eta < 0.5$ through moderate overhead factors. Beyond $\eta \sim 0.5$, divergence accelerates uncontrollably.
 
@@ -155,7 +155,7 @@ $$
 
 This precisely matches observed [Type Ia supernova energies](/type-ia-supernova-information-theoretic-energetics) [^4]. The calculation requires four observational inputs: Chandrasekhar mass ($1.36 M_{\odot}$), white dwarf radius (5000 km), neutron star radius (10 km), and shock temperature ($10^9$ K). The energy represents the thermodynamic cost of reorganizing phase space information between quantum degenerate states. The exact match—$4.3 \times 10^{44}$ J calculated from information bit counting equals observed supernova energy—validates that binding energies encode maintenance costs through Landauer's principle. The white dwarf doesn't collapse because gravity becomes too strong; it collapses because maintaining organizational complexity at $\eta \approx 0.97$ requires infinite energy through the $(1-\eta)^{-\rho^*}$ divergence.
 
-The $(\eta=1, d=2)$ black hole state requires additional compression beyond neutron star density, achievable only by exceeding the Oppenheimer-Volkoff limit [^9]. White dwarf collapse represents information bankruptcy at electron degeneracy—a different failure mode with lower organizational overhead than neutron star collapse to black holes. This mechanism operates across all scales: ionization at atomic bankruptcy (~100 eV per particle), molecular dissociation at chemical limits (~10 eV per bond), stellar collapse at gravitational thresholds (~$10^{44}$ J for solar masses).
+The $(\eta=1, d=2)$ black hole state requires additional compression beyond neutron star density, achievable only by exceeding the Oppenheimer-Volkoff limit [^5]. White dwarf collapse represents information bankruptcy at electron degeneracy—a different failure mode with lower organizational overhead than neutron star collapse to black holes. This mechanism operates across all scales: ionization at atomic bankruptcy (~100 eV per particle), molecular dissociation at chemical limits (~10 eV per bond), stellar collapse at gravitational thresholds (~$10^{44}$ J for solar masses).
 
 ## Biological Efficiency Ceiling
 
@@ -227,22 +227,22 @@ The framework reveals binding energy as thermodynamic tax. Every bound system—
 
 Empirical validation across 57 orders of magnitude. White dwarf trajectory through the basin of attraction threshold at precisely $R/R_S = 10^3$ confirms predicted bankruptcy mechanism. [Type Ia supernova energetics](/type-ia-supernova-information-theoretic-energetics) emerge from information bit counting between degenerate states—the exact energy match ($4.3 \times 10^{44}$ J) validates that binding represents active maintenance through Landauer's principle. Metabolic rates reveal maximum sustainable biological overhead at $\eta_{\text{bio}} \sim 0.1$. These independent validations suggest binding energies encode maintenance costs. The same organizational constant $\rho^* = 3.29$ from the [constraint eigenvalue framework](/golden-ratio-and-prime-resonance-in-quantum-transport) determines the bankruptcy threshold $\eta_c = 1/\rho^* \approx 0.304$ operating identically from atomic ionization to stellar collapse to civilizational crisis—the same mathematical structure governing [information processing across all scales](/information-field-theory-from-constraint-to-cosmos).
 
-The framework connects Landauer's microscopic principle to macroscopic gravitational phenomena through single mathematical relationship. Black holes represent thermodynamic endpoint where all energy maintains information at Planck frequency, explaining maximum entropy as pure maintenance with zero excess capacity. Critical mass phenomena from Chandrasekhar to Oppenheimer-Volkoff limits [^9] emerge as bankruptcy thresholds where organizational modes become unsustainable.
+The framework connects Landauer's microscopic principle to macroscopic gravitational phenomena through single mathematical relationship. Black holes represent thermodynamic endpoint where all energy maintains information at Planck frequency, explaining maximum entropy as pure maintenance with zero excess capacity. Critical mass phenomena from Chandrasekhar to Oppenheimer-Volkoff limits [^5] emerge as bankruptcy thresholds where organizational modes become unsustainable.
 
 This thermodynamic interpretation suggests gravity itself may emerge from information maintenance requirements rather than [spacetime geometry](/what-if-spacetime-isnt-so-continuous), opening avenues for understanding the relationship between information, energy, and reality's structure.
 
 [^1]: Landauer, R. (1961). Irreversibility and heat generation in the computing process. *IBM Journal of Research and Development*, 5(3), 183-191.
 
-[^2]: Dufour, P., et al. (2017). The Montreal White Dwarf Database. *Proceedings of the 20th European White Dwarf Workshop*, 509, 3.
+[^2]: Chandrasekhar, S. (1931). The maximum mass of ideal white dwarfs. *Astrophysical Journal*, 74, 81-82.
 
-[^3]: Chandrasekhar, S. (1931). The maximum mass of ideal white dwarfs. *Astrophysical Journal*, 74, 81-82.
+[^3]: Dufour, P., et al. (2017). The Montreal White Dwarf Database. *Proceedings of the 20th European White Dwarf Workshop*, 509, 3.
 
 [^4]: Hillebrandt, W., & Niemeyer, J. C. (2000). Type Ia supernova explosion models. *Annual Review of Astronomy and Astrophysics*, 38(1), 191-230.
+
+[^5]: Oppenheimer, J. R., & Volkoff, G. M. (1939). On massive neutron cores. *Physical Review*, 55(4), 374.
 
 [^6]: West, G. B., Brown, J. H., & Enquist, B. J. (1997). A general model for the origin of allometric scaling laws in biology. *Science*, 276(5309), 122-126.
 
 [^7]: Hawking, S. W. (1975). Particle creation by black holes. *Communications in Mathematical Physics*, 43(3), 199-220.
 
 [^8]: Avila, A., & Jitomirskaya, S. (2009). The ten martini problem. *Annals of Mathematics*, 170(1), 303-342.
-
-[^9]: Oppenheimer, J. R., & Volkoff, G. M. (1939). On massive neutron cores. *Physical Review*, 55(4), 374.

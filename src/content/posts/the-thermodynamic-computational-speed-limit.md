@@ -13,7 +13,7 @@ $$
 N_{max} = \frac{E}{k_B T \ln 2}.
 $$
 
-For a mass $M$ with rest energy $Mc^2$ at the Hawking temperature $T_H = \hbar c^3/(8\pi GMk_B)$ [^6], this becomes,
+For a mass $M$ with rest energy $Mc^2$ at the Hawking temperature $T_H = \hbar c^3/(8\pi GMk_B)$ [^2], this becomes,
 
 $$
 N_{max} = \frac{Mc^2}{k_B T_H \ln 2} = \frac{8\pi GM^2}{\hbar c \ln 2}.
@@ -47,9 +47,9 @@ $$
 \dot{I}_{BH} = 4 \times 10^{43} \left(\frac{M}{M_{\odot}}\right) \text{ bits/s}.
 $$
 
-A solar-mass black hole processes $10^{43}$ bits/s. The [Planck frequency](/computational-spacetime-and-the-rayleigh-jeans-resolution) is $f_P = \sqrt{c^5/(\hbar G)} \approx 1.855 \times 10^{43}$ Hz [^7]. Black holes process information at the Planck frequency—the shortest meaningful timescale in physics.
+A solar-mass black hole processes $10^{43}$ bits/s. The [Planck frequency](/computational-spacetime-and-the-rayleigh-jeans-resolution) is $f_P = \sqrt{c^5/(\hbar G)} \approx 1.855 \times 10^{43}$ Hz [^3]. Black holes process information at the Planck frequency—the shortest meaningful timescale in physics.
 
-The Planck time $t_P = \sqrt{\hbar G/c^5}$ represents the fundamental tick of the universe's clock [^3]. Black holes achieve maximum computational density by processing one bit per Planck time per Planck area on their horizon [^2].
+The Planck time $t_P = \sqrt{\hbar G/c^5}$ represents the fundamental tick of the universe's clock [^4]. Black holes achieve maximum computational density by processing one bit per Planck time per Planck area on their horizon [^5].
 
 For any mass, the black hole processing rate scales as,
 
@@ -131,7 +131,7 @@ $$
 N_b \to \frac{4\pi GM^2}{\hbar c \ln 2} = \frac{A}{4\ell_P^2 \ln 2},
 $$
 
-where $A = 4\pi R_S^2$ is the horizon area. The information saturates at 1 bit per 4 Planck areas—the holographic limit [^4].
+where $A = 4\pi R_S^2$ is the horizon area. The information saturates at 1 bit per 4 Planck areas—the holographic limit [^6].
 
 ## Universal Processing Hierarchy
 
@@ -141,7 +141,7 @@ At the fundamental limit, Planck-scale black holes process at exactly $f_P = 1.8
 
 Compact stellar remnants approach but cannot reach this limit. Neutron stars with $R \approx 3R_S$ process at $\dot{I} \approx 10^{42}$ bits/s—precisely one-third the black hole rate, as predicted by the $R_S/R$ scaling. [White dwarfs, stabilized by electron degeneracy at $R \approx 10^3 R_S$](/binding-energy-critical-radii-and-information-maintenance-tax), achieve $\dot{I} \approx 10^{40}$ bits/s. The thousand-fold radius increase translates directly to thousand-fold processing reduction.
 
-Ordinary matter operates far below gravitational limits, dominated instead by electromagnetic and quantum force regimes with their own characteristic bankruptcy radii. A kilogram of silicon at room temperature has $R/R_S \approx 10^{30}$, but its actual processing constraints arise from electronic and phononic timescales set by electromagnetic binding, not gravitational compression. Even quantum computers cannot escape fundamental constraints—they remain bound by $\dot{I}_{max}$ for their physical mass, size, and dominant force regime, regardless of architectural cleverness [^5].
+Ordinary matter operates far below gravitational limits, dominated instead by electromagnetic and quantum force regimes with their own characteristic bankruptcy radii. A kilogram of silicon at room temperature has $R/R_S \approx 10^{30}$, but its actual processing constraints arise from electronic and phononic timescales set by electromagnetic binding, not gravitational compression. Even quantum computers cannot escape fundamental constraints—they remain bound by $\dot{I}_{max}$ for their physical mass, size, and dominant force regime, regardless of architectural cleverness [^7].
 
 The hierarchy emerges from a single principle: systems process information at rates proportional to their binding energy through the appropriate force regime. As gravitationally bound matter approaches black hole density, more energy goes toward pattern maintenance against entropy. Black holes represent the gravitational endpoint where all available energy maintains the horizon structure, saturating the Planck frequency bound. Every other system operates as a fraction of this universal maximum.
 
@@ -155,14 +155,14 @@ The universe computes its own evolution at the maximum rate physics allows. Blac
 
 [^1]: Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183-191.
 
-[^2]: Bekenstein, J. D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8), 2333-2346.
+[^2]: Hawking, S. W. (1975). Particle Creation by Black Holes. *Communications in Mathematical Physics*, 43(3), 199-220.
 
-[^3]: Margolus, N., & Levitin, L. B. (1998). The maximum speed of dynamical evolution. *Physica D*, 120(1-2), 188-195.
+[^3]: Mohr, P. J., Newell, D. B., & Taylor, B. N. (2016). CODATA recommended values of the fundamental physical constants: 2014. *Reviews of Modern Physics*, 88(3), 035009. arXiv\:1507.07956.
 
-[^4]: 't Hooft, G. (1993). Dimensional Reduction in Quantum Gravity. arXiv:gr-qc/9310026.
+[^4]: Margolus, N., & Levitin, L. B. (1998). The maximum speed of dynamical evolution. *Physica D*, 120(1-2), 188-195.
 
-[^5]: Lloyd, S. (2000). Ultimate physical limits to computation. *Nature*, 406(6799), 1047-1054.
+[^5]: Bekenstein, J. D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8), 2333-2346.
 
-[^6]: Hawking, S. W. (1975). Particle Creation by Black Holes. *Communications in Mathematical Physics*, 43(3), 199-220.
+[^6]: 't Hooft, G. (1993). Dimensional Reduction in Quantum Gravity. arXiv:gr-qc/9310026.
 
-[^7]: Mohr, P. J., Newell, D. B., & Taylor, B. N. (2016). CODATA recommended values of the fundamental physical constants: 2014. *Reviews of Modern Physics*, 88(3), 035009. arXiv\:1507.07956.
+[^7]: Lloyd, S. (2000). Ultimate physical limits to computation. *Nature*, 406(6799), 1047-1054.

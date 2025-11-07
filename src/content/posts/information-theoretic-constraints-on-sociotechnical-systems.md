@@ -11,7 +11,7 @@ This article derives three rigorous results from first principles: (1) universal
 
 The human vocal tract operates as a serial communication channel with measurable physical constraints. Every human language converges on the same information rate: 39.15 ± 0.39 bits per second [^1]. English, Mandarin, Spanish, Vietnamese, Japanese, Turkish, Finnish—all transmit information at identical rates despite radically different phoneme inventories, grammar systems, and cultural contexts. This emerges from the biomechanics of tissue.
 
-Speech production requires coordinated movement of multiple articulators. The tongue repositions in roughly 100 milliseconds. Lips open and close in about 50 milliseconds. The larynx initiates voicing in approximately 30 milliseconds. The velum controls nasalization over 40 milliseconds [^5]. These represent mechanical response times of viscous tissue moving against resistance.
+Speech production requires coordinated movement of multiple articulators. The tongue repositions in roughly 100 milliseconds. Lips open and close in about 50 milliseconds. The larynx initiates voicing in approximately 30 milliseconds. The velum controls nasalization over 40 milliseconds [^2]. These represent mechanical response times of viscous tissue moving against resistance.
 
 The minimum time for a complete articulatory gesture is approximately 150 milliseconds, determined by viscoelastic response of oral tissues. For tongue mass $m \sim 70$ grams moving against viscous resistance $\gamma \sim 1$ N·s/m,
 
@@ -19,7 +19,7 @@ $$
 \tau_{\text{mech}} = \frac{m}{\gamma} \approx 0.1 \text{ s}
 $$
 
-Neural motor planning adds roughly 50 milliseconds [^6]. The total timescale yields the maximum phoneme production rate,
+Neural motor planning adds roughly 50 milliseconds [^3]. The total timescale yields the maximum phoneme production rate,
 
 $$
 f_{\text{max}} = \frac{1}{0.15 \text{ s}} \approx 6.7 \text{ phonemes/s}.
@@ -27,7 +27,7 @@ $$
 
 This mechanical bottleneck determines the universal speech rate. The brain operates far below its information processing capacity—the constraint is the serial mechanical actuator, the vocal tract itself.
 
-Languages balance phoneme inventory size against memory and articulation demands. Shannon's channel capacity [^7] for discrete symbols suggests optimal inventory around 40 phonemes—sufficient for combinatorial expressiveness while remaining within working memory constraints [^8]. Cross-linguistic analysis of 567 languages shows mean phoneme inventory of 38.6 ± 12.7 [^2], with mode precisely at 40.
+Languages balance phoneme inventory size against memory and articulation demands. Shannon's channel capacity [^4] for discrete symbols suggests optimal inventory around 40 phonemes—sufficient for combinatorial expressiveness while remaining within working memory constraints [^5]. Cross-linguistic analysis of 567 languages shows mean phoneme inventory of 38.6 ± 12.7 [^6], with mode precisely at 40.
 
 Languages with larger inventories compensate with shorter words. Rotokas uses 11 phonemes but requires longer words. !Xóõ employs 112 phonemes (including clicks) but uses fewer phonemes per word. The information rate—phonemes per second times bits per phoneme—remains constant across all strategies.
 
@@ -39,7 +39,7 @@ $$
 
 The empirical observation across all studied languages is 39.15 ± 0.39 bits per second. The 8% discrepancy reflects prosodic information—stress, intonation, rhythm—and phonotactic constraints where phoneme sequences aren't independent. The derivation captures the dominant constraint: tissue mechanics sets the rate, not thermodynamics or neural processing.
 
-Recent analysis of 668 speech recordings across 48 languages from every continent validates this mechanical constraint [^4]. Syllable rate peaks at 6.77 Hz—within 1% of the biomechanically predicted rate. This consistency holds across 27 distinct language families, different sexes, and across the human lifespan. The match between first-principles derivation from tissue viscosity and empirical measurement across maximally diverse languages provides strong validation that mechanical constraints, not neural processing or cultural factors, determine the universal speech rate.
+Recent analysis of 668 speech recordings across 48 languages from every continent validates this mechanical constraint [^7]. Syllable rate peaks at 6.77 Hz—within 1% of the biomechanically predicted rate. This consistency holds across 27 distinct language families, different sexes, and across the human lifespan. The match between first-principles derivation from tissue viscosity and empirical measurement across maximally diverse languages provides strong validation that mechanical constraints, not neural processing or cultural factors, determine the universal speech rate.
 
 The same study identified a second temporal structure: intonation units occurring at 0.6 Hz, approximately one unit every 1.6 seconds. These units show consistent acoustic patterns—reset and declination in pitch and intensity, acceleration-deceleration dynamics—independent of syllable-level timing. The intonation unit rate explains only 0.8% of variance in syllable rate, suggesting hierarchical structure where mechanical constraints govern syllable production while cognitive constraints govern information chunking into larger units. The 1.6-second interval aligns with working memory timescales and may represent the natural "chunk size" for information packaging in human communication.
 
@@ -47,7 +47,7 @@ The key insight reverses conventional understanding. The bottleneck is the physi
 
 ## Biological Maintenance Overhead
 
-Biological systems face fundamental constraints on maintenance energy. The human brain consumes 20 watts for mass 1.4 kilograms [^9], representing 20-25% of total metabolic budget despite being 2% of body mass. This disproportionate allocation reflects operation as primary information processor.
+Biological systems face fundamental constraints on maintenance energy. The human brain consumes 20 watts for mass 1.4 kilograms [^8], representing 20-25% of total metabolic budget despite being 2% of body mass. This disproportionate allocation reflects operation as primary information processor.
 
 The brain's power-to-mass ratio of 14 watts per kilogram exceeds body average by factor 10. This represents operation near the biological efficiency ceiling $\eta_{\text{bio}} \sim 0.1$—the maximum sustainable fraction of energy dedicated to pattern maintenance while retaining capacity for environmental response and growth.
 
@@ -55,7 +55,7 @@ From the [binding energy framework](/binding-energy-critical-radii-and-informati
 
 Systems cannot sustainably exceed this 10% threshold without exhausting capacity for adaptation. The brain operates at this ceiling, dedicating maximum sustainable overhead to information processing while maintaining homeostatic functions. This represents a hard physical limit from [recursive ladder climbing](/complex-adaptable-systems-complexity-ladders-and-agency) through organizational scales.
 
-Kleiber's law—metabolic rate scaling as $P \propto M^{3/4}$—emerges from this same constraint. Fractal vascular networks optimize information and energy distribution while minimizing transport overhead [^3]. The 3/4 power law reflects geometric constraints on distribution in three-dimensional biological networks operating under the maintenance ceiling.
+Kleiber's law—metabolic rate scaling as $P \propto M^{3/4}$—emerges from this same constraint. Fractal vascular networks optimize information and energy distribution while minimizing transport overhead [^9]. The 3/4 power law reflects geometric constraints on distribution in three-dimensional biological networks operating under the maintenance ceiling.
 
 ## Organizational Bankruptcy Threshold
 
@@ -159,21 +159,21 @@ The framework makes quantitative predictions where mechanisms are well-specified
 
 [^1]: Coupé, C., et al. (2019). Different languages, similar encoding efficiency: Comparable information rates across the human communicative niche. *Science Advances*, 5(9), eaaw2594.
 
-[^2]: Maddieson, I. (2013). Phonological complexity in linguistic patterning. In *Proceedings of the 17th International Congress of Phonetic Sciences*, 36-45.
+[^2]: Kent, R. D., & Moll, K. L. (1972). Cinefluorographic analyses of selected lingual consonants. *Journal of Speech and Hearing Research*, 15(3), 453-473.
 
-[^3]: West, G. B., Brown, J. H., & Enquist, B. J. (1997). A general model for the origin of allometric scaling laws in biology. *Science*, 276(5309), 122-126.
+[^3]: Sternberg, S., Monsell, S., Knoll, R. L., & Wright, C. E. (1978). The latency and duration of rapid movement sequences. In *Information Processing in Motor Control and Learning* (pp. 117-152). Academic Press.
 
-[^4]: Inbar, M., Grossman, E., & Landau, A. N. (2025). A universal of speech timing: Intonation units form low-frequency rhythms. *Proceedings of the National Academy of Sciences*, 122(34), e2425166122.
+[^4]: Shannon, C. E. (1948). A mathematical theory of communication. *Bell System Technical Journal*, 27(3), 379-423.
 
-[^5]: Kent, R. D., & Moll, K. L. (1972). Cinefluorographic analyses of selected lingual consonants. *Journal of Speech and Hearing Research*, 15(3), 453-473.
+[^5]: Cowan, N. (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. *Behavioral and Brain Sciences*, 24(1), 87-114.
 
-[^6]: Sternberg, S., Monsell, S., Knoll, R. L., & Wright, C. E. (1978). The latency and duration of rapid movement sequences. In *Information Processing in Motor Control and Learning* (pp. 117-152). Academic Press.
+[^6]: Maddieson, I. (2013). Phonological complexity in linguistic patterning. In *Proceedings of the 17th International Congress of Phonetic Sciences*, 36-45.
 
-[^7]: Shannon, C. E. (1948). A mathematical theory of communication. *Bell System Technical Journal*, 27(3), 379-423.
+[^7]: Inbar, M., Grossman, E., & Landau, A. N. (2025). A universal of speech timing: Intonation units form low-frequency rhythms. *Proceedings of the National Academy of Sciences*, 122(34), e2425166122.
 
-[^8]: Cowan, N. (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. *Behavioral and Brain Sciences*, 24(1), 87-114.
+[^8]: Raichle, M. E., & Gusnard, D. A. (2002). Appraising the brain's energy budget. *Proceedings of the National Academy of Sciences*, 99(16), 10237-10239.
 
-[^9]: Raichle, M. E., & Gusnard, D. A. (2002). Appraising the brain's energy budget. *Proceedings of the National Academy of Sciences*, 99(16), 10237-10239.
+[^9]: West, G. B., Brown, J. H., & Enquist, B. J. (1997). A general model for the origin of allometric scaling laws in biology. *Science*, 276(5309), 122-126.
 
 [^10]: Maslach, C., Schaufeli, W. B., & Leiter, M. P. (2001). Job burnout. *Annual Review of Psychology*, 52(1), 397-422.
 

@@ -225,7 +225,7 @@ where $\rho^* = 3.29$ and $\phi = (1+\sqrt{5})/2$ are [constraint eigenvalues fr
 
 ## Renormalization Group Flow
 
-The organizational fields evolve according to [beta functions derived from constraint satisfaction](/information-field-theory-from-constraint-to-cosmos) [^11],
+The organizational fields evolve according to [beta functions derived from constraint satisfaction](/information-field-theory-from-constraint-to-cosmos) [^8],
 
 $$
 \beta_\eta = -\frac{\eta}{\rho^*}\ln\phi, \quad \beta_d = -\eta(1-\eta)\left(\rho^* + \frac{d-2}{2}\ln\phi\right),
@@ -233,7 +233,7 @@ $$
 
 where $\beta_\eta = \partial\eta/\partial\tau$ and $\beta_d = \partial d/\partial\tau$ are flow parameters with respect to renormalization group scale $\tau$. These beta functions drive flow toward fixed points. The vacuum state at $(\eta,d) = (0,3)$ represents an unstable fixed point where zero energy maintains structure and all three spatial dimensions remain accessible. The black hole at $(\eta,d) = (1,2)$ forms a stable fixed point where all energy maintains the horizon and one spatial dimension has compactified. The universe begins at $(0,3)$ because the RG flow structure admits exactly one unstable fixed point—deriving the Past Hypothesis that has puzzled cosmologists since Boltzmann.
 
-The flow admits a symmetry—transformations mixing $\eta$ and $d$ while preserving dynamics. [Noether's theorem yields a fourth conserved charge](/lets-derive-an-information-theoretic-conservation-law) [^12],
+The flow admits a symmetry—transformations mixing $\eta$ and $d$ while preserving dynamics. [Noether's theorem yields a fourth conserved charge](/lets-derive-an-information-theoretic-conservation-law) [^9],
 
 $$
 \mathcal{C}[\eta,d] = \rho^*\eta(3-d) - \eta^2\rho^*\ln\phi,
@@ -313,11 +313,11 @@ where the factor 200 = $2 \times 10^2$ represents dual chirality integrated over
 
 Information-dense systems with high $\eta$ should curve spacetime beyond their mass by factor $(1 + \eta M/M_0)$, where $M_0$ is a characteristic mass scale. A quantum computer processing information curves spacetime differently than an inert mass of the same energy. The correction scales as $\eta M$—negligible for atoms where $\eta \sim 10^{-6}$ but potentially measurable for dense quantum systems approaching $\eta \sim 0.1$ with precision atom interferometry achieving $10^{-9}$ gravitational potential resolution.
 
-LISA observations of extreme mass ratio inspirals could detect dimensional phase transitions near black holes through phase shifts of order $\delta\phi \sim 1/n_{\rm max} \sim 0.07$ for solar-mass black holes, where $n_{\rm max} = (1/2\pi)\ln(r_s/\ell_P) \sim 14$ represents the maximum winding number [^13]. Statistical analysis of stacked O5 observations could detect these correlations at 3σ confidence within 5 years through departures from random phase distributions.
+LISA observations of extreme mass ratio inspirals could detect dimensional phase transitions near black holes through phase shifts of order $\delta\phi \sim 1/n_{\rm max} \sim 0.07$ for solar-mass black holes, where $n_{\rm max} = (1/2\pi)\ln(r_s/\ell_P) \sim 14$ represents the maximum winding number [^10]. Statistical analysis of stacked O5 observations could detect these correlations at 3σ confidence within 5 years through departures from random phase distributions.
 
-Primordial black holes with $M < 10^{15}$ g reaching Planck temperature explode at frequency $f_P = 1.855 \times 10^{43}$ Hz, releasing energy quantized in approximately $10^{6}$ correlated particles [^14]. The organizational charge $\mathcal{C} = 1.71$ must be conserved, distributed among product particles. Conservation-constrained explosions produce discrete spectral lines at integer multiples of Planck energy, creating specific spectrum gaps at angles $2\pi n/n_{\rm max}$.
+Primordial black holes with $M < 10^{15}$ g reaching Planck temperature explode at frequency $f_P = 1.855 \times 10^{43}$ Hz, releasing energy quantized in approximately $10^{6}$ correlated particles [^11]. The organizational charge $\mathcal{C} = 1.71$ must be conserved, distributed among product particles. Conservation-constrained explosions produce discrete spectral lines at integer multiples of Planck energy, creating specific spectrum gaps at angles $2\pi n/n_{\rm max}$.
 
-White dwarf trajectory toward the basin of attraction threshold at $R/R_S = 10^3$ shows organizational complexity divergence. [Analysis of 18,937 white dwarfs](/lets-derive-an-information-theoretic-conservation-law) reveals information bankruptcy mechanism with 0.56 Gyr cooling delays matching predicted power-law exponent $\nu = 0.304$ within 15% uncertainty [^15].
+White dwarf trajectory toward the basin of attraction threshold at $R/R_S = 10^3$ shows organizational complexity divergence. [Analysis of 18,937 white dwarfs](/lets-derive-an-information-theoretic-conservation-law) reveals information bankruptcy mechanism with 0.56 Gyr cooling delays matching predicted power-law exponent $\nu = 0.304$ within 15% uncertainty [^12].
 
 ## The Complete Picture
 
@@ -351,12 +351,12 @@ with each update. The computational limits of that process force the discrete st
 
 [^7]: Hawking, S. W. (1975). Particle creation by black holes. *Communications in Mathematical Physics*, 43(3), 199-220.
 
-[^11]: Wilson, K. G. (1975). The renormalization group: Critical phenomena and the Kondo problem. *Reviews of Modern Physics*, 47(4), 773.
+[^8]: Wilson, K. G. (1975). The renormalization group: Critical phenomena and the Kondo problem. *Reviews of Modern Physics*, 47(4), 773.
 
-[^12]: Noether, E. (1918). Invariante Variationsprobleme. *Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse*, 1918, 235-257.
+[^9]: Noether, E. (1918). Invariante Variationsprobleme. *Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse*, 1918, 235-257.
 
-[^13]: Amaro-Seoane, P., Audley, H., Babak, S., Baker, J., Barausse, E., et al. (2017). Laser Interferometer Space Antenna. arXiv\:1702.00786.
+[^10]: Amaro-Seoane, P., Audley, H., Babak, S., Baker, J., Barausse, E., et al. (2017). Laser Interferometer Space Antenna. arXiv\:1702.00786.
 
-[^14]: Carr, B. J., & Hawking, S. W. (1974). Black Holes in the Early Universe. *Monthly Notices of the Royal Astronomical Society*, 168(2), 399-415.
+[^11]: Carr, B. J., & Hawking, S. W. (1974). Black Holes in the Early Universe. *Monthly Notices of the Royal Astronomical Society*, 168(2), 399-415.
 
-[^15]: Tremblay, S., et al. (2021). Observational evidence for enhanced cooling in white dwarfs. *Nature Astronomy*, 6(2), 233-241.
+[^12]: Tremblay, S., et al. (2021). Observational evidence for enhanced cooling in white dwarfs. *Nature Astronomy*, 6(2), 233-241.

@@ -59,9 +59,9 @@ Reality delivers exactly 21 outcomes. The minimum fraction: $21/64 = 32.81\%$. T
 
 The 21 minimum codons represent organizational structure—the emerged pattern from chemical constraints that becomes fixed boundary conditions for biological evolution. The 43 redundant codons represent available capacity—degrees of freedom enabling evolutionary exploration, error buffering, and adaptive response without compromising structural integrity.
 
-Cosmology exhibits an identical partition. Current measurements place dark energy at 68.5% of the universal energy budget with matter (dark + baryonic) at 31.5% [^7]. The framework predicts $(10-\rho^*)/10 = 67.1\%$ for expansion capacity and $\rho^*/10 = 32.9\%$ for structural mass-energy. The deviations: 2.1% for dark energy, 3.8% for matter.
+Cosmology exhibits an identical partition. Current measurements place dark energy at 68.5% of the universal energy budget with matter (dark + baryonic) at 31.5% [^4]. The framework predicts $(10-\rho^*)/10 = 67.1\%$ for expansion capacity and $\rho^*/10 = 32.9\%$ for structural mass-energy. The deviations: 2.1% for dark energy, 3.8% for matter.
 
-White dwarf mass-radius relationship provides intermediate scale. Stellar remnants supported by electron degeneracy pressure follow $M \propto R^{-\nu}$ where observations yield $\nu = 0.308 \pm 0.004$ [^8]. The framework predicts $\nu = 1/\rho^* = 0.304$. The deviation: 1.3%.
+White dwarf mass-radius relationship provides intermediate scale. Stellar remnants supported by electron degeneracy pressure follow $M \propto R^{-\nu}$ where observations yield $\nu = 0.308 \pm 0.004$ [^5]. The framework predicts $\nu = 1/\rho^* = 0.304$. The deviation: 1.3%.
 
 | System | Scale (m) | Observable | Measured | Predicted | Error |
 |--------|-----------|------------|----------|-----------|-------|
@@ -144,7 +144,7 @@ The brain uses approximately 20 watts total, leaving roughly 13 watts for consci
 
 What distinguishes consciousness from other information processing? Recursion. You don't merely model the environment—you model yourself modeling the environment. This self-referential loop creates subjective experience.
 
-Brain imaging reveals recursion directly. When subjects think about thinking, the medial prefrontal cortex, posterior cingulate, and angular gyrus activate—consuming additional glucose beyond primary processing. PET studies show metacognitive tasks increase metabolism by 5-7% above baseline [^4]. An entire brain region dedicated to self-reference.
+Brain imaging reveals recursion directly. When subjects think about thinking, the medial prefrontal cortex, posterior cingulate, and angular gyrus activate—consuming additional glucose beyond primary processing. PET studies show metacognitive tasks increase metabolism by 5-7% above baseline [^6]. An entire brain region dedicated to self-reference.
 
 The recursive structure creates phenomenological experience. Representing your own cognitive state as an object of cognition requires distinguishing self-states from world-states. This boundary—implemented through differential metabolism in distinct brain regions—generates subjective awareness. You feel thoughts because self-modeling requires energy, that energy flow has a physical signature, and you are the system experiencing that signature from inside.
 
@@ -166,9 +166,9 @@ We observe these parameters not through cosmic coincidence but thermodynamic nec
 
 The framework generates falsifiable predictions linking organizational physics to neuroscience.
 
-Cognitive performance should degrade under resource constraints following complexity overhead scaling. Glucose depletion reduces available energy $E_{\text{available}}$, decreasing control authority proportionally. Decision quality should decline measurably. Empirical validation: judges show harsher sentencing before lunch breaks than after—glucose-depleted brains revert to easier default choices [^5].
+Cognitive performance should degrade under resource constraints following complexity overhead scaling. Glucose depletion reduces available energy $E_{\text{available}}$, decreasing control authority proportionally. Decision quality should decline measurably. Empirical validation: judges show harsher sentencing before lunch breaks than after—glucose-depleted brains revert to easier default choices [^7].
 
-Sleep deprivation increases $\eta$ through accumulated metabolic byproducts. If sleep loss shifts $\eta$ from 0.15 to 0.20, the overhead factor changes from 1.69 to 2.05—roughly 20% reduction in control capacity. This predicts proportional decline in executive function, working memory, and reaction time. Studies confirm these patterns [^6].
+Sleep deprivation increases $\eta$ through accumulated metabolic byproducts. If sleep loss shifts $\eta$ from 0.15 to 0.20, the overhead factor changes from 1.69 to 2.05—roughly 20% reduction in control capacity. This predicts proportional decline in executive function, working memory, and reaction time. Studies confirm these patterns [^8].
 
 Cognitive load should increase $\eta$ temporarily through heightened maintenance demands. Sustained mental effort requiring more neural synchronization and error correction raises overhead. Decision quality should degrade following $(1-\eta)^{-\rho^*}$ divergence with exponent $\rho^* = 3.29$. The specific power-law prediction distinguishes this framework from generic resource depletion models.
 
@@ -208,12 +208,12 @@ We are matter organized to the very edge of what thermodynamics allows, consumin
 
 [^3]: Raichle, M. E., & Gusnard, D. A. (2002). Appraising the brain's energy budget. *Proceedings of the National Academy of Sciences*, 99(16), 10237-10239.
 
-[^4]: Lou, H. C., Luber, B., Crupain, M., Keenan, J. P., Nowak, M., Kjaer, T. W., Sackeim, H. A., & Lisanby, S. H. (2004). Parietal cortex and representation of the mental self. *Proceedings of the National Academy of Sciences*, 101(17), 6827-6832.
+[^4]: Planck Collaboration. (2020). Planck 2018 results. VI. Cosmological parameters. *Astronomy & Astrophysics*, 641, A6.
 
-[^5]: Danziger, S., Levav, J., & Avnaim-Pesso, L. (2011). Extraneous factors in judicial decisions. *Proceedings of the National Academy of Sciences*, 108(17), 6889-6892.
+[^5]: Chandrasekhar, S. (1935). The highly collapsed configurations of a stellar mass (Second paper). *Monthly Notices of the Royal Astronomical Society*, 95, 207-225.
 
-[^6]: Killgore, W. D. S. (2010). Effects of sleep deprivation on cognition. *Progress in Brain Research*, 185, 105-129.
+[^6]: Lou, H. C., Luber, B., Crupain, M., Keenan, J. P., Nowak, M., Kjaer, T. W., Sackeim, H. A., & Lisanby, S. H. (2004). Parietal cortex and representation of the mental self. *Proceedings of the National Academy of Sciences*, 101(17), 6827-6832.
 
-[^7]: Planck Collaboration. (2020). Planck 2018 results. VI. Cosmological parameters. *Astronomy & Astrophysics*, 641, A6.
+[^7]: Danziger, S., Levav, J., & Avnaim-Pesso, L. (2011). Extraneous factors in judicial decisions. *Proceedings of the National Academy of Sciences*, 108(17), 6889-6892.
 
-[^8]: Chandrasekhar, S. (1935). The highly collapsed configurations of a stellar mass (Second paper). *Monthly Notices of the Royal Astronomical Society*, 95, 207-225.
+[^8]: Killgore, W. D. S. (2010). Effects of sleep deprivation on cognition. *Progress in Brain Research*, 185, 105-129.
