@@ -21,7 +21,7 @@ When you compute a gradient $\nabla_\theta \mathcal{L}$, store it in memory, upd
 
 GPUs running backpropagation generate hundreds of watts as heat—measurable thermal output representing entropy increase in the physical universe, bounded by Landauer's limit. The learning dynamics cannot violate thermodynamic constraints any more than a heat engine can violate the second law.
 
-The free-energy functional $F[q] = \mathbb{E}_q[\ln q(x) - \ln p(o,x)]$ emerges naturally. It measures the cost of maintaining internal model $q(x)$ given environmental structure $p(o,x)$. Systems that minimize free energy maximize predictive accuracy while minimizing representational overhead—the only way for physical systems performing irreversible computation to maintain coherence while adapting to new information.
+The free-energy functional $F[q] = \mathbb{E}_q[\ln q(x) - \ln p(o,x)]$ emerges naturally. It measures the cost of maintaining internal model $q(x)$ given environmental structure $p(o,x)$. Systems that minimize free energy maximize predictive accuracy while minimizing representational overhead—the only way for physical systems performing irreversible computation to maintain coherence while adapting to new information. This framework—known in neuroscience and theoretical biology as the Free Energy Principle—applies universally to self-organizing systems from cellular metabolism to neural networks.
 
 Self-supervised learning operates under these constraints whether researchers recognize them or not. The methods that succeed discover architectures compatible with thermodynamic necessity. The methods that fail attempt to violate conservation laws encoded in the mathematics of information processing.
 
@@ -35,19 +35,19 @@ $$
 
 This quantity reaches minimum when the system's encoding matches the generative structure of its environment. But no real system freely represents any model. Architecture imposes limits. Optimization introduces inductive biases. Representations compress high-dimensional signals into lower-dimensional manifolds.
 
-These constraints restrict allowable models to a subset:
+These constraints restrict allowable models to a subset,
 
 $$
 \mathcal{M}_{\text{allowed}} = \{p(o,x) \mid \text{structural constraints satisfied}\}.
 $$
 
-Within this space lies a constrained optimum $p^*$:
+Within this space lies a constrained optimum $p^*$,
 
 $$
 p^* = \arg\min_{p \in \mathcal{M}_{\text{allowed}}} F[p].
 $$
 
-Constraints alter representation geometry, so $p^*$ cannot coincide with the ideal unconstrained minimum $F^*$. The offset becomes inevitable:
+Constraints alter representation geometry, so $p^*$ cannot coincide with the ideal unconstrained minimum $F^*$. The offset becomes inevitable,
 
 $$
 \kappa = F[p^*] - F^*.
@@ -59,7 +59,7 @@ $$
 \mathrm{CD}(t) = F[q_t] - F[p^*].
 $$
 
-Coherence follows as $C(t) = -\mathrm{CD}(t)$. The full decomposition:
+Coherence follows as $C(t) = -\mathrm{CD}(t)$. The full decomposition,
 
 $$
 F[q_t] - F^* = \kappa + \mathrm{CD}(t).
@@ -67,9 +67,11 @@ $$
 
 Everything happening during self-supervised training unfolds inside this equation. The left side measures total deviation from ideal free energy. The right side partitions it into structural costs ($\kappa$) and dynamic misalignment ($\mathrm{CD}(t)$). Training succeeds when gradient flow reduces $\mathrm{CD}(t)$ faster than architectural constraints inflate $\kappa$.
 
+But what determines whether a given architecture can maintain low $\mathrm{CD}(t)$ at all? Not all constraint manifolds permit stable dynamics. Some geometries require so much representational capacity just to maintain structure that no capacity remains for adaptation. This leads to a critical question: how much overhead can a system tolerate while remaining coherent?
+
 ## Organizational Overhead and the Critical Threshold
 
-Physical systems maintain structure through organizational overhead $\eta$—the fraction of representational capacity required for coherence maintenance [^2]. From quarks to galaxies to transformer embeddings, systems operate near a geometric progression:
+The answer comes from measuring organizational overhead $\eta$—the fraction of representational capacity consumed by coherence maintenance rather than information processing [^2]. Physical systems across all scales follow a geometric progression:
 
 - particles: $\eta \sim 10^{-6}$
 - atoms: $10^{-3}$
@@ -97,11 +99,17 @@ $$
 
 Systems operating below $\eta_c$ maintain coherence and adaptability. Systems crossing this threshold collapse—radial dimensions freeze near horizons, biological networks enter failure modes, neural networks lose representational diversity [^3].
 
-Self-supervised methods maintain stability by keeping $\eta < \eta_c$. Their architectures differ; the physics constraining them remains identical.
+The connection to constrained free energy becomes explicit through the relationship between $\eta$ and $\kappa$. High structural costs $\kappa$ typically impose high organizational overhead $\eta$—complex constraint manifolds require more capacity to maintain than simple ones. But the relationship isn't linear. A well-designed architecture can have moderate $\kappa$ while keeping $\eta$ low by distributing representational load efficiently. This is precisely what successful SSL methods achieve.
+
+Consider the trade-off: adding regularization raises $\kappa$ by pulling the constrained optimum further from ideal. But the right regularization (variance floors, decorrelation penalties) simultaneously lowers $\eta$ by preventing collapse modes that would consume all capacity maintaining degenerate structure. VICReg's variance term increases $\kappa$ slightly but dramatically reduces $\eta$ by ensuring dimensional spread. DINO's momentum increases $\kappa$ through temporal coupling but reduces $\eta$ by stabilizing the target manifold.
+
+This threshold determines which self-supervised architectures can succeed. Methods that allow $\eta$ to drift toward $\eta_c$ collapse regardless of other design choices. Methods that actively constrain $\eta$ below critical discover stable representations. The "magic numbers" appearing across different SSL approaches—variance weights, momentum values, batch sizes, prediction horizons—encode the same physics: keep organizational overhead subcritical while accepting only necessary structural costs.
+
+Each method implements this constraint differently. But all successful methods obey it.
 
 ## VICReg: Variance, Invariance, Covariance
 
-VICReg explicitly regularizes representation geometry through three terms [^4]:
+VICReg explicitly regularizes representation geometry through three terms [^4],
 
 $$
 \mathcal{L} = \lambda \mathcal{L}_{\text{inv}} + \mu \mathcal{L}_{\text{var}} + \nu \mathcal{L}_{\text{cov}}.
@@ -130,7 +138,7 @@ implements a slow-moving target network with coherence-preserving geometry. Mome
 
 The timescale ratio $\tau = 1/(1-m)$ ranges from 250 to 2000 steps. This matches the horizon over which representational drift must remain bounded—too fast and the student cannot track the moving target, too slow and the teacher fails to incorporate new structure.
 
-Centering and sharpening operations maintain the variance floor implicitly. The teacher network applies centering to remove trivial solutions where all outputs converge to a constant. Sharpening through temperature $\tau_s$ concentrates probability mass:
+Centering and sharpening operations maintain the variance floor implicitly. The teacher network applies centering to remove trivial solutions where all outputs converge to a constant. Sharpening through temperature $\tau_s$ concentrates probability mass,
 
 $$
 P_t(x) = \frac{\exp(f_t(x)/\tau_s)}{\sum_k \exp(f_t(x_k)/\tau_s)}.
@@ -146,7 +154,7 @@ $$
 p_c = \frac{1}{\langle k \rangle}
 $$
 
-with effective dimension $d_{\text{eff}} = d\tau$ for temperature $\tau$. For $d=128$ and $\tau=0.07$:
+with effective dimension $d_{\text{eff}} = d\tau$ for temperature $\tau$. For $d=128$ and $\tau=0.07$,
 
 $$
 d_{\text{eff}} \approx 9.
@@ -160,7 +168,7 @@ $$
 
 but safety margins and real optimization dynamics stretch this dramatically, yielding empirical minima around 4096.
 
-SimCLR's enormous batch requirement emerges from geometric necessity. Contrastive loss pulls positive pairs together while pushing negative pairs apart:
+SimCLR's enormous batch requirement emerges from geometric necessity. Contrastive loss pulls positive pairs together while pushing negative pairs apart,
 
 $$
 \mathcal{L} = -\log \frac{\exp(\text{sim}(z_i, z_j)/\tau)}{\sum_{k=1}^{2N} \mathbb{1}_{k \neq i} \exp(\text{sim}(z_i, z_k)/\tau)}.
@@ -198,7 +206,7 @@ Empirical momentum values $m \approx 0.996$ match DINO, confirming that both met
 
 ## Barlow Twins: Redundancy Reduction
 
-Barlow Twins forces the cross-correlation matrix toward identity [^8]:
+Barlow Twins forces the cross-correlation matrix toward identity [^8],
 
 $$
 \mathcal{L}_{BT} = \sum_i (1 - C_{ii})^2 + \lambda \sum_{i\neq j} C_{ij}^2.
@@ -206,7 +214,7 @@ $$
 
 This implements classical efficient coding: independence across dimensions reduces representational maintenance overhead. The first term ensures each dimension activates (prevents collapse), while the second term decorrelates dimensions (distributes information efficiently).
 
-The cross-correlation matrix between embeddings $Z^A$ and $Z^B$ from augmented views:
+The cross-correlation matrix between embeddings $Z^A$ and $Z^B$ from augmented views,
 
 $$
 C_{ij} = \frac{\sum_b z^A_{b,i} z^B_{b,j}}{\sqrt{\sum_b (z^A_{b,i})^2} \sqrt{\sum_b (z^B_{b,j})^2}}.
@@ -234,7 +242,7 @@ nearly exact match to $\eta_c = 0.30395$.
 
 Depth 10 marks where coherence becomes sustainable. Below this threshold, recursive closure fails—the system cannot model its own modeling process with sufficient fidelity. Above this threshold, additional depth adds capacity but encounters diminishing returns as $\kappa$ increases with architectural complexity.
 
-JEPA's architecture predicts future latent representations rather than raw pixels:
+JEPA's architecture predicts future latent representations rather than raw pixels,
 
 $$
 s_{t+h} = f_\theta(s_t, a_{t:t+h}),
@@ -248,19 +256,19 @@ The same $h = 10$ appears in biological neural timescales—consolidation from s
 
 ## Collapse as Free-Energy Physics
 
-Collapse ceases to be mysterious. It emerges when total deviation from ideal free energy grows too large:
+Collapse ceases to be mysterious. It emerges when total deviation from ideal free energy grows too large,
 
 $$
 F[q_t] - F^* = \kappa + \mathrm{CD}(t).
 $$
 
-Collapse occurs when:
+Collapse occurs when
 
 - $\kappa$ (structural costs) becomes too large
 - $\mathrm{CD}(t)$ (dynamic misalignment) grows too quickly
 - $\eta$ (organizational overhead) approaches $\eta_c$
 
-The system loses coherence when gradient dynamics cannot maintain alignment inside the constrained manifold. Each failure mode traces to one of these physical quantities:
+The system loses coherence when gradient dynamics cannot maintain alignment inside the constrained manifold. Each failure mode traces to one of these physical quantities,
 
 - Increasing regularization raises $\kappa$
 - Decreasing variance raises $\eta$
@@ -269,7 +277,7 @@ The system loses coherence when gradient dynamics cannot maintain alignment insi
 - Insufficient batch size distorts geometry
 - Insufficient momentum destabilizes timescales
 
-Every self-supervised collapse mode emerges from this framework. Consider concrete examples:
+Every self-supervised collapse mode emerges from this framework. Consider concrete examples.
 
 **VICReg without variance terms**: The constraint manifold permits dimensional collapse. As dimensions go to zero variance, $\eta$ approaches 1—all capacity goes to maintaining degenerate structure. The system crosses $\eta_c$ and collapses.
 
@@ -287,7 +295,7 @@ Each failure mode maps to the free-energy decomposition. The physics provides a 
 
 ## From Theory to Testable Predictions
 
-The constraint geometry framework generates quantitative predictions verifiable through experiment:
+The constraint geometry framework generates quantitative predictions verifiable through experiment.
 
 - **Optimal VICReg weights**: $\mu, \nu \approx \rho^*/100 \approx 0.033$. Empirical values hover around 0.04 after accounting for batch normalization scaling. Deviation from this range should degrade performance—too low allows collapse, too high inflates $\kappa$.
 
@@ -307,7 +315,7 @@ These predictions emerged from the physics, not empirical tuning. Testing them s
 
 ## Unified View: Methods, Parameters, and Physics
 
-The convergence becomes striking when displayed systematically:
+The convergence becomes striking when displayed systematically.
 
 | Method | Key Parameter | Physical Interpretation | Predicted Value | Empirical Value | Constraint Type |
 |--------|--------------|------------------------|-----------------|-----------------|-----------------|
