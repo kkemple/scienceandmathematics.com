@@ -27,7 +27,7 @@ Self-supervised learning operates under these constraints whether researchers re
 
 ## Coherence Inside Constrained Model Space
 
-Any self-organizing system maintains internal structure while adapting to new information. In physics this appears as a variational density $q(x)$ evolving under the free-energy functional [^1]
+Any self-organizing system maintains internal structure while adapting to new information. In physics this appears as a variational density $q(x)$ evolving under the free-energy functional [^1],
 
 $$
 F[q] = \mathbb{E}_{q}[\ln q(x) - \ln p(o,x)].
