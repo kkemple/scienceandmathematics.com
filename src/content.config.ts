@@ -10,8 +10,14 @@ const posts = defineCollection({
 			title: z.string(),
 			description: z
 				.string()
-				.min(80, { message: "Description should provide at least 80 characters of context." })
-				.max(220, { message: "Description should stay under 220 characters for meta tags." }),
+				.min(80, {
+					message:
+						"Description should provide at least 80 characters of context.",
+				})
+				.max(220, {
+					message:
+						"Description should stay under 220 characters for meta tags.",
+				}),
 			// Transform string to Date object
 			pubDate: z.coerce.date(),
 			image: z.string().optional(),
