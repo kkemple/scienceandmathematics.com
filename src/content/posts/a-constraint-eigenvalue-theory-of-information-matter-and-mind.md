@@ -25,7 +25,7 @@ Every organized system must maintain information in the presence of noise, therm
 This monograph shows that these manifolds are defined by a **constraint eigenvalue geometry**, captured by a variational functional whose stationary points correspond to the invariants $\pi$, $\phi$, and $10$. These constants emerge from the geometry of constraints themselves:
 
 * $\pi$ from isotropic curvature
-* $\phi$ from recursive self-similarity
+* $\varphi$ from recursive self-similarity
 * $10$ from discrete parity × pentagonal resonance
 
 Together, these constants define the stable structures on which information can persist.
