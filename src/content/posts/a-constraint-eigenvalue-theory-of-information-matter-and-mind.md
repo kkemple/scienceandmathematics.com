@@ -30,7 +30,7 @@ This monograph shows that these manifolds are defined by a **constraint eigenval
 
 Together, these constants define the stable structures on which information can persist.
 
-Everything else — dissipation ladders, quantum localization transitions, metabolic thresholds, neural coherence limits, civilizational collapse thresholds, black hole thermodynamics — arises as consequences of this projection geometry.
+Everything else—dissipation ladders, quantum localization transitions, metabolic thresholds, neural coherence limits, civilizational collapse thresholds, black hole thermodynamics—arises as consequences of this projection geometry.
 
 ### 1.1 The fundamental problem of coherence
 
