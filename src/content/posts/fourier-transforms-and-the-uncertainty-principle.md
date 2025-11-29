@@ -1,5 +1,6 @@
 ---
 title: 'Fourier Transforms & the Uncertainty Principle'
+description: "Demonstrates through Fourier analysis, Parseval, Cauchy-Schwarz, and physical case studies that uncertainty limits arise mathematically before quantum interpretation."
 pubDate: '2025-09-12'
 ---
 

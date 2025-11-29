@@ -1,5 +1,6 @@
 ---
 title: 'Information-Theoretic Constraints on Sociotechnical Systems'
+description: "Derives universal speech rates, biological maintenance ceilings, and the 30 percent coordination bankruptcy threshold by applying Landauer physics to human organizations."
 pubDate: '2025-10-16'
 ---
 

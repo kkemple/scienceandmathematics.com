@@ -1,5 +1,6 @@
 ---
 title: 'Bounded Reflexivity & Constraint Theory'
+description: "Reframes Soros-Keynes reflexivity through physical, informational, balance-sheet, and institutional constraints that set predictable breaking points for modern markets."
 pubDate: '2025-11-04'
 ---
 

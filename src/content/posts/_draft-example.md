@@ -1,5 +1,6 @@
 ---
 title: 'Draft Example'
+description: "Explains how prefixing a filename with an underscore keeps the post in draft mode so it stays out of public indexes while you iterate."
 pubDate: '2025-07-09'
 ---
 

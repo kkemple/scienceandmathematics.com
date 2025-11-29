@@ -1,5 +1,6 @@
 ---
 title: "What if Spacetime Isn't So Continuous?"
+description: "Argues continuous spacetime is impossible with finite information, motivating a Planck-scale lattice that reconciles action principles, holography, and thermodynamic computation limits."
 pubDate: '2025-10-10'
 ---
 

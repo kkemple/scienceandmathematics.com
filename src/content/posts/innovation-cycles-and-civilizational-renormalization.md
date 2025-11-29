@@ -1,5 +1,6 @@
 ---
 title: 'Innovation Cycles and Civilizational Renormalization'
+description: "Models innovation eras as renormalization flows where exploitation drives eta toward 0.304, triggering crises that force breakthrough restructurings from agriculture to AI."
 pubDate: '2025-10-18'
 ---
 

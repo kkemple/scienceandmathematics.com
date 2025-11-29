@@ -1,5 +1,6 @@
 ---
 title: 'Conservation, Dissipation, & Field Emergence'
+description: "Shows how conserved currents plus symmetry and calibrated dissipation reproduce Maxwell, Klein-Gordon, fluid, and gravitational field equations from pure constraint satisfaction."
 pubDate: '2025-10-06'
 ---
 

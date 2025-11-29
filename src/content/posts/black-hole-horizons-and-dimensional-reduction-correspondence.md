@@ -1,5 +1,6 @@
 ---
 title: 'Black Hole Horizons & Dimensional Reduction Correspondence'
+description: "Synthesizes geometric, thermodynamic, topological, informational, and quantum arguments that black hole horizons force dimensional reduction and dual chiral processing."
 pubDate: '2025-08-22'
 ---
 

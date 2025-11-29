@@ -1,5 +1,6 @@
 ---
 title: 'The Thermodynamic Computational Speed Limit'
+description: "Derives the universe's processing ceiling, showing black holes compute at the Planck rate while other systems slow in proportion to their distance from the Schwarzschild radius."
 pubDate: '2025-08-06'
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: 'Building an Information-Theoretic Field Theory'
+description: "Builds an information-theoretic field theory where dissipation, renormalization, and conserved currents couple to explain universal scaling from particles to galaxies."
 pubDate: '2025-10-07'
 ---
 

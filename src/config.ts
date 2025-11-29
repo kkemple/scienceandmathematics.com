@@ -7,7 +7,7 @@ export const themeConfig: ThemeConfig = {
 		title: "Science & Mathematics", // Site title
 		author: "Kurtis Kemple", // Author name
 		description:
-			"A first principles exploration of how knowledge emerges across disciplines, designed for deep understanding and synthesis. Examining the causal mechanisms that unite seemingly disparate fields, revealing elegant structures from quantum mechanics to biological systems.", // Site description
+			"Science & Mathematics explores information physics across quantum, biological, and sociotechnical systems with rigorous derivations, data, and cross-disciplinary synthesis.", // Site description
 		language: "en-US", // Default language
 	},
 

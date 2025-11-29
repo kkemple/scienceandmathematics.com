@@ -1,5 +1,6 @@
 ---
 title: 'Markdown Style Guide'
+description: "Demonstrates the theme's Markdown capabilities--headings, typography, lists, tables, images, code, and semantic elements--for quick reference when drafting posts."
 pubDate: '2025-06-28'
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: 'Embedded Content'
+description: "Reference post showing how to embed links, Spotify, YouTube, Bilibili, GitHub, X, and NeoDB content with Astro directives inside this theme."
 pubDate: '2025-06-06'
 ---
 

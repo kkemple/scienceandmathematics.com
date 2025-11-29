@@ -1,5 +1,6 @@
 ---
 title: 'Binding Energy, Critical Radii, & Information Maintenance Tax'
+description: "Connects Landauer limits, binding energy, and white dwarf collapse to show every organized system pays an information maintenance tax with measurable bankruptcy radii."
 pubDate: '2025-10-14'
 ---
 

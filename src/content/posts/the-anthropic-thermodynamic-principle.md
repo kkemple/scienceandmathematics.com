@@ -1,5 +1,6 @@
 ---
 title: 'The Anthropic Thermodynamic Principle'
+description: "Links Landauer limits, dissipation ladders, and the 32.9/67.1 structure-capacity partition to argue consciousness lives inside the narrow thermodynamic window biology occupies."
 pubDate: '2025-09-17'
 ---
 

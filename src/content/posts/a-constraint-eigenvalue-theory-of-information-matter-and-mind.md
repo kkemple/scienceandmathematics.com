@@ -1,5 +1,6 @@
 ---
 title: 'A Constraint Eigenvalue Theory of Information, Matter, and Mind'
+description: "Develops a unified constraint eigenvalue geometry showing how pi, phi, and decade invariants govern coherence from quantum transport to civilizational dynamics."
 pubDate: '2025-11-28'
 ---
 

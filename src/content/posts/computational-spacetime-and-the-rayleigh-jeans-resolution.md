@@ -1,5 +1,6 @@
 ---
 title: 'Computational Spacetime & the Rayleigh-Jeans Resolution'
+description: "Explains the Rayleigh-Jeans catastrophe by treating spacetime as a Planck-rate computational lattice that bounds modes and ties Maxwell's equations to information flow."
 pubDate: '2025-10-08'
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: 'Golden Ratio and Prime Resonance in Quantum Transport'
+description: "Explores why golden ratio phases, prime lattices, and decade partitions minimize curvature, organize Harper-Hofstadter spectra, and inform practical quantum computing layouts."
 pubDate: '2025-10-01'
 ---
 

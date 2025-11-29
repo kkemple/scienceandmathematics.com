@@ -1,5 +1,6 @@
 ---
 title: 'Theme Guide'
+description: "Overview of the Chiri Astro theme, including commands, configuration files, and preview assets so you can customize content, dates, posts, and syntax highlighting quickly."
 pubDate: '2025-07-10'
 ---
 

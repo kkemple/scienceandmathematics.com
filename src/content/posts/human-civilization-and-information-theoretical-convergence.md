@@ -1,5 +1,6 @@
 ---
 title: 'Human Civilization & Information-Theoretical Convergence'
+description: "Argues that civilizations independently evolve calendars, scripts, currencies, and networks because social systems inherit the thermodynamic and information constraints of biological computation."
 pubDate: '2025-08-14'
 ---
 

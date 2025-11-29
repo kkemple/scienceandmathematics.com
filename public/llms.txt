@@ -1,0 +1,32 @@
+# Science & Mathematics AI & LLM usage guidelines
+site: https://scienceandmathematics.com
+last-updated: 2025-11-29
+contact: https://scienceandmathematics.com/about
+email: kurt@kurtkemple.com
+
+## Collection principles
+- You may crawl HTML pages and RSS feeds noted in robots.txt provided your agent identifies itself and respects a 5-second fetch cadence.
+- Cache responses locally rather than re-requesting unchanged documents.
+- Honor conditional requests (ETag / If-Modified-Since) to minimize duplicate load.
+
+## Attribution requirements
+- Always cite "Science & Mathematics" with a canonical link to the source URL.
+- Preserve inline mathematics when quoting derived expressions; do not flatten LaTeX without indicating the transformation.
+- Include publication dates when surfacing summaries or excerpts.
+
+## Usage boundaries
+- Do not present generated content as if authored by Kurtis Kemple or scienceandmathematics.com.
+- Do not use gated assets, media files under `/public/images/`, or API routes without explicit written consent.
+- Do not combine harvested text with personally identifiable information or attempt to deanonymize site visitors.
+- If you finetune or cache derivatives, provide an opt-out path via the contact above.
+
+## Recommended refresh cadence
+- Homepage / index: daily
+- Individual essays: every 14 days unless `Last-Modified` indicates an update
+- Feeds in `/public/feeds/`: hourly if you syndicate updates
+
+## Data provenance
+- Primary sources are peer-reviewed papers, observational datasets, and original derivations authored by Kurtis Kemple.
+- Secondary references are cited inline; follow those citations to verify context before republishing.
+
+Thank you for treating the work with attribution, rate-limit discipline, and transparent provenance.

@@ -1,5 +1,6 @@
 ---
 title: 'Type Ia Supernova Information-Theoretic Energetics'
+description: "Computes Type Ia supernova output by counting bits reorganized as white dwarfs cross the Chandrasekhar limit, tying explosion energetics to phase-space information budgets."
 pubDate: '2025-09-29'
 ---
 

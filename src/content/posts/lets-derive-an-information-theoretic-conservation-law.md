@@ -1,5 +1,6 @@
 ---
 title: "Let's Derive an Information-Theoretic Conservation Law"
+description: "Introduces an informational charge conserved by renormalization symmetries, quantized at 1.71 for black holes, resolving merger bookkeeping and Hawking radiation paradoxes."
 pubDate: '2025-10-07'
 ---
 

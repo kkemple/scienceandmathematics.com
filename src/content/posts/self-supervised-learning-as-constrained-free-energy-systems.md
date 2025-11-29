@@ -1,5 +1,6 @@
 ---
 title: 'Self-Supervised Learning as Constrained Free-Energy Systems'
+description: "Explains why self-supervised methods share 'magic numbers' by modeling representation learning as thermodynamically constrained free-energy minimization with strict coherence budgets."
 pubDate: '2025-11-17'
 ---
 

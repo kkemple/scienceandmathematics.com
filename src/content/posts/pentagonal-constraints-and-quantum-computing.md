@@ -1,5 +1,6 @@
 ---
 title: 'Pentagonal Constraints & Quantum Computing'
+description: "Connects pentagonal frustration, golden-ratio quasi-periodicity, and Fibonacci anyons to concrete quantum computing guidelines for layouts, timing, and error control."
 pubDate: '2025-10-19'
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: 'Complex Adaptable Systems, Complexity Ladders, & Agency'
+description: "Traces a universal four-step complexity ladder from quantum fields to biology, showing why agency emerges only near the eta ~ 0.1 thermodynamic sweet spot."
 pubDate: '2025-10-18'
 ---
 
