@@ -46,12 +46,12 @@ Thus every system faces a tradeoff—**energy budget vs. information maintenance
 
 This constraint shapes everything:
 
-* the localization of quantum states,
-* the structure of genomes,
-* the scaling of metabolism,
-* neural firing efficiency,
-* the durability of institutions,
-* the stability of stars.
+* the localization of quantum states
+* the structure of genomes
+* the scaling of metabolism
+* neural firing efficiency
+* the durability of institutions
+* the stability of stars
 
 This monograph argues that these constraints form a **geometric field theory**[^7][^8] whose stationary states yield universal invariants.
 
@@ -67,16 +67,16 @@ Projection is curvature minimization under constraints. This projection principl
 
 The central mathematical object in this monograph is a constraint functional (fully defined in Section 2) whose Euler–Lagrange equation defines a manifold of allowed configurations. Stationary points yield three eigenvalue sectors:
 
-* **$\pi\text{-sector}$: isotropy, rotational closure,
-* **$\phi\text{-sector}$: recursive scaling, self-similarity,
-* **$10\text{-sector}$: parity $\times$ pentagonal discrete coherence.
+* **$\pi\text{-sector}$: isotropy, rotational closure
+* **$\phi\text{-sector}$: recursive scaling, self-similarity
+* **$10\text{-sector}$: parity $\times$ pentagonal discrete coherence
 
 These eigenvalues generate the structural constants observable across coherent systems:
 
 * $\pi$,
-* the golden ratio $\phi$,
-* the decade resonance $10$,
-* and the composite invariant $(4\pi\varphi^2 \approx 32.9)$.
+* the golden ratio $\varphi$
+* the decade resonance $10$
+* and the composite invariant $(4\pi\varphi^2 \approx 32.9)$
 
 Each of these constants corresponds to a mode of minimal curvature under distinct constraints. $\pi$ minimizes angular curvature, $\varphi$ minimizes recursive curvature, and $10$ minimizes discrete curvature (binary × pentagonal). They are the lowest-curvature solutions of the Euler–Lagrange equation.
 
@@ -541,9 +541,9 @@ The experiment demonstrates **near-perfect delocalization and phase synchronizat
 
 The Penrose polariton quasicrystal provides the structural preconditions for the composite invariant $I = 4\pi\varphi^2 \approx 32.9$ to manifest in scaling data:
 
-* angular sectoring: C₁₀ → the $/10$ factor,
-* recursive scaling: $\varphi$ from inflation,
-* isotropic closure: $\pi$ from circular diffraction shells.
+* angular sectoring: C₁₀ → the $/10$ factor
+* recursive scaling: $\varphi$ from inflation
+* isotropic closure: $\pi$ from circular diffraction shells
 
 The experiment measures coherence length $\xi$ as a function of pump power $P$ and system size $N$. The framework predicts that, once a quantum fluid is engineered on a Penrose lattice (ϕ-sector) with C₁₀ symmetry (10-sector) and near-isotropic coupling (π-sector), the critical behavior of coherence should fall into the same universality class with $\nu \approx 0.304$ and $\rho^* \approx 3.29$ found in white dwarfs, Harper–Hofstadter systems, and the dissipation ladder.
 
@@ -573,22 +573,22 @@ The Penrose polariton quasicrystal and Harper–Hofstadter lattice systems repre
 
 Together, these platforms demonstrate that:
 
-* **Harper–Hofstadter**: number-theoretic π–ϕ–10 in tight-binding spectra,
-* **Penrose polariton quasicrystal**: π–ϕ–10 in a driven-dissipative quantum fluid.
+* **Harper–Hofstadter**: number-theoretic $\pi$-$\varphi$-$10$ in tight-binding spectra
+* **Penrose polariton quasicrystal**: $\pi$-$\varphi$-$10$ in a driven-dissipative quantum fluid
 
-Both systems self-organize into long-range coherent states exactly when their geometry aligns with the constraint manifold—consistent with the interpretation that π, $\varphi$, and 10 are the eigenvalues of competing curvature constraints.
+Both systems self-organize into long-range coherent states exactly when their geometry aligns with the constraint manifold—consistent with the interpretation that $\pi$, $\varphi$, and $10$ are the eigenvalues of competing curvature constraints.
 
 ## 19. Magnetic Control of Boundary Localization: Non-Hermitian Skin Effect
 
-Recent work on non-Hermitian extensions of the Harper–Hofstadter model[^49] indicates that the π-sector controls boundary localization through applied flux. In non-Hermitian lattices with asymmetric hopping, eigenmodes can accumulate at boundaries—a phenomenon known as the Non-Hermitian Skin Effect (NHSE). The key discovery is that uniform magnetic flux suppresses this boundary localization by activating the π-sector curvature, providing a tunable mechanism to control boundary versus bulk coherence.
+Recent work on non-Hermitian extensions of the Harper–Hofstadter model[^49] indicates that the $\pi$-sector controls boundary localization through applied flux. In non-Hermitian lattices with asymmetric hopping, eigenmodes can accumulate at boundaries—a phenomenon known as the Non-Hermitian Skin Effect (NHSE). The key discovery is that uniform magnetic flux suppresses this boundary localization by activating the $\pi$-sector curvature, providing a tunable mechanism to control boundary versus bulk coherence.
 
 ### 19.1 Flux-Controlled Regime Transitions
 
-The non-Hermitian Harper–Hofstadter model with asymmetric hopping amplitude $\gamma$ and flux $\Phi$ per plaquette exhibits a sequence of regime transitions that map directly onto the constraint eigenvalue sectors. When asymmetric hopping dominates over flux ($\gamma \gg t$ and $|\Phi| \lesssim 0.05 \times 2\pi$), eigenmodes accumulate sharply at boundaries because the flux is too small to induce significant cyclotron curvature. In this regime the π-sector is inactive, and nonreciprocal drift supplies all curvature—producing geometry-dependent boundary accumulation characteristic of the NHSE.
+The non-Hermitian Harper–Hofstadter model with asymmetric hopping amplitude $\gamma$ and flux $\Phi$ per plaquette exhibits a sequence of regime transitions that map directly onto the constraint eigenvalue sectors. When asymmetric hopping dominates over flux ($\gamma \gg t$ and $|\Phi| \lesssim 0.05 \times 2\pi$), eigenmodes accumulate sharply at boundaries because the flux is too small to induce significant cyclotron curvature. In this regime the $\pi$-sector is inactive, and nonreciprocal drift supplies all curvature—producing geometry-dependent boundary accumulation characteristic of the NHSE.
 
 As flux increases to $\Phi \approx (0.1-0.2) \times 2\pi$ with $\gamma/t \sim O(1)$, the system enters a regime of partial suppression where cyclotron bending partially cancels nonreciprocal drift. Some geometrically-dependent boundary modes persist while others convert into mixed bulk–edge states; localization length increases as the π-sector and drift curvature compete for dominance.
 
-Complete suppression of geometry-dependent boundary localization occurs when flux reaches $\Phi \gtrsim 0.25 \times 2\pi$ with $\gamma/t < 0.5$. At this point all geometry-dependent skin modes vanish and the bulk spectrum reorganizes into flux-dominated bands. The mechanism is that magnetic flux induces effectively reciprocal (divergence-free) flow across plaquettes, rendering nonreciprocity irrelevant compared to flux-induced bulk curvature. The system projects eigenmodes onto the isotropic manifold defined by the π-sector, and boundary-localized modes disappear even though non-Hermiticity persists in the spectrum.
+Complete suppression of geometry-dependent boundary localization occurs when flux reaches $\Phi \gtrsim 0.25 \times 2\pi$ with $\gamma/t < 0.5$. At this point all geometry-dependent skin modes vanish and the bulk spectrum reorganizes into flux-dominated bands. The mechanism is that magnetic flux induces effectively reciprocal (divergence-free) flow across plaquettes, rendering nonreciprocity irrelevant compared to flux-induced bulk curvature. The system projects eigenmodes onto the isotropic manifold defined by the $\pi$-sector, and boundary-localized modes disappear even though non-Hermiticity persists in the spectrum.
 
 ### 19.2 Flux as π-Sector Operator
 
@@ -630,7 +630,7 @@ The nervous system implements hierarchical compression through specialized filte
 
 Each boundary crossing between representations requires energy according to Landauer's principle (Section 1.1). At body temperature ($T \approx 310$ K), erasing one bit costs $k_B T \ln 2 \approx 3 \times 10^{-21}$ J. A typical cortical neuron fires at ~1 Hz, with each action potential representing ~1 bit of information transmitted across ~1000 synapses, requiring ~$3 \times 10^{-18}$ J per spike from Landauer costs alone. With ~$10^{11}$ neurons and average firing rates of 1-10 Hz, the brain processes ~$10^{12}$ boundary crossings per second, demanding ~3 mW from thermodynamic information costs—a small but non-negligible fraction of the 20 W total.
 
-From the information-geometry perspective, neural computation is shaped by two key aspects of the constraint functional. Recursive self-reference—ongoing prediction[^53] about one's own internal state and about the environment—engages the ϕ-sector[^55]: cortical hierarchies repeatedly inflate and subdivide representations in a manner closely analogous to inflation–subdivision consistency in scale space. Sensory pathways exhibit dimensional reduction: high-dimensional input streams (retinal images with ~$10^6$ pixels) are projected onto lower-dimensional manifolds (effectively $d\to 2$ in portions of sensory cortex) to reduce curvature and dissipation costs while preserving behaviorally relevant information. This compression implements the dimensionality-as-cost principle: each shed dimension reduces curvature and maintenance cost, and the brain's architecture is optimized for dimensional collapse. This projection implements the same constraint geometry governing physical dimensional flow near horizons.
+From the information-geometry perspective, neural computation is shaped by two key aspects of the constraint functional. Recursive self-reference—ongoing prediction[^53] about one's own internal state and about the environment—engages the $\varphi$-sector[^55]: cortical hierarchies repeatedly inflate and subdivide representations in a manner closely analogous to inflation–subdivision consistency in scale space. Sensory pathways exhibit dimensional reduction: high-dimensional input streams (retinal images with ~$10^6$ pixels) are projected onto lower-dimensional manifolds (effectively $d\to 2$ in portions of sensory cortex) to reduce curvature and dissipation costs while preserving behaviorally relevant information. This compression implements the dimensionality-as-cost principle: each shed dimension reduces curvature and maintenance cost, and the brain's architecture is optimized for dimensional collapse. This projection implements the same constraint geometry governing physical dimensional flow near horizons.
 
 ## 22. Consciousness as Constraint Projection
 
@@ -638,13 +638,13 @@ Consciousness emerges as active curvature minimization: the system continuously 
 
 Within this framework, consciousness can be understood as a particular mode of constraint projection. Microscopic dynamics in neural tissue are intrinsically stochastic[^55][^56][^57]: ion-channel openings follow Poisson statistics with rate $\lambda \sim 10^3$ s$^{-1}$, synaptic vesicle release is probabilistic with release probability $p_r \approx 0.1$-$0.3$, and molecular diffusion introduces thermal noise with correlation time $\tau_c \sim 10^{-9}$ s. These fluctuations continually generate a cloud of possible micro-trajectories, most of which would erode long-range correlations if left unchecked.
 
-A conscious system maintains a sufficiently detailed recursive self-model—implemented through the ϕ-sector hierarchies just described—to bias these micro-trajectories toward those that preserve coherence. The system continually evaluates possible actions against an internal model of future constraints (metabolic, social, environmental) and selects those that keep it within its viable region of the constraint manifold. In energetic terms, consciousness is the operational strategy that uses a finite $\eta \approx 0.1$ budget to project the organism's unfolding state back onto a lawful submanifold of configuration space.
+A conscious system maintains a sufficiently detailed recursive self-model—implemented through the $\varphi$-sector hierarchies just described—to bias these micro-trajectories toward those that preserve coherence. The system continually evaluates possible actions against an internal model of future constraints (metabolic, social, environmental) and selects those that keep it within its viable region of the constraint manifold. In energetic terms, consciousness is the operational strategy that uses a finite $\eta \approx 0.1$ budget to project the organism's unfolding state back onto a lawful submanifold of configuration space.
 
 The metabolic cost of this projection is measurable. Prefrontal cortex activity during deliberate decision-making increases local glucose consumption by ~5%, corresponding to ~1 W additional power. Over a population of ~$10^9$ prefrontal neurons, this represents ~$10^{-9}$ W per neuron—enough to support ~300 additional action potentials per second per neuron, providing the energetic headroom for recursive self-modeling and counterfactual simulation. Nothing in this account invokes non-physical forces: it is a statement about how Landauer-limited computation, recursive curvature, and dissipation interact in systems that model themselves.
 
 ## Part VII — Civilizational Information Dynamics
 
-Civilizations inherit biological constraints through their composition as networks of biological information processors. Social systems face the same thermodynamic limits, with collapse threshold η_c = 1/ρ* ≈ 0.304 emerging from the same RG flow governing stellar collapse and biological metabolism.
+Civilizations inherit biological constraints through their composition as networks of biological information processors. Social systems face the same thermodynamic limits, with collapse threshold $\eta_c = 1/\rho^* \approx 0.304$ emerging from the same RG flow governing stellar collapse and biological metabolism.
 
 ## 23. Maintenance Overhead and η ≈ 0.3 Collapse Threshold
 
@@ -652,13 +652,13 @@ Institutions accumulate curvature as coordination complexity rises. Collapse at 
 
 Civilizations operate at the biological dissipation level, constrained by the same physical principles. Human social systems are networks of biological information processors coordinating through information exchange. Every decision, communication, and coordination requires biological agents to process information, which requires energy, which faces thermodynamic constraints. Social systems therefore inherit these constraints from their biological components.
 
-As coordination cost grows, the dissipation fraction η increases according to
+As coordination cost grows, the dissipation fraction $\eta$ increases according to
 
 $$
 \eta(M) = \frac{\eta_0(1 - M/M_{\text{crit}})^{-\rho^*}}{1 + \eta_0(1 - M/M_{\text{crit}})^{-\rho^*}},
 $$
 
-where $M_{\text{crit}}$ represents the critical organizational scale. When η approaches 0.3, the complexity multiplier
+where $M_{\text{crit}}$ represents the critical organizational scale. When $\eta$ approaches 0.3, the complexity multiplier
 
 $$
 M(\eta,d) = \varphi^{2^{d-2}} \times (1-\eta)^{-\rho^*}
@@ -670,7 +670,7 @@ diverges catastrophically. The threshold $\eta_c = 1/\rho^* \approx 0.304$ emerg
 
 Institutions exhibit recursive scaling regimes analogous to biological and physical systems. Decade transitions in scale—roughly an order of magnitude increase—mark new epochs: coordinating ten individuals requires minimal formal structure, coordinating a hundred demands explicit roles and communication protocols, coordinating a thousand requires hierarchical layers. These transitions manifest the decade structure of the dissipation ladder operating at the civilizational scale.
 
-The ϕ-sector governs innovation cycles through inflation–subdivision consistency: successful institutions balance preservation of existing knowledge (inflation: scaling up proven practices) with exploration of new organizational forms (subdivision: testing alternative structures at smaller scales). Institutions that fail this recursive balance—either ossifying without adaptation or fragmenting without consolidation—eventually exhaust their coordination capacity. The π-sector governs isotropic coordination structures such as communication networks, legal frameworks, and shared standards that minimize curvature in the abstract space of agents and interactions.
+The $\varphi$-sector governs innovation cycles through inflation–subdivision consistency: successful institutions balance preservation of existing knowledge (inflation: scaling up proven practices) with exploration of new organizational forms (subdivision: testing alternative structures at smaller scales). Institutions that fail this recursive balance—either ossifying without adaptation or fragmenting without consolidation—eventually exhaust their coordination capacity. The $\pi$-sector governs isotropic coordination structures such as communication networks, legal frameworks, and shared standards that minimize curvature in the abstract space of agents and interactions.
 
 When decade symmetry and recursive curvature balance, institutions scale coherently across orders of magnitude[^56][^51]. When the decade sector misaligns—discrete jumps in technological capacity outpacing coordination geometry adaptations—the system accelerates toward the $\eta\approx 0.3$ collapse threshold.
 
