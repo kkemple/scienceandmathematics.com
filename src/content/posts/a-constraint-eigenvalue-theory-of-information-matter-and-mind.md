@@ -8,7 +8,7 @@ pubDate: '2025-11-28'
 
 ## Abstract
 
-This monograph develops a unified theoretical framework in which physical, biological, cognitive, and sociotechnical systems emerge as different regimes of a single variational principle governing constrained information flow. The central insight is that coherent systems must maintain structure against entropy while operating under finite energetic, geometric, and computational resources. These constraints define a curvature geometry whose stationary points yield a discrete set of universal eigenvalues: $\pi$ (rotational isotropy), $\phi$ (self-similar recursion), and $10$ (composite parity resonance). Their composite invariant, $(4\pi\varphi^2 \approx 32.9)$, appears across quantum transport, renormalization flows, dissipation hierarchies, biological energetics, gravitational collapse, computational spacetime, and civilizational information dynamics.
+This monograph develops a unified theoretical framework in which physical, biological, cognitive, and sociotechnical systems emerge as different regimes of a single variational principle governing constrained information flow. The central insight is that coherent systems must maintain structure against entropy while operating under finite energetic, geometric, and computational resources. These constraints define a curvature geometry whose stationary points yield a discrete set of universal eigenvalues: $\pi$ (rotational isotropy), $\varphi$ (self-similar recursion), and $10$ (composite parity resonance). Their composite invariant, $(4\pi\varphi^2 \approx 32.9)$, appears across quantum transport, renormalization flows, dissipation hierarchies, biological energetics, gravitational collapse, computational spacetime, and civilizational information dynamics.
 
 Across 60 orders of magnitude—from Planck-scale voxel lattices to galaxies, from qubits to civilizations—coherent systems exhibit the same set of constraint-induced structures: a dissipation ladder governed by a β-function, a universal correlation-length exponent $(\nu = 1/\rho^* = 0.304)$, recursive scaling windows, rational–irrational commensurability transitions, decade-resonant modulation, and dimensional reduction from 3 to 2 near gravitational horizons. These phenomena are quantitatively linked by a single variational functional over information distributions.
 
@@ -22,11 +22,11 @@ Every organized system must maintain information in the presence of noise, therm
 
 **To remain coherent, the system must suppress destructive degrees of freedom and project itself onto a lawful manifold defined by constraints.**
 
-This monograph shows that these manifolds are defined by a **constraint eigenvalue geometry**, captured by a variational functional whose stationary points correspond to the invariants $\pi$, $\phi$, and $10$. These constants emerge from the geometry of constraints themselves:
+This monograph shows that these manifolds are defined by a **constraint eigenvalue geometry**, captured by a variational functional whose stationary points correspond to the invariants $\pi$, $\varphi$, and $10$. These constants emerge from the geometry of constraints themselves:
 
 * $\pi$ from isotropic curvature
 * $\varphi$ from recursive self-similarity
-* $10$ from discrete parity × pentagonal resonance
+* $10$ from discrete parity $\times$ pentagonal resonance
 
 Together, these constants define the stable structures on which information can persist.
 
@@ -68,18 +68,18 @@ Projection is curvature minimization under constraints. This projection principl
 The central mathematical object in this monograph is a constraint functional (fully defined in Section 2) whose Euler–Lagrange equation defines a manifold of allowed configurations. Stationary points yield three eigenvalue sectors:
 
 * $\pi$-sector: isotropy, rotational closure
-* $\phi$-sector: recursive scaling, self-similarity
+* $\varphi$-sector: recursive scaling, self-similarity
 * $10$-sector: parity $\times$ pentagonal discrete coherence
 
 These eigenvalues generate the structural constants observable across coherent systems: $\pi$, the golden ratio $\varphi$, the decade resonance $10$, and the composite invariant $(4\pi\varphi^2 \approx 32.9)$.
 
-Each of these constants corresponds to a mode of minimal curvature under distinct constraints. $\pi$ minimizes angular curvature, $\varphi$ minimizes recursive curvature, and $10$ minimizes discrete curvature (binary × pentagonal). They are the lowest-curvature solutions of the Euler–Lagrange equation.
+Each of these constants corresponds to a mode of minimal curvature under distinct constraints. $\pi$ minimizes angular curvature, $\varphi$ minimizes recursive curvature, and $10$ minimizes discrete curvature (binary $\times$ pentagonal). They are the lowest-curvature solutions of the Euler–Lagrange equation.
 
 These constants are *variationally necessary* — they emerge from the geometry of constraints itself. Just as the Anthropic Cosmological Principle constrains what universes can contain observers, the constraint eigenvalue geometry constrains what configurations can maintain coherent information. The framework constrains what structures can exist.
 
 ## Part I — Constraint Eigenvalue Geometry
 
-The constraint eigenvalue geometry provides the mathematical foundation for the entire framework. This part develops the variational functional whose stationary points define the constants $\pi$, $\phi$, and $10$, and shows how their coupling produces the composite invariant $4\pi\varphi^2 \approx 32.9$.
+The constraint eigenvalue geometry provides the mathematical foundation for the entire framework. This part develops the variational functional whose stationary points define the constants $\pi$, $\varphi$, and $10$, and shows how their coupling produces the composite invariant $4\pi\varphi^2 \approx 32.9$.
 
 ## 2. The Constraint Functional
 
@@ -97,9 +97,9 @@ Each term is a curvature cost: the angular term penalizes bending in $\theta$, t
 
 Each coefficient defines a geometric sector:
 
-* **α-term (isotropy sector)**: the angular curvature penalty $\int(\partial_\theta\ln P)^2P\,\mathrm{d}A$ is minimal when $P$ is rotationally invariant. Increasing $\alpha$ therefore drives the system toward states that are insensitive to angular reparameterizations, picking out the familiar $2\pi$ and $4\pi$ closure constants in one and two angular dimensions.
-* **β-term (recursive sector)**: the log-radial curvature penalty $\int(\partial_{\log r}\ln P)^2P\,\mathrm{d}A$ is minimal when $P$ is self-similar under multiplicative rescalings of $r$. This term is responsible for the golden-ratio fixed point, because it enforces consistency between inflation and subdivision operations in scale space.
-* **γ-term (decade sector)**: the discrete functional $C_{2\times5}[P]$ enforces compatibility with a $C_{10}$ symmetry generated by binary and pentagonal factors. It selects configurations whose dominant angular modes and scale partitions respect decade structure, manifesting as tenfold resonances and decadal modulation windows.
+* **$\alpha$-term (isotropy sector)**: the angular curvature penalty $\int(\partial_\theta\ln P)^2P\,\mathrm{d}A$ is minimal when $P$ is rotationally invariant. Increasing $\alpha$ therefore drives the system toward states that are insensitive to angular reparameterizations, picking out the familiar $2\pi$ and $4\pi$ closure constants in one and two angular dimensions.
+* **β-term (recursive sector)**: the log-radial curvature penalty $\int(\partial_{\log r}\ln P)^2P\,\mathrm{d}A$ is minimal when $P$ is self-similar under multiplicative rescalings of $r$. This term is responsible for the golden ratio fixed point, because it enforces consistency between inflation and subdivision operations in scale space.
+* **$\gamma$-term (decade sector)**: the discrete functional $C_{2\times5}[P]$ enforces compatibility with a $C_{10}$ symmetry generated by binary and pentagonal factors. It selects configurations whose dominant angular modes and scale partitions respect decade structure, manifesting as decade resonances and decadal modulation windows.
 
 In this language, a coherent system is one that finds a stationary point of $F[P]$ under the twin constraints of normalization and entropy. The resulting Euler–Lagrange equation defines a manifold of admissible information distributions that simultaneously balance isotropic, recursive, and discrete curvature.
 
@@ -128,7 +128,7 @@ The left-hand side contains curvature forces in the angular, log-radial, and dis
 
 The Euler–Lagrange equation admits three families of stationary solutions, each corresponding to a distinct mode of minimal curvature. Isolating each sector by setting the other coefficients to zero reveals the geometric origin of $\pi$, $\varphi$, and $10$ as constraint eigenvalues.
 
-### 3.1 π-sector: isotropic closure
+### 3.1 $\pi$-sector: isotropic closure
 
 Setting $\beta=\gamma=0$ isolates the angular curvature term. In this limit the functional reduces to an angular Fisher information, and stationarity requires that compressions and dilations in $\theta$ balance:
 
@@ -138,7 +138,7 @@ $$
 
 Solutions enforce angular periodicity of $2\pi$; in higher dimensions this extends to $4\pi$ steradians on the sphere. The $\pi$-sector therefore recovers the familiar closure constants of Euclidean geometry, but now as outputs of an information-theoretic variational problem. Whenever coherent structures are approximately isotropic—atomic orbitals, spherical stars, isotropic turbulence—the leading-order organization is controlled by this sector. Deviations from perfect isotropy then couple to the $\varphi$ and decade sectors as perturbations on top of the $\pi$-eigenmodes.
 
-### 3.2 ϕ-sector: recursive self-similarity
+### 3.2 $\varphi$-sector: recursive self-similarity
 
 Setting $\alpha=\gamma=0$ isolates the log-radial curvature term. In this regime the functional penalizes departures from self-similarity under multiplicative rescalings of $r$:
 
@@ -158,7 +158,7 @@ $$
 x = \varphi = \frac{1+\sqrt{5}}{2}.
 $$
 
-Thus **ϕ appears as the fixed point of recursive curvature**. In practice, any process that repeatedly applies inflation–subdivision operations in scale space is driven toward this fixed point[^18][^19][^20]. This makes $\varphi$ an attractor of renormalization flows in the recursive sector: lattice hierarchies, metabolic scaling cascades, and multi-stage sensory compression all inherit golden-ratio structure because they are governed by the same recursion law in log-radius.
+Thus **$\varphi$ appears as the fixed point of recursive curvature**. In practice, any process that repeatedly applies inflation–subdivision operations in scale space is driven toward this fixed point[^18][^19][^20]. This makes $\varphi$ an attractor of renormalization flows in the recursive sector: lattice hierarchies, metabolic scaling cascades, and multi-stage sensory compression all inherit golden-ratio structure because they are governed by the same recursion law in log-radius.
 
 ### 3.3 Decade sector: discrete resonance
 
@@ -168,7 +168,7 @@ This sector formalizes the empirical observation that many coherent spectra, fro
 
 Together, $\pi$, $\varphi$, and $10$ form the minimal-curvature eigenmodes of the constraint functional. Any other configuration carries higher curvature and therefore higher maintenance cost. This is the curvature basis of the theory: coherent systems adopt the least costly curvature mode available under their constraints.
 
-## 4. Composite Invariant and ϕ as RG Fixed Point
+## 4. Composite Invariant and $\varphi$ as RG Fixed Point
 
 When isotropy and recursion coexist, the curvature balance yields the composite invariant $I = 4\pi\varphi^2 = 32.899\ldots$ The composite invariant is the minimal joint curvature compatible with both isotropic and recursive constraints. This number recurs throughout: in dissipation thresholds, modulation windows, correlation-length exponents, RG flows, variance bounds, and quasicrystalline coherence[^20][^23].
 
@@ -466,17 +466,17 @@ This matches observed Type Ia supernova energies to within measurement uncertain
 
 ### 14.2 Neutron Stars and Discrete Curvature: 10-Sector Resonance in Nuclear Superfluids
 
-Neutron stars provide a striking instance of the decade sector predicted by the constraint eigenvalue geometry. Although neutron matter is nearly perfectly isotropic—making neutron stars quintessential π-sector objects—their internal rotational dynamics generate quantized superfluid vortices that impose discrete parity constraints. These vortices break the continuous rotational symmetry into a finite set of admissible configurations, producing the same C₂×₅ resonance structure that appears in Penrose quasicrystals and driven-dissipative polariton superfluids.
+Neutron stars provide a striking instance of the decade sector predicted by the constraint eigenvalue geometry. Although neutron matter is nearly perfectly isotropic—making neutron stars quintessential $\pi$-sector objects—their internal rotational dynamics generate quantized superfluid vortices that impose discrete parity constraints. These vortices break the continuous rotational symmetry into a finite set of admissible configurations, producing the same $C_{2\times5}$ resonance structure that appears in Penrose quasicrystals and driven-dissipative polariton superfluids.
 
 The crust–core superfluid supports vortices with quantized winding number, and the energetically optimal arrangement of these vortices forms quasi-periodic patterns that minimize discrete curvature in angular-momentum space. Pinning and unpinning of vortices on nuclear lattice sites produce discrete avalanche events—observed as glitches—whose size and recurrence intervals follow integer and decade-like scaling. Quasi-periodic oscillations (QPOs), starquakes, and crustal failure modes cluster into discrete frequency bands, reflecting the same minimal-curvature resonance modes that characterize the 10-sector.
 
-This correspondence mirrors the behavior of exciton–polariton condensates on Penrose tilings, where C₁₀ Bragg spectra emerge from the enforced discrete symmetry of the underlying geometry. In neutron stars, the symmetry arises from the quantization of circulation in a superfluid and the parity structure of vortex pinning potentials rather than spatial tiling. In both systems, the decade sector manifests when continuous isotropy (π) coexists with quantized curvature constraints, producing discrete modes that minimize the γ-sector curvature penalty.
+This correspondence mirrors the behavior of exciton–polariton condensates on Penrose tilings, where $C_{10}$ Bragg spectra emerge from the enforced discrete symmetry of the underlying geometry. In neutron stars, the symmetry arises from the quantization of circulation in a superfluid and the parity structure of vortex pinning potentials rather than spatial tiling. In both systems, the decade sector manifests when continuous isotropy ($\pi$) coexists with quantized curvature constraints, producing discrete modes that minimize the $\gamma$-sector curvature penalty.
 
-Neutron stars and Penrose superfluids, despite their radically different physical substrates—nuclear matter versus quantum light—exhibit the same decadal coherence because both are governed by the same discrete-curvature eigenvalue. This convergence across platforms supports the interpretation that C₂×₅ resonance is a universal feature of systems balancing isotropy, quantization, and finite maintenance capacity.
+Neutron stars and Penrose superfluids, despite their radically different physical substrates—nuclear matter versus quantum light—exhibit the same decadal coherence because both are governed by the same discrete-curvature eigenvalue. This convergence across platforms supports the interpretation that $C_{2\times5}$ resonance is a universal feature of systems balancing isotropy, quantization, and finite maintenance capacity.
 
 ## Part V — Quantum Lattices and Number-Theoretic Modulation
 
-Harper–Hofstadter lattice systems reveal how the three constraint sectors separate into distinct physical roles. Transport is controlled by the π-sector through rational denominators, while modulation is governed by the φ-sector through Hurwitz's theorem. Decade partitions near α ≈ 0.329, 0.671 organize large-scale spectral rearrangements.
+Harper–Hofstadter lattice systems reveal how the three constraint sectors separate into distinct physical roles. Transport is controlled by the $\pi$-sector through rational denominators, while modulation is governed by the $\varphi$-sector through Hurwitz's theorem. Decade partitions near $\alpha \approx 0.329, 0.671$ organize large-scale spectral rearrangements.
 
 ## 15. Commensurability and q-Scaling
 
@@ -488,7 +488,7 @@ For low-$q$ rationals, the lattice and magnetic length are nearly commensurate, 
 
 Within the present framework, this behavior is the signature of the $\pi$-sector and discrete parity: transport is governed by how well the underlying discrete symmetries can be satisfied by the imposed flux pattern[^41][^42]. The constraint functional assigns lower curvature cost to configurations that respect simple commensurabilities, and higher cost to those that require intricate phase cancellation across many sites.
 
-## 16. ϕ as Modulation Sector
+## 16. $\varphi$ as Modulation Sector
 
 The golden ratio controls how transport and localization vary as flux is tuned. Organizing $\alpha$ according to its continued-fraction expansion reveals that the rate at which new denominators appear—and hence the rate at which new commensurability classes are encountered—is controlled by Diophantine properties of $\alpha$[^43]. Hurwitz's theorem[^44] establishes that the golden ratio minimizes the quality of rational approximations: no irrational is harder to approximate by rationals than $\varphi$. The inequality
 
@@ -504,11 +504,11 @@ $$
 \varphi = 1 + \cfrac{1}{1 + \cfrac{1}{1 + \cfrac{1}{1 + \cdots}}}
 $$
 
-generates the slowest possible convergence to rational approximations, making $\varphi$ the natural scale for self-similar spectral reorganization[^45]. The ϕ-sector of the constraint functional therefore organizes modulation rather than raw transport, shaping how the spectrum reconfigures itself across scales and providing the recursive backbone on which the $\pi$-sector's commensurability physics is built.
+generates the slowest possible convergence to rational approximations, making $\varphi$ the natural scale for self-similar spectral reorganization[^45]. The $\varphi$-sector of the constraint functional therefore organizes modulation rather than raw transport, shaping how the spectrum reconfigures itself across scales and providing the recursive backbone on which the $\pi$-sector's commensurability physics is built.
 
 ## 17. Decade Partitions
 
-The C₂×₅ sector introduces a further layer of structure beyond commensurability and recursive modulation. Numerical studies of Harper–Hofstadter spectra under physically motivated transport metrics reveal special partition points near
+The $C_{2\times5}$ sector introduces a further layer of structure beyond commensurability and recursive modulation. Numerical studies of Harper–Hofstadter spectra under physically motivated transport metrics reveal special partition points near
 
 $$
 \alpha \approx 0.329 = \frac{4\pi\varphi^2}{100},\quad 0.671 = 1 - 0.329,
@@ -518,29 +518,29 @@ which act as organizing centers for large-scale rearrangements of the spectrum. 
 
 From the standpoint of the constraint functional, these partition points mark where the decade sector becomes comparable in strength to the $\pi$- and $\varphi$-sectors. At $\alpha < 0.329$, the spectrum is dominated by low-$q$ rational commensurabilities with transport controlled primarily by the $\pi$-sector. At $\alpha > 0.671$, high-$q$ localization dominates with strong discrete parity constraints. In the intermediate window $0.329 < \alpha < 0.671$, the $\varphi$-sector recursive modulation becomes most prominent, organizing spectral transitions through continued-fraction hierarchies. The partition points therefore mark transitions between regimes dominated by commensurability (transport), recursive modulation (spectral structure), and their balanced coexistence. This sector decomposition, derived from the abstract functional, matches in detail the transport and spectral patterns observed in concrete lattice models.
 
-## 18. Penrose Polariton Quasicrystal: π–ϕ–10 in a Driven-Dissipative Quantum Fluid
+## 18. Penrose Polariton Quasicrystal: $\pi$–$\varphi$–$10$ in a Driven-Dissipative Quantum Fluid
 
-Recent experiments with exciton–polariton condensates on Penrose tiling lattices realize the π–ϕ–10 constraint eigenvalue geometry in a single device[^46]. Alyatkin et al. imprinted a Penrose tiling potential in a GaAs microcavity using a spatial light modulator, then pumped non-resonantly to form exciton–polariton condensates at the vertices. The resulting structure exhibits **aperiodic order with C₁₀ rotational symmetry**, with reciprocal-space photoluminescence showing sharp Bragg peaks arranged in tenfold symmetry—a bona fide 2D polariton quasicrystal[^46].
+Recent experiments with exciton–polariton condensates on Penrose tiling lattices realize the $\pi$–$\varphi$–$10$ constraint eigenvalue geometry in a single device[^46]. Alyatkin et al. imprinted a Penrose tiling potential in a GaAs microcavity using a spatial light modulator, then pumped non-resonantly to form exciton–polariton condensates at the vertices. The resulting structure exhibits **aperiodic order with $C_{10}$ rotational symmetry**, with reciprocal-space photoluminescence showing sharp Bragg peaks arranged in tenfold symmetry—a bona fide 2D polariton quasicrystal[^46].
 
 This platform directly implements all three eigenvalue sectors simultaneously:
 
-**π-sector (angular isotropy)**: In reciprocal space, the Bragg peaks lie on circular rings with angular positions separated by $\Delta\theta = 2\pi/10$. This is exactly the angular curvature being minimized: the system selects equal angular spacing with period $2\pi$, discretized into ten coherent directions by C₁₀ symmetry. The isotropic closure constant $\pi$ appears in the circular diffraction shells, while the decade sector breaks this into ten equal angular sectors.
+**$\pi$-sector (angular isotropy)**: In reciprocal space, the Bragg peaks lie on circular rings with angular positions separated by $\Delta\theta = 2\pi/10$. This is exactly the angular curvature being minimized: the system selects equal angular spacing with period $2\pi$, discretized into ten coherent directions by $C_{10}$ symmetry. The isotropic closure constant $\pi$ appears in the circular diffraction shells, while the decade sector breaks this into ten equal angular sectors.
 
-**ϕ-sector (recursive curvature)**: Penrose tilings[^47][^48] are defined by **inflation–deflation rules with scale factor $\varphi$**, and all length/area ratios of the prototiles are powers of $\varphi$. This is exactly the "inflation–subdivision consistency" condition from Section 3.2: coarse-graining tiles by $\varphi$ yields the same pattern at larger scale, subdividing by $\varphi$ yields the same pattern at smaller scale, and the fixed point of that recursion is $\varphi$. The quasicrystal lattice is a direct realization of the $\beta$-sector: the log-radial curvature term is minimized on a Penrose hierarchy whose eigenvalue is $\varphi$.
+**$\varphi$-sector (recursive curvature)**: Penrose tilings[^47][^48] are defined by **inflation–deflation rules with scale factor $\varphi$**, and all length/area ratios of the prototiles are powers of $\varphi$. This is exactly the "inflation–subdivision consistency" condition from Section 3.2: coarse-graining tiles by $\varphi$ yields the same pattern at larger scale, subdividing by $\varphi$ yields the same pattern at smaller scale, and the fixed point of that recursion is $\varphi$. The quasicrystal lattice is a direct realization of the $\beta$-sector: the log-radial curvature term is minimized on a Penrose hierarchy whose eigenvalue is $\varphi$.
 
-**10-sector (C₂×₅ discrete resonance)**: The Penrose structure is a pentagon-based aperiodic tiling whose diffraction has 10-fold symmetry; decagonal symmetry is literally "2 × 5" built into the structure factor. This is the C₂×₅ sector: binary (2) and pentagonal (5) coherence meeting at decade symmetry (10). The experiment's C₁₀ Bragg spectrum and Penrose pentagonal motifs are a direct instance of the "parity × pentagonal discrete coherence" term.
+**10-sector ($C_{2\times5}$ discrete resonance)**: The Penrose structure is a pentagon-based aperiodic tiling whose diffraction has 10-fold symmetry; decagonal symmetry is literally "$2 \times 5$" built into the structure factor. This is the $C_{2\times5}$ sector: binary (2) and pentagonal (5) coherence meeting at decade symmetry (10). The experiment's $C_{10}$ Bragg spectrum and Penrose pentagonal motifs are a direct instance of the "parity $\times$ pentagonal discrete coherence" term.
 
-The experiment demonstrates **near-perfect delocalization and phase synchronization** of the polariton fluid over $>100\times$ the healing length at a particular pump window, well beyond single-site scales[^46]. This mesoscopic coherence emerges exactly when the geometry aligns with the constraint manifold: the system rides the π–ϕ–10 structure rather than fighting it.
+The experiment demonstrates **near-perfect delocalization and phase synchronization** of the polariton fluid over $>100 \times$ the healing length at a particular pump window, well beyond single-site scales[^46]. This mesoscopic coherence emerges exactly when the geometry aligns with the constraint manifold: the system rides the $\pi$–$\varphi$–$10$ structure rather than fighting it.
 
 ### 18.1 Composite Invariant and Critical Exponents
 
 The Penrose polariton quasicrystal provides the structural preconditions for the composite invariant $I = 4\pi\varphi^2 \approx 32.9$ to manifest in scaling data:
 
-* angular sectoring: C₁₀ → the $/10$ factor
+* angular sectoring: $C_{10}$ → the $/10$ factor
 * recursive scaling: $\varphi$ from inflation
 * isotropic closure: $\pi$ from circular diffraction shells
 
-The experiment measures coherence length $\xi$ as a function of pump power $P$ and system size $N$. The framework predicts that, once a quantum fluid is engineered on a Penrose lattice (ϕ-sector) with C₁₀ symmetry (10-sector) and near-isotropic coupling (π-sector), the critical behavior of coherence should fall into the same universality class with $\nu \approx 0.304$ and $\rho^* \approx 3.29$ found in white dwarfs, Harper–Hofstadter systems, and the dissipation ladder.
+The experiment measures coherence length $\xi$ as a function of pump power $P$ and system size $N$. The framework predicts that, once a quantum fluid is engineered on a Penrose lattice ($\varphi$-sector) with $C_{10}$ symmetry (10-sector) and near-isotropic coupling ($\pi$-sector), the critical behavior of coherence should fall into the same universality class with $\nu \approx 0.304$ and $\rho^* \approx 3.29$ found in white dwarfs, Harper–Hofstadter systems, and the dissipation ladder.
 
 Specifically, as the pump power $P$ approaches a critical threshold $P_c$ from below, the coherence length should diverge as
 
@@ -558,18 +558,18 @@ The reconfigurable nature of the spatial light modulator platform enables direct
 
 * **Random graphs**: Similar degree distribution but no constraint alignment. Coherence should be suppressed relative to the Penrose case.
 
-* **Penrose quasicrystal**: All three sectors aligned. The framework predicts the widest mesoscopic delocalization window (coherence $>100\times$ healing length) at a given dissipation budget, because the system rides the constraint manifold instead of fighting it.
+* **Penrose quasicrystal**: All three sectors aligned. The framework predicts the widest mesoscopic delocalization window (coherence $>100 \times$ healing length) at a given dissipation budget because the system rides the constraint manifold instead of fighting it.
 
-This comparison provides a direct test: only the Penrose geometry (π–ϕ–10 aligned) should show the extended coherence window, because it minimizes the curvature costs encoded in the constraint functional.
+This comparison provides a direct test: only the Penrose geometry ($\pi$–$\varphi$–$10$ aligned) should show the extended coherence window, because it minimizes the curvature costs encoded in the constraint functional.
 
 ### 18.3 Universality Across Platforms
 
-The Penrose polariton quasicrystal and Harper–Hofstadter lattice systems represent two very different physical platforms—a driven-dissipative quantum fluid and a tight-binding electron system—yet both exhibit the same π–ϕ–10 eigenvalue skeleton. This pattern is consistent with the hypothesis that the constraint eigenvalue geometry reflects the fundamental structure of coherent organization under finite resources, independent of particular Hamiltonians or interaction types.
+The Penrose polariton quasicrystal and Harper–Hofstadter lattice systems represent two very different physical platforms—a driven-dissipative quantum fluid and a tight-binding electron system—yet both exhibit the same $\pi$–$\varphi$–$10$ eigenvalue skeleton. This pattern is consistent with the hypothesis that the constraint eigenvalue geometry reflects the fundamental structure of coherent organization under finite resources, independent of particular Hamiltonians or interaction types.
 
 Together, these platforms demonstrate that:
 
-* **Harper–Hofstadter**: number-theoretic $\pi$-$\varphi$-$10$ in tight-binding spectra
-* **Penrose polariton quasicrystal**: $\pi$-$\varphi$-$10$ in a driven-dissipative quantum fluid
+* **Harper–Hofstadter**: number-theoretic $\pi$–$\varphi$–$10$ in tight-binding spectra.
+* **Penrose polariton quasicrystal**: $\pi$–$\varphi$–$10$ in a driven-dissipative quantum fluid.
 
 Both systems self-organize into long-range coherent states exactly when their geometry aligns with the constraint manifold—consistent with the interpretation that $\pi$, $\varphi$, and $10$ are the eigenvalues of competing curvature constraints.
 
@@ -581,19 +581,19 @@ Recent work on non-Hermitian extensions of the Harper–Hofstadter model[^49] in
 
 The non-Hermitian Harper–Hofstadter model with asymmetric hopping amplitude $\gamma$ and flux $\Phi$ per plaquette exhibits a sequence of regime transitions that map directly onto the constraint eigenvalue sectors. When asymmetric hopping dominates over flux ($\gamma \gg t$ and $|\Phi| \lesssim 0.05 \times 2\pi$), eigenmodes accumulate sharply at boundaries because the flux is too small to induce significant cyclotron curvature. In this regime the $\pi$-sector is inactive, and nonreciprocal drift supplies all curvature—producing geometry-dependent boundary accumulation characteristic of the NHSE.
 
-As flux increases to $\Phi \approx (0.1-0.2) \times 2\pi$ with $\gamma/t \sim O(1)$, the system enters a regime of partial suppression where cyclotron bending partially cancels nonreciprocal drift. Some geometrically-dependent boundary modes persist while others convert into mixed bulk–edge states; localization length increases as the π-sector and drift curvature compete for dominance.
+As flux increases to $\Phi \approx (0.1-0.2) \times 2\pi$ with $\gamma/t \sim O(1)$, the system enters a regime of partial suppression where cyclotron bending partially cancels nonreciprocal drift. Some geometrically-dependent boundary modes persist while others convert into mixed bulk–edge states; localization length increases as the $\pi$-sector and drift curvature compete for dominance.
 
 Complete suppression of geometry-dependent boundary localization occurs when flux reaches $\Phi \gtrsim 0.25 \times 2\pi$ with $\gamma/t < 0.5$. At this point all geometry-dependent skin modes vanish and the bulk spectrum reorganizes into flux-dominated bands. The mechanism is that magnetic flux induces effectively reciprocal (divergence-free) flow across plaquettes, rendering nonreciprocity irrelevant compared to flux-induced bulk curvature. The system projects eigenmodes onto the isotropic manifold defined by the $\pi$-sector, and boundary-localized modes disappear even though non-Hermiticity persists in the spectrum.
 
-### 19.2 Flux as π-Sector Operator
+### 19.2 Flux as $\pi$-Sector Operator
 
-The constraint functional's π-sector enforces angular isotropy through the curvature penalty $\int(\partial_\theta\ln P)^2P\,\mathrm{d}A$. Uniform magnetic flux implements exactly this term mechanically: cyclotron curvature is isotropic in angle, driving the system toward rotationally symmetric transport envelopes and suppressing directed drift. Thus flux is literally a π-sector operator. When flux dominates over asymmetric hopping, the system projects eigenmodes onto the isotropic manifold, matching the suppression of NHSE observed in the non-Hermitian lattice.
+The constraint functional's $\pi$-sector enforces angular isotropy through the curvature penalty $\int(\partial_\theta\ln P)^2P\,\mathrm{d}A$. Uniform magnetic flux implements exactly this term mechanically: cyclotron curvature is isotropic in angle, driving the system toward rotationally symmetric transport envelopes and suppressing directed drift. Thus flux is literally a $\pi$-sector operator. When flux dominates over asymmetric hopping, the system projects eigenmodes onto the isotropic manifold, matching the suppression of NHSE observed in the non-Hermitian lattice.
 
-### 19.3 Irrational Flux and ϕ-Sector Activation
+### 19.3 Irrational Flux and $\varphi$-Sector Activation
 
-When flux takes irrational values related to the golden ratio—$\alpha \approx \varphi^{-1} = 0.618\ldots$ or $\varphi^{-2} = 0.382\ldots$—the ϕ-sector activates and a fourth regime emerges. With $\gamma/t < 0.3$ and flux near these irrational values, the NHSE is replaced by flux-driven Landau-type bulk localization. Eigenmodes accumulate not on boundaries but on cyclotron orbits, and the system behaves like a non-Hermitian quantum Hall lattice.
+When flux takes irrational values related to the golden ratio—$\alpha \approx \varphi^{-1} = 0.618\ldots$ or $\varphi^{-2} = 0.382\ldots$—the $\varphi$-sector activates and a fourth regime emerges. With $\gamma/t < 0.3$ and flux near these irrational values, the NHSE is replaced by flux-driven Landau-type bulk localization. Eigenmodes accumulate not on boundaries but on cyclotron orbits, and the system behaves like a non-Hermitian quantum Hall lattice.
 
-This regime corresponds to simultaneous activation of the ϕ-sector (through irrational flux inducing recursive self-similar flow) and the π-sector (through isotropic cyclotron curvature). Recursive modulation windows appear, Fibonacci hierarchical band structure emerges, and boundary localization is completely replaced by bulk localization. The hierarchy of minibands and flux sectors corresponds precisely to the ϕ-related recursive partitions derived from the constraint functional in Section 3.2.
+This regime corresponds to simultaneous activation of the $\varphi$-sector (through irrational flux inducing recursive self-similar flow) and the $\pi$-sector (through isotropic cyclotron curvature). Recursive modulation windows appear, Fibonacci hierarchical band structure emerges, and boundary localization is completely replaced by bulk localization. The hierarchy of minibands and flux sectors corresponds precisely to the $\varphi$-related recursive partitions derived from the constraint functional in Section 3.2.
 
 ### 19.4 Decade Structures in Suppression Thresholds
 
@@ -603,9 +603,9 @@ The suppression thresholds therefore instantiate the 10-sector, with the composi
 
 ### 19.5 Implications for Engineered Quantum Systems
 
-This discovery provides a concrete, physics-grounded mechanism for controlling boundary versus bulk coherence. For systems embedding ϕ-lattices into non-Hermitian frameworks, synthetic gauge flux becomes a tunable knob to modulate boundary-localized modes. By adjusting flux from weak ($|\Phi| \lesssim 0.05 \times 2\pi$) through moderate ($\Phi \approx 0.25 \times 2\pi$) to irrational values ($\alpha \approx \varphi^{-1}$), experimentalists can dynamically transition from boundary-dominated to bulk-dominated coherence—a direct application of the constraint eigenvalue geometry to engineered quantum systems.
+This discovery provides a concrete, physics-grounded mechanism for controlling boundary versus bulk coherence. For systems embedding $\varphi$-lattices into non-Hermitian frameworks, synthetic gauge flux becomes a tunable knob to modulate boundary-localized modes. By adjusting flux from weak ($|\Phi| \lesssim 0.05 \times 2\pi$) through moderate ($\Phi \approx 0.25 \times 2\pi$) to irrational values ($\alpha \approx \varphi^{-1}$), experimentalists can dynamically transition from boundary-dominated to bulk-dominated coherence—a direct application of the constraint eigenvalue geometry to engineered quantum systems.
 
-The mapping between flux regimes and constraint sectors is exact and one-to-one. If the framework is correct, the π, ϕ, and 10 sectors are physical operators controlling coherent organization in real lattice systems. Together with the Penrose polariton quasicrystal and Harper–Hofstadter results, this suggests that three very different platforms—tight-binding electron systems, driven-dissipative quantum fluids, and non-Hermitian lattices—all exhibit the same π–ϕ–10 eigenvalue skeleton when their geometry aligns with the constraint manifold.
+The mapping between flux regimes and constraint sectors is exact and one-to-one. If the framework is correct, the $\pi$, $\varphi$, and $10$ sectors are physical operators controlling coherent organization in real lattice systems. Together with the Penrose polariton quasicrystal and Harper–Hofstadter results, this suggests that three very different platforms—tight-binding electron systems, driven-dissipative quantum fluids, and non-Hermitian lattices—all exhibit the same $\pi$–$\varphi$–$10$ eigenvalue skeleton when their geometry aligns with the constraint manifold.
 
 ## Part VI — Biological and Cognitive Systems
 
@@ -832,7 +832,7 @@ where $\ell = \log r$. The left-hand side contains curvature forces: angular cur
 
 For periodic angular domains, boundary terms vanish automatically. For radial coordinates, we require either compact support with Dirichlet or Neumann conditions, or sufficiently rapid decay as $r \to 0$ or $r \to \infty$. Solutions must satisfy $P > 0$ everywhere to define the logarithm, and sufficient smoothness for the second derivatives to exist in the classical sense—though weak solutions can be defined through the variational formulation directly.
 
-### Appendix B — Derivation of ϕ from Recursive Curvature
+### Appendix B — Derivation of $\varphi$ from Recursive Curvature
 
 The golden ratio emerges as the fixed point of recursive curvature when we impose that coarse-graining and subdivision commute. Working with separable solutions $P(r,\theta) = R(r)\Theta(\theta)$ and focusing on the log-radial sector, the key requirement is inflation–subdivision consistency: coarse-graining by a factor $\sigma$ and then subdividing by $\sigma$ should reproduce the same radial profile as subdividing first and inflating afterwards.
 
