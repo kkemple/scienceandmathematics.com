@@ -265,6 +265,10 @@ const { toc = [] }: TOCProps = Astro.props
     padding-left: 1rem;
     z-index: 10;
     left: auto;
+    max-height: calc(100vh - 12rem - 2rem);
+    overflow-y: auto;
+    padding-right: 0.5rem;
+    overscroll-behavior: contain;
   }
 
   .toc-nav {
