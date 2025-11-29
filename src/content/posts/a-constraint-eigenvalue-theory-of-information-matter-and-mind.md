@@ -67,9 +67,9 @@ Projection is curvature minimization under constraints. This projection principl
 
 The central mathematical object in this monograph is a constraint functional (fully defined in Section 2) whose Euler–Lagrange equation defines a manifold of allowed configurations. Stationary points yield three eigenvalue sectors:
 
-* **$\pi\text{-sector}$: isotropy, rotational closure
-* **$\phi\text{-sector}$: recursive scaling, self-similarity
-* **$10\text{-sector}$: parity $\times$ pentagonal discrete coherence
+* $\pi\text{-sector}$: isotropy, rotational closure
+* $\phi\text{-sector}$: recursive scaling, self-similarity
+* $10\text{-sector}$: parity $\times$ pentagonal discrete coherence
 
 These eigenvalues generate the structural constants observable across coherent systems:
 
