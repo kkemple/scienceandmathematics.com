@@ -734,24 +734,6 @@ Taken together, these results show that TURs, QSLs, and generalized distinguisha
 
 The constraint eigenvalue framework generates concrete, falsifiable predictions spanning gravitational wave memory effects, white dwarf cooling anomalies, primordial black hole equilibrium, quantum computing limits, and structure formation energetics. These predictions provide empirical pathways to test the framework.
 
-**Gravitational wave memory effect.** Black hole mergers produce permanent spacetime displacement from information topology[^65] reorganization. Memory strain scales as
-
-$$
-h_{\text{mem}} = \frac{4G}{c^4 r} \Delta N_{\text{bits}} k_B T \ln 2,
-$$
-
-yielding $h \sim 10^{-23}$ for nearby events (100 Mpc) with 30 solar mass mergers. LIGO/Virgo O4 and beyond should detect this through statistical stacking of >100 events.
-
-**White dwarf cooling anomalies.** The basin of attraction entrance at $R/R_S = 10^3$ corresponds to $M \approx 1.17 M_{\odot}$ where $\eta = 0.46$ and $(1-\eta)^{-\rho^*} = 5.66$. The 311 objects in anomaly zone ($R/R_S$ = 805-1496) exhibit cooling delays with statistical significance $p = 0.0015$, appearing 0.56 Gyr younger than expected.
-
-**Primordial black hole equilibrium.** Lunar-mass primordial black holes ($\sim 10^{22}$ kg) achieve equilibrium when Hawking temperature
-
-$$
-T_H = \frac{\hbar c^3}{8\pi G M k_B}
-$$
-
-equals CMB temperature (2.7 K). These objects neither grow nor evaporate, creating detectable signatures through gravitational microlensing with characteristic duration ~1 hour and CMB temperature fluctuations $\Delta T/T \sim 10^{-6}$.
-
 **Quantum computing limits.** No quantum computer can exceed
 
 $$
@@ -760,13 +742,15 @@ $$
 
 for its mass and size. Prime factorization at specific scales (7, 47, 329 qubits) should show enhanced efficiency from resonance avoidance, while golden-ratio phase relationships minimize decoherence.
 
-**Structure formation energetics.** Galaxy formation simulations miss ~5% of the energy budget from maintenance costs:
+**White dwarf cooling anomalies.** The basin of attraction entrance at $R/R_S = 10^3$ corresponds to $M \approx 1.17 M_{\odot}$ where $\eta = 0.46$ and $(1-\eta)^{-\rho^*} = 5.66$. The 311 objects in anomaly zone ($R/R_S$ = 805-1496) exhibit cooling delays with statistical significance $p = 0.0015$, appearing 0.56 Gyr younger than expected.
+
+**Gravitational wave memory effect.** Black hole mergers produce permanent spacetime displacement from information topology[^65] reorganization. Memory strain scales as
 
 $$
-E_{\text{miss}} = M_{\text{gal}} c^2 \times \frac{R_S}{R} \times \eta_{\text{struct}},
+h_{\text{mem}} = \frac{4G}{c^4 r} \Delta N_{\text{bits}} k_B T \ln 2,
 $$
 
-where $\eta_{\text{struct}} \sim 10$ for assembling galaxies.
+yielding $h \sim 10^{-23}$ for nearby events (100 Mpc) with 30 solar mass mergers. LIGO/Virgo O4 and beyond should detect this through statistical stacking of >100 events.
 
 **High-spin black hole subpopulation.** The dissipation field naturally produces a bimodal spin distribution. Systems that undergo coherent collapse or hierarchical mergers achieve the high-coherence fixed point ($\eta \approx 1$, $d \to 2$), yielding high-spin black holes. Systems with weak compression or common-envelope damping remain at the low-coherence attractor ($\eta < 1$, $d \approx 3$), producing low-spin remnants. The fraction reaching the high-spin branch follows
 
@@ -777,6 +761,22 @@ $$
 with mass-weighted corrections pushing this into the 0.28–0.34 range for equal-mass binaries, yielding a central expectation of 0.329. This prediction is consistent with GWTC-3 observations indicating $f_{\text{high}} = 0.20 \pm 0.18$, where the 32.9% value sits within the credible range. The dimensional flow exponent $1/\rho^* \approx 0.304$ determines how rapidly objects converge to the $d=2$ fixed point, predicting the tail shape of spin distributions. Strong compression (massive stars, second-generation black holes, gas-rich collapsars) follows rapid approach to $d=2$ with high spin retention ($\chi \approx 0.7$-$1.0$), while weak compression (common-envelope remnants, low-mass cores) exhibits slow approach with damped spin ($\chi \approx 0$-$0.2$). This reproduces the empirically observed broad low-spin peak, narrower high-spin peak, and suppressed plateau between $\chi \approx 0.3$ and $0.6$.
 
 The discrete winding structure with $n_{\max} = (1/2\pi)\ln(r_s/\ell_P) \approx 14$ for stellar-mass black holes provides a topological origin for spin quantization. These fourteen winding sectors correspond to stable angular momentum topological sectors, predicting discrete clustering of high-spin events rather than continuous distribution. Recent GWTC-3 events show clustering near $\chi \sim 0.67, 0.84, 0.93$, consistent with winding-sector structure. High-spin black holes possess stronger horizon information-flux coherence, enhancing long-wavelength gravitational-wave coupling. Pulsar timing array analyses (NANOGrav, EPTA DR2) show that improved achromatic noise modeling increases background amplitude and favors high-spin supermassive binary populations, matching the prediction that high-spin systems produce stronger nanohertz signals through enhanced mode coherence.
+
+**Primordial black hole equilibrium.** Lunar-mass primordial black holes ($\sim 10^{22}$ kg) achieve equilibrium when Hawking temperature
+
+$$
+T_H = \frac{\hbar c^3}{8\pi G M k_B}
+$$
+
+equals CMB temperature (2.7 K). These objects neither grow nor evaporate, creating detectable signatures through gravitational microlensing with characteristic duration ~1 hour and CMB temperature fluctuations $\Delta T/T \sim 10^{-6}$.
+
+**Structure formation energetics.** Galaxy formation simulations miss ~5% of the energy budget from maintenance costs:
+
+$$
+E_{\text{miss}} = M_{\text{gal}} c^2 \times \frac{R_S}{R} \times \eta_{\text{struct}},
+$$
+
+where $\eta_{\text{struct}} \sim 10$ for assembling galaxies.
 
 ## Conclusion — Constraint Geometry as Universal Law
 
