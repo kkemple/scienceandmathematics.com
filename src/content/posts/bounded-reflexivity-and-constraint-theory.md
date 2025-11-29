@@ -9,7 +9,7 @@ Markets coordinate around expectations rather than fundamentals, creating self-r
 
 The interaction of these constraint layers creates predictable breaking points. This article develops the constraint framework theoretically, shows how it applies across domains, and demonstrates why constraints enable prediction even when psychology seems chaotic.
 
-> **TL;DR:** Soros and Keynes were right that markets are reflexive and coordination-driven—but wrong to think this makes them unpredictable. Reflexivity operates within physical, informational, and institutional constraints that create predictable boundaries. Understanding these constraints lets you anticipate market breaking points even during wild speculative episodes.
+Soros and Keynes were right that markets are reflexive and coordination-driven—but wrong to think this makes them unpredictable. Reflexivity operates within physical, informational, and institutional constraints that create predictable boundaries. Understanding these constraints lets you anticipate market breaking points even during wild speculative episodes.
 
 ## The Reflexive Foundation
 
