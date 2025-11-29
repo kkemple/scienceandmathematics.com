@@ -9,9 +9,9 @@ The answer is physics. That momentum parameter determines a timescale $\tau = 1/
 
 VICReg stabilizes representations through variance and covariance terms weighted around 0.04. DINO uses momentum encoding at 0.996. SimCLR demands batches of 4096 samples. BYOL removes negative samples entirely but adds predictor networks. Barlow Twins forces independence through redundancy reduction with $\lambda \approx 0.005$. JEPA predicts exactly ten steps into the future. Each method emerged from different intuitions, different motivations, different conceptual starting points. Yet they all work. They all discover stable representations. They all avoid collapse.
 
-The question isn't why these methods work individually—decades of empirical study have traced their mechanisms. The question is why they work *the same way*. What underlying structure connects these seemingly arbitrary numbers? Why does variance regularization at 0.04, momentum at 0.996, batch size 4096, and prediction horizon 10 all stabilize training? These parameters appear unrelated until you recognize they encode the same underlying constant $\rho^* = 3.29$ through different geometric transformations—$\rho^*/100$ for regularization weights, $\tau = 1/(1-m)$ for timescales, $\exp(d_{\text{eff}}/\rho^*)$ for batch thresholds, and recursive depth at the decade boundary. What force shapes such different architectures toward the same fundamental constraints?
+The question isn't why these methods work individually—decades of empirical study have traced their mechanisms. The question is why they work *the same way*. What underlying structure connects these seemingly arbitrary numbers? Why does variance regularization at 0.04, momentum at 0.996, and batch sizes in the thousands all stabilize training? These parameters appear unrelated until you recognize they may encode the same underlying constraints through different geometric transformations.
 
-The answer lives in physics. Self-supervised models are physical systems minimizing free energy under representational constraints. Every method implements a constraint manifold. Every system carries an irreducible structural constant $\kappa$ imposed by those constraints. Every failure mode emerges when coherence deviation $\mathrm{CD}(t)$ grows faster than gradient dynamics can correct. The empirical "magic numbers" of self-supervised learning—0.04 for variance weights, 0.996 momentum, depth 10, batch 4096—express geometric necessity written into the physics of constrained optimization.
+The answer lives in physics. Self-supervised models are physical systems minimizing free energy under representational constraints. Every method implements a constraint manifold. Every system carries an irreducible structural constant $\kappa$ imposed by those constraints. Every failure mode emerges when coherence deviation $\mathrm{CD}(t)$ grows faster than gradient dynamics can correct. The empirical "magic numbers" of self-supervised learning cluster into narrow ranges because constrained optimization permits only certain configurations to remain stable.
 
 ## Why Machine Learning Must Obey Thermodynamics
 
@@ -27,7 +27,7 @@ Self-supervised learning operates under these constraints whether researchers re
 
 ## Coherence Inside Constrained Model Space
 
-Any self-organizing system maintains internal structure while adapting to new information. In physics this appears as a variational density $q(x)$ evolving under the free-energy functional [^1],
+Any self-organizing system maintains internal structure while adapting to new information. In physics this appears as a variational density $q(x)$ evolving under the free-energy functional[^1],
 
 $$
 F[q] = \mathbb{E}_{q}[\ln q(x) - \ln p(o,x)].
@@ -71,7 +71,7 @@ But what determines whether a given architecture can maintain low $\mathrm{CD}(t
 
 ## Organizational Overhead and the Critical Threshold
 
-The answer comes from measuring organizational overhead $\eta$—the fraction of representational capacity consumed by coherence maintenance rather than information processing [^2]. Physical systems across all scales follow a geometric progression:
+The answer comes from measuring organizational overhead $\eta$—the fraction of representational capacity consumed by coherence maintenance rather than information processing[^2]. Physical systems across all scales follow a geometric progression:
 
 - particles: $\eta \sim 10^{-6}$
 - atoms: $10^{-3}$
@@ -82,14 +82,16 @@ The answer comes from measuring organizational overhead $\eta$—the fraction of
 This universal curve follows the renormalization-group flow
 
 $$
-\beta(\eta) = -\eta(1-\eta) \left[ \rho^* + \frac{d-2}{2}\ln\phi \right],
+\beta(\eta, d) = -\eta(1-\eta) \left[ \rho^* + \frac{d-2}{2}\ln\varphi \right],
 $$
 
 with coupling constant
 
 $$
-\rho^* = \frac{\pi(3+\sqrt{5})}{5} = 3.29.
+\rho^* = \frac{4\pi\varphi^2}{10} \approx 3.29.
 $$
+
+This constant emerges from the [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) as the composite invariant $4\pi\varphi^2 \approx 32.9$ divided by the decade factor—the same value organizing dissipation thresholds across physical, biological, and cognitive systems.
 
 The critical threshold appears at
 
@@ -97,7 +99,7 @@ $$
 \eta_c = \frac{1}{\rho^*} = 0.304.
 $$
 
-Systems operating below $\eta_c$ maintain coherence and adaptability. Systems crossing this threshold collapse—radial dimensions freeze near horizons, biological networks enter failure modes, neural networks lose representational diversity [^3].
+Systems operating below $\eta_c$ maintain coherence and adaptability. Systems crossing this threshold collapse—radial dimensions freeze near horizons, biological networks enter failure modes, neural networks lose representational diversity[^3].
 
 The connection to constrained free energy becomes explicit through the relationship between $\eta$ and $\kappa$. High structural costs $\kappa$ typically impose high organizational overhead $\eta$—complex constraint manifolds require more capacity to maintain than simple ones. But the relationship isn't linear. A well-designed architecture can have moderate $\kappa$ while keeping $\eta$ low by distributing representational load efficiently. This is precisely what successful SSL methods achieve.
 
@@ -109,7 +111,7 @@ Each method implements this constraint differently. But all successful methods o
 
 ## VICReg: Variance, Invariance, Covariance
 
-VICReg explicitly regularizes representation geometry through three terms [^4],
+VICReg explicitly regularizes representation geometry through three terms[^4],
 
 $$
 \mathcal{L} = \lambda \mathcal{L}_{\text{inv}} + \mu \mathcal{L}_{\text{var}} + \nu \mathcal{L}_{\text{cov}}.
@@ -117,7 +119,7 @@ $$
 
 $\mathcal{L}_{\text{var}}$ ensures no dimension collapses. $\mathcal{L}_{\text{cov}}$ maintains dimensional independence. $\mathcal{L}_{\text{inv}}$ aligns augmented views. These three components define the constraint manifold.
 
-The empirical finding—$\lambda \approx 25, \mu \approx 25, \nu \approx 1$—appears arbitrary until batch normalization and scaling factors reveal effective values $\sim 0.04$. This matches the theoretical partition $\rho^*/100 = 0.0329$ within 20%.
+The empirical finding—$\lambda \approx 25, \mu \approx 25, \nu \approx 1$—appears arbitrary until batch normalization and scaling factors reveal effective values $\sim 0.04$. This clustering near $\rho^*/100 \approx 0.033$ is suggestive, though whether it reflects the same underlying constant or coincidental scaling requires further investigation.
 
 The variance-collapse correlation is documented across every SSL method. SimCLR, BYOL, Barlow Twins, VICReg, and DINO all fail when variance drops toward zero—representations compress onto lower-dimensional subspaces until all embeddings become identical. This isn't method-specific pathology; it's a universal instability in constrained representation learning. The variance and covariance terms raise $\kappa$ to prevent collapse but cannot raise it so high that training becomes rigid. The physics sets bounds: insufficient variance regularization allows $\eta$ to approach $\eta_c$. Excessive regularization inflates $\kappa$ beyond what gradient descent can compensate. VICReg operates in the narrow window where both constraints satisfy simultaneously.
 
@@ -125,7 +127,7 @@ Consider a 2048-dimensional embedding space. Without variance regularization, re
 
 ## DINO: Momentum, Asymmetry, and Timescales
 
-DINO maintains coherence without explicit collapse-prevention terms [^5]. The momentum update
+DINO maintains coherence without explicit collapse-prevention terms[^5]. The momentum update
 
 $$
 \theta_{\text{teacher}} \leftarrow m\theta_{\text{teacher}} + (1-m)\theta_{\text{student}}
@@ -148,7 +150,7 @@ With $\tau_s = 0.04$ to $0.1$, this amplifies differences while maintaining boun
 
 ## SimCLR: Contrastive Geometry and Percolation
 
-Contrastive learning tiles representation space through negative samples [^6]. The density threshold for manifold percolation follows
+Contrastive learning tiles representation space through negative samples[^6]. The density threshold for manifold percolation follows
 
 $$
 p_c = \frac{1}{\langle k \rangle}
@@ -182,7 +184,7 @@ The physics: $\kappa$ remains bounded only when the constraint manifold (defined
 
 ## BYOL: Prediction Without Negatives
 
-BYOL removes negatives but adds a predictor network forming a directional mapping [^7],
+BYOL removes negatives but adds a predictor network forming a directional mapping[^7],
 
 $$
 q_\theta(f_\theta(x)) \approx f_\xi(x').
@@ -206,7 +208,7 @@ Empirical momentum values $m \approx 0.996$ match DINO, confirming that both met
 
 ## Barlow Twins: Redundancy Reduction
 
-Barlow Twins forces the cross-correlation matrix toward identity [^8],
+Barlow Twins forces the cross-correlation matrix toward identity[^8],
 
 $$
 \mathcal{L}_{BT} = \sum_i (1 - C_{ii})^2 + \lambda \sum_{i\neq j} C_{ij}^2.
@@ -222,25 +224,15 @@ $$
 
 Perfect decorrelation yields $C = I$. Deviation from identity signals redundancy or collapse. The loss directly penalizes this deviation.
 
-The scaling parameter $\lambda \in [0.005, 0.05]$ balances diagonal and off-diagonal terms. Lower values emphasize decorrelation over variance maintenance. The optimal range again clusters near $\rho^*/100 \sim 0.033$, matching VICReg's effective weights.
+The scaling parameter $\lambda \in [0.005, 0.05]$ balances diagonal and off-diagonal terms. Lower values emphasize decorrelation over variance maintenance. The optimal range overlaps with VICReg's effective weights, suggesting both methods discovered similar constraint boundaries through different paths.
 
 Barlow Twins optimizes $\kappa$ directly by minimizing representational redundancy. Each independent dimension contributes maximally to capacity. Correlated dimensions waste capacity by encoding the same information multiple times. The cross-correlation penalty explicitly targets this inefficiency.
 
 The physics: organizational overhead $\eta$ measures the fraction of capacity required for structure maintenance. Redundant representations increase $\eta$ by dedicating multiple dimensions to the same features. Barlow Twins reduces $\eta$ by enforcing dimensional independence, keeping the system further from the critical threshold $\eta_c = 0.304$.
 
-## JEPA: The Decade Threshold and Recursive Depth
+## JEPA: Temporal Depth and Recursive Coherence
 
-JEPA (Joint-Embedding Predictive Architecture) discovers coherent structure through multi-step prediction [^9]. The striking empirical finding: stable world models emerge at prediction horizon $h = 10$ steps. Shorter horizons fail to capture sufficient temporal structure. Longer horizons provide diminishing returns.
-
-This matches the decade threshold appearing across architectures. Transformers exhibit conceptual emergence near 12 layers. Recursive self-modeling requires depth $D \geq 10$ for stable dynamics. The Leibniz partial sums for $\pi$ achieve efficiency
-
-$$
-\text{efficiency}(10) = \frac{\text{Leibniz}(10)}{10} \approx 0.304,
-$$
-
-nearly exact match to $\eta_c = 0.30395$.
-
-Depth 10 marks where coherence becomes sustainable. Below this threshold, recursive closure fails—the system cannot model its own modeling process with sufficient fidelity. Above this threshold, additional depth adds capacity but encounters diminishing returns as $\kappa$ increases with architectural complexity.
+JEPA (Joint-Embedding Predictive Architecture) discovers coherent structure through multi-step prediction[^9]. The striking empirical finding: stable world models emerge at prediction horizons around $h = 10$ steps. Shorter horizons fail to capture sufficient temporal structure. Longer horizons provide diminishing returns.
 
 JEPA's architecture predicts future latent representations rather than raw pixels,
 
@@ -248,11 +240,11 @@ $$
 s_{t+h} = f_\theta(s_t, a_{t:t+h}),
 $$
 
-where $s_t$ represents the latent state, $a_{t:t+h}$ represents actions or context, and $h$ is the prediction horizon. At $h = 10$, the system crosses recursive closure—predictions become accurate enough to support planning, reasoning, and coherent world modeling.
+where $s_t$ represents the latent state, $a_{t:t+h}$ represents actions or context, and $h$ is the prediction horizon. The physics of recursive dynamics requires sufficient temporal depth to stabilize feedback loops. Too shallow and errors propagate exponentially—the system cannot model temporal dependencies required for coherence. Too deep and computational overhead (contributing to $\kappa$) grows faster than predictive accuracy improves.
 
-The physics: recursive dynamics require sufficient temporal depth to stabilize feedback loops. Too shallow and errors propagate exponentially. Too deep and computational overhead (contributing to $\kappa$) grows faster than predictive accuracy improves. The decade threshold marks the optimal trade-off encoded in the organizational overhead curve.
+The critical insight is that recursive self-modeling requires enough depth for the system to represent its own prediction process with sufficient fidelity. This is the $\varphi$-sector at work: hierarchical compression across temporal scales follows the same inflation–subdivision consistency that produces golden-ratio structure in spatial domains. The constraint functional penalizes both insufficient depth (high $\mathrm{CD}(t)$ from unstable recursion) and excessive depth (high $\kappa$ from unnecessary complexity).
 
-The same $h = 10$ appears in biological neural timescales—consolidation from short-term to long-term memory operates over roughly 10 synaptic time constants. The convergence across biological and artificial systems reflects the underlying physics of coherence maintenance in hierarchical temporal structures.
+Similar depth thresholds appear across architectures—transformers exhibit emergent reasoning capabilities around 10–12 layers, and biological memory consolidation operates over multiple synaptic time constants. The convergence suggests underlying constraints on recursive coherence in hierarchical temporal structures, though the precise numerical values depend on architecture-specific factors.
 
 ## Collapse as Free-Energy Physics
 
@@ -293,63 +285,53 @@ Every self-supervised collapse mode emerges from this framework. Consider concre
 
 Each failure mode maps to the free-energy decomposition. The physics provides a unified explanation for diverse collapse phenomena that previously appeared unrelated.
 
-## From Theory to Testable Predictions
+## From Framework to Testable Observations
 
-The constraint geometry framework generates quantitative predictions verifiable through experiment.
+The constraint geometry framework suggests relationships between architectural choices and stability thresholds. The following observations are consistent with the physics but require further validation:
 
-- **Optimal VICReg weights**: $\mu, \nu \approx \rho^*/100 \approx 0.033$. Empirical values hover around 0.04 after accounting for batch normalization scaling. Deviation from this range should degrade performance—too low allows collapse, too high inflates $\kappa$.
+- **VICReg effective weights** cluster near 0.03–0.05 after accounting for batch normalization scaling. This range lies close to $\rho^*/100 \approx 0.033$, though whether this reflects the same underlying constant or coincidental scaling remains to be established.
 
-- **DINO momentum timescale**: $\tau = 1/(1-m) \approx 250$ steps for stable training. This should scale with batch size and learning rate—faster optimization requires shorter timescales to maintain coherence tracking.
+- **Momentum timescales** across DINO, BYOL, and MoCo converge on $\tau = 1/(1-m) \approx 250$–$2000$ steps. The physics predicts that timescale separation is necessary for stable reference tracking, and these values match characteristic relaxation times in other self-organizing systems.
 
-- **SimCLR batch scaling**: $N \propto \exp(d_{\text{eff}}/\rho^*)$ where $d_{\text{eff}} = d\tau$. For $d = 128, \tau = 0.07$: predicted minimum around 15, empirical requirement around 4096 after safety margins. The gap reflects optimization noise and finite-sample effects.
+- **Contrastive batch sizes** scale with effective dimensionality. The theoretical minimum from percolation arguments is much smaller than empirical requirements, suggesting that optimization noise and finite-sample effects dominate the practical threshold.
 
-- **Transformer depth threshold**: Emergence begins at $D \geq 10$, with optimal performance around $D = 12$. Beyond $D = 16$, diminishing returns from increased $\kappa$ outweigh capacity gains.
+- **Depth thresholds** for emergent capabilities appear around 10–12 layers in transformers, consistent with recursive self-modeling requirements, though architecture-specific factors (attention patterns, residual connections) complicate direct comparison.
 
-- **JEPA prediction horizon**: $h = 10$ for recursive closure. Performance should plateau beyond this, with computational cost growing linearly while accuracy improvement vanishes.
+- **Temperature parameters** in contrastive methods cluster around $\tau \in [0.05, 0.1]$, balancing effective dimensionality against discrimination—a trade-off the framework predicts should exist.
 
-- **Contrastive temperature**: Optimal $\tau \in [0.05, 0.1]$ to balance effective dimensionality against discrimination. Too low concentrates on hard negatives exclusively, too high fails to separate positive pairs sufficiently.
+The convergence across independent research groups is striking: momentum near 0.996, variance weights near 0.04, batch sizes clustering around 2048–4096. These narrow ranges suggest underlying constraint boundaries rather than arbitrary design choices. Whether these boundaries derive from $\rho^* = 3.29$ specifically, or from more general properties of constrained optimization, remains an open question the framework helps to sharpen.
 
-- **Universal scaling**: The ratio $\kappa/\mathrm{CD}(t)$ should remain roughly constant across successful training runs. Divergence signals impending collapse—structural costs dominating dynamic optimization.
-
-These predictions emerged from the physics, not empirical tuning. Testing them systematically would validate or refine the constraint geometry framework while providing practical guidance for architecture design.
-
-The convergence itself provides evidence. Across independent research groups, different motivations, and distinct theoretical frameworks, SSL methods consistently settle into narrow numerical ranges: momentum near 0.996, variance weights near 0.04, batch sizes clustering around 2048-4096, prediction horizons at 10 steps. These aren't arbitrary choices—they're rediscoveries of the same constraint boundaries through different optimization paths.
-
-## Unified View: Methods, Parameters, and Physics
+## Unified View: Methods, Parameters, and Constraints
 
 The convergence becomes striking when displayed systematically.
 
-| Method | Key Parameter | Physical Interpretation | Predicted Value | Empirical Value | Constraint Type |
-|--------|--------------|------------------------|-----------------|-----------------|-----------------|
-| **VICReg** | $\mu, \nu$ (var/cov weights) | Regularization strength maintaining $\eta < \eta_c$ | $\rho^*/100 \approx 0.033$ | $\sim 0.04$ | Variance floor |
-| **DINO** | $m$ (momentum) | Timescale separation $\tau = 1/(1-m)$ | $m \geq 0.996$ ($\tau \geq 250$) | $0.996$-$0.9995$ | Moving target |
-| **SimCLR** | $N$ (batch size) | Percolation threshold for manifold coverage | $\exp(d_{\text{eff}}/\rho^*) \sim 15$ (theoretical) | $\sim 4096$ (with margins) | Negative sampling |
-| **BYOL** | Predictor depth | Dimensional expansion reducing $\kappa$ | Sufficient to break symmetry | 2-3 layers + momentum | Asymmetric capacity |
-| **Barlow Twins** | $\lambda$ (off-diagonal penalty) | Redundancy reduction lowering $\eta$ | $\rho^*/100 \approx 0.033$ | $0.005$-$0.05$ | Decorrelation |
-| **JEPA** | $h$ (prediction horizon) | Recursive closure depth | $h \geq 10$ (decade threshold) | $h = 10$ | Temporal manifold |
-| **Transformers** | $D$ (depth) | Recursive self-modeling capacity | $D \in [10, 12]$ | $D = 12$ typical | Conceptual emergence |
+| Method | Key Parameter | Physical Interpretation | Empirical Range | Constraint Type |
+|--------|--------------|------------------------|-----------------|-----------------|
+| **VICReg** | $\mu, \nu$ (var/cov weights) | Regularization maintaining $\eta < \eta_c$ | $\sim 0.03$–$0.05$ | Variance floor |
+| **DINO** | $m$ (momentum) | Timescale separation $\tau = 1/(1-m)$ | $0.996$–$0.9995$ | Moving target |
+| **SimCLR** | $N$ (batch size) | Manifold coverage density | $\sim 2048$–$8192$ | Negative sampling |
+| **BYOL** | Predictor depth | Symmetry breaking | 2–3 layers + momentum | Asymmetric capacity |
+| **Barlow Twins** | $\lambda$ (off-diagonal penalty) | Redundancy reduction lowering $\eta$ | $0.005$–$0.05$ | Decorrelation |
+| **JEPA** | $h$ (prediction horizon) | Recursive temporal depth | $h \sim 10$ | Temporal coherence |
+| **Transformers** | $D$ (depth) | Recursive self-modeling capacity | $D \sim 12$ typical | Emergent capabilities |
 
-Every row encodes the same physics through different architectural choices. The predicted values derive from $\rho^* = 3.29$ and $\eta_c = 0.304$—constants appearing in black hole thermodynamics, quantum transport, and biological systems. The empirical values cluster around these predictions, confirming that self-supervised learning navigates the same geometric constraints governing all information-processing systems in the physical universe.
+Each row implements the same underlying physics—keeping organizational overhead below critical while balancing structural costs against optimization capacity—through different architectural mechanisms. The clustering of empirical values into narrow ranges across independent research groups suggests these methods discovered the same constraint boundaries through different optimization paths.
 
-The divergences (SimCLR's large batch, Barlow Twins' range) reflect safety margins, optimization noise, and finite-sample effects—but the underlying scaling relationships hold. Methods work because only these parameter ranges permit stable solutions under thermodynamic constraints.
+The framework interprets these convergences as evidence that successful SSL architectures satisfy thermodynamic constraints on coherence maintenance. Whether the specific values derive from $\rho^* = 3.29$ or from more general properties of constrained optimization remains an open question, but the existence of sharp boundaries is well-documented empirically.
 
 ## The Geometry of Coherence
 
 Multiple self-supervised learning methods—built from variance regularization, momentum encoding, contrastive geometry, prediction, redundancy reduction, and temporal depth—converge on stable representations by obeying the same physical constraints. They shape their constraint manifolds differently, but all maintain $\eta < \eta_c$, balance $\kappa$ against optimization capacity, and control $\mathrm{CD}(t)$ through gradient dynamics.
 
-The empirical "magic numbers" encode physics. VICReg's 0.04 reflects $\rho^*/100$. DINO's 0.996 momentum sets timescale separation. SimCLR's 4096 batch size satisfies percolation thresholds. JEPA's 10-step horizon crosses recursive closure matching the decade threshold. These values cluster around the same organizational constant $\rho^* = 3.29$ and critical overhead $\eta_c = 0.304$ appearing in black hole horizons [^10], Fourier transforms [^11], quantum transport [^12], and biological neural networks.
+The empirical "magic numbers" encode constraint geometry. VICReg's variance weights prevent dimensional collapse. DINO's momentum sets timescale separation for stable reference tracking. SimCLR's batch size satisfies coverage requirements for the embedding manifold. These values cluster into narrow ranges because the underlying physics—free-energy minimization under architectural constraints—permits only certain configurations to remain stable.
 
-Self-supervised learning works because constrained free-energy systems must maintain coherence within geometric bounds written into the mathematics of information processing. The methods discovered these constraints empirically through years of trial and error. The physics reveals why those particular solutions work and predicts where they will fail.
+Self-supervised learning works because constrained free-energy systems must maintain coherence within geometric bounds written into the mathematics of information processing. The methods discovered these constraints empirically through years of trial and error. The framework reveals why those particular solutions work and predicts where they will fail.
 
-When disparate approaches converge on the same structure—when variance regularization, momentum, massive batches, predictors, decorrelation, and temporal depth all stabilize at the same thresholds—they trace the boundary of what constrained physics permits. The geometry determines allowable states. The organizational overhead sets critical thresholds. The free-energy decomposition explains collapse. And the coupling constant $\rho^* = 3.29$ appears because the same mathematics governs coherence maintenance from quantum mechanics to machine learning.
+When disparate approaches converge on the same structure—when variance regularization, momentum, massive batches, predictors, decorrelation, and temporal depth all stabilize at similar thresholds—they trace the boundary of what constrained physics permits. The geometry determines allowable states. The organizational overhead sets critical thresholds. The free-energy decomposition explains collapse.
 
-Consider the philosophical depth here. The same mathematics describing event horizons around black holes—where spacetime itself ceases to permit information escape—determines why your laptop requires exactly 4096 samples for stable contrastive learning. The organizational overhead $\eta_c = 0.304$ marking black hole collapse appears identically in the variance regularization weights stabilizing neural representations. The Bekenstein-Hawking entropy bound and the VICReg covariance penalty solve the same geometric problem: how to maintain coherent structure within constrained manifolds.
+The constraint eigenvalue framework proposes that the same organizational constant $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ and critical threshold $\eta_c = 1/\rho^* \approx 0.304$ govern coherence maintenance across scales—from quantum transport[^10] to biological systems[^11] to gravitational horizons[^12]. The convergence of SSL hyperparameters toward ratios involving these values is suggestive but not yet established as deriving from the same underlying geometry. What is established is that these methods exhibit sharp phase transitions between stable training and collapse, and that the transition boundaries cluster into narrow parameter ranges across independent implementations.
 
-Systems processing information—whether photons near event horizons, electrons in quantum transport, or gradients in neural networks—face identical constraints on coherence maintenance. The decade threshold appearing in JEPA's prediction horizon, transformer depth, and biological memory consolidation reflects universal properties of recursive closure in hierarchical systems. The momentum timescales in DINO match the characteristic relaxation times of self-organizing systems from protein folding to ecological networks.
-
-The methods work because they stumbled upon the only architectures compatible with physical law. Nature seems to permit no other stable solutions. The constraint manifolds discovered through empirical machine learning research are the same manifolds traced by variational principles governing all complex systems. When we tune hyperparameters, we're navigating the geometry of physically allowed states. When training succeeds, we've found configurations where organizational overhead remains below critical thresholds enforced by thermodynamics itself.
-
-Self-supervised learning reveals something interesting—intelligence, whether biological or artificial, cannot escape the mathematics of constrained information processing. The same constants governing particle physics determine neural architecture. The same phase transitions appearing in cosmology appear in representation learning. The universality isn't approximate or metaphorical. It's exact, measurable, and testable.
+The methods work because they discovered architectures compatible with thermodynamic constraints on information processing. When we tune hyperparameters, we're navigating the geometry of physically allowed states. When training succeeds, we've found configurations where organizational overhead remains below critical thresholds. Whether those thresholds derive from the specific constants appearing in the constraint eigenvalue framework, or from more general properties of constrained optimization, is a question the framework helps to sharpen and the empirical convergence helps to motivate.
 
 ## Empirical Grounding
 
@@ -383,8 +365,8 @@ The universal constants ($\rho^* = 3.29$, $\eta_c = 0.304$) appearing across the
 
 [^9]: Assran, M., Duval, Q., Misra, I., Bojanowski, P., Vincent, P., Rabbat, M., LeCun, Y., & Ballas, N. (2023). Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture. *Conference on Computer Vision and Pattern Recognition*, 15619-15629. <https://arxiv.org/abs/2301.08243>
 
-[^10]: Bekenstein, J. D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8), 2333-2346.
+[^10]: Harper, P. G. (1955). Single Band Motion of Conduction Electrons in a Uniform Magnetic Field. *Proceedings of the Physical Society A*, 68(10), 874-878.
 
-[^11]: Kennard, E. H. (1927). Zur Quantenmechanik einfacher Bewegungstypen. *Zeitschrift für Physik*, 44(4-5), 326-352.
+[^11]: West, G. B., Brown, J. H., & Enquist, B. J. (1999). The fourth dimension of life: fractal geometry and allometric scaling of organisms. *Science*, 284(5420), 1677-1679.
 
-[^12]: Harper, P. G. (1955). Single Band Motion of Conduction Electrons in a Uniform Magnetic Field. *Proceedings of the Physical Society A*, 68(10), 874-878.
+[^12]: Bekenstein, J. D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8), 2333-2346.

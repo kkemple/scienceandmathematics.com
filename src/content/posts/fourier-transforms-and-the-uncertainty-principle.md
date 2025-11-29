@@ -7,7 +7,7 @@ The uncertainty principle $\Delta x \Delta p \geq \hbar/2$ predates quantum mech
 
 ## The Transform Pair
 
-The Fourier transform connects time-domain and frequency-domain representations of any function [^1]. For a signal $f(t)$, the transform is,
+The Fourier transform connects time-domain and frequency-domain representations of any function[^1]. For a signal $f(t)$, the transform is,
 
 $$
 \hat{f}(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} \, dt.
@@ -31,7 +31,7 @@ The conjugacy of $x$ and $k$ creates reciprocal constraints—precision in one d
 
 ## Energy Conservation in Transform Space
 
-Parseval's theorem establishes that total energy is conserved between domains [^2],
+Parseval's theorem establishes that total energy is conserved between domains[^2],
 
 $$
 \int_{-\infty}^{\infty} |f(t)|^2 \, dt = \frac{1}{2\pi} \int_{-\infty}^{\infty} |\hat{f}(\omega)|^2 \, d\omega.
@@ -45,7 +45,7 @@ $$
 \hat{f}(\omega) = \sqrt{2\pi}\sigma_t \exp\left(-\frac{\sigma_t^2 \omega^2}{2}\right).
 $$
 
-The product $\sigma_t \sigma_\omega = 1$ is exact for Gaussians—the unique functions achieving minimum uncertainty [^3]. Temporal compression (decreasing $\sigma_t$) demands frequency expansion (increasing $\sigma_\omega$) to preserve this mathematical identity.
+The product $\sigma_t \sigma_\omega = 1$ is exact for Gaussians—the unique functions achieving minimum uncertainty[^3]. Temporal compression (decreasing $\sigma_t$) demands frequency expansion (increasing $\sigma_\omega$) to preserve this mathematical identity.
 
 ## Mathematical Derivation via Cauchy-Schwarz
 
@@ -67,7 +67,7 @@ $$
 \left|\int u^* v \, dx\right|^2 \leq \int |u|^2 \, dx \int |v|^2 \, dx.
 $$
 
-Setting $u = x\psi$ and $v = \partial\psi/\partial x$, integration by parts yields the commutator term that generates the bound [^4],
+Setting $u = x\psi$ and $v = \partial\psi/\partial x$, integration by parts yields the commutator term that generates the bound[^4],
 
 $$
 \Delta x \Delta k \geq \frac{1}{2}.
@@ -103,7 +103,7 @@ The de Broglie relation $p = \hbar k$ assigns physical momentum to the mathemati
 
 ## Phase Space Constraints via Wigner Functions
 
-Classical phase space allows simultaneous $(x, p)$ specification. Quantum mechanics forbids this through the Fourier constraint. The Wigner function $W(x,p)$ bridges classical and quantum descriptions as a quasi-probability distribution in phase space [^5].
+Classical phase space allows simultaneous $(x, p)$ specification. Quantum mechanics forbids this through the Fourier constraint. The Wigner function $W(x,p)$ bridges classical and quantum descriptions as a quasi-probability distribution in phase space[^5].
 
 The Wigner function is defined as the Fourier transform of the density matrix,
 
@@ -123,7 +123,7 @@ Uncertainty emerges as a peaking constraint on $W(x,p)$. The delta function $\de
 
 ## Reciprocal Space and Crystal Diffraction
 
-The Fourier transform structure appears in condensed matter physics through reciprocal space. A crystal with periodic structure defined by lattice vectors $\mathbf{a}, \mathbf{b}, \mathbf{c}$ has a reciprocal lattice defined by vectors [^6],
+The Fourier transform structure appears in condensed matter physics through reciprocal space. A crystal with periodic structure defined by lattice vectors $\mathbf{a}, \mathbf{b}, \mathbf{c}$ has a reciprocal lattice defined by vectors[^6],
 
 $$
 \mathbf{a}^* = 2\pi \frac{\mathbf{b} \times \mathbf{c}}{V}, \quad \mathbf{b}^* = 2\pi \frac{\mathbf{c} \times \mathbf{a}}{V}, \quad \mathbf{c}^* = 2\pi \frac{\mathbf{a} \times \mathbf{b}}{V},
@@ -161,7 +161,7 @@ The Fourier constraint prohibits states with definite position and momentum. Mea
 
 Crystallography makes this concrete. Electrons in crystals occupy Bloch states extending across the entire lattice—forced delocalization from periodic boundary conditions. Attempting to confine an electron to a single atom would require momentum uncertainty exceeding the crystal's binding energy, ejecting the electron entirely. The uncertainty principle operates as a mechanical constraint.
 
-The exact correspondence between Fourier mathematics and physical uncertainty suggests deeper structure. Either [nature performs Fourier transforms—making reality computational](/computational-spacetime-and-the-rayleigh-jeans-resolution)—or spacetime geometry inherently encodes transform relationships. Both interpretations yield identical physics. The uncertainty principle emerges as mathematical necessity when conjugate variables matter equally. Consistent physics requires obeying mathematical constraints written into the structure of transforms. The same Fourier structure that constrains position-momentum uncertainty appears in the [constraint eigenvalue framework](/golden-ratio-and-prime-resonance-in-quantum-transport) where the $\pi$-sector (isotropy) and $\phi$-sector (recursion) eigenvalues emerge from optimization on discrete lattices—the mathematical structure of conjugate variables determines both quantum uncertainty and organizational optimization, revealing the same mathematical constraints operating across scales from quantum mechanics to information processing.
+The exact correspondence between Fourier mathematics and physical uncertainty suggests deeper structure. Either [nature performs Fourier transforms—making reality computational](/computational-spacetime-and-the-rayleigh-jeans-resolution)—or spacetime geometry inherently encodes transform relationships. Both interpretations yield identical physics. The uncertainty principle emerges as mathematical necessity when conjugate variables matter equally. Consistent physics requires obeying mathematical constraints written into the structure of transforms. The same Fourier structure that constrains position-momentum uncertainty appears in the [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) where the $\pi$-sector (angular isotropy) and $\varphi$-sector (recursive self-similarity) eigenvalues emerge from curvature minimization on discrete lattices—the mathematical structure of conjugate variables determines both quantum uncertainty and organizational optimization, revealing the same mathematical constraints operating across scales from quantum mechanics to information processing.
 
 [^1]: Arfken, G. B., Weber, H. J., & Harris, F. E. (2013). *Mathematical Methods for Physicists* (7th ed.). Academic Press.
 

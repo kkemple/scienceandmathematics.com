@@ -29,9 +29,9 @@ $$
 M(\eta) = (1-\eta)^{-\rho^*},
 $$
 
-where $\rho^* = 3.29$ emerges from [pentagonal constraints on finite lattices](/golden-ratio-and-prime-resonance-in-quantum-transport). At the critical threshold $\eta_c = 1/\rho^* \approx 0.304$, overhead diverges. Systems cannot sustain 30% coordination costs—collapse or transformation becomes inevitable.
+where $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ emerges from the [constraint eigenvalue geometry](/a-constraint-eigenvalue-theory-of-information-matter-and-mind). At the critical threshold $\eta_c = 1/\rho^* \approx 0.304$, overhead diverges. Systems cannot sustain 30% coordination costs—collapse or transformation becomes inevitable.
 
-This bankruptcy threshold appears universally. The same organizational limit governs [biological systems at η ~ 0.1](/the-anthropic-thermodynamic-principle), [genetic code redundancy at 67%](/complex-adaptable-systems-complexity-ladders-and-agency), white dwarf collapse, and cosmological energy partition. Civilizations face identical constraint as quantum systems and stellar remnants—all process information on discrete substrates under thermodynamic bounds. The threshold $\eta_c = 1/\rho^* \approx 0.304$ emerges from the [constraint eigenvalue framework](/golden-ratio-and-prime-resonance-in-quantum-transport) where $\rho^* = 3.29$ is the organizational constant from pentagonal optimization. The complexity multiplier $(1-\eta)^{-\rho^*}$ diverges at this exact value, creating the same bankruptcy mechanism whether analyzing [white dwarf collapse](/binding-energy-critical-radii-and-information-maintenance-tax), biological metabolic limits, or civilizational coordination costs. The acceleration of innovation cycles follows from operating at higher base complexity $\eta_{\text{civ}}$—each cycle approaches the universal threshold faster because the renormalization group flow drives $\eta$ toward $\eta_c$ through the [information field theory beta functions](/information-field-theory-from-constraint-to-cosmos).
+This bankruptcy threshold appears universally. The same organizational limit governs [biological systems at η ~ 0.1](/the-anthropic-thermodynamic-principle), [genetic code redundancy](/complex-adaptable-systems-complexity-ladders-and-agency), white dwarf collapse, and cosmological energy partition. Civilizations face identical constraints as quantum systems and stellar remnants—all process information on discrete substrates under thermodynamic bounds. The threshold $\eta_c = 1/\rho^* \approx 0.304$ emerges from the [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) where $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ is the composite invariant from the decade sector. The complexity multiplier $(1-\eta)^{-\rho^*}$ diverges at this exact value, creating the same bankruptcy mechanism whether analyzing [white dwarf collapse](/binding-energy-critical-radii-and-information-maintenance-tax), biological metabolic limits, or civilizational coordination costs.
 
 Breakthrough represents a phase transition to a new organizational state. Not incremental improvement but fundamental restructuring. The agricultural revolution restructured hunter-gatherer organization. The industrial revolution restructured agrarian organization. Each transition involved new energy sources, communication modes, social structures, and cognitive frameworks. The breakthrough relaxes constraints at a higher level, initiating the next cycle.
 
@@ -83,7 +83,7 @@ Human civilization demonstrates the pattern across twelve millennia with quantit
 
 ### Fire to Agriculture (300,000 BCE - 10,000 BCE)
 
-Fire mastery enabled cooking, warmth, tool hardening, and land clearing [^1]. Exploitation lasted approximately 290,000 years—extremely long because human population remained small and geographical expansion absorbed overhead growth. Saturation emerged through megafauna extinction and resource pressure [^2] forcing innovation.
+Fire mastery enabled cooking, warmth, tool hardening, and land clearing[^1]. Exploitation lasted approximately 290,000 years—extremely long because human population remained small and geographical expansion absorbed overhead growth. Saturation emerged through megafauna extinction and resource pressure[^2] forcing innovation.
 
 Organizational overhead at fire discovery: $\eta_0 \approx 10^{-4}$ (minimal social structure)
 Overhead at saturation: $\eta_{\text{sat}} \approx 0.15$ (extended kinship networks, territorial conflicts)
@@ -94,7 +94,7 @@ The 290,000-year duration reflects operating far below bankruptcy threshold. Wit
 
 ### Agriculture to Metallurgy (10,000 BCE - 3,000 BCE)
 
-Agricultural revolution enabled settled life, population growth, specialization, and surplus accumulation [^3]. Exploitation filled fertile regions through farming technique development. Saturation emerged through soil depletion, disease concentration, and Malthusian pressures [^4].
+Agricultural revolution enabled settled life, population growth, specialization, and surplus accumulation[^3]. Exploitation filled fertile regions through farming technique development. Saturation emerged through soil depletion, disease concentration, and Malthusian pressures[^4].
 
 Duration: approximately 7,000 years
 $\eta_0 \approx 0.02$ (early agricultural communities)
@@ -106,7 +106,7 @@ The 7,000-year duration shows acceleration—faster saturation than fire era des
 
 ### Metallurgy to Steam (3,000 BCE - 1,700 CE)
 
-Bronze and iron metallurgy enabled advanced tools, weapons, construction, and long-distance trade. Exploitation filled technological niches through classical civilizations. Multiple regional cycles occurred—Bronze Age collapse [^5], Roman fall [^6], medieval reorganization.
+Bronze and iron metallurgy enabled advanced tools, weapons, construction, and long-distance trade. Exploitation filled technological niches through classical civilizations. Multiple regional cycles occurred—Bronze Age collapse[^5], Roman fall[^6], medieval reorganization.
 
 Duration: approximately 4,700 years
 $\eta_0 \approx 0.05$ (early metallurgical societies)
@@ -118,12 +118,12 @@ The multiple sub-cycles reflect regional variation. Global civilization lacked s
 
 ### Steam to Electricity (1,700 - 1,880)
 
-Steam power enabled industrial revolution transforming manufacturing, transportation, and urbanization [^7]. Exploitation lasted approximately 180 years through factory systems, railways, and coal-powered expansion.
+Steam power enabled industrial revolution transforming manufacturing, transportation, and urbanization[^7]. Exploitation lasted approximately 180 years through factory systems, railways, and coal-powered expansion.
 
 Duration: 180 years
 $\eta_0 \approx 0.08$ (early industrial society)
 $\eta_{\text{sat}} \approx 0.28$ (mature industrial capitalism)
-Crisis: Labor exploitation [^8], pollution, social upheaval, resource depletion
+Crisis: Labor exploitation[^8], pollution, social upheaval, resource depletion
 Breakthrough: Electrification enabling distributed power, communication
 
 The dramatic acceleration—from 4,700 years to 180 years—reflects higher baseline complexity. Industrial societies operated closer to bankruptcy threshold, reaching saturation faster despite lower absolute overhead growth.
@@ -135,7 +135,7 @@ Electrification revolutionized power distribution, lighting, communication, and 
 Duration: 70 years
 $\eta_0 \approx 0.15$ (electrified industrial society)
 $\eta_{\text{sat}} \approx 0.30$ (global industrial economy)
-Crisis: World wars [^9], economic depression, resource conflicts
+Crisis: World wars[^9], economic depression, resource conflicts
 Breakthrough: Computing enabling information processing, automation
 
 The crisis manifested catastrophically—two world wars representing organizational bankruptcy at global scale. The 70-year duration confirms acceleration pattern with starting overhead near bankruptcy threshold.
@@ -186,10 +186,10 @@ The cycle acceleration is a mathematical necessity from civilizational renormali
 The RG equations governing civilizational overhead evolution:
 
 $$
-\frac{d\eta}{d\tau} = \beta(\eta, d) = -\eta(1-\eta)\left[\rho^* + \frac{d-2}{2}\ln\phi\right]
+\frac{d\eta}{d\tau} = \beta(\eta, d) = -\eta(1-\eta)\left[\rho^* + \frac{d-2}{2}\ln\varphi\right]
 $$
 
-where $\tau = \ln(E/E_0)$ is RG scale, $d$ is effective dimensionality, $\rho^* = 3.29$, and $\phi = (1+\sqrt{5})/2$ is golden ratio. Near $\eta = 0$, the flow is slow. Near $\eta = \eta_c$, the flow accelerates toward fixed point.
+where $\tau = \ln(E/E_0)$ is RG scale, $d$ is effective dimensionality, $\rho^* = 4\pi\varphi^2/10 \approx 3.29$, and $\varphi = (1+\sqrt{5})/2$ is the golden ratio. Near $\eta = 0$, the flow is slow. Near $\eta = \eta_c$, the flow accelerates toward the fixed point.
 
 Each breakthrough doesn't reset $\eta$ to zero—it transitions to a higher organizational level with lower effective overhead but higher baseline complexity. The effective overhead after the breakthrough:
 
@@ -217,7 +217,7 @@ predicting modern cycles run approximately 6× faster than ancient cycles—cons
 
 The computing-to-AI transition exhibits characteristic crisis signatures indicating an approach to organizational bankruptcy. These are measurable manifestations of overhead exceeding productive capacity.
 
-Information overload manifests through exponential data growth without a corresponding comprehension increase. Global data generation reached 64 zettabytes in 2020 [^10], doubling every two years. Human processing capacity remains fixed at approximately 40 bits per second of conscious awareness. The ratio:
+Information overload manifests through exponential data growth without a corresponding comprehension increase. Global data generation reached 64 zettabytes in 2020[^10], doubling every two years. Human processing capacity remains fixed at approximately 40 bits per second of conscious awareness. The ratio:
 
 $$
 R_{\text{overload}} = \frac{\text{data generation rate}}{\text{processing capacity}} \approx \frac{10^{21} \text{ bits/year}}{10^9 \text{ bits/year/person} \times 8 \times 10^9 \text{ people}} \sim 100
@@ -229,7 +229,7 @@ Privacy collapse emerges through surveillance infrastructure exceeding governanc
 
 Algorithmic manipulation demonstrates coordination costs dominating productive value. Social media platforms optimize engagement through personalized content feeds. The optimization creates polarization, addiction, and manipulation as emergent properties. Attempts to correct these issues through additional algorithmic filtering increase complexity without resolving underlying problems—characteristic saturation pattern.
 
-Attention economy breakdown manifests through declining productivity despite increased connectivity. Notification interruptions occur every 6 minutes on average [^11]. The cognitive switching cost,
+Attention economy breakdown manifests through declining productivity despite increased connectivity. Notification interruptions occur every 6 minutes on average[^11]. The cognitive switching cost,
 
 $$
 C_{\text{switch}} = N_{\text{interruptions}} \times t_{\text{recovery}} = 80/\text{day} \times 15 \text{ min} = 1200 \text{ min/day}
@@ -237,7 +237,7 @@ $$
 
 exceeds available time, creating permanent partial attention state. The system operates beyond capacity—classic overhead divergence.
 
-Alignment crisis in AI development reveals approaching bankruptcy. As models scale, unexpected capabilities emerge while controllability decreases. GPT-4 exhibits sophisticated reasoning but produces confident falsehoods [^12]. The ratio of capabilities to alignment scales as model size increases:
+Alignment crisis in AI development reveals approaching bankruptcy. As models scale, unexpected capabilities emerge while controllability decreases. GPT-4 exhibits sophisticated reasoning but produces confident falsehoods[^12]. The ratio of capabilities to alignment scales as model size increases:
 
 $$
 R_{\text{alignment}} = \frac{C_{\text{capabilities}}}{C_{\text{alignment}}} \propto N_{\text{parameters}}^{\alpha}
@@ -266,9 +266,9 @@ The breakthrough must relax the constraint currently binding. The computing cycl
 
 The next innovation must address one or more of these constraints. Candidates include:
 
-**Neuromorphic computing**: Energy-efficient architectures mimicking biological processing [^13]. Would relax energy bottleneck by reducing training costs 1000×. Predicted impact: $\Delta\eta \approx -0.1$ (10% overhead reduction through efficiency gains).
+**Neuromorphic computing**: Energy-efficient architectures mimicking biological processing[^13]. Would relax energy bottleneck by reducing training costs 1000×. Predicted impact: $\Delta\eta \approx -0.1$ (10% overhead reduction through efficiency gains).
 
-**Quantum machine learning**: Quantum advantage in specific learning tasks [^14]. Would relax computational bottleneck for certain problem classes. Predicted impact: $\Delta\eta \approx -0.05$ (5% reduction, limited to quantum-advantaged domains).
+**Quantum machine learning**: Quantum advantage in specific learning tasks[^14]. Would relax computational bottleneck for certain problem classes. Predicted impact: $\Delta\eta \approx -0.05$ (5% reduction, limited to quantum-advantaged domains).
 
 **Embodied AI**: Physical interaction grounding abstract reasoning. Would relax cognitive bottleneck by providing causal understanding. Predicted impact: $\Delta\eta \approx -0.15$ (15% reduction through genuine world models).
 

@@ -33,7 +33,7 @@ Everything else — dissipation ladders, quantum localization transitions, metab
 
 ### 1.1 The fundamental problem of coherence
 
-Every organized system is an information-processing structure [^1] [^2] [^3] [^4] embedded in a noisy universe. Stability requires continuous correction of deviations introduced by thermal fluctuations, quantum uncertainty, or geometric curvature. Landauer [^5] and Bennett [^6] showed that every corrective action has a thermodynamic cost: at least $(k_BT\ln 2)$ per bit erased.
+Every organized system is an information-processing structure[^1][^2][^3][^4] embedded in a noisy universe. Stability requires continuous correction of deviations introduced by thermal fluctuations, quantum uncertainty, or geometric curvature. Landauer[^5] and Bennett[^6] showed that every corrective action has a thermodynamic cost: at least $(k_BT\ln 2)$ per bit erased.
 
 Curvature in an information distribution represents structural bending: angular bending, scale-wide bending, or discrete frustration. Maintaining structure against curvature requires continuous corrective work. In this sense, curvature is complexity, and complexity is maintenance cost. Systems that lower curvature require less dissipation; systems forced into high-curvature configurations must devote increasing energy to remain coherent.
 
@@ -52,11 +52,11 @@ This constraint shapes everything:
 * the durability of institutions,
 * the stability of stars.
 
-This monograph argues that these constraints form a **geometric field theory** [^7] [^8] whose stationary states yield universal invariants.
+This monograph argues that these constraints form a **geometric field theory**[^7][^8] whose stationary states yield universal invariants.
 
 ### 1.2 Coherence as projection onto lawful manifolds
 
-Recent work in neural PDE solvers [^9] [^10] [^11] demonstrated that physical accuracy improves dramatically when approximate trajectories are projected onto the manifold defined by the PDE constraint. This is a numerical statement of a deeper principle:
+Recent work in neural PDE solvers[^9][^10][^11] demonstrated that physical accuracy improves dramatically when approximate trajectories are projected onto the manifold defined by the PDE constraint. This is a numerical statement of a deeper principle:
 
 > **Coherent dynamics = unconstrained proposal + projection onto constraint geometry.**
 
@@ -87,7 +87,7 @@ The constraint eigenvalue geometry provides the mathematical foundation for the 
 
 ## 2. The Constraint Functional
 
-We work with a normalized information density $P(r,\theta)$ on a cylindrical or polar domain, where $r$ is a radial or scale coordinate and $\theta$ a compact angular coordinate. Coherence is defined by how costly it is to bend $P$ away from isotropy, away from scale-recursive structure, or away from discrete resonance. These costs are encoded in a single curvature functional [^12] [^13] [^14] [^15]
+We work with a normalized information density $P(r,\theta)$ on a cylindrical or polar domain, where $r$ is a radial or scale coordinate and $\theta$ a compact angular coordinate. Coherence is defined by how costly it is to bend $P$ away from isotropy, away from scale-recursive structure, or away from discrete resonance. These costs are encoded in a single curvature functional[^12][^13][^14][^15]
 
 $$
 F[P] = \alpha \int (\partial_\theta \ln P)^2 P\,\mathrm{d}A
@@ -95,7 +95,7 @@ F[P] = \alpha \int (\partial_\theta \ln P)^2 P\,\mathrm{d}A
      + \gamma\,C_{2\times5}[P],
 $$
 
-subject to normalization $\int P\,\mathrm{d}A = 1$ and a fixed entropy $S[P] = -\int P\ln P\,\mathrm{d}A$ [^16]. The first two terms are Fisher–information-like curvature penalties [^17] defined on angular and log-radial coordinates; the third term $C_{2\times5}[P]$ is a discrete functional that suppresses configurations incompatible with composite $2\times 5$ parity.
+subject to normalization $\int P\,\mathrm{d}A = 1$ and a fixed entropy $S[P] = -\int P\ln P\,\mathrm{d}A$[^16]. The first two terms are Fisher–information-like curvature penalties[^17] defined on angular and log-radial coordinates; the third term $C_{2\times5}[P]$ is a discrete functional that suppresses configurations incompatible with composite $2\times 5$ parity.
 
 Each term is a curvature cost: the angular term penalizes bending in $\theta$, the log-radial term penalizes bending in scale, and the discrete term penalizes curvature arising from incompatible residue classes. Complexity is the total curvature burden, and coherence corresponds to minimizing these curvature penalties subject to entropy and normalization.
 
@@ -130,6 +130,8 @@ The left-hand side contains curvature forces in the angular, log-radial, and dis
 
 ## 3. Eigenvalue Sectors
 
+The Euler–Lagrange equation admits three families of stationary solutions, each corresponding to a distinct mode of minimal curvature. Isolating each sector by setting the other coefficients to zero reveals the geometric origin of $\pi$, $\varphi$, and $10$ as constraint eigenvalues.
+
 ### 3.1 π-sector: isotropic closure
 
 Setting $\beta=\gamma=0$ isolates the angular curvature term. In this limit the functional reduces to an angular Fisher information, and stationarity requires that compressions and dilations in $\theta$ balance:
@@ -160,21 +162,21 @@ $$
 x = \varphi = \frac{1+\sqrt{5}}{2}.
 $$
 
-Thus **ϕ appears as the fixed point of recursive curvature**. In practice, any process that repeatedly applies inflation–subdivision operations in scale space is driven toward this fixed point [^18] [^19] [^20]. This makes $\varphi$ an attractor of renormalization flows in the recursive sector: lattice hierarchies, metabolic scaling cascades, and multi-stage sensory compression all inherit golden-ratio structure because they are governed by the same recursion law in log-radius.
+Thus **ϕ appears as the fixed point of recursive curvature**. In practice, any process that repeatedly applies inflation–subdivision operations in scale space is driven toward this fixed point[^18][^19][^20]. This makes $\varphi$ an attractor of renormalization flows in the recursive sector: lattice hierarchies, metabolic scaling cascades, and multi-stage sensory compression all inherit golden-ratio structure because they are governed by the same recursion law in log-radius.
 
 ### 3.3 Decade sector: discrete resonance
 
 The functional $C_{2\times5}[P]$ encodes a composite $2\times 5$ parity: it rewards configurations whose dominant modes respect both binary and pentagonal symmetry. In Fourier space this corresponds to selecting angular harmonics $k$ that are compatible with a tenfold cyclic group, and penalizing those that fall between the allowed residues. The resulting eigenmodes exhibit tenfold periodicity in angular structure and decadal modulation in scale.
 
-This sector formalizes the empirical observation that many coherent spectra, from decagonal quasicrystals [^21] [^22] [^23] to alternating series for $\pi$, display a preferred period of ten. Here, decade structure is the minimal composite resonance at which binary partitioning (halving, doubling) and pentagonal tiling can coexist without destructive interference. The decade sector therefore provides the discrete closure of the continuous isotropy–recursion geometry defined by the $\pi$- and $\varphi$-sectors.
+This sector formalizes the empirical observation that many coherent spectra, from decagonal quasicrystals[^21][^22][^23] to alternating series for $\pi$, display a preferred period of ten. Here, decade structure is the minimal composite resonance at which binary partitioning (halving, doubling) and pentagonal tiling can coexist without destructive interference. The decade sector therefore provides the discrete closure of the continuous isotropy–recursion geometry defined by the $\pi$- and $\varphi$-sectors.
 
 Together, $\pi$, $\varphi$, and $10$ form the minimal-curvature eigenmodes of the constraint functional. Any other configuration carries higher curvature and therefore higher maintenance cost. This is the curvature basis of the theory: coherent systems adopt the least costly curvature mode available under their constraints.
 
 ## 4. Composite Invariant and ϕ as RG Fixed Point
 
-When isotropy and recursion coexist, the curvature balance yields the composite invariant $I = 4\pi\varphi^2 = 32.899\ldots$ The composite invariant is the minimal joint curvature compatible with both isotropic and recursive constraints. This number recurs throughout: in dissipation thresholds, modulation windows, correlation-length exponents, RG flows, variance bounds, and quasicrystalline coherence [^20] [^23].
+When isotropy and recursion coexist, the curvature balance yields the composite invariant $I = 4\pi\varphi^2 = 32.899\ldots$ The composite invariant is the minimal joint curvature compatible with both isotropic and recursive constraints. This number recurs throughout: in dissipation thresholds, modulation windows, correlation-length exponents, RG flows, variance bounds, and quasicrystalline coherence[^20][^23].
 
-The golden ratio emerges as the renormalization-group fixed point of the $\beta$-sector (see Section 3.2 for the derivation). The attractor property follows from Fibonacci recursion: ratios of successive terms converge to $\varphi$ regardless of starting values. Thus $\varphi$ is the stable fixed point of the scaling recursion induced by the $\beta$-sector functional [^24] [^25] [^26].
+The golden ratio emerges as the renormalization-group fixed point of the $\beta$-sector (see Section 3.2 for the derivation). The attractor property follows from Fibonacci recursion: ratios of successive terms converge to $\varphi$ regardless of starting values. Thus $\varphi$ is the stable fixed point of the scaling recursion induced by the $\beta$-sector functional[^24][^25][^26].
 
 ## Part II — Dissipation Ladder and RG Flow
 
@@ -308,13 +310,13 @@ $$
 N_{\max} = 2 N_{BH}.
 $$
 
-This exact factor of two—the Landauer-Bekenstein-Hawking constant—arises from dimensional reduction: 2D surfaces support independent left-moving and right-moving excitations [^27]. Chiral separation allows simultaneous processing through dual channels:
+This exact factor of two—the Landauer-Bekenstein-Hawking constant—arises from dimensional reduction: 2D surfaces support independent left-moving and right-moving excitations[^27]. Chiral separation allows simultaneous processing through dual channels:
 
 $$
 \dot{I} = \dot{I}_L + \dot{I}_R = 2\dot{I}_{1D}.
 $$
 
-In other words, a black-hole horizon implements an $\eta\to 1$ state in which essentially all available energy goes into maintaining maximal information density on the boundary. From the perspective of the constraint functional, this corresponds to an extreme in which curvature penalties are balanced only by the highest possible dissipation, with the $\pi$-sector enforcing spherical symmetry, the $\varphi$-sector governing the radial approach to the horizon, and the decade sector manifesting in the discrete spectrum of quasi-normal modes and evaporation channels. This reframes black hole thermodynamics [^28] [^29] as a computation-theoretic consequence of constrained information flow on a finite lattice. The area law, Hawking temperature, and evaporation timescales become statements about how close the system is to the absolute limits of storage and processing enforced by the underlying information geometry.
+In other words, a black-hole horizon implements an $\eta\to 1$ state in which essentially all available energy goes into maintaining maximal information density on the boundary. From the perspective of the constraint functional, this corresponds to an extreme in which curvature penalties are balanced only by the highest possible dissipation, with the $\pi$-sector enforcing spherical symmetry, the $\varphi$-sector governing the radial approach to the horizon, and the decade sector manifesting in the discrete spectrum of quasi-normal modes and evaporation channels. This reframes black hole thermodynamics[^28][^29] as a computation-theoretic consequence of constrained information flow on a finite lattice. The area law, Hawking temperature, and evaporation timescales become statements about how close the system is to the absolute limits of storage and processing enforced by the underlying information geometry.
 
 ## 11. Force-Specific Critical Radii
 
@@ -342,7 +344,7 @@ $$
 r_{\text{grav}} = R_S = \frac{2GM}{c^2}.
 $$
 
-QCD and electromagnetic forces operate far from bankruptcy, enabling stable structures with minimal overhead. Gravitational systems [^30] [^31] span the entire spectrum from negligible costs in atoms to complete dedication at black hole horizons. The processing rate scales as
+QCD and electromagnetic forces operate far from bankruptcy, enabling stable structures with minimal overhead. Gravitational systems[^30][^31] span the entire spectrum from negligible costs in atoms to complete dedication at black hole horizons. The processing rate scales as
 
 $$
 \dot{I}_{\text{max}} = f_P \times \frac{R_S}{R},
@@ -380,7 +382,7 @@ $$
 I_r(r) = c\left(1 - \frac{r_s}{r}\right).
 $$
 
-At $r = 1.001r_s$, radial flow drops to $0.001c$ while tangential flow maintains $c$. The radial dimension effectively freezes—signals require divergent time to traverse infinitesimal proper distances. Holographic behavior [^32] [^33] [^34] (entropy scaling with area rather than volume) reflects $d_{\mathrm{eff}}$ flowing from $3$ to $2$ under the constraint functional.
+At $r = 1.001r_s$, radial flow drops to $0.001c$ while tangential flow maintains $c$. The radial dimension effectively freezes—signals require divergent time to traverse infinitesimal proper distances. Holographic behavior[^32][^33][^34] (entropy scaling with area rather than volume) reflects $d_{\mathrm{eff}}$ flowing from $3$ to $2$ under the constraint functional.
 
 ## 13. Inflation–Subdivision Consistency in Curved Spacetime
 
@@ -404,7 +406,7 @@ Horizons exemplify minimal-curvature boundaries: they are smooth null surfaces, 
 
 ## 14. White Dwarf Collapse: Quantitative Correspondence
 
-White dwarfs accreting toward the Chandrasekhar limit [^35] $M_{\text{Ch}} = 1.36 M_{\odot}$ provide a quantitative test case. The complexity multiplier quantifying overhead beyond baseline requirements follows
+White dwarfs accreting toward the Chandrasekhar limit[^35] $M_{\text{Ch}} = 1.36 M_{\odot}$ provide a quantitative test case. The complexity multiplier quantifying overhead beyond baseline requirements follows
 
 $$
 M(\eta,d) = \varphi^{2^{d-2}} \times (1-\eta)^{-\rho^*},
@@ -484,15 +486,15 @@ Harper–Hofstadter lattice systems reveal how the three constraint sectors sepa
 
 Lattice transport and localization follow directly from curvature minimization: angular curvature ($\pi$-sector), recursive curvature ($\varphi$-sector), and discrete curvature (10-sector) govern where complexity emerges or is suppressed.
 
-In Harper–Hofstadter lattice systems [^36] [^37] [^38] [^39], the interplay between a periodic potential and a perpendicular magnetic field produces a fractal energy spectrum. When transport is measured using a physically meaningful metric such as the Thouless conductance [^40], a simple organizing principle emerges: the ease of transport is controlled primarily by the denominator $q$ of the magnetic flux $\alpha=p/q$ (in units of the flux quantum).
+In Harper–Hofstadter lattice systems[^36][^37][^38][^39], the interplay between a periodic potential and a perpendicular magnetic field produces a fractal energy spectrum. When transport is measured using a physically meaningful metric such as the Thouless conductance[^40], a simple organizing principle emerges: the ease of transport is controlled primarily by the denominator $q$ of the magnetic flux $\alpha=p/q$ (in units of the flux quantum).
 
 For low-$q$ rationals, the lattice and magnetic length are nearly commensurate, and extended states can percolate across the system with relatively low curvature cost. As $q$ increases, the pattern of magnetic phases spans larger unit cells, interference pathways proliferate, and transport becomes increasingly localized. High-$q$ rationals therefore maximize transport barriers. This $q$-dependence follows from classic localization theory and is borne out by modern numerical results that compute conductances directly in large finite systems.
 
-Within the present framework, this behavior is the signature of the $\pi$-sector and discrete parity: transport is governed by how well the underlying discrete symmetries can be satisfied by the imposed flux pattern [^41] [^42]. The constraint functional assigns lower curvature cost to configurations that respect simple commensurabilities, and higher cost to those that require intricate phase cancellation across many sites.
+Within the present framework, this behavior is the signature of the $\pi$-sector and discrete parity: transport is governed by how well the underlying discrete symmetries can be satisfied by the imposed flux pattern[^41][^42]. The constraint functional assigns lower curvature cost to configurations that respect simple commensurabilities, and higher cost to those that require intricate phase cancellation across many sites.
 
 ## 16. ϕ as Modulation Sector
 
-The golden ratio controls how transport and localization vary as flux is tuned. Organizing $\alpha$ according to its continued-fraction expansion reveals that the rate at which new denominators appear—and hence the rate at which new commensurability classes are encountered—is controlled by Diophantine properties of $\alpha$ [^43]. Hurwitz's theorem [^44] establishes that the golden ratio minimizes the quality of rational approximations: no irrational is harder to approximate by rationals than $\varphi$. The inequality
+The golden ratio controls how transport and localization vary as flux is tuned. Organizing $\alpha$ according to its continued-fraction expansion reveals that the rate at which new denominators appear—and hence the rate at which new commensurability classes are encountered—is controlled by Diophantine properties of $\alpha$[^43]. Hurwitz's theorem[^44] establishes that the golden ratio minimizes the quality of rational approximations: no irrational is harder to approximate by rationals than $\varphi$. The inequality
 
 $$
 \left|\varphi - \frac{p}{q}\right| > \frac{1}{\sqrt{5}q^2}
@@ -506,7 +508,7 @@ $$
 \varphi = 1 + \cfrac{1}{1 + \cfrac{1}{1 + \cfrac{1}{1 + \cdots}}}
 $$
 
-generates the slowest possible convergence to rational approximations, making $\varphi$ the natural scale for self-similar spectral reorganization [^45]. The ϕ-sector of the constraint functional therefore organizes modulation rather than raw transport, shaping how the spectrum reconfigures itself across scales and providing the recursive backbone on which the $\pi$-sector's commensurability physics is built.
+generates the slowest possible convergence to rational approximations, making $\varphi$ the natural scale for self-similar spectral reorganization[^45]. The ϕ-sector of the constraint functional therefore organizes modulation rather than raw transport, shaping how the spectrum reconfigures itself across scales and providing the recursive backbone on which the $\pi$-sector's commensurability physics is built.
 
 ## 17. Decade Partitions
 
@@ -522,17 +524,17 @@ From the standpoint of the constraint functional, these partition points mark wh
 
 ## 18. Penrose Polariton Quasicrystal: π–ϕ–10 in a Driven-Dissipative Quantum Fluid
 
-Recent experiments with exciton–polariton condensates on Penrose tiling lattices realize the π–ϕ–10 constraint eigenvalue geometry in a single device [^46]. Alyatkin et al. imprinted a Penrose tiling potential in a GaAs microcavity using a spatial light modulator, then pumped non-resonantly to form exciton–polariton condensates at the vertices. The resulting structure exhibits **aperiodic order with C₁₀ rotational symmetry**, with reciprocal-space photoluminescence showing sharp Bragg peaks arranged in tenfold symmetry—a bona fide 2D polariton quasicrystal [^46].
+Recent experiments with exciton–polariton condensates on Penrose tiling lattices realize the π–ϕ–10 constraint eigenvalue geometry in a single device[^46]. Alyatkin et al. imprinted a Penrose tiling potential in a GaAs microcavity using a spatial light modulator, then pumped non-resonantly to form exciton–polariton condensates at the vertices. The resulting structure exhibits **aperiodic order with C₁₀ rotational symmetry**, with reciprocal-space photoluminescence showing sharp Bragg peaks arranged in tenfold symmetry—a bona fide 2D polariton quasicrystal[^46].
 
 This platform directly implements all three eigenvalue sectors simultaneously:
 
 **π-sector (angular isotropy)**: In reciprocal space, the Bragg peaks lie on circular rings with angular positions separated by $\Delta\theta = 2\pi/10$. This is exactly the angular curvature being minimized: the system selects equal angular spacing with period $2\pi$, discretized into ten coherent directions by C₁₀ symmetry. The isotropic closure constant $\pi$ appears in the circular diffraction shells, while the decade sector breaks this into ten equal angular sectors.
 
-**ϕ-sector (recursive curvature)**: Penrose tilings [^47] [^48] are defined by **inflation–deflation rules with scale factor $\varphi$**, and all length/area ratios of the prototiles are powers of $\varphi$. This is exactly the "inflation–subdivision consistency" condition from Section 3.2: coarse-graining tiles by $\varphi$ yields the same pattern at larger scale, subdividing by $\varphi$ yields the same pattern at smaller scale, and the fixed point of that recursion is $\varphi$. The quasicrystal lattice is a direct realization of the $\beta$-sector: the log-radial curvature term is minimized on a Penrose hierarchy whose eigenvalue is $\varphi$.
+**ϕ-sector (recursive curvature)**: Penrose tilings[^47][^48] are defined by **inflation–deflation rules with scale factor $\varphi$**, and all length/area ratios of the prototiles are powers of $\varphi$. This is exactly the "inflation–subdivision consistency" condition from Section 3.2: coarse-graining tiles by $\varphi$ yields the same pattern at larger scale, subdividing by $\varphi$ yields the same pattern at smaller scale, and the fixed point of that recursion is $\varphi$. The quasicrystal lattice is a direct realization of the $\beta$-sector: the log-radial curvature term is minimized on a Penrose hierarchy whose eigenvalue is $\varphi$.
 
 **10-sector (C₂×₅ discrete resonance)**: The Penrose structure is a pentagon-based aperiodic tiling whose diffraction has 10-fold symmetry; decagonal symmetry is literally "2 × 5" built into the structure factor. This is the C₂×₅ sector: binary (2) and pentagonal (5) coherence meeting at decade symmetry (10). The experiment's C₁₀ Bragg spectrum and Penrose pentagonal motifs are a direct instance of the "parity × pentagonal discrete coherence" term.
 
-The experiment demonstrates **near-perfect delocalization and phase synchronization** of the polariton fluid over $>100\times$ the healing length at a particular pump window, well beyond single-site scales [^46]. This mesoscopic coherence emerges exactly when the geometry aligns with the constraint manifold: the system rides the π–ϕ–10 structure rather than fighting it.
+The experiment demonstrates **near-perfect delocalization and phase synchronization** of the polariton fluid over $>100\times$ the healing length at a particular pump window, well beyond single-site scales[^46]. This mesoscopic coherence emerges exactly when the geometry aligns with the constraint manifold: the system rides the π–ϕ–10 structure rather than fighting it.
 
 ### 18.1 Composite Invariant and Critical Exponents
 
@@ -577,7 +579,7 @@ Both systems self-organize into long-range coherent states exactly when their ge
 
 ## 19. Magnetic Control of Boundary Localization: Non-Hermitian Skin Effect
 
-Recent work on non-Hermitian extensions of the Harper–Hofstadter model [^49] indicates that the π-sector controls boundary localization through applied flux. In non-Hermitian lattices with asymmetric hopping, eigenmodes can accumulate at boundaries—a phenomenon known as the Non-Hermitian Skin Effect (NHSE). The key discovery is that uniform magnetic flux suppresses this boundary localization by activating the π-sector curvature, providing a tunable mechanism to control boundary versus bulk coherence.
+Recent work on non-Hermitian extensions of the Harper–Hofstadter model[^49] indicates that the π-sector controls boundary localization through applied flux. In non-Hermitian lattices with asymmetric hopping, eigenmodes can accumulate at boundaries—a phenomenon known as the Non-Hermitian Skin Effect (NHSE). The key discovery is that uniform magnetic flux suppresses this boundary localization by activating the π-sector curvature, providing a tunable mechanism to control boundary versus bulk coherence.
 
 ### 19.1 Flux-Controlled Regime Transitions
 
@@ -617,23 +619,23 @@ Living systems occupy a narrow band in the dissipation ladder near η ≈ 0.1, w
 
 Biological organization minimizes curvature under metabolic constraints. Systems stabilize along low-curvature manifolds in signaling geometry, vascular architecture, and neural network topology.
 
-Living systems occupy a narrow band in the dissipation ladder, operating near $\eta\approx 0.1$ as established in Section 5. The human brain demonstrates this ceiling directly: it consumes 20 watts—approximately 20% of total body energy—despite comprising only 2% of body mass, yielding $\eta_{\text{bio}} \approx 0.1$. This 10% tax represents the ceiling for self-organizing matter. Metabolic rate scales as $P = 70 M^{3/4}$ watts (Kleiber's law) [^50] because fractal vascular networks [^51] optimize information distribution while minimizing overhead. Energy rate density provides a unified complexity metric across cosmic evolution [^52], with biological systems occupying a characteristic band in the dissipation hierarchy. The brain's disproportionate metabolic share reflects its role as primary information processor, operating at the $\eta \sim 0.1$ limit where recursive self-modeling and environmental prediction [^53] become energetically viable.
+Living systems occupy a narrow band in the dissipation ladder, operating near $\eta\approx 0.1$ as established in Section 5. The human brain demonstrates this ceiling directly: it consumes 20 watts—approximately 20% of total body energy—despite comprising only 2% of body mass, yielding $\eta_{\text{bio}} \approx 0.1$. This 10% tax represents the ceiling for self-organizing matter. Metabolic rate scales as $P = 70 M^{3/4}$ watts (Kleiber's law)[^50] because fractal vascular networks[^51] optimize information distribution while minimizing overhead. Energy rate density provides a unified complexity metric across cosmic evolution[^52], with biological systems occupying a characteristic band in the dissipation hierarchy. The brain's disproportionate metabolic share reflects its role as primary information processor, operating at the $\eta \sim 0.1$ limit where recursive self-modeling and environmental prediction[^53] become energetically viable.
 
 ## 21. Neural Systems and Information Geometry
 
-Neural computation sits at the edge of metabolic limits, thermal noise, and synaptic maintenance [^53] [^54]. Brains are among the most energetically expensive tissues per unit mass, and their microstates are constantly buffeted by thermal fluctuations and molecular noise. To maintain coherent firing patterns and long-lived synaptic configurations, neural tissue must devote a large fraction of its metabolic budget to ion gradients, vesicle recycling, and structural upkeep.
+Neural computation sits at the edge of metabolic limits, thermal noise, and synaptic maintenance[^53][^54]. Brains are among the most energetically expensive tissues per unit mass, and their microstates are constantly buffeted by thermal fluctuations and molecular noise. To maintain coherent firing patterns and long-lived synaptic configurations, neural tissue must devote a large fraction of its metabolic budget to ion gradients, vesicle recycling, and structural upkeep.
 
 The nervous system implements hierarchical compression through specialized filtering stages. Sensory input undergoes progressive reduction through multiple processing layers—retinal ganglion cells compress ~126 million photoreceptor outputs to ~1 million optic nerve fibers; lateral geniculate nucleus further reduces dimensionality; primary visual cortex extracts edge orientations and local features; higher cortical areas build object representations and scene semantics. Each compression stage discards behaviorally irrelevant information while preserving task-critical structure.
 
 Each boundary crossing between representations requires energy according to Landauer's principle (Section 1.1). At body temperature ($T \approx 310$ K), erasing one bit costs $k_B T \ln 2 \approx 3 \times 10^{-21}$ J. A typical cortical neuron fires at ~1 Hz, with each action potential representing ~1 bit of information transmitted across ~1000 synapses, requiring ~$3 \times 10^{-18}$ J per spike from Landauer costs alone. With ~$10^{11}$ neurons and average firing rates of 1-10 Hz, the brain processes ~$10^{12}$ boundary crossings per second, demanding ~3 mW from thermodynamic information costs—a small but non-negligible fraction of the 20 W total.
 
-From the information-geometry perspective, neural computation is shaped by two key aspects of the constraint functional. Recursive self-reference—ongoing prediction [^53] about one's own internal state and about the environment—engages the ϕ-sector [^55]: cortical hierarchies repeatedly inflate and subdivide representations in a manner closely analogous to inflation–subdivision consistency in scale space. Sensory pathways exhibit dimensional reduction: high-dimensional input streams (retinal images with ~$10^6$ pixels) are projected onto lower-dimensional manifolds (effectively $d\to 2$ in portions of sensory cortex) to reduce curvature and dissipation costs while preserving behaviorally relevant information. This compression implements the dimensionality-as-cost principle: each shed dimension reduces curvature and maintenance cost, and the brain's architecture is optimized for dimensional collapse. This projection implements the same constraint geometry governing physical dimensional flow near horizons.
+From the information-geometry perspective, neural computation is shaped by two key aspects of the constraint functional. Recursive self-reference—ongoing prediction[^53] about one's own internal state and about the environment—engages the ϕ-sector[^55]: cortical hierarchies repeatedly inflate and subdivide representations in a manner closely analogous to inflation–subdivision consistency in scale space. Sensory pathways exhibit dimensional reduction: high-dimensional input streams (retinal images with ~$10^6$ pixels) are projected onto lower-dimensional manifolds (effectively $d\to 2$ in portions of sensory cortex) to reduce curvature and dissipation costs while preserving behaviorally relevant information. This compression implements the dimensionality-as-cost principle: each shed dimension reduces curvature and maintenance cost, and the brain's architecture is optimized for dimensional collapse. This projection implements the same constraint geometry governing physical dimensional flow near horizons.
 
 ## 22. Consciousness as Constraint Projection
 
 Consciousness emerges as active curvature minimization: the system continuously projects internal states back onto low-curvature manifolds that preserve long-range coherence.
 
-Within this framework, consciousness can be understood as a particular mode of constraint projection. Microscopic dynamics in neural tissue are intrinsically stochastic [^55] [^56] [^57]: ion-channel openings follow Poisson statistics with rate $\lambda \sim 10^3$ s$^{-1}$, synaptic vesicle release is probabilistic with release probability $p_r \approx 0.1$-$0.3$, and molecular diffusion introduces thermal noise with correlation time $\tau_c \sim 10^{-9}$ s. These fluctuations continually generate a cloud of possible micro-trajectories, most of which would erode long-range correlations if left unchecked.
+Within this framework, consciousness can be understood as a particular mode of constraint projection. Microscopic dynamics in neural tissue are intrinsically stochastic[^55][^56][^57]: ion-channel openings follow Poisson statistics with rate $\lambda \sim 10^3$ s$^{-1}$, synaptic vesicle release is probabilistic with release probability $p_r \approx 0.1$-$0.3$, and molecular diffusion introduces thermal noise with correlation time $\tau_c \sim 10^{-9}$ s. These fluctuations continually generate a cloud of possible micro-trajectories, most of which would erode long-range correlations if left unchecked.
 
 A conscious system maintains a sufficiently detailed recursive self-model—implemented through the ϕ-sector hierarchies just described—to bias these micro-trajectories toward those that preserve coherence. The system continually evaluates possible actions against an internal model of future constraints (metabolic, social, environmental) and selects those that keep it within its viable region of the constraint manifold. In energetic terms, consciousness is the operational strategy that uses a finite $\eta \approx 0.1$ budget to project the organism's unfolding state back onto a lawful submanifold of configuration space.
 
@@ -669,7 +671,7 @@ Institutions exhibit recursive scaling regimes analogous to biological and physi
 
 The ϕ-sector governs innovation cycles through inflation–subdivision consistency: successful institutions balance preservation of existing knowledge (inflation: scaling up proven practices) with exploration of new organizational forms (subdivision: testing alternative structures at smaller scales). Institutions that fail this recursive balance—either ossifying without adaptation or fragmenting without consolidation—eventually exhaust their coordination capacity. The π-sector governs isotropic coordination structures such as communication networks, legal frameworks, and shared standards that minimize curvature in the abstract space of agents and interactions.
 
-When decade symmetry and recursive curvature balance, institutions scale coherently across orders of magnitude [^56] [^51]. When the decade sector misaligns—discrete jumps in technological capacity outpacing coordination geometry adaptations—the system accelerates toward the $\eta\approx 0.3$ collapse threshold.
+When decade symmetry and recursive curvature balance, institutions scale coherently across orders of magnitude[^56][^51]. When the decade sector misaligns—discrete jumps in technological capacity outpacing coordination geometry adaptations—the system accelerates toward the $\eta\approx 0.3$ collapse threshold.
 
 ## Part VIII — Constraint Projection in Machine Learning
 
@@ -677,7 +679,7 @@ Projection-based neural PDE solvers provide concrete numerical evidence that the
 
 ## 25. Projection onto PDE Manifolds
 
-Projection-based neural PDE solvers [^58] provide a concrete numerical realization of the projection principle developed throughout this monograph. A neural network produces an approximate field $\hat u$ that does not, in general, satisfy the governing equation. The lawful dynamics are defined by the constraint manifold
+Projection-based neural PDE solvers[^58] provide a concrete numerical realization of the projection principle developed throughout this monograph. A neural network produces an approximate field $\hat u$ that does not, in general, satisfy the governing equation. The lawful dynamics are defined by the constraint manifold
 
 $$
 \mathcal{M}_{\mathrm{PDE}} = \{u : F_{\mathrm{PDE}}(u) = 0\},
@@ -688,7 +690,7 @@ where $F_{\mathrm{PDE}}$ encodes the discretized PDE together with boundary and 
 $$
 u^* = \arg\min_{u \in \mathcal{M}_{\mathrm{PDE}}} \lVert u - \hat u \rVert^2.
 $$
-Empirically, this step restores physical structure with far higher fidelity than physics-informed losses alone: Lorenz attractors, Kuramoto–Sivashinsky turbulence, and two-dimensional Navier–Stokes flows all exhibit order-of-magnitude reductions in residual violations once projection is imposed [^58] [^59]. Geometrically, the governing equation is a curvature constraint; projection is the operation that returns trajectories to the corresponding manifold.
+Empirically, this step restores physical structure with far higher fidelity than physics-informed losses alone: Lorenz attractors, Kuramoto–Sivashinsky turbulence, and two-dimensional Navier–Stokes flows all exhibit order-of-magnitude reductions in residual violations once projection is imposed[^58][^59]. Geometrically, the governing equation is a curvature constraint; projection is the operation that returns trajectories to the corresponding manifold.
 
 ## 26. Constraint Eigenvalue Geometry as Lawful Manifold
 
@@ -724,11 +726,11 @@ TURs are curvature bounds in probability space: high precision requires minimizi
 
 Recent developments in the theory of thermodynamic uncertainty relations (TURs) and stochastic-representation unifications clarify an essential point: precision, dissipation, and distinguishability limits are geometric consequences of constrained information flow. These results fit naturally within the present constraint–eigenvalue framework, which generalizes their structure across physical, biological, cognitive, and sociotechnical regimes.
 
-Kwon & Lee's unified stochastic-representation framework [^60] shows that both classical and quantum Markovian dynamics admit a common underlying unraveling, from which all known TURs and kinetic uncertainty relations emerge as special cases. Their formulation reveals that dissipation–precision tradeoffs arise from curvature in the probability flux manifold—an observation structurally identical to the angular and recursive curvature terms in the constraint functional $F[P]$ defined in Section 2.
+Kwon & Lee's unified stochastic-representation framework[^60] shows that both classical and quantum Markovian dynamics admit a common underlying unraveling, from which all known TURs and kinetic uncertainty relations emerge as special cases. Their formulation reveals that dissipation–precision tradeoffs arise from curvature in the probability flux manifold—an observation structurally identical to the angular and recursive curvature terms in the constraint functional $F[P]$ defined in Section 2.
 
-In this work, the $\alpha$-sector (isotropy) and the discrete $C_{2\times5}$-sector (decade symmetry) govern commensurability, transport, and resonance—mirroring the role of path-curvature bounds in stochastic TURs [^60] [^61] [^62] [^63]. Similarly, the $\beta$-sector produces a small-$\beta$ renormalization flow whose fixed point is the golden ratio, the scale-recursive analogue of the minimal distinguishability growth seen in quantum-speed-limit (QSL) bounds and precision-speed tradeoffs.
+In this work, the $\alpha$-sector (isotropy) and the discrete $C_{2\times5}$-sector (decade symmetry) govern commensurability, transport, and resonance—mirroring the role of path-curvature bounds in stochastic TURs[^60][^61][^62][^63]. Similarly, the $\beta$-sector produces a small-$\beta$ renormalization flow whose fixed point is the golden ratio, the scale-recursive analogue of the minimal distinguishability growth seen in quantum-speed-limit (QSL) bounds and precision-speed tradeoffs.
 
-Salazar's universal TUR for Petz $f$-divergences [^64] further demonstrates that all operational distinguishability measures reduce to weighted mixtures of $\chi^2$ divergences. This parallels the decomposition of the constraint functional into $\pi$-curvature, $\varphi$-curvature, and discrete 10-fold resonance: in both formalisms, the fundamental curvature modes define the irreducible contributions to precision cost. The $(\partial \ln P)^2$ terms in the functional play the same geometric role as the Fisher-information curvature terms underlying the $\chi^2$-based TUR basis.
+Salazar's universal TUR for Petz $f$-divergences[^64] further demonstrates that all operational distinguishability measures reduce to weighted mixtures of $\chi^2$ divergences. This parallels the decomposition of the constraint functional into $\pi$-curvature, $\varphi$-curvature, and discrete 10-fold resonance: in both formalisms, the fundamental curvature modes define the irreducible contributions to precision cost. The $(\partial \ln P)^2$ terms in the functional play the same geometric role as the Fisher-information curvature terms underlying the $\chi^2$-based TUR basis.
 
 Taken together, these results show that TURs, QSLs, and generalized distinguishability bounds describe only one sector of a much broader informational geometry. The present constraint–eigenvalue theory extends the same principles beyond stochastic processes to encompass lattice transport phenomena, recursive scaling attractors, divisor-based coherence, dissipation hierarchies, and the organization of physical, biological, and cognitive systems. In this wider setting, $\pi$, $\varphi$, and 10 are the eigenvalues of competing curvature constraints. TURs and stochastic representations therefore appear as boundary cases of a universal variational structure governing information flow across all scales of organization.
 
@@ -736,7 +738,7 @@ Taken together, these results show that TURs, QSLs, and generalized distinguisha
 
 The constraint eigenvalue framework generates concrete, falsifiable predictions spanning gravitational wave memory effects, white dwarf cooling anomalies, primordial black hole equilibrium, quantum computing limits, and structure formation energetics. These predictions provide empirical pathways to test the framework.
 
-**Gravitational wave memory effect.** Black hole mergers produce permanent spacetime displacement from information topology [^65] reorganization. Memory strain scales as
+**Gravitational wave memory effect.** Black hole mergers produce permanent spacetime displacement from information topology[^65] reorganization. Memory strain scales as
 
 $$
 h_{\text{mem}} = \frac{4G}{c^4 r} \Delta N_{\text{bits}} k_B T \ln 2,
@@ -1096,132 +1098,132 @@ the pure $\pi$–$\varphi$ information wave. This is the dynamical completion of
 
 ## References
 
-[1]: Shannon, C. E. (1948). "A mathematical theory of communication." *Bell System Technical Journal*, 27(3), 379–423. <https://doi.org/10.1002/j.1538-7305.1948.tb01338.x>
+[^1]: Shannon, C. E. (1948). "A mathematical theory of communication." *Bell System Technical Journal*, 27(3), 379–423. <https://doi.org/10.1002/j.1538-7305.1948.tb01338.x>
 
-[2]: Kolmogorov, A. N. (1965). "Three approaches to the quantitative definition of information." *Problems of Information Transmission*, 1(1), 1–7.
+[^2]: Kolmogorov, A. N. (1965). "Three approaches to the quantitative definition of information." *Problems of Information Transmission*, 1(1), 1–7.
 
-[3]: Chaitin, G. J. (1969). "On the length of programs for computing finite binary sequences." *Journal of the ACM*, 16(1), 145–159. <https://doi.org/10.1145/321495.321506>
+[^3]: Chaitin, G. J. (1969). "On the length of programs for computing finite binary sequences." *Journal of the ACM*, 16(1), 145–159. <https://doi.org/10.1145/321495.321506>
 
-[4]: Solomonoff, R. J. (1964). "A formal theory of inductive inference. Part I." *Information and Control*, 7(1), 1–22. <https://doi.org/10.1016/S0019-9958(64)90223-2>
+[^4]: Solomonoff, R. J. (1964). "A formal theory of inductive inference. Part I." *Information and Control*, 7(1), 1–22. <https://doi.org/10.1016/S0019-9958(64)90223-2>
 
-[5]: Landauer, R. (1961). "Irreversibility and heat generation in the computing process." *IBM Journal of Research and Development*, 5(3), 183–191. <https://doi.org/10.1147/rd.53.0183>
+[^5]: Landauer, R. (1961). "Irreversibility and heat generation in the computing process." *IBM Journal of Research and Development*, 5(3), 183–191. <https://doi.org/10.1147/rd.53.0183>
 
-[6]: Bennett, C. H. (2003). "Notes on Landauer's principle, reversible computation, and Maxwell's Demon." *Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics*, 34(3), 501–510. <https://doi.org/10.1016/S1355-2198(03)00039-X>
+[^6]: Bennett, C. H. (2003). "Notes on Landauer's principle, reversible computation, and Maxwell's Demon." *Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics*, 34(3), 501–510. <https://doi.org/10.1016/S1355-2198(03)00039-X>
 
-[7]: Caticha, A. (2012). *Entropic Inference and the Foundations of Physics*. USP Press. ISBN: 978-85-314-1374-3
+[^7]: Caticha, A. (2012). *Entropic Inference and the Foundations of Physics*. USP Press. ISBN: 978-85-314-1374-3
 
-[8]: Gromov, M. (1999). *Metric Structures for Riemannian and Non-Riemannian Spaces*. Birkhäuser Boston. <https://doi.org/10.1007/978-0-8176-4583-0>
+[^8]: Gromov, M. (1999). *Metric Structures for Riemannian and Non-Riemannian Spaces*. Birkhäuser Boston. <https://doi.org/10.1007/978-0-8176-4583-0>
 
-[9]: Blechschmidt, J., Ernst, O. G. (2021). "Three ways to solve partial differential equations with neural networks — A review." *GAMM-Mitteilungen*, 44(2), e202100006. <https://doi.org/10.1002/gamm.202100006>
+[^9]: Blechschmidt, J., Ernst, O. G. (2021). "Three ways to solve partial differential equations with neural networks — A review." *GAMM-Mitteilungen*, 44(2), e202100006. <https://doi.org/10.1002/gamm.202100006>
 
-[10]: de Bezenac, E., Pajot, A., & Gallinari, P. (2018). "Deep learning for physical processes: Incorporating prior scientific knowledge." *Journal of Statistical Mechanics: Theory and Experiment*, 2019(12), 124009. <https://doi.org/10.1088/1742-5468/ab3195>
+[^10]: de Bezenac, E., Pajot, A., & Gallinari, P. (2018). "Deep learning for physical processes: Incorporating prior scientific knowledge." *Journal of Statistical Mechanics: Theory and Experiment*, 2019(12), 124009. <https://doi.org/10.1088/1742-5468/ab3195>
 
-[11]: Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations." *Journal of Computational Physics*, 378, 686–707. <https://doi.org/10.1016/j.jcp.2018.10.045>
+[^11]: Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations." *Journal of Computational Physics*, 378, 686–707. <https://doi.org/10.1016/j.jcp.2018.10.045>
 
-[12]: Amari, S.-I. (2016). *Information Geometry and Its Applications*. Springer Japan. <https://doi.org/10.1007/978-4-431-55978-8>
+[^12]: Amari, S.-I. (2016). *Information Geometry and Its Applications*. Springer Japan. <https://doi.org/10.1007/978-4-431-55978-8>
 
-[13]: Frieden, B. R. (2004). *Science from Fisher Information: A Unification*. Cambridge University Press. <https://doi.org/10.1017/CBO9780511616907>
+[^13]: Frieden, B. R. (2004). *Science from Fisher Information: A Unification*. Cambridge University Press. <https://doi.org/10.1017/CBO9780511616907>
 
-[14]: Pavon, M., & Chen, Y. (2021). "Data-driven optimal transport." *Annual Review of Control, Robotics, and Autonomous Systems*, 4, 287–310. <https://doi.org/10.1146/annurev-control-071020-010308>
+[^14]: Pavon, M., & Chen, Y. (2021). "Data-driven optimal transport." *Annual Review of Control, Robotics, and Autonomous Systems*, 4, 287–310. <https://doi.org/10.1146/annurev-control-071020-010308>
 
-[15]: Conforti, G. (2021). "A second order equation for Schrödinger bridges with applications to the hot gas experiment and entropic transportation cost." *Probability Theory and Related Fields*, 180(3), 1019–1062. <https://doi.org/10.1007/s00440-021-01038-4>
+[^15]: Conforti, G. (2021). "A second order equation for Schrödinger bridges with applications to the hot gas experiment and entropic transportation cost." *Probability Theory and Related Fields*, 180(3), 1019–1062. <https://doi.org/10.1007/s00440-021-01038-4>
 
-[16]: Jaynes, E. T. (1957). "Information theory and statistical mechanics." *Physical Review*, 106(4), 620–630. <https://doi.org/10.1103/PhysRev.106.620>
+[^16]: Jaynes, E. T. (1957). "Information theory and statistical mechanics." *Physical Review*, 106(4), 620–630. <https://doi.org/10.1103/PhysRev.106.620>
 
-[17]: Cover, T. M., & Thomas, J. A. (2006). *Elements of Information Theory* (2nd ed.). Wiley-Interscience. ISBN: 978-0-471-24195-9
+[^17]: Cover, T. M., & Thomas, J. A. (2006). *Elements of Information Theory* (2nd ed.). Wiley-Interscience. ISBN: 978-0-471-24195-9
 
-[18]: Senechal, M. (1995). *Quasicrystals and Geometry*. Cambridge University Press. ISBN: 978-0-521-37259-6
+[^18]: Senechal, M. (1995). *Quasicrystals and Geometry*. Cambridge University Press. ISBN: 978-0-521-37259-6
 
-[19]: Baake, M., & Grimm, U. (2013). *Aperiodic Order: Volume 1, A Mathematical Invitation*. Cambridge University Press. <https://doi.org/10.1017/CBO9781139025256>
+[^19]: Baake, M., & Grimm, U. (2013). *Aperiodic Order: Volume 1, A Mathematical Invitation*. Cambridge University Press. <https://doi.org/10.1017/CBO9781139025256>
 
-[20]: Ostlund, S., & Kim, S. (1985). "Renormalization of quasiperiodic mappings." *Physica Scripta*, 1985(T9), 193–198. <https://doi.org/10.1088/0031-8949/1985/T9/031>
+[^20]: Ostlund, S., & Kim, S. (1985). "Renormalization of quasiperiodic mappings." *Physica Scripta*, 1985(T9), 193–198. <https://doi.org/10.1088/0031-8949/1985/T9/031>
 
-[21]: Shechtman, D., Blech, I., Gratias, D., & Cahn, J. W. (1984). "Metallic phase with long-range orientational order and no translational symmetry." *Physical Review Letters*, 53(20), 1951–1953. <https://doi.org/10.1103/PhysRevLett.53.1951>
+[^21]: Shechtman, D., Blech, I., Gratias, D., & Cahn, J. W. (1984). "Metallic phase with long-range orientational order and no translational symmetry." *Physical Review Letters*, 53(20), 1951–1953. <https://doi.org/10.1103/PhysRevLett.53.1951>
 
-[22]: Kalugin, P. A., Kitaev, A. Y., & Levitov, L. S. (1985). "Al0.86Mn0.14: A six-dimensional crystal." *JETP Letters*, 41(3), 145–149.
+[^22]: Kalugin, P. A., Kitaev, A. Y., & Levitov, L. S. (1985). "Al0.86Mn0.14: A six-dimensional crystal." *JETP Letters*, 41(3), 145–149.
 
-[23]: Steinhardt, P. J., & Ostlund, S. (Eds.). (1987). *The Physics of Quasicrystals*. World Scientific. <https://doi.org/10.1142/0391>
+[^23]: Steinhardt, P. J., & Ostlund, S. (Eds.). (1987). *The Physics of Quasicrystals*. World Scientific. <https://doi.org/10.1142/0391>
 
-[24]: Ostlund, S., Pandit, R., Rand, D., Schellnhuber, H. J., & Siggia, E. D. (1983). "One-dimensional Schrödinger equation with an almost periodic potential." *Physical Review Letters*, 50(23), 1873–1876. <https://doi.org/10.1103/PhysRevLett.50.1873>
+[^24]: Ostlund, S., Pandit, R., Rand, D., Schellnhuber, H. J., & Siggia, E. D. (1983). "One-dimensional Schrödinger equation with an almost periodic potential." *Physical Review Letters*, 50(23), 1873–1876. <https://doi.org/10.1103/PhysRevLett.50.1873>
 
-[25]: Kohmoto, M. (1983). "Metal-insulator transition and scaling for incommensurate systems." *Physical Review Letters*, 51(13), 1198–1201. <https://doi.org/10.1103/PhysRevLett.51.1198>
+[^25]: Kohmoto, M. (1983). "Metal-insulator transition and scaling for incommensurate systems." *Physical Review Letters*, 51(13), 1198–1201. <https://doi.org/10.1103/PhysRevLett.51.1198>
 
-[26]: Macé, N., Jagannathan, A., Kalugin, P., Mosseri, R., & Piéchon, F. (2017). "Critical eigenstates and their properties in one- and two-dimensional quasicrystals." *Physical Review B*, 96(4), 045138. <https://doi.org/10.1103/PhysRevB.96.045138>
+[^26]: Macé, N., Jagannathan, A., Kalugin, P., Mosseri, R., & Piéchon, F. (2017). "Critical eigenstates and their properties in one- and two-dimensional quasicrystals." *Physical Review B*, 96(4), 045138. <https://doi.org/10.1103/PhysRevB.96.045138>
 
-[27]: Carlip, S. (1999). "Black hole entropy from conformal field theory in any dimension." *Physical Review Letters*, 82(14), 2828–2831. <https://doi.org/10.1103/PhysRevLett.82.2828>
+[^27]: Carlip, S. (1999). "Black hole entropy from conformal field theory in any dimension." *Physical Review Letters*, 82(14), 2828–2831. <https://doi.org/10.1103/PhysRevLett.82.2828>
 
-[28]: Bekenstein, J. D. (1973). "Black holes and entropy." *Physical Review D*, 7(8), 2333–2346. <https://doi.org/10.1103/PhysRevD.7.2333>
+[^28]: Bekenstein, J. D. (1973). "Black holes and entropy." *Physical Review D*, 7(8), 2333–2346. <https://doi.org/10.1103/PhysRevD.7.2333>
 
-[29]: Hawking, S. W. (1975). "Particle creation by black holes." *Communications in Mathematical Physics*, 43(3), 199–220. <https://doi.org/10.1007/BF02345020>
+[^29]: Hawking, S. W. (1975). "Particle creation by black holes." *Communications in Mathematical Physics*, 43(3), 199–220. <https://doi.org/10.1007/BF02345020>
 
-[30]: Verlinde, E. (2011). "On the origin of gravity and the laws of Newton." *Journal of High Energy Physics*, 2011(4), 29. <https://doi.org/10.1007/JHEP04(2011)029>
+[^30]: Verlinde, E. (2011). "On the origin of gravity and the laws of Newton." *Journal of High Energy Physics*, 2011(4), 29. <https://doi.org/10.1007/JHEP04(2011)029>
 
-[31]: Jacobson, T. (1995). "Thermodynamics of spacetime: The Einstein equation of state." *Physical Review Letters*, 75(7), 1260–1263. <https://doi.org/10.1103/PhysRevLett.75.1260>
+[^31]: Jacobson, T. (1995). "Thermodynamics of spacetime: The Einstein equation of state." *Physical Review Letters*, 75(7), 1260–1263. <https://doi.org/10.1103/PhysRevLett.75.1260>
 
-[32]: 't Hooft, G. (1993). "Dimensional reduction in quantum gravity." arXiv preprint gr-qc/9310026. <https://doi.org/10.48550/arXiv.gr-qc/9310026>
+[^32]: 't Hooft, G. (1993). "Dimensional reduction in quantum gravity." arXiv preprint gr-qc/9310026. <https://doi.org/10.48550/arXiv.gr-qc/9310026>
 
-[33]: Susskind, L. (1995). "The world as a hologram." *Journal of Mathematical Physics*, 36(11), 6377–6396. <https://doi.org/10.1063/1.531249>
+[^33]: Susskind, L. (1995). "The world as a hologram." *Journal of Mathematical Physics*, 36(11), 6377–6396. <https://doi.org/10.1063/1.531249>
 
-[34]: Bousso, R. (2002). "The holographic principle." *Reviews of Modern Physics*, 74(3), 825–874. <https://doi.org/10.1103/RevModPhys.74.825>
+[^34]: Bousso, R. (2002). "The holographic principle." *Reviews of Modern Physics*, 74(3), 825–874. <https://doi.org/10.1103/RevModPhys.74.825>
 
-[35]: Chandrasekhar, S. (1931). "The maximum mass of ideal white dwarfs." *Astrophysical Journal*, 74, 81–82. <https://doi.org/10.1086/143324>
+[^35]: Chandrasekhar, S. (1931). "The maximum mass of ideal white dwarfs." *Astrophysical Journal*, 74, 81–82. <https://doi.org/10.1086/143324>
 
-[36]: Harper, P. G. (1955). "Single band motion of conduction electrons in a uniform magnetic field." *Proceedings of the Physical Society. Section A*, 68(10), 874–878. <https://doi.org/10.1088/0370-1298/68/10/304>
+[^36]: Harper, P. G. (1955). "Single band motion of conduction electrons in a uniform magnetic field." *Proceedings of the Physical Society. Section A*, 68(10), 874–878. <https://doi.org/10.1088/0370-1298/68/10/304>
 
-[37]: Hofstadter, D. R. (1976). "Energy levels and wave functions of Bloch electrons in rational and irrational magnetic fields." *Physical Review B*, 14(6), 2239–2249. <https://doi.org/10.1103/PhysRevB.14.2239>
+[^37]: Hofstadter, D. R. (1976). "Energy levels and wave functions of Bloch electrons in rational and irrational magnetic fields." *Physical Review B*, 14(6), 2239–2249. <https://doi.org/10.1103/PhysRevB.14.2239>
 
-[38]:  Wilkinson, M., & Austin, E. J. (1994). "Spectral dimension and dynamics for Harper's equation." *Physical Review B*, 50(3), 1420–1429. <https://doi.org/10.1103/PhysRevB.50.1420>
+[^38]:  Wilkinson, M., & Austin, E. J. (1994). "Spectral dimension and dynamics for Harper's equation." *Physical Review B*, 50(3), 1420–1429. <https://doi.org/10.1103/PhysRevB.50.1420>
 
-[39]: Hiramoto, H., & Kohmoto, M. (1989). "Electronic spectral and wavefunction properties of one-dimensional quasiperiodic systems: A scaling approach." *International Journal of Modern Physics B*, 6(03n04), 281–320. <https://doi.org/10.1142/S0217979292000153>
+[^39]: Hiramoto, H., & Kohmoto, M. (1989). "Electronic spectral and wavefunction properties of one-dimensional quasiperiodic systems: A scaling approach." *International Journal of Modern Physics B*, 6(03n04), 281–320. <https://doi.org/10.1142/S0217979292000153>
 
-[40]: Thouless, D. J. (1983). "Quantization of particle transport." *Physical Review B*, 27(10), 6083–6087. <https://doi.org/10.1103/PhysRevB.27.6083>
+[^40]: Thouless, D. J. (1983). "Quantization of particle transport." *Physical Review B*, 27(10), 6083–6087. <https://doi.org/10.1103/PhysRevB.27.6083>
 
-[41]: Wilkinson, M. (1984). "Critical properties of electron eigenstates in incommensurate systems." *Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences*, 391(1801), 305–350. <https://doi.org/10.1098/rspa.1984.0016>
+[^41]: Wilkinson, M. (1984). "Critical properties of electron eigenstates in incommensurate systems." *Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences*, 391(1801), 305–350. <https://doi.org/10.1098/rspa.1984.0016>
 
-[42]: Jitomirskaya, S. (2010). "Ergodic Schrödinger operators (on one foot)." *Proceedings of the International Congress of Mathematicians*, Hyderabad, India. <https://doi.org/10.1142/9789814324359_0117>
+[^42]: Jitomirskaya, S. (2010). "Ergodic Schrödinger operators (on one foot)." *Proceedings of the International Congress of Mathematicians*, Hyderabad, India. <https://doi.org/10.1142/9789814324359_0117>
 
-[43]: Ostrowski, A. (1921). "Bemerkungen zur Theorie der Diophantischen Approximationen." *Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg*, 1(1), 77–98. <https://doi.org/10.1007/BF02940581>
+[^43]: Ostrowski, A. (1921). "Bemerkungen zur Theorie der Diophantischen Approximationen." *Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg*, 1(1), 77–98. <https://doi.org/10.1007/BF02940581>
 
-[44]: Hurwitz, A. (1891). "Über die angenäherte Darstellung der Irrationalzahlen durch rationale Brüche." *Mathematische Annalen*, 39(2), 279–284. <https://doi.org/10.1007/BF01206656>
+[^44]: Hurwitz, A. (1891). "Über die angenäherte Darstellung der Irrationalzahlen durch rationale Brüche." *Mathematische Annalen*, 39(2), 279–284. <https://doi.org/10.1007/BF01206656>
 
-[45]: Avila, A., & Jitomirskaya, S. (2009). "The Ten Martini Problem." *Annals of Mathematics*, 170(1), 303–342. <https://doi.org/10.4007/annals.2009.170.303>
+[^45]: Avila, A., & Jitomirskaya, S. (2009). "The Ten Martini Problem." *Annals of Mathematics*, 170(1), 303–342. <https://doi.org/10.4007/annals.2009.170.303>
 
-[46]: Alyatkin, S., Sigurdsson, H., Askitopoulos, A., Töpfer, J. D., Cilibrizzi, P., Ohadi, H., & Lagoudakis, P. G. (2024). "Quantum fluids of light in 2D artificial reconfigurable aperiodic crystals with tailored coupling." *Nature Communications*, 15, 6602. <https://doi.org/10.1038/s41467-024-50923-8>
+[^46]: Alyatkin, S., Sigurdsson, H., Askitopoulos, A., Töpfer, J. D., Cilibrizzi, P., Ohadi, H., & Lagoudakis, P. G. (2024). "Quantum fluids of light in 2D artificial reconfigurable aperiodic crystals with tailored coupling." *Nature Communications*, 15, 6602. <https://doi.org/10.1038/s41467-024-50923-8>
 
-[47]: Penrose, R. (1974). "The role of aesthetics in pure and applied mathematical research." *Bulletin of the Institute of Mathematics and its Applications*, 10, 266–271.
+[^47]: Penrose, R. (1974). "The role of aesthetics in pure and applied mathematical research." *Bulletin of the Institute of Mathematics and its Applications*, 10, 266–271.
 
-[48]: Aldebaran. "Optics of photonic quasicrystals." *Bulletin*, 2018. <https://www.aldebaran.cz/bulletin/2018_34/NP_Quasicrystals.pdf>
+[^48]: Aldebaran. "Optics of photonic quasicrystals." *Bulletin*, 2018. <https://www.aldebaran.cz/bulletin/2018_34/NP_Quasicrystals.pdf>
 
-[49]: Zhang, K. (2024). "Magnetic control of the non-Hermitian skin effect in two-dimensional lattices." arXiv preprint arXiv:2511.20518. <https://arxiv.org/abs/2511.20518>
+[^49]: Zhang, K. (2024). "Magnetic control of the non-Hermitian skin effect in two-dimensional lattices." arXiv preprint arXiv:2511.20518. <https://arxiv.org/abs/2511.20518>
 
-[50]: Kleiber, M. (1932). "Body size and metabolism." *Hilgardia*, 6(11), 315–353. <https://doi.org/10.3733/hilg.v06n11p315>
+[^50]: Kleiber, M. (1932). "Body size and metabolism." *Hilgardia*, 6(11), 315–353. <https://doi.org/10.3733/hilg.v06n11p315>
 
-[51]: West, G. B., Brown, J. H., & Enquist, B. J. (1999). "The fourth dimension of life: fractal geometry and allometric scaling of organisms." *Science*, 284(5420), 1677–1679. <https://doi.org/10.1126/science.284.5420.1677>
+[^51]: West, G. B., Brown, J. H., & Enquist, B. J. (1999). "The fourth dimension of life: fractal geometry and allometric scaling of organisms." *Science*, 284(5420), 1677–1679. <https://doi.org/10.1126/science.284.5420.1677>
 
-[52]: Chaisson, E. J. (2011). "Energy rate density as a complexity metric and evolutionary driver." *Complexity*, 16(3), 27–40. <https://doi.org/10.1002/cplx.20323>
+[^52]: Chaisson, E. J. (2011). "Energy rate density as a complexity metric and evolutionary driver." *Complexity*, 16(3), 27–40. <https://doi.org/10.1002/cplx.20323>
 
-[53]: Ellison, C. J., Mahoney, J. R., & Crutchfield, J. P. (2009). "Prediction, retrodiction, and the amount of information stored in the present." *Journal of Statistical Physics*, 136(6), 1005–1034. <https://doi.org/10.1007/s10955-009-9808-z>
+[^53]: Ellison, C. J., Mahoney, J. R., & Crutchfield, J. P. (2009). "Prediction, retrodiction, and the amount of information stored in the present." *Journal of Statistical Physics*, 136(6), 1005–1034. <https://doi.org/10.1007/s10955-009-9808-z>
 
-[54]: Sterling, P., & Laughlin, S. (2015). *Principles of Neural Design*. MIT Press. ISBN: 978-0-262-02870-7
+[^54]: Sterling, P., & Laughlin, S. (2015). *Principles of Neural Design*. MIT Press. ISBN: 978-0-262-02870-7
 
-[55]: Kempes, C. P., Wolpert, D., Cohen, Z., & Pérez-Mercader, J. (2017). "The thermodynamic efficiency of computations made in cells across the range of life." *Philosophical Transactions of the Royal Society A*, 375(2109), 20160343. <https://doi.org/10.1098/rsta.2016.0343>
+[^55]: Kempes, C. P., Wolpert, D., Cohen, Z., & Pérez-Mercader, J. (2017). "The thermodynamic efficiency of computations made in cells across the range of life." *Philosophical Transactions of the Royal Society A*, 375(2109), 20160343. <https://doi.org/10.1098/rsta.2016.0343>
 
-[56]: Kifer, Y. (1990). "Large deviations in dynamical systems and stochastic processes." *Transactions of the American Mathematical Society*, 321(2), 505–524. <https://doi.org/10.1090/S0002-9947-1990-1025756-7>
+[^56]: Kifer, Y. (1990). "Large deviations in dynamical systems and stochastic processes." *Transactions of the American Mathematical Society*, 321(2), 505–524. <https://doi.org/10.1090/S0002-9947-1990-1025756-7>
 
-[57]: Pollicott, M., & Sharp, R. (2001). "Error terms for closed orbits of hyperbolic flows." *Ergodic Theory and Dynamical Systems*, 21(2), 545–562. <https://doi.org/10.1017/S0143385701001274>
+[^57]: Pollicott, M., & Sharp, R. (2001). "Error terms for closed orbits of hyperbolic flows." *Ergodic Theory and Dynamical Systems*, 21(2), 545–562. <https://doi.org/10.1017/S0143385701001274>
 
-[58]: Kevrekidis, I. G., & Samaey, G. (2009). "Equation-free multiscale computation: Algorithms and applications." *Annual Review of Physical Chemistry*, 60, 321–344. <https://doi.org/10.1146/annurev.physchem.59.032607.093610>
+[^58]: Kevrekidis, I. G., & Samaey, G. (2009). "Equation-free multiscale computation: Algorithms and applications." *Annual Review of Physical Chemistry*, 60, 321–344. <https://doi.org/10.1146/annurev.physchem.59.032607.093610>
 
-[59]: Melbourne, I., & Nicol, M. (2005). "Almost sure invariance principle for nonuniformly hyperbolic systems." *Communications in Mathematical Physics*, 260(1), 131–146. <https://doi.org/10.1007/s00220-005-1407-5>
+[^59]: Melbourne, I., & Nicol, M. (2005). "Almost sure invariance principle for nonuniformly hyperbolic systems." *Communications in Mathematical Physics*, 260(1), 131–146. <https://doi.org/10.1007/s00220-005-1407-5>
 
-[60]: Kwon, C., & Lee, J. S. (2023). "Unified framework for generalized statistics: Thermodynamic uncertainty relations and the Onsager–Machlup action." *Physical Review X*, 13(2), 021018. <https://doi.org/10.1103/PhysRevX.13.021018>
+[^60]: Kwon, C., & Lee, J. S. (2023). "Unified framework for generalized statistics: Thermodynamic uncertainty relations and the Onsager–Machlup action." *Physical Review X*, 13(2), 021018. <https://doi.org/10.1103/PhysRevX.13.021018>
 
-[61]: Dechant, A. (2018). "Multidimensional thermodynamic uncertainty relations." *Journal of Physics A: Mathematical and Theoretical*, 52(3), 035001. <https://doi.org/10.1088/1751-8121/aaf3ff>
+[^61]: Dechant, A. (2018). "Multidimensional thermodynamic uncertainty relations." *Journal of Physics A: Mathematical and Theoretical*, 52(3), 035001. <https://doi.org/10.1088/1751-8121/aaf3ff>
 
-[62]: Barato, A. C., & Seifert, U. (2015). "Thermodynamic uncertainty relation for biomolecular processes." *Physical Review Letters*, 114(15), 158101. <https://doi.org/10.1103/PhysRevLett.114.158101>
+[^62]: Barato, A. C., & Seifert, U. (2015). "Thermodynamic uncertainty relation for biomolecular processes." *Physical Review Letters*, 114(15), 158101. <https://doi.org/10.1103/PhysRevLett.114.158101>
 
-[63]: Horowitz, J. M., & Gingrich, T. R. (2020). "Thermodynamic uncertainty relations constrain non-equilibrium fluctuations." *Nature Physics*, 16(1), 15–20. <https://doi.org/10.1038/s41567-019-0702-6>
+[^63]: Horowitz, J. M., & Gingrich, T. R. (2020). "Thermodynamic uncertainty relations constrain non-equilibrium fluctuations." *Nature Physics*, 16(1), 15–20. <https://doi.org/10.1038/s41567-019-0702-6>
 
-[64]: Salazar, D. S. P. (2024). "Universal thermodynamic uncertainty relation for Petz quantum f-divergences." *Physical Review Letters*, 132(5), 050401. <https://doi.org/10.1103/PhysRevLett.132.050401>
+[^64]: Salazar, D. S. P. (2024). "Universal thermodynamic uncertainty relation for Petz quantum f-divergences." *Physical Review Letters*, 132(5), 050401. <https://doi.org/10.1103/PhysRevLett.132.050401>
 
-[65]: Tran, D. T., Dauphin, A., Grushin, A. G., Zoller, P., & Goldman, N. (2017). "Probing topology by 'heating': Quantized circular dichroism in ultracold atoms." *Science Advances*, 3(8), e1701207. <https://doi.org/10.1126/sciadv.1701207>
+[^65]: Tran, D. T., Dauphin, A., Grushin, A. G., Zoller, P., & Goldman, N. (2017). "Probing topology by 'heating': Quantized circular dichroism in ultracold atoms." *Science Advances*, 3(8), e1701207. <https://doi.org/10.1126/sciadv.1701207>

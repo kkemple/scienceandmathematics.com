@@ -372,7 +372,8 @@
 .prose sup,
 .prose sub,
 .prose sup a {
-  margin: 0 0.125em;
+  /* margin: 0 0.125em; */
+  padding-right: 0.04em;
   font-size: 0.875em;
   line-height: 1;
 }
@@ -464,7 +465,7 @@
   opacity: 0.875;
   text-decoration: none;
   transition: color 0.2s ease-out;
-  padding-right: 0.5em;
+  /* padding-right: 0.5em; */
 }
 
 .prose [data-footnote-ref]:hover,

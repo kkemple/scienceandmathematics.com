@@ -7,9 +7,9 @@ Did you know you can predict a stellar explosion's energy by counting bits of in
 
 ## The Chandrasekhar Boundary
 
-White dwarfs maintain structure through electron degeneracy pressure [^1]—quantum mechanical resistance arising from Pauli exclusion when electrons pack tightly enough that their wavefunctions overlap. For a white dwarf of mass $M$ and radius $R$, the gravitational compression scales with the Schwarzschild radius $r_s = 2GM/c^2$.
+White dwarfs maintain structure through electron degeneracy pressure[^1]—quantum mechanical resistance arising from Pauli exclusion when electrons pack tightly enough that their wavefunctions overlap. For a white dwarf of mass $M$ and radius $R$, the gravitational compression scales with the Schwarzschild radius $r_s = 2GM/c^2$.
 
-At the Chandrasekhar limit $M_{Ch} = 1.4 M_{\odot}$ [^2], white dwarfs reach $R/r_s \approx 10^3$. The ratio of Schwarzschild radius to actual radius provides a dimensionless measure of gravitational stress. For a 1.4 $M_{\odot}$ white dwarf with $R \approx 5000$ km,
+At the Chandrasekhar limit $M_{Ch} = 1.4 M_{\odot}$[^2], white dwarfs reach $R/r_s \approx 10^3$. The ratio of Schwarzschild radius to actual radius provides a dimensionless measure of gravitational stress. For a 1.4 $M_{\odot}$ white dwarf with $R \approx 5000$ km,
 
 $$
 \frac{r_s}{R} = \frac{4.15 \text{ km}}{5000 \text{ km}} = 8.3 \times 10^{-4}.
@@ -73,13 +73,13 @@ This represents the information reorganization during the transition from electr
 
 ## The Energy Calculation
 
-[Landauer's principle](/the-thermodynamic-computational-speed-limit) establishes that erasing or reorganizing information costs energy $E = k_B T \ln 2$ per bit at temperature $T$ [^3]. For the phase transition occurring at shock temperature $T_s$, the total energy associated with information reorganization is,
+[Landauer's principle](/the-thermodynamic-computational-speed-limit) establishes that erasing or reorganizing information costs energy $E = k_B T \ln 2$ per bit at temperature $T$[^3]. For the phase transition occurring at shock temperature $T_s$, the total energy associated with information reorganization is,
 
 $$
 E = \Delta N_b k_B T_s \ln 2.
 $$
 
-Observations of supernova shock breakout give characteristic shock temperatures $T_s \sim 10^9$ K during the explosion [^4]. Substitute the calculated information reorganization of $\Delta N_b = 4.5 \times 10^{58}$ bits along with Boltzmann's constant $k_B = 1.38 \times 10^{-23}$ J/K and $\ln 2 = 0.693$,
+Observations of supernova shock breakout give characteristic shock temperatures $T_s \sim 10^9$ K during the explosion[^4]. Substitute the calculated information reorganization of $\Delta N_b = 4.5 \times 10^{58}$ bits along with Boltzmann's constant $k_B = 1.38 \times 10^{-23}$ J/K and $\ln 2 = 0.693$,
 
 $$
 E = 4.5 \times 10^{58} \times 1.38 \times 10^{-23} \times 10^9 \times 0.693.
@@ -97,7 +97,7 @@ $$
 E = 4.5 \times 10^{58} \times 9.56 \times 10^{-15} = 4.3 \times 10^{44} \text{ J}.
 $$
 
-This matches the observed Type Ia supernova energy scale of $\sim 10^{44}$ J [^5]. The framework requires four inputs: Chandrasekhar mass (1.4 $M_\odot$), white dwarf radius (5000 km), neutron star radius (10 km), and observed shock temperature (10^9 K).
+This matches the observed Type Ia supernova energy scale of $\sim 10^{44}$ J[^5]. The framework requires four inputs: Chandrasekhar mass (1.4 $M_\odot$), white dwarf radius (5000 km), neutron star radius (10 km), and observed shock temperature (10^9 K).
 
 ## Physical Mechanism
 
@@ -141,7 +141,7 @@ The information perspective suggests that variation in Type Ia brightness reflec
 
 ## Implications
 
-The calculation demonstrates that thermodynamic cost of phase space reorganization yields explosion energy matching observations to within an order of magnitude. This correspondence suggests [information-theoretic accounting](/information-field-theory-from-constraint-to-cosmos) may capture essential aspects of stellar collapse energetics.
+The calculation demonstrates that thermodynamic cost of phase space reorganization yields explosion energy matching observations to within an order of magnitude. This correspondence suggests [information-theoretic accounting](/information-field-theory-from-constraint-to-cosmos) may capture essential aspects of stellar collapse energetics. The [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) develops this calculation further, connecting it to the basin of attraction threshold at $R/R_S = 10^3$ where the complexity multiplier $(1-\eta)^{-\rho^*}$ begins diverging toward information bankruptcy.
 
 The framework makes no physical claims about mechanism—it simply counts accessible states before and after transition, multiplies by temperature, and obtains energy. That this matches observed supernova energies indicates phase space geometry constrains explosion energetics independent of detailed nuclear burning models.
 
