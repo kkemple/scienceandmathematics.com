@@ -465,7 +465,12 @@
   opacity: 0.875;
   text-decoration: none;
   transition: color 0.2s ease-out;
-  /* padding-right: 0.5em; */
+  padding-right: 0.2em;
+}
+
+.prose [data-footnote-ref]:first,
+.prose [data-footnote-backref]:first {
+  padding-left: 0.1em;
 }
 
 .prose [data-footnote-ref]:hover,

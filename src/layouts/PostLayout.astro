@@ -32,6 +32,32 @@ const ogImage = `/open-graph/${postSlug}.png`
     ogImage={ogImage}
     slot="head"
   />
+  <script
+    slot="head"
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: title,
+      description: description,
+      image: new URL(ogImage, Astro.site).href,
+      datePublished: pubDate.toISOString(),
+      author: {
+        '@type': 'Person',
+        name: themeConfig.site.author,
+        url: new URL('/about', Astro.site).href,
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: themeConfig.site.title,
+        url: Astro.site,
+      },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': Astro.url.href,
+      },
+    })}
+  />
   <div class="post-container">
     <main>
       <div class="prose">

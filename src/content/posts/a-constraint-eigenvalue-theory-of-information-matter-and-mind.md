@@ -364,7 +364,7 @@ $$
 
 Dimensionality is a tax on coherence. Every spatial dimension adds an entire axis of curvature, an entire set of second derivatives, and exponential growth of possible configurations requiring maintenance. The lowest-energy, lowest-dissipation state is 1D—a single axis with minimal curvature and trivial topology. Nature collapses toward this attractor whenever constraints permit: black hole horizons reduce to effectively 1D chiral modes (left-moving and right-moving excitations), neurons are functional 1D cables, DNA is a 1D tape with recursive compression, and optimal transport networks (rivers, vasculature, lightning) collapse to 1D filaments. The holographic principle—entropy scaling with area rather than volume—reflects that gravitational systems stop at $d_{\mathrm{eff}} = 2$ rather than continuing to $d = 1$, held there by geometric constraints.
 
-This reduction arises when the recursive curvature ($\beta$) sector dominates. The Schwarzschild metric shows this directly: proper radial distance diverges as
+This reduction arises when the recursive curvature ($\beta$) sector dominates. The Schwarzschild metric—describing the spacetime geometry around spherically symmetric masses—shows this directly: proper radial distance diverges as
 
 $$
 ds_{r} = \frac{dr}{\sqrt{1 - r_s/r}},
@@ -914,7 +914,7 @@ $$
 
 In flat space far from gravitational sources, $d_{\mathrm{eff}} = 3$. Near a gravitational horizon, radial information flow becomes increasingly constrained while tangential flow remains free, causing $d_{\mathrm{eff}}$ to decrease.
 
-The Schwarzschild metric makes this explicit. Proper radial distance diverges as
+The Schwarzschild metric for spherically symmetric spacetime makes this explicit. Proper radial distance diverges as
 
 $$
 ds_r = \frac{dr}{\sqrt{1 - r_s/r}},
