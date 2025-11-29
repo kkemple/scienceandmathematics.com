@@ -67,16 +67,11 @@ Projection is curvature minimization under constraints. This projection principl
 
 The central mathematical object in this monograph is a constraint functional (fully defined in Section 2) whose Euler–Lagrange equation defines a manifold of allowed configurations. Stationary points yield three eigenvalue sectors:
 
-* $\pi\text{-sector}$: isotropy, rotational closure
-* $\phi\text{-sector}$: recursive scaling, self-similarity
-* $10\text{-sector}$: parity $\times$ pentagonal discrete coherence
+* $\pi$-sector: isotropy, rotational closure
+* $\phi$-sector: recursive scaling, self-similarity
+* $10$-sector: parity $\times$ pentagonal discrete coherence
 
-These eigenvalues generate the structural constants observable across coherent systems:
-
-* $\pi$,
-* the golden ratio $\varphi$
-* the decade resonance $10$
-* and the composite invariant $(4\pi\varphi^2 \approx 32.9)$
+These eigenvalues generate the structural constants observable across coherent systems: $\pi$, the golden ratio $\varphi$, the decade resonance $10$, and the composite invariant $(4\pi\varphi^2 \approx 32.9)$.
 
 Each of these constants corresponds to a mode of minimal curvature under distinct constraints. $\pi$ minimizes angular curvature, $\varphi$ minimizes recursive curvature, and $10$ minimizes discrete curvature (binary × pentagonal). They are the lowest-curvature solutions of the Euler–Lagrange equation.
 
