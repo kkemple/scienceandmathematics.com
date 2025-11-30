@@ -230,7 +230,7 @@ The golden ratio emerges as the renormalization-group fixed point of the $\beta$
 
 The dissipation field η organizes all coherent systems into a universal hierarchy spanning elementary particles to black holes. This part derives the decade-structured ladder, presents the renormalization-group β-function, and extracts the universal critical exponent ν = 1/ρ* = 0.304.
 
-## 6. The Dissipation Field ( \eta )
+## 6. The Dissipation Field
 
 The dissipation field $\eta$ captures how much of a system's energetic budget is irreversibly committed to maintaining information against noise, curvature, and fluctuations. Rather than treating dissipation as a side-effect of dynamics, we elevate it to a primary coordinate on the space of coherent organizations. The dissipation field measures how much energy a system must expend to maintain deviations from minimal curvature. Higher curvature configurations demand higher maintenance and therefore higher $\eta$.
 
