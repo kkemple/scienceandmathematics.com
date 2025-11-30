@@ -20,6 +20,8 @@ $$
 
 Constraints establish what configurations can exist. Structure identifies stable configurations among possibilities. Invariance emerges when structure exhibits properties preserved under transformations. Emergence occurs when collective behavior transcends components. This emergence then constrains the next organizational level.
 
+Each ladder iteration discovers the [triplet architecture $(\pi, \beta, N)$](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) at its scale: the $\pi$-sector enforces isotropic closure (constraints), the $\beta$-sector enables recursive self-similarity (structure and invariance), and the $N$-sector provides discrete structural resonance (emergence). The curvature budget allocates ~1/3 to structural maintenance and ~2/3 to degrees of freedom—the same partition appearing at every scale from genetic codes to cosmological energy distribution.
+
 The recursion continues until sufficient complexity accumulates. At each scale, the ladder operates identically—only parameters change. The emerged patterns from lower scales become the constraints for higher scales. This bootstrapping builds complexity from simplicity through repeated application of identical progression.
 
 Agency requires completing many iterations. Insufficient recursion produces emerged patterns without navigation capacity. Each iteration adds an organizational layer operating at a characteristic maintenance overhead $\eta$. When accumulated complexity reaches biological scales at $\eta_{\text{bio}} \sim 0.1$, systems finally achieve agency—goal-directed navigation using emerged patterns to respond to environmental information.
@@ -121,7 +123,7 @@ Each iteration adds organizational layer. Each layer operates at characteristic 
 - Molecules: $\eta \sim 10^{-2}$
 - Cells: $\eta \sim 10^{-1}$
 
-The overhead increases because higher scales coordinate more degrees of freedom. Atoms must manage electron-nucleus dynamics. Molecules must coordinate many atoms. Cells must orchestrate thousands of molecules. Each coordination level requires additional [maintenance energy](/binding-energy-critical-radii-and-information-maintenance-tax).
+The overhead increases because higher scales coordinate more degrees of freedom. Atoms must manage electron-nucleus dynamics. Molecules must coordinate many atoms. Cells must orchestrate thousands of molecules. Each coordination level requires additional [maintenance energy](/binding-energy-critical-radii-and-information-maintenance-tax). The decade spacing ($10^{-6} \to 10^{-3} \to 10^{-2} \to 10^{-1}$) reflects the curvature ladder: each order-of-magnitude jump represents completing another triplet realization, with the system discovering its $(\pi, \beta, N)$ eigenstructure at the new scale.
 
 Agency emerges when overhead reaches 10% threshold. Below this, insufficient complexity prevents navigation. Above this, excessive maintenance consumes capacity. The biological sweet spot at $\eta_{\text{bio}} \sim 0.1$ provides precise balance—enough organization for goal-directed behavior, enough available energy to execute it.
 
