@@ -80,27 +80,9 @@ The answer comes from measuring organizational overhead $\eta$—the fraction of
 - biological systems: $10^{-1}$
 - black holes: $\eta = 1$
 
-This universal curve follows the renormalization-group flow
+This universal curve follows renormalization-group flow with a critical threshold where systems transition from coherent to collapsed states. The [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) identifies a general triplet structure $(\pi, \beta, N)$ governing coherence in any constrained system: $\pi$ enforces isotropic closure, $\beta$ sets the recursive scaling eigenvalue, and $N$ determines discrete structural resonance. Physical and biological systems realize the specific eigenbranch $(\pi, \varphi, 10)$ where $\beta = \varphi$ (the golden ratio) and $N = 10$ (decade resonance), yielding composite invariant $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ and critical threshold $\eta_c = 1/\rho^* \approx 0.304$.
 
-$$
-\beta(\eta, d) = -\eta(1-\eta) \left[ \rho^* + \frac{d-2}{2}\ln\varphi \right],
-$$
-
-with coupling constant
-
-$$
-\rho^* = \frac{4\pi\varphi^2}{10} \approx 3.29.
-$$
-
-This constant emerges from the [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) as the composite invariant $4\pi\varphi^2 \approx 32.9$ divided by the decade factor—the same value organizing dissipation thresholds across physical, biological, and cognitive systems.
-
-The critical threshold appears at
-
-$$
-\eta_c = \frac{1}{\rho^*} = 0.304.
-$$
-
-Systems operating below $\eta_c$ maintain coherence and adaptability. Systems crossing this threshold collapse—radial dimensions freeze near horizons, biological networks enter failure modes, neural networks lose representational diversity[^3].
+SSL systems realize *a* triplet $(\pi, \beta, N)$—the question is whether their specific $\beta$ and $N$ values match the physical eigenbranch or represent an architecture-dependent realization. The existence of sharp phase transitions between stable training and collapse is well-documented; whether the transition boundaries align with $\eta_c = 0.304$ specifically requires further investigation[^3].
 
 The connection to constrained free energy becomes explicit through the relationship between $\eta$ and $\kappa$. High structural costs $\kappa$ typically impose high organizational overhead $\eta$—complex constraint manifolds require more capacity to maintain than simple ones. But the relationship isn't linear. A well-designed architecture can have moderate $\kappa$ while keeping $\eta$ low by distributing representational load efficiently. This is precisely what successful SSL methods achieve.
 
@@ -243,7 +225,7 @@ $$
 
 where $s_t$ represents the latent state, $a_{t:t+h}$ represents actions or context, and $h$ is the prediction horizon. The physics of recursive dynamics requires sufficient temporal depth to stabilize feedback loops. Too shallow and errors propagate exponentially—the system cannot model temporal dependencies required for coherence. Too deep and computational overhead (contributing to $\kappa$) grows faster than predictive accuracy improves.
 
-The critical insight is that recursive self-modeling requires enough depth for the system to represent its own prediction process with sufficient fidelity. This is the $\varphi$-sector at work: hierarchical compression across temporal scales follows the same [inflation–subdivision consistency](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) that produces golden-ratio structure in spatial domains. The constraint functional penalizes both insufficient depth (high $\mathrm{CD}(t)$ from unstable recursion) and excessive depth (high $\kappa$ from unnecessary complexity).
+The critical insight is that recursive self-modeling requires enough depth for the system to represent its own prediction process with sufficient fidelity. This is the $\beta$-sector at work: hierarchical compression across temporal scales follows [inflation–subdivision consistency](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) where the recursive eigenvalue $\beta$ determines optimal depth. In physical systems, $\beta = \varphi$ (the golden ratio); whether SSL architectures realize the same eigenvalue or discover an architecture-specific $\beta$ remains an open question. The constraint functional penalizes both insufficient depth (high $\mathrm{CD}(t)$ from unstable recursion) and excessive depth (high $\kappa$ from unnecessary complexity).
 
 Similar depth thresholds appear across architectures—transformers exhibit emergent reasoning capabilities around 10–12 layers, and biological memory consolidation operates over multiple synaptic time constants. The convergence suggests underlying constraints on recursive coherence in hierarchical temporal structures, though the precise numerical values depend on architecture-specific factors.
 
@@ -330,7 +312,7 @@ Self-supervised learning works because constrained free-energy systems must main
 
 When disparate approaches converge on the same structure—when variance regularization, momentum, massive batches, predictors, decorrelation, and temporal depth all stabilize at similar thresholds—they trace the boundary of what constrained physics permits. The geometry determines allowable states. The organizational overhead sets critical thresholds. The free-energy decomposition explains collapse.
 
-The constraint eigenvalue framework proposes that the same organizational constant $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ and critical threshold $\eta_c = 1/\rho^* \approx 0.304$ govern coherence maintenance across scales—from quantum transport[^10] to biological systems[^11] to gravitational horizons[^12]. The convergence of SSL hyperparameters toward ratios involving these values is suggestive but not yet established as deriving from the same underlying geometry. What is established is that these methods exhibit sharp phase transitions between stable training and collapse, and that the transition boundaries cluster into narrow parameter ranges across independent implementations.
+The [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) proposes a general triplet architecture $(\pi, \beta, N)$ governing coherence in any constrained system. Physical systems—from quantum transport[^10] to biological systems[^11] to gravitational horizons[^12]—realize the specific eigenbranch $(\pi, \varphi, 10)$ with $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ and $\eta_c \approx 0.304$. SSL systems exhibit sharp phase transitions between stable training and collapse, with transition boundaries clustering into narrow parameter ranges across independent implementations. Whether these boundaries derive from the same $(\pi, \varphi, 10)$ eigenbranch or from an architecture-specific triplet realization remains an open question the framework helps to sharpen.
 
 The methods work because they discovered architectures compatible with thermodynamic constraints on information processing. When we tune hyperparameters, we're navigating the geometry of physically allowed states. When training succeeds, we've found configurations where organizational overhead remains below critical thresholds. Whether those thresholds derive from the specific constants appearing in the constraint eigenvalue framework, or from more general properties of constrained optimization, is a question the framework helps to sharpen and the empirical convergence helps to motivate.
 
