@@ -62,6 +62,8 @@ where $A$ is the boundary area and $\ell_P \approx 1.6 \times 10^{-35}$ m is the
 
 By analogy, in highly constrained engineered plasmas, surface geometry strongly influences the accessible microstate manifold, making boundary design a practical thermodynamic instrument even if full gravitational holography is not invoked. For a fusion plasma confined within engineered boundaries, the accessible phase space can be viewed as bounded by surface geometry rather than bulk volume alone.
 
+Confinement geometry determines the allowed electromagnetic, acoustic, and density modes of the plasma. Because each mode corresponds to a collection of microstates, restricting these modes reduces the accessible phase-space volume. In this sense, geometry acts as an informational operator: it removes entire families of microstates, creating the negative $\partial I/\partial V$ term needed for informational pressure.
+
 Boundary geometry therefore becomes a thermodynamic instrument. Changing the shape or symmetry of the confining surface alters which microstates remain accessible to the plasma, directly modifying the system's informational capacity.
 
 ### Informational Pressure
@@ -106,6 +108,8 @@ $$
 
 In my earlier work, the same constant emerged in models of stellar collapse and quantum coherence, suggesting—though not yet proving—a cross-domain role for this parameter. Above this threshold, systems appear to lose the ability to sustain informational structure.
 
+Below the threshold, the system can reorganize information at a rate lower than the cost of maintaining coherence. Above the threshold, maintenance overtakes capacity, and the system collapses into a lower-dimensional attractor—whether that attractor is a neutron star core, a decohered quantum processor, or a failed plasma configuration. The fusion engine operates precisely in the subcritical band where informational pressure amplifies but does not diverge.
+
 For a quantum fusion engine, this threshold would define a natural operating envelope if this conjectured universality holds. The system must remain below $\eta_c$ to avoid collapse, yet close enough that informational pressure becomes significant. A practical band is:
 
 $$
@@ -132,7 +136,9 @@ A quantum control layer modulates erasures, redistributes entropy, and ensures t
 
 Entropy management happens by removing excess entropy at lower energetic cost—performing erasures at locations where the effective temperature is reduced. This prevents accumulation that would otherwise push the system toward the instability threshold.
 
-The cycle becomes self-sustaining. The plasma generates new microstates; the boundary filters them; the control layer sculpts the result. Net power arises from the informational work term layered atop traditional fusion output.
+The cycle becomes self-sustaining. The plasma continuously produces new microstates, the boundary continuously filters them, and the control layer continuously dissipates the forbidden ones at low temperature. This establishes a sustained informational flux, which, when constrained, becomes a source of usable pressure. Net power arises from the informational work term layered atop traditional fusion output.
+
+No laws are violated here. The engine does not "beat" thermodynamics—it obeys thermodynamics by paying Landauer cost for every bit erased. The innovation is the temperature differential: erasures performed in the cold control layer cost orders of magnitude less than the informational pressure generated in the hot core. This is simply a heat engine operating across an extreme thermal gradient.
 
 ### Why These Specific Geometries
 
