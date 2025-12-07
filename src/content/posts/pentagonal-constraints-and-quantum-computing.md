@@ -86,6 +86,8 @@ The constraint eigenvalue geometry identifies $\pi$, $\varphi$, and $10$ as univ
 
 Pentagonal geometry encodes all three sectors: the internal angle $3\pi/5$ involves $\pi$, the diagonal-to-side ratio is $\varphi$, and the $C_5$ symmetry combines with binary to form $C_{10}$. This makes pentagons a natural geometric realization of the decade sector—which is why Penrose tilings (pentagon-based aperiodic structures) exhibit the extended coherence predicted by the framework.
 
+These same pentagonal constraints apply to fusion plasma confinement, where boundary geometry shapes accessible microstates and creates informational pressure. See [Quantum Fusion Engines & Informational Power](/quantum-fusion-engines-and-informational-power) for how pentagonal dodecahedron reactor geometries exploit these principles.
+
 The same constraint geometry governs:
 
 - **Quantum transport**: Harper–Hofstadter spectra show decade partitions near $\alpha \approx 0.329$ and $0.671$

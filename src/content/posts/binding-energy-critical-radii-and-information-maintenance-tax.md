@@ -106,6 +106,8 @@ The numbers reveal the mechanism. Geometric compression $R_S/R$ increases by a f
 
 The dimensional factor $\varphi^{2^{d-2}}$ drops modestly from 2.61 to 2.15 as $d$ flows from 2.97 to 2.53—barely 20% variation. The bankruptcy factor $(1-\eta)^{-\rho^*}$ with exponent $\rho^* \approx 3.29$ generates the explosion: from 1.24 at stable masses to 229 near collapse, an 185-fold increase. At $\eta = 0.27$ (normal white dwarf), the factor equals 2.90. At $\eta = 0.97$ (imminent collapse), it reaches 229. This power-law divergence encodes the fundamental impossibility of maintaining organizational coherence as systems approach maximum dissipation.
 
+The same dissipation field dynamics that drive white dwarf collapse can be exploited in engineered systems operating safely below $\eta_c$. See [Quantum Fusion Engines & Informational Power](/quantum-fusion-engines-and-informational-power) for how controlled systems maintain $\eta \approx 0.15$ while extracting work from informational reorganization.
+
 ### Basin of Attraction Entrance
 
 The observational anomaly at $R/R_S = 10^3$ from analysis of 18,937 white dwarfs[^3] corresponds to $M \approx 1.17 M_{\odot}$ where $\eta = 0.46$ and $(1-\eta)^{-\rho^*} = 5.66$. This marks the boundary where thermodynamic bankruptcy becomes inevitable rather than merely possible—the entrance to the basin of attraction toward organizational collapse.

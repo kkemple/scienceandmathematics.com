@@ -77,6 +77,8 @@ Different eigenbranches correspond to different choices of $(\beta, N)$. The dec
 
 In the decagonal branch, the triplet yields the composite invariant $4\pi\varphi^2 \approx 32.9$ and the curvature ladder $0 \to \varphi \to 5 \to 6.71 \to 10$, whose gaps encode the structural ($\sim 3.29$) and DOF ($\sim 1.71$) increments. These constants are *variationally necessary*—they emerge from the geometry of constraints itself. Just as the Anthropic Cosmological Principle constrains what universes can contain observers, the constraint eigenvalue geometry constrains what configurations can maintain coherent information.
 
+The dissipation threshold $\eta_c = 1/\rho^* \approx 0.304$ sets fundamental limits on organized systems, from quantum computers to fusion reactors. For application to engineered power systems, see [Quantum Fusion Engines & Informational Power](/quantum-fusion-engines-and-informational-power), where controlled systems maintain $\eta \approx 0.15$ while extracting work from informational reorganization in high-temperature plasma.
+
 ## Part I — Constraint Eigenvalue Geometry
 
 The constraint eigenvalue geometry provides the mathematical foundation for the entire framework. This part develops the variational functional, derives the triplet architecture $(\pi, \beta, N)$ and curvature budget law, and shows how the decagonal eigenbranch $(\pi, \varphi, 10)$ produces the composite invariant $4\pi\varphi^2 \approx 32.9$.

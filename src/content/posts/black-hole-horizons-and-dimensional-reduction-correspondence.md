@@ -187,6 +187,8 @@ The dual-sector structure with $N_{max} = 2N_{BH}$ resolves the information para
 
 This framework connects microscopic quantum information principles to macroscopic gravitational phenomena. The [Planck scale sets all dimensional constants](/computational-spacetime-and-the-rayleigh-jeans-resolution) within the [6D voxel lattice computational substrate](/what-if-spacetime-isnt-so-continuous). The factor of two emerges from chiral structure. The winding number quantization follows from topology. The mathematics flows from demanding consistency between quantum mechanics, general relativity, and thermodynamics at horizons—just [constraints doing what constraints do](/information-field-theory-from-constraint-to-cosmos) when you push them to extremes.
 
+The dual chiral structure and holographic constraints that govern black hole horizons also determine information capacity in engineered high-energy systems. See [Quantum Fusion Engines & Informational Power](/quantum-fusion-engines-and-informational-power) for how boundary geometry and information processing limits apply to fusion plasma confinement.
+
 [^1]: Isi, M., Farr, W. M., Giesler, M., Scheel, M. A., & Teukolsky, S. A. (2021). Testing the No-Hair Theorem with GW150914. *Physical Review Letters*, 127(1), 011103.
 
 [^2]: Bekenstein, J. D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8), 2333-2346.

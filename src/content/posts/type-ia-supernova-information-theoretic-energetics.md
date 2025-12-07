@@ -150,6 +150,8 @@ Three numbers determine the result: Chandrasekhar mass ($1.4 M_{\odot}$), white 
 
 Whether this represents the "true" mechanism or simply a different mathematical perspective on established physics remains open. The correspondence is suggestive. The framework provides an alternative calculational approach that may offer insights into Type Ia diversity and the role of degeneracy pressure in setting explosion energetics.
 
+This thermodynamic interpretation suggests practical applications in engineered systems. See [Quantum Fusion Engines & Informational Power](/quantum-fusion-engines-and-informational-power) for how these principles can be exploited in controlled fusion reactors operating within the same informational thermodynamics framework.
+
 [^1]: Pathria, R. K., & Beale, P. D. (2011). *Statistical Mechanics* (3rd ed.). Academic Press.
 
 [^2]: Chandrasekhar, S. (1931). The Maximum Mass of Ideal White Dwarfs. *Astrophysical Journal*, 74, 81-82.

@@ -80,6 +80,8 @@ These three sectors—$\pi$, $\varphi$, $10$—operate simultaneously in Harper�
 
 The framework generates testable predictions: superconducting flux qubits at $\Phi/\Phi_0 = \varphi^{-1}$ should exhibit enhanced coherence times relative to rational flux values; prime-spaced resonator arrays should demonstrate reduced mode coupling; critical exponents near localization transitions should approach $\nu \approx 0.304$. These emerge from the same variational principle governing white dwarf collapse, biological metabolic limits, and civilizational coordination thresholds—the unavoidable geometry of constrained information flow.
 
+The same $\varphi$-ratio principles that optimize quantum transport apply to fusion reactor control systems, where golden-ratio pulse timing and boundary spacing minimize resonances. See [Quantum Fusion Engines & Informational Power](/quantum-fusion-engines-and-informational-power) for application to high-temperature plasma systems.
+
 [^1]: Hardy, G. H., & Ramanujan, S. (1918). Asymptotic Formulæ in Combinatory Analysis. *Proceedings of the London Mathematical Society*, s2-17(1), 75-115.
 
 [^2]: Hurwitz, A. (1891). Über die angenäherte Darstellung der Irrationalzahlen durch rationale Brüche. *Mathematische Annalen*, 39(2), 279-284.
