@@ -16,6 +16,8 @@ This connects all three eigenvalue sectors:
 
 Recent experiments with exciton–polariton condensates on Penrose tiling lattices demonstrate this directly—the system exhibits $C_{10}$ Bragg spectra, extended coherence over $100\times$ the healing length, and phase synchronization precisely when the geometry aligns with the constraint manifold. Pentagonal order works for quantum coherence because it minimizes the curvature costs encoded in the constraint functional.
 
+Recent X-ray tomography work provides a complementary demonstration: decagonal quasicrystals growing around obstacles maintain long-range order through phason-mediated rearrangements.[^3] The phasons—degrees of freedom unique to aperiodic structures—redistribute curvature to boundaries, exactly the mechanism the constraint eigenvalue framework predicts. The same principle operates in quantum systems: pentagonal geometry creates corrective modes that absorb perturbations without propagating defects.
+
 ## Fusion Algebra Forces φ
 
 Consider Fibonacci anyons—quasiparticles with non-Abelian exchange statistics satisfying the fusion rule $\tau \times \tau = \mathbb{1} + \tau$. Fusing two τ particles yields the vacuum $\mathbb{1}$ or another τ. This self-referential structure creates an algebraic constraint. The quantum dimension must satisfy $d_\tau \times d_\tau = 1 + d_\tau$ with $d_{\mathbb{1}} = 1$. Rearranging,
@@ -56,7 +58,7 @@ The constraint eigenvalue framework suggests design principles for quantum archi
 
 **Frequency allocation**: $\varphi$-based frequency detuning maintains irrational ratios between all qubit pairs. Unlike uniform or rational spacing, irrational ratios prevent any harmonic from coinciding exactly—the same principle that makes Fibonacci pulse sequences effective for temporal protection.
 
-**Error correction**: Prime code distances (5, 7, 11, 13) avoid harmonic relationships with gate durations, potentially reducing systematic error accumulation compared to composite distances. Recent qLDPC codes achieve significant overhead reduction[^3], and prime structure may provide additional benefits through resonance elimination.
+**Error correction**: Prime code distances (5, 7, 11, 13) avoid harmonic relationships with gate durations, potentially reducing systematic error accumulation compared to composite distances. Recent qLDPC codes achieve significant overhead reduction[^4], and prime structure may provide additional benefits through resonance elimination.
 
 ## Organizational Overhead and Coherence
 
@@ -64,7 +66,7 @@ The dissipation field $\eta$ measures the fraction of energy devoted to maintain
 
 For quantum systems, the participation ratio $P$—fraction of field energy in lossy materials—contributes to $\eta$ through $\eta \propto P \times \tan\delta$ where $\tan\delta$ quantifies substrate loss. For tantalum qubits on sapphire, the substrate loss $\tan\delta = 1.9 \times 10^{-8}$ permits high participation. Metal-air interfaces have $\tan\delta \sim 10^{-3}$, requiring surface participation $P_{\text{MA}} < 3 \times 10^{-4}$. This drives geometric optimization—trenching removes substrate from critical regions, suspended structures create air gaps, careful metallization minimizes interface area.
 
-The framework predicts that coherence should improve dramatically as $\eta$ decreases below the critical threshold, with the correlation-length exponent $\nu = 1/\rho^* \approx 0.304$ governing how rapidly coherence diverges. Current best tantalum qubits achieve $T_1 \approx 500$ microseconds[^4]. Further optimization targeting lower participation ratios should yield significant coherence improvements as the system moves further from the critical threshold.
+The framework predicts that coherence should improve dramatically as $\eta$ decreases below the critical threshold, with the correlation-length exponent $\nu = 1/\rho^* \approx 0.304$ governing how rapidly coherence diverges. Current best tantalum qubits achieve $T_1 \approx 500$ microseconds[^5]. Further optimization targeting lower participation ratios should yield significant coherence improvements as the system moves further from the critical threshold.
 
 ## Design Principles from the Framework
 
@@ -76,7 +78,7 @@ The constraint eigenvalue geometry suggests several design principles for quantu
 - **Prime code distances** avoid harmonic relationships with gate durations
 - **Low participation ratios** keep organizational overhead below the critical threshold $\eta_c \approx 0.304$
 
-Current superconducting technology—tantalum Josephson junctions on high-purity sapphire[^4], autonomous quantum refrigerators[^5], cryo-CMOS control electronics[^6]—provides the substrate for testing these principles. Multi-chip integration with photonic interconnects[^7] enables scaling.
+Current superconducting technology—tantalum Josephson junctions on high-purity sapphire[^5], autonomous quantum refrigerators[^6], cryo-CMOS control electronics[^7]—provides the substrate for testing these principles. Multi-chip integration with photonic interconnects[^8] enables scaling.
 
 The framework generates testable predictions: Fibonacci pulse sequences should outperform periodic sequences (confirmed by Dumitrescu et al.[^2]); $\varphi$-ratio frequency spacing should reduce collision probability compared to uniform spacing; prime code distances should show reduced systematic error accumulation compared to composite distances. Each prediction follows from the curvature-minimization principle underlying the constraint eigenvalue geometry.
 
@@ -95,11 +97,11 @@ The same constraint geometry governs:
 - **Dissipation hierarchies**: the critical threshold $\eta_c = 1/\rho^* \approx 0.304$ marks where coherence fails
 - **Dimensional reduction**: effective dimension flows toward 2 near gravitational horizons, with scale factor $\sqrt{\varphi}$
 
-The Fibonacci anyon experiments, Penrose polariton quasicrystals, and Harper–Hofstadter transport all exhibit the same $\pi$–$\varphi$–$10$ eigenvalue skeleton despite radically different physical substrates. Quantum computing provides laboratory access to these constraints at accessible scales.
+The Fibonacci anyon experiments, Penrose polariton quasicrystals, and Harper–Hofstadter transport all exhibit the same $\pi$–$\varphi$–$10$ eigenvalue skeleton despite radically different physical substrates. In all cases, phason degrees of freedom—the recursive rearrangement modes enabled by φ-sector geometry—allow local adjustments that preserve global order.[^3] X-ray tomography shows decagonal quasicrystals maintaining coherence while engulfing obstacles by redistributing strain through phason channels rather than nucleating defects. Quantum computing provides laboratory access to these constraints at accessible scales.
 
 ## Empirical Convergence
 
-Quantum engineers building better qubits have discovered these structures empirically. IBM optimized connectivity patterns measuring crosstalk, finding that heavy-hexagonal topology minimizes frequency collisions[^8]. Dumitrescu's group[^2] tried different temporal sequences and found Fibonacci optimal through measurement—extending coherence 3.7× over standard protocols. Multiple groups measured Fibonacci anyon dimensions[^1][^9], confirming $d_\tau \approx \varphi$ from fusion algebra.
+Quantum engineers building better qubits have discovered these structures empirically. IBM optimized connectivity patterns measuring crosstalk, finding that heavy-hexagonal topology minimizes frequency collisions[^9]. Dumitrescu's group[^2] tried different temporal sequences and found Fibonacci optimal through measurement—extending coherence 3.7× over standard protocols. Multiple groups measured Fibonacci anyon dimensions[^1][^10], confirming $d_\tau \approx \varphi$ from fusion algebra.
 
 The convergence is striking: researchers solving practical decoherence problems, without consulting the constraint eigenvalue framework, consistently discover structures involving $\varphi$ and prime numbers. The Fibonacci sequence eliminates periodic resonances through quasi-periodicity. Prime qubit counts avoid divisor harmonics. $\varphi$-ratio spacing maintains maximum frequency separation. Each optimization, pursued independently for engineering reasons, implements the same curvature-minimization principle.
 
@@ -123,7 +125,7 @@ These tests provide opportunities to validate or refine the framework. The conve
 
 ## Why Geometric Frustration Helps
 
-Pentagon geometric frustration—inability to tile 3D space periodically—becomes advantageous for quantum information. Frustrated geometries prevent systems from settling into static ground states. Energy landscapes lack global minima, maintaining exploration of configuration space. This property makes spin ice materials and geometrically frustrated magnets exhibit exotic physics[^10].
+Pentagon geometric frustration—inability to tile 3D space periodically—becomes advantageous for quantum information. Frustrated geometries prevent systems from settling into static ground states. Energy landscapes lack global minima, maintaining exploration of configuration space. This property makes spin ice materials and geometrically frustrated magnets exhibit exotic physics[^11].
 
 For quantum computing, frustration prevents frequency assignments from crystallizing into regular patterns vulnerable to systematic errors. $\varphi$-spaced frequencies, Fibonacci pulse sequences, and aperiodic qubit arrangements all maintain geometric frustration, ensuring no periodic resonances develop. Information remains protected through continuous redistribution across non-commensurable channels.
 
@@ -145,18 +147,20 @@ The convergence of empirical optimizations toward $\varphi$-based structures—d
 
 [^2]: Dumitrescu, P. T., Vasseur, R., & Potter, A. C. (2022). Dynamically enriched topological orders in driven two-dimensional systems. *Nature Physics*, 18(8), 966-972.
 
-[^3]: Acharya, R., et al. (2024). Quantum error correction below the surface code threshold. *Nature*, 614, 676-681.
+[^3]: Franke, L., et al. (2025). Defect-Free Growth of Decagonal Quasicrystals around Obstacles. *Physical Review Letters*, 135, 166203.
 
-[^4]: Place, A. P. M., et al. (2021). New material platform for superconducting transmon qubits with coherence times exceeding 0.3 milliseconds. *Nature Communications*, 12, 1779.
+[^4]: Acharya, R., et al. (2024). Quantum error correction below the surface code threshold. *Nature*, 614, 676-681.
 
-[^5]: Guéneau, M., et al. (2024). Thermally driven quantum refrigerator autonomously resets a superconducting qubit. *Nature Physics*, 21, 389-393.
+[^5]: Place, A. P. M., et al. (2021). New material platform for superconducting transmon qubits with coherence times exceeding 0.3 milliseconds. *Nature Communications*, 12, 1779.
 
-[^6]: Krinner, S., et al. (2024). CMOS manufacturing of superconducting qubits on 300 mm wafers. *Nature*, 629, 328-333.
+[^6]: Guéneau, M., et al. (2024). Thermally driven quantum refrigerator autonomously resets a superconducting qubit. *Nature Physics*, 21, 389-393.
 
-[^7]: Acharya, R., et al. (2025). Integration of through-sapphire substrate machining with superconducting quantum processors. *Advanced Materials*, 37, 2411780.
+[^7]: Krinner, S., et al. (2024). CMOS manufacturing of superconducting qubits on 300 mm wafers. *Nature*, 629, 328-333.
 
-[^8]: Corcoles, A. D., et al. (2021). Exploiting dynamic quantum circuits in a quantum algorithm with superconducting qubits. *Physical Review Letters*, 127(10), 100501.
+[^8]: Acharya, R., et al. (2025). Integration of through-sapphire substrate machining with superconducting quantum processors. *Advanced Materials*, 37, 2411780.
 
-[^9]: Kim, Y., Erlandson, A., Perdue, G., Landsman, K. A., & Lensky, Y. D. (2025). Non-Abelian anyon braiding on a quantum processor. UC Santa Barbara Quantum Foundry.
+[^9]: Corcoles, A. D., et al. (2021). Exploiting dynamic quantum circuits in a quantum algorithm with superconducting qubits. *Physical Review Letters*, 127(10), 100501.
 
-[^10]: Bramwell, S. T., & Gingras, M. J. P. (2001). Spin ice state in frustrated magnetic pyrochlore materials. *Science*, 294(5546), 1495-1501.
+[^10]: Kim, Y., Erlandson, A., Perdue, G., Landsman, K. A., & Lensky, Y. D. (2025). Non-Abelian anyon braiding on a quantum processor. UC Santa Barbara Quantum Foundry.
+
+[^11]: Bramwell, S. T., & Gingras, M. J. P. (2001). Spin ice state in frustrated magnetic pyrochlore materials. *Science*, 294(5546), 1495-1501.

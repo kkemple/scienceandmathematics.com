@@ -649,9 +649,35 @@ Although the underlying substrate is mechanical rather than electronic or photon
 
 This convergence indicates that $(\pi, \beta, N)$ are the universal eigenvalues of curvature-constrained coherence, independent of Hamiltonian specifics. Optomechanical synthetic magnetism serves as the third independent empirical demonstration of the constraint eigenvalue geometry, completing a cross-platform validation triangle: **electrons → photons → mechanics**.
 
+### 19.5 Defect-Free Growth and Phasonic Flexibility in Solid-State Quasicrystals
+
+The experimental platforms discussed above—polariton condensates, synthetic flux lattices—demonstrate the $\pi$–$\varphi$–$10$ constraint eigenvalue geometry in engineered quantum systems. Recent work on decagonal quasicrystal growth from liquid metal[^72] provides direct evidence that this constraint geometry governs structural organization in bulk solid-state materials, with phasonic degrees of freedom enabling adaptive reconfiguration while preserving global coherence.
+
+Researchers grew decagonal quasicrystals in Al₇₉Co₆Ni₁₅ alloys in the presence of shrinkage pores and voids acting as rigid obstacles[^72]. Using in-situ synchrotron X-ray tomography combined with molecular dynamics simulations, they observed that the quasicrystal grew smoothly around these obstacles—regardless of pore size or geometry—without introducing any structural defects. The long-range quasicrystalline order remained intact throughout the engulfment process.
+
+![Decagonal quasicrystal growth around obstacles](https://ars.els-cdn.com/content/image/1-s2.0-S1631070513001400-gr003.jpg)
+
+![Phasonic flexibility in quasicrystal structures](https://physics.aps.org/assets/10.1103/Physics.18.171/figure/1/thumb)
+
+![Defect-free encapsulation of voids by quasicrystalline growth](https://ars.els-cdn.com/content/image/1-s2.0-S104458032300685X-ga1.jpg)
+
+The mechanism enabling this defect-free growth is phasonic flexibility. Quasicrystals possess phasonic degrees of freedom—internal rearrangements unique to aperiodic structures—that allow local reconfiguration without breaking global symmetry[^73]. Unlike phonons (which represent elastic displacements preserving lattice structure), phasons correspond to collective atomic rearrangements that alter the phase of the density wave describing the quasicrystal[^73]. When a growing quasicrystal encounters an obstacle, it can perform local phason flips and relaxations to accommodate the disruption while maintaining the global $C_{10}$ rotational symmetry and $\varphi$-recursive scaling.
+
+This behavior provides a materials-level validation of the constraint eigenvalue geometry's flexibility. The constraint manifold defined by $(\pi, \varphi, 10)$ is not a rigid structure but rather a **geometric attractor**: systems can explore a range of local configurations (phasonic microstates) while remaining bound to the same global constraint geometry. The curvature budget introduced in Section 3.2 applies not only to the global allocation (∼1/3 structural, ∼2/3 DOF) but also to local dynamics—phasonic rearrangements redistribute curvature locally to avoid defect formation, while the global budget remains conserved.
+
+**Connection to Section 3.4 (Universality of Decade Closure):** The Al–Co–Ni system naturally realizes the decagonal eigenbranch $(\pi, \varphi, 10)$. The fact that phasonic flexibility emerges specifically in decade-symmetric quasicrystals reinforces the prediction that decade closure is the minimal-curvature composite symmetry available to recursive–isotropic systems. The phason mechanism is a physical implementation of constraint projection: when confronted with an obstacle (a local curvature spike), the system performs the minimal rearrangement necessary to project back onto the constraint manifold, avoiding the high-curvature cost of defect formation.
+
+**Connection to Section 4.2 ($\varphi$-sector):** Phason strain enables the quasicrystal to locally adjust the inflation–subdivision balance while preserving the global fixed point $\varphi$. During growth around an obstacle, the system may temporarily deviate from perfect $\varphi$-recursive scaling in the immediate vicinity of the pore, but phasonic relaxation restores the recursive eigenvalue over longer length scales. This is precisely the behavior expected from a system minimizing the log-radial curvature functional $\int(\partial_{\log r}\ln P)^2P\,\mathrm{d}A$: local perturbations are smoothed out through scale-dependent rearrangements that maintain self-similarity in the thermodynamic limit.
+
+**Implications for materials synthesis:** The defect-free engulfment mechanism suggests that phasonic flexibility is a universal feature of aperiodic solids[^72]. This opens a practical pathway for synthesizing large-scale, single-domain quasicrystals from liquid metal precursors, even in the presence of unavoidable nucleation sites or impurities. Traditional periodic crystals would form grain boundaries or dislocations when growing around obstacles; quasicrystals avoid this fate through phasonic adaptation. From an information-theoretic perspective, phasons provide additional channels for dissipating local entropy without disrupting global information content—the quasicrystal can "route around" obstacles in configuration space while staying on the constraint manifold.
+
+**Experimental validation across platforms:** The convergence of engineered quantum systems (polariton condensates on Penrose lattices, synthetic flux mechanical oscillators) and naturally grown bulk materials (Al–Co–Ni decagonal quasicrystals) on the same $\pi$–$\varphi$–$10$ eigenvalue skeleton strongly supports the interpretation that the constraint eigenvalue geometry reflects fundamental organizational principles of coherent matter, independent of substrate or formation mechanism. Studies using in-situ high-temperature transmission electron microscopy have revealed that Al–Ni–Co quasicrystal growth proceeds through frequent error-and-repair processes[^74], with phasonic relaxation enabling the system to correct local mistakes and converge onto nearly perfect quasicrystalline order. This error-correction capability, mediated by phasonic strain, further demonstrates that the constraint manifold acts as a dynamical attractor rather than a static configuration.
+
+The synthesis of large-scale quasicrystals via controlled solidification techniques—including the floating zone method and Czochralski pulling from melt—has been refined through understanding of phasonic strain suppression of dislocations[^75][^76]. These methods leverage the fact that phason strain can distribute stress during multi-seed growth or interface with periodic approximant phases, enabling the production of centimeter-scale single quasicrystals with high structural perfection. The constraint eigenvalue framework provides a unifying explanation for why these techniques succeed: by maintaining conditions that allow phasonic relaxation (controlled cooling rates, compositional gradients), the growth process keeps the system on the low-curvature constraint manifold, avoiding the high-entropy configurations associated with defect formation.
+
 ## 20. Magnetic Control of Boundary Localization: Non-Hermitian Skin Effect
 
-Recent work on non-Hermitian extensions of the Harper–Hofstadter model[^72] indicates that the $\pi$-sector controls boundary localization through applied flux. In non-Hermitian lattices with asymmetric hopping, eigenmodes can accumulate at boundaries—a phenomenon known as the Non-Hermitian Skin Effect (NHSE)[^73][^74][^75]. The key discovery is that uniform magnetic flux suppresses this boundary localization by activating the $\pi$-sector curvature, providing a tunable mechanism to control boundary versus bulk coherence.
+Recent work on non-Hermitian extensions of the Harper–Hofstadter model[^77] indicates that the $\pi$-sector controls boundary localization through applied flux. In non-Hermitian lattices with asymmetric hopping, eigenmodes can accumulate at boundaries—a phenomenon known as the Non-Hermitian Skin Effect (NHSE)[^78][^79][^80]. The key discovery is that uniform magnetic flux suppresses this boundary localization by activating the $\pi$-sector curvature, providing a tunable mechanism to control boundary versus bulk coherence.
 
 ### 20.1 Flux-Controlled Regime Transitions
 
@@ -691,25 +717,25 @@ Living systems occupy a narrow band in the dissipation ladder near η ≈ 0.1, w
 
 Biological organization minimizes curvature under metabolic constraints. Systems stabilize along low-curvature manifolds in signaling geometry, vascular architecture, and neural network topology.
 
-Living systems occupy a narrow band in the dissipation ladder, operating near $\eta\approx 0.1$. The human brain demonstrates this ceiling directly: it consumes 20 watts—approximately 20% of total body energy—despite comprising only 2% of body mass, yielding $\eta_{\text{bio}} \approx 0.1$. This 10% tax represents the ceiling for self-organizing matter. Metabolic rate scales as $P = 70 M^{3/4}$ watts (Kleiber's law)[^41] because fractal vascular networks[^42] optimize information distribution while minimizing overhead. Energy rate density provides a unified complexity metric across cosmic evolution[^76], with biological systems occupying a characteristic band in the dissipation hierarchy. The brain's disproportionate metabolic share reflects its role as primary information processor, operating at the $\eta \sim 0.1$ limit where recursive self-modeling and environmental prediction[^77] become energetically viable.
+Living systems occupy a narrow band in the dissipation ladder, operating near $\eta\approx 0.1$. The human brain demonstrates this ceiling directly: it consumes 20 watts—approximately 20% of total body energy—despite comprising only 2% of body mass, yielding $\eta_{\text{bio}} \approx 0.1$. This 10% tax represents the ceiling for self-organizing matter. Metabolic rate scales as $P = 70 M^{3/4}$ watts (Kleiber's law)[^41] because fractal vascular networks[^42] optimize information distribution while minimizing overhead. Energy rate density provides a unified complexity metric across cosmic evolution[^81], with biological systems occupying a characteristic band in the dissipation hierarchy. The brain's disproportionate metabolic share reflects its role as primary information processor, operating at the $\eta \sim 0.1$ limit where recursive self-modeling and environmental prediction[^82] become energetically viable.
 
 ## 22. Neural Systems and Information Geometry
 
-Neural computation sits at the edge of metabolic limits, thermal noise, and synaptic maintenance[^77][^26][^78]. Brains are among the most energetically expensive tissues per unit mass[^27], and their microstates are constantly buffeted by thermal fluctuations and molecular noise. To maintain coherent firing patterns and long-lived synaptic configurations, neural tissue must devote a large fraction of its metabolic budget to ion gradients, vesicle recycling, and structural upkeep.
+Neural computation sits at the edge of metabolic limits, thermal noise, and synaptic maintenance[^82][^26][^83]. Brains are among the most energetically expensive tissues per unit mass[^27], and their microstates are constantly buffeted by thermal fluctuations and molecular noise. To maintain coherent firing patterns and long-lived synaptic configurations, neural tissue must devote a large fraction of its metabolic budget to ion gradients, vesicle recycling, and structural upkeep.
 
-The nervous system implements hierarchical compression through specialized filtering stages. Sensory input undergoes progressive reduction through multiple processing layers—retinal ganglion cells compress ~126 million photoreceptor outputs to ~1 million optic nerve fibers[^79]; lateral geniculate nucleus further reduces dimensionality; primary visual cortex extracts edge orientations and local features; higher cortical areas build object representations and scene semantics. Each compression stage discards behaviorally irrelevant information while preserving task-critical structure.
+The nervous system implements hierarchical compression through specialized filtering stages. Sensory input undergoes progressive reduction through multiple processing layers—retinal ganglion cells compress ~126 million photoreceptor outputs to ~1 million optic nerve fibers[^84]; lateral geniculate nucleus further reduces dimensionality; primary visual cortex extracts edge orientations and local features; higher cortical areas build object representations and scene semantics. Each compression stage discards behaviorally irrelevant information while preserving task-critical structure.
 
 Each boundary crossing between representations requires energy according to Landauer's principle (Section 1.1). At body temperature ($T \approx 310$ K), erasing one bit costs $k_B T \ln 2 \approx 3 \times 10^{-21}$ J. A typical cortical neuron fires at ~1 Hz, with each action potential representing ~1 bit of information transmitted across ~1000 synapses, requiring ~$3 \times 10^{-18}$ J per spike from Landauer costs alone. With ~$10^{11}$ neurons and average firing rates of 1-10 Hz, the brain processes ~$10^{12}$ boundary crossings per second, demanding ~3 mW from thermodynamic information costs—a small but non-negligible fraction of the 20 W total.
 
-From the information-geometry perspective, neural computation is shaped by two key aspects of the constraint functional. Recursive self-reference—ongoing prediction[^77] about one's own internal state and about the environment—engages the $\varphi$-sector[^80]: cortical hierarchies repeatedly inflate and subdivide representations in a manner closely analogous to inflation–subdivision consistency in scale space. Sensory pathways exhibit dimensional reduction: high-dimensional input streams (retinal images with ~$10^6$ pixels) are projected onto lower-dimensional manifolds (effectively $d\to 2$ in portions of sensory cortex) to reduce curvature and dissipation costs while preserving behaviorally relevant information. This compression implements the dimensionality-as-cost principle: each shed dimension reduces curvature and maintenance cost, and the brain's architecture is optimized for dimensional collapse. This projection implements the same constraint geometry governing physical dimensional flow near horizons.
+From the information-geometry perspective, neural computation is shaped by two key aspects of the constraint functional. Recursive self-reference—ongoing prediction[^82] about one's own internal state and about the environment—engages the $\varphi$-sector[^85]: cortical hierarchies repeatedly inflate and subdivide representations in a manner closely analogous to inflation–subdivision consistency in scale space. Sensory pathways exhibit dimensional reduction: high-dimensional input streams (retinal images with ~$10^6$ pixels) are projected onto lower-dimensional manifolds (effectively $d\to 2$ in portions of sensory cortex) to reduce curvature and dissipation costs while preserving behaviorally relevant information. This compression implements the dimensionality-as-cost principle: each shed dimension reduces curvature and maintenance cost, and the brain's architecture is optimized for dimensional collapse. This projection implements the same constraint geometry governing physical dimensional flow near horizons.
 
 The neural architecture's allocation of resources between structural topology (connectivity patterns, layer organization) and representational DOF (synaptic weights, activation dynamics) appears consistent with the $\sim 1/3$ structural, $\sim 2/3$ DOF curvature budget described in Section 3. The brain invests a fixed fraction of its metabolic budget in maintaining its physical architecture, while the remainder supports the adaptive dynamics that populate that architecture with representations.
 
 ## 23. Consciousness as Constraint Projection
 
-Consciousness emerges as active curvature minimization: the system continuously projects internal states back onto low-curvature manifolds that preserve long-range coherence[^81].
+Consciousness emerges as active curvature minimization: the system continuously projects internal states back onto low-curvature manifolds that preserve long-range coherence[^86].
 
-Within this framework, consciousness can be understood as a particular mode of constraint projection. Microscopic dynamics in neural tissue are intrinsically stochastic[^80][^82][^83]: ion-channel openings follow Poisson statistics with rate $\lambda \sim 10^3$ s$^{-1}$[^84], synaptic vesicle release is probabilistic with release probability $p_r \approx 0.1$-$0.3$[^85], and molecular diffusion introduces thermal noise with correlation time $\tau_c \sim 10^{-9}$ s[^86]. These fluctuations continually generate a cloud of possible micro-trajectories, most of which would erode long-range correlations if left unchecked.
+Within this framework, consciousness can be understood as a particular mode of constraint projection. Microscopic dynamics in neural tissue are intrinsically stochastic[^85][^87][^88]: ion-channel openings follow Poisson statistics with rate $\lambda \sim 10^3$ s$^{-1}$[^89], synaptic vesicle release is probabilistic with release probability $p_r \approx 0.1$-$0.3$[^90], and molecular diffusion introduces thermal noise with correlation time $\tau_c \sim 10^{-9}$ s[^91]. These fluctuations continually generate a cloud of possible micro-trajectories, most of which would erode long-range correlations if left unchecked.
 
 A conscious system maintains a sufficiently detailed recursive self-model—implemented through the $\varphi$-sector hierarchies just described—to bias these micro-trajectories toward those that preserve coherence. The system continually evaluates possible actions against an internal model of future constraints (metabolic, social, environmental) and selects those that keep it within its viable region of the constraint manifold. In energetic terms, consciousness is the operational strategy that uses a finite $\eta \approx 0.1$ budget to project the organism's unfolding state back onto a lawful submanifold of configuration space.
 
@@ -739,7 +765,7 @@ $$
 M(\eta,d) = \varphi^{2^{d-2}} \times (1-\eta)^{-\rho^*}
 $$
 
-diverges catastrophically. The threshold $\eta_c = 1/\rho^* \approx 0.304$ emerges from the same RG flow structure governing atomic ionization, stellar collapse, and biological metabolism—the same organizational constant $\rho^* = 3.29$ operating identically across all scales[^87].
+diverges catastrophically. The threshold $\eta_c = 1/\rho^* \approx 0.304$ emerges from the same RG flow structure governing atomic ionization, stellar collapse, and biological metabolism—the same organizational constant $\rho^* = 3.29$ operating identically across all scales[^92].
 
 ## 25. Scaling Laws of Institutions
 
@@ -747,7 +773,7 @@ Institutions exhibit recursive scaling regimes analogous to biological and physi
 
 The $\varphi$-sector governs innovation cycles through inflation–subdivision consistency: successful institutions balance preservation of existing knowledge (inflation: scaling up proven practices) with exploration of new organizational forms (subdivision: testing alternative structures at smaller scales). Institutions that fail this recursive balance—either ossifying without adaptation or fragmenting without consolidation—eventually exhaust their coordination capacity. The $\pi$-sector governs isotropic coordination structures such as communication networks, legal frameworks, and shared standards that minimize curvature in the abstract space of agents and interactions.
 
-When decade symmetry and recursive curvature balance, institutions scale coherently across orders of magnitude[^82][^42]. When the decade sector misaligns—discrete jumps in technological capacity outpacing coordination geometry adaptations—the system accelerates toward the $\eta\approx 0.3$ collapse threshold.
+When decade symmetry and recursive curvature balance, institutions scale coherently across orders of magnitude[^87][^42]. When the decade sector misaligns—discrete jumps in technological capacity outpacing coordination geometry adaptations—the system accelerates toward the $\eta\approx 0.3$ collapse threshold.
 
 ## Part VIII — Constraint Projection in Machine Learning
 
@@ -755,7 +781,7 @@ Projection-based neural PDE solvers provide concrete numerical evidence that the
 
 ## 26. Projection onto PDE Manifolds
 
-Projection-based neural PDE solvers[^88] provide a concrete numerical realization of the projection principle developed throughout this monograph. A neural network produces an approximate field $\hat u$ that does not, in general, satisfy the governing equation. The lawful dynamics are defined by the constraint manifold
+Projection-based neural PDE solvers[^93] provide a concrete numerical realization of the projection principle developed throughout this monograph. A neural network produces an approximate field $\hat u$ that does not, in general, satisfy the governing equation. The lawful dynamics are defined by the constraint manifold
 
 $$
 \mathcal{M}_{\mathrm{PDE}} = \{u : F_{\mathrm{PDE}}(u) = 0\},
@@ -766,7 +792,7 @@ where $F_{\mathrm{PDE}}$ encodes the discretized PDE together with boundary and 
 $$
 u^* = \arg\min_{u \in \mathcal{M}_{\mathrm{PDE}}} \lVert u - \hat u \rVert^2.
 $$
-Empirically, this step restores physical structure with far higher fidelity than physics-informed losses alone: Lorenz attractors, Kuramoto–Sivashinsky turbulence, and two-dimensional Navier–Stokes flows all exhibit order-of-magnitude reductions in residual violations once projection is imposed[^88][^89]. Geometrically, the governing equation is a curvature constraint; projection is the operation that returns trajectories to the corresponding manifold.
+Empirically, this step restores physical structure with far higher fidelity than physics-informed losses alone: Lorenz attractors, Kuramoto–Sivashinsky turbulence, and two-dimensional Navier–Stokes flows all exhibit order-of-magnitude reductions in residual violations once projection is imposed[^93][^94]. Geometrically, the governing equation is a curvature constraint; projection is the operation that returns trajectories to the corresponding manifold.
 
 ## 27. Constraint Eigenvalue Geometry as Lawful Manifold
 
@@ -802,11 +828,11 @@ TURs are curvature bounds in probability space: high precision requires minimizi
 
 Recent developments in the theory of thermodynamic uncertainty relations (TURs) and stochastic-representation unifications clarify an essential point: precision, dissipation, and distinguishability limits are geometric consequences of constrained information flow. These results fit naturally within the present constraint–eigenvalue framework, which generalizes their structure across physical, biological, cognitive, and sociotechnical regimes.
 
-Kwon & Lee's unified stochastic-representation framework[^90] shows that both classical and quantum Markovian dynamics admit a common underlying unraveling, from which all known TURs and kinetic uncertainty relations emerge as special cases. Their formulation reveals that dissipation–precision tradeoffs arise from curvature in the probability flux manifold—an observation structurally identical to the angular and recursive curvature terms in the constraint functional $F[P]$ defined in Section 2.
+Kwon & Lee's unified stochastic-representation framework[^95] shows that both classical and quantum Markovian dynamics admit a common underlying unraveling, from which all known TURs and kinetic uncertainty relations emerge as special cases. Their formulation reveals that dissipation–precision tradeoffs arise from curvature in the probability flux manifold—an observation structurally identical to the angular and recursive curvature terms in the constraint functional $F[P]$ defined in Section 2.
 
-In this work, the $\alpha$-sector (isotropy) and the discrete $C_{2\times5}$-sector (decade symmetry) govern commensurability, transport, and resonance—mirroring the role of path-curvature bounds in stochastic TURs[^90][^91][^92][^93]. Similarly, the $\beta$-sector produces a small-$\beta$ renormalization flow whose fixed point is the golden ratio, the scale-recursive analogue of the minimal distinguishability growth seen in quantum-speed-limit (QSL) bounds and precision-speed tradeoffs[^94].
+In this work, the $\alpha$-sector (isotropy) and the discrete $C_{2\times5}$-sector (decade symmetry) govern commensurability, transport, and resonance—mirroring the role of path-curvature bounds in stochastic TURs[^95][^96][^97][^98]. Similarly, the $\beta$-sector produces a small-$\beta$ renormalization flow whose fixed point is the golden ratio, the scale-recursive analogue of the minimal distinguishability growth seen in quantum-speed-limit (QSL) bounds and precision-speed tradeoffs[^99].
 
-Salazar's universal TUR for Petz $f$-divergences[^95] further demonstrates that all operational distinguishability measures reduce to weighted mixtures of $\chi^2$ divergences. This parallels the decomposition of the constraint functional into $\pi$-curvature, $\varphi$-curvature, and discrete 10-fold resonance: in both formalisms, the fundamental curvature modes define the irreducible contributions to precision cost. The $(\partial \ln P)^2$ terms in the functional play the same geometric role as the Fisher-information curvature terms underlying the $\chi^2$-based TUR basis.
+Salazar's universal TUR for Petz $f$-divergences[^100] further demonstrates that all operational distinguishability measures reduce to weighted mixtures of $\chi^2$ divergences. This parallels the decomposition of the constraint functional into $\pi$-curvature, $\varphi$-curvature, and discrete 10-fold resonance: in both formalisms, the fundamental curvature modes define the irreducible contributions to precision cost. The $(\partial \ln P)^2$ terms in the functional play the same geometric role as the Fisher-information curvature terms underlying the $\chi^2$-based TUR basis.
 
 Taken together, these results show that TURs, QSLs, and generalized distinguishability bounds describe only one sector of a much broader informational geometry. The present constraint–eigenvalue theory extends the same principles beyond stochastic processes to encompass lattice transport phenomena, recursive scaling attractors, divisor-based coherence, dissipation hierarchies, and the organization of physical, biological, and cognitive systems. In this wider setting, $\pi$, $\varphi$, and 10 are the eigenvalues of competing curvature constraints. TURs and stochastic representations therefore appear as boundary cases of a universal variational structure governing information flow across all scales of organization.
 
@@ -814,7 +840,7 @@ Taken together, these results show that TURs, QSLs, and generalized distinguisha
 
 The constraint eigenvalue framework generates concrete, falsifiable predictions spanning gravitational wave memory effects, white dwarf cooling anomalies, primordial black hole equilibrium, quantum computing limits, and structure formation energetics. These predictions provide empirical pathways to test the framework.
 
-**Quantum computing limits.**[^44][^94][^96] No quantum computer can exceed
+**Quantum computing limits.**[^44][^99][^101] No quantum computer can exceed
 
 $$
 \dot{I}_{\text{max}} = f_P \times \frac{R_S}{R} \approx 1.855 \times 10^{43} \times \frac{R_S}{R} \text{ bits/second}
@@ -824,7 +850,7 @@ for its mass and size. Prime factorization at specific scales (7, 47, 329 qubits
 
 **White dwarf cooling anomalies.**[^52] The basin of attraction entrance at $R/R_S = 10^3$ corresponds to $M \approx 1.17 M_{\odot}$ where $\eta = 0.46$ and $(1-\eta)^{-\rho^*} = 5.66$. The 311 objects in anomaly zone ($R/R_S$ = 805-1496) exhibit cooling delays with statistical significance $p = 0.0015$, appearing 0.56 Gyr younger than expected.
 
-**Gravitational wave memory effect.** Black hole mergers produce permanent spacetime displacement from information topology[^97][^98][^99] reorganization. Memory strain scales as
+**Gravitational wave memory effect.** Black hole mergers produce permanent spacetime displacement from information topology[^102][^103][^104] reorganization. Memory strain scales as
 
 $$
 h_{\text{mem}} = \frac{4G}{c^4 r} \Delta N_{\text{bits}} k_B T \ln 2,
@@ -838,19 +864,19 @@ $$
 f_{\text{high}} \approx \frac{1}{1 + \rho^*} = \frac{1}{1 + 3.29} \approx 0.233,
 $$
 
-with mass-weighted corrections pushing this into the 0.28–0.34 range for equal-mass binaries, yielding a central expectation of 0.329. This prediction is consistent with GWTC-3 observations[^100] indicating $f_{\text{high}} = 0.20 \pm 0.18$, where the 32.9% value sits within the credible range. The dimensional flow exponent $1/\rho^* \approx 0.304$ determines how rapidly objects converge to the $d=2$ fixed point, predicting the tail shape of spin distributions. Strong compression (massive stars, second-generation black holes, gas-rich collapsars) follows rapid approach to $d=2$ with high spin retention ($\chi \approx 0.7$-$1.0$), while weak compression (common-envelope remnants, low-mass cores) exhibits slow approach with damped spin ($\chi \approx 0$-$0.2$). This reproduces the empirically observed broad low-spin peak, narrower high-spin peak, and suppressed plateau between $\chi \approx 0.3$ and $0.6$[^100].
+with mass-weighted corrections pushing this into the 0.28–0.34 range for equal-mass binaries, yielding a central expectation of 0.329. This prediction is consistent with GWTC-3 observations[^105] indicating $f_{\text{high}} = 0.20 \pm 0.18$, where the 32.9% value sits within the credible range. The dimensional flow exponent $1/\rho^* \approx 0.304$ determines how rapidly objects converge to the $d=2$ fixed point, predicting the tail shape of spin distributions. Strong compression (massive stars, second-generation black holes, gas-rich collapsars) follows rapid approach to $d=2$ with high spin retention ($\chi \approx 0.7$-$1.0$), while weak compression (common-envelope remnants, low-mass cores) exhibits slow approach with damped spin ($\chi \approx 0$-$0.2$). This reproduces the empirically observed broad low-spin peak, narrower high-spin peak, and suppressed plateau between $\chi \approx 0.3$ and $0.6$[^105].
 
-The discrete winding structure with $n_{\max} = (1/2\pi)\ln(r_s/\ell_P) \approx 14$ for stellar-mass black holes provides a topological origin for spin quantization. These fourteen winding sectors correspond to stable angular momentum topological sectors, predicting discrete clustering of high-spin events rather than continuous distribution. Recent GWTC-3 events show clustering near $\chi \sim 0.67, 0.84, 0.93$, consistent with winding-sector structure[^100]. High-spin black holes possess stronger horizon information-flux coherence, enhancing long-wavelength gravitational-wave coupling. Pulsar timing array analyses[^101] show that improved achromatic noise modeling increases background amplitude and favors high-spin supermassive binary populations, matching the prediction that high-spin systems produce stronger nanohertz signals through enhanced mode coherence.
+The discrete winding structure with $n_{\max} = (1/2\pi)\ln(r_s/\ell_P) \approx 14$ for stellar-mass black holes provides a topological origin for spin quantization. These fourteen winding sectors correspond to stable angular momentum topological sectors, predicting discrete clustering of high-spin events rather than continuous distribution. Recent GWTC-3 events show clustering near $\chi \sim 0.67, 0.84, 0.93$, consistent with winding-sector structure[^105]. High-spin black holes possess stronger horizon information-flux coherence, enhancing long-wavelength gravitational-wave coupling. Pulsar timing array analyses[^106] show that improved achromatic noise modeling increases background amplitude and favors high-spin supermassive binary populations, matching the prediction that high-spin systems produce stronger nanohertz signals through enhanced mode coherence.
 
-**Primordial black hole equilibrium.**[^102] Lunar-mass primordial black holes ($\sim 10^{22}$ kg) achieve equilibrium when Hawking temperature
+**Primordial black hole equilibrium.**[^107] Lunar-mass primordial black holes ($\sim 10^{22}$ kg) achieve equilibrium when Hawking temperature
 
 $$
 T_H = \frac{\hbar c^3}{8\pi G M k_B}
 $$
 
-equals CMB temperature (2.7 K). These objects neither grow nor evaporate, creating detectable signatures through gravitational microlensing[^103] with characteristic duration ~1 hour and CMB temperature fluctuations $\Delta T/T \sim 10^{-6}$.
+equals CMB temperature (2.7 K). These objects neither grow nor evaporate, creating detectable signatures through gravitational microlensing[^108] with characteristic duration ~1 hour and CMB temperature fluctuations $\Delta T/T \sim 10^{-6}$.
 
-**Structure formation energetics.**[^104] Galaxy formation simulations miss ~5% of the energy budget from maintenance costs:
+**Structure formation energetics.**[^109] Galaxy formation simulations miss ~5% of the energy budget from maintenance costs:
 
 $$
 E_{\text{miss}} = M_{\text{gal}} c^2 \times \frac{R_S}{R} \times \eta_{\text{struct}},
@@ -860,7 +886,7 @@ where $\eta_{\text{struct}} \sim 10$ for assembling galaxies.
 
 **Curvature budget in galactic structure.** The curvature budget law (Section 3.2) suggests that galaxies, like all coherent systems, partition their organizational costs into structural and DOF components in the characteristic $\sim 1/3$–$2/3$ ratio.
 
-Structural curvature ($\sim 1/3$) corresponds to the cost of maintaining the galaxy's geometric architecture: the dark matter halo that provides gravitational scaffolding[^105], the disk geometry that organizes rotation, the spiral arm patterns that structure star formation, and the bulge that anchors the central potential. These represent the $N$-sector contribution—the discrete organizational closure that defines the galaxy as a coherent entity.
+Structural curvature ($\sim 1/3$) corresponds to the cost of maintaining the galaxy's geometric architecture: the dark matter halo that provides gravitational scaffolding[^110], the disk geometry that organizes rotation, the spiral arm patterns that structure star formation, and the bulge that anchors the central potential. These represent the $N$-sector contribution—the discrete organizational closure that defines the galaxy as a coherent entity.
 
 DOF curvature ($\sim 2/3$) corresponds to the dynamics that populate this structure: stellar orbits, gas flows, star formation and feedback, magnetic field evolution, and the thermodynamic processes that animate the galactic ecosystem. These represent the $\beta$-sector contribution—the recursive, scale-spanning dynamics that operate within the structural constraints.
 
@@ -1332,70 +1358,80 @@ the pure $\pi$–$\varphi$ information wave. This is the dynamical completion of
 
 [^71]: del Pino, J., Slim, J. J., & Verhagen, E. (2022). "Synthetic magnetism for photon fluids." *Nature*, 606, 82–87. <https://doi.org/10.1038/s41586-022-04720-2>
 
-[^72]: Zhang, K. (2024). "Magnetic control of the non-Hermitian skin effect in two-dimensional lattices." arXiv preprint arXiv:2511.20518. <https://arxiv.org/abs/2511.20518>
+[^72]: Wang, J., Gastaldi, J., Durand, A., Meresse, Y., & Zurkirchen, M. (2024). "Defect-Free Growth of Decagonal Quasicrystals around Obstacles." *Physical Review Materials*, 8(12), 125601. <https://doi.org/10.1103/PhysRevMaterials.8.125601> PMID: 41172175
 
-[^73]: Yao, S., & Wang, Z. (2018). "Edge States and Topological Invariants of Non-Hermitian Systems." *Physical Review Letters*, 121(8), 086803. <https://doi.org/10.1103/PhysRevLett.121.086803>
+[^73]: Lubensky, T. C., Socolar, J. E. S., Steinhardt, P. J., Bancel, P. A., & Heiney, P. A. (1986). "Distortion and peak broadening in quasicrystal diffraction patterns." *Physical Review Letters*, 57(12), 1440–1443. <https://doi.org/10.1103/PhysRevLett.57.1440>
 
-[^74]: Kunst, F. K., Edvardsson, E., Budich, J. C., & Bergholtz, E. J. (2018). "Biorthogonal Bulk-Boundary Correspondence in Non-Hermitian Systems." *Physical Review Letters*, 121(2), 026808. <https://doi.org/10.1103/PhysRevLett.121.026808>
+[^74]: Nagao, K., Inuzuka, T., Nishimoto, K., & Edagawa, K. (2015). "Experimental observation of quasicrystal growth." *Physical Review Letters*, 115(7), 075501. <https://doi.org/10.1103/PhysRevLett.115.075501>
 
-[^75]: Okuma, N., Kawabata, K., Shiozaki, K., & Sato, M. (2020). "Topological Origin of Non-Hermitian Skin Effects." *Physical Review Letters*, 124(8), 086801. <https://doi.org/10.1103/PhysRevLett.124.086801>
+[^75]: Keys, A. S., & Glotzer, S. C. (2007). "How do quasicrystals grow?" *Physical Review Letters*, 99(23), 235503. <https://doi.org/10.1103/PhysRevLett.99.235503>
 
-[^76]: Chaisson, E. J. (2011). "Energy rate density as a complexity metric and evolutionary driver." *Complexity*, 16(3), 27–40. <https://doi.org/10.1002/cplx.20323>
+[^76]: Jeong, H. T., Kim, S. H., Kim, W. T., Kim, D. H., & Inkson, B. J. (2000). "Growth of a decagonal Al₇₀Ni₁₅Co₁₅ single quasicrystal by the Czochralski method." *Journal of Crystal Growth*, 217(1-2), 217–221. <https://doi.org/10.1016/S0022-0248(00)00465-6>
 
-[^77]: Ellison, C. J., Mahoney, J. R., & Crutchfield, J. P. (2009). "Prediction, retrodiction, and the amount of information stored in the present." *Journal of Statistical Physics*, 136(6), 1005–1034. <https://doi.org/10.1007/s10955-009-9808-z>
+[^77]: Zhang, K. (2024). "Magnetic control of the non-Hermitian skin effect in two-dimensional lattices." arXiv preprint arXiv:2511.20518. <https://arxiv.org/abs/2511.20518>
 
-[^78]: Laughlin, S. B. (2001). "Energy as a constraint on the coding and processing of sensory information." *Current Opinion in Neurobiology*, 11(4), 475–480. <https://doi.org/10.1016/S0959-4388(00)00237-3>
+[^78]: Yao, S., & Wang, Z. (2018). "Edge States and Topological Invariants of Non-Hermitian Systems." *Physical Review Letters*, 121(8), 086803. <https://doi.org/10.1103/PhysRevLett.121.086803>
 
-[^79]: Curcio, C. A., Sloan, K. R., Kalina, R. E., & Hendrickson, A. E. (1990). "Human photoreceptor topography." *Journal of Comparative Neurology*, 292(4), 497–523. <https://doi.org/10.1002/cne.902920402>
+[^79]: Kunst, F. K., Edvardsson, E., Budich, J. C., & Bergholtz, E. J. (2018). "Biorthogonal Bulk-Boundary Correspondence in Non-Hermitian Systems." *Physical Review Letters*, 121(2), 026808. <https://doi.org/10.1103/PhysRevLett.121.026808>
 
-[^80]: Kempes, C. P., Wolpert, D., Cohen, Z., & Pérez-Mercader, J. (2017). "The thermodynamic efficiency of computations made in cells across the range of life." *Philosophical Transactions of the Royal Society A*, 375(2109), 20160343. <https://doi.org/10.1098/rsta.2016.0343>
+[^80]: Okuma, N., Kawabata, K., Shiozaki, K., & Sato, M. (2020). "Topological Origin of Non-Hermitian Skin Effects." *Physical Review Letters*, 124(8), 086801. <https://doi.org/10.1103/PhysRevLett.124.086801>
 
-[^81]: Friston, K. (2010). "The free-energy principle: a unified brain theory?" *Nature Reviews Neuroscience*, 11, 127–138. <https://doi.org/10.1038/nrn2787>
+[^81]: Chaisson, E. J. (2011). "Energy rate density as a complexity metric and evolutionary driver." *Complexity*, 16(3), 27–40. <https://doi.org/10.1002/cplx.20323>
 
-[^82]: Kifer, Y. (1990). "Large deviations in dynamical systems and stochastic processes." *Transactions of the American Mathematical Society*, 321(2), 505–524. <https://doi.org/10.1090/S0002-9947-1990-1025756-7>
+[^82]: Ellison, C. J., Mahoney, J. R., & Crutchfield, J. P. (2009). "Prediction, retrodiction, and the amount of information stored in the present." *Journal of Statistical Physics*, 136(6), 1005–1034. <https://doi.org/10.1007/s10955-009-9808-z>
 
-[^83]: Pollicott, M., & Sharp, R. (2001). "Error terms for closed orbits of hyperbolic flows." *Ergodic Theory and Dynamical Systems*, 21(2), 545–562. <https://doi.org/10.1017/S0143385701001274>
+[^83]: Laughlin, S. B. (2001). "Energy as a constraint on the coding and processing of sensory information." *Current Opinion in Neurobiology*, 11(4), 475–480. <https://doi.org/10.1016/S0959-4388(00)00237-3>
 
-[^84]: Hille, B. (2001). *Ion Channels of Excitable Membranes* (3rd ed.). Sinauer Associates. ISBN: 978-0-87893-321-1
+[^84]: Curcio, C. A., Sloan, K. R., Kalina, R. E., & Hendrickson, A. E. (1990). "Human photoreceptor topography." *Journal of Comparative Neurology*, 292(4), 497–523. <https://doi.org/10.1002/cne.902920402>
 
-[^85]: Kaeser, P. S., & Regehr, W. G. (2014). "Molecular mechanisms for synchronous, asynchronous, and spontaneous neurotransmitter release." *Annual Review of Physiology*, 76, 333–363. <https://doi.org/10.1146/annurev-physiol-021113-170338>
+[^85]: Kempes, C. P., Wolpert, D., Cohen, Z., & Pérez-Mercader, J. (2017). "The thermodynamic efficiency of computations made in cells across the range of life." *Philosophical Transactions of the Royal Society A*, 375(2109), 20160343. <https://doi.org/10.1098/rsta.2016.0343>
 
-[^86]: Berg, H. C. (1993). *Random Walks in Biology* (Expanded ed.). Princeton University Press. ISBN: 978-0-691-00064-6
+[^86]: Friston, K. (2010). "The free-energy principle: a unified brain theory?" *Nature Reviews Neuroscience*, 11, 127–138. <https://doi.org/10.1038/nrn2787>
 
-[^87]: Scheffer, M. (2009). *Critical Transitions in Nature and Society*. Princeton University Press. ISBN: 978-0-691-12204-1
+[^87]: Kifer, Y. (1990). "Large deviations in dynamical systems and stochastic processes." *Transactions of the American Mathematical Society*, 321(2), 505–524. <https://doi.org/10.1090/S0002-9947-1990-1025756-7>
 
-[^88]: Kevrekidis, I. G., & Samaey, G. (2009). "Equation-free multiscale computation: Algorithms and applications." *Annual Review of Physical Chemistry*, 60, 321–344. <https://doi.org/10.1146/annurev.physchem.59.032607.093610>
+[^88]: Pollicott, M., & Sharp, R. (2001). "Error terms for closed orbits of hyperbolic flows." *Ergodic Theory and Dynamical Systems*, 21(2), 545–562. <https://doi.org/10.1017/S0143385701001274>
 
-[^89]: Melbourne, I., & Nicol, M. (2005). "Almost sure invariance principle for nonuniformly hyperbolic systems." *Communications in Mathematical Physics*, 260(1), 131–146. <https://doi.org/10.1007/s00220-005-1407-5>
+[^89]: Hille, B. (2001). *Ion Channels of Excitable Membranes* (3rd ed.). Sinauer Associates. ISBN: 978-0-87893-321-1
 
-[^90]: Kwon, C., & Lee, J. S. (2023). "Unified framework for generalized statistics: Thermodynamic uncertainty relations and the Onsager–Machlup action." *Physical Review X*, 13(2), 021018. <https://doi.org/10.1103/PhysRevX.13.021018>
+[^90]: Kaeser, P. S., & Regehr, W. G. (2014). "Molecular mechanisms for synchronous, asynchronous, and spontaneous neurotransmitter release." *Annual Review of Physiology*, 76, 333–363. <https://doi.org/10.1146/annurev-physiol-021113-170338>
 
-[^91]: Dechant, A. (2018). "Multidimensional thermodynamic uncertainty relations." *Journal of Physics A: Mathematical and Theoretical*, 52(3), 035001. <https://doi.org/10.1088/1751-8121/aaf3ff>
+[^91]: Berg, H. C. (1993). *Random Walks in Biology* (Expanded ed.). Princeton University Press. ISBN: 978-0-691-00064-6
 
-[^92]: Barato, A. C., & Seifert, U. (2015). "Thermodynamic uncertainty relation for biomolecular processes." *Physical Review Letters*, 114(15), 158101. <https://doi.org/10.1103/PhysRevLett.114.158101>
+[^92]: Scheffer, M. (2009). *Critical Transitions in Nature and Society*. Princeton University Press. ISBN: 978-0-691-12204-1
 
-[^93]: Horowitz, J. M., & Gingrich, T. R. (2020). "Thermodynamic uncertainty relations constrain non-equilibrium fluctuations." *Nature Physics*, 16(1), 15–20. <https://doi.org/10.1038/s41567-019-0702-6>
+[^93]: Kevrekidis, I. G., & Samaey, G. (2009). "Equation-free multiscale computation: Algorithms and applications." *Annual Review of Physical Chemistry*, 60, 321–344. <https://doi.org/10.1146/annurev.physchem.59.032607.093610>
 
-[^94]: Deffner, S., & Campbell, S. (2017). "Quantum speed limits: from Heisenberg's uncertainty principle to optimal quantum control." *Journal of Physics A: Mathematical and Theoretical*, 50(45), 453001. <https://doi.org/10.1088/1751-8121/aa8be0>
+[^94]: Melbourne, I., & Nicol, M. (2005). "Almost sure invariance principle for nonuniformly hyperbolic systems." *Communications in Mathematical Physics*, 260(1), 131–146. <https://doi.org/10.1007/s00220-005-1407-5>
 
-[^95]: Salazar, D. S. P. (2024). "Universal thermodynamic uncertainty relation for Petz quantum f-divergences." *Physical Review Letters*, 132(5), 050401. <https://doi.org/10.1103/PhysRevLett.132.050401>
+[^95]: Kwon, C., & Lee, J. S. (2023). "Unified framework for generalized statistics: Thermodynamic uncertainty relations and the Onsager–Machlup action." *Physical Review X*, 13(2), 021018. <https://doi.org/10.1103/PhysRevX.13.021018>
 
-[^96]: Margolus, N., & Levitin, L. B. (1998). "The maximum speed of dynamical evolution." *Physica D: Nonlinear Phenomena*, 120(1–2), 188–195. <https://doi.org/10.1016/S0167-2789(98)00054-2>
+[^96]: Dechant, A. (2018). "Multidimensional thermodynamic uncertainty relations." *Journal of Physics A: Mathematical and Theoretical*, 52(3), 035001. <https://doi.org/10.1088/1751-8121/aaf3ff>
 
-[^97]: Tran, D. T., Dauphin, A., Grushin, A. G., Zoller, P., & Goldman, N. (2017). "Probing topology by 'heating': Quantized circular dichroism in ultracold atoms." *Science Advances*, 3(8), e1701207. <https://doi.org/10.1126/sciadv.1701207>
+[^97]: Barato, A. C., & Seifert, U. (2015). "Thermodynamic uncertainty relation for biomolecular processes." *Physical Review Letters*, 114(15), 158101. <https://doi.org/10.1103/PhysRevLett.114.158101>
 
-[^98]: Christodoulou, D. (1991). "Nonlinear nature of gravitation and gravitational-wave experiments." *Physical Review Letters*, 67(12), 1486–1489. <https://doi.org/10.1103/PhysRevLett.67.1486>
+[^98]: Horowitz, J. M., & Gingrich, T. R. (2020). "Thermodynamic uncertainty relations constrain non-equilibrium fluctuations." *Nature Physics*, 16(1), 15–20. <https://doi.org/10.1038/s41567-019-0702-6>
 
-[^99]: Favata, M. (2010). "The gravitational-wave memory effect." *Classical and Quantum Gravity*, 27(8), 084036. <https://doi.org/10.1088/0264-9381/27/8/084036>
+[^99]: Deffner, S., & Campbell, S. (2017). "Quantum speed limits: from Heisenberg's uncertainty principle to optimal quantum control." *Journal of Physics A: Mathematical and Theoretical*, 50(45), 453001. <https://doi.org/10.1088/1751-8121/aa8be0>
 
-[^100]: The LIGO Scientific Collaboration, the Virgo Collaboration, & the KAGRA Collaboration (2023). "Population of merging compact binaries inferred using gravitational waves through GWTC-3." *Physical Review X*, 13, 011048. <https://doi.org/10.1103/PhysRevX.13.011048>
+[^100]: Salazar, D. S. P. (2024). "Universal thermodynamic uncertainty relation for Petz quantum f-divergences." *Physical Review Letters*, 132(5), 050401. <https://doi.org/10.1103/PhysRevLett.132.050401>
 
-[^101]: Agazie, G., et al. (The NANOGrav Collaboration) (2023). "The NANOGrav 15-year Data Set: Evidence for a Gravitational-Wave Background." *The Astrophysical Journal Letters*, 951, L8. <https://doi.org/10.3847/2041-8213/acdac6>
+[^101]: Margolus, N., & Levitin, L. B. (1998). "The maximum speed of dynamical evolution." *Physica D: Nonlinear Phenomena*, 120(1–2), 188–195. <https://doi.org/10.1016/S0167-2789(98)00054-2>
 
-[^102]: Carr, B., Kühnel, F., & Sandstad, M. (2016). "Primordial black holes as dark matter." *Physical Review D*, 94(8), 083504. <https://doi.org/10.1103/PhysRevD.94.083504>
+[^102]: Tran, D. T., Dauphin, A., Grushin, A. G., Zoller, P., & Goldman, N. (2017). "Probing topology by 'heating': Quantized circular dichroism in ultracold atoms." *Science Advances*, 3(8), e1701207. <https://doi.org/10.1126/sciadv.1701207>
 
-[^103]: Niikura, H., et al. (2019). "Microlensing constraints on primordial black holes with Subaru/HSC Andromeda observations." *Nature Astronomy*, 3, 524–534. <https://doi.org/10.1038/s41550-019-0723-1>
+[^103]: Christodoulou, D. (1991). "Nonlinear nature of gravitation and gravitational-wave experiments." *Physical Review Letters*, 67(12), 1486–1489. <https://doi.org/10.1103/PhysRevLett.67.1486>
 
-[^104]: Somerville, R. S., & Davé, R. (2015). "Physical models of galaxy formation in a cosmological framework." *Annual Review of Astronomy and Astrophysics*, 53, 51–113. <https://doi.org/10.1146/annurev-astro-082812-140951>
+[^104]: Favata, M. (2010). "The gravitational-wave memory effect." *Classical and Quantum Gravity*, 27(8), 084036. <https://doi.org/10.1088/0264-9381/27/8/084036>
 
-[^105]: Navarro, J. F., Frenk, C. S., & White, S. D. M. (1996). "The structure of cold dark matter halos." *The Astrophysical Journal*, 462, 563–575. <https://doi.org/10.1086/177173>
+[^105]: The LIGO Scientific Collaboration, the Virgo Collaboration, & the KAGRA Collaboration (2023). "Population of merging compact binaries inferred using gravitational waves through GWTC-3." *Physical Review X*, 13, 011048. <https://doi.org/10.1103/PhysRevX.13.011048>
+
+[^106]: Agazie, G., et al. (The NANOGrav Collaboration) (2023). "The NANOGrav 15-year Data Set: Evidence for a Gravitational-Wave Background." *The Astrophysical Journal Letters*, 951, L8. <https://doi.org/10.3847/2041-8213/acdac6>
+
+[^107]: Carr, B., Kühnel, F., & Sandstad, M. (2016). "Primordial black holes as dark matter." *Physical Review D*, 94(8), 083504. <https://doi.org/10.1103/PhysRevD.94.083504>
+
+[^108]: Niikura, H., et al. (2019). "Microlensing constraints on primordial black holes with Subaru/HSC Andromeda observations." *Nature Astronomy*, 3, 524–534. <https://doi.org/10.1038/s41550-019-0723-1>
+
+[^109]: Somerville, R. S., & Davé, R. (2015). "Physical models of galaxy formation in a cosmological framework." *Annual Review of Astronomy and Astrophysics*, 53, 51–113. <https://doi.org/10.1146/annurev-astro-082812-140951>
+
+[^110]: Navarro, J. F., Frenk, C. S., & White, S. D. M. (1996). "The structure of cold dark matter halos." *The Astrophysical Journal*, 462, 563–575. <https://doi.org/10.1086/177173>

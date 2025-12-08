@@ -10,7 +10,7 @@ At sufficiently high temperatures, matter behaves not only as plasma but as an i
 
 ## Introduction
 
-When white dwarf stars approach the Chandrasekhar limit[^2], they collapse and release approximately $4.3 \times 10^{44}$ joules—the signature of Type Ia supernovae. Standard models attribute this output to nuclear reactions during the transition from electron-degenerate to neutron-degenerate matter.
+When white dwarf stars approach the Chandrasekhar limit[^1], they collapse and release approximately $4.3 \times 10^{44}$ joules—the signature of Type Ia supernovae. Standard models attribute this output to nuclear reactions during the transition from electron-degenerate to neutron-degenerate matter.
 
 The math suggests something else is happening.
 
@@ -20,7 +20,7 @@ $$
 E_{\text{bit}} = k_B T \ln 2 \approx 9.56 \times 10^{-15} \text{ J/bit}.
 $$
 
-Multiply the bit count by the cost per bit (using Landauer's limit as a lower-bound estimate per bit erasure), and you get $4.3 \times 10^{44}$ joules—showing that the information-theoretic term is of the same order as the observed supernova energy[^3], suggesting informational reorganization is a co-contributor alongside nuclear burning, rather than a negligible correction.
+Multiply the bit count by the cost per bit (using Landauer's limit as a lower-bound estimate per bit erasure), and you get $4.3 \times 10^{44}$ joules—showing that the information-theoretic term is of the same order as the observed supernova energy[^2], suggesting informational reorganization is a co-contributor alongside nuclear burning, rather than a negligible correction.
 
 In reality, physical dissipation per logical transition can exceed this bound; using $k_B T \ln 2$ here gives a floor, not a precise equality, making the match in scale conceptually striking rather than exact.
 
@@ -34,7 +34,7 @@ Four principles underlie the quantum fusion engine concept. Each emerges from es
 
 ### Information Has Energetic Weight
 
-[Landauer showed in 1961](/the-thermodynamic-computational-speed-limit) that erasing a bit of information generates at least $k_B T \ln 2$ of heat, where $k_B$ is Boltzmann's constant, $T$ is temperature, and $\ln 2$ converts between natural and binary information units[^4]. This is not an inefficiency that clever engineering can eliminate—it follows from the second law of thermodynamics.
+[Landauer showed in 1961](/the-thermodynamic-computational-speed-limit) that erasing a bit of information generates at least $k_B T \ln 2$ of heat, where $k_B$ is Boltzmann's constant, $T$ is temperature, and $\ln 2$ converts between natural and binary information units[^3]. This is not an inefficiency that clever engineering can eliminate—it follows from the second law of thermodynamics.
 
 At room temperature ($\sim 300$ K), this cost is negligible: about $3 \times 10^{-21}$ joules per bit. Modern computers erase billions of bits per second but dissipate far more heat from resistive losses than from Landauer's limit.
 
@@ -58,11 +58,11 @@ $$
 I_{\max} = \frac{A}{4\ell_P^2 \ln 2},
 $$
 
-where $A$ is the boundary area and $\ell_P \approx 1.6 \times 10^{-35}$ m is the Planck length[^5].
+where $A$ is the boundary area and $\ell_P \approx 1.6 \times 10^{-35}$ m is the Planck length[^4].
 
 By analogy, in highly constrained engineered plasmas, surface geometry strongly influences the accessible microstate manifold, making boundary design a practical thermodynamic instrument even if full gravitational holography is not invoked. For a fusion plasma confined within engineered boundaries, the accessible phase space can be viewed as bounded by surface geometry rather than bulk volume alone.
 
-Confinement geometry determines the allowed electromagnetic, acoustic, and density modes of the plasma. Because each mode corresponds to a collection of microstates, restricting these modes reduces the accessible phase-space volume. In this sense, geometry acts as an informational operator: it removes entire families of microstates, creating the negative $\partial I/\partial V$ term needed for informational pressure.
+Confinement geometry determines the allowed electromagnetic, acoustic, and density modes of the plasma. Because each mode corresponds to a collection of microstates, restricting these modes reduces the accessible phase-space volume. In this sense, geometry acts as an informational operator: it removes entire families of microstates, creating the negative $\partial I/\partial V$ term needed for informational pressure. Decagonal quasicrystals demonstrate this mechanism directly. X-ray tomography shows these structures growing around obstacles while maintaining long-range order through phason-mediated rearrangements that redistribute curvature to boundaries rather than accumulating as defects.[^5]
 
 Boundary geometry therefore becomes a thermodynamic instrument. Changing the shape or symmetry of the confining surface alters which microstates remain accessible to the plasma, directly modifying the system's informational capacity.
 
@@ -146,7 +146,7 @@ Not all boundary shapes suppress microstates equally. Certain geometric principl
 
 Three geometric motifs consistently create stability and suppress resonance cascades:
 
-- **[Pentagonal symmetry](/pentagonal-constraints-and-quantum-computing):** reduces discrete curvature and disrupts low-order periodicities. Fivefold structures prevent the formation of regular tessellations, eliminating standing-wave patterns that would otherwise create resonant modes. In quasicrystalline matter and Penrose tilings, pentagonal features produce extended coherence.
+- **[Pentagonal symmetry](/pentagonal-constraints-and-quantum-computing):** reduces discrete curvature and disrupts low-order periodicities. Fivefold structures prevent the formation of regular tessellations, eliminating standing-wave patterns that would otherwise create resonant modes. In quasicrystalline matter and Penrose tilings, pentagonal features produce extended coherence. The mechanism is observable in quasicrystal growth: phasons redistribute strain away from perturbations, preserving global symmetry.[^5] Plasma boundaries operate analogously—the pentagonal structure provides rearrangement modes that absorb turbulence without propagating instabilities.
 
 - **[Golden-ratio spacing](/golden-ratio-and-prime-resonance-in-quantum-transport):** creates irrational mode ratios. Elements placed at distances proportional to $\varphi = \frac{1+\sqrt{5}}{2}$ prevent harmonic stacking. Because $\varphi$ is the "most irrational" number (its continued fraction representation is $[1;1,1,1,\ldots]$, the slowest to converge), it inhibits resonance formation across scales more effectively than any other ratio.
 
@@ -166,7 +166,7 @@ A working device requires physical structure. What follows is not a blueprint fo
 
 At the center lies Region C, the fusion core: a quasi-spherical plasma volume roughly 0.5 meters in radius containing D-T fuel at $10^8$-$10^9$ K. This provides the temperature that makes information processing energetically significant.
 
-Surrounding the core at 0.8 meters radius sits Region B, the information boundary. This structured shell is built as a pentagonal dodecahedron with golden-ratio-scaled facets. The geometry is not decorative—it imposes electromagnetic and acoustic boundary conditions that suppress specific microstate families, generating the phase-space contraction that creates informational pressure.
+Surrounding the core at 0.8 meters radius sits Region B, the information boundary. This structured shell is built as a pentagonal dodecahedron with golden-ratio-scaled facets. The geometry is not decorative—it imposes electromagnetic and acoustic boundary conditions that suppress specific microstate families, generating the phase-space contraction that creates informational pressure. Work on decagonal quasicrystals shows pentagonal symmetry enables phason-mediated curvature redistribution that maintains coherence under perturbation.[^5] The plasma boundary uses the same mechanism—geometric constraints that create corrective degrees of freedom rather than rigid boundaries that accumulate strain.
 
 Region Q, the quantum control layer, operates at 10-20 millikelvin and houses superconducting qubits, quantum-limited amplifiers, and control electronics. This layer monitors boundary modes, schedules erasures, and maintains the dissipation field $\eta$ within the stable band. The enormous temperature gradient between core and control layer (nine orders of magnitude) allows erasures at negligible power cost.
 
@@ -288,7 +288,7 @@ These are not necessarily separate phenomena; they can be reinterpreted as emerg
 
 Understanding constraint geometry and informational pressure means seeing where advantage accumulates in high-temperature, high-information systems. Not just fusion—any domain where information flow under constraint determines outcomes.
 
-Consider lithium-ion battery packs. When a single cell enters thermal runaway above 150°C, heat propagates to neighboring cells through geometric channels defined by cell spacing. Experimental studies show that modules with 1 mm spacing experience 100% propagation probability with severe damage to adjacent cells. Increasing spacing to 2 mm significantly reduces damage. At 4 mm spacing, adjacent cells show minimal damage and diagonal cells remain unaffected.[^1] The cascade probability drops dramatically—not because the physics changed, but because the constraint geometry altered which propagation pathways remain accessible.
+Consider lithium-ion battery packs. When a single cell enters thermal runaway above 150°C, heat propagates to neighboring cells through geometric channels defined by cell spacing. Experimental studies show that modules with 1 mm spacing experience 100% propagation probability with severe damage to adjacent cells. Increasing spacing to 2 mm significantly reduces damage. At 4 mm spacing, adjacent cells show minimal damage and diagonal cells remain unaffected.[^6] The cascade probability drops dramatically—not because the physics changed, but because the constraint geometry altered which propagation pathways remain accessible.
 
 The parallel to quantum fusion engines is direct. In both cases, high-energy-density systems generate signals (thermal or informational) that propagate through constrained geometry. Boundary conditions determine whether those signals amplify into cascades or dissipate safely. Pentagonal boundaries suppress plasma microstate families. Optimized cell spacing suppresses thermal propagation modes. Same principle, different substrate.
 
@@ -404,12 +404,14 @@ $$
 
 A quantum fusion engine with strong informational contribution satisfies $\Pi_I \sim \mathcal{O}(1)$ and $\Pi_\eta \lesssim 0.25$.
 
-[^1]: Lopez, C.F., Jeevarajan, J.A., and Mukherjee, P.P. "Experimental Analysis of Thermal Runaway and Propagation in Lithium-Ion Battery Modules." *Journal of The Electrochemical Society* 162, no. 9 (2015): A1905-A1915.
+[^1]: Chandrasekhar, S. (1931). The Maximum Mass of Ideal White Dwarfs. *Astrophysical Journal*, 74, 81-82.
 
-[^2]: Chandrasekhar, S. (1931). The Maximum Mass of Ideal White Dwarfs. *Astrophysical Journal*, 74, 81-82.
+[^2]: Hillebrandt, W., & Niemeyer, J. C. (2000). Type Ia Supernova Explosion Models. *Annual Review of Astronomy and Astrophysics*, 38(1), 191-230.
 
-[^3]: Hillebrandt, W., & Niemeyer, J. C. (2000). Type Ia Supernova Explosion Models. *Annual Review of Astronomy and Astrophysics*, 38(1), 191-230.
+[^3]: Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183-191.
 
-[^4]: Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183-191.
+[^4]: Bekenstein, J. D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8), 2333-2346.
 
-[^5]: Bekenstein, J. D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8), 2333-2346.
+[^5]: Franke, L., et al. (2025). Defect-Free Growth of Decagonal Quasicrystals around Obstacles. *Physical Review Letters*, 135, 166203.
+
+[^6]: Lopez, C.F., Jeevarajan, J.A., and Mukherjee, P.P. "Experimental Analysis of Thermal Runaway and Propagation in Lithium-Ion Battery Modules." *Journal of The Electrochemical Society* 162, no. 9 (2015): A1905-A1915.
