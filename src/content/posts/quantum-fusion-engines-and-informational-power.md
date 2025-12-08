@@ -88,29 +88,29 @@ An engine operating on this principle aims to harness the same physics within a 
 
 ### The Dissipation Threshold
 
-Every organized physical system can be viewed as devoting part of its total energy to maintaining its own coherence. Define the dissipation field:
+Every organized physical system can be viewed as devoting part of its total energy to maintaining its own coherence. Define the dissipation field,
 
 $$
 \eta = \frac{E_{\text{maintenance}}}{E_{\text{total}}}.
 $$
 
-A candidate coupling appears across diverse domains—gravitational thermodynamics, biological metabolism, quantum coherence transitions:
+A candidate coupling appears across diverse domains—gravitational thermodynamics, biological metabolism, quantum coherence transitions,
 
 $$
 \rho^* = \frac{4\pi \varphi^2}{10} \approx 3.29,
 $$
 
-where $\varphi = \frac{1+\sqrt{5}}{2}$ is the golden ratio. This value yields a natural [critical threshold](/a-constraint-eigenvalue-theory-of-information-matter-and-mind):
+where $\varphi = \frac{1+\sqrt{5}}{2}$ is the golden ratio. This value yields a natural [critical threshold](/a-constraint-eigenvalue-theory-of-information-matter-and-mind),
 
 $$
 \eta_c = \frac{1}{\rho^*} \approx 0.304.
 $$
 
-In my earlier work, the same constant emerged in models of stellar collapse and quantum coherence, suggesting—though not yet proving—a cross-domain role for this parameter. Above this threshold, systems appear to lose the ability to sustain informational structure.
+In my earlier work, the same constant emerged in models of [stellar collapse](/binding-energy-critical-radii-and-information-maintenance-tax) and [quantum coherence](/pentagonal-constraints-and-quantum-computing), suggesting a cross-domain role for this parameter. Above this threshold, systems appear to lose the ability to sustain informational structure.
 
 Below the threshold, the system can reorganize information at a rate lower than the cost of maintaining coherence. Above the threshold, maintenance overtakes capacity, and the system collapses into a lower-dimensional attractor—whether that attractor is a neutron star core, a decohered quantum processor, or a failed plasma configuration. The fusion engine operates precisely in the subcritical band where informational pressure amplifies but does not diverge.
 
-For a quantum fusion engine, this threshold would define a natural operating envelope if this conjectured universality holds. The system must remain below $\eta_c$ to avoid collapse, yet close enough that informational pressure becomes significant. A practical band is:
+For a quantum fusion engine, this threshold would define a natural operating envelope if this conjectured universality holds. The system must remain below $\eta_c$ to avoid collapse, yet close enough that informational pressure becomes significant. A practical band is
 
 $$
 0.10 \lesssim \eta < 0.25.
