@@ -182,6 +182,8 @@ $$
 
 with efficiency decreasing as systems operate further from their Schwarzschild radius. Maximum entropy of black holes reflects pure information maintenance—all available energy dedicated to pattern preservation with zero excess capacity.
 
+Recent observations of the tidal disruption event AT2020afhd provide an empirical window into this regime[^8]. The system exhibits synchronized X-ray and radio oscillations persisting over many dynamical times, consistent with Lense–Thirring precession driven by black hole spin. Angular momentum information remains coherently encoded in boundary geometry across extended timescales—behavior consistent with the information maintenance saturation expected as $\eta \to 1$. That such coherence emerges naturally in the strong-field limit suggests the dimensional reduction and boundary processing architecture may be generic features of gravitational information storage.
+
 Critical mass phenomena mark bankruptcy thresholds. White dwarfs approaching the Chandrasekhar limit see the dissipation coefficient diverge through the saturating form,
 
 $$
@@ -214,7 +216,7 @@ $$
 \dot{I}_{\text{max}} = f_P \times \frac{R_S}{R} \approx 1.855 \times 10^{43} \times \frac{R_S}{R} \text{ bits/second},
 $$
 
-for its mass and size. Prime qubit counts should show enhanced efficiency from resonance avoidance[^8], while [golden ratio timing relationships](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) minimize decoherence through the $\varphi$-sector's maximal irrationality.
+for its mass and size. Prime qubit counts should show enhanced efficiency from resonance avoidance[^9], while [golden ratio timing relationships](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) minimize decoherence through the $\varphi$-sector's maximal irrationality.
 
 **Structure formation energetics**: Galaxy formation simulations miss approximately 5% of the energy budget from maintenance costs. The missing energy follows,
 
@@ -248,4 +250,6 @@ This thermodynamic interpretation suggests gravity itself may emerge from inform
 
 [^7]: Hawking, S. W. (1975). Particle creation by black holes. *Communications in Mathematical Physics*, 43(3), 199-220.
 
-[^8]: Avila, A., & Jitomirskaya, S. (2009). The ten martini problem. *Annals of Mathematics*, 170(1), 303-342.
+[^8]: Pasham, D. R., et al. (2025). Synchronized X-ray and radio variability from the tidal disruption event AT2020afhd consistent with Lense–Thirring precession. *Science Advances*, 11(49), eady9068.
+
+[^9]: Avila, A., & Jitomirskaya, S. (2009). The ten martini problem. *Annals of Mathematics*, 170(1), 303-342.
