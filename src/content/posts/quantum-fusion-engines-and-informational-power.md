@@ -2,6 +2,30 @@
 title: 'Quantum Fusion Engines & Informational Power'
 description: "At high temperatures, matter becomes informational substrate. Constraining information flow through plasma creates pressure, and reorganizing microstates can exceed fusion output."
 pubDate: '2025-12-08'
+zenodoDepositionId: 17981558
+zenodoUrl: "https://zenodo.org/records/17981558"
+doi: "10.5281/zenodo.17981558"
+keywords:
+  - "fusion energy"
+  - "information thermodynamics"
+  - "Landauer principle"
+  - "plasma physics"
+  - "holographic principle"
+  - "quantum control"
+  - "energy extraction"
+  - "constraint geometry"
+  - "dissipation threshold"
+  - "speculative physics"
+zenodoDescription: |
+  This speculative paper proposes that at sufficiently high temperatures, matter behaves as an informational substrate where microstate transitions carry significant energetic cost via Landauer's principle. It outlines a conceptual "quantum fusion engine" architecture that would extract usable power from controlled phase-space reorganization in fusion-scale plasmas.
+
+  The motivating observation: during white dwarf collapse to Type Ia supernovae, the phase-space reorganization (~4.5×10⁵⁸ bits) at plasma temperature (~10⁹ K) yields a Landauer cost of ~4.3×10⁴⁴ J—matching observed supernova energies. This suggests informational reorganization may be a co-contributor alongside nuclear burning, not a negligible correction.
+
+  The proposed engine operates through four principles: (1) Landauer's principle assigns ~10⁻¹⁴ J per bit at fusion temperatures; (2) holographic constraints make boundary geometry a thermodynamic instrument; (3) informational pressure emerges when boundaries restrict accessible phase space; (4) the conjectured dissipation threshold η_c ≈ 0.304 defines a stability envelope. The architecture uses pentagonal dodecahedron boundaries with golden-ratio spacing to suppress specific microstate families, quantum control at millikelvin temperatures for cheap erasures, and maintains η ≈ 0.15 in the stable band.
+
+  Scaling estimates suggest 1 GW requires ~10²³ bits/s informational flux—within reach of turbulent plasmas. A prototype module producing 50 MW fusion could extract an additional 10 MW from informational reorganization. The enormous temperature gradient (10⁹ K core to 10 K control layer) provides leverage: erasures cost megawatts at core temperature but watts at control temperature.
+
+  This framework is explicitly speculative—it proposes engineering applications of the constraint eigenvalue geometry without experimental validation. The development trajectory spans near-term boundary modifications (2025-2035), mid-term quantum control integration (2035-2060), and long-term pre-collapse amplification regimes (post-2060). The paper connects Landauer's principle, holographic bounds, dissipation thresholds, and gravitational thermodynamics as potentially emerging from the same underlying structure.
 ---
 
 ## Abstract

@@ -125,7 +125,27 @@
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 2em 0;
+  margin: 2em auto;
+  border-radius: 6px;
+}
+
+/* Scientific figure images - centered with max-width */
+.prose p>img {
+  max-width: min(100%, 640px);
+  margin: 2em auto 0.5em auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5em;
+  background: var(--background);
+}
+
+/* Figure captions - em directly after img in same paragraph */
+.prose p>img+em {
+  display: block;
+  text-align: center;
+  font-size: 0.8em;
+  color: var(--text-secondary);
+  margin-top: 0.5em;
 }
 
 .img-placeholder {
@@ -143,6 +163,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -163,21 +184,15 @@
   text-align: center;
 }
 
-.prose p > img {
-  position: relative;
-  margin-bottom: 2em;
-}
-
-.prose p > img::after {
-  content: attr(alt);
+/* Image caption helper class */
+.prose .img-alt-caption {
   display: block;
-  position: absolute;
-  left: 0;
-  width: 100%;
   text-align: center;
   color: var(--text-secondary);
   font-size: var(--font-size-s);
-  margin-top: 0.75em;
+  font-style: italic;
+  margin-top: -1.5em;
+  margin-bottom: 2em;
 }
 
 .prose .img-caption {
@@ -246,7 +261,7 @@
   margin-bottom: 0;
 }
 
-.prose ul li > ul {
+.prose ul li>ul {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
@@ -357,7 +372,7 @@
   opacity: 0.55;
 }
 
-.prose ul.contains-task-list li.task-list-item input[type='checkbox'] + * {
+.prose ul.contains-task-list li.task-list-item input[type='checkbox']+* {
   display: inline;
   margin-left: 0;
   line-height: 1.75;
@@ -498,7 +513,7 @@
   }
 }
 
-.prose pre > code {
+.prose pre>code {
   font-family: var(--mono);
   font-feature-settings:
     'liga' 0,
@@ -515,7 +530,7 @@
   border-radius: 0;
 }
 
-.prose pre > code * {
+.prose pre>code * {
   font-size: var(--font-size-s);
 }
 
@@ -557,6 +572,7 @@
 
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
+
   .katex,
   .katex * {
     color: inherit;

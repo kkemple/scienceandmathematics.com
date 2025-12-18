@@ -2,6 +2,30 @@
 title: 'Information-Theoretic Constraints on Sociotechnical Systems'
 description: "Derives universal speech rates, biological maintenance ceilings, and the 30 percent coordination bankruptcy threshold by applying Landauer physics to human organizations."
 pubDate: '2025-10-16'
+zenodoDepositionId: 17981114
+zenodoUrl: "https://zenodo.org/records/17981114"
+doi: "10.5281/zenodo.17981114"
+keywords:
+  - "information theory"
+  - "speech rate"
+  - "biomechanics"
+  - "organizational theory"
+  - "Dunbar number"
+  - "metabolic scaling"
+  - "coordination costs"
+  - "phase transitions"
+  - "complexity"
+  - "thermodynamics"
+zenodoDescription: |
+  This paper derives three quantitative results from information-theoretic first principles and examines their application to biological and organizational systems, distinguishing rigorous derivations from speculative extensions.
+
+  The first result: universal speech rate (~39 bits/second) emerges from tissue biomechanics. Tongue mass (~70g) moving against viscous resistance gives mechanical timescale τ ≈ 0.1s, yielding maximum phoneme rate ~6.7/s. Combined with optimal phoneme inventory (~40, consistent with 567-language cross-linguistic data), this predicts ~36 bits/s—within 8% of the empirically observed 39.15 ± 0.39 bits/s across all studied languages. Recent validation across 668 recordings in 48 languages confirms syllable rate peaks at 6.77 Hz, within 1% of prediction.
+
+  The second result: biological maintenance overhead ceiling at η_bio ~ 0.1. The human brain (20W for 1.4kg) operates at 10× body-average power density, representing maximum sustainable pattern maintenance while retaining adaptive capacity. This matches the dissipation hierarchy from particles (10⁻⁶) through atoms (10⁻³) to biological systems (10⁻¹).
+
+  The third result: organizational bankruptcy threshold at η_c = 1/ρ* ≈ 0.304. The complexity multiplier (1-η)^{-ρ*} with ρ* ≈ 3.29 diverges at ~30% coordination overhead. The framework predicts failure timescales from characteristic organizational periods and overhead levels.
+
+  We distinguish these first-principles results from speculative extensions: Dunbar's number (~150), market phase transitions, and civilizational convergence patterns are consistent with information-theoretic constraints but involve multiple contributing factors and lack parameter-free derivation. Maintaining this distinction—between rigorous derivation and suggestive phenomenology—keeps the analysis honest while exploring potentially deep connections.
 ---
 
 Human organizations process information under physical constraints. Not metaphorically—literally. Every decision requires minimum energy to specify, every communication channel has measurable bandwidth, every coordination structure exhibits quantifiable overhead. The same information theory governing [computational speed limits](/the-thermodynamic-computational-speed-limit) and [binding energy as maintenance tax](/binding-energy-critical-radii-and-information-maintenance-tax) makes quantitative predictions about biological and organizational behavior.

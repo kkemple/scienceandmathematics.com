@@ -2,6 +2,30 @@
 title: 'Computational Spacetime & the Rayleigh-Jeans Resolution'
 description: "Explains the Rayleigh-Jeans catastrophe by treating spacetime as a Planck-rate computational lattice that bounds modes and ties Maxwell's equations to information flow."
 pubDate: '2025-10-08'
+zenodoDepositionId: 17981060
+zenodoUrl: "https://zenodo.org/records/17981060"
+doi: "10.5281/zenodo.17981060"
+keywords:
+  - "Rayleigh-Jeans catastrophe"
+  - "ultraviolet catastrophe"
+  - "Planck scale"
+  - "holographic principle"
+  - "discrete spacetime"
+  - "black body radiation"
+  - "quantum statistics"
+  - "information theory"
+  - "Bose-Einstein statistics"
+  - "Lorentz invariance"
+zenodoDescription: |
+  This paper proposes a computational interpretation of the ultraviolet catastrophe, suggesting that the Rayleigh-Jeans divergence signals infinite information requests from finite computational substrate, with resolution emerging from discrete spacetime structure at the Planck scale.
+
+  The classical catastrophe is well-established: the Rayleigh-Jeans formula u(ν,T) = 8πν²kT/c³ diverges upon frequency integration. We reframe this as an information-theoretic inconsistency: classical physics demands infinite communication channels (modes) in finite space, violating the holographic bound.
+
+  The proposed resolution treats spacetime as a discrete voxel lattice at Planck scale ℓ_P = 1.616 × 10⁻³⁵ m operating at fundamental clock rate f_P = 1.855 × 10⁴³ Hz. Three constraints resolve the divergence: (1) Nyquist sampling limits modes to ν_max = f_P/2; (2) holographic bounds restrict total information to N_bits ≤ A/(4ℓ_P²); (3) voxel dynamics generate Bose-Einstein statistics with natural high-frequency suppression.
+
+  We note that this framework recovers Planck's law and offers interpretive perspective on related phenomena: Maxwell's equations as information conservation on the lattice; dimensional reduction near horizons as curvature optimization; the factor-of-2 from dual chiral sectors matching independent thermodynamic calculations.
+
+  Observable predictions include Lorentz violation at Planck energies (photon dispersion v_g = c[1 - α(E/E_P)²]), discrete spectra at extreme energies, and modified black body radiation near Planck temperature. These remain beyond current experimental reach. The framework is speculative—the voxel lattice is a model, not established physics—but offers a coherent perspective connecting quantum statistics, black hole thermodynamics, and holography through computational limits.
 ---
 
 In 1900, the Rayleigh-Jeans law predicted infinite energy density at high frequencies—every cavity should radiate infinite power, every object should instantly vaporize. The classical calculation was mathematically sound yet physically absurd. Planck's quantum hypothesis resolved the crisis, but a deeper question remained: *why does nature impose this specific cutoff?*

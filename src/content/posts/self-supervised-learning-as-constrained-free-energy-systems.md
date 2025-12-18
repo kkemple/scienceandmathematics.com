@@ -2,6 +2,30 @@
 title: 'Self-Supervised Learning as Constrained Free-Energy Systems'
 description: "Explains why self-supervised methods share 'magic numbers' by modeling representation learning as thermodynamically constrained free-energy minimization with strict coherence budgets."
 pubDate: '2025-11-17'
+zenodoDepositionId: 17981216
+zenodoUrl: "https://zenodo.org/records/17981216"
+doi: "10.5281/zenodo.17981216"
+keywords:
+  - "self-supervised learning"
+  - "free energy principle"
+  - "representation learning"
+  - "neural networks"
+  - "thermodynamics"
+  - "DINO"
+  - "VICReg"
+  - "contrastive learning"
+  - "collapse prevention"
+  - "machine learning theory"
+zenodoDescription: |
+  This paper proposes that self-supervised learning methods are physical systems minimizing free energy under representational constraints, explaining why diverse approaches (VICReg, DINO, SimCLR, BYOL, Barlow Twins, JEPA) converge on similar hyperparameter ranges despite different theoretical motivations.
+
+  The framework decomposes total free-energy deviation as F[q_t] - F* = κ + CD(t), where κ represents irreducible structural costs from architectural constraints and CD(t) measures dynamic misalignment. Training succeeds when gradient flow reduces CD(t) faster than constraints inflate κ. Organizational overhead η—the fraction of capacity consumed by coherence maintenance—must remain below a critical threshold η_c for stable representations.
+
+  Documented empirical phenomena receive unified interpretation: variance-collapse universality (all SSL methods fail when embedding variance approaches zero); momentum convergence (BYOL, DINO, MoCo independently discover m ≈ 0.996, creating timescale τ = 1/(1-m) ≈ 250 steps matching characteristic relaxation times); batch size scaling (SimCLR requires ~4096 samples for manifold percolation); and depth thresholds (transformers exhibit emergent capabilities around 10-12 layers). These narrow ranges suggest underlying constraint boundaries.
+
+  Each method implements the same physics through different mechanisms: VICReg's variance/covariance terms maintain dimensional spread; DINO's momentum creates timescale separation for stable reference tracking; SimCLR's negative samples ensure manifold coverage; BYOL's predictor breaks symmetry; Barlow Twins' decorrelation reduces redundancy; JEPA's prediction horizon enables recursive temporal coherence. All keep organizational overhead subcritical.
+
+  The paper connects to the constraint eigenvalue framework's triplet structure (π, β, N), proposing that SSL systems realize some triplet—whether matching the physical eigenbranch (π, φ, 10) or architecture-specific values remains an open question the framework helps sharpen. The convergence of independent research groups on similar thresholds suggests they discovered the same constraint geometry through different optimization paths.
 ---
 
 Set DINO's momentum to 0.9 instead of 0.996. Training begins normally. Loss decreases, representations form, validation metrics look reasonable. Then, between epochs 15 and 20, something breaks. All embeddings collapse to a single point. Representations die. The model becomes useless. Why does changing 0.996 to 0.9—a 0.4% shift—destroy everything?

@@ -2,6 +2,30 @@
 title: 'Bounded Reflexivity & Constraint Theory'
 description: "Reframes Soros-Keynes reflexivity through physical, informational, balance-sheet, and institutional constraints that set predictable breaking points for modern markets."
 pubDate: '2025-11-04'
+zenodoDepositionId: 17981199
+zenodoUrl: "https://zenodo.org/records/17981199"
+doi: "10.5281/zenodo.17981199"
+keywords:
+  - "reflexivity"
+  - "market dynamics"
+  - "constraint theory"
+  - "phase transitions"
+  - "network topology"
+  - "financial markets"
+  - "coordination"
+  - "liquidity"
+  - "information theory"
+  - "econophysics"
+zenodoDescription: |
+  This paper extends Soros's reflexivity theory and Keynes's beauty contest by embedding them within a constraint architecture that transforms reflexive markets from unpredictable systems into environments with measurable boundaries and phase transitions.
+
+  Reflexive dynamics—feedback between market perceptions and reality—operate within nested constraint layers: physical constraints (liquidity depth, balance sheet capacity), information-theoretic constraints (coordination costs, common knowledge requirements), institutional constraints (fiduciary mandates, risk frameworks), limits to arbitrage (capital constraints preventing efficient correction), and network topology (percolation thresholds determining contagion pathways). The interaction of these layers creates predictable breaking points.
+
+  The paper develops a field-theoretic framework where markets move along gradients in constraint and information fields, with a "frustration spread" quantifying when coordination exceeds understanding—the geometry of fragility. Four recurring constraint archetypes are identified: State-Platform Coupling, Synthetic Leverage Opacity, Third-Party Opaqueness, and Narrative Swarm Meets Market Plumbing. Historical analysis of the dot-com bubble (lock-up constraint binding) and 2008 crisis (network percolation threshold) demonstrates retrospective predictive power.
+
+  Novel contributions include: "constraint capital" (float as geometric advantage eliminating forced-seller positions), "buyer-side curvature" (internal constraint accumulation forcing migration), and "institutional alpha as curvature dynamics" (persistent performance differences explained by curvature-shedding rates). The framework connects to econophysics research showing financial markets exhibit phase transitions in the same universality class as Ising models.
+
+  A prospective constraint analysis of the AI infrastructure boom identifies binding physical bottlenecks (HBM, power grid, transformers, specialty wafers) and predicts capital coordination patterns as ROI constraints tighten. The framework generates testable predictions about regime shifts without requiring psychological forecasting—constraints determine boundaries while expectations determine paths within those boundaries.
 ---
 
 ## Abstract

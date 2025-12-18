@@ -571,7 +571,18 @@ function generatePdf(
   const abstract = frontmatter.zenodoDescription || frontmatter.description;
 
   // Remove frontmatter from content
-  const content = markdown.replace(/^---[\s\S]*?---\n*/, "");
+  let content = markdown.replace(/^---[\s\S]*?---\n*/, "");
+
+  // Convert local images to absolute paths, strip external URLs
+  content = content.replace(/!\[(.*?)\]\((.*?)\)/g, (match, alt, url) => {
+    // Keep local images (convert /images/ to ./public/images/)
+    if (url.startsWith("/images/")) {
+      const absolutePath = path.resolve(process.cwd(), "public" + url);
+      return `![${alt}](${absolutePath})`;
+    }
+    // Strip external URLs (can cause LaTeX errors)
+    return "";
+  });
 
   // Create temp directory for pandoc work
   const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "zenodo-pdf-"));
@@ -600,6 +611,13 @@ header-includes:
   - \\usepackage{amsmath}
   - \\usepackage{amssymb}
   - \\usepackage{amsthm}
+  - \\usepackage{graphicx}
+  - \\usepackage{float}
+  - \\usepackage[font=small,labelfont=bf,justification=centering]{caption}
+  - \\setkeys{Gin}{width=0.6\\textwidth,keepaspectratio}
+  - \\makeatletter
+  - \\def\\fps@figure{H}
+  - \\makeatother
 ---
 
 *Originally published at: ${SITE_URL}/${slug}/*

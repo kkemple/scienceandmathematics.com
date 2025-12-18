@@ -2,6 +2,32 @@
 title: 'Binding Energy, Critical Radii, & Information Maintenance Tax'
 description: "Connects Landauer limits, binding energy, and white dwarf collapse to show every organized system pays an information maintenance tax with measurable bankruptcy radii."
 pubDate: '2025-10-14'
+zenodoDepositionId: 17981100
+zenodoUrl: "https://zenodo.org/records/17981100"
+doi: "10.5281/zenodo.17981100"
+keywords:
+  - "Landauer principle"
+  - "binding energy"
+  - "white dwarf"
+  - "Chandrasekhar limit"
+  - "information theory"
+  - "thermodynamics"
+  - "Type Ia supernova"
+  - "organizational complexity"
+  - "critical phenomena"
+  - "black hole thermodynamics"
+zenodoDescription: |
+  This paper proposes that binding energies across all scales—nuclear, electromagnetic, gravitational—represent ongoing thermodynamic maintenance costs against entropy, following from Landauer's principle (E = k_B T ln 2 per bit).
+
+  The framework predicts force-specific "bankruptcy radii" where maintenance equals total energy: QCD confinement at ~1 fm, electromagnetic at the classical electron radius (~2.8 × 10⁻¹⁵ m), and gravitational at the Schwarzschild radius. A complexity multiplier M(η,d) = φ^{2^{d-2}} × (1-η)^{-ρ*} quantifies organizational overhead, where ρ* ≈ 3.29 is the proposed universal exponent.
+
+  White dwarf trajectories toward the Chandrasekhar limit provide empirical test. We analyze the complete trajectory from stable configurations (η ~ 0.07) to collapse (η ~ 0.97), finding geometric compression increases by factor 2.2 while organizational complexity explodes by factor 2200—a 1000-fold disparity suggesting information bankruptcy drives instability. Analysis of 18,937 white dwarfs identifies R/R_S = 10³ as the basin of attraction threshold with statistical significance p = 0.0015.
+
+  The framework yields a quantitative prediction: Type Ia supernova energy equals the Landauer cost of reorganizing phase space information from electron to neutron degeneracy. Counting bits (ΔN ≈ 4.5 × 10⁵⁸) at shock temperature (T ~ 10⁹ K) gives E = 4.3 × 10⁴⁴ J—matching observed supernova energies. This exact correspondence, if not coincidental, validates that binding encodes maintenance costs.
+
+  Additional predictions include gravitational wave memory effects from information topology reorganization, primordial black hole equilibrium at lunar mass, and quantum computing limits scaling with R_S/R. The biological efficiency ceiling at η ~ 0.1 (consistent with brain metabolism) suggests universal constraints on self-organizing systems.
+
+  The interpretation—binding as thermodynamic tax—is speculative but generates falsifiable predictions across 57 orders of magnitude from particles to galaxies.
 ---
 
 Every atom in your body pays continuous energy to maintain its structure against entropy. Nuclear binding energy, chemical bonds, gravitational self-energy—these represent ongoing thermodynamic costs, an information maintenance tax that all organized systems pay to resist dissolution into thermal chaos.

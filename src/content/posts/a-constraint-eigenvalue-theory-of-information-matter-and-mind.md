@@ -2,6 +2,32 @@
 title: 'A Constraint Eigenvalue Theory of Information, Matter, and Mind'
 description: "Develops a unified constraint eigenvalue geometry showing how pi, phi, and decade invariants govern coherence from quantum transport to civilizational dynamics."
 pubDate: '2025-11-28'
+zenodoDepositionId: 17981275
+zenodoUrl: "https://zenodo.org/records/17981275"
+doi: "10.5281/zenodo.17981275"
+keywords:
+  - "information theory"
+  - "constraint geometry"
+  - "golden ratio"
+  - "phase transitions"
+  - "thermodynamics"
+  - "black holes"
+  - "consciousness"
+  - "renormalization group"
+  - "dissipation"
+  - "complexity"
+zenodoDescription: |
+  This monograph develops a unified theoretical framework proposing that physical, biological, cognitive, and sociotechnical systems emerge as different regimes of a single variational principle governing constrained information flow. The central thesis: coherent systems must maintain structure against entropy while operating under finite energetic, geometric, and computational resources, and these constraints define a curvature geometry whose stationary points organize into a universal triplet architecture (π, β, N).
+
+  The constraint functional F[P] encodes three curvature costs: angular bending (π-sector, isotropic closure), log-radial bending (β-sector, recursive scaling), and discrete frustration (N-sector, structural resonance). Minimization under normalization and entropy constraints produces the Euler-Lagrange equation defining admissible information distributions. Different eigenbranches correspond to different (β, N) values—Penrose (π, φ, 10), Ammann-Beenker (π, 1+√2, 8), dodecagonal (π, 2+√3, 12)—yet all share the same ~1/3-2/3 curvature budget: one-third to structural constraints, two-thirds to degrees of freedom.
+
+  The decagonal eigenbranch (π, φ, 10) yields composite invariant 4πφ² ≈ 32.9 and critical exponent ν = 1/ρ* = 0.304. The dissipation field η—measuring energy devoted to information maintenance—organizes into a decade-structured ladder: particles (η~10⁻⁶), atoms (~10⁻³), molecules (~10⁻²), biological systems (~10⁻¹), black holes (η=1). This hierarchy emerges from an RG β-function containing the composite invariant.
+
+  Applications span sixty orders of magnitude. Spacetime as Planck-scale voxel lattice resolves the UV catastrophe as channel overload. Black holes saturate storage/processing limits with the Landauer-Bekenstein-Hawking factor of 2 arising from dimensional reduction (3→2 near horizons, scale factor √φ). White dwarf collapse data shows quantitative correspondence—the calculated supernova energy of 4.3×10⁴⁴ J matches observations, derived from Landauer costs of information reorganization. Harper-Hofstadter spectra exhibit decade partitions at α ≈ 0.329 and 0.671. The cosmological matter-dark energy split (Ωₘ ≈ 0.31, ΩΛ ≈ 0.69) clusters near the predicted 1/3-2/3 budget.
+
+  Biological systems occupy η ≈ 0.1 where complexity supports adaptation without exhausting metabolic capacity. Consciousness is proposed as constraint projection: using finite metabolic energy to bias microscopic trajectories toward coherence. Civilizations inherit these constraints through networks of biological processors, with coordination overhead approaching collapse at ηc ≈ 0.304.
+
+  The framework's deepest claim: curvature is complexity, and nature contains no hard boundaries because infinite curvature requires infinite maintenance cost. Smooth manifolds, soft thresholds, and asymptotic approaches are geometric necessities under finite resources. This geometry of coherence is proposed as the deep structure of information, matter, and mind.
 ---
 
 *A unified variational framework for coherence across scales.*
@@ -655,13 +681,13 @@ The experimental platforms discussed above—polariton condensates, synthetic fl
 
 Researchers grew decagonal quasicrystals in Al₇₉Co₆Ni₁₅ alloys in the presence of shrinkage pores and voids acting as rigid obstacles[^72]. Using in-situ synchrotron X-ray tomography combined with molecular dynamics simulations, they observed that the quasicrystal grew smoothly around these obstacles—regardless of pore size or geometry—without introducing any structural defects. The long-range quasicrystalline order remained intact throughout the engulfment process.
 
-![Decagonal quasicrystal growth around obstacles](https://ars.els-cdn.com/content/image/1-s2.0-S1631070513001400-gr003.jpg)
-
-![Phasonic flexibility in quasicrystal structures](https://physics.aps.org/assets/10.1103/Physics.18.171/figure/1/thumb)
-
-![Defect-free encapsulation of voids by quasicrystalline growth](https://ars.els-cdn.com/content/image/1-s2.0-S104458032300685X-ga1.jpg)
+![Decagonal quasicrystal structure showing tenfold rotational symmetry and recursive tiling patterns characteristic of the (π, φ, 10) eigenbranch](/images/quasicrystals/quasicrystal-growth.png)
+*Decagonal Al–Co–Ni quasicrystal structure. Adapted from Boudard et al., [Comptes Rendus Physique](https://doi.org/10.1016/j.crhy.2013.09.003) (2014).*
 
 The mechanism enabling this defect-free growth is phasonic flexibility. Quasicrystals possess phasonic degrees of freedom—internal rearrangements unique to aperiodic structures—that allow local reconfiguration without breaking global symmetry[^73]. Unlike phonons (which represent elastic displacements preserving lattice structure), phasons correspond to collective atomic rearrangements that alter the phase of the density wave describing the quasicrystal[^73]. When a growing quasicrystal encounters an obstacle, it can perform local phason flips and relaxations to accommodate the disruption while maintaining the global $C_{10}$ rotational symmetry and $\varphi$-recursive scaling.
+
+![Phasonic flexibility enables quasicrystals to redistribute curvature locally while preserving global C₁₀ symmetry—the physical implementation of constraint projection](/images/quasicrystals/phasonic-flexibility.png)
+*Phasonic flexibility in quasicrystals. Image courtesy [APS Physics](https://physics.aps.org/articles/v18/171), adapted from Franke et al., Phys. Rev. Lett. (2025).*
 
 This behavior provides a materials-level validation of the constraint eigenvalue geometry's flexibility. The constraint manifold defined by $(\pi, \varphi, 10)$ is not a rigid structure but rather a **geometric attractor**: systems can explore a range of local configurations (phasonic microstates) while remaining bound to the same global constraint geometry. The curvature budget introduced in Section 3.2 applies not only to the global allocation (∼1/3 structural, ∼2/3 DOF) but also to local dynamics—phasonic rearrangements redistribute curvature locally to avoid defect formation, while the global budget remains conserved.
 
@@ -670,6 +696,9 @@ This behavior provides a materials-level validation of the constraint eigenvalue
 **Connection to Section 4.2 ($\varphi$-sector):** Phason strain enables the quasicrystal to locally adjust the inflation–subdivision balance while preserving the global fixed point $\varphi$. During growth around an obstacle, the system may temporarily deviate from perfect $\varphi$-recursive scaling in the immediate vicinity of the pore, but phasonic relaxation restores the recursive eigenvalue over longer length scales. This is precisely the behavior expected from a system minimizing the log-radial curvature functional $\int(\partial_{\log r}\ln P)^2P\,\mathrm{d}A$: local perturbations are smoothed out through scale-dependent rearrangements that maintain self-similarity in the thermodynamic limit.
 
 **Implications for materials synthesis:** The defect-free engulfment mechanism suggests that phasonic flexibility is a universal feature of aperiodic solids[^72]. This opens a practical pathway for synthesizing large-scale, single-domain quasicrystals from liquid metal precursors, even in the presence of unavoidable nucleation sites or impurities. Traditional periodic crystals would form grain boundaries or dislocations when growing around obstacles; quasicrystals avoid this fate through phasonic adaptation. From an information-theoretic perspective, phasons provide additional channels for dissipating local entropy without disrupting global information content—the quasicrystal can "route around" obstacles in configuration space while staying on the constraint manifold.
+
+![Defect-free encapsulation of voids during quasicrystal growth—phasonic rearrangements redistribute strain while maintaining long-range order](/images/quasicrystals/defect-free-encapsulation.png)
+*Defect-free encapsulation during quasicrystal growth. Adapted from Wang et al., [Acta Materialia](https://doi.org/10.1016/j.actamat.2023.119485) (2024).*
 
 **Experimental validation across platforms:** The convergence of engineered quantum systems (polariton condensates on Penrose lattices, synthetic flux mechanical oscillators) and naturally grown bulk materials (Al–Co–Ni decagonal quasicrystals) on the same $\pi$–$\varphi$–$10$ eigenvalue skeleton strongly supports the interpretation that the constraint eigenvalue geometry reflects fundamental organizational principles of coherent matter, independent of substrate or formation mechanism. Studies using in-situ high-temperature transmission electron microscopy have revealed that Al–Ni–Co quasicrystal growth proceeds through frequent error-and-repair processes[^74], with phasonic relaxation enabling the system to correct local mistakes and converge onto nearly perfect quasicrystalline order. This error-correction capability, mediated by phasonic strain, further demonstrates that the constraint manifold acts as a dynamical attractor rather than a static configuration.
 

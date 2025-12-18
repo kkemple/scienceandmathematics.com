@@ -2,6 +2,30 @@
 title: 'Complex Adaptable Systems, Complexity Ladders, & Agency'
 description: "Traces a universal four-step complexity ladder from quantum fields to biology, showing why agency emerges only near the eta ~ 0.1 thermodynamic sweet spot."
 pubDate: '2025-10-18'
+zenodoDepositionId: 17981164
+zenodoUrl: "https://zenodo.org/records/17981164"
+doi: "10.5281/zenodo.17981164"
+keywords:
+  - "complexity"
+  - "emergence"
+  - "agency"
+  - "genetic code"
+  - "thermodynamics"
+  - "biological systems"
+  - "organizational hierarchy"
+  - "constraints"
+  - "degrees of freedom"
+  - "information theory"
+zenodoDescription: |
+  This paper proposes that complexity builds through a universal four-step ladder—Constraints → Structure → Invariance → Emergence—recursively applied at each scale from quantum fields to biological systems. Agency emerges only when accumulated organizational overhead reaches η ~ 0.1.
+
+  The ladder operates identically across scales: quantum fields produce particles, particles produce atoms, atoms produce molecules, molecules produce biology. Each emergence becomes constraints for the next level. The decade-structured dissipation hierarchy (η ~ 10⁻⁶ particles, 10⁻³ atoms, 10⁻² molecules, 10⁻¹ biology) reflects successive ladder completions.
+
+  A striking empirical correspondence appears in the genetic code. DNA's 4-base, 3-letter codon system encodes 21 outcomes (20 amino acids + stop) from 64 possibilities. The minimum fraction 21/64 = 32.81% and redundant fraction 43/64 = 67.19% match the theoretical decade partition (32.9%/67.1%) within 0.3%. The 21 outcomes represent emerged structure; the 43 redundant codons represent capacity for evolutionary exploration. Alternative configurations (2-base, 3-base, 5-base systems) fail to achieve this ~67% redundancy—the observed 4-base/3-letter system appears uniquely optimal.
+
+  Agency requires the η ~ 0.1 thermodynamic "sweet spot": sufficient complexity for goal-directed navigation, sufficient remaining energy to execute it. The human brain (20W for 1.4kg) operates at this ceiling. Below η ~ 0.05, insufficient complexity prevents navigation. Above η ~ 0.15, excessive maintenance consumes capacity. This explains why quantum systems, atoms, and stars exhibit emergence without agency—they operate far below the threshold.
+
+  The framework predicts current AI (η ~ 10⁻² to 10⁻³) lacks genuine agency; achieving it requires biological-scale organizational depth, not merely larger parameter counts. The recursive ladder is proposed as mathematical necessity: you cannot shortcut from particles to consciousness without completing intermediate scales.
 ---
 
 Complexity builds through identical four-step ladder repeating at every scale. Constraints establish structure, structure generates invariance, invariance enables emergence. The emergence at one scale becomes constraints for the next level—particles emerge from quantum fields and constrain atomic physics, atoms emerge and constrain chemistry, molecules emerge and constrain biology. This recursive climbing continues until systems reach thermodynamic sweet spot at biological scales where maintenance overhead $\eta_{\text{bio}} \sim 0.1$ finally enables agency.

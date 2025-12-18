@@ -2,6 +2,32 @@
 title: "What if Spacetime Isn't So Continuous?"
 description: "Argues continuous spacetime is impossible with finite information, motivating a Planck-scale lattice that reconciles action principles, holography, and thermodynamic computation limits."
 pubDate: '2025-10-10'
+zenodoDepositionId: 17981080
+zenodoUrl: "https://zenodo.org/records/17981080"
+doi: "10.5281/zenodo.17981080"
+keywords:
+  - "discrete spacetime"
+  - "Planck scale"
+  - "holographic principle"
+  - "information theory"
+  - "Landauer principle"
+  - "voxel lattice"
+  - "quantum gravity"
+  - "dimensional reduction"
+  - "renormalization group"
+  - "computational universe"
+zenodoDescription: |
+  This paper argues that continuous spacetime is logically incompatible with the universe's finite information capacity, and develops a discrete 6D voxel lattice model as an alternative framework.
+
+  The argument proceeds from established bounds: Landauer's principle (E_min = k_B T ln 2 per bit) combined with the universe's finite energy (~10⁶⁹ J) implies finite computational capacity. Both thermodynamic and holographic calculations converge on ~10¹²³ bits as the universal information limit. Continuous spacetime would require infinite bits for infinite precision at infinite points—a direct contradiction.
+
+  We propose that spacetime consists of discrete voxels at Planck scale (ℓ_P ≈ 1.6 × 10⁻³⁵ m) updating at Planck frequency (f_P ≈ 1.855 × 10⁴³ Hz). Information resides on voxel boundaries following the holographic bound I = A/(4ℓ_P² ln 2). The self-consistency equation L = U[L] determines the unique lattice structure satisfying isotropy and locality constraints.
+
+  The framework extends to 6D by treating organizational fields—dissipation η and effective dimension d—as genuine coordinates alongside spacetime. Renormalization group flow with beta functions β_η and β_d drives evolution between fixed points: vacuum (η=0, d=3) and black hole (η=1, d=2). Noether's theorem yields a conserved charge from the flow's symmetry.
+
+  Observable predictions include: gravitational corrections from information-processing density; dimensional phase transitions detectable in LISA observations; quantized primordial black hole spectra; and white dwarf cooling anomalies matching predicted exponent ν ≈ 0.304. These remain largely beyond current experimental reach.
+
+  The framework is speculative—the 6D voxel lattice is a theoretical construction, not established physics. The convergence of thermodynamic and holographic bounds on ~10¹²³ bits is suggestive but does not prove discrete structure. We present this as a coherent alternative to continuous spacetime meriting further theoretical and experimental investigation.
 ---
 
 Every measurable property of our universe is finite. Energy is finite ($\approx 10^{69}$ J), matter is finite ($\approx 10^{53}$ kg of baryons), time since the Big Bang is finite ($\approx 13.8$ billion years), and the observable universe is finite ($\approx 46.5$ billion light years). Yet standard field theory assumes continuous spacetime—fields taking infinitely precise values at infinitely many points. This assumption is logically impossible.

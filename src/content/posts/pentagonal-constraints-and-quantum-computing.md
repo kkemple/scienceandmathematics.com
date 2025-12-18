@@ -2,6 +2,30 @@
 title: 'Pentagonal Constraints & Quantum Computing'
 description: "Connects pentagonal frustration, golden-ratio quasi-periodicity, and Fibonacci anyons to concrete quantum computing guidelines for layouts, timing, and error control."
 pubDate: '2025-10-19'
+zenodoDepositionId: 17981179
+zenodoUrl: "https://zenodo.org/records/17981179"
+doi: "10.5281/zenodo.17981179"
+keywords:
+  - "quantum computing"
+  - "Fibonacci anyons"
+  - "golden ratio"
+  - "pentagonal geometry"
+  - "qubit coherence"
+  - "dynamical decoupling"
+  - "Penrose tilings"
+  - "quasicrystals"
+  - "error correction"
+  - "topological quantum computing"
+zenodoDescription: |
+  This paper connects pentagonal geometric frustration, golden-ratio quasi-periodicity, and Fibonacci anyons to practical quantum computing design principles. The fusion rule τ × τ = 1 + τ algebraically forces the quantum dimension d_τ = φ = 1.618... through the equation d² - d - 1 = 0—a mathematical necessity confirmed experimentally at d_τ = 1.598 ± 0.02.
+
+  The strongest empirical support comes from Fibonacci pulse sequences: Dumitrescu et al. demonstrated that quasi-periodic dynamical decoupling following Fibonacci timing extends qubit coherence from 1.5 to 5.5 seconds (3.7× improvement) on trapped-ion hardware. The mechanism—φ being the "hardest irrational to approximate" (Hurwitz's theorem)—maximally separates all resonances, preventing the constructive interference that degrades periodic sequences.
+
+  Additional experimental support includes: exciton-polariton condensates on Penrose tiling lattices exhibiting C₁₀ Bragg spectra and 100× extended coherence; X-ray tomography showing decagonal quasicrystals maintaining order through phason-mediated rearrangements; and independent convergence by IBM and other groups toward topologies minimizing frequency collisions through structures the framework interprets as φ-aligned.
+
+  The paper proposes specific design principles—prime qubit counts to minimize divisor resonances, φ-ratio frequency spacing, Fibonacci temporal protection, prime code distances—and generates testable predictions for current hardware. The constraint eigenvalue framework interprets pentagonal geometry as encoding all three eigenvalue sectors (π, φ, 10), explaining why aperiodic structures exhibit extended coherence: they minimize discrete curvature by maximizing distance from rational approximations.
+
+  The framework predicts a critical coherence threshold at η_c ≈ 0.304; systems approaching this organizational overhead should show rapid coherence degradation. While some predictions are confirmed, others await systematic experimental validation.
 ---
 
 Pentagons cannot tile three-dimensional space. Unlike cubes or tetrahedra, regular pentagons leave gaps when attempting periodic arrangements. The internal angle $108° = 3\pi/5$ doesn't divide $2\pi$ evenly—you need exactly 3.33 pentagons per vertex, not an integer. This geometric frustration makes pentagons impossible for crystal lattices yet essential for aperiodic order.

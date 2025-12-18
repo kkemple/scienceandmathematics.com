@@ -2,6 +2,30 @@
 title: 'Innovation Cycles and Civilizational Renormalization'
 description: "Models innovation eras as renormalization flows where exploitation drives eta toward 0.304, triggering crises that force breakthrough restructurings from agriculture to AI."
 pubDate: '2025-10-18'
+zenodoDepositionId: 17981148
+zenodoUrl: "https://zenodo.org/records/17981148"
+doi: "10.5281/zenodo.17981148"
+keywords:
+  - "innovation cycles"
+  - "civilizational collapse"
+  - "renormalization group"
+  - "phase transitions"
+  - "organizational theory"
+  - "technological change"
+  - "complexity"
+  - "artificial intelligence"
+  - "historical patterns"
+  - "thermodynamics"
+zenodoDescription: |
+  This paper proposes modeling innovation cycles as renormalization group flows where civilizations approach an organizational bankruptcy threshold (η_c ≈ 0.304) through exploitation, triggering phase transitions to new organizational levels. The framework is speculative but generates interesting correspondences across 12,000 years of historical data.
+
+  We identify a five-stage universal cycle: Discovery → Exploitation → Saturation → Crisis → Breakthrough. The complexity multiplier M(η) = (1-η)^{-ρ*} with ρ* ≈ 3.29 diverges at the bankruptcy threshold, forcing reorganization. This same threshold appears in physical systems (white dwarf collapse, biological metabolic limits) suggesting potential universality.
+
+  Historical validation shows cycle duration scaling approximately as t_cycle ∝ 1/η₀²: Fire→Agriculture (290,000 years, η₀~10⁻⁴), Agriculture→Metallurgy (7,000 years, η₀~0.02), Steam→Electricity (180 years, η₀~0.08), Computing→AI (70 years, η₀~0.20). The acceleration pattern—from millennia to decades—follows from higher baseline complexity approaching threshold faster.
+
+  The framework generates falsifiable predictions: 62% probability of AI breakthrough by 2025; post-breakthrough cycle duration ~83 years; delayed breakthrough increases crisis severity. Current crisis signatures (information overload, alignment problems, attention economy breakdown) are interpreted as overhead exceeding productive capacity.
+
+  We emphasize this is exploratory modeling. The correspondences between physical bankruptcy thresholds and civilizational patterns are intriguing but do not prove causation. Historical complexity resists simple quantification; η values are estimated rather than measured. The framework offers a lens for pattern recognition rather than deterministic prediction. Whether civilizational dynamics truly follow the same mathematics as stellar collapse remains an open and fascinating question.
 ---
 
 Human civilization oscillates through predictable cycles—discover new mechanism, exploit through rapid innovation, saturate possibilities until diminishing returns trigger crisis, breakthrough to next level. Fire to agriculture to metallurgy to steam to electricity to computing to artificial intelligence. Each cycle follows identical pattern with accelerating frequency. The mechanism is thermodynamic. Civilizations are [information processing systems](/information-theoretic-constraints-on-sociotechnical-systems) that approach organizational bankruptcy $\eta_c \approx 0.304$ through exploitation, triggering phase transitions to new organizational levels.
