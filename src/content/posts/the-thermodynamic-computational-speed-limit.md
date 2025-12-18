@@ -2,6 +2,31 @@
 title: 'The Thermodynamic Computational Speed Limit'
 description: "Derives the universe's processing ceiling, showing black holes compute at the Planck rate while other systems slow in proportion to their distance from the Schwarzschild radius."
 pubDate: '2025-08-06'
+updatedDate: '2025-12-18'
+zenodoDepositionId: 17979194
+zenodoUrl: "https://zenodo.org/records/17979194"
+doi: "10.5281/zenodo.17979194"
+keywords:
+  - "black hole thermodynamics"
+  - "computational limits"
+  - "Planck scale physics"
+  - "Bekenstein bound"
+  - "holographic principle"
+  - "Landauer's principle"
+  - "information theory"
+  - "Hawking temperature"
+  - "Schwarzschild radius"
+  - "quantum gravity"
+zenodoDescription: |
+  This paper derives fundamental thermodynamic limits on computational processing rates in physical systems, establishing that black holes represent nature's maximum-rate information processors operating at the Planck frequency.
+
+  Starting from Landauer's principle—that erasing one bit of information requires minimum energy kT ln 2—we derive the maximum information processing rate for a system of mass M and radius R. For a black hole at the Schwarzschild radius, this rate evaluates to approximately 10^43 bits per second per solar mass, coinciding precisely with the Planck frequency f_P = √(c^5/ℏG).
+
+  We introduce the concept of force-specific "bankruptcy radii"—characteristic scales where pattern maintenance energy equals available binding energy—showing that gravitational systems follow the universal scaling law İ_max ∝ R_S/R. This framework unifies computational constraints across all force regimes: strong nuclear (QCD confinement scale ~1 fm), electromagnetic (classical electron radius ~10^-15 m), and gravitational (Schwarzschild radius).
+
+  Key results include: (1) Black holes process information at exactly the Planck frequency, saturating the holographic bound of 1 bit per 4 Planck areas; (2) The speed of light emerges as the product of Planck length and Planck frequency, c = ℓ_P × f_P; (3) A universal processing hierarchy spans 40 orders of magnitude, from Planck-scale black holes to ordinary matter, with rates determined by compression relative to the dominant force's bankruptcy radius.
+
+  The analysis suggests information processing as fundamental, with matter, energy, and spacetime emerging from computational constraints at the Planck scale. This perspective inverts traditional physics: binding forces represent the computational cost of maintaining organized patterns against entropy, and the universe computes its own evolution at the maximum rate physics allows.
 ---
 
 The universe has a speed limit for computation. Not just the speed of light limiting signal propagation, but a fundamental bound on how fast any physical system can process information. Black holes saturate this limit. They are nature's maximum-rate computers, processing at the Planck frequency—the fundamental clock rate of spacetime itself. Every other system processes slower, proportionally limited by how far it sits from its own Schwarzschild radius.
@@ -158,12 +183,12 @@ The universe computes its own evolution at the maximum rate physics allows. Blac
 
 [^2]: Hawking, S. W. (1975). Particle Creation by Black Holes. *Communications in Mathematical Physics*, 43(3), 199-220.
 
-[^3]: Mohr, P. J., Newell, D. B., & Taylor, B. N. (2016). CODATA recommended values of the fundamental physical constants: 2014. *Reviews of Modern Physics*, 88(3), 035009. arXiv\:1507.07956.
+[^3]: Mohr, P. J., Newell, D. B., & Taylor, B. N. (2016). CODATA recommended values of the fundamental physical constants\: 2014. *Reviews of Modern Physics*, 88(3), 035009. arXiv\:1507.07956.
 
 [^4]: Margolus, N., & Levitin, L. B. (1998). The maximum speed of dynamical evolution. *Physica D*, 120(1-2), 188-195.
 
 [^5]: Bekenstein, J. D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8), 2333-2346.
 
-[^6]: 't Hooft, G. (1993). Dimensional Reduction in Quantum Gravity. arXiv:gr-qc/9310026.
+[^6]: 't Hooft, G. (1993). Dimensional Reduction in Quantum Gravity. arXiv\:gr-qc/9310026.
 
 [^7]: Lloyd, S. (2000). Ultimate physical limits to computation. *Nature*, 406(6799), 1047-1054.

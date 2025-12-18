@@ -16,13 +16,36 @@ import NeoDBCard from '@/components/ui/NeoDBCard.astro'
 import XPOST from '@/components/ui/XPOST.astro'
 import CopyCode from '@/components/ui/CopyCode.astro'
 import BaseLayout from '@/layouts/BaseLayout.astro'
+import Citation from '@/components/ui/Citation.astro'
 
 import { themeConfig } from '@/config'
 
-const { title, description, pubDate, type, readingTime, toc } = Astro.props as PostLayoutProps
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  type,
+  readingTime,
+  toc,
+  doi,
+  zenodoUrl,
+  authors,
+  keywords,
+  version
+} = Astro.props as PostLayoutProps
 
 const postSlug = Astro.url.pathname.split('/').filter(Boolean).pop() || ''
 const ogImage = `/open-graph/${postSlug}.png`
+
+// Citation metadata helpers
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString()
+const doiUrl = doi ? `https://doi.org/${doi}` : null
+const hasCitationMetadata = !!doi
+// Use authors from frontmatter, or fall back to site author
+const citationAuthors = authors?.length ? authors : [{ name: themeConfig.site.author }]
+// Format date for citation_publication_date (YYYY/MM/DD)
+const citationDate = pubDate.toISOString().split('T')[0].replace(/-/g, '/')
 ---
 
 <BaseLayout title={`${title} · ${themeConfig.site.title}`} description={description} type="post">
@@ -32,21 +55,62 @@ const ogImage = `/open-graph/${postSlug}.png`
     ogImage={ogImage}
     slot="head"
   />
+
+  {/* Highwire / Google Scholar citation meta tags (when DOI present) */}
+  {hasCitationMetadata && (
+    <Fragment slot="head">
+      <meta name="citation_title" content={title} />
+      {citationAuthors.map((author) => (
+        <meta name="citation_author" content={author.name} />
+      ))}
+      <meta name="citation_publication_date" content={citationDate} />
+      <meta name="citation_doi" content={doi} />
+      <meta name="citation_fulltext_html_url" content={canonicalUrl} />
+      <meta name="citation_abstract" content={description} />
+      {keywords?.length && <meta name="citation_keywords" content={keywords.join('; ')} />}
+      <meta name="citation_publisher" content={themeConfig.site.title} />
+      {zenodoUrl && <meta name="citation_pdf_url" content={zenodoUrl} />}
+    </Fragment>
+  )}
+
+  {/* Dublin Core meta tags for broader compatibility (when DOI present) */}
+  {hasCitationMetadata && (
+    <Fragment slot="head">
+      <meta name="DC.title" content={title} />
+      {citationAuthors.map((author) => (
+        <meta name="DC.creator" content={author.name} />
+      ))}
+      <meta name="DC.date" content={pubDate.toISOString().split('T')[0]} />
+      <meta name="DC.identifier" content={doiUrl!} />
+      <meta name="DC.description" content={description} />
+      <meta name="DC.publisher" content={themeConfig.site.title} />
+      <meta name="DC.type" content="Text" />
+      {keywords?.length && <meta name="DC.subject" content={keywords.join('; ')} />}
+    </Fragment>
+  )}
+
+  {/* Schema.org JSON-LD - ScholarlyArticle when DOI present, Article otherwise */}
   <script
     slot="head"
     type="application/ld+json"
     set:html={JSON.stringify({
       '@context': 'https://schema.org',
-      '@type': 'Article',
+      '@type': hasCitationMetadata ? 'ScholarlyArticle' : 'Article',
       headline: title,
       description: description,
+      abstract: hasCitationMetadata ? description : undefined,
       image: new URL(ogImage, Astro.site).href,
       datePublished: pubDate.toISOString(),
-      author: {
+      dateModified: (updatedDate ?? pubDate).toISOString(),
+      url: canonicalUrl,
+      ...(doiUrl ? { identifier: doiUrl, sameAs: doiUrl } : {}),
+      ...(version ? { version: version } : {}),
+      author: citationAuthors.map((author) => ({
         '@type': 'Person',
-        name: themeConfig.site.author,
+        name: author.name,
+        ...(author.orcid ? { identifier: `https://orcid.org/${author.orcid}`, sameAs: `https://orcid.org/${author.orcid}` } : {}),
         url: new URL('/about', Astro.site).href,
-      },
+      })),
       publisher: {
         '@type': 'Organization',
         name: themeConfig.site.title,
@@ -56,6 +120,7 @@ const ogImage = `/open-graph/${postSlug}.png`
         '@type': 'WebPage',
         '@id': Astro.url.href,
       },
+      ...(keywords?.length ? { keywords: keywords } : {}),
     })}
   />
   <div class="post-container">
@@ -79,6 +144,15 @@ const ogImage = `/open-graph/${postSlug}.png`
               )
             }
           </div>
+          {doi && (
+            <Citation
+              title={title}
+              doi={doi}
+              url={canonicalUrl}
+              pubDate={pubDate}
+              authors={authors}
+            />
+          )}
         </div>
         <slot />
       </div>

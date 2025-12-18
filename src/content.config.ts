@@ -1,6 +1,17 @@
 import { glob } from "astro/loaders";
 import { defineCollection, z } from "astro:content";
 
+// Author schema for citation metadata
+const authorSchema = z.object({
+	name: z.string(),
+	orcid: z
+		.string()
+		.regex(/^\d{4}-\d{4}-\d{4}-\d{3}[\dX]$/, {
+			message: "ORCID must be in format: 0000-0000-0000-0000",
+		})
+		.optional(),
+});
+
 const posts = defineCollection({
 	// Load Markdown and MDX files in the `src/content/posts/` directory.
 	loader: glob({ base: "./src/content/posts", pattern: "**/*.{md,mdx}" }),
@@ -20,10 +31,36 @@ const posts = defineCollection({
 				}),
 			// Transform string to Date object
 			pubDate: z.coerce.date(),
+			updatedDate: z.coerce.date().optional(),
 			image: z.string().optional(),
 			type: z
 				.enum(["note", "paper", "experiment", "analysis", "review"])
 				.default("note"),
+
+			// Citation metadata (optional - enables Zotero/Scholar support when present)
+			doi: z
+				.string()
+				.regex(/^10\.\d{4,}\/[^\s]+$/, {
+					message: "DOI must be in format: 10.XXXX/identifier",
+				})
+				.optional(),
+			zenodoUrl: z
+				.string()
+				.url()
+				.startsWith("https://zenodo.org/", {
+					message: "Zenodo URL must start with https://zenodo.org/",
+				})
+				.optional(),
+			zenodoDepositionId: z.number().optional(),
+			zenodoDescription: z
+				.string()
+				.min(200, {
+					message: "Zenodo description should be at least 200 characters for a proper abstract.",
+				})
+				.optional(),
+			authors: z.array(authorSchema).optional(),
+			keywords: z.array(z.string()).optional(),
+			version: z.string().optional(),
 		}),
 });
 

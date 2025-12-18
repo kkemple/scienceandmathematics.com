@@ -1,0 +1,185 @@
+---
+/**
+ * Citation component - subtle DOI badge and expandable citation formats
+ * Only renders when DOI is present in post frontmatter
+ */
+
+interface Props {
+  title: string;
+  doi: string;
+  url: string;
+  pubDate: Date;
+  authors?: Array<{ name: string; orcid?: string }>;
+  siteName?: string;
+}
+
+const { title, doi, url, pubDate, authors = [], siteName = "Science & Mathematics" } = Astro.props;
+
+const doiUrl = `https://doi.org/${doi}`;
+const year = pubDate.getFullYear();
+
+// Format authors for citations
+const authorNames = authors.length ? authors.map(a => a.name) : ["Kurtis Kemple"];
+const authorAPA = authorNames.length === 1
+  ? authorNames[0]
+  : authorNames.slice(0, -1).join(", ") + ", & " + authorNames[authorNames.length - 1];
+
+// Generate citation formats
+const apa = `${authorAPA} (${year}). ${title}. ${siteName}. ${doiUrl}`;
+
+const firstAuthorLast = authorNames[0].split(" ").pop()?.replace(/[^A-Za-z]/g, "") || "Author";
+const bibtexKey = `${firstAuthorLast}${year}`;
+
+const bibtex = `@article{${bibtexKey},
+  title = {${title}},
+  author = {${authorNames.join(" and ")}},
+  year = {${year}},
+  journal = {${siteName}},
+  url = {${url}},
+  doi = {${doi}}
+}`;
+
+const ris = `TY  - JOUR
+TI  - ${title}
+${authorNames.map(a => `AU  - ${a}`).join("\n")}
+PY  - ${year}
+JO  - ${siteName}
+UR  - ${url}
+DO  - ${doi}
+ER  -`;
+---
+
+<aside class="citation">
+  <a href={doiUrl} target="_blank" rel="noopener noreferrer" class="doi-link">DOI: {doi}</a>
+  <details class="cite-details">
+    <summary>Cite</summary>
+    <div class="cite-content">
+      <div class="cite-block">
+        <div class="cite-header">
+          <span class="label">APA</span>
+          <button class="copy-btn" data-citation={apa}>Copy</button>
+        </div>
+        <span class="cite-text">{apa}</span>
+      </div>
+      <div class="cite-block">
+        <div class="cite-header">
+          <span class="label">BibTeX</span>
+          <button class="copy-btn" data-citation={bibtex}>Copy</button>
+        </div>
+        <span class="cite-text">{bibtex}</span>
+      </div>
+      <div class="cite-block">
+        <div class="cite-header">
+          <span class="label">RIS</span>
+          <button class="copy-btn" data-citation={ris}>Copy</button>
+        </div>
+        <span class="cite-text">{ris}</span>
+      </div>
+    </div>
+  </details>
+</aside>
+
+<script>
+  document.querySelectorAll('.citation .copy-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const citation = btn.getAttribute('data-citation');
+      if (citation) {
+        await navigator.clipboard.writeText(citation);
+        const originalText = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => btn.textContent = originalText, 1500);
+      }
+    });
+  });
+</script>
+
+<style>
+  .citation {
+    margin-top: 24px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+  }
+
+  .doi-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-family: var(--mono);
+    font-size: 0.8rem;
+  }
+
+  .doi-link:hover {
+    color: var(--text-primary);
+    text-decoration: underline;
+  }
+
+  .cite-details {
+    margin-top: 4px;
+  }
+
+  .cite-details > summary {
+    cursor: pointer;
+    color: var(--text-tertiary);
+    font-size: 0.8rem;
+    user-select: none;
+    width: fit-content;
+  }
+
+  .cite-details > summary:hover {
+    color: var(--text-secondary);
+  }
+
+  .cite-content {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .cite-block {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 8px;
+  }
+
+  .cite-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+
+  .label {
+    font-weight: 500;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-tertiary);
+  }
+
+  .copy-btn {
+    padding: 2px 6px;
+    font-size: 0.65rem;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    cursor: pointer;
+    color: var(--text-tertiary);
+    transition: all 0.15s;
+  }
+
+  .copy-btn:hover {
+    color: var(--text-primary);
+    border-color: var(--text-tertiary);
+  }
+
+  .cite-text {
+    display: block;
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    line-height: 1.4;
+    color: var(--text-primary);
+    word-break: break-word;
+    white-space: pre-wrap;
+  }
+</style>

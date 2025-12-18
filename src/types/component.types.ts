@@ -5,15 +5,28 @@ export interface TOCProps {
 	toc?: TOCItem[];
 }
 
+// Author interface for citation metadata
+export interface PostAuthor {
+	name: string;
+	orcid?: string;
+}
+
 // Post layout props interface (generic, not tied to specific data source)
 export interface PostLayoutProps {
 	title: string;
 	description: string;
 	pubDate: Date;
+	updatedDate?: Date;
 	image?: string;
 	type: "note" | "paper" | "experiment" | "analysis" | "review";
 	readingTime?: ReadingTime;
 	toc?: TOCItem[];
+	// Citation metadata (enables Zotero/Scholar support when present)
+	doi?: string;
+	zenodoUrl?: string;
+	authors?: PostAuthor[];
+	keywords?: string[];
+	version?: string;
 }
 
 // Transition props interface
