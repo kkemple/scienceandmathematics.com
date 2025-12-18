@@ -2,6 +2,30 @@
 title: 'Human Civilization & Information-Theoretical Convergence'
 description: "Argues that civilizations independently evolve calendars, scripts, currencies, and networks because social systems inherit the thermodynamic and information constraints of biological computation."
 pubDate: '2025-08-14'
+zenodoDepositionId: 17980159
+zenodoUrl: "https://zenodo.org/records/17980159"
+doi: "10.5281/zenodo.17980159"
+keywords:
+  - "information theory"
+  - "thermodynamics"
+  - "civilizational convergence"
+  - "Landauer's principle"
+  - "Shannon entropy"
+  - "network effects"
+  - "cognitive constraints"
+  - "social systems"
+  - "organizational theory"
+  - "complexity science"
+zenodoDescription: |
+  This paper proposes that the striking convergence of information structures across isolated human civilizations—calendars, writing systems, currencies, organizational hierarchies—may reflect underlying thermodynamic and information-processing constraints inherited from biological computation.
+
+  The argument draws on established physical principles: Landauer's principle establishes thermodynamic costs for information processing; biological systems (particularly the human brain, consuming 20W despite 2% of body mass) demonstrably face these constraints. We conjecture that social systems, as networks of biological processors, may inherit analogous limits—though the precise mechanism of this inheritance remains an open question.
+
+  We survey patterns suggestive of information-theoretical optimization: calendar systems converging on ~365-day solar years across isolated civilizations; writing systems tending toward linear forms; language transmission rates clustering near ~39 bits/second. While alternative explanations exist (shared astronomical constraints, cognitive universals, independent invention under similar selection pressures), the consistency of these patterns across domains invites an information-theoretic interpretation.
+
+  The framework offers potential predictive value: systems that appear to violate information constraints (infinite growth assumptions, perpetual engagement demands) may face elevated collapse risk. However, distinguishing information-theoretic causation from correlation with other organizational failures requires further investigation.
+
+  We note that brain development appears to undergo discrete transitions at characteristic ages (~9, 32, 66, 83 years), which may—if the framework holds—reflect similar optimization dynamics at the individual level. This parallel, while intriguing, should be treated as a hypothesis warranting empirical test rather than established fact.
 ---
 
 Human societies consistently create systems that exhibit remarkably information-theoretical patterns. This phenomenon appears across all civilizations, time periods, and scales—from ancient calendar systems to modern organizational structures. These patterns emerge from a fundamental logical chain:
