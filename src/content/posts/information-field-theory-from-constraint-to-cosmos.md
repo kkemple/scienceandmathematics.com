@@ -2,6 +2,30 @@
 title: 'Building an Information-Theoretic Field Theory'
 description: "Builds an information-theoretic field theory where dissipation, renormalization, and conserved currents couple to explain universal scaling from particles to galaxies."
 pubDate: '2025-10-07'
+zenodoDepositionId: 17980393
+zenodoUrl: "https://zenodo.org/records/17980393"
+doi: "10.5281/zenodo.17980393"
+keywords:
+  - "renormalization group"
+  - "field theory"
+  - "information theory"
+  - "dissipation"
+  - "critical phenomena"
+  - "universal scaling"
+  - "Noether theorem"
+  - "beta function"
+  - "dimensional reduction"
+  - "black hole thermodynamics"
+zenodoDescription: |
+  This paper constructs a field theory framework where information density, dissipation coefficient, and effective dimension emerge as dynamical fields governed by renormalization group (RG) flow, proposing that this structure generates the observed hierarchy of matter organization.
+
+  The framework builds on established physics: conservation laws from Noether's theorem yield Maxwell and Klein-Gordon equations; Fermi's golden rule provides microscopic dissipation rates; Wilson's RG formalism governs scale-dependent evolution. We propose extending these tools with a specific beta function β(η) = -η(1-η)[ρ* + (d-2)ln(φ)/2], where ρ* = 4πφ²/10 ≈ 3.29 emerges as a conjectured coupling constant and φ is the golden ratio.
+
+  The proposed RG flow exhibits fixed points at η = 0 (conservative limit) and η = 1 (black hole saturation), with the dissipation hierarchy (10⁻⁶ particles → 10⁻¹ biology → 1 black holes) emerging from flow trajectories. The correlation length exponent ν = 1/ρ* ≈ 0.304 is predicted to govern critical phenomena across scales.
+
+  We present a complete Lagrangian coupling the three dynamical fields and derive conserved RG charges. The framework generates testable predictions: white dwarf cooling anomalies matching observed 0.56 Gyr delays; information wave signatures in gravitational wave correlations; critical qubit limits for quantum computers; and universal scaling at organizational phase transitions.
+
+  The framework remains speculative—while individual components (RG, conservation laws, dissipation) are established, their synthesis into a unified information field theory and the specific value ρ* = 3.29 require independent validation. The claimed universality across 60 orders of magnitude is a hypothesis, not established fact. Whether the decade structure reflects fundamental physics or parameter fitting awaits further theoretical and experimental scrutiny.
 ---
 
 The hierarchy of matter—elementary particles to atoms to molecules to black holes—obeys a single renormalization group flow with universal exponent $\nu = 0.304$. Not approximately. Exactly. This exponent emerges from the [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) as $\nu = 1/\rho^* = 1/3.29 = 0.304$, where $\rho^* = 4\pi\varphi^2/10$ couples the $\pi$-sector (isotropy) and $\varphi$-sector (recursion) through decade resonance. The same exponent governs [white dwarf information bankruptcy trajectories](/binding-energy-critical-radii-and-information-maintenance-tax), quantum phase transitions, and critical scaling in biological systems—universal behavior spanning 60 orders of magnitude.
@@ -168,10 +192,10 @@ $$
 with Lagrangian density,
 
 $$
-\begin{align}
+\begin{aligned}
 \mathcal{L} &= \frac{1}{2}g^{\mu\nu}\partial_\mu\mathcal{I}\partial_\nu\mathcal{I} + \frac{\ell_P^2}{2}g^{\mu\nu}\partial_\mu\eta\partial_\nu\eta + \frac{\ell_P^4}{2}g^{\mu\nu}\partial_\mu d\partial_\nu d \\
 &\quad - V(\eta, d) - \frac{\eta k_BT\ln 2}{\ell_P^3}\mathcal{I} + \frac{i\theta}{2\pi}\epsilon^{\mu\nu\rho\sigma}F_{\mu\nu}F_{\rho\sigma},
-\end{align}
+\end{aligned}
 $$
 
 where $\tau = \log\mu$ is RG time.

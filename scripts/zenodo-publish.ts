@@ -45,6 +45,7 @@ const PRODUCTION_BASE = "https://zenodo.org";
 // Site configuration (matches your config.ts)
 const SITE_URL = "https://scienceandmathematics.com";
 const DEFAULT_AUTHOR = "Kurtis Kemple";
+const DEFAULT_ORCID = "0009-0001-1482-6335";
 
 // Types
 interface PostFrontmatter {
@@ -659,7 +660,7 @@ function buildZenodoMetadata(
         name: formatAuthorName(a.name),
         ...(a.orcid ? { orcid: a.orcid } : {}),
       }))
-    : [{ name: formatAuthorName(DEFAULT_AUTHOR) }];
+    : [{ name: formatAuthorName(DEFAULT_AUTHOR), orcid: DEFAULT_ORCID }];
 
   // Map post type to Zenodo publication type
   const publicationType =

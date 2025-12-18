@@ -2,6 +2,30 @@
 title: 'Golden Ratio and Prime Resonance in Quantum Transport'
 description: "Explores why golden ratio phases, prime lattices, and decade partitions minimize curvature, organize Harper-Hofstadter spectra, and inform practical quantum computing layouts."
 pubDate: '2025-10-01'
+zenodoDepositionId: 17980332
+zenodoUrl: "https://zenodo.org/records/17980332"
+doi: "10.5281/zenodo.17980332"
+keywords:
+  - "golden ratio"
+  - "Harper-Hofstadter model"
+  - "quantum transport"
+  - "prime numbers"
+  - "quasicrystals"
+  - "Almost Mathieu operator"
+  - "localization"
+  - "continued fractions"
+  - "quantum computing"
+  - "Fibonacci anyons"
+zenodoDescription: |
+  This paper examines the distinguished role of the golden ratio φ = (1+√5)/2 and prime numbers in quantum transport phenomena, connecting established mathematical results to a proposed constraint eigenvalue framework.
+
+  The mathematical foundation is well-established: Hurwitz's theorem proves φ is maximally irrational—hardest to approximate by rationals with |φ - p/q| > 1/(√5 q²). The Harper-Hofstadter model shows that magnetic flux α in 2D lattices organizes electron spectra through continued-fraction hierarchies, with the Ten Martini Problem (Avila-Jitomirskaya, 2009) establishing Cantor set spectra at irrational flux. Prime-length lattices have minimal divisor count τ(p) = 2, reducing subharmonic resonances.
+
+  We propose that these observations reflect a deeper geometric structure: a variational functional with three constraint sectors—angular isotropy (π-sector), recursive self-similarity (φ-sector from x = 1 + 1/x), and discrete resonance (decade sector from C₂ₓ₅ symmetry). The composite invariant 4πφ² ≈ 32.9 and organizational constant ρ* = 4πφ²/10 ≈ 3.29 emerge as coupling parameters.
+
+  Numerical studies of Harper-Hofstadter transport confirm that golden ratio fluxes (φ⁻¹ ≈ 0.618) produce minimal inverse participation ratios—maximum delocalization—while rational fluxes show transport barriers scaling with denominator. Whether this reflects the proposed curvature minimization or simply maximal irrationality avoiding resonances remains an interpretive question.
+
+  The framework suggests quantum computing applications: prime-spaced qubit layouts reducing cross-talk, golden-ratio phase relationships minimizing decoherence, and surface code overhead aligning with decade partitions (~33%). These predictions are testable but await experimental verification. The connection to broader phenomena (white dwarf collapse, biological thresholds) through the universal exponent ν = 1/ρ* ≈ 0.304 is proposed as a unifying conjecture rather than established fact.
 ---
 
 > [!NOTE]
