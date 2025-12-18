@@ -235,32 +235,32 @@ In building systems, the wisest approach is recognizing these patterns exist. In
 
 The choice exists, but the patterns persist regardless.
 
-[^1]: Landauer, R. "Irreversibility and Heat Generation in the Computing Process," *IBM Journal of Research and Development* 5, no. 3 (1961): 183-191.
+[^1]: Landauer, R. "Irreversibility and Heat Generation in the Computing Process," *IBM Journal of Research and Development* 5, no. 3 (1961)\: 183-191.
 
-[^2]: Attwell, D., & Laughlin, S. B. "An energy budget for signaling in the grey matter of the brain," *Journal of Cerebral Blood Flow & Metabolism* 21, no. 10 (2001): 1133-1145.
+[^2]: Attwell, D., & Laughlin, S. B. "An energy budget for signaling in the grey matter of the brain," *Journal of Cerebral Blood Flow & Metabolism* 21, no. 10 (2001)\: 1133-1145.
 
-[^3]: Koch, C., et al. "The Neural Correlates of Consciousness," *Nature Reviews Neuroscience* 17 (2016): 307-321.
+[^3]: Koch, C., et al. "The Neural Correlates of Consciousness," *Nature Reviews Neuroscience* 17 (2016)\: 307-321.
 
-[^4]: Belmonte, Juan Antonio, and Mosalam Shaltout. "On the Orientation of Ancient Egyptian Temples: (3) Key Points in Lower Egypt and Siwa Oasis, Part I," *Journal for the History of Astronomy* 40, no. 1 (2009): 65-93.
+[^4]: Belmonte, Juan Antonio, and Mosalam Shaltout. "On the Orientation of Ancient Egyptian Temples\: (3) Key Points in Lower Egypt and Siwa Oasis, Part I," *Journal for the History of Astronomy* 40, no. 1 (2009)\: 65-93.
 
-[^5]: Rice, Prudence M. *Maya Calendar Origins: Monuments, Mythistory, and the Materialization of Time* (Austin: University of Texas Press, 2007).
+[^5]: Rice, Prudence M. *Maya Calendar Origins: Monuments, Mythistory, and the Materialization of Time* (Austin\: University of Texas Press, 2007).
 
-[^6]: Trigger, Bruce G. *Understanding Early Civilizations: A Comparative Study* (Cambridge: Cambridge University Press, 2003), 445-476.
+[^6]: Trigger, Bruce G. *Understanding Early Civilizations: A Comparative Study* (Cambridge\: Cambridge University Press, 2003), 445-476.
 
-[^7]: Rogers, Henry. *Writing Systems: A Linguistic Approach* (Oxford: Blackwell, 2005).
+[^7]: Rogers, Henry. *Writing Systems: A Linguistic Approach* (Oxford\: Blackwell, 2005).
 
-[^8]: Zipf, George Kingsley. *Human Behavior and the Principle of Least Effort* (Cambridge, MA: Addison-Wesley, 1949).
+[^8]: Zipf, George Kingsley. *Human Behavior and the Principle of Least Effort* (Cambridge, MA\: Addison-Wesley, 1949).
 
-[^9]: Coupé, Christophe, et al. "Different languages, similar encoding efficiency: Comparable information rates across the human communicative niche," *Science Advances* 5, no. 9 (2019).
+[^9]: Coupé, Christophe, et al. "Different languages, similar encoding efficiency\: Comparable information rates across the human communicative niche," *Science Advances* 5, no. 9 (2019).
 
-[^10]: "Human speech may have a universal transmission rate: 39 bits per second," Science, September 4, 2019.
+[^10]: "Human speech may have a universal transmission rate\: 39 bits per second," Science, September 4, 2019.
 
-[^11]: Metcalfe, Robert. "Metcalfe's Law after 40 Years of Ethernet," *Computer* 46, no. 12 (2013): 26-31.
+[^11]: Metcalfe, Robert. "Metcalfe's Law after 40 Years of Ethernet," *Computer* 46, no. 12 (2013)\: 26-31.
 
-[^12]: Dunbar, R. I. M. "Neocortex size as a constraint on group size in primates," *Journal of Human Evolution* 22, no. 6 (1992): 469-493.
+[^12]: Dunbar, R. I. M. "Neocortex size as a constraint on group size in primates," *Journal of Human Evolution* 22, no. 6 (1992)\: 469-493.
 
 [^13]: "The Rule Of 150: How To Design For Dunbar's Number," OfficeSpace Software, March 25, 2025.
 
-[^14]: Barabási, Albert-László, and Réka Albert. "Emergence of scaling in random networks," *Science* 286, no. 5439 (1999): 509-512.
+[^14]: Barabási, Albert-László, and Réka Albert. "Emergence of scaling in random networks," *Science* 286, no. 5439 (1999)\: 509-512.
 
-[^15]: Mousley, A., Bethlehem, R.A.I., Yeh, F.-C., & Astle, D.E. (2025). "Topological turning points across the human lifespan." *Nature Communications*, 16, 10055. <https://doi.org/10.1038/s41467-024-55448-x>
+[^15]: Mousley, A., Bethlehem, R.A.I., Yeh, F.-C., & Astle, D.E. (2025). "Topological turning points across the human lifespan." *Nature Communications*, 16, 10055. <https\://doi.org/10.1038/s41467-024-55448-x>

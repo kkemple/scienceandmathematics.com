@@ -2,6 +2,30 @@
 title: 'Black Hole Horizons & Dimensional Reduction Correspondence'
 description: "Synthesizes geometric, thermodynamic, topological, informational, and quantum arguments that black hole horizons force dimensional reduction and dual chiral processing."
 pubDate: '2025-08-22'
+zenodoDepositionId: 17980202
+zenodoUrl: "https://zenodo.org/records/17980202"
+doi: "10.5281/zenodo.17980202"
+keywords:
+  - "black hole thermodynamics"
+  - "dimensional reduction"
+  - "holographic principle"
+  - "event horizon"
+  - "Bekenstein-Hawking entropy"
+  - "chiral symmetry"
+  - "Hopf fibration"
+  - "information theory"
+  - "entropic gravity"
+  - "quasi-normal modes"
+zenodoDescription: |
+  This paper examines a striking correspondence: five independent mathematical frameworks—differential geometry, thermodynamics, topology, information theory, and entropic gravity—appear to converge on the same structural conclusion about black hole horizons. We present this convergence as suggestive of deep physical organization, while acknowledging that apparent mathematical coincidences may admit alternative interpretations.
+
+  The geometric path follows Schwarzschild metric singularities where radial information flow vanishes as r → r_s while tangential flow persists. The thermodynamic path notes that Landauer processing capacity yields N_max = 2N_BH, a factor of two consistent with dual chiral sectors on 2D surfaces. The topological path identifies finite lattice site counts despite infinite proper distance, suggesting radial compactification into S¹ yielding Hopf fibration S³ topology. The information processing path argues that 3D communication overhead becomes prohibitive at Planck densities, favoring 2D surface architecture. The entropic gravity path (following Bianconi) shows radial form components vanishing to maintain finite action.
+
+  Each framework independently suggests: dimensional reduction from 3D to 2D; dual chiral sectors with equal central charges; S³ topology from radial compactification; quantized winding numbers n = 0, 1, ..., n_max ≈ 14 for stellar-mass black holes. The convergence is mathematically precise but its physical interpretation remains open—whether this reflects fundamental structure or fortuitous alignment of approximations requires further investigation.
+
+  We propose observable consequences: quasi-normal mode phase correlations constrained by holographic bounds, spectral features at characteristic phase intervals Δψ = 2π/n_max, and potential waveform phase jumps in LISA extreme mass ratio inspiral observations. These predictions offer pathways to empirical test, though current observational precision (e.g., GW250114 ringdown at 30% frequency precision) does not yet constrain the framework decisively.
+
+  The dual-sector structure, if correct, may bear on the information paradox by providing processing capacity (2N_BH operations) exceeding storage (N_BH bits)—sufficient for complete information throughput during evaporation. We present this as a hypothesis meriting scrutiny rather than a resolution.
 ---
 
 What if five completely different mathematical paths—starting from geometry, thermodynamics, topology, information theory, and quantum entropy—all arrived at the same strange conclusion about what happens at a black hole's edge?
@@ -209,7 +233,7 @@ The dual chiral structure and holographic constraints that govern black hole hor
 
 [^9]: Hopf, H. (1931). Über die Abbildungen der dreidimensionalen Sphäre auf die Kugelfläche. *Mathematische Annalen*, 104(1), 637-665.
 
-[^10]: Mohr, P. J., Newell, D. B., & Taylor, B. N. (2016). CODATA recommended values of the fundamental physical constants: 2014. *Reviews of Modern Physics*, 88(3), 035009. arXiv\:1507.07956.
+[^10]: Mohr, P. J., Newell, D. B., & Taylor, B. N. (2016). CODATA recommended values of the fundamental physical constants\: 2014. *Reviews of Modern Physics*, 88(3), 035009. arXiv\:1507.07956.
 
 [^11]: Bianconi, G. (2024). Gravity from Entropy. *Physical Review D*, 111(6), 066001. arXiv\:2408.14391.
 
