@@ -2,6 +2,30 @@
 title: 'Type Ia Supernova Information-Theoretic Energetics'
 description: "Computes Type Ia supernova output by counting bits reorganized as white dwarfs cross the Chandrasekhar limit, tying explosion energetics to phase-space information budgets."
 pubDate: '2025-09-29'
+zenodoDepositionId: 17980315
+zenodoUrl: "https://zenodo.org/records/17980315"
+doi: "10.5281/zenodo.17980315"
+keywords:
+  - "Type Ia supernova"
+  - "Chandrasekhar limit"
+  - "white dwarf"
+  - "electron degeneracy"
+  - "Landauer principle"
+  - "phase space"
+  - "information theory"
+  - "stellar astrophysics"
+  - "neutron star"
+  - "thermodynamics"
+zenodoDescription: |
+  This paper presents an information-theoretic calculation of Type Ia supernova energetics by counting the phase space reorganization during the transition from electron to neutron degeneracy at the Chandrasekhar limit.
+
+  The calculation proceeds from standard physics: at the Chandrasekhar mass (1.4 M☉), white dwarfs contain ~1.7 × 10⁵⁷ particles occupying electron-degenerate phase space in volume ~(5000 km)³. Collapse to neutron star densities compresses this to ~(10 km)³. The volume ratio yields an information reorganization ΔN_b ≈ 4.5 × 10⁵⁸ bits.
+
+  Applying Landauer's principle (E = k_B T ln 2 per bit) at observed shock temperatures T_s ~ 10⁹ K gives total reorganization energy E ≈ 4.3 × 10⁴⁴ J—matching the observed Type Ia energy scale to within an order of magnitude.
+
+  This approach complements rather than replaces standard nuclear burning models, which yield similar energies through different accounting (carbon fusion releasing ~0.6 MeV per nucleon across 10⁵⁷ nucleons). The correspondence suggests phase space geometry may constrain explosion energetics independent of detailed burning mechanisms.
+
+  The framework offers perspective on Type Ia diversity: variations in peak luminosity may reflect what fraction of available phase space actually reorganizes during explosion. The calculation requires only four inputs—Chandrasekhar mass, white dwarf radius, neutron star radius, and shock temperature—using straightforward thermodynamics and state counting.
 ---
 
 Did you know you can predict a stellar explosion's energy by counting bits of information that reorganize during this catastrophic phase transition? Type Ia supernovae release approximately $10^{44}$ J with consistency that makes them cosmological standard candles. Standard astrophysical models invoke carbon detonation cascades through white dwarf cores. An alternative mathematical framework counts phase space reorganization from electron to neutron degeneracy—thermodynamics and geometry.

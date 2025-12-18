@@ -2,6 +2,30 @@
 title: 'The Anthropic Thermodynamic Principle'
 description: "Links Landauer limits, dissipation ladders, and the 32.9/67.1 structure-capacity partition to argue consciousness lives inside the narrow thermodynamic window biology occupies."
 pubDate: '2025-09-17'
+zenodoDepositionId: 17980302
+zenodoUrl: "https://zenodo.org/records/17980302"
+doi: "10.5281/zenodo.17980302"
+keywords:
+  - "consciousness"
+  - "thermodynamics"
+  - "Landauer principle"
+  - "anthropic principle"
+  - "information theory"
+  - "free will"
+  - "neural computation"
+  - "dissipation hierarchy"
+  - "organizational complexity"
+  - "metabolic cost"
+zenodoDescription: |
+  This paper proposes a thermodynamic framework for consciousness, arguing that subjective experience emerges from recursive self-referential computation operating within a narrow organizational window where overhead η ≈ 0.1. We connect Landauer's principle, hierarchical dissipation scaling, and a conjectured 32.9/67.1 structure-capacity partition to derive constraints on where conscious agency may arise.
+
+  The framework builds on established physics: Landauer's bound (E_min = k_B T ln 2) sets minimum energy per bit operation; the human brain's 20W consumption near this limit suggests operation at fundamental thermodynamic boundaries. We propose a dissipation hierarchy from particles (η ~ 10⁻⁶) through biology (η ~ 10⁻¹), where each order of magnitude represents a phase transition in organizational complexity.
+
+  A key conjecture involves the partition ρ*/10 ≈ 32.9% (structure) and (10-ρ*)/10 ≈ 67.1% (capacity), which we note appears in the genetic code (21/64 codons = 32.8%), white dwarf mass-radius relations (ν = 0.308), and cosmological energy distribution (31.5% matter, 68.5% dark energy). Whether these correspondences reflect deep mathematical necessity or coincidental parameter matching remains an open question requiring independent verification.
+
+  We propose that free will operates through path selection among multiple extremal solutions to action principles, with consciousness biasing microscopic processes using available metabolic energy. This framework offers an interpretation rather than a proof—deterministic substrates may admit genuine agency through navigating among thermodynamically allowed futures, but this remains philosophically contested.
+
+  Testable predictions include: cognitive performance degradation following (1-η)^{-3.29} scaling under resource constraints; correlation between anesthetic concentration and effective organizational state; and metabolic overhead measurements during metacognitive tasks. These offer empirical pathways for evaluation, though the framework's speculative extensions regarding sleep, meditation, and cross-species consciousness require additional theoretical and experimental development.
 ---
 
 Chess grandmaster Garry Kasparov burned 6,000 calories during his 1984 world championship match—twice an adult's daily intake—without leaving his chair. His heart rate spiked to 160 beats per minute while his body temperature rose 2-3°F during critical positions. By the end of 48 games, he'd lost 22 pounds[^1]. This was the thermodynamic cost of thought made visible. Every decision requires energy, produces heat, and increases universal entropy. Your brain reading these words consumes 20 watts continuously—measurably through glucose metabolism and thermal emission.
