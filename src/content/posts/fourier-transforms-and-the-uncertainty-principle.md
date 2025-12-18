@@ -2,6 +2,30 @@
 title: 'Fourier Transforms & the Uncertainty Principle'
 description: "Demonstrates through Fourier analysis, Parseval, Cauchy-Schwarz, and physical case studies that uncertainty limits arise mathematically before quantum interpretation."
 pubDate: '2025-09-12'
+zenodoDepositionId: 17980251
+zenodoUrl: "https://zenodo.org/records/17980251"
+doi: "10.5281/zenodo.17980251"
+keywords:
+  - "Fourier transform"
+  - "uncertainty principle"
+  - "Cauchy-Schwarz inequality"
+  - "Parseval's theorem"
+  - "Wigner function"
+  - "reciprocal space"
+  - "Brillouin zone"
+  - "conjugate variables"
+  - "quantum mechanics"
+  - "wave-particle duality"
+zenodoDescription: |
+  This paper presents a pedagogical argument that the Heisenberg uncertainty principle emerges from the mathematical structure of Fourier transforms rather than being an additional physical postulate of quantum mechanics. We trace five independent derivations—pure Fourier analysis, Cauchy-Schwarz inequality, quantum operator commutation, phase space geometry, and crystallographic reciprocal space—showing they converge on identical uncertainty bounds.
+
+  The core observation is that Fourier conjugate variables (time-frequency, position-momentum) satisfy mathematical constraints independent of physical interpretation. Gaussian functions achieve the minimum uncertainty product σ_t σ_ω = 1 exactly; the Cauchy-Schwarz inequality applied to position-derivative pairs yields Δx Δk ≥ 1/2 using only functional analysis; the canonical commutator [x̂, p̂] = iℏ encodes this Fourier relationship algebraically.
+
+  We examine how these constraints manifest physically: the Wigner quasi-probability distribution cannot simultaneously localize in conjugate coordinates without violating transform structure; crystallographic reciprocal lattices demonstrate the principle directly, with electrons in narrow unit cells necessarily occupying broad momentum ranges in the Brillouin zone.
+
+  The convergence of five distinct mathematical frameworks on identical bounds suggests uncertainty reflects the geometry of conjugate variables linked by integral transforms, with ℏ representing nature's dimensional scaling of this mathematical relationship. This interpretation—that quantum mechanics respects pre-existing mathematical constraints rather than imposing new physical limitations—offers a perspective on why quantum theory takes the form it does.
+
+  We note this view is consistent with, but does not prove, computational or information-theoretic interpretations of physics. The mathematical necessity of uncertainty bounds is established; their deeper ontological significance remains open to interpretation.
 ---
 
 The uncertainty principle $\Delta x \Delta p \geq \hbar/2$ predates quantum mechanics. It emerges from the Fourier transform—a purely mathematical relationship between conjugate variables. Compress a signal in time, and its frequency spectrum broadens. Localize a particle in space, and its momentum spreads. Confine electrons to crystal lattice sites, and their wavevectors fill the Brillouin zone. The mathematics enforces this trade-off through Cauchy-Schwarz inequality, Parseval's theorem, and reciprocal space geometry—five independent derivations yielding identical bounds. Nature obeys Fourier mathematics.
