@@ -30,20 +30,20 @@ const apa = `${authorAPA} (${year}). ${title}. ${siteName}. ${doiUrl}`;
 const firstAuthorLast = authorNames[0].split(" ").pop()?.replace(/[^A-Za-z]/g, "") || "Author";
 const bibtexKey = `${firstAuthorLast}${year}`;
 
-const bibtex = `@article{${bibtexKey},
+const bibtex = `@misc{${bibtexKey},
   title = {${title}},
   author = {${authorNames.join(" and ")}},
   year = {${year}},
-  journal = {${siteName}},
+  howpublished = {${siteName}},
   url = {${url}},
   doi = {${doi}}
 }`;
 
-const ris = `TY  - JOUR
+const ris = `TY  - GEN
 TI  - ${title}
 ${authorNames.map(a => `AU  - ${a}`).join("\n")}
 PY  - ${year}
-JO  - ${siteName}
+T2  - ${siteName}
 UR  - ${url}
 DO  - ${doi}
 ER  -`;
