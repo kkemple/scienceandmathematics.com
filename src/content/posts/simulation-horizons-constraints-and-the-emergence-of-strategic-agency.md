@@ -1,10 +1,10 @@
 ---
-title: "From Gradients to Games: Simulation Horizons, Constraints, and the Emergence of Strategic Agency"
+title: "Simulation Horizons, Constraints, and the Emergence of Strategic Agency"
 description: "A phase boundary for when optimization becomes strategy: systems play games only when horizon and authority justify intervention over migration under thermodynamic and institutional constraints."
 pubDate: "2025-12-21"
-zenodoDepositionId: 18018315
-zenodoUrl: "https://zenodo.org/records/18018315"
-doi: "10.5281/zenodo.18018315"
+zenodoDepositionId: 18018477
+zenodoUrl: "https://zenodo.org/records/18018477"
+doi: "10.5281/zenodo.18018477"
 updatedDate: "2025-12-21"
 type: "analysis"
 keywords:
