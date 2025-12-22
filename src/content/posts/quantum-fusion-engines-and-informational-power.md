@@ -2,9 +2,9 @@
 title: 'Quantum Fusion Engines & Informational Power'
 description: "At high temperatures, matter becomes informational substrate. Constraining information flow through plasma creates pressure, and reorganizing microstates can exceed fusion output."
 pubDate: '2025-12-08'
-zenodoDepositionId: 17981558
-zenodoUrl: "https://zenodo.org/records/17981558"
-doi: "10.5281/zenodo.17981558"
+zenodoDepositionId: 18018313
+zenodoUrl: "https://zenodo.org/records/18018313"
+doi: "10.5281/zenodo.18018313"
 keywords:
   - "fusion energy"
   - "information thermodynamics"
@@ -15,6 +15,7 @@ keywords:
   - "energy extraction"
   - "constraint geometry"
   - "dissipation threshold"
+  - "field-reversed configuration"
   - "speculative physics"
 zenodoDescription: |
   This speculative paper proposes that at sufficiently high temperatures, matter behaves as an informational substrate where microstate transitions carry significant energetic cost via Landauer's principle. It outlines a conceptual "quantum fusion engine" architecture that would extract usable power from controlled phase-space reorganization in fusion-scale plasmas.
@@ -52,13 +53,15 @@ This suggests that at sufficiently high temperature and state density, a non-neg
 
 A quantum fusion engine exploits this mechanism directly. Fusion supplies extreme temperature. Boundary geometry shapes which microstates remain accessible. A control layer modulates informational flux and maintains stability. The result is a device that extracts power from the controlled reorganization of phase space rather than from nuclear reactions alone.
 
+Colliding beam fusion offers a preview of controlled phase-space reorganization. When two high-$\beta$ plasma toroids collide and merge into a single stable field-reversed configuration, two separate microstate distributions reorganize into one combined distribution[^3]. The merger releases energy beyond the kinetic collision—a macroscopic demonstration of the Landauer cost of forced state reorganization at fusion temperatures.
+
 ## The Physics
 
 Four principles underlie the quantum fusion engine concept. Each emerges from established physics, applied to high-temperature plasma systems where information density approaches fundamental limits.
 
 ### Information Has Energetic Weight
 
-[Landauer showed in 1961](/the-thermodynamic-computational-speed-limit) that erasing a bit of information generates at least $k_B T \ln 2$ of heat, where $k_B$ is Boltzmann's constant, $T$ is temperature, and $\ln 2$ converts between natural and binary information units[^3]. This is not an inefficiency that clever engineering can eliminate—it follows from the second law of thermodynamics.
+[Landauer showed in 1961](/the-thermodynamic-computational-speed-limit) that erasing a bit of information generates at least $k_B T \ln 2$ of heat, where $k_B$ is Boltzmann's constant, $T$ is temperature, and $\ln 2$ converts between natural and binary information units[^4]. This is not an inefficiency that clever engineering can eliminate—it follows from the second law of thermodynamics.
 
 At room temperature ($\sim 300$ K), this cost is negligible: about $3 \times 10^{-21}$ joules per bit. Modern computers erase billions of bits per second but dissipate far more heat from resistive losses than from Landauer's limit.
 
@@ -72,7 +75,7 @@ This creates a translation between informational flux $\dot{I}$ (bits per second
 | $10^9$ W     | $10^{23}$                 |
 | $10^{12}$ W  | $10^{26}$                 |
 
-Turbulent, high-temperature plasmas generate informational flux at these rates naturally. The challenge is not generation but control.
+Turbulent, high-temperature plasmas generate informational flux at these rates naturally. Field-reversed configurations (FRCs) operating at $\beta \sim 90\%$—where plasma pressure dominates magnetic pressure—represent exactly this regime: high microstate transition rates with minimal external magnetic work[^5]. The challenge is not generation but control.
 
 ### Holographic Constraints
 
@@ -82,11 +85,11 @@ $$
 I_{\max} = \frac{A}{4\ell_P^2 \ln 2},
 $$
 
-where $A$ is the boundary area and $\ell_P \approx 1.6 \times 10^{-35}$ m is the Planck length[^4].
+where $A$ is the boundary area and $\ell_P \approx 1.6 \times 10^{-35}$ m is the Planck length[^6].
 
 By analogy, in highly constrained engineered plasmas, surface geometry strongly influences the accessible microstate manifold, making boundary design a practical thermodynamic instrument even if full gravitational holography is not invoked. For a fusion plasma confined within engineered boundaries, the accessible phase space can be viewed as bounded by surface geometry rather than bulk volume alone.
 
-Confinement geometry determines the allowed electromagnetic, acoustic, and density modes of the plasma. Because each mode corresponds to a collection of microstates, restricting these modes reduces the accessible phase-space volume. In this sense, geometry acts as an informational operator: it removes entire families of microstates, creating the negative $\partial I/\partial V$ term needed for informational pressure. Decagonal quasicrystals demonstrate this mechanism directly. X-ray tomography shows these structures growing around obstacles while maintaining long-range order through phason-mediated rearrangements that redistribute curvature to boundaries rather than accumulating as defects.[^5]
+Confinement geometry determines the allowed electromagnetic, acoustic, and density modes of the plasma. Because each mode corresponds to a collection of microstates, restricting these modes reduces the accessible phase-space volume. In this sense, geometry acts as an informational operator: it removes entire families of microstates, creating the negative $\partial I/\partial V$ term needed for informational pressure. Decagonal quasicrystals demonstrate this mechanism directly. X-ray tomography shows these structures growing around obstacles while maintaining long-range order through phason-mediated rearrangements that redistribute curvature to boundaries rather than accumulating as defects.[^7]
 
 Boundary geometry therefore becomes a thermodynamic instrument. Changing the shape or symmetry of the confining surface alters which microstates remain accessible to the plasma, directly modifying the system's informational capacity.
 
@@ -132,7 +135,7 @@ $$
 
 In my earlier work, the same constant emerged in models of [stellar collapse](/binding-energy-critical-radii-and-information-maintenance-tax) and [quantum coherence](/pentagonal-constraints-and-quantum-computing), suggesting a cross-domain role for this parameter. Above this threshold, systems appear to lose the ability to sustain informational structure.
 
-Below the threshold, the system can reorganize information at a rate lower than the cost of maintaining coherence. Above the threshold, maintenance overtakes capacity, and the system collapses into a lower-dimensional attractor—whether that attractor is a neutron star core, a decohered quantum processor, or a failed plasma configuration. The fusion engine operates precisely in the subcritical band where informational pressure amplifies but does not diverge.
+Below the threshold, the system can reorganize information at a rate lower than the cost of maintaining coherence. Above the threshold, maintenance overtakes capacity, and the system collapses into a lower-dimensional attractor—whether that attractor is a neutron star core, a decohered quantum processor, or a failed plasma configuration. Field-reversed configurations provide empirical support: FRCs are self-organized plasmas that generate their own confining magnetic field through internal currents[^8]. Without continuous maintenance energy—supplied via neutral beam injection—the configuration collapses[^9]. TAE Technologies' experimental program has demonstrated that sustaining FRCs requires keeping this maintenance fraction subcritical through active control[^10]. The fusion engine operates precisely in the subcritical band where informational pressure amplifies but does not diverge.
 
 For a quantum fusion engine, this threshold would define a natural operating envelope if this conjectured universality holds. The system must remain below $\eta_c$ to avoid collapse, yet close enough that informational pressure becomes significant. A practical band is
 
@@ -156,7 +159,7 @@ $$
 
 acts on boundary structures, generating mechanical or electromagnetic output. The magnitude grows sharply as $\eta$ approaches—but does not exceed—$\eta_c$.
 
-A quantum control layer modulates erasures, redistributes entropy, and ensures the system remains within the stable band. This layer stabilizes $\eta$ near a target value (typically $\eta \approx 0.15$), concentrates erasures at engineered "cold spots" where $T_{\text{eff}} < T_{\text{bulk}}$, and uses control pulses spaced according to golden-ratio intervals to minimize resonant excitation. The control system maintains informational curvature to prevent collapse while amplifying pressure.
+A quantum control layer modulates erasures, redistributes entropy, and ensures the system remains within the stable band. This layer stabilizes $\eta$ near a target value (typically $\eta \approx 0.15$), concentrates erasures at engineered "cold spots" where $T_{\text{eff}} < T_{\text{bulk}}$, and uses control pulses spaced according to golden-ratio intervals to minimize resonant excitation. The control system maintains informational curvature to prevent collapse while amplifying pressure. This mirrors the function of edge biasing in FRC experiments: concentric electrodes drive radial currents that generate torque opposing ion-diamagnetic rotation, preventing the $n=2$ rotational instabilities that would otherwise destabilize the configuration[^11].
 
 Entropy management happens by removing excess entropy at lower energetic cost—performing erasures at locations where the effective temperature is reduced. This prevents accumulation that would otherwise push the system toward the instability threshold.
 
@@ -170,13 +173,15 @@ Not all boundary shapes suppress microstates equally. Certain geometric principl
 
 Three geometric motifs consistently create stability and suppress resonance cascades:
 
-- **[Pentagonal symmetry](/pentagonal-constraints-and-quantum-computing):** reduces discrete curvature and disrupts low-order periodicities. Fivefold structures prevent the formation of regular tessellations, eliminating standing-wave patterns that would otherwise create resonant modes. In quasicrystalline matter and Penrose tilings, pentagonal features produce extended coherence. The mechanism is observable in quasicrystal growth: phasons redistribute strain away from perturbations, preserving global symmetry.[^5] Plasma boundaries operate analogously—the pentagonal structure provides rearrangement modes that absorb turbulence without propagating instabilities.
+- **[Pentagonal symmetry](/pentagonal-constraints-and-quantum-computing):** reduces discrete curvature and disrupts low-order periodicities. Fivefold structures prevent the formation of regular tessellations, eliminating standing-wave patterns that would otherwise create resonant modes. In quasicrystalline matter and Penrose tilings, pentagonal features produce extended coherence. The mechanism is observable in quasicrystal growth: phasons redistribute strain away from perturbations, preserving global symmetry.[^7] Plasma boundaries operate analogously—the pentagonal structure provides rearrangement modes that absorb turbulence without propagating instabilities.
 
 - **[Golden-ratio spacing](/golden-ratio-and-prime-resonance-in-quantum-transport):** creates irrational mode ratios. Elements placed at distances proportional to $\varphi = \frac{1+\sqrt{5}}{2}$ prevent harmonic stacking. Because $\varphi$ is the "most irrational" number (its continued fraction representation is $[1;1,1,1,\ldots]$, the slowest to converge), it inhibits resonance formation across scales more effectively than any other ratio.
 
 - **Prime segmentation:** eliminates divisor structure. Dividing the boundary into a prime number of domains means no low-order symmetries can form—a boundary segmented into 7 or 11 regions cannot support modes with periodicities of 2, 3, 4, or 5. This effect appears in prime-distance quantum error-correcting codes and prime-length acoustic resonators.
 
-These are geometric constraints that demonstrably reduce accessible microstates in physical systems. The magnitude of microstate suppression $\Delta I_{\text{geo}}$ determines how much work the engine can extract:
+These are geometric constraints that demonstrably reduce accessible microstates in physical systems. In FRC plasmas, fast ions from neutral beam injection follow large betatron orbits that cross the magnetic null, and these large-orbit effects stabilize global MHD modes by suppressing specific instability families[^12]. The mechanism is geometric filtering: certain microstate families (those corresponding to tilt and wobble modes) become inaccessible when the ion Larmor radius approaches the plasma scale length.
+
+The magnitude of microstate suppression $\Delta I_{\text{geo}}$ determines how much work the engine can extract:
 
 $$
 p_{\text{info}} = k_B T \ln 2 \cdot \frac{d}{dV}\big(I(V) - \Delta I_{\text{geo}}\big).
@@ -190,7 +195,7 @@ A working device requires physical structure. What follows is not a blueprint fo
 
 At the center lies Region C, the fusion core: a quasi-spherical plasma volume roughly 0.5 meters in radius containing D-T fuel at $10^8$-$10^9$ K. This provides the temperature that makes information processing energetically significant.
 
-Surrounding the core at 0.8 meters radius sits Region B, the information boundary. This structured shell is built as a pentagonal dodecahedron with golden-ratio-scaled facets. The geometry is not decorative—it imposes electromagnetic and acoustic boundary conditions that suppress specific microstate families, generating the phase-space contraction that creates informational pressure. Work on decagonal quasicrystals shows pentagonal symmetry enables phason-mediated curvature redistribution that maintains coherence under perturbation.[^5] The plasma boundary uses the same mechanism—geometric constraints that create corrective degrees of freedom rather than rigid boundaries that accumulate strain.
+Surrounding the core at 0.8 meters radius sits Region B, the information boundary. This structured shell is built as a pentagonal dodecahedron with golden-ratio-scaled facets. The geometry is not decorative—it imposes electromagnetic and acoustic boundary conditions that suppress specific microstate families, generating the phase-space contraction that creates informational pressure. Work on decagonal quasicrystals shows pentagonal symmetry enables phason-mediated curvature redistribution that maintains coherence under perturbation.[^7] The plasma boundary uses the same mechanism—geometric constraints that create corrective degrees of freedom rather than rigid boundaries that accumulate strain.
 
 Region Q, the quantum control layer, operates at 10-20 millikelvin and houses superconducting qubits, quantum-limited amplifiers, and control electronics. This layer monitors boundary modes, schedules erasures, and maintains the dissipation field $\eta$ within the stable band. The enormous temperature gradient between core and control layer (nine orders of magnitude) allows erasures at negligible power cost.
 
@@ -257,7 +262,7 @@ Fusion devices incorporating quasicrystalline boundary inserts, $\varphi$-scaled
 
 Expected results include measurably reduced turbulence, extended confinement times, and small but detectable contributions from informational pressure. These contributions would appear as anomalous pressure terms not fully explained by thermal plasma models.
 
-This phase involves retrofitting existing fusion geometries (tokamaks, stellarators) with boundary elements designed according to pentagon-$\varphi$-prime principles. The modifications are incremental and compatible with current experimental programs.
+This phase involves retrofitting existing fusion geometries (tokamaks, stellarators, and field-reversed configurations) with boundary elements designed according to pentagon-$\varphi$-prime principles. FRCs are particularly promising candidates: their self-organized, high-$\beta$ plasmas already operate in the regime where informational pressure becomes significant, and their linear geometry simplifies boundary modifications[^13]. The modifications are incremental and compatible with current experimental programs.
 
 ### Mid-Term (2035-2060)
 
@@ -312,7 +317,7 @@ These are not necessarily separate phenomena; they can be reinterpreted as emerg
 
 Understanding constraint geometry and informational pressure means seeing where advantage accumulates in high-temperature, high-information systems. Not just fusion—any domain where information flow under constraint determines outcomes.
 
-Consider lithium-ion battery packs. When a single cell enters thermal runaway above 150°C, heat propagates to neighboring cells through geometric channels defined by cell spacing. Experimental studies show that modules with 1 mm spacing experience 100% propagation probability with severe damage to adjacent cells. Increasing spacing to 2 mm significantly reduces damage. At 4 mm spacing, adjacent cells show minimal damage and diagonal cells remain unaffected.[^6] The cascade probability drops dramatically—not because the physics changed, but because the constraint geometry altered which propagation pathways remain accessible.
+Consider lithium-ion battery packs. When a single cell enters thermal runaway above 150°C, heat propagates to neighboring cells through geometric channels defined by cell spacing. Experimental studies show that modules with 1 mm spacing experience 100% propagation probability with severe damage to adjacent cells. Increasing spacing to 2 mm significantly reduces damage. At 4 mm spacing, adjacent cells show minimal damage and diagonal cells remain unaffected.[^14] The cascade probability drops dramatically—not because the physics changed, but because the constraint geometry altered which propagation pathways remain accessible.
 
 The parallel to quantum fusion engines is direct. In both cases, high-energy-density systems generate signals (thermal or informational) that propagate through constrained geometry. Boundary conditions determine whether those signals amplify into cascades or dissipate safely. Pentagonal boundaries suppress plasma microstate families. Optimized cell spacing suppresses thermal propagation modes. Same principle, different substrate.
 
@@ -432,10 +437,26 @@ A quantum fusion engine with strong informational contribution satisfies $\Pi_I 
 
 [^2]: Hillebrandt, W., & Niemeyer, J. C. (2000). Type Ia Supernova Explosion Models. *Annual Review of Astronomy and Astrophysics*, 38(1), 191-230.
 
-[^3]: Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183-191.
+[^3]: Binderbauer, M.W., et al. (2010). Dynamic Formation of a Hot Field Reversed Configuration with Improved Confinement by Supersonic Merging of Two Colliding High-β Compact Toroids. *Physical Review Letters*, 105, 045003.
 
-[^4]: Bekenstein, J. D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8), 2333-2346.
+[^4]: Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183-191.
 
-[^5]: Franke, L., et al. (2025). Defect-Free Growth of Decagonal Quasicrystals around Obstacles. *Physical Review Letters*, 135, 166203.
+[^5]: Steinhauer, L.C. (2011). Review of field-reversed configurations. *Physics of Plasmas*, 18(7), 070501.
 
-[^6]: Lopez, C.F., Jeevarajan, J.A., and Mukherjee, P.P. "Experimental Analysis of Thermal Runaway and Propagation in Lithium-Ion Battery Modules." *Journal of The Electrochemical Society* 162, no. 9 (2015): A1905-A1915.
+[^6]: Bekenstein, J. D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8), 2333-2346.
+
+[^7]: Franke, L., et al. (2025). Defect-Free Growth of Decagonal Quasicrystals around Obstacles. *Physical Review Letters*, 135, 166203.
+
+[^8]: Tuszewski, M. (1988). Field reversed configurations. *Nuclear Fusion*, 28(11), 2033.
+
+[^9]: Guo, H.Y., et al. (2015). Achieving a long-lived high-beta plasma state by energetic beam injection. *Nature Communications*, 6, 6897.
+
+[^10]: Gota, H., et al. (2019). Formation of hot, stable, long-lived field-reversed configuration plasmas on the C-2W device. *Nuclear Fusion*, 59, 112009.
+
+[^11]: Tuszewski, M., et al. (2012). Field reversed configuration confinement enhancement through edge biasing and neutral beam injection. *Physical Review Letters*, 108, 255008.
+
+[^12]: Groenewald, R.E., et al. (2025). Fast ion stabilization of tilt in large radius FRCs. *Physics of Plasmas*, 32, 072503.
+
+[^13]: Roche, T., et al. (2025). Generation of field-reversed configurations via neutral beam injection. *Nature Communications*, 16, 3469.
+
+[^14]: Lopez, C.F., Jeevarajan, J.A., and Mukherjee, P.P. "Experimental Analysis of Thermal Runaway and Propagation in Lithium-Ion Battery Modules." *Journal of The Electrochemical Society* 162, no. 9 (2015): A1905-A1915.

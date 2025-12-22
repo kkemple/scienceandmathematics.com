@@ -2,9 +2,9 @@
 title: 'The Anthropic Thermodynamic Principle'
 description: "Links Landauer limits, dissipation ladders, and the 32.9/67.1 structure-capacity partition to argue consciousness lives inside the narrow thermodynamic window biology occupies."
 pubDate: '2025-09-17'
-zenodoDepositionId: 17980302
-zenodoUrl: "https://zenodo.org/records/17980302"
-doi: "10.5281/zenodo.17980302"
+zenodoDepositionId: 18018310
+zenodoUrl: "https://zenodo.org/records/18018310"
+doi: "10.5281/zenodo.18018310"
 keywords:
   - "consciousness"
   - "thermodynamics"
@@ -125,6 +125,8 @@ where $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ is the [universal coupling consta
 
 The biological window operates where overhead remains manageable. Below $\eta \sim 0.05$, insufficient complexity prevents sophisticated processing. A bacterium lacks neural networks for complex decision-making. Above $\eta \sim 0.15$, overhead factor exceeds 1.7 and systems approach bankruptcy threshold $\eta_c = 1/\rho^* \approx 0.304$ where maintenance diverges.
 
+This window is also where strategic agency—as opposed to mere gradient-following—becomes thermodynamically affordable. The simulation horizon $H^\star$ scales with available choice power; at $\eta \sim 0.1$, horizon becomes adequate to evaluate counterfactual futures and justify intervention over migration. Below this threshold, systems respond to local gradients. Above it, they can play games.
+
 Consciousness requires completing [recursive ladder iterations](/complex-adaptable-systems-complexity-ladders-and-agency) from quantum fields through particles, atoms, molecules, and cells—each adding an order of magnitude overhead. After roughly 10 iterations building complexity from $10^{-6}$ to $10^{-1}$, systems finally achieve sufficient organization for goal-directed behavior while retaining energy to execute it.
 
 ## Consciousness as Path Selection
@@ -164,6 +166,8 @@ P_{\text{choice}} = 100 \times 0.671 \times 0.9 \approx 60 \text{ W}.
 $$
 
 The brain uses approximately 20 watts total, leaving roughly 13 watts for conscious control above automatic processing. This matches estimates of voluntary versus automatic function energy budgets. The math predicts observable metabolic allocation.
+
+The same thermodynamic structure applies at organizational scales. Institutions with larger $P$ and lower $\eta$ have more choice power, enabling longer simulation horizons and thus strategic behavior where others must follow constraint gradients reactively. Control authority in markets—the capacity to intervene rather than migrate—is the institutional analogue of volitional control in consciousness. Both derive from the same partition: available capacity after structure maintenance.
 
 ## Recursive Self-Modeling
 

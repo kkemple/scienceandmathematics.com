@@ -2,9 +2,9 @@
 title: 'Bounded Reflexivity & Constraint Theory'
 description: "Reframes Soros-Keynes reflexivity through physical, informational, balance-sheet, and institutional constraints that set predictable breaking points for modern markets."
 pubDate: '2025-11-04'
-zenodoDepositionId: 17981199
-zenodoUrl: "https://zenodo.org/records/17981199"
-doi: "10.5281/zenodo.17981199"
+zenodoDepositionId: 18018304
+zenodoUrl: "https://zenodo.org/records/18018304"
+doi: "10.5281/zenodo.18018304"
 keywords:
   - "reflexivity"
   - "market dynamics"
@@ -416,11 +416,11 @@ Although institutions occupy a continuous spectrum, the geometry naturally produ
 | Gradient followers | Moderate curvature | Respond to field coherence | Mid-trajectory |
 | Viscosity-bound agents | High internal curvature | Dominated by $\gamma\nabla\mathcal{L}$ | Forced, late |
 
-These categories reflect curvature-response modes. Gradient anticipators detect early shifts in constraint and information acceleration—($G_C = \frac{d}{dt}\nabla C$), ($G_I = \frac{d}{dt}\nabla I$)—and reposition while curvature is still shallow. Their narrative bandwidth and internal geometry allow them to act on weak but rising gradients. They capture nearly the full trajectory of basin migration as the field reorganizes.
+These categories reflect curvature-response modes—and they correspond to horizon adequacy regimes. Gradient anticipators operate with high $\kappa = \tau_{\text{ctrl}}/\tau_{\text{env}}$: their simulation horizon exceeds environment timescales, so they detect early shifts in constraint and information acceleration—($G_C = \frac{d}{dt}\nabla C$), ($G_I = \frac{d}{dt}\nabla I$)—and reposition while curvature is still shallow. Their narrative bandwidth and internal geometry allow them to act on weak but rising gradients. They capture nearly the full trajectory of basin migration as the field reorganizes.
 
 Gradient followers wait until the field enters a coherent regime: correlations tighten, the frustration spread rises, and the system begins to tilt as one. Their motion is reactive but still early enough to benefit from the structural phase transition.
 
-Viscosity-bound institutions sit at local maxima of their own burden landscape. Internal curvature overwhelms external gradients. They move only when the manifold itself shifts under them. Their performance consists of being pushed downhill after the system's attractor has already moved.
+Viscosity-bound institutions sit at local maxima of their own burden landscape. Internal curvature overwhelms external gradients, and their effective $\kappa$ has collapsed—simulation horizon is too short to justify intervention, so they follow gradients reactively rather than playing games strategically. They move only when the manifold itself shifts under them. Their performance consists of being pushed downhill after the system's attractor has already moved.
 
 The balance between reflexive force and dissipation distinguishes these regimes. Define the effective reflexive force,
 
@@ -456,6 +456,8 @@ Soros and Keynes discovered real mechanisms—reflexivity (feedback between perc
 The constraint hierarchy flows from deepest to most proximate. At the foundation, physical limits (order book depth, balance sheet capacity, network connectivity, infrastructure supply) create absolute boundaries. Information-theoretic constraints (coordination costs, common knowledge requirements, processing bandwidth) bound coordination scope and speed. Institutional structures (fiduciary mandates, risk frameworks, regulatory compliance) restrict permissible actions. Limits to arbitrage (capital constraints, agency problems, noise trader risk) prevent efficient price correction. Finally, network topology (percolation thresholds, degree distribution, clustering) determines contagion pathways and coordination patterns.
 
 **Expectations matter within constraints**—they determine which of multiple possible equilibria markets coordinate toward, the speed of approach to constraint boundaries, the path through possibility space, and the triggering threshold for regime shifts. But constraints determine the location of equilibrium possibilities, the outer bounds of price movements, which coordination attempts succeed or fail, and when reflexive loops reverse. At the institutional level, internal constraint geometry determines which agents can act on those expectations and which remain trapped at high-curvature configurations until forced to move.
+
+This constraint framework establishes the topology agents navigate. A separate question—addressed in [From Gradients to Games](/from-gradients-to-games)—is *when* navigation becomes strategic rather than reactive. When simulation horizon collapses below environment timescale, or when control authority cannot reach relevant degrees of freedom, game-theoretic reasoning loses descriptive power. Agents stop playing games and start following gradients. The constraint topology remains; only the regime of behavior changes.
 
 The predictive power comes from mapping constraint landscapes. Rather than predicting sentiment or trying to forecast reflexive psychology, analyze where liquidity depth permits large flows, when balance sheet constraints will bind institutions, which network nodes can absorb shocks versus propagate contagion, where coordination naturally focuses during uncertainty (Schelling points in constraint topology), and when physical constraints force regime change.
 

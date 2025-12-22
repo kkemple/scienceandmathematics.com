@@ -2,9 +2,9 @@
 title: 'Complex Adaptable Systems, Complexity Ladders, & Agency'
 description: "Traces a universal four-step complexity ladder from quantum fields to biology, showing why agency emerges only near the eta ~ 0.1 thermodynamic sweet spot."
 pubDate: '2025-10-18'
-zenodoDepositionId: 17981164
-zenodoUrl: "https://zenodo.org/records/17981164"
-doi: "10.5281/zenodo.17981164"
+zenodoDepositionId: 18018309
+zenodoUrl: "https://zenodo.org/records/18018309"
+doi: "10.5281/zenodo.18018309"
 keywords:
   - "complexity"
   - "emergence"
@@ -122,6 +122,8 @@ Agency requires both emerged complexity AND available energy. Speech demonstrate
 
 Agency emerges as what biological patterns can do when operating at the thermodynamic sweet spot. Bacteria navigate chemical gradients. Bees optimize foraging routes. Humans plan future actions. All exhibit goal-directed behavior using environmental information to modify trajectory. This requires sufficient emerged complexity to represent multiple possible trajectories, an evaluation mechanism comparing trajectory values, and available energy to bias dynamics toward preferred outcomes. Only biological systems at $\eta \sim 0.1$ satisfy all three requirements simultaneously.
 
+But reaching the agency threshold is not the end of the story. Systems at $\eta \sim 0.1$ can exhibit two distinct behavioral regimes depending on simulation horizon. When the horizon is adequate—when the system can simulate counterfactual futures far enough ahead—behavior becomes strategic: incurring present cost to reshape future payoffs. When the horizon collapses through stress or resource depletion, even agentic systems revert to gradient-following: reactive migration along constraint fields rather than deliberate intervention. The ladder builds the substrate for agency; whether that agency expresses as strategy or gradient descent depends on [horizon adequacy](/from-gradients-to-games).
+
 ## Why Lower Scales Lack Agency
 
 Quantum systems complete constraints → structure → invariance → emergence but lack agency. Electrons respond to electromagnetic fields following Schrödinger dynamics—this is passive evolution, not navigation. Superposition collapses through measurement but the electron doesn't "choose" outcome. The system exhibits emergence (quantum phenomena) without agency (goal-directed behavior).
@@ -133,6 +135,8 @@ Stars exhibit complex dynamics—fusion, convection, evolution—but no agency. 
 The distinction is energetic overhead. Quantum systems operate at $\eta \sim 10^{-6}$ (minimal overhead). Atoms at $\eta \sim 10^{-3}$. Stars at $\eta \sim 10^{-8}$ (gravitational binding is weak). None approach the 10% threshold required for agency. They complete recursive ladder iterations building complexity but lack sufficient overhead for navigation.
 
 Biological systems cross threshold by dedicating substantial energy to organizational maintenance. The brain's 20 watts for 1.4 kg represents factor 10 increase over body average. This overhead enables neural networks complex enough to model environment, evaluate options, and navigate toward goals. [The agency emerges from crossing thermodynamic threshold](/the-anthropic-thermodynamic-principle), not from mysterious vital force. Consciousness itself represents recursive self-modeling at this precise overhead—systems modeling themselves modeling the world require exactly this energy budget to maintain the reflexive loop.
+
+The distinction between agency and strategy matters here. Lower scales lack agency entirely—they cannot navigate toward goals. Biological systems have agency but can lose strategic capacity when stress raises effective overhead or depletes slack. A panicked human reverts to gradient-following: fleeing danger, seeking safety, responding reactively rather than planning. The agency remains—the system still navigates—but the strategic layer has collapsed. This is why [markets under stress behave like migrating herds](/bounded-reflexivity-and-constraint-theory): the participants retain agency but have exited the strategic regime.
 
 ## The Recursive Climb
 
@@ -170,6 +174,8 @@ The pattern is mathematical necessity, not metaphor. Physical systems must build
 Agency is rare—requiring precise thermodynamic conditions at $\eta \sim 0.1$ after climbing the ladder many times. Most of the universe operates at lower overhead exhibiting emergence without navigation. Stars, galaxies, and crystals complete ladder iterations building complexity but never reach the agency threshold. Only biological systems hit the sweet spot.
 
 We are matter that climbed the recursive ladder enough times to navigate. From quantum fields to particles to atoms to molecules to cells to organisms—each iteration built on previous emergence. The accumulated complexity achieved $\eta \sim 0.1$ enabling goal-directed behavior. The ladder is how reality builds from constraints to agency. The recursion is law.
+
+This piece establishes the substrate—how complexity builds until agency becomes thermodynamically affordable. [The Anthropic Thermodynamic Principle](/the-anthropic-thermodynamic-principle) establishes the energetic constraints on that substrate. [Bounded Reflexivity & Constraint Theory](/bounded-reflexivity-and-constraint-theory) applies the framework at market and institutional scales. And [From Gradients to Games](/from-gradients-to-games) establishes when the emerged agency expresses as strategic behavior rather than reactive gradient-following. Together they form a closed framework: the ladder builds agency, thermodynamics constrains it, constraint topology shapes its expression, and horizon adequacy determines its regime.
 
 [^1]: Dirac, P. A. M. (1928). The quantum theory of the electron. *Proceedings of the Royal Society of London A*, 117(778), 610-624.
 

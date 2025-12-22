@@ -448,6 +448,40 @@ class ZenodoClient {
     );
   }
 
+  /**
+   * Create a new version draft from a published deposition.
+   *
+   * Zenodo's deposit API returns a response that may include a `links.latest_draft`
+   * URL for the newly created draft. We follow that link to get the full deposition
+   * payload (including bucket link for uploads).
+   */
+  async createNewVersionDraft(id: number): Promise<ZenodoDeposition> {
+    console.log(`🆕 Creating new version draft from deposition ${id}...`);
+
+    const resp = await this.request<any>(
+      "POST",
+      `/api/deposit/depositions/${id}/actions/newversion`
+    );
+
+    const latestDraftUrl = resp?.links?.latest_draft as string | undefined;
+    if (latestDraftUrl) {
+      // Zenodo returns an absolute URL; convert to relative endpoint for request()
+      const endpoint = latestDraftUrl.startsWith(this.baseUrl)
+        ? latestDraftUrl.slice(this.baseUrl.length)
+        : latestDraftUrl;
+      return this.request<ZenodoDeposition>("GET", endpoint);
+    }
+
+    // Fallback: some responses may already be the draft deposition object
+    if (resp?.id && resp?.links?.bucket) {
+      return resp as ZenodoDeposition;
+    }
+
+    throw new Error(
+      "Unexpected response from Zenodo newversion endpoint (missing latest_draft link)"
+    );
+  }
+
   async uploadFile(
     bucketUrl: string,
     fileContent: Buffer | string,
@@ -930,10 +964,9 @@ async function main() {
       // Update existing deposition
       deposition = await client.getDeposition(existingId);
 
-      // If published, we need to create a new version or unlock for editing
+      // If published, create a new version draft (Zenodo versioning)
       if (deposition.submitted) {
-        console.log("   ℹ️  Deposition is published, unlocking for new version...");
-        deposition = await client.unlockDeposition(existingId);
+        deposition = await client.createNewVersionDraft(existingId);
       }
 
       doi = deposition.metadata.prereserve_doi?.doi || deposition.doi || "";
