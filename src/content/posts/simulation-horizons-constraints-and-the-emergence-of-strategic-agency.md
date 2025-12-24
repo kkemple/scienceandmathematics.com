@@ -2,9 +2,9 @@
 title: "Simulation Horizons, Constraints, and the Emergence of Strategic Agency"
 description: "A phase boundary for when optimization becomes strategy: systems play games only when horizon and authority justify intervention over migration under thermodynamic and institutional constraints."
 pubDate: "2025-12-21"
-zenodoDepositionId: 18018477
-zenodoUrl: "https://zenodo.org/records/18018477"
-doi: "10.5281/zenodo.18018477"
+zenodoDepositionId: 18047568
+zenodoUrl: "https://zenodo.org/records/18047568"
+doi: "10.5281/zenodo.18047568"
 updatedDate: "2025-12-21"
 type: "analysis"
 keywords:
@@ -30,6 +30,8 @@ Most systems do not play games. They respond to gradients.
 The distinction matters because economics and biology both reach for optimization language to compress behavior into a single object. But optimization hides a structural split: some systems move toward better conditions, while others change the conditions themselves. A migrating herd follows food gradients. A central bank reshapes the constraint topology. Both can be described as "optimizing," yet only one exhibits strategic agency in any meaningful sense.
 
 This note sketches a boundary condition for that transition. The claim is not that game theory is wrong—it is that game theory is conditional. A system can only behave strategically when it can afford to model counterfactual futures and has enough authority to convert those models into world-editing actions. Below that threshold, what looks like optimization is often just motion along a constraint field.
+
+Academically, the same boundary shows up in several nearby literatures. In control, it is the distinction between **receding-horizon control** (model predictive control) and myopic or saturated feedback: strategy requires a long enough lookahead to justify costly intervention.[^1] In economics, it aligns with **bounded rationality** (limited feasible computation) and **rational inattention** (limited feasible information processing), both of which turn foresight into a resource allocation problem.[^2][^3] In networked systems, “authority” corresponds to whether interventions can actually reach the relevant degrees of freedom—captured in the language of controllability and structural reachability.[^4]
 
 ## The Gradient–Game Distinction
 
@@ -59,11 +61,20 @@ When $\kappa \ll 1$, the future is effectively opaque. Intervention cannot be ju
 
 This is not a moral distinction—smart versus dumb, rational versus irrational. It is a constraint distinction. When $\kappa$ collapses through stress, bandwidth loss, or depleted slack, systems revert to migration even if they were strategic the day before.
 
+## Empirical operationalization
+
+Operationalizing the threshold means choosing observables for $\tau_{\text{ctrl}}$, $\tau_{\text{env}}$, and authority, then asking a timing question: when do the horizon and control conditions shift enough that intervention becomes the dominant mode (or collapses back into migration)? In practice, $\tau_{\text{env}}$ is set by the timescale of payoff/constraint change, $\tau_{\text{ctrl}}$ by the agent’s decision-and-actuation cycle, and authority by the geometry of the feasible action set $\mathcal{U}(x)$ and its reach through the system.
+
+- **Proxies for $\tau_{\text{env}}$**: regime-switch timescales in volatility/correlation; liquidity regime half-lives; policy/constraint update cadence; characteristic time-to-forced-action in plumbing (margin/collateral cycles, settlement timelines).
+- **Proxies for $\tau_{\text{ctrl}}$**: decision cycle time $\Delta t$; time-to-build and time-to-exit for positions/projects; latency to deploy capital or policy (funding access, approval chains); effective lookahead length $H^\star\Delta t$ implied by planning artifacts (budgets, hedging horizons, inventory cycles).
+- **Proxies for authority**: balance-sheet slack and constraint capital; mandate scope; rule-setting power; actuator saturation indicators; network position for reach (critical nodes, chokepoints) as a practical proxy for structural reachability.[^4]
+- **Testable signature**: a rising gap between environment acceleration and controllable horizon—$\kappa$ compressing toward 1 from above—followed by a switch from smooth policy/position adjustment to constraint-driven discontinuities (forced deleveraging, default choices, hard rationing).
+
 ## Thermodynamics of Horizon
 
 Simulation is not free. It is computation. Computation dissipates. Even in idealized form, there is a floor.
 
-Landauer's bound gives a minimum energy per erased bit[^1],
+Landauer's bound gives a minimum energy per erased bit[^5],
 
 $$
 E_{\min} = k_B T \ln 2.
@@ -123,7 +134,7 @@ $$
 x_{t+1} = A_t x_t + B_t u_t + \epsilon_t,
 $$
 
-authority becomes the combination of how much input magnitude is permitted (constraint set) and whether the system is controllable through $B_t$ (structural reachability)[^2]. Two agents can have the same horizon $H^\star$ and wildly different ability to move the system because their $B_t$ and $\mathcal{U}(x)$ differ.
+authority becomes the combination of how much input magnitude is permitted (constraint set) and whether the system is controllable through $B_t$ (structural reachability)[^6]. Two agents can have the same horizon $H^\star$ and wildly different ability to move the system because their $B_t$ and $\mathcal{U}(x)$ differ.
 
 The strategic regime requires a joint condition: $\kappa \gtrsim 1$ (horizon adequate) and authority nontrivial (intervention feasible and reaching the relevant degrees of freedom). Otherwise the system may be smart but still trapped into gradient descent.
 
@@ -241,6 +252,14 @@ When horizons collapse, games dissolve. What remains is motion.
 
 ---
 
-[^1]: Landauer, R. (1961). Irreversibility and heat generation in the computing process. *IBM Journal of Research and Development*, 5(3), 183–191.
+[^1]: Rawlings, J. B., & Mayne, D. Q. (2009). *Model Predictive Control: Theory and Design*. Madison, WI: Nob Hill Publishing.
 
-[^2]: Kalman, R. E. (1960). On the general theory of control systems. *Proceedings of the First International Conference on Automatic Control*.
+[^2]: Simon, H. A. (1955). A behavioral model of rational choice. *The Quarterly Journal of Economics*, 69(1), 99–118.
+
+[^3]: Sims, C. A. (2003). Implications of rational inattention. *Journal of Monetary Economics*, 50(3), 665–690.
+
+[^4]: Lin, C.-T. (1974). Structural controllability. *IEEE Transactions on Automatic Control*, 19(3), 201–208.
+
+[^5]: Landauer, R. (1961). Irreversibility and heat generation in the computing process. *IBM Journal of Research and Development*, 5(3), 183–191.
+
+[^6]: Kalman, R. E. (1960). On the general theory of control systems. *Proceedings of the First International Conference on Automatic Control*.
