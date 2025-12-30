@@ -2,9 +2,10 @@
 title: 'Bounded Reflexivity & Constraint Theory'
 description: "Reframes Soros-Keynes reflexivity through physical, informational, balance-sheet, and institutional constraints that set predictable breaking points for modern markets."
 pubDate: '2025-11-04'
-zenodoDepositionId: 18047557
-zenodoUrl: "https://zenodo.org/records/18047557"
-doi: "10.5281/zenodo.18047557"
+updatedDate: '2025-12-30'
+zenodoDepositionId: 18099832
+zenodoUrl: "https://zenodo.org/records/18099832"
+doi: "10.5281/zenodo.18099832"
 keywords:
   - "reflexivity"
   - "market dynamics"
