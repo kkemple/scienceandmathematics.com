@@ -70,6 +70,8 @@ Operationalizing the threshold means choosing observables for $\tau_{\text{ctrl}
 - **Proxies for authority**: balance-sheet slack and constraint capital; mandate scope; rule-setting power; actuator saturation indicators; network position for reach (critical nodes, chokepoints) as a practical proxy for structural reachability.[^4]
 - **Testable signature**: a rising gap between environment acceleration and controllable horizon—$\kappa$ compressing toward 1 from above—followed by a switch from smooth policy/position adjustment to constraint-driven discontinuities (forced deleveraging, default choices, hard rationing).
 
+These measurements matter because they let you mark the regime boundary empirically: the same system can exhibit “strategic” behavior in a slack, slow environment and “gradient” behavior hours later when constraint timelines shorten and admissible actions saturate.
+
 ## Thermodynamics of Horizon
 
 Simulation is not free. It is computation. Computation dissipates. Even in idealized form, there is a floor.
@@ -180,7 +182,7 @@ Once $H^\star$ falls below the environment's strategic timescale, the system cro
 
 ## A Toy Model: Leveraged Crowded Trade
 
-To see these dynamics concretely, consider a minimal model of leveraged trading with endogenous price impact, margin constraints, finite simulation horizon, and a controller that can reshape constraints.
+To see these dynamics concretely, consider a minimal model of leveraged trading with endogenous price impact, margin constraints, finite simulation horizon, and a controller that can reshape constraints. Formally, each agent is solving a constrained **receding-horizon (MPC)** problem: optimize a horizon-$H_i$ objective under state dynamics and margin feasibility, implement the first step, then roll the horizon forward.[^1]
 
 In discrete time, there is one risky asset with price $p_t > 0$ and two strategic agents $i \in \{1, 2\}$ holding positions $q_{i,t}$. Each agent has equity $W_{i,t} > 0$. A controller—clearinghouse, prime broker, central bank proxy—sets a margin requirement $m_t \in (0,1)$ each period.
 
@@ -206,7 +208,13 @@ $$
 
 When violated, the agent faces required liquidation $L_{i,t} = \max\left(0, |q_{i,t}| - \frac{W_{i,t}}{m_t p_t}\right)$. The position must be reduced by at least $L_{i,t}$—forced selling if long, forced buying if short. That is the mechanical gradient shove.
 
-Each agent solves a horizon-limited control problem. With finite lookahead $H_i$, agent $i$ minimizes a quadratic cost over the planning window, subject to price dynamics, wealth dynamics, margin feasibility, and forced liquidation. The agent is optimizing a reflexive system, but only over a finite horizon.
+Each agent solves a horizon-limited control problem. With finite lookahead $H_i$, agent $i$ minimizes an objective of the form
+
+$$
+\min_{\{\Delta q_{i,t+h}\}_{h=0}^{H_i-1}} \sum_{h=0}^{H_i-1}\left(\ell(\Delta q_{i,t+h}) + \rho \,\mathcal{R}_{i,t+h}\right),
+$$
+
+subject to price and wealth dynamics, margin feasibility, and forced liquidation. Here $\ell(\cdot)$ captures trading frictions and impact, while $\mathcal{R}$ is a risk term (drawdown, variance, or constraint-proximity penalty) that becomes dominant as constraints tighten.
 
 Now tie horizon to feasibility. Define a per-step simulation cost $c_i > 0$ and a per-period choice budget $B_i > 0$. The constraint $H_i c_i \le B_i$ yields $H_i \le \lfloor B_i / c_i \rfloor$. When the system is stressed, $B_i$ decreases (less slack, more time on survival and collateral management) or $c_i$ increases (state space becomes more complex, volatility rises, more branches to simulate). Either way, effective horizon collapses.
 

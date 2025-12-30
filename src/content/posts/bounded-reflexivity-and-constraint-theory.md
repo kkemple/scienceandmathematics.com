@@ -48,18 +48,6 @@ Methodologically, this framework sits at the intersection of **agent-based compu
 
 Soros's core insight centers on two-way feedback between market participants' thinking and market reality. As he stated: "There is a two-way interaction between the participants' thinking and the situation in which they participate."[^3] This creates circular causation—perception influences reality, which then influences perception, introducing fundamental uncertainty.
 
-Mathematically, reflexive dynamics follow a coupled system,
-
-$$
-\frac{dP}{dt} = \alpha(D(P,E) - S(P)) + \sigma W_t,
-$$
-
-$$
-\frac{dE}{dt} = \beta(P - E) + \gamma \frac{dP}{dt},
-$$
-
-where $P$ is market price, $E$ is expected fundamental value, $D(P,E)$ is demand (which depends on expectations), $S(P)$ is supply, $\alpha$, $\beta$, $\gamma$ control adjustment speeds, $\sigma$ is the volatility parameter controlling noise amplitude, and $W_t$ is a Wiener process (Brownian motion) representing random external shocks. The critical parameter $\gamma$ measures momentum strength. When $\gamma > \beta$, positive feedback dominates creating explosive dynamics. When $\gamma < \beta$, negative feedback stabilizes toward equilibrium. The critical point $\gamma = \beta$ marks a bifurcation where system behavior changes qualitatively.
-
 The 1992 Bank of England trade exemplifies pure reflexivity. By September 1992, structural contradictions had emerged: the UK economy needed lower interest rates while Germany maintained high rates, yet Britain remained committed to the European Exchange Rate Mechanism peg. Soros recognized that market pressure itself would force the policy change that would validate the market's skepticism. He increased his short position from $1.5 billion to $10 billion. The Bank of England bought £2 billion per hour and raised rates from 10% to 12% to 15% in a single day. By 7\:30 PM on September 16, the government suspended ERM membership. Soros made over $1 billion in one day because the feedback loop was complete: perception influenced reality, which validated the perception.[^4]
 
 Soros identified boom-bust sequences following predictable patterns. The asymmetric shape—slow booms, sudden busts—reflects leverage dynamics. As he noted, "Bubbles are usually asymmetric in shape: booms develop slowly but the bust tends to be sudden and devastating. That is due to the use of leverage, where price declines precipitate the forced liquidation of leveraged positions."[^5] The constraint framework explains why: constraints initially amplify reflexive dynamics (allowing booms to develop slowly) but then bind catastrophically (forcing sudden busts when limits are reached).
@@ -572,6 +560,18 @@ Operationalization begins by choosing observable proxies for the two fields, con
   - \(H_2\): acceleration terms \((G_C, G_I)\) outperform first-derivative terms for early warning.
   - \(H_3\): increases in endogeneity (branching ratio) co-occur with elevated frustration spread \(F_t\) and sharpen the transition boundary.
 - **Estimation patterns**: logit/probit for “transition in next \(k\) days,” survival/hazard models for time-to-transition, and VAR/Granger-style lead–lag tests linking gradients, endogeneity, and regime variables.
+
+Different proxy families correspond to different coordinate choices on the same underlying state space; robustness shows up when the signatures remain under multiple reasonable proxy sets (liquidity/funding, balance-sheet/risk limits, and narrative/disagreement measures) rather than one fragile construction.
+
+### Falsifiable signatures (two micro, one macro)
+
+These are intentionally framed as *observable signatures* rather than point forecasts. The claim is that when the constraint–information geometry enters certain configurations, the system’s response class changes in ways that can be detected with standard market microstructure and regime-switching tools. Here are three signatures to look for:
+
+- **Micro (minutes–days): gradient alignment to stress events** — conditional on liquidity state, episodes where $\text{sign}(\nabla C)=\text{sign}(\nabla I)$ and $G_C, G_I$ rise should increase the near-horizon probability of discrete microstructure stress (LULD halts, spread/depth collapses, options-driven squeezes) versus matched controls.
+- **Micro (minutes–days): endogeneity and the coordination–coherence gap** — increases in Hawkes branching ratio should co-move with elevated frustration spread $F_t$ and shorten time-to-transition (hazard) for crash-like moves or forced-liquidation cascades.[^1][^8]
+- **Macro (weeks–months): portfolio regime shifts from constraint co-alignment** — persistent cross-asset alignment in constraint pressure proxies (funding stress + VaR tightening + correlation inflation) should precede volatility/correlation regime transitions and systematic de-risking/rotation episodes at portfolio horizons.
+
+Taken together, these give you a concrete checklist: identify which signatures are active at your operating timescale, then measure whether the field variables lead the transition indicators instead of merely coinciding with them.
 
 To operationalize the framework, map constraint landscapes rather than forecasting psychology:
 
