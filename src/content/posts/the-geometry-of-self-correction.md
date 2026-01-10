@@ -1,7 +1,7 @@
 ---
 title: 'The Geometry of Self-Correction'
 description: "Systems that converge share mathematical structure with systems that cycle—except for one geometric property. The curl of the correction field determines whether feedback produces alignment or oscillation."
-pubDate: '2025-01-09'
+pubDate: '2026-01-09'
 zenodoDepositionId: 18201294
 zenodoUrl: "https://zenodo.org/records/18201294"
 doi: "10.5281/zenodo.18201294"
