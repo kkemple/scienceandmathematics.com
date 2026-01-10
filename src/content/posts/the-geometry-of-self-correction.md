@@ -476,7 +476,7 @@ For $\mathbb{S}^{n-1}$ with $n \geq 3$, the sphere is simply connected, so curl-
 
 [^9]: Csank, J.T., et al. (2013). Aircraft Turbine Engine Control Research at NASA Glenn Research Center. NASA/TM—2013-217821.
 
-[^10]: Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., & Mané, D. (2016). Concrete Problems in AI Safety. arXiv:1606.06565.
+[^10]: Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., & Mané, D. (2016). Concrete Problems in AI Safety. arXiv\:1606.06565.
 
 [^11]: Soros, G. (1987). *The Alchemy of Finance: Reading the Mind of the Market*. Simon & Schuster.
 
