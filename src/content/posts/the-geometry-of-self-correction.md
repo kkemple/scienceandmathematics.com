@@ -32,8 +32,6 @@ keywords:
   - "convergence"
 ---
 
-## Abstract
-
 Feedback systems that successfully self-correct share a common mathematical structure—their correction dynamics follow the gradient of a scalar potential on the space of possible states. This paper develops the geometry of such systems using coordinate-free methods on the unit sphere, where the alignment distance between a system's current state and its target anchor serves as a natural Lyapunov function. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation. Divergence of the correction field measures local compressive strength—where trajectories concentrate versus disperse. These tools apply wherever feedback operates—control systems, markets, and artificial agents. The framework connects to constraint theory by identifying when agents following constraint gradients will reach equilibrium versus oscillate around it.
 
 ## Introduction
