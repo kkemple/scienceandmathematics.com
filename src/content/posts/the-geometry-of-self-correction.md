@@ -2,15 +2,17 @@
 title: 'The Geometry of Self-Correction'
 description: "Systems that converge share mathematical structure with systems that cycle—except for one geometric property. The curl of the correction field determines whether feedback produces alignment or oscillation."
 pubDate: '2026-01-09'
-zenodoDepositionId: 18201294
-zenodoUrl: "https://zenodo.org/records/18201294"
-doi: "10.5281/zenodo.18201294"
+zenodoDepositionId: 18259546
+zenodoUrl: "https://zenodo.org/records/18259546"
+doi: "10.5281/zenodo.18259546"
 zenodoDescription: |
   This paper develops a coordinate-free geometric framework for understanding when feedback systems converge versus cycle. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation.
 
   The framework uses the unit sphere as the simplest nontrivial state space, where the alignment distance between a system's current state and its target anchor serves as a natural Lyapunov function. Gradient flow on this manifold guarantees monotonic convergence—but real systems often fail to converge despite well-defined targets. The resolution lies in the correction field's differential structure: when multiple objectives, constraints, or state-dependent rules combine as interacting vector fields rather than weighted sums of scalar potentials, curl emerges and convergence guarantees dissolve.
 
   Three mechanisms introduce curl: (1) multi-objective interference through state-dependent weighting or thresholds, (2) constraints and saturation creating asymmetric correction, and (3) delays and hysteresis coupling current corrections to past states. The curl diagnostic distinguishes problems solvable by parameter adjustment (zero curl, multiple local minima) from problems requiring structural redesign (nonzero curl, architectural interference).
+
+  A key quantitative result establishes that feasibility projections induce an irreducible curl floor. Using Hodge theory, we prove that when a gradient proposal passes through a non-integrable feasibility operator, the curl-maintenance functional—measuring vorticity energy—is bounded below by the spectral gap of the Hodge Laplacian times the projection defect magnitude. This makes precise the claim that cycling is structural rather than parametric: no amount of tuning can eliminate curl induced by constraint geometry.
 
   Divergence of the correction field provides a complementary diagnostic, measuring local compressive strength—where trajectories concentrate versus disperse. This translates to stability margins in control applications.
 
@@ -30,6 +32,9 @@ keywords:
   - "manifolds"
   - "coordination"
   - "convergence"
+  - "Hodge theory"
+  - "spectral gap"
+  - "differential forms"
 ---
 
 Feedback systems that successfully self-correct share a common mathematical structure—their correction dynamics follow the gradient of a scalar potential on the space of possible states. This paper develops the geometry of such systems using coordinate-free methods on the unit sphere, where the alignment distance between a system's current state and its target anchor serves as a natural Lyapunov function. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation. Divergence of the correction field measures local compressive strength—where trajectories concentrate versus disperse. These tools apply wherever feedback operates—control systems, markets, and artificial agents. The framework connects to constraint theory by identifying when agents following constraint gradients will reach equilibrium versus oscillate around it.
@@ -238,7 +243,31 @@ Zero curl everywhere: the potential exists but has multiple local minima, or the
 
 Nonzero curl in specific regions: the architecture introduces circulation in those regions. The fix requires structural change—simplifying objectives, removing state-dependent gating, or redesigning the feedback pathway—not parameter adjustment.
 
-This distinction matters because parameter optimization cannot eliminate architectural curl. Turbofans that oscillate between correction modes, AI systems that exhibit reward hacking, markets that oscillate around equilibrium values—all may have correction fields with intrinsic curl that no amount of tuning can remove. The following sections examine each domain.
+This distinction matters because parameter optimization cannot eliminate architectural curl. Turbofans that oscillate between correction modes, AI systems that exhibit reward hacking, markets that oscillate around equilibrium values—all may have correction fields with intrinsic curl that no amount of tuning can remove.
+
+### Quantifying the Curl Floor
+
+The claim that feasibility projection "introduces curl" admits a sharper formulation. Define the curl-maintenance functional for a vector field $F$ on a Riemannian manifold $(M, g)$ as,
+
+$$
+\mathcal{M}_{\mathrm{curl}}(F) := \frac{1}{2} \int_M |d\alpha|^2 \, dV_g,
+$$
+
+where $\alpha = F^\flat$ is the metric-dual 1-form. This measures the $L^2$-size of the exterior derivative—the total "vorticity energy" of the correction field.
+
+When a curl-free proposal $F_0 = \nabla \phi$ passes through a feasibility projection $\Pi$, the implemented field becomes $F = \Pi(F_0)$ with defect $\delta F = F - F_0$. Since $d(d\phi) = 0$, all curl-maintenance derives from the defect: $\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}|d(\delta\alpha)|^2_{L^2}$.
+
+The substantive result is that this cost has a geometric lower bound. On compact manifolds with trivial first cohomology (including spheres $\mathbb{S}^{n-1}$ for $n \geq 3$), the Hodge Laplacian on 1-forms has a positive spectral gap $\lambda_1 > 0$. When the projection defect is not purely divergence—when it has persistent magnitude that cannot be hidden entirely in volume change—the curl-maintenance satisfies,
+
+$$
+\mathcal{M}_{\mathrm{curl}}(F) \geq \frac{\kappa}{2} |\delta\alpha|^2_{L^2} > 0,
+$$
+
+for some $\kappa > 0$ determined by the spectral gap and the divergence structure of the defect[^14].
+
+This is the quantitative version of "structural, not parametric." A system whose correction architecture repeatedly induces a nontrivial projection defect carries an irreducible curl floor. The floor is not a tuning artifact but a geometric constant times the persistent defect magnitude. Cycling and sustained corrective work are the irreducible residue of feasibility—the cost of implementing constraints that prevent a global scalar Lyapunov function from existing on the realized dynamics.
+
+The following sections examine specific domains where this structure appears.
 
 ### Control Systems
 
@@ -456,6 +485,158 @@ Conversely, on simply connected manifolds, a curl-free vector field is locally (
 
 For $\mathbb{S}^{n-1}$ with $n \geq 3$, the sphere is simply connected, so curl-free implies gradient. For $\mathbb{S}^1$ (the circle), a constant tangent field has zero curl but is not a gradient—it has nonzero circulation around the circle.
 
+### Curl-Maintenance Under Feasibility Projections
+
+This section develops the quantitative theory underlying the curl floor discussed in the main text. The framework applies to any compact, oriented Riemannian manifold $(M, g)$ without boundary, with $\dim M = n \geq 2$.
+
+#### The Curl-Maintenance Functional
+
+Let $\mathfrak{X}(M)$ denote smooth vector fields and $\Omega^k(M)$ denote smooth $k$-forms on $M$. For $F \in \mathfrak{X}(M)$, let $\alpha := F^\flat \in \Omega^1(M)$ be the metric-dual 1-form. The curl-maintenance (or vorticity energy) functional is,
+
+$$
+\mathcal{M}_{\mathrm{curl}}(F) := \frac{1}{2} \int_M |d\alpha|^2 \, dV_g = \frac{1}{2} |d\alpha|^2_{L^2}.
+$$
+
+This is a purely geometric quantity measuring the $L^2$-size of the exterior derivative of the implemented 1-form.
+
+#### Feasibility as Projection
+
+Assume that for each $x \in M$ there is a closed convex cone (or subspace) $\mathcal{K}_x \subset T_x M$, and let $\Pi_x : T_x M \to \mathcal{K}_x$ be the metric orthogonal projection. Given a proposal field $F_0 \in \mathfrak{X}(M)$, define the implemented field,
+
+$$
+F(x) = \Pi_x(F_0(x)), \qquad \alpha := F^\flat, \qquad \alpha_0 := F_0^\flat.
+$$
+
+The projection defect is,
+
+$$
+\delta F := F - F_0, \qquad \delta\alpha := \alpha - \alpha_0.
+$$
+
+If the proposal is gradient-like, $F_0 = \nabla\phi$ for some smooth $\phi$, then $\alpha_0 = d\phi$ and therefore,
+
+$$
+d\alpha = d(\alpha_0 + \delta\alpha) = d(\delta\alpha).
+$$
+
+Under a curl-free proposal, all curl-maintenance is induced by the feasibility projection:
+
+$$
+\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2} \int_M |d(\delta\alpha)|^2 \, dV_g.
+$$
+
+#### The Integrability Criterion
+
+A 1-form $\alpha$ is curl-free if and only if it is closed: $d\alpha = 0$. On manifolds with $H^1(M) = 0$ (e.g., spheres $\mathbb{S}^m$ for $m \geq 2$), closed implies exact, so curl-free is equivalent to $\alpha = d\psi$ for some scalar potential $\psi$.
+
+**Proposition 1 (Zero maintenance iff integrable).** Let $F \in \mathfrak{X}(M)$, $\alpha = F^\flat$. Then,
+
+$$
+\mathcal{M}_{\mathrm{curl}}(F) = 0 \quad \Longleftrightarrow \quad d\alpha = 0.
+$$
+
+If additionally $H^1(M) = 0$, then,
+
+$$
+\mathcal{M}_{\mathrm{curl}}(F) = 0 \quad \Longleftrightarrow \quad \exists \, \psi \in C^\infty(M) \text{ such that } F = \nabla\psi.
+$$
+
+*Proof.* $\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}|d\alpha|^2_{L^2}$ vanishes if and only if $d\alpha \equiv 0$. If $H^1(M) = 0$, every closed 1-form is exact: $\alpha = d\psi$, hence $F = \nabla\psi$. $\blacksquare$
+
+This makes the "no global scalar function" claim operational: curl is exactly the obstruction to scalar descent.
+
+#### Minimum-Curl Solutions at Fixed Divergence
+
+To connect to minimum-maintenance correction architectures, fix a divergence constraint. For a 1-form $\alpha$, the codifferential $\delta\alpha$ equals (up to sign conventions) the divergence of the corresponding vector field. Fix any smooth function $s \in C^\infty(M)$ with $\int_M s \, dV_g = 0$ (necessary for solvability on a compact manifold without boundary). Consider the feasible class,
+
+$$
+\mathcal{A}_s := \{ \alpha \in \Omega^1(M) : \delta\alpha = s \}.
+$$
+
+**Proposition 2 (Minimum-curl solution at fixed divergence).** Assume $H^1(M) = 0$. For any $s \in C^\infty(M)$ with $\int_M s \, dV_g = 0$, the minimization problem,
+
+$$
+\inf_{\alpha \in \mathcal{A}_s} \frac{1}{2} |d\alpha|^2_{L^2}
+$$
+
+has value $0$, and every minimizer satisfies $d\alpha = 0$. Equivalently, every minimizer is exact: $\alpha = d\psi$, where $\psi$ solves the Poisson equation,
+
+$$
+\Delta\psi = s \quad \text{(with } \Delta = \delta d \text{ on functions)}.
+$$
+
+Thus, among all fields with a prescribed divergence profile, the zero-maintenance architecture is gradient/potential-driven.
+
+*Proof.* Solve $\Delta\psi = s$ (solvable because $\int s = 0$). Then $\alpha = d\psi$ satisfies $\delta\alpha = \delta d\psi = \Delta\psi = s$, hence $\alpha \in \mathcal{A}_s$, and $d\alpha = dd\psi = 0$, so the objective is $0$. Since the objective is nonnegative, $0$ is the infimum. Any minimizer must have $d\alpha = 0$; when $H^1(M) = 0$, it is exact. $\blacksquare$
+
+*Interpretation:* If a system can implement any field satisfying the divergence requirement, then curl-maintenance can be driven to zero by choosing a gradient field. Persistent maintenance becomes necessary only when feasibility excludes that integrable solution or when implementation maps a curl-free proposal through a non-integrable feasibility operator.
+
+#### The Spectral Lower Bound
+
+Let $\Delta_1 := d\delta + \delta d$ be the Hodge Laplacian on 1-forms. When $H^1(M) = 0$, $\Delta_1$ has a strictly positive first eigenvalue on $\Omega^1(M)$:
+
+$$
+\lambda_1 := \inf_{\beta \neq 0} \frac{\langle \Delta_1 \beta, \beta \rangle}{|\beta|^2_{L^2}} = \inf_{\beta \neq 0} \frac{|d\beta|^2_{L^2} + |\delta\beta|^2_{L^2}}{|\beta|^2_{L^2}} > 0.
+$$
+
+**Lemma 3 (Spectral lower bound for the defect curl).** Assume $H^1(M) = 0$ and let $\beta \in \Omega^1(M)$. Then,
+
+$$
+|d\beta|^2_{L^2} \geq \lambda_1 |\beta|^2_{L^2} - |\delta\beta|^2_{L^2}.
+$$
+
+*Proof.* By the variational characterization of $\lambda_1$,
+
+$$
+|d\beta|^2_{L^2} + |\delta\beta|^2_{L^2} \geq \lambda_1 |\beta|^2_{L^2}.
+$$
+
+Rearrange. $\blacksquare$
+
+#### The Main Theorem
+
+**Theorem 4 (Projected gradient flows have an unavoidable curl floor).** Assume $H^1(M) = 0$. Let the proposal be gradient: $\alpha_0 = d\phi$, and let $\alpha = \Pi(\nabla\phi)^\flat$ be the implemented field, with defect $\delta\alpha = \alpha - \alpha_0$. Then,
+
+$$
+\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2} |d(\delta\alpha)|^2_{L^2} \geq \frac{1}{2} \left( \lambda_1 |\delta\alpha|^2_{L^2} - |\delta(\delta\alpha)|^2_{L^2} \right).
+$$
+
+In particular, if the defect has persistent magnitude and is not entirely divergence-dominated—i.e., if there exists $\kappa > 0$ such that,
+
+$$
+|\delta(\delta\alpha)|_{L^2} \leq \sqrt{\lambda_1 - \kappa} \, |\delta\alpha|_{L^2},
+$$
+
+then,
+
+$$
+\mathcal{M}_{\mathrm{curl}}(F) \geq \frac{\kappa}{2} |\delta\alpha|^2_{L^2} > 0.
+$$
+
+*Proof.* Since $\alpha_0$ is exact, $d\alpha = d(\delta\alpha)$, hence $\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}|d(\delta\alpha)|^2_{L^2}$. The lower bound is Lemma 3 with $\beta = \delta\alpha$. The strict positivity condition is immediate from the displayed inequality. $\blacksquare$
+
+This is the formal "structural, not parametric" statement: if feasibility repeatedly induces a nontrivial projection defect that cannot be represented purely as divergence, curl-maintenance is bounded away from zero by a geometric constant (through $\lambda_1$) times a persistent defect magnitude.
+
+#### When Projection Preserves Zero Maintenance
+
+Given the theorem, "zero maintenance after projection" is a special case characterized by integrability of the implemented field:
+
+$$
+\mathcal{M}_{\mathrm{curl}}(F) = 0 \quad \Longleftrightarrow \quad d(\delta\alpha) = 0 \quad \Longleftrightarrow \quad \alpha \text{ is closed (hence exact if } H^1(M) = 0 \text{)}.
+$$
+
+Operationally: feasibility preserves zero maintenance only when the projection rule $\Pi_x$ maps the proposal $\nabla\phi$ into another gradient field $\nabla\psi$ globally. Fixed linear projections onto fixed subspaces can do this (they are integrable). State-dependent gating, asymmetric saturation cones, and mode-switching generically do not: they vary with $x$ and with the proposal direction, producing a defect with nontrivial exterior derivative.
+
+#### Connection to the Three Curl Generators
+
+The three curl-generating mechanisms identified in the main text—multi-objective interference, constraints and saturation, delays and hysteresis—align under a single obstruction. Each mechanism induces an effective state-dependent, non-integrable feasibility map, hence a defect $\delta\alpha$ with $d(\delta\alpha) \neq 0$.
+
+Multi-objective interference produces state-dependent weighting or thresholds that change $\Pi_x$ as a function of $x$. Constraints and saturation impose asymmetric cones $\mathcal{K}_x$ that vary with the direction of the proposal. Delays and hysteresis couple the projection to past states, creating path-dependence that manifests as non-integrability when projected to instantaneous variables.
+
+In each case, the geometric content is identical: the implemented correction field cannot be written as the gradient of any scalar function on the state space. The curl-maintenance functional quantifies this obstruction, and Theorem 4 establishes that when the obstruction is persistent, the maintenance cost has an irreducible floor.
+
+The wedge statement summarizes the result: among all vector fields satisfying a prescribed divergence profile, the unique zero-maintenance architecture is gradient/potential-driven. Any persistent feasibility projection that is not integrable forces a strictly positive curl-maintenance floor, quantified by a Hodge spectral gap and the size of the projection defect.
+
 [^1]: Lyapunov, A.M. (1892). *The General Problem of the Stability of Motion*. Doctoral dissertation, University of Kharkov. Translated in Fuller, A.T. (1992). International Journal of Control, 55(3), 531-773.
 
 [^2]: Ashby, W.R. (1956). *An Introduction to Cybernetics*. Chapman & Hall, London.
@@ -481,3 +662,5 @@ For $\mathbb{S}^{n-1}$ with $n \geq 3$, the sphere is simply connected, so curl-
 [^12]: Spivak, M. (1965). *Calculus on Manifolds*. Benjamin.
 
 [^13]: Clarke, F.H. (1983). *Optimization and Nonsmooth Analysis*. Wiley.
+
+[^14]: The spectral gap $\lambda_1$ is the smallest positive eigenvalue of the Hodge Laplacian $\Delta_1 = d\delta + \delta d$ on 1-forms. For $\mathbb{S}^{n-1}$, this equals $n-1$. See Rosenberg, S. (1997). *The Laplacian on a Riemannian Manifold*. Cambridge University Press, Chapter 4.
