@@ -1,7 +1,7 @@
 ---
 title: "Hilbert's Sixth Problem & the Cost of Infinite Information"
 description: "Hilbert's 1900 call for axiomatic physics was really asking whether nature demands infinite precision. The universe's finite computational capacity provides the answer—and explains why statistical mechanics works."
-pubDate: '2025-01-10'
+pubDate: '2026-01-10'
 zenodoDepositionId: 18214112
 zenodoUrl: "https://zenodo.org/records/18214112"
 doi: "10.5281/zenodo.18214112"

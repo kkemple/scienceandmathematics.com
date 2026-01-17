@@ -2,9 +2,9 @@
 title: 'Binding Energy, Critical Radii, & Information Maintenance Tax'
 description: "Connects Landauer limits, binding energy, and white dwarf collapse to show every organized system pays an information maintenance tax with measurable bankruptcy radii."
 pubDate: '2025-10-14'
-zenodoDepositionId: 17981100
-zenodoUrl: "https://zenodo.org/records/17981100"
-doi: "10.5281/zenodo.17981100"
+zenodoDepositionId: 18281400
+zenodoUrl: "https://zenodo.org/records/18281400"
+doi: "10.5281/zenodo.18281400"
 keywords:
   - "Landauer principle"
   - "binding energy"
@@ -16,6 +16,9 @@ keywords:
   - "organizational complexity"
   - "critical phenomena"
   - "black hole thermodynamics"
+  - "curl"
+  - "non-integrability"
+  - "constraint geometry"
 zenodoDescription: |
   This paper proposes that binding energies across all scales—nuclear, electromagnetic, gravitational—represent ongoing thermodynamic maintenance costs against entropy, following from Landauer's principle (E = k_B T ln 2 per bit).
 
@@ -69,6 +72,22 @@ E_m + E_a = Mc^2,
 $$
 
 where $E_a = Mc^2(1 - R_S/R)$ represents energy available for work beyond maintenance.
+
+### The Geometric Origin of Maintenance
+
+The thermodynamic tax is not merely an accounting identity—it has a geometric origin. Any organized system enforces feasibility constraints on its dynamics: electron shells confine electrons to quantized orbitals, nuclear binding confines quarks within hadrons, gravitational virial relations confine matter within characteristic radii. These constraints project the system's dynamics onto admissible configurations.
+
+When constraints are state-independent—the same restriction everywhere in phase space—the projected dynamics can still derive from a scalar potential. The system descends toward equilibrium along a well-defined gradient. When constraints vary with state—when the admissible directions depend on where the system currently sits—the projection generically introduces [curl into the effective dynamics](/the-geometry-of-self-correction).
+
+Curl measures irreducible circulation: work that must be continuously supplied because no global potential exists. The curl-maintenance functional,
+
+$$
+\mathcal{M}_{\mathrm{curl}} = \frac{1}{2} \int |d\alpha|^2 \, dV,
+$$
+
+where $\alpha = F^\flat$ is the 1-form dual to the correction field $F$, quantifies this cost. On compact manifolds with trivial first cohomology, a [spectral lower bound](/the-geometry-of-self-correction) ensures that non-integrable projections carry an irreducible maintenance floor proportional to the projection defect magnitude.
+
+Binding energies are curl-maintenance costs—the thermodynamic price of enforcing non-integrable constraints against entropy. Nuclear binding maintains quark confinement against QCD fluctuations. Electromagnetic binding maintains electron configurations against thermal noise. Gravitational binding maintains bulk coherence against dispersal. Each represents continuous energy expenditure to sustain state-dependent feasibility projections that lack global potentials.
 
 ## Force-Specific Bankruptcy Radii
 
@@ -254,11 +273,15 @@ where $M_{\text{gal}}$ is galaxy mass and $\eta_{\text{struct}} \sim 10$ for ass
 
 ## The Deeper Correspondence
 
-The framework reveals binding energy as thermodynamic tax. Every bound system—from nuclei to galaxies—pays continuous energy to maintain informational coherence, with cost scaling as $E_m = Mc^2 \times (r_{\text{crit}}/r) \times \eta(scale)$. Each fundamental force acts as different collection mechanism for the same underlying tax, with characteristic bankruptcy radii where maintenance equals available energy.
+The framework reveals binding energy as thermodynamic tax. Every bound system—from nuclei to galaxies—pays continuous energy to maintain informational coherence, with cost scaling as $E_m = Mc^2 \times (r_{\text{crit}}/r) \times \eta(scale)$. Each fundamental force acts as a different collection mechanism for the same underlying tax, with characteristic bankruptcy radii where maintenance equals available energy.
 
-Empirical validation across 57 orders of magnitude. White dwarf trajectory through the basin of attraction threshold at precisely $R/R_S = 10^3$ confirms predicted bankruptcy mechanism. [Type Ia supernova energetics](/type-ia-supernova-information-theoretic-energetics) emerge from information bit counting between degenerate states—the exact energy match ($4.3 \times 10^{44}$ J) validates that binding represents active maintenance through Landauer's principle. Metabolic rates reveal maximum sustainable biological overhead at $\eta_{\text{bio}} \sim 0.1$. These independent validations suggest binding energies encode maintenance costs. The same composite invariant $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ from the [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) determines the bankruptcy threshold $\eta_c = 1/\rho^* \approx 0.304$ operating identically from atomic ionization to stellar collapse to civilizational crisis—the same mathematical structure governing [information processing across all scales](/information-field-theory-from-constraint-to-cosmos).
+The geometric foundation unifies these observations. Curl explains *why* maintenance is required: state-dependent feasibility projections introduce irreducible circulation that demands continuous energy supply. The collapse invariant $\rho^*$ explains *when* maintenance overwhelms the system: as accumulated curl pushes $\eta$ toward the bankruptcy threshold $\eta_c = 1/\rho^* \approx 0.304$, integrable degrees of freedom are progressively exhausted. Bankruptcy radii mark where accumulated curl has consumed all available capacity—no integrable directions remain, and the system must reorganize or collapse.
 
-The framework connects Landauer's microscopic principle to macroscopic gravitational phenomena through single mathematical relationship. Black holes represent thermodynamic endpoint where all energy maintains information at Planck frequency, explaining maximum entropy as pure maintenance with zero excess capacity. Critical mass phenomena from Chandrasekhar to Oppenheimer-Volkoff limits[^5] emerge as bankruptcy thresholds where organizational modes become unsustainable.
+Empirical validation spans 57 orders of magnitude. White dwarf trajectory through the basin of attraction threshold at precisely $R/R_S = 10^3$ confirms the predicted bankruptcy mechanism. [Type Ia supernova energetics](/type-ia-supernova-information-theoretic-energetics) emerge from information bit counting between degenerate states—the exact energy match ($4.3 \times 10^{44}$ J) validates that binding represents active maintenance through Landauer's principle. Metabolic rates reveal maximum sustainable biological overhead at $\eta_{\text{bio}} \sim 0.1$. These independent validations suggest binding energies encode maintenance costs. The same composite invariant $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ from the [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) determines the bankruptcy threshold operating identically from atomic ionization to stellar collapse to civilizational crisis—the same mathematical structure governing [information processing across all scales](/information-field-theory-from-constraint-to-cosmos).
+
+The complete picture: curl is the geometric origin of dissipation; $\rho^*$ governs the rate at which accumulated non-integrability exhausts integrable degrees of freedom; and bankruptcy occurs when that exhaustion is complete. The [geometry of self-correction](/the-geometry-of-self-correction) provides the mathematical machinery—Hodge theory, spectral gaps, curl-maintenance functionals—while this framework applies it to physical binding across scales.
+
+The framework connects Landauer's microscopic principle to macroscopic gravitational phenomena through a single mathematical relationship. Black holes represent the thermodynamic endpoint where all energy maintains information at Planck frequency, explaining maximum entropy as pure maintenance with zero excess capacity. Critical mass phenomena from Chandrasekhar to Oppenheimer-Volkoff limits[^5] emerge as bankruptcy thresholds where organizational modes become unsustainable.
 
 This thermodynamic interpretation suggests gravity itself may emerge from information maintenance requirements rather than [spacetime geometry](/what-if-spacetime-isnt-so-continuous), opening avenues for understanding the relationship between information, energy, and reality's structure.
 

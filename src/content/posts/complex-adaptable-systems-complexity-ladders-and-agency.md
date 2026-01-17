@@ -2,9 +2,9 @@
 title: 'Complex Adaptable Systems, Complexity Ladders, & Agency'
 description: "Traces a universal four-step complexity ladder from quantum fields to biology, showing why agency emerges only near the eta ~ 0.1 thermodynamic sweet spot."
 pubDate: '2025-10-18'
-zenodoDepositionId: 18018309
-zenodoUrl: "https://zenodo.org/records/18018309"
-doi: "10.5281/zenodo.18018309"
+zenodoDepositionId: 18281401
+zenodoUrl: "https://zenodo.org/records/18281401"
+doi: "10.5281/zenodo.18281401"
 keywords:
   - "complexity"
   - "emergence"
@@ -16,6 +16,9 @@ keywords:
   - "constraints"
   - "degrees of freedom"
   - "information theory"
+  - "curl"
+  - "non-integrability"
+  - "renormalization"
 zenodoDescription: |
   This paper proposes that complexity builds through a universal four-step ladder—Constraints → Structure → Invariance → Emergence—recursively applied at each scale from quantum fields to biological systems. Agency emerges only when accumulated organizational overhead reaches η ~ 0.1.
 
@@ -49,6 +52,30 @@ Each ladder iteration discovers the [triplet architecture $(\pi, \beta, N)$](/a-
 The recursion continues until sufficient complexity accumulates. At each scale, the ladder operates identically—only parameters change. The emerged patterns from lower scales become the constraints for higher scales. This bootstrapping builds complexity from simplicity through repeated application of identical progression.
 
 Agency requires completing many iterations. Insufficient recursion produces emerged patterns without navigation capacity. Each iteration adds an organizational layer operating at a characteristic maintenance overhead $\eta$. When accumulated complexity reaches biological scales at $\eta_{\text{bio}} \sim 0.1$, systems finally achieve agency—goal-directed navigation using emerged patterns to respond to environmental information.
+
+### Curl Accumulation Across Scale
+
+Each ladder rung introduces new feasibility constraints inherited from the scale below. Particles constrain what atomic configurations can exist. Atoms constrain what molecular bonds can form. Molecules constrain what cellular architectures can function. Each inheritance is effectively a coarse-grained projection of dynamics from one state manifold to another.
+
+When constraints are state-dependent—when the admissible directions depend on where the system sits in configuration space—the projected dynamics generically have [nonzero curl](/the-geometry-of-self-correction). Curl measures irreducible circulation: work that must be continuously supplied because no global potential exists for the constrained dynamics.
+
+At each scale $k$, define a dimensionless curl burden,
+
+$$
+\gamma_k = \frac{|d\alpha_k|^2}{|\alpha_k|^2},
+$$
+
+where $\alpha_k = F_k^\flat$ is the 1-form dual to the effective dynamics at that level. The dissipation ladder is then the cumulative curl burden,
+
+$$
+\Gamma_K = \sum_{k=0}^{K} w_k \gamma_k,
+$$
+
+with weights $w_k$ encoding duration, dimensionality, or coordination load at each scale.
+
+The dissipation fraction $\eta$ is not an independent variable—it is a monotone, saturating function of cumulative curl $\Gamma_K$. Each rung of the ladder corresponds to a scale band where $\gamma_k$ is large (new coordination layer creating new non-integrable projections), producing step-like increases in $\eta$. The dissipation ladder is curl renormalized across hierarchical constraint projections.
+
+This geometric interpretation explains why the ladder is unavoidable. Each scale introduces constraints that the previous scale's dynamics did not face. Those constraints project motion onto new admissible subspaces. Unless the projection happens to preserve integrability—unless it maps gradient fields to gradient fields—curl accumulates. The decade spacing ($10^{-6} \to 10^{-3} \to 10^{-2} \to 10^{-1}$) reflects how much curl each ladder rung typically contributes before the system stabilizes at that scale's characteristic overhead.
 
 ## Quantum Fields to Particles
 
@@ -116,7 +143,9 @@ representing 10% maintenance overhead—maximum sustainable fraction dedicated t
 
 This 10% threshold is critical. Below this overhead, systems lack sufficient complexity for goal-directed navigation. A bacterium at $\eta \sim 0.01$ shows primitive agency through chemotaxis—swimming up nutrient gradients using temporal sensing[^8]. But the navigation remains rudimentary. Insects at $\eta \sim 0.05$ demonstrate more sophisticated agency through learning and communication. Mammals at $\eta \sim 0.08$ exhibit clear goal-directed behavior.
 
-Humans operating at $\eta \sim 0.1$ approach the ceiling. Above 10% overhead, excessive maintenance consumes available energy. Systems approaching bankruptcy threshold $\eta_c = 1/\rho^* \approx 0.304$ face catastrophic failure—maintenance costs exceed productive capacity. The viable window for agency is narrow: roughly $0.05 < \eta < 0.15$.
+Humans operating at $\eta \sim 0.1$ approach the ceiling. Above 10% overhead, excessive maintenance consumes available energy. Systems approaching bankruptcy threshold $\eta_c = 1/\rho^* \approx 0.304$ face catastrophic failure—accumulated curl has exhausted all integrable degrees of freedom, leaving no capacity for productive work.
+
+The agency window is geometrically constrained. Below $\eta \sim 0.05$, insufficient accumulated curl means insufficient organizational structure for rich goal-directed behavior—the system lacks the complexity to represent and evaluate alternative trajectories. Above $\eta_c \sim 0.304$, no integrable directions remain—organizational collapse becomes inevitable as the curl-maintenance functional diverges. Agency requires sufficient non-integrability for organizational depth while remaining below the threshold where accumulated curl exhausts all feasible structure. The viable window is narrow: roughly $0.05 < \eta < 0.15$.
 
 Agency requires both emerged complexity AND available energy. Speech demonstrates this balance. [Tissue mechanics constrains phoneme production to 6.7 per second](/information-theoretic-constraints-on-sociotechnical-systems). With 40-phoneme inventory, this yields 36 bits per second—matching observed 39 bits per second across all languages. The mechanical constraint (emergence from tissue structure) combines with cognitive capacity (available energy for processing) to enable communicative agency.
 
@@ -151,7 +180,15 @@ Each iteration adds organizational layer. Each layer operates at characteristic 
 - Molecules: $\eta \sim 10^{-2}$
 - Cells: $\eta \sim 10^{-1}$
 
-The overhead increases because higher scales coordinate more degrees of freedom. Atoms must manage electron-nucleus dynamics. Molecules must coordinate many atoms. Cells must orchestrate thousands of molecules. Each coordination level requires additional [maintenance energy](/binding-energy-critical-radii-and-information-maintenance-tax). The decade spacing ($10^{-6} \to 10^{-3} \to 10^{-2} \to 10^{-1}$) reflects the curvature ladder: each order-of-magnitude jump represents completing another triplet realization, with the system discovering its $(\pi, \beta, N)$ eigenstructure at the new scale.
+The overhead increases because higher scales coordinate more degrees of freedom. Atoms must manage electron-nucleus dynamics. Molecules must coordinate many atoms. Cells must orchestrate thousands of molecules. Each coordination level requires additional [maintenance energy](/binding-energy-critical-radii-and-information-maintenance-tax).
+
+The decade spacing ($10^{-6} \to 10^{-3} \to 10^{-2} \to 10^{-1}$) reflects curl-renormalization across scale. Each order-of-magnitude jump represents completing another triplet realization, with the system discovering its $(\pi, \beta, N)$ eigenstructure at the new scale—and in the process introducing new non-integrable constraints that accumulate curl. The renormalization-group-like flow follows,
+
+$$
+\frac{d\eta}{d\ln\mu} \propto \rho^* \cdot \eta(1-\eta) \cdot \gamma(\mu),
+$$
+
+where $\mu$ is scale, $\gamma(\mu)$ is the curl burden at that scale, and $\rho^* \approx 3.29$ governs the rate of capacity erosion. Curl accumulation explains *why* maintenance grows through the hierarchy; $\rho^*$ explains *when* the accumulated non-integrability overwhelms the system.
 
 Agency emerges when overhead reaches 10% threshold. Below this, insufficient complexity prevents navigation. Above this, excessive maintenance consumes capacity. The biological sweet spot at $\eta_{\text{bio}} \sim 0.1$ provides precise balance—enough organization for goal-directed behavior, enough available energy to execute it.
 
