@@ -1,6 +1,6 @@
 ---
 title: 'The Minimal Basis of Coordination'
-description: "Any persistent distributed system must solve exactly three irreducible problems: signal extraction, boundary stabilization, and overload management. These are independent, jointly sufficient, and minimal—no fourth problem exists."
+description: "Any persistent distributed system must solve three irreducible problems: signal extraction, boundary stabilization, and overload management. These are independent, jointly sufficient, and minimal."
 pubDate: '2026-01-18'
 zenodoDepositionId: 18292496
 zenodoUrl: "https://zenodo.org/records/18292496"

@@ -1,6 +1,6 @@
 ---
 title: 'Navier–Stokes, Vorticity Growth, & the Finite Residence of Balanced States'
-description: "The Navier–Stokes problem asks whether solutions can develop singularities in finite time. This analysis identifies a structural constraint: regions where stretching and multiscale recursion are locally balanced are not dynamically persistent. Balanced states are crossed but not occupied."
+description: "The Navier–Stokes problem asks if solutions can develop singularities in finite time. Regions where stretching and multiscale recursion are locally balanced are not dynamically persistent—balanced states are crossed but not occupied."
 pubDate: '2026-01-17'
 zenodoDepositionId: 18292494
 zenodoUrl: "https://zenodo.org/records/18292494"
