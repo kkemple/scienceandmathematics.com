@@ -1,6 +1,6 @@
 ---
 title: 'A Constraint Eigenvalue Theory of Information, Matter, & Mind'
-description: "Develops a unified constraint eigenvalue geometry showing how triadic curvature competition governs coherence from quantum transport to cognitive dynamics. Curvature is complexity; coherence emerges only where curvature budgets can be sustained."
+description: "A constraint eigenvalue geometry showing how triadic curvature competition governs coherence from quantum to cognitive scales. Curvature is complexity; coherence is what we can afford."
 pubDate: '2025-11-28'
 zenodoDepositionId: 18292497
 zenodoUrl: "https://zenodo.org/records/18292497"

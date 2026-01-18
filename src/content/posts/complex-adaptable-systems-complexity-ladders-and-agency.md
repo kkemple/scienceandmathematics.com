@@ -2,9 +2,10 @@
 title: 'Complex Adaptable Systems, Complexity Ladders, & Agency'
 description: "Traces a universal four-step complexity ladder from quantum fields to biology, showing why agency emerges only near the eta ~ 0.1 thermodynamic sweet spot."
 pubDate: '2025-10-18'
-zenodoDepositionId: 18292503
-zenodoUrl: "https://zenodo.org/records/18292503"
-doi: "10.5281/zenodo.18292503"
+updatedDate: '2026-01-18'
+zenodoDepositionId: 18293325
+zenodoUrl: "https://zenodo.org/records/18293325"
+doi: "10.5281/zenodo.18293325"
 keywords:
   - "complexity"
   - "emergence"
@@ -87,13 +88,13 @@ $$
 
 with weights $w_k$ encoding the relative contribution of each scale (duration, dimensionality, coordination load).
 
-The dissipation fraction $\eta$ is not an independent variable—it appears to be a monotone, saturating function of cumulative curl $\Gamma_K$. Each rung of the ladder corresponds to a scale band where $\gamma_k$ is large (new coordination layer creating new non-integrable projections), producing step-like increases in $\eta$. The dissipation ladder represents curl, renormalized across hierarchical constraint projections.
+The dissipation fraction $\eta$ is not an independent variable—it appears to be a monotone, saturating function of cumulative curl $\Gamma_K$. Each rung of the ladder corresponds to a scale band where $\gamma_k$ is large (new coordination layer creating new non-integrable projections), producing step-like increases in $\eta$. The dissipation ladder represents curl, renormalized across hierarchical constraint projections—what we term hierarchical curl accumulation (HCA).
 
 The decade spacing ($10^{-6} \to 10^{-3} \to 10^{-2} \to 10^{-1}$) may reflect how spectral gaps typically scale with organizational complexity. Each order-of-magnitude jump represents completing another constraint eigenvalue realization at a new scale. As the system discovers its triplet architecture $(\pi, \beta, N)$ at that level, it introduces new non-integrable constraints with characteristic spectral gap. If these gaps scale geometrically with organizational depth—a pattern consistent with renormalization group behavior—decade-structured jumps in $\eta$ emerge.
 
 This geometric interpretation suggests why the ladder may be unavoidable. Each scale introduces constraints that the previous scale's dynamics did not face. Those constraints project motion onto new admissible subspaces. Unless the projection happens to preserve integrability—unless it maps gradient fields to gradient fields—curl accumulates. The Hodge spectral gap ensures this accumulation has an irreducible floor at each scale. The system cannot descend the ladder by unwinding curl, because curl measures irreducible circulation with no global potential to recover.
 
-Irreversibility enforces the arrow. Accumulated curl represents work that must be continuously supplied—maintenance that cannot be deferred. This is why complexity builds unidirectionally: each organizational layer adds curvature that must be sustained, and sustaining it requires climbing to the next thermodynamic regime. See Technical Appendix for mathematical foundations.
+Irreversibility enforces the arrow. Accumulated curl represents work that must be continuously supplied—maintenance that cannot be deferred. This is why complexity builds unidirectionally: each organizational layer adds curvature that must be sustained, and sustaining it requires climbing to the next thermodynamic regime. The HCA mechanism provides the mathematical foundation for this one-way climb (see Technical Appendix).
 
 ## Quantum Fields to Particles
 
@@ -206,7 +207,7 @@ $$
 \frac{d\eta}{d\ln\mu} \propto \rho^* \cdot \eta(1-\eta) \cdot \gamma(\mu),
 $$
 
-where $\mu$ is scale, $\gamma(\mu)$ is the curl burden at that scale, and $\rho^* \approx 3.29$ governs the rate of capacity erosion. The logistic structure $\eta(1-\eta)$ reflects saturation: as more energy commits to maintenance, less remains available to commit. Curl accumulation explains *why* maintenance grows through the hierarchy; $\rho^*$ appears to explain *when* the accumulated non-integrability overwhelms the system. See Technical Appendix for the connection between curl-maintenance, binding energy, and this flow equation.
+where $\mu$ is scale, $\gamma(\mu)$ is the curl burden at that scale, and $\rho^* \approx 3.29$ governs the rate of capacity erosion. The logistic structure $\eta(1-\eta)$ reflects saturation: as more energy commits to maintenance, less remains available to commit. Curl accumulation explains *why* maintenance grows through the hierarchy—it measures the geometric demand for continuous work. The invariant $\rho^*$ explains *when* the accumulated non-integrability overwhelms the system—it governs how fast curl exhausts integrable degrees of freedom. Collapse occurs when demand exceeds capacity: accumulated curl pushes $\eta$ past $\eta_c = 1/\rho^* \approx 0.304$, leaving no integrable directions. See Technical Appendix for the connection between curl-maintenance, binding energy, and this flow equation.
 
 Agency emerges when overhead reaches 10% threshold. Below this, insufficient complexity prevents navigation. Above this, excessive maintenance consumes capacity. The biological sweet spot at $\eta_{\text{bio}} \sim 0.1$ provides precise balance—enough organization for goal-directed behavior, enough available energy to execute it.
 
@@ -254,7 +255,7 @@ This piece establishes the substrate—how complexity builds until agency become
 
 ## Technical Appendix: Hierarchical Curl Accumulation and Decade Spacing
 
-This appendix synthesizes results from [The Geometry of Self-Correction](/the-geometry-of-self-correction), [Binding Energy, Critical Radii, & Information Maintenance Tax](/binding-energy-critical-radii-and-information-maintenance-tax), and [Constraint Eigenvalue Theory](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) to explain how the complexity ladder accumulates curl through hierarchical constraint projection, producing the decade-structured dissipation hierarchy. Rather than redefining concepts developed elsewhere, we show how they combine to produce the ladder's characteristic structure.
+This appendix formalizes the synthesis of results from [The Geometry of Self-Correction](/the-geometry-of-self-correction), [Binding Energy, Critical Radii, & Information Maintenance Tax](/binding-energy-critical-radii-and-information-maintenance-tax), and [Constraint Eigenvalue Theory](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) to explain how the complexity ladder accumulates curl through hierarchical constraint projection, producing the decade-structured dissipation hierarchy. We show how these established results combine to produce the ladder's characteristic structure, introducing **hierarchical curl accumulation (HCA)** as the central mechanism.
 
 ### A.1 Foundations (Established in Previous Work)
 
@@ -296,6 +297,14 @@ $$
 
 saturating toward $\eta \to 1$ as accumulated curl exhausts capacity. The decade-structured jumps ($10^{-6}, 10^{-3}, 10^{-2}, 10^{-1}$) would then reflect characteristic cumulative curl at major organizational transitions.
 
+**Logistic saturation form.** More precisely, if dissipation evolves as a monotone saturating function $\eta_K = \Psi(\Gamma_K)$ where $\Psi: [0,\infty) \to (0,1)$, a natural choice matching the bankruptcy behavior is the logistic form:
+
+$$
+\frac{\eta_K}{1-\eta_K} = \eta_0 \, e^{\rho^* \Gamma_K},
+$$
+
+which yields $\eta_K = \eta_0 e^{\rho^* \Gamma_K}/(1 + \eta_0 e^{\rho^* \Gamma_K})$. This directly connects accumulated curl to the maintenance overhead: as $\Gamma_K$ grows, $\eta_K$ approaches 1 asymptotically, with the rate controlled by $\rho^*$. This form ensures $0 < \eta < 1$ always while producing the catastrophic acceleration observed near bankruptcy.
+
 ### A.3 Renormalization Group Flow and the Role of $\rho^*$
 
 The dissipation fraction evolves across scales following RG-like flow. Dimensional analysis and consistency with the constraint eigenvalue framework suggest a flow equation of the form,
@@ -311,9 +320,27 @@ where:
 
 The logistic factor $\eta(1-\eta)$ encodes saturation: when $\eta \ll 1$, small curl increments produce proportional increases in maintenance; when $\eta \to 1$, further curl increases are absorbed into already-saturated maintenance, slowing growth.
 
+**Derivation from logistic form.** If $\eta = \Psi(\Gamma)$ with the logistic structure above, then differentiating with respect to scale yields:
+
+$$
+\frac{d\eta}{d\ln\mu} = \Psi'(\Gamma) \frac{d\Gamma}{d\ln\mu} = \rho^* \eta(1-\eta) \gamma(\mu),
+$$
+
+where we used $\Psi'(\Gamma) = \rho^* \eta(1-\eta)$ (derivative of the logistic function) and $d\Gamma/d\ln\mu = \gamma(\mu)$ by definition. This shows the flow equation arises naturally from accumulating curl through a logistic saturation map, with $\rho^*$ governing the saturation rate.
+
 The constant $\rho^*$ appears to govern the *rate* at which curl converts to maintenance fraction. Its appearance throughout the framework—in cosmological energy distribution (32.9% / 67.1%), white dwarf cooling, genetic code partition, Harper-Hofstadter transitions—suggests it may reflect a universal constraint eigenvalue ratio determining how curvature budgets partition between structure and capacity.
 
+**The curl-capacity relationship.** Curl and $\rho^*$ play distinct but complementary roles. Curl ($d\alpha \neq 0$) measures maintenance *demand*—the geometric requirement for continuous work to sustain non-integrable constraint projections. The invariant $\rho^*$ governs capacity *erosion*—the rate at which HCA exhausts integrable degrees of freedom. Collapse occurs when demand overwhelms capacity: accumulated curl pushes $\eta$ past the critical threshold where no integrable directions remain. In this sense, curl is the geometric origin of dissipation, the dissipation ladder is HCA across scales, and $\rho^*$ defines the universal rate at which that accumulation destroys feasible structure.
+
 The critical threshold $\eta_c = 1/\rho^* \approx 0.304$ marks where the system approaches bankruptcy: accumulated curl has consumed capacity to the point where organizational collapse becomes generic. Agency exists only in the window $0.05 \lesssim \eta \lesssim 0.15$, well below this critical threshold but high enough for organizational depth.
+
+**Connection to maintenance multiplier.** The logistic form directly links to the $(1-\eta)^{-\rho^*}$ multiplier appearing in organizational overhead. From $\eta/(1-\eta) = \eta_0 e^{\rho^* \Gamma}$, we obtain:
+
+$$
+(1-\eta)^{-\rho^*} = \left(1 + \eta_0 e^{\rho^* \Gamma}\right)^{\rho^*}.
+$$
+
+This shows the blow-up factor as $\eta \to 1$ is equivalently "$\Gamma \to \infty$"—persistent injection of curl across nested projections. The same divergence that appears in white dwarf collapse, genetic code saturation, and other capacity-exhaustion phenomena emerges from accumulated curl overwhelming integrable structure.
 
 ### A.4 Why Decade Spacing May Be Generic
 
@@ -327,6 +354,20 @@ Then integrating the flow equation across a scale band with large $\gamma$ (tran
 $$
 \Delta\eta \sim \rho^* \int_{\mu_1}^{\mu_2} \eta(1-\eta) \gamma(\mu) \, d\ln\mu.
 $$
+
+**Ladder rungs from band-limited curl.** The ladder structure emerges when $\gamma(\mu)$ is concentrated in bands corresponding to phase-change constraints or new coordination layers. If:
+
+$$
+\gamma(\mu) \approx \sum_{j=1}^{J} a_j \, \mathbf{1}_{[\mu_j^-, \mu_j^+]}(\mu),
+$$
+
+then $\Gamma(\mu)$ increases by $\Delta\Gamma_j \approx a_j \ln(\mu_j^+ / \mu_j^-)$ each time you cross a band, producing step-like increases:
+
+$$
+\eta \mapsto \Psi(\Gamma + \Delta\Gamma_j).
+$$
+
+This is a literal mathematical realization of dissipation rungs: particles → atoms → molecules → biology represent bands where curl injection is large, separated by plateaus where $\gamma \approx 0$ and $\eta$ stabilizes.
 
 If transitions occur at characteristic logarithmic spacing (decades in energy, length, or organizational depth), and if $\gamma(\mu)$ has similar structure at each transition, the maintenance fraction jumps by similar factors. The observed pattern $\eta \sim 10^{-6}, 10^{-3}, 10^{-2}, 10^{-1}$ suggests these jumps are approximately three orders of magnitude between particles, atoms, molecules, and biology.
 
@@ -381,4 +422,4 @@ These questions represent the frontier of the framework. The mathematical struct
 
 ### A.7 Summary
 
-The complexity ladder accumulates curl through hierarchical constraint projection. Each organizational scale introduces state-dependent feasibility constraints inherited from the scale below. These constraints project dynamics through operators that generically destroy integrability, introducing nonzero curl bounded below by Hodge spectral gaps. The curl manifests physically as binding energy—continuous thermodynamic expenditure maintaining organized structure. Accumulated curl increases the dissipation fraction $\eta$ through RG-like flow governed by $\rho^* \approx 3.29$, producing the observed decade-structured hierarchy. Agency emerges when accumulated curl reaches $\eta \sim 0.1$—sufficient organizational depth for goal-directed navigation, sufficient remaining capacity to execute it. The ladder cannot be descended because curl accumulation is one-way: projection defects have irreducible geometric floors that cannot be tuned away. Irreversibility is thus encoded in the Hodge spectral structure of constraint geometry itself.
+The complexity ladder accumulates curl through hierarchical constraint projection. Each organizational scale introduces state-dependent feasibility constraints inherited from the scale below. These constraints project dynamics through operators that generically destroy integrability, introducing nonzero curl bounded below by Hodge spectral gaps. The curl manifests physically as binding energy—continuous thermodynamic expenditure maintaining organized structure. HCA increases the dissipation fraction $\eta$ through RG-like flow governed by $\rho^* \approx 3.29$, producing the observed decade-structured hierarchy. Agency emerges when accumulated curl reaches $\eta \sim 0.1$—sufficient organizational depth for goal-directed navigation, sufficient remaining capacity to execute it. The ladder cannot be descended because curl accumulation is one-way: projection defects have irreducible geometric floors that cannot be tuned away. Irreversibility is thus encoded in the Hodge spectral structure of constraint geometry itself.
