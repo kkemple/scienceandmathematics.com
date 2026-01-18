@@ -2,9 +2,9 @@
 title: 'Human Civilization & Information-Theoretical Convergence'
 description: "Argues that civilizations independently evolve calendars, scripts, currencies, and networks because social systems inherit the thermodynamic and information constraints of biological computation."
 pubDate: '2025-08-14'
-zenodoDepositionId: 17980159
-zenodoUrl: "https://zenodo.org/records/17980159"
-doi: "10.5281/zenodo.17980159"
+zenodoDepositionId: 18292514
+zenodoUrl: "https://zenodo.org/records/18292514"
+doi: "10.5281/zenodo.18292514"
 keywords:
   - "information theory"
   - "thermodynamics"
@@ -213,7 +213,7 @@ These measurements work because they tap into the same underlying constraints—
 
 Understanding these information optimization patterns offers powerful insights for designing, managing, and predicting human systems.
 
-Convergent evolution across cultures occurs because optimal information structures are determined by consistent constraints, not culture. Similar problems require similar information topologies regardless of who solves them. The [recursive complexity ladder](/complex-adaptable-systems-complexity-ladders-and-agency) explains why systems must build complexity through identical four-step progressions at every scale—constraints establish structure, structure generates invariance, invariance enables emergence. This recursive pattern operates from quantum fields to biological systems, and human organizations follow the same mathematical law. The [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) derives these progressions from a single variational principle: the general triplet architecture $(\pi, \beta, N)$ where $\pi$ enforces angular closure, $\beta$ enables recursive scaling, and $N$ sets discrete structural resonance. In physical and biological systems, this triplet realizes as $(\pi, \varphi, 10)$, yielding the coupling constant $\rho^* = 4\pi\varphi^2/10 \approx 3.29$.
+Convergent evolution across cultures occurs because optimal information structures are determined by consistent constraints, not culture. Similar problems require similar information topologies regardless of who solves them. The [recursive complexity ladder](/complex-adaptable-systems-complexity-ladders-and-agency) explains why systems must build complexity through identical four-step progressions at every scale—constraints establish structure, structure generates invariance, invariance enables emergence. This recursive pattern operates from quantum fields to biological systems, and human organizations follow the same mathematical law. The [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) derives these progressions from a single variational principle: the triplet architecture $(\pi, \beta, N)$ describes a structural pattern where $\pi$ enforces angular closure, $\beta$ enables recursive scaling, and $N$ sets discrete structural resonance. Different eigenbranch families realize this architecture with different specific values. Physical and biological systems typically follow the decagonal eigenbranch $(\pi, \varphi, 10)$, yielding the coupling constant $\rho^* = 4\pi\varphi^2/10 \approx 3.29$.
 
 System failures become more predictable when viewing them through constraint violations. [Information-theoretic constraints on sociotechnical systems](/information-theoretic-constraints-on-sociotechnical-systems) explores how biological and physical systems face maintenance thresholds where overhead exceeds productive capacity. While organizational collapse patterns appear similar, the mechanisms operate through coordination costs and information strain rather than direct thermodynamic limits. The same mathematical principles that govern speech rate convergence and biological maintenance overhead may help explain why organizations fail when coordination complexity overwhelms available processing capacity.
 

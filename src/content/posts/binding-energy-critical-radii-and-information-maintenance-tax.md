@@ -2,9 +2,9 @@
 title: 'Binding Energy, Critical Radii, & Information Maintenance Tax'
 description: "Connects Landauer limits, binding energy, and white dwarf collapse to show every organized system pays an information maintenance tax with measurable bankruptcy radii."
 pubDate: '2025-10-14'
-zenodoDepositionId: 18281400
-zenodoUrl: "https://zenodo.org/records/18281400"
-doi: "10.5281/zenodo.18281400"
+zenodoDepositionId: 18292502
+zenodoUrl: "https://zenodo.org/records/18292502"
+doi: "10.5281/zenodo.18292502"
 keywords:
   - "Landauer principle"
   - "binding energy"
@@ -39,7 +39,9 @@ White dwarfs accreting toward the Chandrasekhar limit reveal the mechanism. Geom
 
 ## The Thermodynamic Tax
 
-[Landauer's principle](/the-thermodynamic-computational-speed-limit) establishes the minimum energy cost for information maintenance against thermal noise—$k_B T \ln 2$ per bit, where $k_B$ is Boltzmann's constant and $T$ is temperature[^1]. Any organized system requires bits to specify its configuration. For a bound system with accessible phase space volume $\Omega$, the bit count equals,
+[Landauer's principle](/the-thermodynamic-computational-speed-limit) establishes the minimum energy cost for information maintenance against thermal noise—$k_B T \ln 2$ per bit, where $k_B$ is Boltzmann's constant and $T$ is temperature[^1]. Binding energy across all scales represents this ongoing thermodynamic maintenance against entropy. Rather than stored or latent energy that could be released, binding energy quantifies the continuous work required to keep structure coherent. Nuclear binding maintains quark confinement, electromagnetic binding maintains atomic configurations, gravitational binding maintains bulk coherence—each through sustained energy expenditure against thermal randomization.
+
+Any organized system requires bits to specify its configuration. For a bound system with accessible phase space volume $\Omega$, the bit count equals,
 
 $$
 N_{\text{bits}} = \log_2\left(\frac{\Omega}{h^{3N}}\right),
@@ -123,7 +125,7 @@ where $Z$ is atomic number, to coordinate electron clouds. Molecules need $\eta_
 | EM | $2.8 \times 10^{-15}$ m | ~$10^5$ | ~$10^{-5}$ rest mass |
 | Grav | $2GM/c^2$ | varies | $R_S/R \times$ rest mass |
 
-QCD and electromagnetic forces operate far from bankruptcy, enabling stable structures with minimal overhead. Gravitational systems span the entire spectrum from negligible costs in atoms to complete dedication at black hole horizons.
+QCD and electromagnetic forces operate far from bankruptcy, enabling stable structures with minimal overhead. Gravitational systems span the entire spectrum from negligible costs in atoms to complete dedication at black hole horizons. These bankruptcy radii mark where accumulated curvature has consumed all available capacity—the system has exhausted integrable degrees of freedom, and maintenance cost equals total energy budget. At this threshold, no further organizational complexity can be sustained without catastrophic reorganization.
 
 ## Information Bankruptcy Trajectory
 

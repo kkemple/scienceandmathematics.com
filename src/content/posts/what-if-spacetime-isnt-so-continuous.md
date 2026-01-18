@@ -2,9 +2,9 @@
 title: "What if Spacetime Isn't So Continuous?"
 description: "Argues continuous spacetime is impossible with finite information, motivating a Planck-scale lattice that reconciles action principles, holography, and thermodynamic computation limits."
 pubDate: '2025-10-10'
-zenodoDepositionId: 17981080
-zenodoUrl: "https://zenodo.org/records/17981080"
-doi: "10.5281/zenodo.17981080"
+zenodoDepositionId: 18292519
+zenodoUrl: "https://zenodo.org/records/18292519"
+doi: "10.5281/zenodo.18292519"
 keywords:
   - "discrete spacetime"
   - "Planck scale"
@@ -150,11 +150,13 @@ $$
 I = \frac{A}{4\ell_P^2\ln 2},
 $$
 
-where $A$ is the boundary surface area[^5]. All parameters emerge from fundamental constraints. The Planck length combines $\hbar$, $G$, and $c$. The Planck time follows from $c$ and $\ell_P$. The holographic information density derives from the Bekenstein bound. The universe bootstraps itself through the self-consistent way for action and spacetime to coexist given thermodynamic limits on computation—the lattice structure emerges inevitably when reality must process its own state transitions with finite resources.
+where $A$ is the boundary surface area[^5]. All parameters emerge from fundamental constraints. The Planck length combines $\hbar$, $G$, and $c$. The Planck time follows from $c$ and $\ell_P$. The holographic information density derives from the Bekenstein bound. The cubic geometry minimizes intrinsic curvature, representing the lowest-maintenance tiling compatible with isotropy and locality. The universe bootstraps itself through the self-consistent way for action and spacetime to coexist given thermodynamic limits on computation—the lattice structure emerges inevitably when reality must process its own state transitions with finite resources.
 
 ## Information Lives on Boundaries
 
-Having established that spacetime must be discrete, we need to specify the lattice geometry. The cubic lattice emerges uniquely from fundamental requirements. In three dimensions, only the cube tiles space without gaps while maintaining isotropy (no preferred direction in vacuum). Tetrahedra leave voids, octahedra require specific orientations, and other Platonic solids cannot fill space at all. The self-consistency equation $\mathcal{L} = \mathcal{U}[\mathcal{L}]$ demands a structure invariant under its own update rules. With isotropy requiring all directions equivalent and locality limiting interactions to nearest neighbors, only the cubic lattice with 6-connected voxels satisfies these constraints.
+Having established that spacetime must be discrete, we need to specify the lattice geometry. The cubic lattice emerges uniquely from fundamental requirements as the minimum-curvature, minimum-maintenance configuration available to a discrete three-dimensional computational substrate. In three dimensions, only the cube tiles space without gaps while maintaining isotropy (no preferred direction in vacuum). Tetrahedra leave voids, octahedra require specific orientations, and other Platonic solids cannot fill space at all. Any alternative tiling introduces unavoidable angular deficits or surplus, which manifest as intrinsic curvature costs that must be continuously paid to maintain the structure.
+
+The self-consistency equation $\mathcal{L} = \mathcal{U}[\mathcal{L}]$ demands a structure invariant under its own update rules. With isotropy requiring all directions equivalent and locality limiting interactions to nearest neighbors, only the cubic lattice with 6-connected voxels satisfies these constraints. This represents the unique geometry that minimizes intrinsic curvature frustration under locality, isotropy, and finite information constraints—the cheapest admissible structure for a computational spacetime.
 
 These fundamental cells are voxels (volume elements), each a cube with edges of length $\ell_P$—the three-dimensional analogue of pixels. Just as a digital image consists of discrete pixels that appear continuous when viewed at larger scales, spacetime consists of discrete voxels that create the illusion of continuity at macroscopic scales.
 
@@ -184,7 +186,9 @@ The holographic principle emerges naturally—information capacity scales with s
 
 ## Matter as Lattice Displacement
 
-This boundary-encoded information structure has direct implications for matter and gravity. In empty space, voxels sit at regular spacing $\ell_P$ in a perfect cubic lattice. When matter is present, voxels get pushed together or pulled apart. The metric tensor measures this displacement,
+This boundary-encoded information structure has direct implications for matter and gravity. Vacuum represents the configuration in which curvature frustrations are minimized, so the only remaining cost is the irreducible thermodynamic floor of existence itself. In this minimal-cost state, voxels sit at regular spacing $\ell_P$ in a perfect cubic lattice. The lattice still updates every fundamental tick, boundary information is still stored and refreshed, zero-point fluctuations exist as update noise, and Landauer cost still applies to irreversible updates. Vacuum does not cost nothing—it pays only the unavoidable minimum.
+
+When matter is present, voxels get pushed together or pulled apart. The metric tensor measures this displacement,
 
 $$
 g_{\mu\nu} = \delta_{\mu\nu} + h_{\mu\nu},
@@ -258,7 +262,7 @@ $$
 \beta_\eta = -\frac{\eta}{\rho^*}\ln\varphi, \quad \beta_d = -\eta(1-\eta)\left(\rho^* + \frac{d-2}{2}\ln\varphi\right),
 $$
 
-where $\beta_\eta = \partial\eta/\partial\tau$ and $\beta_d = \partial d/\partial\tau$ are flow parameters with respect to renormalization group scale $\tau$. These beta functions drive flow toward fixed points. The vacuum state at $(\eta,d) = (0,3)$ represents an unstable fixed point where zero energy maintains structure and all three spatial dimensions remain accessible. The black hole at $(\eta,d) = (1,2)$ forms a stable fixed point where all energy maintains the horizon and one spatial dimension has compactified. The universe begins at $(0,3)$ because the RG flow structure admits exactly one unstable fixed point—deriving the Past Hypothesis that has puzzled cosmologists since Boltzmann.
+where $\beta_\eta = \partial\eta/\partial\tau$ and $\beta_d = \partial d/\partial\tau$ are flow parameters with respect to renormalization group scale $\tau$. These beta functions drive flow toward fixed points. The vacuum state at $(\eta,d) = (0,3)$ represents an unstable fixed point where minimal energy maintains structure and all three spatial dimensions remain accessible—the lowest attainable maintenance floor, not zero cost but minimal cost. The black hole at $(\eta,d) = (1,2)$ forms a stable fixed point where all energy maintains the horizon and one spatial dimension has compactified—maximum maintenance, complete saturation. The universe begins at $(0,3)$ because the RG flow structure admits exactly one unstable fixed point—deriving the Past Hypothesis that has puzzled cosmologists since Boltzmann.
 
 The flow admits a symmetry—transformations mixing $\eta$ and $d$ while preserving dynamics. [Noether's theorem yields a conserved charge](/lets-derive-an-information-theoretic-conservation-law)[^9] from this symmetry, connecting microscopic information structure to macroscopic spacetime curvature.
 

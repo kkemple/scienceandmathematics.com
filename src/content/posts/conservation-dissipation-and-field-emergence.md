@@ -2,9 +2,9 @@
 title: 'Conservation, Dissipation, & Field Emergence'
 description: "Shows how conserved currents plus symmetry and calibrated dissipation reproduce Maxwell, Klein-Gordon, fluid, and gravitational field equations from pure constraint satisfaction."
 pubDate: '2025-10-06'
-zenodoDepositionId: 17980353
-zenodoUrl: "https://zenodo.org/records/17980353"
-doi: "10.5281/zenodo.17980353"
+zenodoDepositionId: 18292510
+zenodoUrl: "https://zenodo.org/records/18292510"
+doi: "10.5281/zenodo.18292510"
 keywords:
   - "field theory"
   - "Noether theorem"
@@ -158,7 +158,7 @@ $$
 \eta_k = \frac{\Gamma_k}{E_0/\hbar},
 $$
 
-where $\Gamma_k$ quantifies thermal relaxation rate and $E_0$ sets the characteristic energy scale.
+where $\Gamma_k$ quantifies thermal relaxation rate and $E_0$ sets the characteristic energy scale. Each decade in the dissipation hierarchy—from $10^{-6}$ for elementary particles through $10^{-1}$ for biological systems—represents completing another iteration of the [complexity ladder](/complex-adaptable-systems-complexity-ladders-and-agency), where new coordination layers activate and impose additional state-dependent constraints. These accumulated constraints introduce curl into the effective dynamics, and the decade spacing reflects how much curl each organizational scale contributes before stabilizing.
 
 ## Microscopic Origin of Dissipation
 
@@ -182,7 +182,7 @@ $$
 \eta_0 = \alpha^2 \sqrt{\frac{m_e}{M}} \approx 10^{-6},
 $$
 
-where $\alpha = e^2/(4\pi\epsilon_0\hbar c) = 1/137$ is the fine structure constant. This elementary dissipation rate emerges from quantum mechanics through Fermi's golden rule—the same principle governing atomic transitions produces the baseline organizational overhead that cascades through all higher scales.
+where $\alpha = e^2/(4\pi\epsilon_0\hbar c) = 1/137$ is the fine structure constant. This elementary dissipation rate emerges from quantum mechanics through Fermi's golden rule—the same principle governing atomic transitions produces the baseline organizational overhead. This quantum mechanical floor then cascades through all higher organizational scales as the foundation of the decade-structured hierarchy. Each subsequent ladder iteration inherits this baseline and amplifies it through geometric factors reflecting the additional coordination requirements at that scale.
 
 Complex systems exhibit enhanced dissipation through geometric factors[^7]. Atoms achieve $\eta_a = \eta_0 \times \sqrt{a_0/r_n} \times \sqrt{Z} \approx 10^{-3}$ through nuclear-electron coupling[^10]. Molecules reach $\eta_m \approx 10^{-2}$ via additional vibrational and rotational modes. Biological systems attain $\eta_b \approx 10^{-1}$ through hierarchical organization across multiple scales. Black holes saturate the bound at $\eta = 1$, with all available energy maintaining horizon structure against Hawking radiation. The exponential progression—each order of magnitude representing a decade jump—emerges from the [constraint eigenvalue framework's](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) 10-sector (decade resonance), where the composite invariant $I = 4\pi\varphi^2 \approx 32.9$ and its decade normalization $\rho^* = I/10 \approx 3.29$ force logarithmic spacing through the renormalization group flow.
 

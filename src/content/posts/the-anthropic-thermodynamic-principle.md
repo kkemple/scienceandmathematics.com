@@ -2,9 +2,9 @@
 title: 'The Anthropic Thermodynamic Principle'
 description: "Links Landauer limits, dissipation ladders, and the 32.9/67.1 structure-capacity partition to argue consciousness lives inside the narrow thermodynamic window biology occupies."
 pubDate: '2025-09-17'
-zenodoDepositionId: 18018310
-zenodoUrl: "https://zenodo.org/records/18018310"
-doi: "10.5281/zenodo.18018310"
+zenodoDepositionId: 18292516
+zenodoUrl: "https://zenodo.org/records/18292516"
+doi: "10.5281/zenodo.18292516"
 keywords:
   - "consciousness"
   - "thermodynamics"
@@ -70,7 +70,7 @@ Complex systems exhibit hierarchical enhancement through geometric factors and o
 - Biology: $\eta \sim 10^{-1}$ (hierarchical organization)
 - Black holes: $\eta = 1$ (all energy maintains horizon)
 
-Each order of magnitude jump represents phase transition in organizational complexity—additional degrees of freedom requiring active maintenance against thermal degradation. The progression follows from [recursive ladder climbing](/complex-adaptable-systems-complexity-ladders-and-agency) where each scale's emergence constrains the next level. Each transition discovers the [triplet architecture $(\pi, \beta, N)$](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) at its scale: isotropic closure ($\pi$), recursive self-similarity ($\beta$), and discrete structural resonance ($N$). The curvature budget allocates ~1/3 to structural maintenance and ~2/3 to degrees of freedom at every level.
+Each order of magnitude jump represents phase transition in organizational complexity—additional degrees of freedom requiring active maintenance against thermal degradation. The progression follows from [recursive ladder climbing](/complex-adaptable-systems-complexity-ladders-and-agency) where each scale's emergence constrains the next level. Each transition discovers the [triplet architecture $(\pi, \beta, N)$](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) at its scale: isotropic closure ($\pi$), recursive self-similarity ($\beta$), and discrete structural resonance ($N$). Physical and biological systems typically realize the decagonal eigenbranch with $(\pi, \varphi, 10)$ where $\varphi$ is the golden ratio. The observed ~1/3 structural and ~2/3 capacity allocation emerges as a marginal projection of the underlying triadic competition among the three curvature sectors when one sector saturates.
 
 The human brain consuming 20 watts for 1.4 kg mass operates precisely at biological limit $\eta_{\text{bio}} \sim 0.1$. This represents 20-25% of metabolic budget despite being 2% of body mass. The disproportionate allocation reflects operation as primary information processor at maximum sustainable overhead.
 
@@ -102,7 +102,7 @@ The partition emerges from finite lattice geometry imposing identical constraint
 
 Structure and capacity are intrinsically locked across all orders of magnitude. The 21 codons constraining protein sequences operate under the same organizational physics as the 32% matter density constraining cosmic evolution. Both represent the minimum information preserving system identity. The 43 redundant codons enabling evolutionary adaptation operate under the same physics as the 68% dark energy driving accelerating expansion. Both represent the available degrees of freedom for transformation.
 
-The pattern reveals deep connection between information and geometry. The [triplet architecture $(\pi, \beta, N)$](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) enforces identical constraints at every scale: $\pi$ provides angular closure, $\beta$ (realized as $\varphi$ in physical systems) enables recursive scaling, and $N$ (realized as 10) sets discrete resonance. These constraints propagate upward through [recursive ladder climbing](/complex-adaptable-systems-complexity-ladders-and-agency), generating identical partition at every scale. Molecular biology can't escape constraints imposed by the triplet eigenstructure. Cosmology can't violate organizational laws governing information flow.
+The pattern reveals deep connection between information and geometry. The [triplet architecture $(\pi, \beta, N)$](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) represents a structural pattern that different eigenbranches realize with different specific values. Physical and biological systems typically follow the decagonal eigenbranch where $\beta = \varphi$ (golden ratio) and $N = 10$: $\pi$ provides angular closure, $\varphi$ enables recursive scaling, and 10 sets discrete resonance. These constraints propagate upward through [recursive ladder climbing](/complex-adaptable-systems-complexity-ladders-and-agency), generating similar partitions at every scale through the underlying triadic competition among curvature sectors. Molecular biology operates under these constraint eigenvalue limits. Cosmology follows the same organizational physics.
 
 This explains why consciousness emerges precisely where organizational overhead reaches $\eta \sim 0.1$. The threshold represents completing sufficient recursive iterations—roughly 10 steps building complexity from $10^{-6}$ to $10^{-1}$—to achieve 67% available capacity at multiple nested levels simultaneously. Each level's capacity creates exploration space for next level's emergence until accumulated complexity achieves self-reference.
 

@@ -2,9 +2,9 @@
 title: 'Self-Supervised Learning as Constrained Free-Energy Systems'
 description: "Explains why self-supervised methods share 'magic numbers' by modeling representation learning as thermodynamically constrained free-energy minimization with strict coherence budgets."
 pubDate: '2025-11-17'
-zenodoDepositionId: 17981216
-zenodoUrl: "https://zenodo.org/records/17981216"
-doi: "10.5281/zenodo.17981216"
+zenodoDepositionId: 18292515
+zenodoUrl: "https://zenodo.org/records/18292515"
+doi: "10.5281/zenodo.18292515"
 keywords:
   - "self-supervised learning"
   - "free energy principle"
@@ -25,7 +25,7 @@ zenodoDescription: |
 
   Each method implements the same physics through different mechanisms: VICReg's variance/covariance terms maintain dimensional spread; DINO's momentum creates timescale separation for stable reference tracking; SimCLR's negative samples ensure manifold coverage; BYOL's predictor breaks symmetry; Barlow Twins' decorrelation reduces redundancy; JEPA's prediction horizon enables recursive temporal coherence. All keep organizational overhead subcritical.
 
-  The paper connects to the constraint eigenvalue framework's triplet structure (π, β, N), proposing that SSL systems realize some triplet—whether matching the physical eigenbranch (π, φ, 10) or architecture-specific values remains an open question the framework helps sharpen. The convergence of independent research groups on similar thresholds suggests they discovered the same constraint geometry through different optimization paths.
+  The paper connects to the constraint eigenvalue framework's triplet architecture, proposing that SSL systems realize some eigenbranch configuration. Physical and biological systems typically follow the decagonal eigenbranch (π, φ, 10), but whether SSL matches this or discovers architecture-specific values remains an open question the framework helps sharpen. The convergence of independent research groups on similar thresholds suggests they discovered the same underlying constraint geometry through different optimization paths.
 ---
 
 Set DINO's momentum to 0.9 instead of 0.996. Training begins normally. Loss decreases, representations form, validation metrics look reasonable. Then, between epochs 15 and 20, something breaks. All embeddings collapse to a single point. Representations die. The model becomes useless. Why does changing 0.996 to 0.9—a 0.4% shift—destroy everything?
