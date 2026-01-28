@@ -2,10 +2,10 @@
 title: "Simulation Horizons, Constraints, & the Emergence of Strategic Agency"
 description: "A phase boundary for when optimization becomes strategy: systems play games only when horizon and authority justify intervention over migration under thermodynamic and institutional constraints."
 pubDate: "2025-12-21"
-zenodoDepositionId: 18099833
-zenodoUrl: "https://zenodo.org/records/18099833"
-doi: "10.5281/zenodo.18099833"
-updatedDate: "2025-12-30"
+zenodoDepositionId: 18395780
+zenodoUrl: "https://zenodo.org/records/18395780"
+doi: "10.5281/zenodo.18395780"
+updatedDate: "2026-01-26"
 type: "analysis"
 keywords:
   - "agency"
@@ -58,6 +58,8 @@ $$
 $$
 
 When $\kappa \ll 1$, the future is effectively opaque. Intervention cannot be justified reliably, and myopic descent dominates. When $\kappa \gtrsim 1$, counterfactual evaluation becomes feasible, and present sacrifice can be traded for future payoff-shape change.
+
+If strategic behavior persists as $\kappa \ll 1$, this framework is wrong. The claim is falsifiable by observation: systems that maintain game-theoretic coordination despite collapsed horizons would refute the threshold structure.
 
 This is not a moral distinction—smart versus dumb, rational versus irrational. It is a constraint distinction. When $\kappa$ collapses through stress, bandwidth loss, or depleted slack, systems revert to migration even if they were strategic the day before.
 

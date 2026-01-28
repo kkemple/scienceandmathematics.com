@@ -2,9 +2,10 @@
 title: 'Pentagonal Constraints & Quantum Computing'
 description: "Connects pentagonal frustration, golden-ratio quasi-periodicity, and Fibonacci anyons to concrete quantum computing guidelines for layouts, timing, and error control."
 pubDate: '2025-10-19'
-zenodoDepositionId: 17981179
-zenodoUrl: "https://zenodo.org/records/17981179"
-doi: "10.5281/zenodo.17981179"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18314809
+zenodoUrl: "https://zenodo.org/records/18314809"
+doi: "10.5281/zenodo.18314809"
 keywords:
   - "quantum computing"
   - "Fibonacci anyons"
@@ -78,6 +79,8 @@ The constraint eigenvalue framework suggests design principles for quantum archi
 
 **Qubit counts**: Prime numbers minimize divisor-based resonances. A lattice of $n$ sites admits oscillations at every divisor of $n$; the divisor function $\tau(n)$ counts these modes. For $n = 12 = 2^2 \times 3$, the divisor count $\tau(12) = 6$ creates six resonant modes. For prime $p$, divisor count $\tau(p) = 2$ (minimal). Prime Fibonacci numbers—like 89, 233, 1597—combine minimal discrete curvature with the $\varphi$-sector's recursive structure.
 
+The optimization of quantum architectures through prime structure may connect to fundamental spectral theory through the Berry-Keating conjecture. This conjecture proposes that Riemann zeta zeros correspond to eigenvalues of a chaotic quantum operator, linking prime number distribution to quantum mechanical spectra. The constraint eigenvalue framework interprets prime-based architectures as eigenstates of the constraint functional—suggesting that the "hardest" mathematical problems (prime distribution, Riemann hypothesis) actually encode the "stablest" physical configurations. Quantum systems with prime qubit counts may be accessing the same spectral organization that structures number theory itself.
+
 **Spatial arrangement**: The framework suggests that $\varphi$-ratio spacing between modules should minimize standing wave resonances, following the same logic as Penrose tilings. Hierarchical structures with scale factors of $\varphi$ would maintain aperiodic order across levels.
 
 **Frequency allocation**: $\varphi$-based frequency detuning maintains irrational ratios between all qubit pairs. Unlike uniform or rational spacing, irrational ratios prevent any harmonic from coinciding exactly—the same principle that makes Fibonacci pulse sequences effective for temporal protection.
@@ -108,7 +111,7 @@ The framework generates testable predictions: Fibonacci pulse sequences should o
 
 ## The Pattern Across Scales
 
-The constraint eigenvalue geometry identifies $\pi$, $\varphi$, and $10$ as universal constants emerging from curvature minimization under finite resources. The composite invariant $4\pi\varphi^2 \approx 32.9$ and its decade partition $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ appear across scales from quantum lattices to gravitational systems.
+The constraint eigenvalue geometry identifies $\pi$, $\varphi$, and $10$ as constants emerging from curvature minimization under finite resources. The composite invariant $4\pi\varphi^2 \approx 32.9$ and its decade partition $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ appear across scales from quantum lattices to gravitational systems.
 
 Pentagonal geometry encodes all three sectors: the internal angle $3\pi/5$ involves $\pi$, the diagonal-to-side ratio is $\varphi$, and the $C_5$ symmetry combines with binary to form $C_{10}$. This makes pentagons a natural geometric realization of the decade sector—which is why Penrose tilings (pentagon-based aperiodic structures) exhibit the extended coherence predicted by the framework.
 
@@ -162,6 +165,8 @@ The critical threshold $\eta_c \approx 0.304$ sets a fundamental limit. Architec
 Quantum computing provides experimental access to constraint geometry at accessible laboratory scales. Unlike cosmological measurements (single data points per observable) or stellar evolution (megayear timescales), quantum systems enable systematic experimentation—tuning frequencies continuously, varying qubit counts, testing alternative geometries, implementing controls.
 
 The Fibonacci pulse sequence experiments[^2] have already confirmed one prediction: quasi-periodic temporal structure with limiting ratio $\varphi$ outperforms periodic sequences. The Penrose polariton quasicrystal experiments demonstrate extended coherence when spatial geometry aligns with the $\pi$–$\varphi$–$10$ manifold. Fibonacci anyon measurements confirm $d_\tau = \varphi$ from fusion algebra.
+
+The convergence toward prime-based structures in quantum optimization may provide experimental access to fundamental number-theoretic relationships. If the Berry-Keating conjecture is correct—that prime distributions encode quantum mechanical spectra—then quantum computers optimized with prime qubit counts are physically realizing the same eigenvalue structure underlying the Riemann hypothesis. This would make quantum coherence experiments a probe of deep mathematical structure, testing whether number theory and physics share a common spectral foundation.
 
 Further tests can probe the framework systematically: frequency sweeps to identify optimal spacing ratios, coherence measurements across participation ratios to extract critical thresholds, comparison of prime versus composite code distances on identical hardware. Each experiment provides an opportunity to validate or refine the constraint eigenvalue interpretation.
 

@@ -2,9 +2,10 @@
 title: 'Self-Supervised Learning as Constrained Free-Energy Systems'
 description: "Explains why self-supervised methods share 'magic numbers' by modeling representation learning as thermodynamically constrained free-energy minimization with strict coherence budgets."
 pubDate: '2025-11-17'
-zenodoDepositionId: 18292515
-zenodoUrl: "https://zenodo.org/records/18292515"
-doi: "10.5281/zenodo.18292515"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18314764
+zenodoUrl: "https://zenodo.org/records/18314764"
+doi: "10.5281/zenodo.18314764"
 keywords:
   - "self-supervised learning"
   - "free energy principle"
@@ -21,7 +22,7 @@ zenodoDescription: |
 
   The framework decomposes total free-energy deviation as F[q_t] - F* = κ + CD(t), where κ represents irreducible structural costs from architectural constraints and CD(t) measures dynamic misalignment. Training succeeds when gradient flow reduces CD(t) faster than constraints inflate κ. Organizational overhead η—the fraction of capacity consumed by coherence maintenance—must remain below a critical threshold η_c for stable representations.
 
-  Documented empirical phenomena receive unified interpretation: variance-collapse universality (all SSL methods fail when embedding variance approaches zero); momentum convergence (BYOL, DINO, MoCo independently discover m ≈ 0.996, creating timescale τ = 1/(1-m) ≈ 250 steps matching characteristic relaxation times); batch size scaling (SimCLR requires ~4096 samples for manifold percolation); and depth thresholds (transformers exhibit emergent capabilities around 10-12 layers). These narrow ranges suggest underlying constraint boundaries.
+  Documented empirical phenomena receive consistent interpretation: variance-collapse universality (all SSL methods fail when embedding variance approaches zero); momentum convergence (BYOL, DINO, MoCo independently discover m ≈ 0.996, creating timescale τ = 1/(1-m) ≈ 250 steps matching characteristic relaxation times); batch size scaling (SimCLR requires ~4096 samples for manifold percolation); and depth thresholds (transformers exhibit emergent capabilities around 10-12 layers). These narrow ranges suggest underlying constraint boundaries.
 
   Each method implements the same physics through different mechanisms: VICReg's variance/covariance terms maintain dimensional spread; DINO's momentum creates timescale separation for stable reference tracking; SimCLR's negative samples ensure manifold coverage; BYOL's predictor breaks symmetry; Barlow Twins' decorrelation reduces redundancy; JEPA's prediction horizon enables recursive temporal coherence. All keep organizational overhead subcritical.
 
@@ -290,7 +291,7 @@ Every self-supervised collapse mode emerges from this framework. Consider concre
 
 **JEPA with $h = 3$**: Prediction horizon too short for recursive closure. The system cannot model temporal dependencies required for coherence. $\mathrm{CD}(t)$ oscillates rather than converges—no stable optimum exists in the shallow temporal manifold.
 
-Each failure mode maps to the free-energy decomposition. The physics provides a unified explanation for diverse collapse phenomena that previously appeared unrelated.
+Each failure mode maps to the free-energy decomposition. The physics provides a consistent explanation for diverse collapse phenomena that previously appeared unrelated.
 
 ## From Framework to Testable Observations
 
@@ -308,7 +309,7 @@ The constraint geometry framework suggests relationships between architectural c
 
 The convergence across independent research groups is striking: momentum near 0.996, variance weights near 0.04, batch sizes clustering around 2048–4096. These narrow ranges suggest underlying constraint boundaries rather than arbitrary design choices. Whether these boundaries derive from $\rho^* = 3.29$ specifically, or from more general properties of constrained optimization, remains an open question the framework helps to sharpen.
 
-## Unified View: Methods, Parameters, and Constraints
+## Methods, Parameters, and Constraints
 
 The convergence becomes striking when displayed systematically.
 

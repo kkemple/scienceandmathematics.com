@@ -2,9 +2,10 @@
 title: "What if Spacetime Isn't So Continuous?"
 description: "Argues continuous spacetime is impossible with finite information, motivating a Planck-scale lattice that reconciles action principles, holography, and thermodynamic computation limits."
 pubDate: '2025-10-10'
-zenodoDepositionId: 18292519
-zenodoUrl: "https://zenodo.org/records/18292519"
-doi: "10.5281/zenodo.18292519"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18314746
+zenodoUrl: "https://zenodo.org/records/18314746"
+doi: "10.5281/zenodo.18314746"
 keywords:
   - "discrete spacetime"
   - "Planck scale"
@@ -220,7 +221,9 @@ $$
 
 making the radial direction inaccessible. Information cannot propagate radially though it flows freely tangentially. The effective dimensionality drops from $d = 3$ to $d = 2$ at the horizon—a dimensional reduction forced purely by geometry. These two organizational fields together capture the full information processing state of spacetime at each point.
 
-## The 6D Unified Geometry
+This extension to 6D follows the Kaluza-Klein program's fundamental insight: forces and fields can emerge from pure geometry by adding dimensions. While original Kaluza-Klein theory added a 5th dimension to unify gravity and electromagnetism, the 6D voxel lattice treats $\eta$ and $d$ as internal geometric dimensions rather than parameters. Maintenance costs manifest as curvature in these organizational dimensions—the "force" maintaining structure against entropy is literally the geodesic flow through the $(\eta, d)$ subspace. This places information physics in the same mathematical lineage as general relativity, where gravitational force emerges from spacetime curvature.
+
+## The 6D Constraint Geometry
 
 Why must $\eta$ and $d$ be coordinates? Because they determine the geometry itself. Standard field theory requires specifying the manifold first, then defining fields on it. But $\eta$ and $d$ determine which local geometry exists—they constitute properties of spacetime itself. This forces them to be coordinates in an extended manifold.
 
@@ -230,7 +233,7 @@ $$
 \mathcal{M}^6 = \{t, x, y, z, \eta, d\},
 $$
 
-forming one unified manifold where the first four coordinates give spacetime position and the last two give organizational state.
+forming one manifold where the first four coordinates give spacetime position and the last two give organizational state.
 
 The 6D manifold emerges from consistency requirements. The fixed-point equation,
 
@@ -253,6 +256,8 @@ D_\eta = \frac{\ell_P^2}{\rho^*}\eta\ln\varphi, \quad D_d = \ell_P^4\eta(1-\eta)
 $$
 
 where $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ and $\varphi = (1+\sqrt{5})/2$ emerge from the [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind). The composite invariant $\mathcal{I} = 4\pi\varphi^2 \approx 32.9$ couples isotropy ($\pi$-sector) and recursion ($\varphi$-sector), yielding $\rho^* = \mathcal{I}/10$ through the decade resonance. The functional forms arise from requiring consistent information flow across organizational boundaries—the $\eta(1-\eta)$ factor ensures diffusivity vanishes at both fixed points (vacuum and black hole), while the logarithmic terms encode recursive curvature effects. These constants emerge as stationary ratios of the constraint functional, not arbitrary parameters but mathematical necessities determined by the eigenvalue structure.
+
+The 6D metric structure realizes the Kaluza-Klein vision in its natural domain. Where Kaluza and Klein sought to geometrize electromagnetism through a compact 5th dimension, the 6D voxel lattice geometrizes thermodynamics through $\eta$ and $d$. The diffusivity tensors $D_\eta$ and $D_d$ play the role that the electromagnetic vector potential played in 5D Kaluza-Klein theory—internal geometric structures that appear as forces when projected to 4D spacetime. The maintenance tax is not imposed externally but emerges as geodesic deviation in the full 6D geometry.
 
 ## Renormalization Group Flow
 
@@ -284,6 +289,8 @@ $$
 
 where the factor of 3 in $\Lambda_d$ equals the number of spatial dimensions, with each dimension contributing one Planck density to vacuum energy.
 
+These 6D Einstein equations extend the Kaluza-Klein program to its thermodynamic completion. The coupling of organizational fields to gravity through $\Lambda_A\mathcal{C}[\eta,d]$ represents information maintenance as geometric curvature. Systems following geodesics in the full 6D space experience "forces" from the organizational dimensions—these are not external fields but intrinsic curvature of the extended manifold. The conservation law $\nabla_A J^A = 0$ guarantees that information flow through spacetime coordinates couples consistently to organizational state changes, unifying dynamics across all 6 dimensions.
+
 Conservation in all 6 directions gives,
 
 $$
@@ -310,7 +317,7 @@ The discrete lattice structure emerges inevitably from information theory. When 
 
 The universe as a 6D voxel lattice updating at Planck frequency $f_P = 1.855 \times 10^{43}$ Hz. Information resides on boundaries between voxels at density $I = A/4\ell_P^2\ln 2$. Matter creates topological defects that displace the lattice, producing strain patterns we interpret as gravity. Black holes mark where the lattice terminates—the literal edge of computational substrate. The organizational fields $\eta$ and $d$ serve as genuine coordinates, evolving through renormalization group flow toward fixed points. Noether's theorem yields a conserved charge from the flow's symmetry, connecting microscopic information structure to macroscopic spacetime curvature.
 
-Constants emerge as [constraint eigenvalues from a unified variational framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) governing coherence on finite lattices. The three eigenvalue sectors—$\pi$ (isotropy closure), $\varphi$ (recursive self-similarity), and the decade resonance ($C_{10}$)—arise as fixed points balancing rotational isotropy, scaling invariance, and discrete parity. The composite invariant $\mathcal{I} = 4\pi\varphi^2 \approx 32.9$ couples isotropy and recursion, appearing as $\rho^* = \mathcal{I}/10 \approx 3.29$ through the decade resonance. The golden ratio $\varphi = (1+\sqrt{5})/2$ minimizes interference through its unique continued fraction structure $[1;1,1,1,\ldots]$, representing the $\varphi$-sector eigenvalue. These represent mathematical necessities—not arbitrary parameters but stationary ratios of the constraint functional.
+Constants emerge as [constraint eigenvalues from a variational framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) governing coherence on finite lattices. The three eigenvalue sectors—$\pi$ (isotropy closure), $\varphi$ (recursive self-similarity), and the decade resonance ($C_{10}$)—arise as fixed points balancing rotational isotropy, scaling invariance, and discrete parity. The composite invariant $\mathcal{I} = 4\pi\varphi^2 \approx 32.9$ couples isotropy and recursion, appearing as $\rho^* = \mathcal{I}/10 \approx 3.29$ through the decade resonance. The golden ratio $\varphi = (1+\sqrt{5})/2$ minimizes interference through its unique continued fraction structure $[1;1,1,1,\ldots]$, representing the $\varphi$-sector eigenvalue. These represent mathematical necessities—not arbitrary parameters but stationary ratios of the constraint functional.
 
 The framework generates specific testable predictions distinguishing it from general relativity: quantum computers should generate additional gravitational effects, black hole mergers should show dimensional phase transitions, primordial black holes should explode with quantized energy spectra, white dwarf trajectories reveal information bankruptcy mechanisms, and [Type Ia supernovae show brightness variations](/type-ia-supernova-information-theoretic-energetics) consistent with informational charge conservation.
 

@@ -2,9 +2,10 @@
 title: 'Navier–Stokes, Vorticity Growth, & the Finite Residence of Balanced States'
 description: "Can Navier–Stokes solutions develop singularities in finite time? Analysis shows regions where stretching and recursion are balanced are crossed but never occupied—balance is transient, not persistent."
 pubDate: '2026-01-17'
-zenodoDepositionId: 18292494
-zenodoUrl: "https://zenodo.org/records/18292494"
-doi: "10.5281/zenodo.18292494"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18395779
+zenodoUrl: "https://zenodo.org/records/18395779"
+doi: "10.5281/zenodo.18395779"
 keywords:
   - "Navier-Stokes"
   - "vorticity"
@@ -81,7 +82,7 @@ $$
 
 for some tolerance $\varepsilon$.
 
-Intuitively, such states correspond to regions where stretching and scale-feeding are locally matched—precisely the configuration often imagined as dangerous for regularity. Many near-singular heuristics implicitly assume that stretching and scale-feeding can remain locally matched, allowing amplification to persist without immediate dissipation or decoherence.
+Intuitively, such states correspond to regions where stretching and scale-feeding are locally matched—precisely the configuration often imagined as dangerous for regularity. Balanced configurations would require a coercive functional trapping trajectories near $R_\Omega \approx L_\Omega$. The observed short residence times indicate no such coercivity exists; the balanced region is transversely unstable rather than locally attractive. Many near-singular heuristics implicitly assume that stretching and scale-feeding can remain locally matched, allowing amplification to persist without immediate dissipation or decoherence.
 
 ## Empirical Observation: Balance Is Transient
 
@@ -123,7 +124,7 @@ In Navier–Stokes, the nonlinear term $(\omega\cdot\nabla)u$ is a self-projecti
 
 The observed behavior is consistent with balanced states acting as transversely unstable configurations rather than attractors. This is exactly the structure proved abstractly for projected gradient flows: feasibility-induced curl creates cycling, but cycling configurations are not energetically stationary. In Navier–Stokes terms, stretching can spike, but the cascade geometry cannot remain integrable long enough to lock in a singularity.
 
-The result represents a structural constraint on blow-up mechanisms: curl-supporting configurations cannot remain stationary.
+The result represents a structural constraint on blow-up mechanisms: curl-supporting configurations cannot remain stationary. Axial compressors provide a physical instantiation of this structure—the surge line is a finite-residence manifold, and rotating stall is curl made visible in engineering hardware. See [Compressors, Curl, & Constraint Geometry](/compressors-curl-and-constraint-geometry) for the detailed mapping.
 
 ## Connections to Specific Blow-Up Scenarios
 

@@ -2,9 +2,10 @@
 title: 'Quantum Fusion Engines & Informational Power'
 description: "At high temperatures, matter becomes informational substrate. Constraining information flow through plasma creates pressure, and reorganizing microstates can exceed fusion output."
 pubDate: '2025-12-08'
-zenodoDepositionId: 18018313
-zenodoUrl: "https://zenodo.org/records/18018313"
-doi: "10.5281/zenodo.18018313"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18314759
+zenodoUrl: "https://zenodo.org/records/18314759"
+doi: "10.5281/zenodo.18314759"
 keywords:
   - "fusion energy"
   - "information thermodynamics"
@@ -302,7 +303,7 @@ Infrastructure timelines shift. If informational contributions reduce the temper
 
 ### For Physics
 
-The same equations governing stellar collapse, quantum coherence, and black-hole thermodynamics can be applied to engineered systems. This represents a unified view where information physics may operate at all scales—from quantum processors maintaining coherence to stars collapsing under informational overhead.
+The same equations governing stellar collapse, quantum coherence, and black-hole thermodynamics can be applied to engineered systems. This represents a view where information physics may operate at all scales—from quantum processors maintaining coherence to stars collapsing under informational overhead.
 
 The [framework](/information-field-theory-from-constraint-to-cosmos) connects:
 

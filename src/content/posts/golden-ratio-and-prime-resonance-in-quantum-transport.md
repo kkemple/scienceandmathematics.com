@@ -2,9 +2,10 @@
 title: 'Golden Ratio and Prime Resonance in Quantum Transport'
 description: "Explores why golden ratio phases, prime lattices, and decade partitions minimize curvature, organize Harper-Hofstadter spectra, and inform practical quantum computing layouts."
 pubDate: '2025-10-01'
-zenodoDepositionId: 17980332
-zenodoUrl: "https://zenodo.org/records/17980332"
-doi: "10.5281/zenodo.17980332"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18395776
+zenodoUrl: "https://zenodo.org/records/18395776"
+doi: "10.5281/zenodo.18395776"
 keywords:
   - "golden ratio"
   - "Harper-Hofstadter model"
@@ -49,6 +50,8 @@ When isotropy and recursion coexist, their coupling yields the composite invaria
 The decade sector's discrete curvature penalty explains why prime numbers play a distinguished role in quantum coherence. On a lattice of $n$ sites, a periodic pattern admits subharmonic modes at every divisor $d$ of $n$. The divisor function $\tau(n) = \prod(a_i + 1)$ for $n = p_1^{a_1} \times \cdots \times p_k^{a_k}$ counts these modes[^1]. A lattice of $n = 12 = 2^2 \times 3$ sites supports $\tau(12) = 6$ resonant modes corresponding to divisors $\{1, 2, 3, 4, 6, 12\}$.
 
 Prime numbers $p$ have exactly $\tau(p) = 2$ modes—the trivial mode at $d = 1$ and the fundamental at $d = p$. This minimal mode count corresponds to minimal discrete curvature: fewer internal resonances means fewer pathways for destructive interference. The constraint functional assigns lower curvature cost to prime-length configurations because they satisfy the decade sector's parity requirements with minimal complexity.
+
+The distinguished role of primes in quantum coherence connects to the Berry-Keating conjecture, which proposes that the zeros of the Riemann zeta function correspond to eigenvalues of a chaotic quantum Hamiltonian. The prime number distribution—encoded in zeta zeros—would then reflect the spectrum of a fundamental operator. The constraint eigenvalue framework suggests this connection runs deeper: prime-based architectures are not merely tricks to avoid sub-harmonics, but represent eigenstates of the constraint functional itself. Systems minimizing discrete curvature through prime structure may be accessing the same spectral organization that governs zeta zeros, placing quantum transport optimization on the same mathematical foundation as number theory's deepest problems.
 
 Highly composite numbers like $n = 840 = 2^3 \times 3 \times 5 \times 7$ with $\tau(840) = 32$ modes carry high discrete curvature. The proliferation of subharmonic channels increases maintenance cost and accelerates decoherence. Prime-length patterns, by contrast, minimize the discrete curvature term and maintain coherence longer—not through any special property of primes themselves, but because minimal divisor count is minimal curvature.
 
@@ -101,6 +104,8 @@ No quantum computer can exceed the processing rate $\dot{I}_{\max} = f_P \times 
 ## Summary
 
 The convergence of primes, golden ratio, and decade structure in quantum transport is not numerical coincidence but geometric necessity arising from the constraint eigenvalue framework. Prime lengths minimize discrete curvature through their minimal divisor count. Golden ratio phases minimize recursive curvature through their maximal irrationality. Decade partitions organize spectral structure through the $C_{2 \times 5}$ symmetry's composite parity requirements.
+
+The connection between prime structure and quantum coherence may reflect a deeper relationship between number theory and physics through the Berry-Keating conjecture. If prime distributions encode eigenvalue spectra of fundamental operators, then prime-based quantum architectures are not arbitrary optimizations but alignments with the spectral structure underlying both number theory and quantum mechanics.
 
 These three sectors—$\pi$, $\varphi$, $10$—operate simultaneously in Harper–Hofstadter systems, with transport controlled by commensurability ($\pi$-sector), modulation organized by continued-fraction hierarchies ($\varphi$-sector), and regime transitions aligned with decade partitions (10-sector). The composite invariant $4\pi\varphi^2 \approx 32.9$ and the universal exponent $\nu = 1/\rho^* \approx 0.304$ link quantum lattice physics to the broader constraint geometry governing coherence across sixty orders of magnitude.
 

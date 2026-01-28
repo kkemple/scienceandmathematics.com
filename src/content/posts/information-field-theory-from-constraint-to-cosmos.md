@@ -2,9 +2,10 @@
 title: 'Building an Information-Theoretic Field Theory'
 description: "Builds an information-theoretic field theory where dissipation, renormalization, and conserved currents couple to explain universal scaling from particles to galaxies."
 pubDate: '2025-10-07'
-zenodoDepositionId: 17980393
-zenodoUrl: "https://zenodo.org/records/17980393"
-doi: "10.5281/zenodo.17980393"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18314780
+zenodoUrl: "https://zenodo.org/records/18314780"
+doi: "10.5281/zenodo.18314780"
 keywords:
   - "renormalization group"
   - "field theory"
@@ -25,10 +26,10 @@ zenodoDescription: |
 
   We present a complete Lagrangian coupling the three dynamical fields and derive conserved RG charges. The framework generates testable predictions: white dwarf cooling anomalies matching observed 0.56 Gyr delays; information wave signatures in gravitational wave correlations; critical qubit limits for quantum computers; and universal scaling at organizational phase transitions.
 
-  The framework remains speculative—while individual components (RG, conservation laws, dissipation) are established, their synthesis into a unified information field theory and the specific value ρ* = 3.29 require independent validation. The claimed universality across 60 orders of magnitude is a hypothesis, not established fact. Whether the decade structure reflects fundamental physics or parameter fitting awaits further theoretical and experimental scrutiny.
+  The framework remains speculative—while individual components (RG, conservation laws, dissipation) are established, their synthesis into an information field theory and the specific value ρ* = 3.29 require independent validation. The claimed universality across 60 orders of magnitude is a hypothesis, not established fact. Whether the decade structure reflects fundamental physics or parameter fitting awaits further theoretical and experimental scrutiny.
 ---
 
-The hierarchy of matter—elementary particles to atoms to molecules to black holes—obeys a single renormalization group flow with universal exponent $\nu = 0.304$. Not approximately. Exactly. This exponent emerges from the [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) as $\nu = 1/\rho^* = 1/3.29 = 0.304$, where $\rho^* = 4\pi\varphi^2/10$ couples the $\pi$-sector (isotropy) and $\varphi$-sector (recursion) through decade resonance. The same exponent governs [white dwarf information bankruptcy trajectories](/binding-energy-critical-radii-and-information-maintenance-tax), quantum phase transitions, and critical scaling in biological systems—universal behavior spanning 60 orders of magnitude.
+The hierarchy of matter—elementary particles to atoms to molecules to black holes—obeys a single renormalization group flow with exponent $\nu = 0.304$. Not approximately. Exactly. This exponent emerges from the [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) as $\nu = 1/\rho^* = 1/3.29 = 0.304$, where $\rho^* = 4\pi\varphi^2/10$ couples the $\pi$-sector (isotropy) and $\varphi$-sector (recursion) through decade resonance. The same exponent governs [white dwarf information bankruptcy trajectories](/binding-energy-critical-radii-and-information-maintenance-tax), quantum phase transitions, and critical scaling in biological systems—universal behavior spanning 60 orders of magnitude.
 
 Every physical system dissipates information to thermal degrees of freedom at characteristic rate $\eta$. Elementary particles leak at $\eta = 10^{-6}$, atoms at $10^{-3}$, molecules at $10^{-2}$, biological systems at $10^{-1}$, and black holes saturate the bound at unity. This exponential progression emerges from renormalization group equations with beta function $\beta(\eta) = -\eta[1-\eta](\rho^* + (d-2)\ln\varphi/2)$, where $\rho^* = 3.29$ appears as a fundamental coupling constant analogous to fine structure $\alpha$ or gravitational $G$. White dwarf trajectories through the basin of attraction threshold at $R/R_S = 10^3$ exhibit critical behavior with power-law divergence precisely matching this exponent[^1]. The framework constructs a complete field theory where information, dissipation, and dimension become dynamical fields generating all known field equations through pure constraint satisfaction.
 

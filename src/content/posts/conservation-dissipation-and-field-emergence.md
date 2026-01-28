@@ -2,9 +2,10 @@
 title: 'Conservation, Dissipation, & Field Emergence'
 description: "Shows how conserved currents plus symmetry and calibrated dissipation reproduce Maxwell, Klein-Gordon, fluid, and gravitational field equations from pure constraint satisfaction."
 pubDate: '2025-10-06'
-zenodoDepositionId: 18292510
-zenodoUrl: "https://zenodo.org/records/18292510"
-doi: "10.5281/zenodo.18292510"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18314777
+zenodoUrl: "https://zenodo.org/records/18314777"
+doi: "10.5281/zenodo.18314777"
 keywords:
   - "field theory"
   - "Noether theorem"
@@ -25,7 +26,7 @@ zenodoDescription: |
 
   An empirical hierarchy emerges: η ~ 10⁻⁶ (particles), 10⁻³ (atoms), 10⁻² (molecules), 10⁻¹ (biological systems), 1 (black holes). Whether this progression reflects fundamental organizational physics or simply accumulated complexity remains interpretive. The proposed connection to information processing rates—with black holes saturating at 10⁴³ bits/second (Planck frequency)—follows from Lloyd's computational limits but the interpretation as a universal constraint hierarchy requires further validation.
 
-  The quantum overlap criterion Ω = nλᵈ determines phase transitions: Bose-Einstein condensation at nλ³ ≈ 2.612, Fermi degeneracy at nλ³ ≈ 1. These thresholds are well-established. The complete framework—conservation, dissipation, overlap—provides a unified perspective on field dynamics, though the deeper claim that "fields are information channels" represents a philosophical interpretation rather than derivable conclusion.
+  The quantum overlap criterion Ω = nλᵈ determines phase transitions: Bose-Einstein condensation at nλ³ ≈ 2.612, Fermi degeneracy at nλ³ ≈ 1. These thresholds are well-established. The complete framework—conservation, dissipation, overlap—provides a consistent perspective on field dynamics, though the deeper claim that "fields are information channels" represents a philosophical interpretation rather than derivable conclusion.
 ---
 
 Conservation plus symmetry equals field equations. Start with a single constraint—a conserved current $n^\mu$ with vanishing divergence—and impose symmetry requirements. U(1) gauge symmetry generates Maxwell's equations. Lorentz invariance yields Klein-Gordon. Galilean symmetry produces Euler's fluid equations. Mathematical consistency alone. Add dissipation through thermal coupling with coefficient $\eta$ ranging from $10^{-6}$ for elementary particles to unity for black holes, [quantifying the energy required to maintain organizational structure](/binding-energy-critical-radii-and-information-maintenance-tax). The complete framework—conservation, dissipation, and quantum overlap—reproduces field dynamics from electromagnetism to gravitation through pure constraint satisfaction.

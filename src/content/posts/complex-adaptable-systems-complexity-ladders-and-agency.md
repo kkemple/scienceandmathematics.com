@@ -2,10 +2,10 @@
 title: 'Complex Adaptable Systems, Complexity Ladders, & Agency'
 description: "Traces a universal four-step complexity ladder from quantum fields to biology, showing why agency emerges only near the eta ~ 0.1 thermodynamic sweet spot."
 pubDate: '2025-10-18'
-updatedDate: '2026-01-18'
-zenodoDepositionId: 18293325
-zenodoUrl: "https://zenodo.org/records/18293325"
-doi: "10.5281/zenodo.18293325"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18314790
+zenodoUrl: "https://zenodo.org/records/18314790"
+doi: "10.5281/zenodo.18314790"
 keywords:
   - "complexity"
   - "emergence"
@@ -328,9 +328,9 @@ $$
 
 where we used $\Psi'(\Gamma) = \rho^* \eta(1-\eta)$ (derivative of the logistic function) and $d\Gamma/d\ln\mu = \gamma(\mu)$ by definition. This shows the flow equation arises naturally from accumulating curl through a logistic saturation map, with $\rho^*$ governing the saturation rate.
 
-The constant $\rho^*$ appears to govern the *rate* at which curl converts to maintenance fraction. Its appearance throughout the framework—in cosmological energy distribution (32.9% / 67.1%), white dwarf cooling, genetic code partition, Harper-Hofstadter transitions—suggests it may reflect a universal constraint eigenvalue ratio determining how curvature budgets partition between structure and capacity.
+The constant $\rho^*$ appears to govern the *rate* at which curl converts to maintenance fraction. Its appearance throughout the framework—in cosmological energy distribution (32.9% / 67.1%), white dwarf cooling, genetic code partition, Harper-Hofstadter transitions—suggests it may reflect a constraint eigenvalue ratio determining how curvature budgets partition between structure and capacity when one sector saturates.
 
-**The curl-capacity relationship.** Curl and $\rho^*$ play distinct but complementary roles. Curl ($d\alpha \neq 0$) measures maintenance *demand*—the geometric requirement for continuous work to sustain non-integrable constraint projections. The invariant $\rho^*$ governs capacity *erosion*—the rate at which HCA exhausts integrable degrees of freedom. Collapse occurs when demand overwhelms capacity: accumulated curl pushes $\eta$ past the critical threshold where no integrable directions remain. In this sense, curl is the geometric origin of dissipation, the dissipation ladder is HCA across scales, and $\rho^*$ defines the universal rate at which that accumulation destroys feasible structure.
+**The curl-capacity relationship.** Curl and $\rho^*$ play distinct but complementary roles. Curl ($d\alpha \neq 0$) measures maintenance *demand*—the geometric requirement for continuous work to sustain non-integrable constraint projections. The invariant $\rho^*$ governs capacity *erosion*—the rate at which HCA exhausts integrable degrees of freedom. Collapse occurs when demand overwhelms capacity: accumulated curl pushes $\eta$ past the critical threshold where no integrable directions remain. In this sense, curl is the geometric origin of dissipation, the dissipation ladder is HCA across scales, and $\rho^*$ defines the rate at which that accumulation destroys feasible structure.
 
 The critical threshold $\eta_c = 1/\rho^* \approx 0.304$ marks where the system approaches bankruptcy: accumulated curl has consumed capacity to the point where organizational collapse becomes generic. Agency exists only in the window $0.05 \lesssim \eta \lesssim 0.15$, well below this critical threshold but high enough for organizational depth.
 

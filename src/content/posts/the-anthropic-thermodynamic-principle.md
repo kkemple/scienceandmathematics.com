@@ -2,9 +2,10 @@
 title: 'The Anthropic Thermodynamic Principle'
 description: "Links Landauer limits, dissipation ladders, and the 32.9/67.1 structure-capacity partition to argue consciousness lives inside the narrow thermodynamic window biology occupies."
 pubDate: '2025-09-17'
-zenodoDepositionId: 18292516
-zenodoUrl: "https://zenodo.org/records/18292516"
-doi: "10.5281/zenodo.18292516"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18314784
+zenodoUrl: "https://zenodo.org/records/18314784"
+doi: "10.5281/zenodo.18314784"
 keywords:
   - "consciousness"
   - "thermodynamics"
@@ -74,7 +75,7 @@ Each order of magnitude jump represents phase transition in organizational compl
 
 The human brain consuming 20 watts for 1.4 kg mass operates precisely at biological limit $\eta_{\text{bio}} \sim 0.1$. This represents 20-25% of metabolic budget despite being 2% of body mass. The disproportionate allocation reflects operation as primary information processor at maximum sustainable overhead.
 
-## The Universal Partition
+## The Structure-Capacity Partition
 
 The same organizational split appears across 35 orders of magnitude—from quantum fields to genetic code to cosmological structure. Not approximately. Exactly. The decade partition $\rho^*/10$ and $(10-\rho^*)/10$ manifests identically whether examining molecular biology or universal expansion.
 

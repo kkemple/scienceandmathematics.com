@@ -2,9 +2,10 @@
 title: 'The Geometry of Self-Correction'
 description: "Systems that converge share mathematical structure with systems that cycle—except for one geometric property. The curl of the correction field determines whether feedback produces alignment or oscillation."
 pubDate: '2026-01-09'
-zenodoDepositionId: 18259546
-zenodoUrl: "https://zenodo.org/records/18259546"
-doi: "10.5281/zenodo.18259546"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18314751
+zenodoUrl: "https://zenodo.org/records/18314751"
+doi: "10.5281/zenodo.18314751"
 zenodoDescription: |
   This paper develops a coordinate-free geometric framework for understanding when feedback systems converge versus cycle. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation.
 
@@ -18,7 +19,7 @@ zenodoDescription: |
 
   Applications span control systems (FADEC multi-loop engine control), AI alignment (reward hacking as curl emergence), and financial markets (reflexive dynamics introducing curl). The framework connects to constraint theory by showing that agents following constraint gradients reach equilibrium when the combined field is curl-free, but cycle when institutional rules create non-conservative correction pressures.
 
-  The contribution is a unified geometric language that reveals why some feedback architectures converge while others cycle, independent of domain—and why complexity itself tends to generate cycling. The curl diagnostic is coordinate-free, computable, and decisive.
+  The contribution is a geometric language that reveals why some feedback architectures converge while others cycle, independent of domain—and why complexity itself tends to generate cycling. The curl diagnostic is coordinate-free, computable, and decisive.
 keywords:
   - "cybernetics"
   - "gradient flow"
@@ -45,7 +46,7 @@ A thermostat and a high-bypass turbofan engine solve the same problem: temperatu
 
 The difference in their behavior is geometric.
 
-The mathematics of self-correction has been understood in pieces for over a century. Lyapunov showed that certain scalar functions guarantee stability when they decrease along trajectories[^1]. Ashby's cybernetics formalized feedback as requisite variety—a system's capacity to match environmental perturbations[^2]. Control theory developed transfer functions and stability criteria. What has been missing is a unified geometric language that reveals why some feedback architectures converge while others cycle, independent of the specific domain—and why complexity itself tends to generate cycling.
+The mathematics of self-correction has been understood in pieces for over a century. Lyapunov showed that certain scalar functions guarantee stability when they decrease along trajectories[^1]. Ashby's cybernetics formalized feedback as requisite variety—a system's capacity to match environmental perturbations[^2]. Control theory developed transfer functions and stability criteria. What has been missing is a geometric language that reveals why some feedback architectures converge while others cycle, independent of the specific domain—and why complexity itself tends to generate cycling.
 
 The key insight is that correction fields—the vector fields describing how systems respond to deviation—can be classified by their differential structure. A correction field that derives from a scalar potential (the gradient of some function) has zero curl and produces pure convergence. A correction field assembled from multiple objectives, constraints, or state-dependent rules generically has nonzero curl and produces cycling. This classification is coordinate-free: it depends only on the intrinsic geometry of the state space, not on how we choose to describe it.
 
@@ -163,6 +164,8 @@ and then $\nabla \times F \neq 0$. The system can orbit, churn, or cycle rather 
 
 This is the geometric signature of multi-objective interference. When a system cycles rather than converges, the curl diagnostic tells you the problem is structural: the correction field does not derive from any consistent scalar objective. Parameter tuning cannot fix this. The architecture itself prevents convergence.
 
+This curl structure has a deep physical analogue in quantum mechanics. The Berry phase—or geometric phase—describes how a quantum state acquires phase when transported around a closed loop in parameter space. The curl in the correction field is precisely the information-geometric equivalent of this phenomenon: systems transported through state space along cycled correction trajectories accumulate "organizational phase" that depends on the geometry of the path, not just the endpoints. This connection reveals that cycling organizations and cycling quantum systems share the same underlying mathematical structure—holonomy of their respective manifolds.
+
 ## Divergence as Compressive Strength
 
 While curl measures circulation, divergence measures local volume change. In gradient flow, the divergence of the correction field indicates where trajectories compress together (approaching an attractor) versus spread apart (leaving a repeller).
@@ -210,6 +213,8 @@ Divergence identifies which regions of state space act as attractors and how str
 ## When Curl Emerges
 
 Pure gradient flow guarantees convergence, but the gradient structure is fragile. Several common architectural features introduce nonzero curl, breaking the convergence guarantee.
+
+From a gauge-theoretic perspective, the correction field functions as a connection on the state manifold. When this connection is integrable (curl-free), it derives from a scalar potential. When constraints, multi-objective interference, or state-dependent rules introduce curl, the correction field becomes a genuine gauge field whose curvature—the curl—measures the geometric obstruction to convergence. This frames management, coordination, and control not merely as forces, but as gauge fields whose curvature determines whether systems align or oscillate.
 
 ### Multi-Objective Interference
 
@@ -265,7 +270,7 @@ $$
 
 for some $\kappa > 0$ determined by the spectral gap and the divergence structure of the defect[^14].
 
-This is the quantitative version of "structural, not parametric." A system whose correction architecture repeatedly induces a nontrivial projection defect carries an irreducible curl floor. The floor is not a tuning artifact but a geometric constant times the persistent defect magnitude. Cycling and sustained corrective work are the irreducible residue of feasibility—the cost of implementing constraints that prevent a global scalar Lyapunov function from existing on the realized dynamics.
+This is the quantitative version of "structural, not parametric." A system whose correction architecture repeatedly induces a nontrivial projection defect carries an irreducible curl floor. The floor is not a tuning artifact but a geometric constant times the persistent defect magnitude. Because the curl floor is set by the Hodge spectral gap, no gain scheduling, local smoothing, or parameter tuning can eliminate cycling without changing the feasibility map itself. Cycling and sustained corrective work are the irreducible residue of feasibility—the cost of implementing constraints that prevent a global scalar Lyapunov function from existing on the realized dynamics.
 
 The following sections examine specific domains where this structure appears.
 
@@ -277,7 +282,7 @@ Nonlinear control extends these ideas through Lyapunov's direct method, which se
 
 The curl diagnostic adds predictive power. If a control system exhibits limit cycles or oscillations, the correction field has nonzero curl. This directs attention toward the source of circulation—often saturation, backlash, or mode-switching—rather than toward gain adjustment.
 
-Return to the turbofan. Its Full Authority Digital Engine Control (FADEC) manages fuel flow, variable stator vanes, bleed valves, and afterburner sequencing[^8]. Each subsystem has its own correction loop. When the aircraft transitions between flight regimes—say, from cruise to rapid descent—the correction loops can interfere. The fuel controller reduces flow to lower temperature; the compressor controller opens bleed valves to prevent surge; the bleed valve opening reduces pressure, triggering the fuel controller to compensate. Under certain conditions, these interactions create circulation in the combined correction field. The engine can oscillate between correction modes—a known failure mode in switched/gain-scheduled control systems that requires careful bumpless transfer design to prevent[^9]. Engine designers spend considerable effort ensuring the combined FADEC architecture remains curl-free across the operating envelope—a geometric constraint on multi-loop control design.
+Return to the turbofan. Its Full Authority Digital Engine Control (FADEC) manages fuel flow, variable stator vanes, bleed valves, and afterburner sequencing[^8]. Each subsystem has its own correction loop. When the aircraft transitions between flight regimes—say, from cruise to rapid descent—the correction loops can interfere. The fuel controller reduces flow to lower temperature; the compressor controller opens bleed valves to prevent surge; the bleed valve opening reduces pressure, triggering the fuel controller to compensate. Under certain conditions, these interactions create circulation in the combined correction field. The engine can oscillate between correction modes—a known failure mode in switched/gain-scheduled control systems that requires careful bumpless transfer design to prevent[^9]. Engine designers spend considerable effort ensuring the combined FADEC architecture remains curl-free across the operating envelope—a geometric constraint on multi-loop control design. The compressor provides a particularly clean instantiation: the surge line is a finite-residence manifold, variable stators and bleed valves perform feasibility projections that induce structural curl, and rotating stall is curl made visible in the flow field. See [Compressors, Curl, & Constraint Geometry](/compressors-curl-and-constraint-geometry) for the complete mapping.
 
 ### AI Alignment
 
@@ -334,6 +339,8 @@ This diagnostic is more precise than "the system is unstable" or "incentives are
 Systems with curl-free correction fields will converge; systems with nonzero curl will cycle. This prediction holds across domains—thermostats and turbofans, AI systems and markets. Knowing the curl structure of a system's correction architecture allows prediction of its long-run behavior without simulating the detailed dynamics.
 
 In markets, constraint architectures that generate curl produce oscillations exploitable by agents who recognize the pattern. In organizations, correction processes with intrinsic curl produce predictable cycling that can be anticipated and planned around even if it cannot be eliminated.
+
+The connection to Berry phase and gauge theory reveals that organizational cycling is not merely a practical nuisance but reflects fundamental geometric structure. Just as topological phases in quantum matter are protected against local perturbations, organizational architectures with structural curl maintain their cycling behavior against parameter adjustments.
 
 The geometry of self-correction transforms informal intuitions about feedback and stability into precise, measurable structure. Systems that converge share mathematical form with systems that cycle—except for one property. That property is coordinate-free, computable, and decisive.
 
@@ -498,6 +505,8 @@ $$
 $$
 
 This is a purely geometric quantity measuring the $L^2$-size of the exterior derivative of the implemented 1-form.
+
+The curl-maintenance functional $\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}|d\alpha|^2_{L^2}$ is the direct analogue of Berry curvature in quantum mechanics. Just as Berry curvature measures the "twisting" of quantum eigenstates under adiabatic transport, the curl-maintenance functional quantifies the geometric phase accumulated by correction trajectories. The irreducible curl floor established by Theorem 4 corresponds to topological protection in quantum systems—certain organizational structures carry geometric phases that cannot be eliminated by smooth deformations, only by changing the topology of the constraint architecture itself.
 
 #### Feasibility as Projection
 

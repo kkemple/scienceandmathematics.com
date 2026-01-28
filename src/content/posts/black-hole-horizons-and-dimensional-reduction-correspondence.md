@@ -2,9 +2,10 @@
 title: 'Black Hole Horizons & Dimensional Reduction Correspondence'
 description: "Synthesizes geometric, thermodynamic, topological, informational, and quantum arguments that black hole horizons force dimensional reduction and dual chiral processing."
 pubDate: '2025-08-22'
-zenodoDepositionId: 17980202
-zenodoUrl: "https://zenodo.org/records/17980202"
-doi: "10.5281/zenodo.17980202"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18314814
+zenodoUrl: "https://zenodo.org/records/18314814"
+doi: "10.5281/zenodo.18314814"
 keywords:
   - "black hole thermodynamics"
   - "dimensional reduction"
@@ -122,6 +123,8 @@ $$
 \Delta\psi = \int_{r}^{r_s} \frac{dr'}{r' - r_s} = \ln\left(\frac{r - r_s}{l_P}\right).
 $$
 
+This phase winding is the gravitational analogue of the **Berry phase** in quantum mechanics—a geometric phase acquired through transport in parameter space. Just as a quantum state accumulates phase when adiabatically transported around a closed loop, infalling information accumulates topological phase as it approaches the horizon. The curl in the correction field framework corresponds to the **holonomy** of the information manifold, suggesting that the horizon itself functions as a gauge field whose curvature quantizes the winding sectors.
+
 Quantum cutoff at Planck length $l_P$ yields maximum winding number $n_{max} = \frac{1}{2\pi}\ln\left(\frac{r_s}{l_P}\right) \approx 14$ for stellar-mass black holes. These [quantized winding sectors](/lets-derive-an-information-theoretic-conservation-law) provide topologically protected information channels—local perturbations cannot change winding number without global reorganization.
 
 The topology demands dimensional reduction. The $S^3$ structure encodes 3D information on a 2D surface through winding phase relationships.
@@ -142,7 +145,7 @@ Compare this to information loss through Hawking radiation. The photon emission 
 
 The efficiency requires specific architecture. Three-dimensional processing at this scale would require coordinating information flow across all three dimensions simultaneously. The communication overhead scales as $N^{4/3}$ for 3D networks but only $N$ for 2D surfaces. At Planck-scale densities, the 3D overhead becomes prohibitive.
 
-Dimensional reduction to 2D eliminates this bottleneck. Surface processing with left/right chiral sectors provides the dual-channel architecture matching the factor-of-two thermodynamic requirement. The information processing constraint independently demands the same dimensional structure derived geometrically and topologically.
+Dimensional reduction to 2D eliminates this bottleneck. Surface processing with left/right chiral sectors provides the dual-channel architecture matching the factor-of-two thermodynamic requirement. The transition from 3D to 2D processing represents an information-theoretic **decoherence boundary**—where the environment (extreme gravitational field) "measures" the system, forcing a classical limit. This dimensional reduction is the gravitational equivalent of how environmental decoherence collapses quantum superpositions into definite states. The information processing constraint independently demands the same dimensional structure derived geometrically and topologically.
 
 ## The Entropic Gravity Path
 
@@ -185,6 +188,8 @@ The universal structure:
 - Processing capacity $N_{max} = 2N_{BH}$ from dual sectors
 - Central charge $c = 24r_s^2/l_P^2$ from horizon area[^15]
 
+The $n_{max} \approx 14$ quantized winding numbers function as **topologically protected information channels**—analogous to edge states in topological insulators. This bulk-boundary correspondence suggests that organizational structures with maximal informational charge $\mathcal{C} = 3.42$ are topologically distinct from lower-coherence states, protected against entropic decay by the same mathematical structures that stabilize quantum Hall systems and superconductors.
+
 The convergence transcends formalism. Geometric arguments from metric singularities, thermodynamic requirements from Landauer-Bekenstein equality, topological constraints from compactification, information-theoretic processing bounds, and entropic action principles all generate the same 2D+$S^1$ structure through entirely different mathematical machinery.
 
 When independent frameworks converge like this—when the geometry forces it, the thermodynamics demands it, the topology requires it, and the information processing requires it—they reveal fundamental structure. The horizon marks a genuine dimensional phase transition where spacetime itself reorganizes to maintain finite information processing capacity.
@@ -201,6 +206,8 @@ $$
 
 Statistical analysis of stacked O5 observations could detect these correlations through departures from random phase distributions. The $n_{max} \approx 14$ discrete sectors should manifest as spectral features separated by characteristic phase intervals $\Delta\psi = 2\pi/n_{max}$.
 
+The dimensional reduction at the horizon represents a genuine **thermodynamic phase transition**, analogous to the Davies point in rotating black hole thermodynamics where specific heat changes sign. This marks a boundary where systems undergo sudden reorganization rather than gradual failure—a phase transition in the fundamental structure of spacetime geometry.
+
 For primordial black holes[^16] with $M < 10^{15}$ g, Hawking temperature exceeds 100 GeV, enabling direct particle emission. The winding structure scales with mass: $n_{max} = \frac{1}{2\pi}\ln\left(\frac{r_s}{l_P}\right)$. Smaller black holes have fewer topological sectors, potentially creating detectable gaps in emission spectra at angles $\psi = 2\pi n$.
 
 LISA observations[^17] of extreme mass ratio inspirals will probe near-horizon structure through gravitational self-force effects. Winding transitions could appear as phase jumps in the waveform with characteristic frequency shifts $\Delta f/f \sim 1/n_{max} \sim 0.07$ for solar-mass objects.
@@ -209,9 +216,9 @@ LISA observations[^17] of extreme mass ratio inspirals will probe near-horizon s
 
 Multiple derivations reaching identical dimensional reduction through independent mathematical routes suggests this structure represents genuine physical reorganization at event horizons. The black hole horizon marks a dimensional phase transition—a boundary where spacetime topology fundamentally changes to accommodate extreme gravitational information processing demands.
 
-The dual-sector structure with $N_{max} = 2N_{BH}$ resolves the information paradox[^18] by providing sufficient processing capacity. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, allowing [complete information throughput during evaporation](/lets-derive-an-information-theoretic-conservation-law). Exactly twice. That precision matters—the factor of 2 isn't approximate but emerges from the topological structure of 2D surfaces supporting independent chiral sectors. The same dual structure appears in the [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) where rotating black holes carry informational charge $\mathcal{C} = 3.42 = 2 \times 1.71$ at extremal rotation, reflecting the dual chiral contribution to the universal coupling constant $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ that partitions capacity at every scale.
+The dual-sector structure with $N_{max} = 2N_{BH}$ resolves the information paradox[^18] by providing sufficient processing capacity. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, allowing [complete information throughput during evaporation](/lets-derive-an-information-theoretic-conservation-law). Exactly twice. That precision matters—the factor of 2 isn't approximate but emerges from the topological structure of 2D surfaces supporting independent chiral sectors. The same dual structure appears in the [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) where rotating black holes carry informational charge $\mathcal{C} = 3.42 = 2 \times 1.71$ at extremal rotation, reflecting the dual chiral contribution to the coupling constant $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ that partitions capacity at every scale.
 
-This framework connects microscopic quantum information principles to macroscopic gravitational phenomena. The [Planck scale sets all dimensional constants](/computational-spacetime-and-the-rayleigh-jeans-resolution) within the [6D voxel lattice computational substrate](/what-if-spacetime-isnt-so-continuous). The factor of two emerges from chiral structure. The winding number quantization follows from topology. The mathematics flows from demanding consistency between quantum mechanics, general relativity, and thermodynamics at horizons—just [constraints doing what constraints do](/information-field-theory-from-constraint-to-cosmos) when you push them to extremes.
+This framework connects microscopic quantum information principles to macroscopic gravitational phenomena. The [Planck scale sets all dimensional constants](/computational-spacetime-and-the-rayleigh-jeans-resolution) within the [6D voxel lattice computational substrate](/what-if-spacetime-isnt-so-continuous). This structure extends the Kaluza-Klein program by treating dissipation $\beta$ and effective dimension $d_{\text{eff}}$ not as parameters but as **internal geometric dimensions**. This thermodynamic Kaluza-Klein structure allows organizational maintenance costs to manifest as **curvature in these hidden dimensions**, placing information physics in the same mathematical lineage as general relativity's geometric treatment of gravity. The factor of two emerges from chiral structure. The winding number quantization follows from topology. The mathematics flows from demanding consistency between quantum mechanics, general relativity, and thermodynamics at horizons—just [constraints doing what constraints do](/information-field-theory-from-constraint-to-cosmos) when you push them to extremes.
 
 The dual chiral structure and holographic constraints that govern black hole horizons also determine information capacity in engineered high-energy systems. See [Quantum Fusion Engines & Informational Power](/quantum-fusion-engines-and-informational-power) for how boundary geometry and information processing limits apply to fusion plasma confinement.
 

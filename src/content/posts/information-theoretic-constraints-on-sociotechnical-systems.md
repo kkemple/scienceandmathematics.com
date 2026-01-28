@@ -2,9 +2,10 @@
 title: 'Information-Theoretic Constraints on Sociotechnical Systems'
 description: "Derives universal speech rates, biological maintenance ceilings, and the 30 percent coordination bankruptcy threshold by applying Landauer physics to human organizations."
 pubDate: '2025-10-16'
-zenodoDepositionId: 17981114
-zenodoUrl: "https://zenodo.org/records/17981114"
-doi: "10.5281/zenodo.17981114"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18314797
+zenodoUrl: "https://zenodo.org/records/18314797"
+doi: "10.5281/zenodo.18314797"
 keywords:
   - "information theory"
   - "speech rate"
@@ -174,9 +175,9 @@ Historical patterns show convergent evolution across isolated civilizations. Anc
 
 The information maintenance costs govern systems from elementary particles to human organizations. The correspondence between [binding energy as thermodynamic tax](/binding-energy-critical-radii-and-information-maintenance-tax) and organizational overhead reveals a partial unity—physical systems and information processors both face energy costs for pattern maintenance.
 
-The strongest results emerge from first-principles derivation. Speech rate at 39 bits per second follows from tissue viscosity determining phoneme rate and optimal inventory around 40 phonemes yielding 36 bits per second within 8% of observed. Biological overhead at $\eta_{\text{bio}} \sim 0.1$ emerges from metabolic measurements showing the brain operates at maximum sustainable maintenance fraction. Bankruptcy threshold at $\eta_c \approx 0.304$ derives from the complexity multiplier $(1-\eta)^{-\rho^*}$ with $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ emerging from the [constraint eigenvalue geometry](/a-constraint-eigenvalue-theory-of-information-matter-and-mind), appearing universally across physical and organizational systems.
+The strongest results emerge from first-principles derivation. Speech rate at 39 bits per second follows from tissue viscosity determining phoneme rate and optimal inventory around 40 phonemes yielding 36 bits per second within 8% of observed. Biological overhead at $\eta_{\text{bio}} \sim 0.1$ emerges from metabolic measurements showing the brain operates at maximum sustainable maintenance fraction. Bankruptcy threshold at $\eta_c \approx 0.304$ derives from the complexity multiplier $(1-\eta)^{-\rho^*}$ with $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ emerging from the [constraint eigenvalue geometry](/a-constraint-eigenvalue-theory-of-information-matter-and-mind), appearing across physical and organizational systems.
 
-The universal coupling constant $\rho^* = 3.29$ spans 57 orders of magnitude—from QCD confinement to organizational bankruptcy. The decade partition $\rho^*/10 = 32.9\%$ allocates energy to structural stability while $(10-\rho^*)/10 = 67.1\%$ remains available for transitions. This same split appears in [the genetic code](/complex-adaptable-systems-complexity-ladders-and-agency) (21 minimum codons = 32.81%, 43 redundant = 67.19%), [cosmological constants](/the-anthropic-thermodynamic-principle) (matter 31.5%, dark energy 68.5%), and now organizational dynamics. The complexity overhead factor governs nuclear binding, gravitational systems, and organizational failure with identical exponent. This consistency across disparate scales indicates deep connection, though mechanistic details differ by domain.
+The coupling constant $\rho^* = 3.29$ appears across scales from QCD confinement to organizational bankruptcy. When one curvature sector saturates, the decade partition $\rho^*/10 \approx 32.9\%$ marks the structural threshold while $(10-\rho^*)/10 \approx 67.1\%$ remains as capacity. Similar partitions appear in [the genetic code](/complex-adaptable-systems-complexity-ladders-and-agency) (21 minimum codons = 32.81%, 43 redundant = 67.19%) and [cosmological constants](/the-anthropic-thermodynamic-principle) (matter 31.5%, dark energy 68.5%). These are signatures of triadic competition under constraint projection, not universal fixed splits—the organizing principle is which sector saturates first, not numerical equality.
 
 Human organizations are physical systems operating under thermodynamic constraints. The same principles explaining [computational speed limits](/the-thermodynamic-computational-speed-limit) in black holes provide frameworks for understanding organizational failure modes. This unity suggests information physics as more fundamental than previously recognized, though extensions to complex sociotechnical systems require careful attention to operational definitions and empirical validation.
 

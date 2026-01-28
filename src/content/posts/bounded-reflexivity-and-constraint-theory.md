@@ -2,10 +2,10 @@
 title: 'Bounded Reflexivity & Constraint Theory'
 description: "Reframes Soros-Keynes reflexivity through physical, informational, balance-sheet, and institutional constraints that set predictable breaking points for modern markets."
 pubDate: '2025-11-04'
-updatedDate: '2025-12-30'
-zenodoDepositionId: 18187644
-zenodoUrl: "https://zenodo.org/records/18187644"
-doi: "10.5281/zenodo.18187644"
+updatedDate: '2026-01-26'
+zenodoDepositionId: 18314754
+zenodoUrl: "https://zenodo.org/records/18314754"
+doi: "10.5281/zenodo.18314754"
 keywords:
   - "reflexivity"
   - "market dynamics"
@@ -31,7 +31,7 @@ zenodoDescription: |
 
 ## Abstract
 
-Reflexive markets are often treated as unpredictable because psychology and coordination appear chaotic. This paper shows that once you account for constraints shaping market behavior—liquidity depth, leverage limits, coordination bandwidth, institutional rules, and network structure—reflexivity becomes analyzable. I propose a field model where markets move along gradients in constraint and information fields, revealing when systems amplify behavior and when they snap back. This constraint geometry explains why bubbles grow slowly, collapses happen suddenly, and crises across decades share underlying patterns. The contribution is a unified framework transforming reflexive uncertainty into measurable structure.
+Reflexive markets are often treated as unpredictable because psychology and coordination appear chaotic. This paper shows that once you account for constraints shaping market behavior—liquidity depth, leverage limits, coordination bandwidth, institutional rules, and network structure—reflexivity becomes analyzable. I propose a field model where markets move along gradients in constraint and information fields, revealing when systems amplify behavior and when they snap back. This constraint geometry explains why bubbles grow slowly, collapses happen suddenly, and crises across decades share underlying patterns. The contribution is a constraint geometry transforming reflexive uncertainty into measurable structure.
 
 ## Introduction
 
@@ -261,7 +261,7 @@ This archetype appears anywhere high-coordination social groups collide with rig
 
 The important feature: the narrative swarm is not the system. The system is the settlement plumbing. Those who understood the true constraint topology (clearinghouses, market-makers) captured returns; those who didn't were trapped at local maxima.
 
-### The Unified Throughline
+### The Throughline
 
 Across all four cases, the progression is unmistakable. A binding constraint exists—jurisdictional, regulatory, audit, or mechanical. A small set of actors understands the real shape of that constraint. Coordination patterns form around that asymmetry, often reinforcing the imbalance until it collapses. Returns distribute according to constraint awareness, not intelligence or ideology.
 
