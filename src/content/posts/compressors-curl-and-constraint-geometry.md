@@ -1,6 +1,6 @@
 ---
 title: 'Compressors, Curl, & Constraint Geometry'
-description: "Axial compressors provide a physical instantiation of two geometric results: balanced amplification states cannot persist, and feasibility projections induce structural curl. The surge line is a finite-residence manifold; rotating stall is curl made visible."
+description: "Axial compressors instantiate constraint geometry: the surge line is a finite-residence manifold, rotating stall is curl made visible, and balanced states are crossed but never occupied."
 pubDate: '2026-01-25'
 zenodoDepositionId: 18395787
 zenodoUrl: "https://zenodo.org/records/18395787"
