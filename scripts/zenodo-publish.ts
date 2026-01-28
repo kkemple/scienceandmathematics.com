@@ -14,6 +14,7 @@
  *   --publish        Actually publish (otherwise creates/updates draft only)
  *   --update <id>    Update existing deposition instead of creating new
  *   --no-write       Don't auto-update the post frontmatter
+ *   --update-desc "description"  Custom description for the update date entry
  *
  * Examples:
  *   # View current Zenodo metadata:
@@ -121,6 +122,7 @@ function parseArgs() {
     info: false,
     updateId: null as number | null,
     autoWrite: true,
+    updateDesc: null as string | null,
   };
 
   for (let i = 0; i < args.length; i++) {
@@ -135,6 +137,8 @@ function parseArgs() {
       options.updateId = parseInt(args[++i], 10);
     } else if (arg === "--no-write") {
       options.autoWrite = false;
+    } else if (arg === "--update-desc" && args[i + 1]) {
+      options.updateDesc = args[++i];
     } else if (!arg.startsWith("--")) {
       options.postSlug = arg;
     }
@@ -694,7 +698,8 @@ ${content}
 // Build Zenodo metadata from post frontmatter
 function buildZenodoMetadata(
   post: PostFrontmatter,
-  slug: string
+  slug: string,
+  updateDesc?: string | null
 ): object {
   // Format author name as "Last, First" for Zenodo
   const formatAuthorName = (name: string): string => {
@@ -738,7 +743,7 @@ function buildZenodoMetadata(
       start: post.updatedDate,
       end: post.updatedDate,
       type: "Updated",
-      description: "Content updated",
+      description: updateDesc || "Content updated",
     });
   }
 
@@ -998,7 +1003,7 @@ async function main() {
     await client.uploadFile(deposition.links.bucket, pdfBuffer, pdfFileName);
 
     // Update metadata
-    const metadata = buildZenodoMetadata(frontmatter, options.postSlug);
+    const metadata = buildZenodoMetadata(frontmatter, options.postSlug, options.updateDesc);
     await client.updateMetadata(deposition.id, metadata);
 
     // Publish if requested
