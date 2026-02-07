@@ -1,187 +1,154 @@
 ---
 title: 'Type Ia Supernova Information-Theoretic Energetics'
-description: "Computes Type Ia supernova output by counting bits reorganized as white dwarfs cross the Chandrasekhar limit, tying explosion energetics to phase-space information budgets."
+description: "A thermodynamic lower bound on Type Ia supernova energetics from Landauer's principle applied to phase-space reorganization at the Chandrasekhar limit. Four inputs yield E ≳ 10⁴⁴ J."
 pubDate: '2025-09-29'
-zenodoDepositionId: 17980315
-zenodoUrl: "https://zenodo.org/records/17980315"
-doi: "10.5281/zenodo.17980315"
+updatedDate: '2026-01-28'
+zenodoDepositionId: 18511947
+zenodoUrl: "https://zenodo.org/records/18511947"
+doi: "10.5281/zenodo.18511947"
 keywords:
   - "Type Ia supernova"
   - "Chandrasekhar limit"
   - "white dwarf"
-  - "electron degeneracy"
   - "Landauer principle"
   - "phase space"
   - "information theory"
   - "stellar astrophysics"
-  - "neutron star"
-  - "thermodynamics"
+  - "thermodynamic bound"
+  - "constraint geometry"
 zenodoDescription: |
-  This paper presents an information-theoretic calculation of Type Ia supernova energetics by counting the phase space reorganization during the transition from electron to neutron degeneracy at the Chandrasekhar limit.
+  A compact, order-of-magnitude constraint on Type Ia supernova kinetic energy based on information/entropy accounting. Using a minimal proxy for the amount of coarse-grained state-space reorganization available to Chandrasekhar-mass degenerate matter, we estimate an information scale ΔN_b ≃ N log₂ χ ~ 4.6 × 10⁵⁸ bits for N ≃ M_Ch/m_p and a fiducial density contrast χ ≡ V_WD/V_nuc ~ 10⁸. Applying Landauer's bound, E ≳ k_B T ln 2 per bit, gives a dissipation scale E ≳ 10⁴⁴ J for characteristic explosion temperatures T ~ 10⁹ K.
 
-  The calculation proceeds from standard physics: at the Chandrasekhar mass (1.4 M☉), white dwarfs contain ~1.7 × 10⁵⁷ particles occupying electron-degenerate phase space in volume ~(5000 km)³. Collapse to neutron star densities compresses this to ~(10 km)³. The volume ratio yields an information reorganization ΔN_b ≈ 4.5 × 10⁵⁸ bits.
+  This is a bound-style thermodynamic estimate. It does not assert that SNe Ia reach neutron-star densities; the compression proxy χ (with R_nuc ~ 10 km as one illustrative normalization) parameterizes a large state-space contrast. The estimate is not in tension with thermonuclear burning models, which yield similar energies through different accounting. A minimal phenomenology E ~ f ΔN_b k_B T ln 2 with f ∈ (0,1] representing the realized fraction of available reorganization provides a natural framework for Type Ia luminosity diversity.
 
-  Applying Landauer's principle (E = k_B T ln 2 per bit) at observed shock temperatures T_s ~ 10⁹ K gives total reorganization energy E ≈ 4.3 × 10⁴⁴ J—matching the observed Type Ia energy scale to within an order of magnitude.
+  The calculation requires four inputs:
 
-  This approach complements rather than replaces standard nuclear burning models, which yield similar energies through different accounting (carbon fusion releasing ~0.6 MeV per nucleon across 10⁵⁷ nucleons). The correspondence suggests phase space geometry may constrain explosion energetics independent of detailed burning mechanisms.
-
-  The framework offers perspective on Type Ia diversity: variations in peak luminosity may reflect what fraction of available phase space actually reorganizes during explosion. The calculation requires only four inputs—Chandrasekhar mass, white dwarf radius, neutron star radius, and shock temperature—using straightforward thermodynamics and state counting.
+  1. Chandrasekhar mass
+  2. White dwarf radius
+  3. A density-contrast proxy
+  4. A characteristic temperature
 ---
 
-Did you know you can predict a stellar explosion's energy by counting bits of information that reorganize during this catastrophic phase transition? Type Ia supernovae release approximately $10^{44}$ J with consistency that makes them cosmological standard candles. Standard astrophysical models invoke carbon detonation cascades through white dwarf cores. An alternative mathematical framework counts phase space reorganization from electron to neutron degeneracy—thermodynamics and geometry.
+Type Ia supernovae release characteristic kinetic energies of order $10^{44}$ J with sufficient consistency to serve as cosmological standard candles[^1]. In standard models, the energy budget is supplied by thermonuclear burning of C/O material in a white dwarf approaching the Chandrasekhar mass[^2]. A simple information-theoretic estimate — applying Landauer's bound to the state-space reorganization available to Chandrasekhar-mass degenerate matter — independently recovers the same energy scale. The estimate is a thermodynamic budget, a lower bound on irreversible dissipation associated with a large compression/state-space contrast. It makes no claim about explosion mechanism and is not in tension with thermonuclear models.
 
-## The Chandrasekhar Boundary
+## Scales and Particle Number
 
-White dwarfs maintain structure through electron degeneracy pressure[^1]—quantum mechanical resistance arising from Pauli exclusion when electrons pack tightly enough that their wavefunctions overlap. For a white dwarf of mass $M$ and radius $R$, the gravitational compression scales with the Schwarzschild radius $r_s = 2GM/c^2$.
-
-At the Chandrasekhar limit $M_{Ch} = 1.4 M_{\odot}$[^2], white dwarfs reach $R/r_s \approx 10^3$. The ratio of Schwarzschild radius to actual radius provides a dimensionless measure of gravitational stress. For a 1.4 $M_{\odot}$ white dwarf with $R \approx 5000$ km,
+The Chandrasekhar mass is[^3],
 
 $$
-\frac{r_s}{R} = \frac{4.15 \text{ km}}{5000 \text{ km}} = 8.3 \times 10^{-4}.
+M_{\text{Ch}} \simeq 1.4 \, M_{\odot}.
 $$
 
-This boundary coincides with electron relativistic effects becoming important. The Fermi momentum approaches $p_F \sim m_e c$, at which point degeneracy pressure no longer scales steeply enough with density to resist further compression.
-
-The electron number density at this limit is,
+A baryon count sufficient for order-of-magnitude energetics is,
 
 $$
-n_e = \frac{\rho}{m_p} \frac{Z}{A} \approx \frac{10^9 \text{ kg/m}^3}{2 \times 1.67 \times 10^{-27} \text{ kg}} = 3 \times 10^{35} \text{ m}^{-3},
+N \simeq \frac{M_{\text{Ch}}}{m_p} \simeq \frac{1.4 \times 1.989 \times 10^{30} \text{ kg}}{1.67 \times 10^{-27} \text{ kg}} \simeq 1.7 \times 10^{57}.
 $$
 
-where we used $Z/A \approx 0.5$ for carbon-oxygen composition. The corresponding Fermi wavelength,
+The coarse-grained compression/state-space contrast is parameterized by a single density-volume ratio,
 
 $$
-\lambda_F = \frac{2\pi}{k_F} = \frac{2\pi}{(3\pi^2 n_e)^{1/3}} = 1.2 \times 10^{-11} \text{ m},
+\chi \equiv \frac{V_{\text{WD}}}{V_{\text{nuc}}}.
 $$
 
-yields quantum overlap parameter $n_e \lambda_F^3 = 0.52$, approaching the critical threshold where quantum statistics dominate completely.
-
-## Information Content of Degenerate States
-
-Consider the phase space volume accessible to a degenerate system. For $N$ particles in volume $V$ with momentum states up to Fermi momentum $p_F$, the phase space volume scales as,
+As one illustrative normalization, taking characteristic length scales $R_{\text{WD}} \sim 5 \times 10^3$ km and $R_{\text{nuc}} \sim 10$ km,
 
 $$
-\Omega \sim \left(\frac{V p_F^3}{h^3}\right)^N.
+\chi \sim \left(\frac{R_{\text{WD}}}{R_{\text{nuc}}}\right)^3 \sim \left(\frac{5000}{10}\right)^3 \simeq 1.25 \times 10^8.
 $$
 
-The information content—number of bits required to specify the microstate—follows from Boltzmann's entropy,
+The quantity $R_{\text{nuc}} \sim 10$ km serves as a fiducial normalization for $\chi$. Normal Type Ia supernovae are thermonuclear disruptions and do not approach neutron-star densities; $\chi$ should be read as a parameter encoding a large state-space contrast, not as a claim about the remnant.
+
+## Information Reorganization
+
+The information content of a degenerate system follows from a coarse-grained count of accessible phase-space cells. For $N$ fermions with characteristic momentum cutoff $p_F$ in volume $V$, the phase-space volume scales as[^4],
 
 $$
-N_b = \frac{S}{k_B \ln 2} = \frac{k_B \ln \Omega}{k_B \ln 2} = \frac{\ln \Omega}{\ln 2}.
+\Omega \sim \left(\frac{V p_F^3}{h^3}\right)^N,
 $$
 
-For the white dwarf, electrons occupy momentum states up to $p_e \sim m_e c$ in volume $V_{WD} \sim (5000 \text{ km})^3$. For the neutron star, neutrons occupy states up to $p_n \sim m_n c$ in volume $V_{NS} \sim (10 \text{ km})^3$. The number of particles is approximately,
+so the information content in bits is $N_b \equiv \log_2 \Omega$. The difference between two coarse-grained macrostates is,
 
 $$
-N_p = \frac{M_{Ch}}{m_p} = \frac{1.4 \times 2 \times 10^{30} \text{ kg}}{1.67 \times 10^{-27} \text{ kg}} \approx 1.7 \times 10^{57}.
+\Delta N_b \simeq N \log_2\!\left(\frac{V_1}{V_2}\right) + 3N \log_2\!\left(\frac{p_{F,1}}{p_{F,2}}\right).
 $$
 
-The information difference between states is,
+For a letter-length, order-of-magnitude estimate we retain only the configuration-space contribution and treat the momentum-space correction as an $\mathcal{O}(1)$ factor,
 
 $$
-\Delta N_b = N_p \log_2\left(\frac{\Omega_{WD}}{\Omega_{NS}}\right) = N_p \log_2\left(\frac{V_{WD}}{V_{NS}}\right).
+\Delta N_b \simeq N \log_2 \chi.
 $$
 
-The volume ratio is,
+Using $\chi \simeq 1.25 \times 10^8$ and $N \simeq 1.7 \times 10^{57}$,
 
 $$
-\frac{V_{WD}}{V_{NS}} = \left(\frac{5000}{10}\right)^3 = 1.25 \times 10^8.
+\Delta N_b \simeq (1.7 \times 10^{57}) \log_2(1.25 \times 10^8) \simeq (1.7 \times 10^{57})(26.9) \simeq 4.6 \times 10^{58} \text{ bits}.
 $$
 
-Therefore,
+The dependence on the density contrast is weak: $\Delta N_b \propto \log_2 \chi$, so even an order-of-magnitude change in $\chi$ shifts $\Delta N_b$ by only $N \log_2 10 \approx 3.3 N$.
+
+## Energetics via Landauer's Bound
+
+Landauer's principle gives a minimum dissipation of $\epsilon(T) = k_B T \ln 2$ per bit at temperature $T$[^5]. Associating the reorganization $\Delta N_b$ with characteristic temperatures $T \sim 10^9$ K during the explosion/shock phase[^6][^7],
 
 $$
-\Delta N_b = 1.7 \times 10^{57} \times \log_2(1.25 \times 10^8) = 1.7 \times 10^{57} \times 26.6 \approx 4.5 \times 10^{58} \text{ bits}.
+E \gtrsim \Delta N_b \, k_B T \ln 2,
 $$
 
-This represents the information reorganization during the transition from electron to neutron degeneracy.
-
-## The Energy Calculation
-
-[Landauer's principle](/the-thermodynamic-computational-speed-limit) establishes that erasing or reorganizing information costs energy $E = k_B T \ln 2$ per bit at temperature $T$[^3]. For the phase transition occurring at shock temperature $T_s$, the total energy associated with information reorganization is,
-
 $$
-E = \Delta N_b k_B T_s \ln 2.
+\simeq (4.6 \times 10^{58})(1.38 \times 10^{-23} \text{ J K}^{-1})(10^9 \text{ K})(0.693),
 $$
 
-Observations of supernova shock breakout give characteristic shock temperatures $T_s \sim 10^9$ K during the explosion[^4]. Substitute the calculated information reorganization of $\Delta N_b = 4.5 \times 10^{58}$ bits along with Boltzmann's constant $k_B = 1.38 \times 10^{-23}$ J/K and $\ln 2 = 0.693$,
-
 $$
-E = 4.5 \times 10^{58} \times 1.38 \times 10^{-23} \times 10^9 \times 0.693.
+\simeq 4.4 \times 10^{44} \text{ J}.
 $$
 
-Evaluate the product step by step. First, combine the constants,
+Written to show parameter dependence,
 
 $$
-k_B T_s \ln 2 = (1.38 \times 10^{-23}) \times 10^9 \times 0.693 = 9.56 \times 10^{-15} \text{ J/bit}.
+E \gtrsim 4.4 \times 10^{44} \text{ J} \left(\frac{\Delta N_b}{4.6 \times 10^{58}}\right)\left(\frac{T}{10^9 \text{ K}}\right).
 $$
 
-Multiply by the number of bits,
+The bound depends only logarithmically on the compression proxy $\chi$ but linearly on $T$. For $N \simeq 1.7 \times 10^{57}$ and $\chi \sim 10^7$–$10^9$ (corresponding to $\log_2 \chi \simeq 23$–$30$), and $T \sim 3 \times 10^8$–$3 \times 10^9$ K, the resulting lower bound spans roughly an order of magnitude around $10^{44}$ J. That this bound lands near the observed SN Ia kinetic energy for plausible $(\chi, T)$ is the main observation.
+
+In practice, $T$ should be interpreted as an effective temperature of the degrees of freedom acting as the heat bath for the irreversible dissipation in Landauer's bound — a parameter to be constrained by explosion conditions.
+
+## Relation to Thermonuclear Burning
+
+Thermonuclear burning provides a natural energy source: increasing the binding energy per nucleon by $\sim 0.6$ MeV across $\sim 10^{57}$ nucleons yields,
 
 $$
-E = 4.5 \times 10^{58} \times 9.56 \times 10^{-15} = 4.3 \times 10^{44} \text{ J}.
+E_{\text{nuc}} \sim (10^{57})(0.6 \text{ MeV})(1.602 \times 10^{-13} \text{ J MeV}^{-1}) \sim 10^{44} \text{ J}.
 $$
 
-This matches the observed Type Ia supernova energy scale of $\sim 10^{44}$ J[^5]. The framework requires four inputs: Chandrasekhar mass (1.4 $M_\odot$), white dwarf radius (5000 km), neutron star radius (10 km), and observed shock temperature (10^9 K).
+The information-theoretic estimate is not in tension with this; it reframes the energy scale in terms of a coarse-grained reorganization budget set by the accessible-state geometry. A minimal phenomenology is $E \sim f \, \Delta N_b \, k_B T \ln 2$ with $f \in (0, 1]$ representing the realized fraction of the available reorganization. Variation in $f$ across different explosion channels — deflagration, detonation, delayed detonation — provides a natural framework for Type Ia luminosity diversity.
 
-## Physical Mechanism
+## Connection to Constraint Geometry
 
-The calculation suggests that explosion energy corresponds to thermodynamic cost of reorganizing phase space information during the transition between degenerate states. This interpretation complements rather than replaces nuclear burning models.
+The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) develops the broader framework in which this calculation sits. As white dwarfs accrete toward $M_{\text{Ch}}$, the dissipation field $\eta$ increases and the complexity multiplier $(1-\eta)^{-\rho^*}$ diverges. The white dwarf cooling anomaly at $R/R_S = 10^3$ observed across 18,937 objects ($p = 0.0015$) marks the structural saturation threshold where this divergence begins. The Landauer bit-counting performed here quantifies the energy cost of the discontinuous organizational jump forced by information bankruptcy — the transition from electron degeneracy ($\eta \sim 0.5$) to neutron degeneracy ($\eta \sim 0.3$), with complexity dropping by a factor of $\sim 200$.
 
-Standard models emphasize carbon fusion releasing binding energy,
+The four observational inputs — Chandrasekhar mass, white dwarf radius, compression proxy, and shock temperature — enter the Landauer calculation. No parameters from the constraint geometry appear in the energy estimate itself. The constraint geometry's role is to predict *when* the transition occurs (at the $(1-\eta)^{-\rho^*}$ divergence) and *why* (information bankruptcy under triadic tension).
 
-$$
-^{12}\text{C} + ^{12}\text{C} \to ^{24}\text{Mg} + \gamma,
-$$
+## Discussion
 
-with binding energy per nucleon increasing from 7.7 MeV to 8.3 MeV, releasing approximately 0.6 MeV per nucleon. For $10^{57}$ nucleons,
+The bound is most transparently written as,
 
 $$
-E_{\text{fusion}} \sim 10^{57} \times 0.6 \text{ MeV} \times 1.6 \times 10^{-13} \text{ J/MeV} \approx 10^{44} \text{ J}.
+E \gtrsim N \, k_B T \ln 2 \, \log_2 \chi \simeq \Delta N_b \, k_B T \ln 2,
 $$
 
-The information framework gives similar order of magnitude through different accounting. Nuclear fusion provides the energy source. Phase space reorganization determines how that energy distributes during the collapse and explosion. Both perspectives describe the same event through different mathematical structures.
+which makes clear that the estimate depends only logarithmically on the compression proxy $\chi$ but linearly on $T$. With four inputs ($M_{\text{Ch}}$, $R_{\text{WD}}$, a density-contrast proxy such as $R_{\text{nuc}}$ or $\chi$, and a characteristic $T$), a simple state-counting model combined with Landauer's bound provides a compact constraint on the SN Ia energy scale. Whether (and in what sense) the explosion dynamics approaches this bound requires a microphysical identification of the relevant dissipative degrees of freedom, which is beyond the scope of this estimate.
 
-The electron capture process $e^- + p \to n + \nu_e$ during collapse releases neutrinos carrying away binding energy. Each capture reduces the electron degeneracy contribution while converting protons to neutrons. The neutrino energy loss is approximately,
+[^1]: Maoz, D., Mannucci, F., & Nelemans, G. (2014). Observational Clues to the Progenitors of Type Ia Supernovae. *Annual Review of Astronomy and Astrophysics*, 52, 107-170.
 
-$$
-E_\nu \sim N_c (m_n - m_p - m_e)c^2 \sim 10^{57} \times 0.78 \text{ MeV} \approx 1.2 \times 10^{44} \text{ J},
-$$
+[^2]: Hillebrandt, W., & Niemeyer, J. C. (2000). Type Ia Supernova Explosion Models. *Annual Review of Astronomy and Astrophysics*, 38, 191-230.
 
-where $N_c$ is the number of electron captures.
+[^3]: Chandrasekhar, S. (1931). The Maximum Mass of Ideal White Dwarfs. *Astrophysical Journal*, 74, 81-82.
 
-This neutrino energy represents information leaving the system—bits that were maintaining electron degeneracy now carry away as unrecoverable neutrino phase space.
+[^4]: Pathria, R. K., & Beale, P. D. (2011). *Statistical Mechanics* (3rd ed.). Academic Press.
 
-## Comparison with Detonation Models
+[^5]: Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183-191.
 
-Type Ia supernovae exhibit observational diversity requiring multiple explosion mechanisms. The information calculation provides a thermodynamic upper bound on energy available from reorganization, independent of specific ignition and burning patterns.
+[^6]: Nomoto, K., Thielemann, F.-K., & Yokoi, K. (1984). Accreting White Dwarf Models of Type I Supernovae. *Astrophysical Journal*, 286, 644-658.
 
-Deflagration models invoke subsonic burning fronts propagating through the white dwarf. These produce asymmetric explosions with lower peak luminosity, matching subluminous Type Iax events. The information framework suggests incomplete phase space reorganization—only partial transition from electron to neutron degeneracy before disruption.
-
-Detonation models involve supersonic shocks that completely unbind the white dwarf. These match normal Type Ia luminosities. Complete phase space reorganization releases the full $\Delta N_b$ calculated above.
-
-Delayed detonation combines both: deflagration transitions to detonation after sufficient expansion. The observed diversity in peak luminosity correlates with how much mass undergoes complete versus partial reorganization.
-
-The information perspective suggests that variation in Type Ia brightness reflects variation in what fraction of available phase space actually reorganizes during the explosion, rather than just variation in nuclear fuel composition or ignition location.
-
-## Implications
-
-The calculation demonstrates that thermodynamic cost of phase space reorganization yields explosion energy matching observations to within an order of magnitude. This correspondence suggests [information-theoretic accounting](/information-field-theory-from-constraint-to-cosmos) may capture essential aspects of stellar collapse energetics. The [constraint eigenvalue framework](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) develops this calculation further, connecting it to the basin of attraction threshold at $R/R_S = 10^3$ where the complexity multiplier $(1-\eta)^{-\rho^*}$ begins diverging toward information bankruptcy.
-
-The framework makes no physical claims about mechanism—it simply counts accessible states before and after transition, multiplies by temperature, and obtains energy. That this matches observed supernova energies indicates phase space geometry constrains explosion energetics independent of detailed nuclear burning models.
-
-Three numbers determine the result: Chandrasekhar mass ($1.4 M_{\odot}$), white dwarf radius (5000 km), neutron star radius (10 km). The transition temperature uses observed shock temperatures. The mathematics is straightforward thermodynamics and counting.
-
-Whether this represents the "true" mechanism or simply a different mathematical perspective on established physics remains open. The correspondence is suggestive. The framework provides an alternative calculational approach that may offer insights into Type Ia diversity and the role of degeneracy pressure in setting explosion energetics.
-
-This thermodynamic interpretation suggests practical applications in engineered systems. See [Quantum Fusion Engines & Informational Power](/quantum-fusion-engines-and-informational-power) for how these principles can be exploited in controlled fusion reactors operating within the same informational thermodynamics framework.
-
-[^1]: Pathria, R. K., & Beale, P. D. (2011). *Statistical Mechanics* (3rd ed.). Academic Press.
-
-[^2]: Chandrasekhar, S. (1931). The Maximum Mass of Ideal White Dwarfs. *Astrophysical Journal*, 74, 81-82.
-
-[^3]: Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183-191.
-
-[^4]: Nomoto, K., Thielemann, F.-K., & Yokoi, K. (1984). Accreting White Dwarf Models of Type I Supernovae. *Astrophysical Journal*, 286, 644-658.
-
-[^5]: Hillebrandt, W., & Niemeyer, J. C. (2000). Type Ia Supernova Explosion Models. *Annual Review of Astronomy and Astrophysics*, 38(1), 191-230.
+[^7]: Seitenzahl, I. R., Ciaraldi-Schoolmann, F., Röpke, F. K., Ruiter, A. J., Pakmor, R., Sim, S. A., Kromer, M., Ohlmann, S. T., Taubenberger, S., Springel, V., & Hillebrandt, W. (2013). Three-dimensional delayed-detonation models with nucleosynthesis for Type Ia supernovae. *Monthly Notices of the Royal Astronomical Society*, 429, 1156-1172.

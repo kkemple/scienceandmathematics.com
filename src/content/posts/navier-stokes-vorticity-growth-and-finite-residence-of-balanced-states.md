@@ -1,11 +1,11 @@
 ---
 title: 'Navier–Stokes, Vorticity Growth, & the Finite Residence of Balanced States'
-description: "Can Navier–Stokes solutions develop singularities in finite time? Analysis shows regions where stretching and recursion are balanced are crossed but never occupied—balance is transient, not persistent."
+description: "DNS at Re_λ ≈ 430 shows states balancing vortex stretching and multiscale recursion persist only 1–2 timesteps. Balance is crossed but not occupied — constraining plausible finite-time blow-up mechanisms."
 pubDate: '2026-01-17'
-updatedDate: '2026-01-26'
-zenodoDepositionId: 18395779
-zenodoUrl: "https://zenodo.org/records/18395779"
-doi: "10.5281/zenodo.18395779"
+updatedDate: '2026-01-28'
+zenodoDepositionId: 18511941
+zenodoUrl: "https://zenodo.org/records/18511941"
+doi: "10.5281/zenodo.18511941"
 keywords:
   - "Navier-Stokes"
   - "vorticity"
@@ -50,39 +50,19 @@ Many proposed near-singular scenarios implicitly rely on a delicate balance: str
 
 ## Local Balance as a Dynamical State
 
-To probe this directly, consider a localized region $\Omega$ inside the flow, chosen to surround a high-vorticity event. Two dimensionless quantities can be defined using standard Navier–Stokes objects.
+To probe this directly, consider a localized region $\Omega$ inside the flow, chosen to surround a high-vorticity event. Two dimensionless quantities characterize local dynamics using standard Navier–Stokes objects.
 
-1. **Stretching–dissipation ratio**
+1. **Stretching–dissipation ratio.**
 
 $$
 R_\Omega(t) = \frac{P_\Omega^+(t)}{P_\Omega^+(t) + D_\Omega(t)},
 $$
 
-where
+where $P_\Omega^+(t) = \int_\Omega \max(\omega\cdot S\omega, 0)\,dx$ is the positive vortex stretching production and $D_\Omega(t) = \nu \int_\Omega |\nabla\omega|^2\,dx$ is the enstrophy dissipation, with $S$ the symmetric strain tensor[^3]. Values near $R_\Omega \approx 1$ indicate stretching-dominated dynamics; values near zero indicate dissipation-dominated dynamics.
 
-$$
-P_\Omega^+(t) = \int_\Omega \max(\omega\cdot S\omega, 0)\,dx,\qquad D_\Omega(t) = \nu \int_\Omega |\nabla\omega|^2\,dx.
-$$
+2. **Recursion coherence.** $L_\Omega(t) \in [0,1]$, defined from the stability of local second-order structure-function scaling across a small range of separations[^4]. High $L_\Omega$ indicates coherent multiscale recursion — the local cascade is feeding energy across scales in a stable, self-similar manner. Low $L_\Omega$ indicates breakdown of that cascade structure.
 
-Here $S$ is the symmetric strain tensor[^3]. $R_\Omega \approx 1$ indicates stretching-dominated dynamics; $R_\Omega \approx 0$ indicates dissipation-dominated dynamics.
-
-2. **Local recursion / cascade coherence**
-
-$$
-L_\Omega(t) \in [0,1],
-$$
-
-defined from the stability of local second-order structure-function scaling across a small range of separations[^4]. High $L_\Omega$ indicates coherent multiscale recursion; low $L_\Omega$ indicates breakdown of local cascade structure.
-
-A balanced state is one in which these two quantities are comparable,
-
-$$
-|R_\Omega(t) - L_\Omega(t)| \le \varepsilon,
-$$
-
-for some tolerance $\varepsilon$.
-
-Intuitively, such states correspond to regions where stretching and scale-feeding are locally matched—precisely the configuration often imagined as dangerous for regularity. Balanced configurations would require a coercive functional trapping trajectories near $R_\Omega \approx L_\Omega$. The observed short residence times indicate no such coercivity exists; the balanced region is transversely unstable rather than locally attractive. Many near-singular heuristics implicitly assume that stretching and scale-feeding can remain locally matched, allowing amplification to persist without immediate dissipation or decoherence.
+A balanced state is one in which these two quantities are comparable, $|R_\Omega(t) - L_\Omega(t)| \le \varepsilon$, for some tolerance $\varepsilon$. Such states correspond to regions where stretching and scale-feeding are locally matched — precisely the configuration often imagined as dangerous for regularity. Many near-singular heuristics implicitly assume that stretching and scale-feeding can remain locally matched, allowing amplification to persist without immediate dissipation or decoherence. Sustained balance would require a coercive functional trapping trajectories near $R_\Omega \approx L_\Omega$. The observed short residence times indicate no such coercivity exists; the balanced region is transversely unstable rather than locally attractive.
 
 ## Empirical Observation: Balance Is Transient
 
@@ -118,81 +98,41 @@ This does not rule out blow-up. It narrows the space of viable mechanisms.
 
 ## Connection to the Geometry of Self-Correction
 
-The structure observed here connects to a broader geometric principle. In [The Geometry of Self-Correction](/the-geometry-of-self-correction), we showed that systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. Curl measures the obstruction to scalar descent—the inability of a vector field to derive from any consistent potential function.
+The structure observed here connects to a broader geometric principle. The [constraint geometry monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) establishes that three curvature sectors — angular, recursive, and discrete — are anticorrelated under triadic tension (Section 3, T2): tightening any one sector forces the others to carry more curvature. A direct consequence, developed in Section 9 of that monograph and formalized in [The Geometry of Self-Correction](/the-geometry-of-self-correction), is that balanced states are transversely unstable. When constraints are state-dependent — when admissible correction directions depend on where the system currently sits — projection of a gradient proposal onto the feasible set generically introduces irreducible curl into the effective dynamics. Systems with curl-free correction fields exhibit pure convergence; systems with nonzero curl cycle indefinitely. The cycling is structural rather than parametric, with its floor set by the Hodge spectral gap of the constraint manifold.
 
-In Navier–Stokes, the nonlinear term $(\omega\cdot\nabla)u$ is a self-projection of the flow onto its own strain geometry, while viscosity acts as a smoothing projection. The empirical result is consistent with a geometric hypothesis: the Navier–Stokes nonlinearity induces transient curl, but viscosity prevents curl-supporting configurations from remaining integrable across scales.
+In Navier–Stokes, the nonlinear term $(\omega\cdot\nabla)u$ is a self-projection of the flow onto its own strain geometry, while viscosity acts as a smoothing projection. The empirical result is consistent with a geometric hypothesis: the Navier–Stokes nonlinearity induces transient curl, but viscosity prevents curl-supporting configurations from remaining integrable across scales. Stretching can spike, but the cascade geometry cannot remain integrable long enough to lock in a singularity — exactly the structure proved abstractly for projected gradient flows, where feasibility-induced curl creates cycling but cycling configurations are not energetically stationary.
 
-The observed behavior is consistent with balanced states acting as transversely unstable configurations rather than attractors. This is exactly the structure proved abstractly for projected gradient flows: feasibility-induced curl creates cycling, but cycling configurations are not energetically stationary. In Navier–Stokes terms, stretching can spike, but the cascade geometry cannot remain integrable long enough to lock in a singularity.
+Axial compressors provide a physical instantiation of the same structure — the surge line is a finite-residence manifold, and rotating stall is curl made visible in engineering hardware. See [Compressors, Curl, & Constraint Geometry](/compressors-curl-and-constraint-geometry) for the detailed mapping.
 
-The result represents a structural constraint on blow-up mechanisms: curl-supporting configurations cannot remain stationary. Axial compressors provide a physical instantiation of this structure—the surge line is a finite-residence manifold, and rotating stall is curl made visible in engineering hardware. See [Compressors, Curl, & Constraint Geometry](/compressors-curl-and-constraint-geometry) for the detailed mapping.
+## Implications for Blow-Up Scenarios
 
-## Connections to Specific Blow-Up Scenarios
+A large class of intuitively plausible blow-up mechanisms require a configuration that the finite-residence observation identifies as dynamically nonpersistent. The relevant question for each scenario is whether it requires sustained residence near local balance between stretching and recursive scale-feeding. Where it does, the finite-residence result constrains the mechanism. Where it does not, the result is silent.
 
-To clarify the scope of the finite-residence result, it is useful to enumerate how it relates to specific blow-up scenarios discussed in the Navier–Stokes literature. The result does not claim to rule out all blow-up mechanisms. It constrains mechanisms that rely on sustained local balance between stretching and recursive scale-feeding.
+The most prominent near-singular mechanism involves anti-parallel vortex tubes with strong mutual stretching, local self-similar amplification, and persistent geometric coherence across shrinking scales[^6]. The implicit structural assumption is that stretching remains strong and multiscale feeding remains coherent — neither immediately destroying the other. The event-localized cubes analyzed here are empirically the same objects: high vorticity, tube-like geometry, strong $(\omega \cdot S \omega)$, active local cascade. The finite-residence result shows that even when both stretching ($R$) and recursion ($L$) are simultaneously high, the system does not remain in a balanced regime where they are matched, with escape occurring via loss of recursion rather than collapse of stretching. Anti-parallel tube blow-up must therefore either avoid balance continuously or tolerate breakdown of cascade coherence while amplifying — a narrower corridor than usually acknowledged. The result does not rule out transient near-singular growth, extreme imbalance scenarios where stretching dominates without recursion, or finely tuned initial conditions engineered to stay off the balance manifold. It is a geometric narrowing, not a refutation of Kerr-type mechanisms[^6].
 
-### Framing Principle
+Self-similar blow-up represents the strongest point of contact with the finite-residence observation. Such scenarios assume scale invariance near the singularity, recursive feeding across scales, and stable local structure as scales shrink[^7] — requiring high $L_\Omega$ (stable recursion) and sustained matching between stretching and cascade. Self-similarity is precisely persistence of recursion, and the observation that $L_\Omega$ drops fastest near balance is a direct obstruction to sustained self-similarity in high-vorticity regions. This aligns with rigorous results that already rule out many self-similar blow-ups[^8] and with the repeated failure of numerical searches to find stable self-similar collapse, offering a mechanistic explanation rather than a scaling argument. Asymptotically self-similar behavior with oscillations or intermittent nonstationary similarity (log-periodic structures) could potentially evade finite-residence by never sitting near balance.
 
-The finite-residence result says: **a large class of intuitively plausible blow-up mechanisms require a configuration that appears dynamically nonpersistent.** The relevant question for each scenario is not "does this rule it out?" but rather: *does this scenario require sustained residence near local balance between stretching and recursive scale-feeding?*
+Intermittency-driven blow-up — rare, intense events with no long-lived coherent structure[^9] — is structurally distinct. The finite-residence result is consistent with intermittency: balanced states are transient and escape happens quickly. The additional constraint is that when balance is reached, recursion breaks first and the system does not amplify through that region. A blow-up mechanism driven by intermittency would need amplification without coherent recursion — effectively non-cascading growth, a nonstandard path that cannot resemble classical turbulence-cascade blow-up.
 
-If yes, the finite-residence result constrains it. If no, the result does not directly apply.
+Nonlocal-in-scale energy transfer scenarios, where triad interactions jump across scales and bypass local cascade coherence, start with low $L_\Omega$ by construction. The finite-residence result suggests that the only viable escape from balance is loss of recursion, so any blow-up corridor must live in the low-$L$ region. That is a useful constraint, though not exclusionary — exotic nonlocal constructions or carefully engineered flows where cascade locality never develops lie outside the current observational scope.
 
-### Anti-Parallel Vortex Tube Scenarios
+Boundary-driven or forced blow-up scenarios — external forcing, nonperiodic domains, sustained injection of structure — fall outside the scope of this analysis, which is periodic, event-localized, and unforced.
 
-**What the scenario assumes.** The most famous near-singular mechanism involves two intense, anti-parallel vortex tubes with strong mutual stretching, local self-similar amplification, and persistent coherence of geometry across shrinking scales[^6]. The implicit structural assumption is that stretching remains strong and multiscale feeding remains coherent—neither immediately destroys the other. This is exactly the "balanced danger" intuition.
+Taken together, the finite-residence result constrains all blow-up mechanisms that rely on sustained local balance between stretching and recursive scale-feeding, including classical anti-parallel vortex intuitions, self-similar collapse, and turbulence-cascade-based heuristics. It does not claim to constrain purely nonlocal, purely intermittent, boundary-driven, or highly artificial constructions. The result identifies a configuration widely assumed to be dangerous and shows it is not dynamically persistent.
 
-**Where the result connects.** The event-localized cubes analyzed in this work are empirically the same objects: high vorticity, tube-like geometry, strong $(\omega \cdot S \omega)$, and active local cascade. The finite-residence result says that even when both stretching $(R)$ and recursion $(L)$ are simultaneously high, the system does not remain in a balanced regime where they are matched. Escape occurs via loss of recursion (drop in $L$), not immediate collapse of stretching.
+## Attack Surface
 
-This is a mechanism-level constraint on anti-parallel tube blow-up: such scenarios must either avoid balance continuously or tolerate breakdown of cascade coherence while amplifying. That is a much narrower corridor than usually acknowledged.
+The finite-residence observation rests on empirical evidence and geometric reasoning, not on a closed proof. Several specific failure modes would undermine the result, and each is testable.
 
-**What it does not rule out.** The result does not rule out transient near-singular growth, very short-time intensification, or extreme imbalance scenarios (stretching dominating without recursion). It also does not address very finely tuned initial conditions engineered to stay off the balance manifold. This is not a refutation of Kerr-type mechanisms—it is a geometric narrowing.
+**Reynolds number dependence.** The DNS is at $Re_\lambda \approx 430$. If residence times near balance grow with Reynolds number — becoming extended rather than short at $Re_\lambda \sim 10^3$ or beyond — the finite-residence conjecture fails in the regime that matters most for blow-up. Higher-resolution simulations at significantly higher $Re_\lambda$ are the most direct test. The conjecture is falsifiable: sustained residence at higher Reynolds numbers would refute it.
 
-### Self-Similar / Locally Self-Similar Blow-Up
+**Definition sensitivity of $L_\Omega$.** The recursion coherence measure is defined operationally from stability of local second-order structure-function scaling. Alternative definitions — wavelet-based multiscale coherence, spectral flux locality measures, or Lyapunov-exponent-based cascade diagnostics — could produce different residence statistics. If the finite-residence pattern depends on the specific choice of $L_\Omega$ rather than being robust across reasonable definitions, the structural claim weakens to a measurement artifact.
 
-**What the scenario assumes.** Self-similar blow-up assumes scale invariance near the singularity, recursive feeding across scales, and stable local structure as scales shrink[^7]. This requires high $L_\Omega$ (stable recursion) and sustained matching between stretching and cascade.
+**Subdomain size.** The $16^3$ grid cubes are a methodological choice balancing gradient resolution against multiscale capture. Smaller cubes may lack sufficient scale range to meaningfully define $L_\Omega$; larger cubes may average over spatially distinct dynamics. If residence times change qualitatively with subdomain size, the result reflects the observation window rather than the physics.
 
-**Where the result connects.** This is the strongest point of contact. The finite-residence result directly says that balanced stretching–recursion states are not dynamically persistent. Self-similarity is precisely persistence of recursion. The observation that $L_\Omega$ drops fastest near balance is a direct obstruction to sustained self-similarity in high-vorticity regions.
+**Inductive gap.** The leap from "transient in DNS at one Reynolds number" to "structurally unstable" is inductive. The geometric connection to triadic tension and irreducible curl (via the monograph's Section 9) provides theoretical scaffolding for why balance should be generically unstable, but that scaffolding has not been turned into a deductive proof within Navier–Stokes. The result does not prove global regularity, does not establish bounds uniform in Reynolds number, and does not replace analytic criteria such as Beale–Kato–Majda[^10].
 
-This aligns with why rigorous results already rule out many self-similar blow-ups[^8] and why numerical searches repeatedly fail to find stable self-similar collapse. The finite-residence result gives a mechanistic explanation rather than a scaling argument.
-
-**What it does not rule out.** The result does not rule out asymptotically self-similar behavior with oscillations or intermittent, nonstationary similarity (log-periodic structures, etc.). Those could potentially evade finite-residence by never sitting near balance.
-
-### Intermittency-Driven Blow-Up
-
-**What the scenario assumes.** Some arguments suggest blow-up could occur through extremely rare, intermittent events with no long-lived coherent structure and no sustained balance—just a "spike."[^9] This is often invoked vaguely, but it is structurally distinct.
-
-**Where the result connects.** The finite-residence result already shows that balanced states are transient and that escape happens quickly. This is consistent with intermittency. However, the result also shows that when balance is hit, recursion breaks first, and the system does not amplify through that region.
-
-For intermittency-driven blow-up, the scenario would need amplification without coherent recursion—effectively non-cascading growth. That is a very nonstandard path.
-
-**What it does not rule out.** The work does not rule out extremely localized, non-recursive, non-self-similar growth or scenarios that never rely on balance at all. But it does imply such scenarios cannot look like classical turbulence-cascade blow-up.
-
-### Nonlocal-in-Scale Energy Transfer Scenarios
-
-**What the scenario assumes.** Some analyses suggest nonlocal triad interactions, energy jumps across scales, and bypassing local cascade coherence. This deliberately lowers $L_\Omega$.
-
-**Where the result connects.** The finite-residence conjecture says that balance is escaped by loss of recursion. Nonlocal scenarios start with low recursion. The result suggests this is the only viable escape route, if any—blow-up corridors must live in low-$L$ regions. That is a useful constraint, even if not exclusionary.
-
-**What it does not rule out.** The result does not rule out exotic nonlocal constructions or carefully engineered flows where cascade locality never develops. Those are outside the current observational scope.
-
-### Boundary-Driven or Forced Blow-Up Scenarios
-
-**What the scenario assumes.** External forcing, boundary effects, nonperiodic domains, and sustained injection of structure.
-
-**Where the result connects.** The analysis is periodic, event-localized, and unforced. Any direct claim here would be inappropriate.
-
-**What it deliberately does not touch.** The result correctly avoids boundary-induced singularities and forced turbulence regimes. That restraint is a strength, not a weakness.
-
-### Synthesis
-
-The finite-residence result constrains all blow-up mechanisms that rely on sustained local balance between stretching and recursive scale-feeding. This includes classical anti-parallel vortex intuitions, self-similar collapse, and many turbulence-cascade-based heuristics. It does not claim to constrain purely nonlocal, purely intermittent, boundary-driven, or highly artificial constructions. That is exactly the right epistemic footprint for an exploratory contribution.
-
-The result does not overreach by claiming to rule out any specific mechanism or prove regularity. Instead, it identifies a configuration that people assume is dangerous and shows it is not dynamically persistent. That is the kind of insight that quietly reshapes how future work is done.
-
-## What This Does Not Claim
-
-The boundaries of this analysis matter. The result does not prove global regularity, does not establish bounds uniform in Reynolds number, and does not replace analytic criteria such as Beale–Kato–Majda[^10]. The result is empirical and structural—it identifies a recurrent dynamical pattern in resolved Navier–Stokes data and frames it as a constraint hypothesis.
-
-Different flows, higher Reynolds numbers, or alternative definitions of $L_\Omega$ may modify the picture. The conjecture is testable and falsifiable—it fails if future DNS at higher Reynolds numbers exhibits sustained residence near balance.
+**Scope boundaries.** The analysis is periodic, event-localized, and unforced. Boundary-driven or externally forced flows fall outside its scope. Different flow geometries, compressibility effects, or non-Newtonian rheology could alter the balance dynamics.
 
 ## Conclusion
 

@@ -2,10 +2,10 @@
 title: "Simulation Horizons, Constraints, & the Emergence of Strategic Agency"
 description: "A phase boundary for when optimization becomes strategy: systems play games only when horizon and authority justify intervention over migration under thermodynamic and institutional constraints."
 pubDate: "2025-12-21"
-zenodoDepositionId: 18395780
-zenodoUrl: "https://zenodo.org/records/18395780"
-doi: "10.5281/zenodo.18395780"
-updatedDate: "2026-01-26"
+zenodoDepositionId: 18511943
+zenodoUrl: "https://zenodo.org/records/18511943"
+doi: "10.5281/zenodo.18511943"
+updatedDate: "2026-02-06"
 type: "analysis"
 keywords:
   - "agency"
@@ -86,7 +86,7 @@ $$
 
 Actual systems operate far above Landauer efficiency, but the bound remains a reference point: it reminds us that thinking is an energetic allocation problem, not a purely informational one. This is the thermodynamic thread running through [The Anthropic Thermodynamic Principle](/the-anthropic-thermodynamic-principle): agency lives in a narrow overhead window where complexity is sufficient yet slack remains.
 
-The practical abstraction separates maintenance from slack. Let total available power be $P$ and let $\eta \in (0,1)$ represent the fraction consumed by maintenance and overhead. Slack power is $(1-\eta)P$. Not all slack is usable for planning—a recurring structure/capacity split, roughly "structure" versus "degrees of freedom," describes what fraction of slack is actually available for choice rather than absorbed by keeping the system coherent.
+The practical abstraction separates maintenance from slack. Let total available power be $P$ and let $\eta \in (0,1)$ represent the fraction consumed by maintenance and overhead. Slack power is $(1-\eta)P$. This is the same structural role played by the dissipation field $\eta$ in [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), where $\eta$ measures the fraction of an energy budget devoted to curvature maintenance — the physics changes but the maintenance-versus-slack partition is identical. Not all slack is usable for planning — a recurring structure/capacity split, roughly "structure" versus "degrees of freedom," describes what fraction of slack is actually available for choice rather than absorbed by keeping the system coherent.
 
 Define an available choice power budget,
 

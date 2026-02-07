@@ -2,9 +2,10 @@
 title: 'The Minimal Basis of Coordination'
 description: "Any persistent distributed system must solve three irreducible problems: signal extraction, boundary stabilization, and overload management. These are independent, jointly sufficient, and minimal."
 pubDate: '2026-01-18'
-zenodoDepositionId: 18292496
-zenodoUrl: "https://zenodo.org/records/18292496"
-doi: "10.5281/zenodo.18292496"
+updatedDate: '2026-01-28'
+zenodoDepositionId: 18511946
+zenodoUrl: "https://zenodo.org/records/18511946"
+doi: "10.5281/zenodo.18511946"
 keywords:
   - "coordination"
   - "information theory"
@@ -56,11 +57,11 @@ These assumptions apply equally to neurons, organisms, teams, firms, markets, an
 
 From finiteness and information excess, raw input exceeds processing capacity. Compression is therefore mandatory. Some inputs must be discarded, filtered, or down-weighted for any state representation to exist.
 
-This follows directly from Shannon's channel capacity[^2] and [Landauer's principle](/the-thermodynamic-computational-speed-limit)[^3]: information processing has irreducible physical cost, and finite systems cannot preserve all distinctions. If signal extraction fails, the system cannot define state or act coherently. This problem is existence-critical.
+This follows directly from Shannon's channel capacity[^2] and [Landauer's principle](/hilberts-sixth-problem-and-the-cost-of-infinite-information)[^3]: information processing has irreducible physical cost, and finite systems cannot preserve all distinctions. If signal extraction fails, the system cannot define state or act coherently. This problem is existence-critical.
 
 ### Boundary Stabilization Through Repetition
 
-From time-extended coordination, if coordination must occur repeatedly, renegotiating roles, interfaces, and expectations at every interaction incurs superlinear cost. Coordination becomes intractable unless interaction patterns stabilize.
+From time-extended coordination, renegotiating roles, interfaces, and expectations at every interaction incurs superlinear cost. Coordination becomes intractable unless interaction patterns stabilize.
 
 Repeated operations must therefore harden into persistent interfaces—organizational roles, workflows, protocols, institutional rules[^4]. In biological systems this appears as synaptic reinforcement; in organizations as process and role clarity; in markets as standardized instruments and venues. This phenomenon is not cultural but thermodynamic: it is the amortization of coordination cost over time. If boundaries do not stabilize, coordination cost diverges. This problem is scaling-critical.
 
@@ -68,7 +69,7 @@ Repeated operations must therefore harden into persistent interfaces—organizat
 
 From finiteness, information excess, and nonstationarity, there exist regimes in which environmental change, novelty, or load exceeds the system's design capacity. In such regimes, signal extraction degrades and previously stabilized boundaries weaken or conflict.
 
-[Constraint-theoretic analysis](/the-geometry-of-self-correction) shows that under state-dependent feasibility constraints, effective dynamics generically lose integrability. Curl appears in the correction field; gradient descent no longer exists; cycling, imitation, and local synchronization dominate behavior. Empirically, this manifests as herding, panic, coordination cascades, or what might be called entropy swarming[^5]: behavior becomes more synchronized than it is understood. If such regimes are unmanaged, systems fail catastrophically rather than degrading gracefully. This problem is failure-critical.
+[Constraint-theoretic analysis](/the-geometry-of-self-correction) shows that under state-dependent feasibility constraints, effective dynamics generically lose integrability. Curl appears in the correction field; gradient descent no longer exists; cycling, imitation, and local synchronization dominate behavior. Empirically, this manifests as herding, panic, and coordination cascades — a pattern we call *entropy swarming*[^5]: behavior becomes more synchronized than it is understood. If such regimes are unmanaged, systems fail catastrophically rather than degrading gracefully. This problem is failure-critical.
 
 ## Independence and Completeness
 
@@ -84,13 +85,13 @@ Incentives modify signal salience or reinforce boundaries. Culture caches heuris
 
 None introduces a new independent axis. All are composites, regimes, or control policies operating within the same three-problem basis.
 
-## Relation to Constraint Geometry
+## Relation to the Broader Framework
 
-This minimality result aligns with several independent theoretical structures developed elsewhere on this site.
+The minimality result connects to several related formal structures developed elsewhere on this site, each addressing a different facet of constraint-driven dynamics.
 
-[Constraint geometry](/the-geometry-of-self-correction) explains why overload regimes generically produce cycling rather than convergence when feasibility projections are state-dependent. [Bounded reflexivity](/bounded-reflexivity-and-constraint-theory) formalizes how coordination can exceed interpretability, producing fragility. [Simulation horizon analysis](/simulation-horizons-constraints-and-the-emergence-of-strategic-agency) shows that strategic behavior exists only above a threshold of available slack; below it, systems revert to gradient-following consistent with entropy swarming.
+[The geometry of self-correction](/the-geometry-of-self-correction) establishes why overload regimes generically produce cycling rather than convergence when feasibility projections are state-dependent. [Bounded reflexivity](/bounded-reflexivity-and-constraint-theory) formalizes how coordination can exceed interpretability, producing fragility. [Simulation horizon analysis](/simulation-horizons-constraints-and-the-emergence-of-strategic-agency) shows that strategic behavior exists only above a threshold of available slack; below it, systems revert to gradient-following consistent with entropy swarming.
 
-The triad does not compete with these frameworks; it is the coordination-level projection of the same underlying constraints.
+The triad does not compete with these results; it is the coordination-level projection of the same underlying constraints. The technical appendix below makes the mapping explicit through the constraint–information field model developed in the bounded reflexivity treatment.
 
 ## The Result
 
@@ -222,7 +223,7 @@ $$
 \mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}|d(\delta\alpha)|_{L^2}^2 \geq \frac{1}{2}\Big(\lambda_1|\delta\alpha|_{L^2}^2 - |\delta(\delta\alpha)|_{L^2}^2\Big),
 $$
 
-where $\lambda_1 > 0$ is the first positive eigenvalue of the Hodge Laplacian on 1-forms. In particular, if there exists $\kappa > 0$ such that,
+where $\lambda_1 > 0$ is the first positive eigenvalue of the Hodge Laplacian on 1-forms[^6]. In particular, if there exists $\kappa > 0$ such that,
 
 $$
 |\delta(\delta\alpha)|_{L^2} \leq \sqrt{\lambda_1 - \kappa} \, |\delta\alpha|_{L^2},

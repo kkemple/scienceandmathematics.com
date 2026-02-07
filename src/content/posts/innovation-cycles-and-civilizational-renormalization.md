@@ -2,7 +2,7 @@
 title: 'Innovation Cycles and Civilizational Renormalization'
 description: "Civilizations build intervention stacks on natural mechanics until complexity outpaces surplus, forcing either breakthrough to new mechanics or simplification through collapse."
 pubDate: '2025-10-18'
-updatedDate: '2026-01-28'
+updatedDate: '2026-02-06'
 zenodoDepositionId: 18405981
 zenodoUrl: "https://zenodo.org/records/18405981"
 doi: "10.5281/zenodo.18405981"
@@ -110,26 +110,14 @@ Innovation cycles shorten as civilizational complexity increases. The agricultur
 
 The acceleration follows from starting each cycle at higher baseline complexity. Higher complexity means the intervention space fills faster. Each cycle approaches saturation sooner than the last.
 
-## Current Position
+## The Constraint
 
-The computing-to-AI transition exhibits characteristic saturation signatures. Information overload manifests through exponential data growth without corresponding comprehension increase—more information generated than collectively processable, creating filter bubbles, misinformation spread, and decision paralysis[^4]. Privacy collapse emerges through surveillance infrastructure exceeding governance capacity—the overhead of protecting privacy now exceeds benefit in many contexts. Attention economy breakdown manifests through declining productivity despite increased connectivity[^5].
+The pattern has a formal expression. In the [information-theoretic framework](/information-theoretic-constraints-on-sociotechnical-systems), the complexity multiplier $(1-\eta)^{-\rho^*}$ grows nonlinearly as the fraction of capacity devoted to maintenance overhead $\eta$ rises, with the critical exponent $\nu = 1/\rho^* \approx 0.304$ governing the rate of divergence near [organizational phase transitions](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). "Complexity outpaces surplus" is what this acceleration looks like from inside the system—coordination overhead consuming productive capacity until the intervention stack can no longer sustain itself.
 
-The AI alignment crisis reveals the saturation pattern clearly. As models scale, capabilities grow while controllability decreases. The gap between what systems can do and what we can reliably direct them to do widens rather than narrows. This divergence pattern indicates fundamental saturation rather than an engineering challenge—we're extracting the last gains from the current intervention space.
-
-Current position: entering the crisis phase with overhead approaching saturation. The question is whether a new intervention becomes viable before complexity outpaces surplus.
-
-## The Core Claim
-
-Civilizational instability is constraint-driven. Behavioral pathologies near saturation—myopia, fragmentation, conflict—are diagnostic signals, not causes. The question at any saturation point is whether a new intervention arrives before complexity outpaces surplus and the stack starts losing rungs.
-
-History doesn't repeat. It rhymes under constraint.
+Breakthrough resets $\eta$ by creating new surplus. Simplification resets $\eta$ by shedding complexity. Both paths restore the system to a regime where maintenance costs are sustainable. The difference is what gets preserved.
 
 [^1]: Cline, E. H. (2014). *1177 B.C.: The Year Civilization Collapsed*. Princeton University Press.
 
 [^2]: Ward-Perkins, B. (2005). *The Fall of Rome and the End of Civilization*. Oxford University Press.
 
 [^3]: Allen, R. C. (2009). *The British Industrial Revolution in Global Perspective*. Cambridge University Press.
-
-[^4]: Reinsel, D., Gantz, J., & Rydning, J. (2018). *The Digitization of the World: From Edge to Core*. IDC White Paper.
-
-[^5]: Mark, G., Iqbal, S. T., Czerwinski, M., Johns, P., & Sano, A. (2016). Neurotics can't focus: An in situ study of online multitasking in the workplace. *Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems*, 1739-1744.

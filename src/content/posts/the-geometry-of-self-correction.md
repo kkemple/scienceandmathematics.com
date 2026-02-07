@@ -1,11 +1,12 @@
 ---
 title: 'The Geometry of Self-Correction'
-description: "Systems that converge share mathematical structure with systems that cycle—except for one geometric property. The curl of the correction field determines whether feedback produces alignment or oscillation."
+description: "Converging and cycling systems differ by one geometric property: curl of the correction field. A Hodge-theoretic lower bound proves that cycling from state-dependent constraint projections is structural, not parametric."
 pubDate: '2026-01-09'
-updatedDate: '2026-01-26'
-zenodoDepositionId: 18314751
-zenodoUrl: "https://zenodo.org/records/18314751"
-doi: "10.5281/zenodo.18314751"
+updatedDate: '2026-01-28'
+draft: true
+zenodoDepositionId: 18511945
+zenodoUrl: "https://zenodo.org/records/18511945"
+doi: "10.5281/zenodo.18511945"
 zenodoDescription: |
   This paper develops a coordinate-free geometric framework for understanding when feedback systems converge versus cycle. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation.
 
@@ -17,9 +18,9 @@ zenodoDescription: |
 
   Divergence of the correction field provides a complementary diagnostic, measuring local compressive strength—where trajectories concentrate versus disperse. This translates to stability margins in control applications.
 
-  Applications span control systems (FADEC multi-loop engine control), AI alignment (reward hacking as curl emergence), and financial markets (reflexive dynamics introducing curl). The framework connects to constraint theory by showing that agents following constraint gradients reach equilibrium when the combined field is curl-free, but cycle when institutional rules create non-conservative correction pressures.
+  Applications to control systems (FADEC multi-loop engine control) and AI alignment (reward hacking as curl emergence) demonstrate the diagnostic in concrete domains. A connection to triadic tension in constraint geometry shows how three mutually incompatible curvature sectors produce exactly the state-dependent projections that trigger the curl floor theorem.
 
-  The contribution is a geometric language that reveals why some feedback architectures converge while others cycle, independent of domain—and why complexity itself tends to generate cycling. The curl diagnostic is coordinate-free, computable, and decisive.
+  The contribution is a geometric language that reveals why some feedback architectures converge while others cycle, independent of domain — and why complexity itself tends to generate cycling. The curl diagnostic is coordinate-free, computable, and decisive.
 keywords:
   - "cybernetics"
   - "gradient flow"
@@ -31,14 +32,14 @@ keywords:
   - "divergence"
   - "curl"
   - "manifolds"
-  - "coordination"
+  - "constraint geometry"
   - "convergence"
   - "Hodge theory"
   - "spectral gap"
   - "differential forms"
 ---
 
-Feedback systems that successfully self-correct share a common mathematical structure—their correction dynamics follow the gradient of a scalar potential on the space of possible states. This paper develops the geometry of such systems using coordinate-free methods on the unit sphere, where the alignment distance between a system's current state and its target anchor serves as a natural Lyapunov function. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation. Divergence of the correction field measures local compressive strength—where trajectories concentrate versus disperse. These tools apply wherever feedback operates—control systems, markets, and artificial agents. The framework connects to constraint theory by identifying when agents following constraint gradients will reach equilibrium versus oscillate around it.
+Feedback systems that successfully self-correct share a common mathematical structure — their correction dynamics follow the gradient of a scalar potential on the space of possible states. This paper develops the geometry of such systems using coordinate-free methods on the unit sphere, where the alignment distance between a system's current state and its target anchor serves as a natural Lyapunov function. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation. Divergence of the correction field measures local compressive strength — where trajectories concentrate versus disperse. A Hodge-theoretic lower bound (Theorem 4) establishes that when feasibility projections are state-dependent and non-integrable, the resulting curl floor is structural: no amount of parameter tuning can eliminate cycling without changing the constraint architecture itself.
 
 ## Introduction
 
@@ -164,8 +165,6 @@ and then $\nabla \times F \neq 0$. The system can orbit, churn, or cycle rather 
 
 This is the geometric signature of multi-objective interference. When a system cycles rather than converges, the curl diagnostic tells you the problem is structural: the correction field does not derive from any consistent scalar objective. Parameter tuning cannot fix this. The architecture itself prevents convergence.
 
-This curl structure has a deep physical analogue in quantum mechanics. The Berry phase—or geometric phase—describes how a quantum state acquires phase when transported around a closed loop in parameter space. The curl in the correction field is precisely the information-geometric equivalent of this phenomenon: systems transported through state space along cycled correction trajectories accumulate "organizational phase" that depends on the geometry of the path, not just the endpoints. This connection reveals that cycling organizations and cycling quantum systems share the same underlying mathematical structure—holonomy of their respective manifolds.
-
 ## Divergence as Compressive Strength
 
 While curl measures circulation, divergence measures local volume change. In gradient flow, the divergence of the correction field indicates where trajectories compress together (approaching an attractor) versus spread apart (leaving a repeller).
@@ -213,8 +212,6 @@ Divergence identifies which regions of state space act as attractors and how str
 ## When Curl Emerges
 
 Pure gradient flow guarantees convergence, but the gradient structure is fragile. Several common architectural features introduce nonzero curl, breaking the convergence guarantee.
-
-From a gauge-theoretic perspective, the correction field functions as a connection on the state manifold. When this connection is integrable (curl-free), it derives from a scalar potential. When constraints, multi-objective interference, or state-dependent rules introduce curl, the correction field becomes a genuine gauge field whose curvature—the curl—measures the geometric obstruction to convergence. This frames management, coordination, and control not merely as forces, but as gauge fields whose curvature determines whether systems align or oscillate.
 
 ### Multi-Objective Interference
 
@@ -268,11 +265,17 @@ $$
 \mathcal{M}_{\mathrm{curl}}(F) \geq \frac{\kappa}{2} |\delta\alpha|^2_{L^2} > 0,
 $$
 
-for some $\kappa > 0$ determined by the spectral gap and the divergence structure of the defect[^14].
+for some $\kappa > 0$ determined by the spectral gap and the divergence structure of the defect[^13].
 
 This is the quantitative version of "structural, not parametric." A system whose correction architecture repeatedly induces a nontrivial projection defect carries an irreducible curl floor. The floor is not a tuning artifact but a geometric constant times the persistent defect magnitude. Because the curl floor is set by the Hodge spectral gap, no gain scheduling, local smoothing, or parameter tuning can eliminate cycling without changing the feasibility map itself. Cycling and sustained corrective work are the irreducible residue of feasibility—the cost of implementing constraints that prevent a global scalar Lyapunov function from existing on the realized dynamics.
 
-The following sections examine specific domains where this structure appears.
+### Connection to Triadic Tension
+
+The curl floor theorem applies to any system with state-dependent, non-integrable constraint projections. The [triadic tension theorem](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) identifies a specific and important instance: three curvature sectors — angular ($\pi$), recursive ($\varphi$), and discrete ($N$) — that cannot be simultaneously minimized. When a system attempts to correct across all three sectors, the admissible correction directions at any configuration depend on which sector is currently dominant. This state-dependence is not a modeling choice but a geometric consequence of the pairwise incompatibility of the sector minimizers (T1).
+
+The resulting feasibility map is non-integrable. If the system sits near the $\varphi$-sector minimum, the admissible cone tilts toward reducing recursive curvature, but this forces angular curvature to increase (by the strictly negative off-diagonal covariances, T2). As the system corrects angular curvature, the cone tilts again, now forcing discrete curvature to rise. The correction field circulates through sector-dominated configurations rather than converging to a point where all three are simultaneously satisfied — because no such point exists. The projection defect $\delta\alpha$ has persistent magnitude (the sectors are genuinely independent observables, by T3), and the Hodge spectral gap provides the lower bound. Theorem 4 then guarantees a strictly positive curl floor: triadic tension forces irreducible cycling with a quantifiable maintenance cost.
+
+This connection closes the loop between the general theory developed here and the specific constraint geometry of [the monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The curl diagnostic is a general tool; triadic tension is a specific trigger; and the curl floor theorem quantifies the consequence.
 
 ### Control Systems
 
@@ -286,63 +289,15 @@ Return to the turbofan. Its Full Authority Digital Engine Control (FADEC) manage
 
 ### AI Alignment
 
-The term "alignment" in artificial intelligence is not merely metaphorical. An AI system has an implicit or explicit objective; the alignment distance measures how far its behavior diverges from intended behavior. Gradient descent on the loss function is literal gradient flow—the system moves along $-\nabla L$ where $L$ is the loss.
-
-Reward hacking and specification gaming represent curl emergence[^10]. When an agent finds ways to increase measured reward that decrease intended performance, the actual correction field (driven by measured reward) diverges from the intended correction field (what the designer wanted). The system cycles through exploits rather than converging to aligned behavior.
-
-The curl diagnostic suggests a design principle: alignment architectures should ensure the correction field—whatever signals actually drive learning—derives from a scalar potential consistent with intended behavior. This is precisely the problem of reward modeling and value learning framed geometrically.
-
-### Markets
-
-Financial markets exhibit both convergent and oscillatory dynamics. Arbitrage mechanisms push prices toward efficient levels—a convergent process when arbitrageurs have sufficient capital and information. Reflexive dynamics[^11], where price movements influence the fundamentals that prices are supposed to reflect, can introduce curl.
-
-The [bounded reflexivity framework](/bounded-reflexivity-and-constraint-theory) describes agents moving along constraint and information gradients. When these gradients derive from consistent scalar fields (constraint pressure, information clarity), markets converge to equilibria. When institutional mandates, leverage constraints, and coordination dynamics interact, the combined correction field can develop curl, producing oscillations around rather than convergence to equilibrium values.
-
-Constraint geometry shapes the curl structure. Markets operating within simple constraint architectures—single asset classes with uniform participants—tend toward convergence. Markets with complex, interacting constraints—derivatives, leverage, heterogeneous mandates—exhibit more cycling.
-
-## Connection to Constraint Theory
-
-The gradient-flow formalism provides mathematical foundations for constraint theory's behavioral predictions. In the [bounded reflexivity framework](/bounded-reflexivity-and-constraint-theory), agents respond to constraint pressure and information gradients according to,
-
-$$
-F(x,t) = -\alpha \nabla C(x,t) + \beta \nabla I(x,t),
-$$
-
-where $C$ is the constraint field and $I$ is the information field. This is a weighted sum of gradients—hence curl-free if $C$ and $I$ are smooth scalar fields.
-
-The curl-free property explains why the framework predicts convergence to equilibria determined by constraint geometry. Agents flow toward regions of low constraint pressure and high information clarity. The flow compresses trajectories in regions where both gradients point in the same direction; it expands trajectories where they oppose.
-
-When does curl enter? When the constraint and information fields are not independent scalars but interact through institutional rules, leverage dynamics, or coordination requirements. A bank facing multiple binding constraints (capital ratios, liquidity requirements, stress test limits) may experience correction pressures that do not derive from any single scalar objective. The resulting dynamics can cycle through constraint regimes rather than settling at a consistent equilibrium.
-
-The [simulation horizons framework](/simulation-horizons-constraints-and-the-emergence-of-strategic-agency) distinguishes agents that play games from agents that follow gradients. When simulation capacity permits game-theoretic reasoning, agents may deviate from gradient flow to exploit strategic considerations. When simulation horizons collapse—under time pressure, cognitive load, or environmental complexity—agents revert to gradient following.
-
-The geometry of self-correction applies to the gradient-following regime. The curl diagnostic predicts which environments produce convergent gradient-following (curl-free constraint landscapes) versus oscillatory gradient-following (curl-generating constraint interactions). Strategic agents can exploit this distinction, positioning for convergence when the environment permits and anticipating oscillation when it does not.
+Gradient descent on a loss function is literal gradient flow — the system moves along $-\nabla L$ where $L$ is the loss. Reward hacking and specification gaming represent curl emergence[^10]: when an agent finds ways to increase measured reward that decrease intended performance, the actual correction field diverges from the intended one, and the system cycles through exploits rather than converging to aligned behavior. The curl diagnostic frames the core alignment problem geometrically — alignment architectures must ensure that whatever signals actually drive learning derive from a scalar potential consistent with intended behavior.
 
 ## Why This Matters
 
-The mathematics of self-correction may appear abstract, but its implications are concrete.
+The curl diagnostic has direct consequences for design, diagnosis, and prediction. A system intended to self-correct will succeed only if its correction field derives from a consistent scalar objective, so the design principle is conservative: prefer architectures that provably maintain curl-free correction fields, and when multiple objectives are genuinely necessary, combine them as weighted sums of scalar potentials rather than as interacting vector corrections. When a system cycles rather than converges, the curl diagnostic localizes the problem — it points to specific architectural features generating the cycling and distinguishes problems solvable by parameter adjustment (zero curl, multiple local minima) from problems requiring structural redesign (nonzero curl, architectural interference). Knowing the curl structure of a system's correction architecture allows prediction of its long-run behavior without simulating the detailed dynamics, because systems with curl-free correction fields will converge while systems with nonzero curl will cycle. The geometry of self-correction transforms informal intuitions about feedback and stability into precise, measurable structure. Systems that converge share mathematical form with systems that cycle — except for one property. That property is coordinate-free, computable, and decisive.
 
-### For System Design
+## Attack Surface
 
-A system intended to self-correct—a control loop, an organization, an incentive structure—will succeed only if its correction field derives from a consistent scalar objective. Multi-objective optimization, constraint interactions, and state-dependent rules all risk introducing curl.
-
-The design principle is conservative: prefer architectures that provably maintain curl-free correction fields over architectures that seem to balance multiple objectives but may generate cycling. When multiple objectives are genuinely necessary, combine them as weighted sums of scalar potentials rather than as interacting vector corrections.
-
-### For Diagnosis
-
-When a system cycles rather than converges, the curl diagnostic localizes the problem. Compute or estimate the correction field from observed behavior. Test for curl—local circulation patterns. If curl is present, identify its source: which objectives conflict, which constraints interact, which state-dependent rules create circulation.
-
-This diagnostic is more precise than "the system is unstable" or "incentives are misaligned." It points to specific architectural features generating the cycling and distinguishes problems solvable by parameter adjustment from problems requiring structural redesign.
-
-### For Prediction
-
-Systems with curl-free correction fields will converge; systems with nonzero curl will cycle. This prediction holds across domains—thermostats and turbofans, AI systems and markets. Knowing the curl structure of a system's correction architecture allows prediction of its long-run behavior without simulating the detailed dynamics.
-
-In markets, constraint architectures that generate curl produce oscillations exploitable by agents who recognize the pattern. In organizations, correction processes with intrinsic curl produce predictable cycling that can be anticipated and planned around even if it cannot be eliminated.
-
-The connection to Berry phase and gauge theory reveals that organizational cycling is not merely a practical nuisance but reflects fundamental geometric structure. Just as topological phases in quantum matter are protected against local perturbations, organizational architectures with structural curl maintain their cycling behavior against parameter adjustments.
-
-The geometry of self-correction transforms informal intuitions about feedback and stability into precise, measurable structure. Systems that converge share mathematical form with systems that cycle—except for one property. That property is coordinate-free, computable, and decisive.
+The curl diagnostic and the curl floor theorem (Theorem 4) rest on checkable claims. If a system with demonstrably state-dependent, non-integrable constraint projections exhibits sustained monotone convergence without cycling, the diagnostic fails — the non-integrability condition in the theorem's hypothesis would need to be revisited for that class of projections. If the Hodge spectral gap $\lambda_1$ vanishes on physically relevant manifolds (manifolds with nontrivial first cohomology, or noncompact manifolds where the spectral gap degenerates), the quantitative lower bound loses its floor and the curl-maintenance functional can approach zero even with persistent projection defects. The theorem's scope is compact manifolds with $H^1(M) = 0$; extending to broader classes of state spaces requires verifying that the spectral gap remains positive. Both conditions are independently testable — the first through numerical simulation of constrained dynamics, the second through spectral analysis of the Hodge Laplacian on the manifold in question.
 
 ---
 
@@ -456,7 +411,7 @@ $$
 
 This failure is structural: projection onto a state-dependent cone generically destroys the exactness of the associated 1-form. Even if $F$ is curl-free, the projected field may possess nonzero circulation.
 
-Third, the appropriate notion of descent becomes set-valued. In the language of nonsmooth analysis[^13], the dynamics evolve along the Clarke generalized gradient of $V$ restricted to feasible directions. Formally,
+Third, the appropriate notion of descent becomes set-valued. In the language of nonsmooth analysis[^12], the dynamics evolve along the Clarke generalized gradient of $V$ restricted to feasible directions. Formally,
 
 $$
 \dot{s} \in -\partial_C V(s),
@@ -488,7 +443,7 @@ $$
 
 by the identity $d^2 = 0$. Hence gradient fields are curl-free.
 
-Conversely, on simply connected manifolds, a curl-free vector field is locally (and globally) a gradient by the Poincaré lemma[^12]. On manifolds with nontrivial topology, curl-free fields may have nonzero "circulation" around non-contractible loops.
+Conversely, on simply connected manifolds, a curl-free vector field is locally (and globally) a gradient by the Poincaré lemma[^11]. On manifolds with nontrivial topology, curl-free fields may have nonzero "circulation" around non-contractible loops.
 
 For $\mathbb{S}^{n-1}$ with $n \geq 3$, the sphere is simply connected, so curl-free implies gradient. For $\mathbb{S}^1$ (the circle), a constant tangent field has zero curl but is not a gradient—it has nonzero circulation around the circle.
 
@@ -505,8 +460,6 @@ $$
 $$
 
 This is a purely geometric quantity measuring the $L^2$-size of the exterior derivative of the implemented 1-form.
-
-The curl-maintenance functional $\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}|d\alpha|^2_{L^2}$ is the direct analogue of Berry curvature in quantum mechanics. Just as Berry curvature measures the "twisting" of quantum eigenstates under adiabatic transport, the curl-maintenance functional quantifies the geometric phase accumulated by correction trajectories. The irreducible curl floor established by Theorem 4 corresponds to topological protection in quantum systems—certain organizational structures carry geometric phases that cannot be eliminated by smooth deformations, only by changing the topology of the constraint architecture itself.
 
 #### Feasibility as Projection
 
@@ -666,10 +619,8 @@ The wedge statement summarizes the result: among all vector fields satisfying a 
 
 [^10]: Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., & Mané, D. (2016). Concrete Problems in AI Safety. arXiv\:1606.06565.
 
-[^11]: Soros, G. (1987). *The Alchemy of Finance: Reading the Mind of the Market*. Simon & Schuster.
+[^11]: Spivak, M. (1965). *Calculus on Manifolds*. Benjamin.
 
-[^12]: Spivak, M. (1965). *Calculus on Manifolds*. Benjamin.
+[^12]: Clarke, F.H. (1983). *Optimization and Nonsmooth Analysis*. Wiley.
 
-[^13]: Clarke, F.H. (1983). *Optimization and Nonsmooth Analysis*. Wiley.
-
-[^14]: The spectral gap $\lambda_1$ is the smallest positive eigenvalue of the Hodge Laplacian $\Delta_1 = d\delta + \delta d$ on 1-forms. For $\mathbb{S}^{n-1}$, this equals $n-1$. See Rosenberg, S. (1997). *The Laplacian on a Riemannian Manifold*. Cambridge University Press, Chapter 4.
+[^13]: The spectral gap $\lambda_1$ is the smallest positive eigenvalue of the Hodge Laplacian $\Delta_1 = d\delta + \delta d$ on 1-forms. For $\mathbb{S}^{n-1}$, this equals $n-1$. See Rosenberg, S. (1997). *The Laplacian on a Riemannian Manifold*. Cambridge University Press, Chapter 4.

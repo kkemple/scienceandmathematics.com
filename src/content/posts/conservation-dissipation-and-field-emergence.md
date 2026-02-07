@@ -1,11 +1,11 @@
 ---
 title: 'Conservation, Dissipation, & Field Emergence'
-description: "Shows how conserved currents plus symmetry and calibrated dissipation reproduce Maxwell, Klein-Gordon, fluid, and gravitational field equations from pure constraint satisfaction."
+description: "Conservation plus symmetry yields Maxwell, Klein-Gordon, and Euler field equations. Fermi's golden rule derives the microscopic origin of η, the dissipation field whose RG flow follows the constraint geometry β-function."
 pubDate: '2025-10-06'
-updatedDate: '2026-01-26'
-zenodoDepositionId: 18314777
-zenodoUrl: "https://zenodo.org/records/18314777"
-doi: "10.5281/zenodo.18314777"
+updatedDate: '2026-01-28'
+zenodoDepositionId: 18511938
+zenodoUrl: "https://zenodo.org/records/18511938"
+doi: "10.5281/zenodo.18511938"
 keywords:
   - "field theory"
   - "Noether theorem"
@@ -16,20 +16,17 @@ keywords:
   - "Fermi golden rule"
   - "conservation laws"
   - "gauge symmetry"
-  - "phase transitions"
+  - "beta function"
+  - "constraint geometry"
 zenodoDescription: |
-  This paper demonstrates how classical field equations emerge from conservation constraints combined with symmetry requirements, then extends the framework to include thermal dissipation and quantum overlap criteria.
+  Classical field equations emerge from conservation constraints combined with symmetry requirements. Noether's theorem connects symmetries to conserved currents; U(1) gauge invariance yields Maxwell's equations; Lorentz invariance produces Klein-Gordon; Galilean symmetry generates Euler's fluid equations. These textbook results establish the pattern that conservation plus symmetry determines dynamics.
 
-  The derivations follow established physics: Noether's theorem connects symmetries to conserved currents; U(1) gauge invariance yields Maxwell's equations; Lorentz invariance produces Klein-Gordon; Galilean symmetry generates Euler's fluid equations. These results are textbook material, presented here to establish the pattern that conservation plus symmetry determines dynamics.
+  The framework extends to include thermal dissipation through a coefficient η quantifying energy loss to microscopic degrees of freedom. Fermi's golden rule provides the microscopic origin: electron-phonon coupling yields η₀ = α²√(mₑ/M) ≈ 10⁻⁶ for elementary particles, with the fine structure constant α = 1/137 appearing naturally. The fluctuation-dissipation theorem ensures thermal equilibrium through balanced noise and damping.
 
-  We extend this framework by introducing a dissipation coefficient η quantifying energy loss to thermal reservoirs. Fermi's golden rule provides the microscopic origin: electron-phonon coupling yields η₀ = α²√(mₑ/M) ≈ 10⁻⁶ for elementary particles, with the fine structure constant α = 1/137 appearing naturally. The fluctuation-dissipation theorem ensures thermal equilibrium through balanced noise and damping.
-
-  An empirical hierarchy emerges: η ~ 10⁻⁶ (particles), 10⁻³ (atoms), 10⁻² (molecules), 10⁻¹ (biological systems), 1 (black holes). Whether this progression reflects fundamental organizational physics or simply accumulated complexity remains interpretive. The proposed connection to information processing rates—with black holes saturating at 10⁴³ bits/second (Planck frequency)—follows from Lloyd's computational limits but the interpretation as a universal constraint hierarchy requires further validation.
-
-  The quantum overlap criterion Ω = nλᵈ determines phase transitions: Bose-Einstein condensation at nλ³ ≈ 2.612, Fermi degeneracy at nλ³ ≈ 1. These thresholds are well-established. The complete framework—conservation, dissipation, overlap—provides a consistent perspective on field dynamics, though the deeper claim that "fields are information channels" represents a philosophical interpretation rather than derivable conclusion.
+  This microscopic derivation establishes η as a physical, derivable quantity — the essential prerequisite for its role as the dissipation field η ∈ [0,1] in the constraint geometry's β-function. The decade-spaced hierarchy from η ~ 10⁻⁶ (particles) through 10⁻¹ (biological systems) to 1 (black holes) follows from the RG coupling ρ* = 4πφ²/10 ≈ 3.29, derived from triadic tension and C₁₀ decade symmetry. The microscopic origin derived here provides the UV boundary condition; the constraint geometry determines the flow.
 ---
 
-Conservation plus symmetry equals field equations. Start with a single constraint—a conserved current $n^\mu$ with vanishing divergence—and impose symmetry requirements. U(1) gauge symmetry generates Maxwell's equations. Lorentz invariance yields Klein-Gordon. Galilean symmetry produces Euler's fluid equations. Mathematical consistency alone. Add dissipation through thermal coupling with coefficient $\eta$ ranging from $10^{-6}$ for elementary particles to unity for black holes, [quantifying the energy required to maintain organizational structure](/binding-energy-critical-radii-and-information-maintenance-tax). The complete framework—conservation, dissipation, and quantum overlap—reproduces field dynamics from electromagnetism to gravitation through pure constraint satisfaction.
+Conservation plus symmetry produces field equations. Start with a single constraint — a conserved current $n^\mu$ with vanishing divergence — and impose symmetry requirements. U(1) gauge symmetry generates Maxwell's equations. Lorentz invariance yields Klein-Gordon. Galilean symmetry produces Euler's fluid equations. Mathematical consistency alone. Add dissipation through thermal coupling with coefficient $\eta$ ranging from $10^{-6}$ for elementary particles to unity for black holes, [quantifying the energy required to maintain organizational structure](/binding-energy-critical-radii-and-information-maintenance-tax). Fermi's golden rule provides the microscopic origin of $\eta$, establishing it as a physical quantity whose flow across scales is governed by the [constraint geometry's $\beta$-function](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry).
 
 ## The Conservation Constraint
 
@@ -159,7 +156,7 @@ $$
 \eta_k = \frac{\Gamma_k}{E_0/\hbar},
 $$
 
-where $\Gamma_k$ quantifies thermal relaxation rate and $E_0$ sets the characteristic energy scale. Each decade in the dissipation hierarchy—from $10^{-6}$ for elementary particles through $10^{-1}$ for biological systems—represents completing another iteration of the [complexity ladder](/complex-adaptable-systems-complexity-ladders-and-agency), where new coordination layers activate and impose additional state-dependent constraints. These accumulated constraints introduce curl into the effective dynamics, and the decade spacing reflects how much curl each organizational scale contributes before stabilizing.
+where $\Gamma_k$ quantifies thermal relaxation rate and $E_0$ sets the characteristic energy scale. The decade spacing of the dissipation hierarchy — $10^{-6}$ for elementary particles through $10^{-1}$ for biological systems — is governed by the RG coupling $\rho^* = 4\pi\varphi^2/10 \approx 3.29$, derived in the [constraint geometry monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) from the triadic tension theorem and $C_{10}$ decade symmetry. The factor of 10 in the denominator reflects the unique cyclic group $C_{10} = C_2 \times C_5$ surviving negative selection (non-crystallographic, $\varphi$-compatible, binary-closed), which partitions each RG period into ten equivalent coarse-graining shells. One full RG period spans one decade in scale, producing the observed order-of-magnitude jumps in $\eta$.
 
 ## Microscopic Origin of Dissipation
 
@@ -183,33 +180,15 @@ $$
 \eta_0 = \alpha^2 \sqrt{\frac{m_e}{M}} \approx 10^{-6},
 $$
 
-where $\alpha = e^2/(4\pi\epsilon_0\hbar c) = 1/137$ is the fine structure constant. This elementary dissipation rate emerges from quantum mechanics through Fermi's golden rule—the same principle governing atomic transitions produces the baseline organizational overhead. This quantum mechanical floor then cascades through all higher organizational scales as the foundation of the decade-structured hierarchy. Each subsequent ladder iteration inherits this baseline and amplifies it through geometric factors reflecting the additional coordination requirements at that scale.
+where $\alpha = e^2/(4\pi\epsilon_0\hbar c) = 1/137$ is the fine structure constant. This elementary dissipation rate emerges from quantum mechanics through Fermi's golden rule — the same principle governing atomic transitions produces the baseline maintenance overhead. The result establishes $\eta$ as a physical, derivable quantity with a specific microscopic origin, which is the essential prerequisite for treating it as the dissipation field $\eta \in [0,1]$ in the constraint geometry's $\beta$-function.
 
-Complex systems exhibit enhanced dissipation through geometric factors[^7]. Atoms achieve $\eta_a = \eta_0 \times \sqrt{a_0/r_n} \times \sqrt{Z} \approx 10^{-3}$ through nuclear-electron coupling[^10]. Molecules reach $\eta_m \approx 10^{-2}$ via additional vibrational and rotational modes. Biological systems attain $\eta_b \approx 10^{-1}$ through hierarchical organization across multiple scales. Black holes saturate the bound at $\eta = 1$, with all available energy maintaining horizon structure against Hawking radiation. The exponential progression—each order of magnitude representing a decade jump—emerges from the [constraint eigenvalue framework's](/a-constraint-eigenvalue-theory-of-information-matter-and-mind) 10-sector (decade resonance), where the composite invariant $I = 4\pi\varphi^2 \approx 32.9$ and its decade normalization $\rho^* = I/10 \approx 3.29$ force logarithmic spacing through the renormalization group flow.
+The mode-specific $\eta_k$ from the Langevin dynamics above and this baseline $\eta_0$ from Fermi's golden rule are microscopic quantities. The macroscopic dissipation field $\eta$ appearing in the [constraint geometry's RG flow](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) is their coarse-grained counterpart — the fraction of a system's total energy budget devoted to curvature maintenance against entropy. The $\beta$-function $\beta(\eta, d) = -\eta(1-\eta)[\rho^* + (d-2)\ln\varphi/2]$ governs how this macroscopic field evolves across scales, with $\eta_0 \approx 10^{-6}$ as the UV boundary condition set by the quantum mechanical floor derived here.
 
-## The Quantum Overlap Criterion
-
-A third constraint determines when systems undergo phase transitions. The quantum overlap parameter,
-
-$$
-\Omega = n \lambda^d,
-$$
-
-measures the number of particles $n$ within a volume set by the quantum wavelength $\lambda$ in $d$ dimensions.
-
-The characteristic wavelength follows from the system's energy scale,
-
-$$
-\lambda = \frac{\hbar}{\sqrt{2mE_0}}.
-$$
-
-Phase transitions occur at critical overlap values[^11]. The [uncertainty principle constrains wavelength-position products](/fourier-transforms-and-the-uncertainty-principle) through Fourier conjugacy. Bose-Einstein condensation emerges when $n \lambda_T^3 \approx 2.612$, with thermal de Broglie wavelength $\lambda_T = h/\sqrt{2\pi m k_B T}$. Fermi degeneracy appears at $n \lambda_F^3 \approx 1$. Gravitational collapse initiates when density reaches $n \approx 1/\lambda_g^3$ with $\lambda_g = \hbar/\sqrt{GMm^2/r}$.
-
-Distinct perturbation mechanisms drive transitions through different pathways. Thermal fluctuations modify wavelength as $\lambda \propto T^{-1/2}$. Geometric compression alters density following $n \propto r^{-3}$. Interaction strength affects coherence length through $\lambda \propto \exp(1/g_{int})$ where $g_{int}$ quantifies coupling strength.
+Complex systems exhibit enhanced dissipation through geometric factors[^7]. Atoms achieve $\eta_a = \eta_0 \times \sqrt{a_0/r_n} \times \sqrt{Z} \approx 10^{-3}$ through nuclear-electron coupling[^10]. Molecules reach $\eta_m \approx 10^{-2}$ via additional vibrational and rotational modes. Biological systems attain $\eta_b \approx 10^{-1}$ through hierarchical organization across multiple scales. Black holes saturate at $\eta = 1$, the IR fixed point of the $\beta$-function where all available energy maintains horizon structure against Hawking radiation. The decade spacing of this progression — each order of magnitude corresponding to one RG period — follows from the $C_{10}$ decade symmetry and the coupling $\rho^* = 4\pi\varphi^2/10 \approx 3.29$, whose derivation from triadic tension and negative selection is given in the [monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry).
 
 ## Complete Field Dynamics
 
-Combining all three constraints gives the complete evolution equation,
+Combining conservation and dissipation gives the complete evolution equation,
 
 $$
 \frac{\partial \phi}{\partial t} = \{\phi, H\} - \sum_k \eta_k(\phi_k - \phi_k^0) + \sqrt{2\eta_k k_B T} \, \xi_k(t).
@@ -227,7 +206,7 @@ recovering the Boltzmann distribution.
 
 ## Application to Field Theories
 
-The framework reproduces established field equations with dissipation emerging from thermal coupling. Electromagnetic fields in conductors obey [Maxwell's equations](/information-field-theory-from-constraint-to-cosmos),
+The framework reproduces established field equations with dissipation emerging from thermal coupling. Electromagnetic fields in conductors obey Maxwell's equations,
 
 $$
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}, \quad \nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0\epsilon_0 \frac{\partial \mathbf{E}}{\partial t},
@@ -243,35 +222,11 @@ $$
 
 where kinematic viscosity $\nu = \eta v_{th}^2/\omega_v$ relates dissipation coefficient to thermal velocity and vorticity frequency.
 
-Gravitational systems governed by Einstein's equations[^12],
-
-$$
-R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R = 8\pi G T_{\mu\nu},
-$$
-
-exhibit effective dissipation $\eta_g = (r_s/r)^{\alpha}$ where $r_s = 2GM/c^2$ is the Schwarzschild radius and $\alpha$ depends on matter complexity.
-
-## Information Processing Interpretation
-
-Information theory reveals the fundamental connection[^13],
-
-$$
-\frac{dI_k}{dt} = \frac{\eta_k}{\ln 2},
-$$
-
-measuring Shannon information loss per mode. Total processing rate becomes,
-
-$$
-\dot{I} = \sum_k \eta_k \frac{E_k}{\hbar \ln 2}.
-$$
-
-Black holes saturate the theoretical limit at $10^{43}$ bits/second per solar mass through $\eta = 1$ across all modes[^14]. This maximum rate equals the [Planck frequency](/computational-spacetime-and-the-rayleigh-jeans-resolution) $f_P = 1.855 \times 10^{43}$ Hz—the fundamental clock rate of the [voxel lattice computational substrate](/what-if-spacetime-isnt-so-continuous). Physical systems operate at fractions of this bound—atoms at $10^{-3}$, molecules at $10^{-2}$, biological systems at $10^{-1}$ of maximum throughput. The hierarchy follows exactly from the dissipation field $\eta$: each order of magnitude reduction in $\eta$ corresponds to one decade reduction in processing capacity, creating the exponential progression from quantum fields to biological systems to black holes.
-
 ## Fundamental Structure
 
-Field equations emerge from three information-theoretic constraints. Conservation with symmetry generates the conservative dynamics—Maxwell from U(1), Klein-Gordon from Lorentz invariance, Euler from Galilean symmetry. The dissipation coefficient $\eta$ quantifies information loss to thermal reservoirs, ranging from $10^{-6}$ for elementary particles through $10^{-3}$ (atoms), $10^{-2}$ (molecules), $10^{-1}$ (biological systems) to unity for black holes. Quantum overlap $\Omega = n\lambda^d$ triggers phase transitions when crossing critical thresholds.
+Conservation plus symmetry generates the reversible dynamics of physical fields — Maxwell from U(1), Klein-Gordon from Lorentz invariance, Euler from Galilean symmetry. Thermal coupling breaks time-reversal symmetry through the dissipation coefficient $\eta$, whose microscopic origin traces to Fermi's golden rule. The baseline $\eta_0 = \alpha^2\sqrt{m_e/M} \approx 10^{-6}$ is a derived quantity, not a phenomenological parameter.
 
-The exponential hierarchy in $\eta$ reflects organizational complexity—each order of magnitude represents additional degrees of freedom requiring maintenance. Black holes saturate at $\eta = 1$, [processing information at the Planck frequency limit](/the-thermodynamic-computational-speed-limit) $10^{43}$ Hz. All other systems operate below this bound, their processing rates determined by $\dot{I} = \sum_k \eta_k E_k/(\hbar \ln 2)$. Fields are information channels whose dynamics follow from constraint optimization. Conservation ensures causality. Dissipation enforces the second law. Quantum overlap sets critical phenomena. Together they generate physics from pure information theory.
+This microscopic floor is the starting point of the macroscopic dissipation field $\eta \in [0,1]$ that appears in the [constraint geometry's $\beta$-function](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The $\beta$-function governs how $\eta$ flows across scales, with the RG coupling $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ producing the observed decade-spaced hierarchy from elementary particles through biological systems to black holes. The microscopic derivation here establishes that $\eta$ is physical — the constraint geometry determines how it flows.
 
 [^1]: Noether, E. (1918). Invariante Variationsprobleme. *Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse*, 1918, 235-257.
 
@@ -292,11 +247,3 @@ The exponential hierarchy in $\eta$ reflects organizational complexity—each or
 [^9]: Sakurai, J. J., & Napolitano, J. (2017). *Modern Quantum Mechanics* (2nd ed.). Cambridge University Press.
 
 [^10]: Ashcroft, N. W., & Mermin, N. D. (1976). *Solid State Physics*. Holt, Rinehart and Winston.
-
-[^11]: Pitaevskii, L., & Stringari, S. (2003). *Bose-Einstein Condensation*. Oxford University Press.
-
-[^12]: Weinberg, S. (1972). *Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity*. John Wiley & Sons.
-
-[^13]: Shannon, C. E. (1948). A Mathematical Theory of Communication. *Bell System Technical Journal*, 27(3), 379-423.
-
-[^14]: Lloyd, S. (2000). Ultimate physical limits to computation. *Nature*, 406(6799), 1047-1054.

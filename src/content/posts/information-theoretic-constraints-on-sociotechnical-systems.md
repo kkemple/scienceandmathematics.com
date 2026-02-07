@@ -1,11 +1,11 @@
 ---
 title: 'Information-Theoretic Constraints on Sociotechnical Systems'
-description: "Derives universal speech rates, biological maintenance ceilings, and the 30 percent coordination bankruptcy threshold by applying Landauer physics to human organizations."
+description: "Derives universal speech rates, biological maintenance ceilings, and nonlinear organizational overhead scaling by applying Landauer physics to human organizations."
 pubDate: '2025-10-16'
-updatedDate: '2026-01-26'
-zenodoDepositionId: 18314797
-zenodoUrl: "https://zenodo.org/records/18314797"
-doi: "10.5281/zenodo.18314797"
+updatedDate: '2026-01-28'
+zenodoDepositionId: 18511940
+zenodoUrl: "https://zenodo.org/records/18511940"
+doi: "10.5281/zenodo.18511940"
 keywords:
   - "information theory"
   - "speech rate"
@@ -24,14 +24,14 @@ zenodoDescription: |
 
   The second result: biological maintenance overhead ceiling at η_bio ~ 0.1. The human brain (20W for 1.4kg) operates at 10× body-average power density, representing maximum sustainable pattern maintenance while retaining adaptive capacity. This matches the dissipation hierarchy from particles (10⁻⁶) through atoms (10⁻³) to biological systems (10⁻¹).
 
-  The third result: organizational bankruptcy threshold at η_c = 1/ρ* ≈ 0.304. The complexity multiplier (1-η)^{-ρ*} with ρ* ≈ 3.29 diverges at ~30% coordination overhead. The framework predicts failure timescales from characteristic organizational periods and overhead levels.
+  The third result: the complexity multiplier (1-η)^{-ρ*} with ρ* ≈ 3.29 from constraint geometry grows nonlinearly as coordination overhead η rises, reaching approximately 3× at η ≈ 0.30—empirically the regime where organizations face catastrophic reorganization. The critical exponent ν = 1/ρ* ≈ 0.304 governs the rate of divergence near phase transitions. The framework predicts failure timescales from characteristic organizational periods and overhead levels.
 
   We distinguish these first-principles results from speculative extensions: Dunbar's number (~150), market phase transitions, and civilizational convergence patterns are consistent with information-theoretic constraints but involve multiple contributing factors and lack parameter-free derivation. Maintaining this distinction—between rigorous derivation and suggestive phenomenology—keeps the analysis honest while exploring potentially deep connections.
 ---
 
-Human organizations process information under physical constraints. Not metaphorically—literally. Every decision requires minimum energy to specify, every communication channel has measurable bandwidth, every coordination structure exhibits quantifiable overhead. The same information theory governing [computational speed limits](/the-thermodynamic-computational-speed-limit) and [binding energy as maintenance tax](/binding-energy-critical-radii-and-information-maintenance-tax) makes quantitative predictions about biological and organizational behavior.
+Human organizations process information under physical constraints. Not metaphorically—literally. Every decision requires minimum energy to specify, every communication channel has measurable bandwidth, every coordination structure exhibits quantifiable overhead. The same information theory governing [computational speed limits](/hilberts-sixth-problem-and-the-cost-of-infinite-information) and [binding energy as maintenance tax](/binding-energy-critical-radii-and-information-maintenance-tax) makes quantitative predictions about biological and organizational behavior.
 
-This article derives three rigorous results from first principles: (1) universal speech rate convergence at 39 bits/s emerges from tissue biomechanics, (2) biological systems operate near a 10% maintenance overhead ceiling, and (3) organizational systems face bankruptcy at 30% coordination overhead. These predictions require no free parameters and match empirical observations across disparate contexts.
+This article derives three rigorous results from first principles: (1) universal speech rate convergence at 39 bits/s emerges from tissue biomechanics, (2) biological systems operate near a 10% maintenance overhead ceiling, and (3) organizational overhead accelerates nonlinearly through the complexity multiplier $(1-\eta)^{-\rho^*}$, with the coupling constant $\rho^* \approx 3.29$ derived from constraint geometry. These predictions match empirical observations across disparate contexts.
 
 ## Speech Rate from Tissue Physics
 
@@ -91,33 +91,27 @@ $$
 M(\eta,d) = \varphi^{2^{d-2}} \times (1-\eta)^{-\rho^*},
 $$
 
-where $\varphi = (1+\sqrt{5})/2$ is the [golden ratio](/a-constraint-eigenvalue-theory-of-information-matter-and-mind), $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ is the composite invariant from the constraint eigenvalue geometry, and $\eta$ is the dissipation coefficient representing fraction of capacity dedicated to maintenance overhead.
+where $\varphi = (1+\sqrt{5})/2$ is the [golden ratio](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ is the composite invariant from constraint geometry, and $\eta$ is the [dissipation field](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) representing fraction of capacity dedicated to maintenance overhead.
 
-The bankruptcy factor $(1-\eta)^{-\rho^*}$ diverges as $\eta$ approaches unity. At the critical threshold,
+The complexity multiplier $(1-\eta)^{-\rho^*}$ grows nonlinearly as maintenance overhead increases, diverging as $\eta \to 1$. The critical exponent $\nu = 1/\rho^* \approx 0.304$ governs how rapidly coherence length diverges near organizational phase transitions—setting the pace at which maintenance costs accelerate.
 
-$$
-\eta_c = \frac{1}{\rho^*} \approx 0.304,
-$$
-
-systems face catastrophic reorganization. Beyond 30% overhead dedicated to coordination rather than productive work, maintaining coherence requires exponentially increasing energy. This isn't gradual degradation—it's mathematical divergence.
-
-For an organization operating at $\eta = 0.3$ (approaching the threshold), the overhead multiplier reaches,
+For an organization operating at $\eta = 0.3$, the overhead multiplier reaches,
 
 $$
 M(0.3) = (0.7)^{-3.29} \approx 2.9.
 $$
 
-Nearly a factor of 3 increase in required energy. At $\eta = 0.35$ (past the threshold),
+Nearly a factor of 3 increase in required energy over baseline. At $\eta = 0.35$,
 
 $$
 M(0.35) = (0.65)^{-3.29} \approx 4.1.
 $$
 
-The overhead explodes. This threshold appears across 57 orders of magnitude in physical systems—from QCD confinement to white dwarf collapse to organizational bankruptcy. The same mathematical structure governs nuclear binding, gravitational systems, and human organizations.
+The overhead accelerates sharply. Empirically, organizations approaching 30% coordination overhead—roughly where the multiplier reaches 3×—tend to face catastrophic reorganization. The same coupling constant $\rho^* \approx 3.29$ appears across physical systems from white dwarf collapse to organizational dynamics, governing the rate at which maintenance costs compound.
 
 ## Predictable Failure Timescales
 
-Systems claiming exemption from maintenance costs fail at quantitatively predictable timescales when overhead exceeds the bankruptcy threshold. The failure timescale follows,
+Systems approaching the critical overhead regime fail at quantitatively predictable timescales. Defining an empirical critical overhead $\eta_c \approx 0.30$—the regime where the complexity multiplier exceeds 3×—the failure timescale follows,
 
 $$
 t_{\text{failure}} = t_{\text{char}} \times \exp\left[\rho^* \times \frac{\eta_c - \eta}{\eta_c}\right],
@@ -125,13 +119,13 @@ $$
 
 where $t_{\text{char}}$ is characteristic organizational timescale and $\eta$ is actual overhead.
 
-Consider a company with a quarterly reporting cycle ($t_{\text{char}} = 0.25$ years) operating at $\eta = 0.35$—past the bankruptcy threshold. The framework predicts,
+Consider a company with a quarterly reporting cycle ($t_{\text{char}} = 0.25$ years) operating at $\eta = 0.35$—past the critical regime. The framework predicts,
 
 $$
-t_{\text{failure}} = 0.25 \times \exp\left[3.29 \times \frac{0.304 - 0.35}{0.304}\right] \approx 0.22 \text{ years}.
+t_{\text{failure}} = 0.25 \times \exp\left[3.29 \times \frac{0.30 - 0.35}{0.30}\right] \approx 0.14 \text{ years}.
 $$
 
-Collapse within 2-3 quarters. This matches observed behavior when high-growth companies suddenly miss targets and cascade into insolvency. The trigger isn't external shock—it's crossing the information bankruptcy threshold where maintaining organizational coherence requires more energy than available capacity.
+Collapse within a single quarter. This matches observed behavior when high-growth companies suddenly miss targets and cascade into insolvency. The trigger isn't external shock—it's crossing into a regime where maintaining organizational coherence requires more energy than available capacity.
 
 Organizations demanding constant availability accumulate maintenance debt through the $(1-\eta)^{-\rho^*}$ overhead factor. For an individual operating at $\eta = 0.95$ (5% capacity toward personal maintenance),
 
@@ -141,13 +135,13 @@ $$
 
 Maintaining this state requires a factor of 229 increase in available energy—impossible without an external source. The system draws from stored reserves (sleep, health, relationships) until reserves deplete, typically 6-18 months. This matches empirical burnout timelines in high-intensity organizations[^10]. The math predicts the timeline.
 
-Software projects exhibit the same dynamics. Code complexity grows with features while refactoring capacity remains constant. When complexity overhead exceeds the critical threshold, more effort goes toward managing existing complexity than adding capability. For a project with a monthly release cycle and complexity overhead $\eta = 0.32$,
+Software projects exhibit the same dynamics. Code complexity grows with features while refactoring capacity remains constant. When complexity overhead exceeds the critical regime, more effort goes toward managing existing complexity than adding capability. For a project with a monthly release cycle and complexity overhead $\eta = 0.32$,
 
 $$
-t_{\text{failure}} = 1 \times \exp\left[3.29 \times \frac{0.304 - 0.32}{0.304}\right] \approx 0.85 \text{ months}.
+t_{\text{failure}} = 1 \times \exp\left[3.29 \times \frac{0.30 - 0.32}{0.30}\right] \approx 0.80 \text{ months}.
 $$
 
-Development velocity collapse within a single sprint. This matches common experience where teams suddenly "can't ship anything" despite no obvious trigger[^11]. The trigger is crossing the information bankruptcy threshold.
+Development velocity collapse within a single sprint. This matches common experience where teams suddenly "can't ship anything" despite no obvious trigger[^11]. The trigger is crossing into the critical overhead regime.
 
 ## Testable Predictions
 
@@ -155,7 +149,7 @@ The framework generates falsifiable predictions where mechanisms are well-specif
 
 Any biological communication system with serial actuator constraints should exhibit characteristic information rate determined by mechanical timescales. Sign languages use visual channel and different articulators but face similar mechanical constraints. Measured over extended conversations accounting for error correction, American Sign Language, British Sign Language, and Japanese Sign Language should yield $\dot{I} = 39 \pm 5$ bits per second. West African talking drums and Silbo Gomero whistle language face different constraints but similar serial bottlenecks. Deviations would identify rate-limiting mechanisms beyond tissue mechanics.
 
-Companies approaching $\eta = 0.304$ coordination overhead should exhibit measurable decline in development velocity. Tracking meeting time, communication overhead, and decision latency as fraction of productive capacity should yield inflection point at critical threshold, with catastrophic decline beyond. This can be tested by monitoring development metrics—features shipped, stories completed, bugs fixed—against organizational structure and coordination costs. The framework predicts universal threshold independent of domain.
+Companies approaching $\eta \approx 0.30$ coordination overhead should exhibit measurable decline in development velocity. Tracking meeting time, communication overhead, and decision latency as fraction of productive capacity should yield inflection near the 3× multiplier regime, with accelerating decline beyond. This can be tested by monitoring development metrics—features shipped, stories completed, bugs fixed—against organizational structure and coordination costs. The framework predicts a universal scaling law independent of domain.
 
 Biological information processors should operate near $\eta_{\text{bio}} \sim 0.1$ ceiling. Organisms dedicating larger metabolic fraction to neural tissue should show reduced capacity for other functions—growth, reproduction, immune response. Artificial systems approaching fundamental processing limits should face similar energy tradeoffs. Quantum computers and neural networks cannot escape thermodynamic constraints regardless of architectural cleverness.
 
@@ -163,7 +157,7 @@ Software projects should exhibit velocity collapse when complexity metrics excee
 
 ## Speculative Extensions
 
-The rigorous results—speech rate from biomechanics, metabolic overhead ceiling, organizational bankruptcy threshold—follow from first principles. Several additional patterns align with information-theoretic constraints but require more empirical inputs or involve multiple contributing factors. **The following connections are suggestive, not proven.**
+The rigorous results—speech rate from biomechanics, metabolic overhead ceiling, organizational overhead scaling—follow from first principles. Several additional patterns align with information-theoretic constraints but require more empirical inputs or involve multiple contributing factors. **The following connections are suggestive, not proven.**
 
 Social group sizes show remarkable consistency across contexts. Hunter-gatherer clan sizes average 148 individuals[^12]. Roman military maniples contained 120-160 soldiers. Gore-Tex maintains factory sizes below 150 employees[^13]. Hutterite communities split when reaching 150 members[^14]. Time budget arguments provide one explanation: maintaining relationship requires periodic interaction, available social time constrains total relationships, meaningful relationships requiring roughly 1 hour per month average maintenance[^15] yield capacity around 200-250 connections. Dunbar's neocortex ratio[^12] provides alternative correlation: primate neocortex size predicts social group size through empirical power law yielding approximately 150 for humans. These converging estimates suggest real constraint around this threshold, though the mechanism likely involves multiple factors—working memory limits, theory of mind processing costs, reciprocity tracking overhead, time budgets. The pattern is consistent with information-theoretic limits but not derivable from first principles like speech rate.
 
@@ -175,11 +169,9 @@ Historical patterns show convergent evolution across isolated civilizations. Anc
 
 The information maintenance costs govern systems from elementary particles to human organizations. The correspondence between [binding energy as thermodynamic tax](/binding-energy-critical-radii-and-information-maintenance-tax) and organizational overhead reveals a partial unity—physical systems and information processors both face energy costs for pattern maintenance.
 
-The strongest results emerge from first-principles derivation. Speech rate at 39 bits per second follows from tissue viscosity determining phoneme rate and optimal inventory around 40 phonemes yielding 36 bits per second within 8% of observed. Biological overhead at $\eta_{\text{bio}} \sim 0.1$ emerges from metabolic measurements showing the brain operates at maximum sustainable maintenance fraction. Bankruptcy threshold at $\eta_c \approx 0.304$ derives from the complexity multiplier $(1-\eta)^{-\rho^*}$ with $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ emerging from the [constraint eigenvalue geometry](/a-constraint-eigenvalue-theory-of-information-matter-and-mind), appearing across physical and organizational systems.
+The strongest results emerge from first-principles derivation. Speech rate at 39 bits per second follows from tissue viscosity determining phoneme rate and optimal inventory around 40 phonemes yielding 36 bits per second within 8% of observed. Biological overhead at $\eta_{\text{bio}} \sim 0.1$ emerges from metabolic measurements showing the brain operates at maximum sustainable maintenance fraction. The complexity multiplier $(1-\eta)^{-\rho^*}$ with $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ from [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) governs the rate at which organizational overhead compounds, with the critical exponent $\nu = 1/\rho^* \approx 0.304$ setting the pace of divergence.
 
-The coupling constant $\rho^* = 3.29$ appears across scales from QCD confinement to organizational bankruptcy. When one curvature sector saturates, the decade partition $\rho^*/10 \approx 32.9\%$ marks the structural threshold while $(10-\rho^*)/10 \approx 67.1\%$ remains as capacity. Similar partitions appear in [the genetic code](/complex-adaptable-systems-complexity-ladders-and-agency) (21 minimum codons = 32.81%, 43 redundant = 67.19%) and [cosmological constants](/the-anthropic-thermodynamic-principle) (matter 31.5%, dark energy 68.5%). These are signatures of triadic competition under constraint projection, not universal fixed splits—the organizing principle is which sector saturates first, not numerical equality.
-
-Human organizations are physical systems operating under thermodynamic constraints. The same principles explaining [computational speed limits](/the-thermodynamic-computational-speed-limit) in black holes provide frameworks for understanding organizational failure modes. This unity suggests information physics as more fundamental than previously recognized, though extensions to complex sociotechnical systems require careful attention to operational definitions and empirical validation.
+Human organizations are physical systems operating under thermodynamic constraints. The same principles explaining [computational speed limits](/hilberts-sixth-problem-and-the-cost-of-infinite-information) provide frameworks for understanding organizational failure modes. This unity suggests information physics as more fundamental than previously recognized, though extensions to complex sociotechnical systems require careful attention to operational definitions and empirical validation.
 
 The framework makes quantitative predictions where mechanisms are well-specified and offers suggestive patterns where multiple factors contribute. The distinction matters. Speech rate derivation requires no free parameters and matches observation to 8%. Social group sizes show convergent evidence but lack first-principles derivation. Market dynamics exhibit phase transitions but operational mapping needs development. Maintaining this distinction—between rigorous derivation, strong phenomenology, and speculative extension—keeps the science honest while exploring potentially deep connections.
 

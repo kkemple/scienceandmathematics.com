@@ -52,10 +52,10 @@ $$
 The theory's central prediction is that this parameter evolves according to a β-flow with a universal coupling constant:
 
 $$
-\rho^* = \frac{4\pi\tau^2}{10} \approx 3.29,
+\rho^* = \frac{4\pi\varphi^2}{10} \approx 3.29,
 $$
 
-where $\tau = \frac{1+\sqrt{5}}{2}$ is the golden ratio. This value emerges from requiring consistent triadic competition across the three curvature sectors—the only mathematical structure that permits stable competition without immediate collapse to a two-sector or single-sector solution.
+where $\varphi = \frac{1+\sqrt{5}}{2}$ is the golden ratio. This value emerges from requiring consistent triadic competition across the three curvature sectors—the only mathematical structure that permits stable competition without immediate collapse to a two-sector or single-sector solution.
 
 The golden ratio appears because triadic systems require a coupling that cannot be expressed as a ratio of small integers. Simple rational couplings create resonances that either eliminate one sector or cause the system to oscillate unstably between configurations. The golden ratio, being the "most irrational" number with continued fraction representation $[1;1,1,1,...]$, provides the optimal balance for sustained three-way competition.
 
