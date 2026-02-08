@@ -7,7 +7,7 @@ export const themeConfig: ThemeConfig = {
 		title: "Science & Mathematics", // Site title
 		author: "Kurtis Kemple", // Author name
 		description:
-			"Science & Mathematics explores information physics across quantum, biological, and sociotechnical systems with rigorous derivations, data, and cross-disciplinary synthesis.", // Site description
+			"This body of work reframes agency, coordination, and emergence as thermodynamically constrained phenomena governed by feasibility, horizon adequacy, and irreducible maintenance costs, unifying behavior across physical, biological, and social systems.", // Site description
 		language: "en-US", // Default language
 	},
 
