@@ -2,9 +2,9 @@
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
 description: "Three incompatible curvature sectors compete under one constraint functional, forcing ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a dissipation β-function with zero free parameters."
 pubDate: '2025-11-28'
-zenodoDepositionId: 18511951
-zenodoUrl: "https://zenodo.org/records/18511951"
-doi: "10.5281/zenodo.18511951"
+zenodoDepositionId: 18527226
+zenodoUrl: "https://zenodo.org/records/18527226"
+doi: "10.5281/zenodo.18527226"
 updatedDate: '2026-02-06'
 keywords:
   - "constraint geometry"
@@ -29,7 +29,7 @@ zenodoDescription: |
 
   A negative selection argument forces the discrete sector to carry C₁₀ = C₂ × C₅ symmetry. The crystallographic restriction eliminates periodic groups, φ-compatibility eliminates all remaining quasicrystal families, and binary closure demands the C₂ factor. C₁₀ is the unique survivor. All three sector constants are now geometrically determined.
 
-  The dissipation β-function β(η,d) = -η(1-η)[ρ* + (d-2)ln(φ)/2], with ρ* = 4πφ²/10 ≈ 3.29, is derived through standard Wilsonian renormalization. Every constant traces to a geometric necessity. Symmetry protection ensures no higher-order corrections arise. The universal critical exponent ν = 1/ρ* ≈ 0.304 governs coherence-length divergence at organizational phase transitions.
+  The dissipation β-function β(η,d) = -η(1-η)[ρ* + (d-2)ln(φ)/2], with ρ* = 4πφ²/10 ≈ 3.29, is derived through standard Wilsonian renormalization, with higher-order contributions forbidden by a vertex selection rule enforced by the exact recursion symmetry of the constraint functional. The universal critical exponent ν = 1/ρ* ≈ 0.304 governs coherence-length divergence at organizational phase transitions.
 
   Quantitative evidence: white dwarf cooling anomalies at R/R_S = 10³ matching the structural saturation threshold (18,937 objects, p = 0.0015), Type Ia supernova energies matching Landauer bit-counting predictions (4.3 × 10⁴⁴ J), Penrose polariton quasicrystals realizing all three sectors in a single device, and black hole spin population fractions from GWTC catalogs matching predictions derived from ρ* (164 BBH mergers, deviation 0.1σ).
 ---
@@ -54,7 +54,7 @@ $$
 \beta(\eta, d) = -\eta(1-\eta)\left[\rho^* + \frac{d-2}{2}\ln\varphi\right],
 $$
 
-where $\eta \in [0,1]$ is the dissipation field measuring the fraction of a system's energy budget devoted to curvature maintenance, $d$ is effective spatial dimension, and $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ is the tree-level coupling constant. The logistic factor $\eta(1-\eta)$ reflects bounded competition at the two fixed points $\eta = 0$ (no structure) and $\eta = 1$ (all energy in maintenance). The dimensional correction $(d-2)\ln\varphi/2$ captures recursive degeneracy beyond the critical dimension $d = 2$. Symmetry protection by self-similarity, decade symmetry, and the eigenvalue theorem ensures that no higher-order corrections arise. The universal critical exponent $\nu = 1/\rho^* \approx 0.304$ governs how coherence length diverges as systems approach organizational phase transitions.
+where $\eta \in [0,1]$ is the dissipation field measuring the fraction of a system's energy budget devoted to curvature maintenance, $d$ is effective spatial dimension, and $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ is the tree-level coupling constant. The logistic factor $\eta(1-\eta)$ reflects bounded competition at the two fixed points $\eta = 0$ (no structure) and $\eta = 1$ (all energy in maintenance). The dimensional correction $(d-2)\ln\varphi/2$ captures recursive degeneracy beyond the critical dimension $d = 2$. A vertex selection rule enforced by the recursion symmetry (§5.8) forbids all non-Gaussian couplings at the self-similar fixed point, making the one-loop result exact. The universal critical exponent $\nu = 1/\rho^* \approx 0.304$ governs how coherence length diverges as systems approach organizational phase transitions.
 
 The constraint functional admits multiple eigenbranch families — Penrose $(\pi, \varphi, 10)$, Ammann–Beenker $(\pi, 1+\sqrt{2}, 8)$, dodecagonal $(\pi, 2+\sqrt{3}, 12)$ — each representing a distinct resolution of the triadic competition. The Penrose branch dominates natural systems because the golden ratio is the worst-approximable irrational number (Hurwitz's theorem), providing maximal resonance protection among all candidate inflation eigenvalues. Other branches exist as metastable states with higher ground-state curvature.
 
@@ -518,7 +518,7 @@ The Penrose eigenbranch dominates natural systems because $\varphi$ sits at the 
 
 The dissipation field $\eta \in [0,1]$ measures the fraction of a system's energy budget devoted to curvature maintenance against entropy. Elementary particles maintain $\eta \sim 10^{-6}$, atoms $\sim 10^{-3}$, molecules $\sim 10^{-2}$, biological systems $\sim 10^{-1}$, and black holes saturate at $\eta = 1$. The Wilsonian question: as we coarse-grain from scale $\mu$ to $\mu + \delta\mu$ (integrating out fast modes in a thin shell), how does the effective $\eta$ change?
 
-The derivation decomposes into four independently derivable steps, followed by a formal Wilsonian construction showing that no higher-order corrections arise.
+The derivation decomposes into four independently derivable steps, followed by a formal Wilsonian construction and a symmetry-enforced vertex selection rule that makes the result exact.
 
 ### 5.1 The Logistic Factor $\eta(1-\eta)$
 
@@ -610,7 +610,7 @@ At $\eta = 0$, dimension remains constant (vacuum preserves dimensionality). As 
 
 ### 5.6 Formal Wilsonian Derivation
 
-The preceding construction assembled the $\beta$-function from physical and geometric arguments. The standard Wilsonian RG procedure, applied directly to the constraint functional, recovers $\rho^*$ as the tree-level coupling and $(d-2)\ln\varphi/2$ as the one-loop correction — and no higher-order corrections arise.
+The preceding construction assembled the $\beta$-function from physical and geometric arguments. The standard Wilsonian RG procedure, applied directly to the constraint functional, recovers $\rho^*$ as the tree-level coupling and $(d-2)\ln\varphi/2$ as the one-loop correction. The absence of higher-order corrections is established by the vertex selection rule in §5.8.
 
 Consider the constraint functional $F[P]$ with UV cutoff at scale $\mu$. The modes of $P$ decompose into slow modes $P_<$ (scale $< \mu$) and fast modes $P_>$ (scale in the shell $[\mu, \mu + \delta\mu]$). The standard Wilsonian step integrates out $P_>$,
 
@@ -628,13 +628,49 @@ At tree level, the three exact constraints (self-similarity, decade symmetry, ei
 
 At one loop, the Hessian $H = F''[P_0]$ inherits the sector decomposition. Because the three sectors penalize orthogonal curvature types, the Hessian is block-diagonal at leading order: $H \approx H_\pi \oplus H_\varphi \oplus H_N$. At $d = 2$, the one-loop contribution is already absorbed into $\rho^*$ — the factor $\varphi^2$ in the composite invariant reflects the recursive degeneracy at $d = 2$. For $d > 2$, the recursive degeneracy grows from $\varphi^2$ to $\varphi^d$, and the excess contribution is $(d-2)\ln\varphi/2$, recovering the dimensional correction.
 
-### 5.7 Symmetry Protection: Why Higher Loops Vanish
+### 5.7 Tree-Level Protection
 
 The tree-level coupling $\rho^*$ is exact to all orders. Any correction to the curvature per shell would require violating at least one of the three defining constraints: a scale-dependent correction would break self-similarity ($\varphi$-sector), a shell-dependent correction would break decade symmetry ($C_{10}$), and a correction to the total curvature per period would contradict the eigenvalue theorem ($I = 4\pi\varphi^2$). Since all three are exact symmetries of the ground state, $\rho^* = I/10$ is protected against perturbative corrections at every order.
 
-The dimensional correction is one-loop exact. The recursion $T_\varphi: \mu \to \varphi\mu$ is an exact symmetry of the constraint functional, mapping the ground state to itself and modes to modes with eigenvalue scaled by $\varphi^2$. The degeneracy ratio $\varphi^d$ is a counting identity. At the self-similar ground state, expanding $F[P_0 + \delta P]$ and applying $T_\varphi$, each order-$n$ coefficient $g_n$ must satisfy $g_n(\varphi^n - \varphi^2) = 0$ (since $T_\varphi$ scales $F$ by $\varphi^2$ while scaling the $n$-th order term by $\varphi^n$). For $n > 2$, this forces $g_n = 0$: the anharmonic couplings vanish identically at the self-similar fixed point. The Gaussian (one-loop) calculation is exact, not an approximation.
+### 5.8 Symmetry Protection and Loop Truncation
 
-The $\beta$-function $\beta(\eta, d) = -\eta(1-\eta)[\rho^* + (d-2)\ln\varphi/2]$ receives no perturbative corrections beyond what is written. Every element is derived, every constant is geometrically forced, and no free parameters enter.
+The dimensional correction is one-loop exact. This is not an approximation truncated at leading order — it is a selection rule enforced by the recursion symmetry of the constraint functional.
+
+The recursion $T_\varphi: \mu \to \varphi\mu$ is an exact symmetry of the constraint functional on the Penrose eigenbranch: it maps the ground state $P_0$ to itself and modes to modes with eigenvalue scaled by $\varphi^2$, the recursive sector's eigenvalue derived from the self-consistency equation $x = 1 + 1/x$ (§2.2). At the self-similar ground state, the constraint functional therefore satisfies the exact identity
+
+$$
+F[P_0 + T_\varphi \delta P] = \varphi^2 \, F[P_0 + \delta P],
+$$
+
+where the scaling exponent $\varphi^2$ is inherited from the $\varphi$-sector eigenvalue. Now expand $F$ around $P_0$ in powers of the fluctuation $\delta P$,
+
+$$
+F[P_0 + \delta P] = F[P_0] + \sum_{n \geq 1} \frac{1}{n!} \, g_n[\delta P^{\,n}],
+$$
+
+where $g_n$ denotes the $n$-linear vertex functional (the $n$-th functional derivative of $F$ evaluated at the ground state). Under the recursion symmetry, $T_\varphi$ scales $\delta P$ so that each $n$-th order term picks up a factor $\varphi^n$. Applying the exact identity and matching coefficients order by order,
+
+$$
+\varphi^n \, g_n = \varphi^2 \, g_n \quad \Rightarrow \quad g_n(\varphi^n - \varphi^2) = 0.
+$$
+
+Since $\varphi$ is irrational, $\varphi^n \neq \varphi^2$ for all $n \neq 2$. Therefore all vertices beyond quadratic order vanish identically at the self-similar ground state:
+
+$$
+g_n = 0 \quad \text{for } n > 2.
+$$
+
+The fluctuation theory about the self-similar ground state is exactly Gaussian.
+
+This has a direct Wilsonian interpretation. Higher-loop corrections to the effective action arise only from non-Gaussian cumulants generated by cubic and higher vertices in the saddle-point expansion (§5.6). Because the recursion symmetry forbids all such vertices at the fixed point, the functional integral over fast modes terminates at the Gaussian determinant — the one-loop term $\frac{1}{2}\operatorname{Tr}_{\text{shell}} \ln F''_>$ is the final contribution. No higher-loop renormalization of the dissipation coupling exists.
+
+The $\beta$-function
+
+$$
+\beta(\eta, d) = -\eta(1-\eta)\left[\rho^* + \frac{d-2}{2}\ln\varphi\right]
+$$
+
+therefore receives no perturbative corrections beyond what is written. The tree-level coupling is protected by the three geometric constraints (§5.7). The one-loop correction is protected by the recursion symmetry's vertex selection rule. Every constant is geometrically forced, and no free parameters enter.
 
 ## Part II — Physical Evidence
 
@@ -730,7 +766,7 @@ The triadic competition also explains why dimensionality is an energetic liabili
 
 ## 10. Discussion and Conclusion
 
-The framework rests on a chain of proven results. The triadic tension theorem (Section 3) establishes that three curvature sectors — angular, recursive, and discrete — cannot be simultaneously minimized (T1), are anticorrelated (T2), are genuinely independent (T3), and produce nonzero ground-state curvature (T4). The negative selection argument (Section 4) forces the discrete sector to carry $C_{10} = C_2 \times C_5$ symmetry — the unique cyclic group surviving the crystallographic restriction, $\varphi$-compatibility, and binary closure. The dissipation $\beta$-function (Section 5) follows from standard Wilsonian renormalization, with every constant tracing to a geometric necessity and symmetry protection ensuring no higher-order corrections.
+The framework rests on a chain of proven results. The triadic tension theorem (Section 3) establishes that three curvature sectors — angular, recursive, and discrete — cannot be simultaneously minimized (T1), are anticorrelated (T2), are genuinely independent (T3), and produce nonzero ground-state curvature (T4). The negative selection argument (Section 4) forces the discrete sector to carry $C_{10} = C_2 \times C_5$ symmetry — the unique cyclic group surviving the crystallographic restriction, $\varphi$-compatibility, and binary closure. The dissipation $\beta$-function (Section 5) follows from standard Wilsonian renormalization, with every constant tracing to a geometric necessity and a vertex selection rule enforced by the recursion symmetry (§5.8) making the one-loop result exact.
 
 Three independent lines of quantitative evidence support the framework's predictions. The white dwarf cooling anomaly at $R/R_S = 10^3$ in 18,937 objects matches the structural saturation threshold $\rho^*/10 \approx 0.329$ at significance $p = 0.0015$ (Section 6). The Type Ia supernova energy of $4.3 \times 10^{44}$ J derived from Landauer bit-counting matches observed values. Penrose polariton quasicrystals realize all three constraint sectors in a single device, with corroboration from solid-state quasicrystal growth and optomechanical synthetic flux lattices (Section 7). Black hole spin population fractions from 164 GWTC binary mergers match predictions derived from $\rho^*$ within measurement uncertainty (Section 8).
 
