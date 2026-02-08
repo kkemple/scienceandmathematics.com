@@ -7,7 +7,7 @@ export const themeConfig: ThemeConfig = {
 		title: "Science & Mathematics", // Site title
 		author: "Kurtis Kemple", // Author name
 		description:
-			"This body of work reframes agency, coordination, and emergence as thermodynamically constrained phenomena governed by feasibility, horizon adequacy, and irreducible maintenance costs, unifying behavior across physical, biological, and social systems.", // Site description
+			"This work studies agency, coordination, and emergence as thermodynamically constrained phenomena governed by feasibility, planning horizon adequacy, and irreducible maintenance costs across physical, biological, and social systems.", // Site description
 		language: "en-US", // Default language
 	},
 

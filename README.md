@@ -1,6 +1,6 @@
 # Science & Mathematics 🧬
 
-This body of work reframes agency, coordination, and emergence as thermodynamically constrained phenomena governed by feasibility, horizon adequacy, and irreducible maintenance costs, unifying behavior across physical, biological, and social systems.
+This work studies agency, coordination, and emergence as thermodynamically constrained phenomena governed by feasibility, planning horizon adequacy, and irreducible maintenance costs across physical, biological, and social systems.
 
 Built with [Astro](https://astro.build) using the minimal Chiri theme, optimized for mathematical content with KaTeX support.
 
