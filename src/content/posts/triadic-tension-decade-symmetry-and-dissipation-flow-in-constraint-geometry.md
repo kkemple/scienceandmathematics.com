@@ -2,9 +2,9 @@
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
 description: "Three incompatible curvature sectors compete under one constraint functional, forcing ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a dissipation β-function with zero free parameters."
 pubDate: '2025-11-28'
-zenodoDepositionId: 18527226
-zenodoUrl: "https://zenodo.org/records/18527226"
-doi: "10.5281/zenodo.18527226"
+zenodoDepositionId: 18527316
+zenodoUrl: "https://zenodo.org/records/18527316"
+doi: "10.5281/zenodo.18527316"
 updatedDate: '2026-02-06'
 keywords:
   - "constraint geometry"
@@ -761,6 +761,19 @@ $$
 $$
 
 Empirical confirmation comes from direct numerical simulation of three-dimensional Navier–Stokes turbulence at Reynolds number $Re_\lambda \approx 430$. In regions of high vorticity, states where stretching and multiscale recursion are locally balanced show residence times of 1–2 timesteps across all tested thresholds $\varepsilon \in \{0.03, 0.05, 0.08, 0.10\}$. Escape from balance typically occurs by loss of local recursive coherence rather than immediate collapse of stretching — consistent with the triadic mechanism where correction in one sector destabilizes another.
+
+The preceding sections establish four distinct objects. It is worth separating them cleanly, because their logical roles differ:
+
+| Concept | Scope | Status |
+|---------|-------|--------|
+| Triadic tension | Global structural theorem | Proved (Section 3): no configuration minimizes two sectors simultaneously |
+| Dissipation flow | Global dynamical law | Derived (Section 5): exact $\beta$-function with no free parameters |
+| Cycling | Local dynamical consequence | Proved (above): irreducible curl from state-dependent constraints |
+| Critical approach regime | Where cycling becomes dominant | Defined below |
+
+The **critical approach regime** is the interval of the dissipation flow in which curvature tradeoffs are binding, absorption capacity remains nonzero, and no integrable correction exists. It is bounded by two thresholds. The entry condition is structural saturation at $\rho^*/10 \approx 0.329$, where the discrete sector becomes binding and $C_{10}$ closure can no longer remain soft (Section 6). The exit condition is maintenance bankruptcy at $\eta \to 1$, where the logistic factor $\eta(1-\eta)$ drives absorption capacity to zero. Between these thresholds, $\eta$ is large enough that sector tradeoffs are binding, yet $1-\eta$ is not negligible — the system lingers.
+
+Inside this regime, the coexistence of slowing flow and irreducible frustration produces oscillatory dynamics as a structural consequence, not a modeling choice. Near $\eta \to 1$, the $\beta$-function behaves as $\beta \sim -(1-\eta)[\rho^* + (d-2)\ln\varphi/2]$, so changes in $\eta$ become small per unit RG time. Simultaneously, strict frustration (T2) prevents convergence to any stable compromise — corrections that reduce one sector increase pressure in the other two. The result is cycling through transient balance configurations under a slowing flow: oscillation as the normal form of frustrated correction. This is the structural reason that the richest dynamics concentrate in approach rather than at equilibrium or after collapse.
 
 The triadic competition also explains why dimensionality is an energetic liability. Each additional degree of freedom introduces new curvature modes requiring continuous maintenance, and these penalties scale superlinearly with dimension. Finite systems cannot afford high-dimensional curvature indefinitely. When maintenance cost rises beyond sustainable levels, coherent systems reduce dimensionality by projection onto lower-dimensional manifolds — curvature minimization finding the lowest-maintenance configuration compatible with the constraints. Near gravitational horizons, effective dimension flows from 3 to 2 as radial information flow freezes while tangential flow remains free (Appendix B). The holographic principle[^18][^19][^20] — entropy scaling with area rather than volume — reflects this dimensional economics. Systems consistently flow toward the lowest dimension their constraints permit.
 
