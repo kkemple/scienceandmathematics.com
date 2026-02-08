@@ -3,9 +3,9 @@ title: 'Binding Energy, Critical Radii, & Information Maintenance Tax'
 description: "Binding energy as thermodynamic maintenance cost via Landauer's principle. White dwarf analysis reveals a phase transition at R/R_S ≈ 10³, and bit-counting predicts Type Ia supernova energy to 4.3 × 10⁴⁴ J."
 pubDate: '2025-10-14'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18528967
-zenodoUrl: "https://zenodo.org/records/18528967"
-doi: "10.5281/zenodo.18528967"
+zenodoDepositionId: 18529039
+zenodoUrl: "https://zenodo.org/records/18529039"
+doi: "10.5281/zenodo.18529039"
 keywords:
   - "Landauer principle"
   - "binding energy"
@@ -150,7 +150,7 @@ Independent analysis of two white dwarf catalogs—the Montreal White Dwarf Data
 
 The discrete, threshold-like character of the effect—rather than a continuous gradient with mass—suggests a phase transition in constraint geometry. Once a white dwarf crosses into the R/R_S < 1000 regime, it enters a qualitatively different organizational basin characterized by accelerated entropy production and faster evolution through state space. This is consistent with sector saturation in the constraint eigenvalue framework: at R/R_S ≈ 10³, one organizational sector reaches capacity, forcing reconfiguration whose thermodynamic cost manifests as ~100 Myr of accelerated aging.
 
-Independent observational work has recently identified anomalous behavior in ultra-massive white dwarfs concentrated near the same compactness scale. A 2026 analysis of Gaia-selected white dwarfs along the Q branch[^3] reports extended cooling delays localized to this regime, inferred from kinematic clustering and photometric evolution rather than direct age residuals. While interpreted within conventional stellar-evolution frameworks, the discreteness and localization of the effect closely mirror the threshold behavior identified here. The convergence of independent observables — cooling dwell time on the Q branch and apparent age excess relative to matched controls — suggests a structural transition in white dwarf evolution rather than a smooth modification of cooling physics, reinforcing the interpretation of $R/R_S \sim 10^3$ as a physically meaningful regime boundary rather than a model-dependent artifact.
+Independent observational work has recently identified anomalous behavior in ultra-massive white dwarfs concentrated near the same compactness scale. A 2026 analysis of Gaia-selected white dwarfs along the Q branch[^3] reports extended cooling delays localized to this regime, inferred from kinematic clustering and photometric evolution rather than direct age residuals. While interpreted within conventional stellar-evolution frameworks, the discreteness and localization of the effect closely mirror the threshold behavior identified here. The convergence of independent observables — cooling dwell time on the Q branch and apparent age excess relative to matched controls — suggests a structural transition in white dwarf evolution rather than a smooth modification of cooling physics, reinforcing the interpretation of $R/R_S \sim 10^3$ as a physically meaningful regime boundary across independent observational parameterizations rather than a model-dependent artifact.
 
 ## The Discontinuous Jump to Neutron Degeneracy
 
