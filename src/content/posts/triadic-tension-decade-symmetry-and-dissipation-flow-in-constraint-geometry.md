@@ -2,9 +2,9 @@
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
 description: "Three incompatible curvature sectors compete under one constraint functional, forcing ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a dissipation β-function with zero free parameters."
 pubDate: '2025-11-28'
-zenodoDepositionId: 18527316
-zenodoUrl: "https://zenodo.org/records/18527316"
-doi: "10.5281/zenodo.18527316"
+zenodoDepositionId: 18528397
+zenodoUrl: "https://zenodo.org/records/18528397"
+doi: "10.5281/zenodo.18528397"
 updatedDate: '2026-02-06'
 keywords:
   - "constraint geometry"
@@ -779,7 +779,7 @@ The triadic competition also explains why dimensionality is an energetic liabili
 
 ## 10. Discussion and Conclusion
 
-The framework rests on a chain of proven results. The triadic tension theorem (Section 3) establishes that three curvature sectors — angular, recursive, and discrete — cannot be simultaneously minimized (T1), are anticorrelated (T2), are genuinely independent (T3), and produce nonzero ground-state curvature (T4). The negative selection argument (Section 4) forces the discrete sector to carry $C_{10} = C_2 \times C_5$ symmetry — the unique cyclic group surviving the crystallographic restriction, $\varphi$-compatibility, and binary closure. The dissipation $\beta$-function (Section 5) follows from standard Wilsonian renormalization, with every constant tracing to a geometric necessity and a vertex selection rule enforced by the recursion symmetry (§5.8) making the one-loop result exact.
+The framework rests on a chain of proven results. The triadic tension theorem (Section 3) establishes that three curvature sectors — angular, recursive, and discrete — cannot be simultaneously minimized (T1), are anticorrelated (T2), are genuinely independent (T3), and produce nonzero ground-state curvature (T4) — the irreducible curvature cost that every coherent configuration must continuously maintain, and whose per-shell value $\rho^* = I/10$ becomes the coupling constant of the dissipation flow. The negative selection argument (Section 4) forces the discrete sector to carry $C_{10} = C_2 \times C_5$ symmetry — the unique cyclic group surviving the crystallographic restriction, $\varphi$-compatibility, and binary closure. The dissipation $\beta$-function (Section 5) follows from standard Wilsonian renormalization, with every constant tracing to a geometric necessity and a vertex selection rule enforced by the recursion symmetry (§5.8) making the one-loop result exact.
 
 Three independent lines of quantitative evidence support the framework's predictions. The white dwarf cooling anomaly at $R/R_S = 10^3$ in 18,937 objects matches the structural saturation threshold $\rho^*/10 \approx 0.329$ at significance $p = 0.0015$ (Section 6). The Type Ia supernova energy of $4.3 \times 10^{44}$ J derived from Landauer bit-counting matches observed values. Penrose polariton quasicrystals realize all three constraint sectors in a single device, with corroboration from solid-state quasicrystal growth and optomechanical synthetic flux lattices (Section 7). Black hole spin population fractions from 164 GWTC binary mergers match predictions derived from $\rho^*$ within measurement uncertainty (Section 8).
 
