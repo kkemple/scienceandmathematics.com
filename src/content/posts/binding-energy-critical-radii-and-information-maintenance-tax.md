@@ -3,9 +3,9 @@ title: 'Binding Energy, Critical Radii, & Information Maintenance Tax'
 description: "Binding energy as thermodynamic maintenance cost via Landauer's principle. White dwarf analysis reveals a phase transition at R/R_S ≈ 10³, and bit-counting predicts Type Ia supernova energy to 4.3 × 10⁴⁴ J."
 pubDate: '2025-10-14'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18511933
-zenodoUrl: "https://zenodo.org/records/18511933"
-doi: "10.5281/zenodo.18511933"
+zenodoDepositionId: 18528967
+zenodoUrl: "https://zenodo.org/records/18528967"
+doi: "10.5281/zenodo.18528967"
 keywords:
   - "Landauer principle"
   - "binding energy"
@@ -150,19 +150,21 @@ Independent analysis of two white dwarf catalogs—the Montreal White Dwarf Data
 
 The discrete, threshold-like character of the effect—rather than a continuous gradient with mass—suggests a phase transition in constraint geometry. Once a white dwarf crosses into the R/R_S < 1000 regime, it enters a qualitatively different organizational basin characterized by accelerated entropy production and faster evolution through state space. This is consistent with sector saturation in the constraint eigenvalue framework: at R/R_S ≈ 10³, one organizational sector reaches capacity, forcing reconfiguration whose thermodynamic cost manifests as ~100 Myr of accelerated aging.
 
+Independent observational work has recently identified anomalous behavior in ultra-massive white dwarfs concentrated near the same compactness scale. A 2026 analysis of Gaia-selected white dwarfs along the Q branch[^3] reports extended cooling delays localized to this regime, inferred from kinematic clustering and photometric evolution rather than direct age residuals. While interpreted within conventional stellar-evolution frameworks, the discreteness and localization of the effect closely mirror the threshold behavior identified here. The convergence of independent observables — cooling dwell time on the Q branch and apparent age excess relative to matched controls — suggests a structural transition in white dwarf evolution rather than a smooth modification of cooling physics, reinforcing the interpretation of $R/R_S \sim 10^3$ as a physically meaningful regime boundary rather than a model-dependent artifact.
+
 ## The Discontinuous Jump to Neutron Degeneracy
 
 White dwarfs do not smoothly flow to the $(\eta=1, d=2)$ black hole fixed point. Instead, information bankruptcy forces a discontinuous organizational jump. At $M \approx M_{\text{Ch}}$, the system reaches $\eta \approx 0.97$, $d \approx 2.5$ with maintenance cost $\eta \times M \approx 477$. This overhead exceeds sustainable levels, triggering catastrophic reorganization—the white dwarf **jumps** to neutron degeneracy at $\eta \sim 0.3$, $d \sim 2.5$ with complexity $\eta \times M \approx 2.3$.
 
-The organizational complexity drops by a factor of 207, requiring massive information restructuring. The energy cost of this reorganization follows from Landauer's principle: counting the bits required to reorganize phase space information from electron to neutron degeneracy ($\Delta N_{\text{bits}} \approx 4.5 \times 10^{58}$) at the shock temperature $T \sim 10^9$ K gives a transition energy of $E_{\text{trans}} = 4.3 \times 10^{44}$ J — matching observed [Type Ia supernova energies](/type-ia-supernova-information-theoretic-energetics)[^3] to within measurement uncertainty. The full derivation, which requires only four observational inputs (Chandrasekhar mass, white dwarf radius, neutron star radius, and shock temperature) and no parameters from the constraint geometry, is developed in the [companion paper](/type-ia-supernova-information-theoretic-energetics). The white dwarf collapses because maintaining organizational complexity at $\eta \approx 0.97$ requires infinite energy through the $(1-\eta)^{-\rho^*}$ divergence.
+The organizational complexity drops by a factor of 207, requiring massive information restructuring. The energy cost of this reorganization follows from Landauer's principle: counting the bits required to reorganize phase space information from electron to neutron degeneracy ($\Delta N_{\text{bits}} \approx 4.5 \times 10^{58}$) at the shock temperature $T \sim 10^9$ K gives a transition energy of $E_{\text{trans}} = 4.3 \times 10^{44}$ J — matching observed [Type Ia supernova energies](/type-ia-supernova-information-theoretic-energetics)[^4] to within measurement uncertainty. The full derivation, which requires only four observational inputs (Chandrasekhar mass, white dwarf radius, neutron star radius, and shock temperature) and no parameters from the constraint geometry, is developed in the [companion paper](/type-ia-supernova-information-theoretic-energetics). The white dwarf collapses because maintaining organizational complexity at $\eta \approx 0.97$ requires infinite energy through the $(1-\eta)^{-\rho^*}$ divergence.
 
-The $(\eta=1, d=2)$ black hole state requires additional compression beyond neutron star density, achievable only by exceeding the Oppenheimer-Volkoff limit[^4]. White dwarf collapse represents information bankruptcy at electron degeneracy—a different failure mode with lower organizational overhead than neutron star collapse to black holes. This mechanism operates across all scales: ionization at atomic bankruptcy (~100 eV per particle), molecular dissociation at chemical limits (~10 eV per bond), stellar collapse at gravitational thresholds (~$10^{44}$ J for solar masses).
+The $(\eta=1, d=2)$ black hole state requires additional compression beyond neutron star density, achievable only by exceeding the Oppenheimer-Volkoff limit[^5]. White dwarf collapse represents information bankruptcy at electron degeneracy—a different failure mode with lower organizational overhead than neutron star collapse to black holes. This mechanism operates across all scales: ionization at atomic bankruptcy (~100 eV per particle), molecular dissociation at chemical limits (~10 eV per bond), stellar collapse at gravitational thresholds (~$10^{44}$ J for solar masses).
 
 ## Information Processing Hierarchy
 
-Black holes occupy the IR fixed point of the $\beta$-function at $(\eta = 1, d = 2)$, where all available energy is dedicated to maintaining horizon structure — maximum entropy as pure curvature maintenance with zero excess capacity[^5]. The [dimensional reduction to $d = 2$](/black-hole-horizons-and-dimensional-reduction-correspondence) at this fixed point is consistent with the holographic scaling of Bekenstein-Hawking entropy with boundary area rather than volume. All other organized systems operate at $\eta < 1$, with residual capacity $(1-\eta)$ available for organizational dynamics beyond pure pattern preservation.
+Black holes occupy the IR fixed point of the $\beta$-function at $(\eta = 1, d = 2)$, where all available energy is dedicated to maintaining horizon structure — maximum entropy as pure curvature maintenance with zero excess capacity[^6]. The [dimensional reduction to $d = 2$](/black-hole-horizons-and-dimensional-reduction-correspondence) at this fixed point is consistent with the holographic scaling of Bekenstein-Hawking entropy with boundary area rather than volume. All other organized systems operate at $\eta < 1$, with residual capacity $(1-\eta)$ available for organizational dynamics beyond pure pattern preservation.
 
-Recent observations of the tidal disruption event AT2020afhd provide an empirical window into this regime[^6]. The system exhibits synchronized X-ray and radio oscillations persisting over many dynamical times, consistent with Lense–Thirring precession driven by black hole spin. Angular momentum information remains coherently encoded in boundary geometry across extended timescales—behavior consistent with the information maintenance saturation expected as $\eta \to 1$. That such coherence emerges naturally in the strong-field limit suggests the dimensional reduction and boundary processing architecture may be generic features of gravitational information storage.
+Recent observations of the tidal disruption event AT2020afhd provide an empirical window into this regime[^7]. The system exhibits synchronized X-ray and radio oscillations persisting over many dynamical times, consistent with Lense–Thirring precession driven by black hole spin. Angular momentum information remains coherently encoded in boundary geometry across extended timescales—behavior consistent with the information maintenance saturation expected as $\eta \to 1$. That such coherence emerges naturally in the strong-field limit suggests the dimensional reduction and boundary processing architecture may be generic features of gravitational information storage.
 
 Critical mass phenomena mark bankruptcy thresholds. White dwarfs approaching the Chandrasekhar limit see the dissipation coefficient diverge through the saturating form,
 
@@ -170,7 +172,7 @@ $$
 \eta(M) = \frac{\eta_0(1 - M/M_{\text{Ch}})^{-\rho^*}}{1 + \eta_0(1 - M/M_{\text{Ch}})^{-\rho^*}},
 $$
 
-with $\eta_0 = 0.01$ and $\rho^* = 3.29$. This prevents unphysical $\eta > 1$ while capturing divergence as $M \to M_{\text{Ch}}$. Combined with the complexity multiplier, this generates the observed 2200-fold increase in organizational overhead over the mass range from stable white dwarfs to collapse. Conversely, black holes face inverted criticality through Hawking evaporation[^5],
+with $\eta_0 = 0.01$ and $\rho^* = 3.29$. This prevents unphysical $\eta > 1$ while capturing divergence as $M \to M_{\text{Ch}}$. Combined with the complexity multiplier, this generates the observed 2200-fold increase in organizational overhead over the mass range from stable white dwarfs to collapse. Conversely, black holes face inverted criticality through Hawking evaporation[^6],
 
 $$
 T_H = \frac{\hbar c^3}{8\pi G M k_B} \propto \frac{1}{M},
@@ -184,7 +186,7 @@ Every bound system — from nuclei to galaxies — pays continuous energy to mai
 
 The geometric foundation connects this observation to the [constraint geometry framework](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). [Curl](/the-geometry-of-self-correction) explains why maintenance is required: state-dependent feasibility projections introduce irreducible circulation that demands continuous energy supply. The coupling constant $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ explains when maintenance overwhelms the system: as $\eta$ approaches the bankruptcy regime, the complexity multiplier $(1-\eta)^{-\rho^*}$ diverges, integrable degrees of freedom are progressively exhausted, and the system must reorganize or collapse. Bankruptcy radii mark where accumulated curvature has consumed all available capacity.
 
-The white dwarf trajectory through the basin of attraction threshold at $R/R_S = 10^3$ confirms the predicted mechanism, and the [Type Ia supernova energy](/type-ia-supernova-information-theoretic-energetics) of $4.3 \times 10^{44}$ J from Landauer bit-counting matches observation. Black holes represent the thermodynamic endpoint where all energy maintains horizon structure — maximum entropy as pure maintenance with zero excess capacity. Critical mass phenomena from Chandrasekhar to Oppenheimer-Volkoff limits[^4] emerge as bankruptcy thresholds where organizational modes become unsustainable.
+The white dwarf trajectory through the basin of attraction threshold at $R/R_S = 10^3$ confirms the predicted mechanism, and the [Type Ia supernova energy](/type-ia-supernova-information-theoretic-energetics) of $4.3 \times 10^{44}$ J from Landauer bit-counting matches observation. Black holes represent the thermodynamic endpoint where all energy maintains horizon structure — maximum entropy as pure maintenance with zero excess capacity. Critical mass phenomena from Chandrasekhar to Oppenheimer-Volkoff limits[^5] emerge as bankruptcy thresholds where organizational modes become unsustainable.
 
 ## Attack Surface
 
@@ -192,7 +194,7 @@ The binding-as-maintenance interpretation rests on two empirical claims and one 
 
 ## Appendix: White Dwarf Anomaly Methodology
 
-The empirical analysis supporting the $R/R_S \approx 10^3$ threshold draws on two independent white dwarf catalogs[^7] with complementary strengths. The primary dataset comprises 5,519 objects with valid mass, surface gravity, effective temperature, and model-derived cooling ages from the Montreal White Dwarf Database export. The anomaly zone ($R/R_S$ = 800–1500) contains 111 objects with mean mass 1.17 $M_{\odot}$, while the reference population ($R/R_S$ > 3000) contains 5,408 objects with mean mass 0.65 $M_{\odot}$. Montreal ages derive from detailed atmospheric modeling and represent the more reliable age estimates. The secondary dataset comprises 7,496 objects pre-filtered for $R/R_S$ = 500–1500 and $M$ > 1.1 $M_{\odot}$ from Gaia DR3, with ages estimated from effective temperature and mass using a model fitted to Montreal data ($R^2$ = 0.934), introducing approximately 0.14 dex uncertainty. In this catalog, the anomaly zone ($R/R_S$ = 500–1000) contains 1,333 objects and the reference population ($R/R_S$ = 1000–1500) contains 6,163 objects.
+The empirical analysis supporting the $R/R_S \approx 10^3$ threshold draws on two independent white dwarf catalogs[^8] with complementary strengths. The primary dataset comprises 5,519 objects with valid mass, surface gravity, effective temperature, and model-derived cooling ages from the Montreal White Dwarf Database export. The anomaly zone ($R/R_S$ = 800–1500) contains 111 objects with mean mass 1.17 $M_{\odot}$, while the reference population ($R/R_S$ > 3000) contains 5,408 objects with mean mass 0.65 $M_{\odot}$. Montreal ages derive from detailed atmospheric modeling and represent the more reliable age estimates. The secondary dataset comprises 7,496 objects pre-filtered for $R/R_S$ = 500–1500 and $M$ > 1.1 $M_{\odot}$ from Gaia DR3, with ages estimated from effective temperature and mass using a model fitted to Montreal data ($R^2$ = 0.934), introducing approximately 0.14 dex uncertainty. In this catalog, the anomaly zone ($R/R_S$ = 500–1000) contains 1,333 objects and the reference population ($R/R_S$ = 1000–1500) contains 6,163 objects.
 
 For each anomaly-zone object, the analysis identifies 10 nearest neighbors in (mass, log $T_{\text{eff}}$) space from the reference population using KDTree-based matching. The age residual equals the difference between observed age and median age of matched references. Significance testing employs permutation tests (N = 500–2000), bootstrap confidence intervals, and Wilcoxon signed-rank tests.
 
@@ -204,12 +206,14 @@ High-mass white dwarfs may have systematic differences in progenitor populations
 
 [^2]: Chandrasekhar, S. (1931). The maximum mass of ideal white dwarfs. *Astrophysical Journal*, 74, 81-82.
 
-[^3]: Hillebrandt, W., & Niemeyer, J. C. (2000). Type Ia supernova explosion models. *Annual Review of Astronomy and Astrophysics*, 38(1), 191-230.
+[^3]: Ould Rouis, L. B., Hermes, J. J., Guidry, J. A., et al. (2026). White Dwarf Merger Remnants with Cooling Delays on the Q Branch Lack Strong Magnetism. *Astrophysical Journal*, submitted. arXiv:2602.02670.
 
-[^4]: Oppenheimer, J. R., & Volkoff, G. M. (1939). On massive neutron cores. *Physical Review*, 55(4), 374.
+[^4]: Hillebrandt, W., & Niemeyer, J. C. (2000). Type Ia supernova explosion models. *Annual Review of Astronomy and Astrophysics*, 38(1), 191-230.
 
-[^5]: Hawking, S. W. (1975). Particle creation by black holes. *Communications in Mathematical Physics*, 43(3), 199-220.
+[^5]: Oppenheimer, J. R., & Volkoff, G. M. (1939). On massive neutron cores. *Physical Review*, 55(4), 374.
 
-[^6]: Pasham, D. R., et al. (2025). Synchronized X-ray and radio variability from the tidal disruption event AT2020afhd consistent with Lense–Thirring precession. *Science Advances*, 11(49), eady9068.
+[^6]: Hawking, S. W. (1975). Particle creation by black holes. *Communications in Mathematical Physics*, 43(3), 199-220.
 
-[^7]: Dufour, P., et al. (2017). The Montreal White Dwarf Database. *Proceedings of the 20th European White Dwarf Workshop*, 509, 3. See also Gentile Fusillo, N. P., et al. (2021). A catalogue of white dwarfs in Gaia EDR3. *Monthly Notices of the Royal Astronomical Society*, 508(3), 3877-3896.
+[^7]: Pasham, D. R., et al. (2025). Synchronized X-ray and radio variability from the tidal disruption event AT2020afhd consistent with Lense–Thirring precession. *Science Advances*, 11(49), eady9068.
+
+[^8]: Dufour, P., et al. (2017). The Montreal White Dwarf Database. *Proceedings of the 20th European White Dwarf Workshop*, 509, 3. See also Gentile Fusillo, N. P., et al. (2021). A catalogue of white dwarfs in Gaia EDR3. *Monthly Notices of the Royal Astronomical Society*, 508(3), 3877-3896.
