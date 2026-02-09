@@ -2,9 +2,9 @@
 title: 'Compressors, Curl, & Constraint Geometry'
 description: "Axial compressors instantiate constraint geometry: the surge line is a finite-residence manifold, rotating stall is curl made visible, and balanced states are crossed but never occupied."
 pubDate: '2026-01-25'
-zenodoDepositionId: 18511937
-zenodoUrl: "https://zenodo.org/records/18511937"
-doi: "10.5281/zenodo.18511937"
+zenodoDepositionId: 18529497
+zenodoUrl: "https://zenodo.org/records/18529497"
+doi: "10.5281/zenodo.18529497"
 updatedDate: '2026-01-28'
 keywords:
   - "compressors"
@@ -97,7 +97,7 @@ The compressor application has a narrower attack surface than most posts in the 
 
 Axial compressors sit at the intersection of two results: Navier–Stokes shows why balanced amplification cannot persist, and the geometry of self-correction explains why engineering responds with projection, curl, and cycling rather than convergence. The compressor control system satisfies the premises of Theorem 4 directly — compact state space, gradient proposal, state-dependent feasibility projection, non-integrable constraints — making the irreducible curl floor a deductive consequence rather than an interpretive claim.
 
-Engineers designed around these phenomena for decades before the geometry was articulated. What the theory provides is the formal structure that unifies their empirical knowledge: the surge line is a finite-residence manifold, rotating stall is curl made visible, and the persistence of limit cycles across controller redesigns is the spectral gap of the Hodge Laplacian asserting itself in quarterly maintenance reports.
+Engineers designed around these phenomena for decades before the geometry was articulated. What the theory provides is the formal structure that unifies their empirical knowledge: the surge line is a finite-residence manifold, rotating stall is curl made visible, and the persistence of limit cycles across controller redesigns is the spectral gap of the Hodge Laplacian asserting itself in quarterly maintenance reports. The field-theoretic underpinning for why circulation patterns outlast the energy that generated them — and the conditions under which that protection fails — is developed in [Preserved Curl, Scale Separation, and Topological Leakage](/preserved-curl-scale-separation-and-topological-leakage).
 
 [^1]: Cumpsty, N. A. (2004). *Compressor Aerodynamics*. Krieger Publishing. The standard reference for axial compressor design, performance maps, and stall/surge phenomenology.
 

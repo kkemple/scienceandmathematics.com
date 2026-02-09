@@ -4,9 +4,9 @@ description: "Converging and cycling systems differ by one geometric property: c
 pubDate: '2026-01-09'
 updatedDate: '2026-01-28'
 draft: true
-zenodoDepositionId: 18511945
-zenodoUrl: "https://zenodo.org/records/18511945"
-doi: "10.5281/zenodo.18511945"
+zenodoDepositionId: 18529499
+zenodoUrl: "https://zenodo.org/records/18529499"
+doi: "10.5281/zenodo.18529499"
 zenodoDescription: |
   This paper develops a coordinate-free geometric framework for understanding when feedback systems converge versus cycle. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation.
 
@@ -275,7 +275,7 @@ The curl floor theorem applies to any system with state-dependent, non-integrabl
 
 The resulting feasibility map is non-integrable. If the system sits near the $\varphi$-sector minimum, the admissible cone tilts toward reducing recursive curvature, but this forces angular curvature to increase (by the strictly negative off-diagonal covariances, T2). As the system corrects angular curvature, the cone tilts again, now forcing discrete curvature to rise. The correction field circulates through sector-dominated configurations rather than converging to a point where all three are simultaneously satisfied — because no such point exists. The projection defect $\delta\alpha$ has persistent magnitude (the sectors are genuinely independent observables, by T3), and the Hodge spectral gap provides the lower bound. Theorem 4 then guarantees a strictly positive curl floor: triadic tension forces irreducible cycling with a quantifiable maintenance cost.
 
-This connection closes the loop between the general theory developed here and the specific constraint geometry of [the monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The curl diagnostic is a general tool; triadic tension is a specific trigger; and the curl floor theorem quantifies the consequence.
+This connection closes the loop between the general theory developed here and the specific constraint geometry of [the monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The curl diagnostic is a general tool; triadic tension is a specific trigger; and the curl floor theorem quantifies the consequence. A minimal field-theoretic model in which the stiffness ratio and topological protection boundary are computed exactly is developed in [Preserved Curl, Scale Separation, and Topological Leakage](/preserved-curl-scale-separation-and-topological-leakage).
 
 ### Control Systems
 

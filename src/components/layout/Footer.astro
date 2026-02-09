@@ -1,20 +1,12 @@
 ---
 import { themeConfig } from '@/config'
-const today = new Date()
 ---
 
 <footer>
   <div class="footer-content">
-    <div class="copyright">
-      <span class="date">
-        &copy;
-        {today.getFullYear()}
-      </span>
-      {themeConfig.site.author}
-    </div>
     <div class="powered-by">
       About the {' '}
-      <a href="https://kurtiskemple.com">author</a>.
+      <a href="https://kurtiskemple.com"><strong>author</strong></a>.
     </div>
   </div>
 </footer>
@@ -30,20 +22,15 @@ const today = new Date()
 
   .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
   }
 
-  .copyright,
   .powered-by {
     white-space: nowrap;
-  }
-
-  .copyright .date {
-    opacity: 1;
   }
 
   footer a {

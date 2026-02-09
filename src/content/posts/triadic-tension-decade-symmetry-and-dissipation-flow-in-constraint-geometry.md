@@ -2,9 +2,9 @@
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
 description: "Three incompatible curvature sectors compete under one constraint functional, forcing ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a dissipation β-function with zero free parameters."
 pubDate: '2025-11-28'
-zenodoDepositionId: 18528397
-zenodoUrl: "https://zenodo.org/records/18528397"
-doi: "10.5281/zenodo.18528397"
+zenodoDepositionId: 18529500
+zenodoUrl: "https://zenodo.org/records/18529500"
+doi: "10.5281/zenodo.18529500"
 updatedDate: '2026-02-06'
 keywords:
   - "constraint geometry"
@@ -760,7 +760,7 @@ $$
 \text{Incompatible minima} \to \text{State-dependent constraints} \to \text{Non-integrable projection} \to \text{Irreducible curl} \to \text{Cycling.}
 $$
 
-Empirical confirmation comes from direct numerical simulation of three-dimensional Navier–Stokes turbulence at Reynolds number $Re_\lambda \approx 430$. In regions of high vorticity, states where stretching and multiscale recursion are locally balanced show residence times of 1–2 timesteps across all tested thresholds $\varepsilon \in \{0.03, 0.05, 0.08, 0.10\}$. Escape from balance typically occurs by loss of local recursive coherence rather than immediate collapse of stretching — consistent with the triadic mechanism where correction in one sector destabilizes another.
+Empirical confirmation comes from direct numerical simulation of three-dimensional Navier–Stokes turbulence at Reynolds number $Re_\lambda \approx 430$. In regions of high vorticity, states where stretching and multiscale recursion are locally balanced show residence times of 1–2 timesteps across all tested thresholds $\varepsilon \in \{0.03, 0.05, 0.08, 0.10\}$. Escape from balance typically occurs by loss of local recursive coherence rather than immediate collapse of stretching — consistent with the triadic mechanism where correction in one sector destabilizes another. In a minimal field-theoretic setting, [magnetic helicity as a curl inventory](/preserved-curl-scale-separation-and-topological-leakage) exhibits the same asymmetry quantitatively: helicity (topology) decays slower than energy (amplitude) by a factor controlled entirely by scale separation, and a phase boundary separates regimes where topological protection holds from regimes where it leaks.
 
 The preceding sections establish four distinct objects. It is worth separating them cleanly, because their logical roles differ:
 
