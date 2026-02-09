@@ -3,9 +3,9 @@ title: 'Navier–Stokes, Vorticity Growth, & the Finite Residence of Balanced St
 description: "DNS at Re_λ ≈ 430 shows states balancing vortex stretching and multiscale recursion persist only 1–2 timesteps. Balance is crossed but not occupied — constraining plausible finite-time blow-up mechanisms."
 pubDate: '2026-01-17'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18529498
-zenodoUrl: "https://zenodo.org/records/18529498"
-doi: "10.5281/zenodo.18529498"
+zenodoDepositionId: 18571129
+zenodoUrl: "https://zenodo.org/records/18571129"
+doi: "10.5281/zenodo.18571129"
 keywords:
   - "Navier-Stokes"
   - "vorticity"
@@ -102,7 +102,7 @@ The structure observed here connects to a broader geometric principle. The [cons
 
 In Navier–Stokes, the nonlinear term $(\omega\cdot\nabla)u$ is a self-projection of the flow onto its own strain geometry, while viscosity acts as a smoothing projection. The empirical result is consistent with a geometric hypothesis: the Navier–Stokes nonlinearity induces transient curl, but viscosity prevents curl-supporting configurations from remaining integrable across scales. Stretching can spike, but the cascade geometry cannot remain integrable long enough to lock in a singularity — exactly the structure proved abstractly for projected gradient flows, where feasibility-induced curl creates cycling but cycling configurations are not energetically stationary.
 
-Axial compressors provide a physical instantiation of the same structure — the surge line is a finite-residence manifold, and rotating stall is curl made visible in engineering hardware. See [Compressors, Curl, & Constraint Geometry](/compressors-curl-and-constraint-geometry) for the detailed mapping. A complementary perspective comes from [magnetic helicity as a curl inventory](/preserved-curl-scale-separation-and-topological-leakage), where the same asymmetry appears in a linear field theory: energy dissipates faster than topology, and the stiffness ratio between them is controlled entirely by scale separation.
+Axial compressors provide a physical instantiation of the same structure — the surge line is a finite-residence manifold, and rotating stall is curl made visible in engineering hardware. See [Compressors, Curl, & Constraint Geometry](/compressors-curl-and-constraint-geometry) for the detailed mapping. A complementary perspective comes from [magnetic helicity as a curl inventory](/preserved-curl-scale-separation-and-topological-leakage), where the same asymmetry appears in a linear field theory: energy dissipates faster than topology, and the stiffness ratio between them is controlled entirely by scale separation. The repair framework developed in [Repair as Local Optimization in Constraint Geometry](/repair-as-local-optimization-in-constraint-geometry) predicts that this cycling arises generically from the coupled dynamics of accumulation, repair actuation, and irreducible curl — with the oscillatory regime as a structural outcome rather than a tuning artifact.
 
 ## Implications for Blow-Up Scenarios
 

@@ -3,9 +3,9 @@ title: 'Type Ia Supernova Information-Theoretic Energetics'
 description: "A thermodynamic lower bound on Type Ia supernova energetics from Landauer's principle applied to phase-space reorganization at the Chandrasekhar limit. Four inputs yield E ≳ 10⁴⁴ J."
 pubDate: '2025-09-29'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18511947
-zenodoUrl: "https://zenodo.org/records/18511947"
-doi: "10.5281/zenodo.18511947"
+zenodoDepositionId: 18571160
+zenodoUrl: "https://zenodo.org/records/18571160"
+doi: "10.5281/zenodo.18571160"
 keywords:
   - "Type Ia supernova"
   - "Chandrasekhar limit"
@@ -125,7 +125,7 @@ The information-theoretic estimate is not in tension with this; it reframes the 
 
 ## Connection to Constraint Geometry
 
-The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) develops the broader framework in which this calculation sits. As white dwarfs accrete toward $M_{\text{Ch}}$, the dissipation field $\eta$ increases and the complexity multiplier $(1-\eta)^{-\rho^*}$ diverges. The white dwarf cooling anomaly at $R/R_S = 10^3$ observed across 18,937 objects ($p = 0.0015$) marks the structural saturation threshold where this divergence begins. The Landauer bit-counting performed here quantifies the energy cost of the discontinuous organizational jump forced by information bankruptcy — the transition from electron degeneracy ($\eta \sim 0.5$) to neutron degeneracy ($\eta \sim 0.3$), with complexity dropping by a factor of $\sim 200$.
+The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) develops the broader framework in which this calculation sits. As white dwarfs accrete toward $M_{\text{Ch}}$, the dissipation field $\eta$ increases and the complexity multiplier $(1-\eta)^{-\rho^*}$ diverges. The white dwarf cooling anomaly at $R/R_S = 10^3$ observed across 7,515 Gaia DR3 objects ($14.5\sigma$, Wilcoxon $p = 4.27 \times 10^{-84}$) marks the structural saturation threshold where this divergence begins. The Landauer bit-counting performed here quantifies the energy cost of the discontinuous organizational jump forced by information bankruptcy — the transition from electron degeneracy ($\eta \sim 0.5$) to neutron degeneracy ($\eta \sim 0.3$), with complexity dropping by a factor of $\sim 200$.
 
 The four observational inputs — Chandrasekhar mass, white dwarf radius, compression proxy, and shock temperature — enter the Landauer calculation. No parameters from the constraint geometry appear in the energy estimate itself. The constraint geometry's role is to predict *when* the transition occurs (at the $(1-\eta)^{-\rho^*}$ divergence) and *why* (information bankruptcy under triadic tension).
 

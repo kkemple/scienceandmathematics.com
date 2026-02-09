@@ -2,9 +2,9 @@
 title: 'Preserved Curl, Scale Separation, & Topological Leakage'
 description: "Magnetic helicity provides a physical curl inventory whose decay timescale exceeds energy's by a factor controlled entirely by scale separation — until topology-change events breach the protection boundary."
 pubDate: '2026-02-08'
-zenodoDepositionId: 18529502
-zenodoUrl: "https://zenodo.org/records/18529502"
-doi: "10.5281/zenodo.18529502"
+zenodoDepositionId: 18571131
+zenodoUrl: "https://zenodo.org/records/18571131"
+doi: "10.5281/zenodo.18571131"
 zenodoDescription: |
   Magnetic helicity — the integral measuring linkage and twist of divergence-free field lines — serves as a physical curl inventory whose decay timescale exceeds the energy decay timescale by a factor controlled entirely by scale separation. A Monte Carlo sweep across carrier and dissipative scales produces a universal stiffness collapse onto the linear law τ_H/τ_U ≈ 0.97X + 0.03, where X = (k_rms/k_c)². Introducing stochastic topology-change events produces a phase boundary separating regimes where topological protection holds from regimes where it leaks. The results provide a concrete field-theoretic model for the curl-maintenance functional established in the geometry of self-correction framework.
 keywords:
@@ -97,7 +97,7 @@ The curl-maintenance functional $\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}\in
 
 The [Navier–Stokes finite-residence result](/navier-stokes-vorticity-growth-and-finite-residence-of-balanced-states) finds that balanced states — configurations where stretching and recursive scale-feeding are locally matched — are crossed but not occupied, with escape occurring preferentially via loss of recursive coherence rather than collapse of stretching. The helicity model exhibits the same asymmetry from the opposite direction: energy dissipates faster than helicity, so amplitude is lost before topology. In both settings, the topological or recursive structure is the last thing to go. The punctuated character of topology change in the helicity model parallels the 1–2 timestep residence times observed in the DNS — balance is broken in discrete events, not eroded smoothly.
 
-The [compressor instantiation](/compressors-curl-and-constraint-geometry) of these ideas — rotating stall as curl made visible, the surge line as a finite-residence manifold — gains a field-theoretic underpinning. The stiffness ratio explains why compressor stall cells persist even as mean energy in the flow field dissipates: the topological content of the circulation pattern is stiffer than the amplitude, and clearing it requires an architectural intervention (changing the constraint geometry via variable stators or bleed valves) rather than a parametric one (retuning the controller). The phase boundary explains why active surge control works in some regimes and fails in others: below $\gamma_{\mathrm{crit}}$, the constraint architecture is topologically protected; above it, the protection breaks and the system transitions to global cycling.
+The [compressor instantiation](/compressors-curl-and-constraint-geometry) of these ideas — rotating stall as curl made visible, the surge line as a finite-residence manifold — gains a field-theoretic underpinning. The stiffness ratio explains why compressor stall cells persist even as mean energy in the flow field dissipates: the topological content of the circulation pattern is stiffer than the amplitude, and clearing it requires an architectural intervention (changing the constraint geometry via variable stators or bleed valves) rather than a parametric one (retuning the controller). The phase boundary explains why active surge control works in some regimes and fails in others: below $\gamma_{\mathrm{crit}}$, the constraint architecture is topologically protected; above it, the protection breaks and the system transitions to global cycling. The stiffness ratio and phase boundary also gate repair efficiency in the [repair-augmented RG system](/repair-as-local-optimization-in-constraint-geometry), where increasing scale separation makes topological content harder to reconfigure through local optimization.
 
 ## Attack Surface
 
