@@ -2,9 +2,9 @@
 title: 'Compressors, Curl, & Constraint Geometry'
 description: "Axial compressors instantiate constraint geometry: the surge line is a finite-residence manifold, rotating stall is curl made visible, and balanced states are crossed but never occupied."
 pubDate: '2026-01-25'
-zenodoDepositionId: 18571128
-zenodoUrl: "https://zenodo.org/records/18571128"
-doi: "10.5281/zenodo.18571128"
+zenodoDepositionId: 18602864
+zenodoUrl: "https://zenodo.org/records/18602864"
+doi: "10.5281/zenodo.18602864"
 updatedDate: '2026-01-28'
 keywords:
   - "compressors"
@@ -89,7 +89,7 @@ The compressor application has a narrower attack surface than most posts in the 
 
 **Finite-residence conjecture is empirical.** The claim that balanced states near the surge line are finite-residence manifolds rests on the Navier–Stokes finite-residence conjecture, which is supported by DNS at $Re_\lambda \approx 430$ but not proven. If the conjecture fails at Reynolds numbers relevant to compressor aerodynamics ($Re \sim 10^6$), the connection between Navier–Stokes balance dynamics and the surge line weakens. The engineering observation that the surge line exists is independent of the conjecture, but its identification as a finite-residence manifold depends on it.
 
-**Boundary conditions on the state space.** Theorem 4 is stated for compact manifolds without boundary and with $H^1(M) = 0$. The compressor operating map has boundaries (surge line, choke line). The theorem applies to the interior dynamics, but boundary effects — reflection of trajectories off the surge line, actuator saturation at rate limits — introduce additional structure not captured by the manifold premises. These boundary effects may amplify or modify the curl floor but cannot eliminate it, since the non-integrability of the constraint cone persists in the interior.
+**Boundary conditions on the state space.** Theorem 4 is stated for compact manifolds without boundary; its spectral gap $\lambda_1^\perp$ is defined on the orthogonal complement of harmonic forms (when $H^1(M) = 0$ this is the full space of 1-forms; on periodic domains the bound applies to the mean-zero sector). The compressor operating map has boundaries (surge line, choke line). The theorem applies to the interior dynamics, but boundary effects — reflection of trajectories off the surge line, actuator saturation at rate limits — introduce additional structure not captured by the manifold premises. These boundary effects may amplify or modify the curl floor but cannot eliminate it, since the non-integrability of the constraint cone persists in the interior.
 
 **Active surge control.** Advanced research programs have demonstrated active stall control through flow injection, boundary layer suction, and tip clearance modulation[^4]. These interventions work by changing the feasibility geometry — reshaping the constraint cone rather than tuning within it — which is precisely what the theory predicts: effective interventions are architectural, not parametric. If a future active control system achieved sustained stable operation near the surge line without changing the constraint geometry, that would falsify the application.
 

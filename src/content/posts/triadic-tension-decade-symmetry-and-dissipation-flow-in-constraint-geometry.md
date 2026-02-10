@@ -2,9 +2,9 @@
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
 description: "Three incompatible curvature sectors compete under one constraint functional, forcing ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a dissipation β-function with zero free parameters."
 pubDate: '2025-11-28'
-zenodoDepositionId: 18571151
-zenodoUrl: "https://zenodo.org/records/18571151"
-doi: "10.5281/zenodo.18571151"
+zenodoDepositionId: 18602874
+zenodoUrl: "https://zenodo.org/records/18602874"
+doi: "10.5281/zenodo.18602874"
 updatedDate: '2026-02-06'
 keywords:
   - "constraint geometry"
@@ -734,7 +734,7 @@ Strong compression (massive stars, second-generation black holes, gas-rich colla
 
 ## Part III — Implications
 
-Triadic tension has consequences beyond the $\beta$-function and its empirical confirmations. This part develops two: the irreducible cycling that frustration forces on any system attempting to correct across all three sectors (Section 9), and a summary of what is proven, what is confirmed, and what would falsify the framework (Section 10).
+Triadic tension has consequences beyond the $\beta$-function and its empirical confirmations. This part develops three: the irreducible cycling that frustration forces on any system attempting to correct across all three sectors, a transport-sector prediction in which the same feasibility structure forces the hydrodynamic shear spectrum from $k^2$ to $k^4$ (both in Section 9), and a summary of what is proven, what is confirmed, and what would falsify the framework (Section 10).
 
 ## 9. Curl, Cycling, and Transient Balance
 
@@ -746,10 +746,10 @@ $$
 \mathcal{M}_{\text{curl}}(F) = \frac{1}{2} \int |d\alpha|^2 \, dV,
 $$
 
-where $\alpha = F^\flat$ is the 1-form dual to the correction field, quantifies the $L^2$-size of the exterior derivative of the implemented correction. On compact manifolds with trivial first cohomology ($H^1(M) = 0$), the Hodge Laplacian on 1-forms has a positive spectral gap $\lambda_1 > 0$, and when the projection defect has persistent magnitude that cannot be represented purely as divergence, the curl-maintenance satisfies
+where $\alpha = F^\flat$ is the 1-form dual to the correction field, quantifies the $L^2$-size of the exterior derivative of the implemented correction. On any compact Riemannian manifold, the Hodge Laplacian on 1-forms has a positive spectral gap $\lambda_1^\perp > 0$ on the orthogonal complement of harmonic forms (when $H^1(M) = 0$ this is the usual gap on all 1-forms; on periodic domains such as $T^3$ the bound applies to the mean-zero sector, with spatially uniform modes contributing no curl). When the non-harmonic component of the projection defect has persistent magnitude that cannot be represented purely as divergence, the curl-maintenance satisfies
 
 $$
-\mathcal{M}_{\text{curl}}(F) \geq \frac{\kappa}{2} |\delta\alpha|^2_{L^2} > 0,
+\mathcal{M}_{\text{curl}}(F) \geq \frac{\kappa}{2} |\delta\alpha_\perp|^2_{L^2} > 0,
 $$
 
 for some $\kappa > 0$ determined by the spectral gap. This is the formal statement that cycling is structural rather than parametric: the curl floor is set by the Hodge spectral gap, and no gain scheduling, local smoothing, or parameter tuning can eliminate cycling without changing the feasibility map itself.
@@ -769,6 +769,7 @@ The preceding sections establish four distinct objects. It is worth separating t
 | Triadic tension | Global structural theorem | Proved (Section 3): no configuration minimizes two sectors simultaneously |
 | Dissipation flow | Global dynamical law | Derived (Section 5): exact $\beta$-function with no free parameters |
 | Cycling | Local dynamical consequence | Proved (above): irreducible curl from state-dependent constraints |
+| Quartic shear | Transport-sector prediction | Derived (below): nullspace condition + stress symmetry $\Rightarrow$ $k^4$ leading relaxation |
 | Critical approach regime | Where cycling becomes dominant | Defined below |
 
 The **critical approach regime** is the interval of the dissipation flow in which curvature tradeoffs are binding, absorption capacity remains nonzero, and no integrable correction exists. It is bounded by two thresholds. The entry condition is structural saturation at $\rho^*/10 \approx 0.329$, where the discrete sector becomes binding and $C_{10}$ closure can no longer remain soft (Section 6). The exit condition is maintenance bankruptcy at $\eta \to 1$, where the logistic factor $\eta(1-\eta)$ drives absorption capacity to zero. Between these thresholds, $\eta$ is large enough that sector tradeoffs are binding, yet $1-\eta$ is not negligible — the system lingers.
@@ -777,11 +778,27 @@ Inside this regime, the coexistence of slowing flow and irreducible frustration 
 
 The triadic competition also explains why dimensionality is an energetic liability. Each additional degree of freedom introduces new curvature modes requiring continuous maintenance, and these penalties scale superlinearly with dimension. Finite systems cannot afford high-dimensional curvature indefinitely. When maintenance cost rises beyond sustainable levels, coherent systems reduce dimensionality by projection onto lower-dimensional manifolds — curvature minimization finding the lowest-maintenance configuration compatible with the constraints. Near gravitational horizons, effective dimension flows from 3 to 2 as radial information flow freezes while tangential flow remains free (Appendix B). The holographic principle[^18][^19][^20] — entropy scaling with area rather than volume — reflects this dimensional economics. Systems consistently flow toward the lowest dimension their constraints permit.
 
+The same feasibility structure, applied to the constitutive stress sector, yields a concrete transport prediction. Let $T^{(0)}_{ij}$ be the nominal constitutive proposal and $T_{ij} = \Pi_x[T^{(0)}_{ij}]$ the implemented stress. In the transverse shear channel, the first-order dissipative operator is the Navier–Stokes shear tensor $\sigma_{ij}$. If the constraint architecture places this operator in the feasibility nullspace near equilibrium,
+
+$$
+\Pi_x[\sigma_{ij}] = 0,
+$$
+
+then the $k^2$ diffusive pole is structurally forbidden — not parametrically suppressed. The dynamical evidence for this condition is the [finite-residence observation](/navier-stokes-vorticity-growth-and-finite-residence-of-balanced-states): DNS at $Re_\lambda \approx 430$ shows that balanced configurations supporting integrable first-order shear are crossed in 1–2 timesteps but never occupied, with escape occurring through loss of recursive coherence rather than collapse of stretching. The configurations that would sustain $k^2$ transport have vanishing residence under the implemented map.
+
+If the leading even-order operator survives, $\Pi_x[\partial^2\sigma_{ij}] \neq 0$, then stress-tensor symmetry $T_{ij} = T_{ji}$ and rotational invariance exclude odd powers from the gradient expansion. The admissible tower is $k^2, k^4, k^6, \ldots$ with the $k^2$ term removed, giving quartic leading relaxation:
+
+$$
+\omega(k) = -i\,D_4\,k^4 + o(k^4), \qquad D_4 = \frac{\eta_4}{\chi_\pi}.
+$$
+
+This $k^4$ shear mode appears independently in non-relativistic Lifshitz holography (where bulk couplings cancel $k^2$ contributions in matched asymptotic expansion), in dipole-conserving and fracton fluids (where enhanced symmetry constraints forbid first-order kinetics), and in photonic quasicrystal spectral reorganization under irrational projection. The feasibility projection provides the operator-level account unifying these observations: the constraint architecture places $\sigma_{ij}$ in the nullspace of the implementation map, regardless of the specific mechanism enforcing the constraint. The full derivation, including the Burnett-type operator identification, attack surface, and independent confirmations, is developed in [Finite Residence, Feasibility Projections, & Quartic Transport](/finite-residence-feasibility-projections-and-quartic-transport).
+
 ## 10. Discussion and Conclusion
 
 The framework rests on a chain of proven results. The triadic tension theorem (Section 3) establishes that three curvature sectors — angular, recursive, and discrete — cannot be simultaneously minimized (T1), are anticorrelated (T2), are genuinely independent (T3), and produce nonzero ground-state curvature (T4) — the irreducible curvature cost that every coherent configuration must continuously maintain, and whose per-shell value $\rho^* = I/10$ becomes the coupling constant of the dissipation flow. The negative selection argument (Section 4) forces the discrete sector to carry $C_{10} = C_2 \times C_5$ symmetry — the unique cyclic group surviving the crystallographic restriction, $\varphi$-compatibility, and binary closure. The dissipation $\beta$-function (Section 5) follows from standard Wilsonian renormalization, with every constant tracing to a geometric necessity and a vertex selection rule enforced by the recursion symmetry (§5.8) making the one-loop result exact.
 
-Three independent lines of quantitative evidence support the framework's predictions. The white dwarf cooling anomaly at $R/R_S = 10^3$ in 7,515 Gaia DR3 objects matches the structural saturation threshold $\rho^*/10 \approx 0.329$ at $14.5\sigma$ significance (Section 6). The Type Ia supernova energy of $4.3 \times 10^{44}$ J derived from Landauer bit-counting matches observed values. Penrose polariton quasicrystals realize all three constraint sectors in a single device, with corroboration from solid-state quasicrystal growth and optomechanical synthetic flux lattices (Section 7). Black hole spin population fractions from 164 GWTC binary mergers match predictions derived from $\rho^*$ within measurement uncertainty (Section 8).
+Three independent lines of quantitative evidence support the framework's predictions. The white dwarf cooling anomaly at $R/R_S = 10^3$ in 7,515 Gaia DR3 objects matches the structural saturation threshold $\rho^*/10 \approx 0.329$ at $14.5\sigma$ significance (Section 6). The Type Ia supernova energy of $4.3 \times 10^{44}$ J derived from Landauer bit-counting matches observed values. Penrose polariton quasicrystals realize all three constraint sectors in a single device, with corroboration from solid-state quasicrystal growth and optomechanical synthetic flux lattices (Section 7). Black hole spin population fractions from 164 GWTC binary mergers match predictions derived from $\rho^*$ within measurement uncertainty (Section 8). The feasibility structure extends to the transport sector: when the constraint architecture places the first-order shear operator in its nullspace, the hydrodynamic spectrum shifts from $k^2$ to $k^4$ (Section 9), a prediction confirmed independently in Lifshitz holographic and fracton-hydrodynamic settings.
 
 The framework is falsifiable at multiple levels. If the off-diagonal covariances $\Sigma_{ij}$ are measured to be non-negative for any pair of sectors, T2 fails and the frustration picture collapses. If a configuration is found that simultaneously minimizes two sectors, T1 fails. If a linear relation among the three curvature observables exists on $\Omega$, T3 fails. If the angular manifold's effective geometry differs from $S^2$, the $\kappa_\pi = 4\pi$ identification fails and $I$ changes. Each of these is checkable, and Section 3.8 details the specific failure modes and how to test them.
 

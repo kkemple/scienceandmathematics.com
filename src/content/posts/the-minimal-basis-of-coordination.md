@@ -3,9 +3,9 @@ title: 'The Minimal Basis of Coordination'
 description: "Any persistent distributed system must solve three irreducible problems: signal extraction, boundary stabilization, and overload management. These are independent, jointly sufficient, and minimal."
 pubDate: '2026-01-18'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18511946
-zenodoUrl: "https://zenodo.org/records/18511946"
-doi: "10.5281/zenodo.18511946"
+zenodoDepositionId: 18602873
+zenodoUrl: "https://zenodo.org/records/18602873"
+doi: "10.5281/zenodo.18602873"
 keywords:
   - "coordination"
   - "information theory"
@@ -187,7 +187,7 @@ with sufficient authority to reshape $C(x,t)$. Entropy swarming corresponds to $
 
 This lemma establishes that curl is the structural signature of swarming, not a behavioral add-on.
 
-Let $(M,g)$ be a compact, oriented Riemannian manifold with $H^1(M)=0$. Let $\phi \in C^\infty(M)$ define a smooth potential and let the proposal correction field be the gradient flow,
+Let $(M,g)$ be a compact, oriented Riemannian manifold. Decompose $\Omega^1(M) = d\Omega^0 \oplus \delta\Omega^2 \oplus \mathcal{H}^1(M)$ via the Hodge theorem, and let $\lambda_1^\perp > 0$ denote the first positive eigenvalue of the Hodge Laplacian on the orthogonal complement of harmonic forms $\mathcal{H}^1(M)$. Let $\phi \in C^\infty(M)$ define a smooth potential and let the proposal correction field be the gradient flow,
 
 $$
 F_0 := -\nabla \phi, \qquad \alpha_0 := F_0^\flat = -d\phi,
@@ -220,19 +220,19 @@ $$
 Then,
 
 $$
-\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}|d(\delta\alpha)|_{L^2}^2 \geq \frac{1}{2}\Big(\lambda_1|\delta\alpha|_{L^2}^2 - |\delta(\delta\alpha)|_{L^2}^2\Big),
+\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}|d(\delta\alpha_\perp)|_{L^2}^2 \geq \frac{1}{2}\Big(\lambda_1^\perp|\delta\alpha_\perp|_{L^2}^2 - |\delta(\delta\alpha_\perp)|_{L^2}^2\Big),
 $$
 
-where $\lambda_1 > 0$ is the first positive eigenvalue of the Hodge Laplacian on 1-forms[^6]. In particular, if there exists $\kappa > 0$ such that,
+where $\delta\alpha_\perp$ is the non-harmonic component of the projection defect (harmonic forms contribute no curl since $d\delta\alpha_{\mathrm{harm}} = 0$), and $\lambda_1^\perp > 0$ is the spectral gap on the complement of $\mathcal{H}^1(M)$[^6]. On periodic domains such as $T^3$, harmonic 1-forms correspond to spatially uniform ($k = 0$) modes, so $\lambda_1^\perp$ governs the mean-zero sector relevant to vorticity and transport. In particular, if there exists $\kappa > 0$ such that,
 
 $$
-|\delta(\delta\alpha)|_{L^2} \leq \sqrt{\lambda_1 - \kappa} \, |\delta\alpha|_{L^2},
+|\delta(\delta\alpha_\perp)|_{L^2} \leq \sqrt{\lambda_1^\perp - \kappa} \, |\delta\alpha_\perp|_{L^2},
 $$
 
 then,
 
 $$
-\mathcal{M}_{\mathrm{curl}}(F) \geq \frac{\kappa}{2} |\delta\alpha|_{L^2}^2 > 0.
+\mathcal{M}_{\mathrm{curl}}(F) \geq \frac{\kappa}{2} |\delta\alpha_\perp|_{L^2}^2 > 0.
 $$
 
 **Interpretation.** In the gradient regime, $d\alpha \approx 0$ and motion is approximately potential-driven; coherent descent dominates. In the entropy swarm regime, feasibility projection is state-dependent and non-integrable, inducing persistent $d\alpha \neq 0$ (curl). Monotone descent is obstructed and cycling, herding, and cascades become generic responses to pressure.
