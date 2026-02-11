@@ -2,9 +2,9 @@
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
 description: "Three incompatible curvature sectors compete under one constraint functional, forcing ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a dissipation β-function with zero free parameters."
 pubDate: '2025-11-28'
-zenodoDepositionId: 18602874
-zenodoUrl: "https://zenodo.org/records/18602874"
-doi: "10.5281/zenodo.18602874"
+zenodoDepositionId: 18613875
+zenodoUrl: "https://zenodo.org/records/18613875"
+doi: "10.5281/zenodo.18613875"
 updatedDate: '2026-02-06'
 keywords:
   - "constraint geometry"
@@ -56,7 +56,7 @@ $$
 
 where $\eta \in [0,1]$ is the dissipation field measuring the fraction of a system's energy budget devoted to curvature maintenance, $d$ is effective spatial dimension, and $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ is the tree-level coupling constant. The logistic factor $\eta(1-\eta)$ reflects bounded competition at the two fixed points $\eta = 0$ (no structure) and $\eta = 1$ (all energy in maintenance). The dimensional correction $(d-2)\ln\varphi/2$ captures recursive degeneracy beyond the critical dimension $d = 2$. A vertex selection rule enforced by the recursion symmetry (§5.8) forbids all non-Gaussian couplings at the self-similar fixed point, making the one-loop result exact. The universal critical exponent $\nu = 1/\rho^* \approx 0.304$ governs how coherence length diverges as systems approach organizational phase transitions.
 
-The constraint functional admits multiple eigenbranch families — Penrose $(\pi, \varphi, 10)$, Ammann–Beenker $(\pi, 1+\sqrt{2}, 8)$, dodecagonal $(\pi, 2+\sqrt{3}, 12)$ — each representing a distinct resolution of the triadic competition. The Penrose branch dominates natural systems because the golden ratio is the worst-approximable irrational number (Hurwitz's theorem), providing maximal resonance protection among all candidate inflation eigenvalues. Other branches exist as metastable states with higher ground-state curvature.
+The constraint functional admits multiple eigenbranch families — Penrose $(\pi, \varphi, 10)$, Ammann–Beenker $(\pi, 1+\sqrt{2}, 8)$, dodecagonal $(\pi, 2+\sqrt{3}, 12)$ — each representing a distinct resolution of the triadic competition. The Penrose branch dominates natural systems because the golden ratio is the worst-approximable irrational number (Hurwitz's theorem), providing maximal resonance protection among all candidate inflation eigenvalues. Other branches exist as metastable states with higher ground-state curvature, requiring entropy subsidies to compensate their curvature liability (§4.6).
 
 Three independent lines of physical evidence confirm the framework's quantitative predictions. White dwarf cooling data from 7,515 Gaia DR3 objects reveals an anomaly at $R/R_S = 10^3$ matching the structural saturation threshold $\rho^*/10 \approx 0.329$, with significance $14.5\sigma$ (Section 6). The calculated Type Ia supernova energy of $4.3 \times 10^{44}$ J, derived entirely from Landauer costs of information reorganization, matches observed values. Penrose polariton quasicrystals realize all three constraint sectors simultaneously in a single device, achieving mesoscopic coherence exceeding 100 healing lengths when geometry aligns with the constraint manifold (Section 7). Analysis of 164 binary black hole mergers from combined GWTC catalogs shows spin population fractions matching predictions derived from $\rho^*$ within measurement uncertainty (Section 8).
 
@@ -78,7 +78,7 @@ $$
 \Omega = \left\{ P(r, \theta) \geq 0 \;\middle|\; \int P \, dA = 1, \quad S[P] = -\int P \ln P \, dA = S_0 \right\}.
 $$
 
-The normalization constraint ensures $P$ is a proper probability density. The entropy constraint $S[P] = S_0$ prevents degenerate solutions (delta functions concentrating all mass at a single point) and ensures the variational problem is well-posed[^3]. Together, these constraints define the arena on which the three curvature sectors compete.
+The normalization constraint ensures $P$ is a proper probability density. The entropy constraint $S[P] = S_0$ prevents degenerate solutions (delta functions concentrating all mass at a single point) and ensures the variational problem is well-posed[^1]. Together, these constraints define the arena on which the three curvature sectors compete.
 
 ### 2.2 Sector Curvatures
 
@@ -96,7 +96,7 @@ $$
 K_N[P] = C_{2 \times 5}[P].
 $$
 
-The first two are Fisher-information-type curvature penalties[^1][^2]. $K_\pi$ measures angular bending — departure from isotropy. It is minimal when $P$ is rotationally invariant, with $\partial_\theta P = 0$, so that the density depends only on the radial coordinate. $K_\varphi$ measures log-radial bending — departure from scale self-similarity. It is minimal when $P$ follows a power law in $r$, equivalently linear in $\ell$, forced by the fixed-point equation $x = 1 + 1/x$ whose positive root is the golden ratio $\varphi = (1+\sqrt{5})/2$. The third functional $K_N$ is a discrete penalty suppressing configurations incompatible with $C_{10} = C_2 \times C_5$ symmetry.
+The first two are Fisher-information-type curvature penalties[^2][^3]. $K_\pi$ measures angular bending — departure from isotropy. It is minimal when $P$ is rotationally invariant, with $\partial_\theta P = 0$, so that the density depends only on the radial coordinate. $K_\varphi$ measures log-radial bending — departure from scale self-similarity. It is minimal when $P$ follows a power law in $r$, equivalently linear in $\ell$, forced by the fixed-point equation $x = 1 + 1/x$ whose positive root is the golden ratio $\varphi = (1+\sqrt{5})/2$. The third functional $K_N$ is a discrete penalty suppressing configurations incompatible with $C_{10} = C_2 \times C_5$ symmetry.
 
 Each functional is non-negative. Each has a well-defined minimizer on $\Omega$, with existence following from lower semicontinuity of Fisher information on the entropy-constrained set.
 
@@ -232,7 +232,7 @@ $$
 P_N^*(\theta) = P_N^{(0)}(\ell) + \sum_{m=1}^{\infty} \hat{P}_{10m}(\ell) \, e^{i \cdot 10m\theta} + \text{c.c.}
 $$
 
-For the $N$-sector minimum, the harmonics $\hat{P}_{10m}$ are generically nonzero because $C_{10}$ resonance selects configurations where mass concentrates at tenfold-symmetric positions. The angular curvature cost of these modes is
+For the $N$-sector minimum, the harmonics $\hat{P}_{10m}$ must be nonzero: a $C_{10}$-symmetric density with $\hat{P}_{10m} = 0$ for all $m \geq 1$ would be rotationally invariant ($P = P(\ell)$ only), carrying no discrete resonance structure and therefore indistinguishable from the $\pi$-minimizer in its angular content. Such a density cannot minimize $K_N$, which requires concentrating spectral weight at the tenfold-symmetric positions that define the discrete shell partition. The angular curvature cost of these modes is
 
 $$
 K_\pi[P_N^*] \geq \sum_{m=1}^{\infty} (10m)^2 |\hat{P}_{10m}|^2 > 0.
@@ -514,6 +514,24 @@ The composite invariant $I = 4\pi\varphi^2 \approx 32.9$ contains no adjustable 
 
 The Penrose eigenbranch dominates natural systems because $\varphi$ sits at the bottom of the Lagrange spectrum — the hierarchy of eigenbranch energies mirrors the hierarchy of Lagrange constants $\sqrt{5} < 2\sqrt{2} < (2+\sqrt{3}) < \cdots$, and the Penrose branch has the lowest ground-state curvature. Other eigenbranches (Ammann–Beenker, dodecagonal) exist as metastable states with stronger near-resonances and higher curvature cost.
 
+### 4.6 Branch Compensation
+
+The negative selection argument identifies $C_{10}$ as the unique globally preferred discrete symmetry, but non-selected eigenbranches are not forbidden. They are permitted provided they compensate their curvature liability elsewhere in the free-energy budget.
+
+**Proposition (Branch Compensation).** Let $b$ index an eigenbranch and let $b^*$ denote the globally selected branch (Penrose $C_{10}$). Assume the equilibrium free energy admits the decomposition $F_b(T) = F^{\mathrm{vib}}_b(T) - T\,S^{\mathrm{conf}}_b(T)$, where $S^{\mathrm{conf}}_b$ is the configurational (tiling) entropy and $F^{\mathrm{vib}}_b$ collects all non-configurational contributions. Define the branch penalty $\Delta_b(T) \equiv F^{\mathrm{vib}}_b(T) - F^{\mathrm{vib}}_{b^*}(T)$. Then branch $b$ is thermodynamically favored over $b^*$ at temperature $T$ if and only if
+
+$$
+T\big(S^{\mathrm{conf}}_b(T) - S^{\mathrm{conf}}_{b^*}(T)\big) > \Delta_b(T).
+$$
+
+*Proof.* Subtract: $F_b - F_{b^*} = \Delta_b - T\,\Delta S^{\mathrm{conf}}_b$. Then $F_b < F_{b^*}$ iff $T\,\Delta S^{\mathrm{conf}}_b > \Delta_b$. $\square$
+
+**Corollary (Defect-Enabled Compensation).** If the selected branch $b^*$ has small or saturated configurational entropy, any branch with $\Delta_b > 0$ can be stabilized only by enlarging $S^{\mathrm{conf}}_b$ — for instance, by admitting additional tile types that expand the configuration manifold.
+
+The dodecagonal square–triangle quasicrystal illustrates this mechanism[^9]. The dodecagonal eigenbranch $(\pi, 2+\sqrt{3}, 12)$ is eliminated by the $\varphi$-compatibility sieve (§4.2) and carries a positive branch penalty relative to Penrose. Ulugöl et al. show that vibrational free energy alone does not stabilize the quasicrystal — stability requires the configurational entropy term. The baseline square–triangle tiling has entropy $S/(Nk_B) = 0.120$, but admitting irregular-hexagon defect tiles and mixing defect species amplifies this to $S/(Nk_B) \approx 0.554$, roughly fivefold. Individual defect types contribute negatively; the combinatorial mixing across species generates the positive entropy surplus. Stability arises from expansion of the configuration manifold, not from energetic improvement of any single motif — exactly the compensation the inequality requires.
+
+The Penrose branch is therefore the unique eigenbranch that does not require an entropy subsidy. All other branches can exist physically, but they must pay a measurable thermodynamic cost to do so.
+
 ## 5. Deriving the Dissipation $\beta$-Function
 
 The dissipation field $\eta \in [0,1]$ measures the fraction of a system's energy budget devoted to curvature maintenance against entropy. Elementary particles maintain $\eta \sim 10^{-6}$, atoms $\sim 10^{-3}$, molecules $\sim 10^{-2}$, biological systems $\sim 10^{-1}$, and black holes saturate at $\eta = 1$. The Wilsonian question: as we coarse-grain from scale $\mu$ to $\mu + \delta\mu$ (integrating out fast modes in a thin shell), how does the effective $\eta$ change?
@@ -678,7 +696,7 @@ The constraint geometry makes quantitative predictions with no adjustable parame
 
 ## 6. White Dwarf Collapse
 
-White dwarfs accreting toward the Chandrasekhar limit[^9] $M_{\text{Ch}} = 1.36 M_{\odot}$ provide a quantitative test of the framework's two distinct thresholds. The RG flow solution $\eta(\mu) = [1 + A\mu^{K(d)}]^{-1}$ from Section 5 determines $\eta$ and $d$ at each mass, and the total organizational overhead follows from how the constraint functional's curvature cost scales with these parameters. The complexity multiplier quantifying this overhead is
+White dwarfs accreting toward the Chandrasekhar limit[^10] $M_{\text{Ch}} = 1.36 M_{\odot}$ provide a quantitative test of the framework's two distinct thresholds. The RG flow solution $\eta(\mu) = [1 + A\mu^{K(d)}]^{-1}$ from Section 5 determines $\eta$ and $d$ at each mass, and the total organizational overhead follows from how the constraint functional's curvature cost scales with these parameters. The complexity multiplier quantifying this overhead is
 
 $$
 M(\eta,d) = \varphi^{2^{d-2}} \times (1-\eta)^{-\rho^*},
@@ -698,21 +716,21 @@ Numerical integration from stable white dwarfs through collapse yields the follo
 
 The trajectory reveals the mechanism. Geometric compression $R_S/R$ increases by a factor of 2.2 from $M = 0.60$ to $1.35 M_{\odot}$ — mild gravitational strengthening. Meanwhile, organizational complexity $\eta \times M$ explodes by a factor of 2200. This 1000-fold disparity indicates that information bankruptcy, not gravitational compression alone, drives instability. The dimensional factor $\varphi^{2^{d-2}}$ drops modestly from 2.61 to 2.15 as $d$ flows from 2.97 to 2.53 — barely 20% variation. The bankruptcy factor $(1-\eta)^{-\rho^*}$ generates the explosion: from 1.24 at stable masses to 229 near collapse, a 185-fold increase.
 
-The trajectory passes through two distinct thresholds. The observational anomaly at $R/R_S = 10^3$ from analysis of 7,515 Gaia DR3 white dwarfs[^10] corresponds to $M \approx 1.17 M_{\odot}$ where $\eta = 0.46$ and $(1-\eta)^{-\rho^*} = 5.66$. This marks the structural saturation threshold $\rho^*/10 \approx 0.329$, where discrete closure can no longer remain soft. Before this threshold, complexity overhead grows by a factor of 3.6 from $M = 0.6$ to $1.17 M_{\odot}$. After crossing it, overhead explodes by a factor of 36 from $M = 1.17$ to $1.35 M_{\odot}$. The 995 objects in the anomaly zone ($R/R_S \in [700, 1000)$) exhibit a median cooling-age excess of $+76$ Myr ($14.5\sigma$, Wilcoxon $p = 4.27 \times 10^{-84}$), appearing systematically older than mass- and temperature-matched references — consistent with a cooling delay in which the object remains hotter than expected for its true age. Extension to ultra-massive tracks reveals a $+345$ Myr excess in the 500–700 bin ($p = 1.5 \times 10^{-6}$). The full analysis, including dual methodology for different mass regimes and systematic checks on core composition, is developed in [Repair as Local Optimization in Constraint Geometry](/repair-as-local-optimization-in-constraint-geometry). Candidate mechanisms include enhanced neutrino emission, crystallization energy release, $^{22}$Ne settling[^11], and GR corrections to the cooling rate — the framework predicts the threshold location and sharpness without committing to a specific microphysical channel.
+The trajectory passes through two distinct thresholds. The observational anomaly at $R/R_S = 10^3$ from analysis of 7,515 Gaia DR3 white dwarfs[^11] corresponds to $M \approx 1.17 M_{\odot}$ where $\eta = 0.46$ and $(1-\eta)^{-\rho^*} = 5.66$. This marks the structural saturation threshold $\rho^*/10 \approx 0.329$, where discrete closure can no longer remain soft. Before this threshold, complexity overhead grows by a factor of 3.6 from $M = 0.6$ to $1.17 M_{\odot}$. After crossing it, overhead explodes by a factor of 36 from $M = 1.17$ to $1.35 M_{\odot}$. The 995 objects in the anomaly zone ($R/R_S \in [700, 1000)$) exhibit a median cooling-age excess of $+76$ Myr ($14.5\sigma$, Wilcoxon $p = 4.27 \times 10^{-84}$), appearing systematically older than mass- and temperature-matched references — consistent with a cooling delay in which the object remains hotter than expected for its true age. Extension to ultra-massive tracks reveals a $+345$ Myr excess in the 500–700 bin ($p = 1.5 \times 10^{-6}$). The full analysis, including dual methodology for different mass regimes and systematic checks on core composition, is developed in [Repair as Local Optimization in Constraint Geometry](/repair-as-local-optimization-in-constraint-geometry). Candidate mechanisms include enhanced neutrino emission, crystallization energy release, $^{22}$Ne settling[^12], and GR corrections to the cooling rate — the framework predicts the threshold location and sharpness without committing to a specific microphysical channel.
 
 The collapse at $\eta \approx 0.97$ marks approach to true maintenance bankruptcy at $\nu = 1/\rho^* \approx 0.304$, where no sector can absorb further curvature. White dwarfs do not smoothly flow to the $(\eta=1, d=2)$ black hole fixed point. Instead, information bankruptcy forces a discontinuous organizational jump — the white dwarf transitions to neutron degeneracy at $\eta \sim 0.3$, $d \sim 2.5$, with organizational complexity dropping by a factor of 207.
 
-The energy cost of this reorganization follows from Landauer's principle. Counting the bits required to reorganize phase space information from electron to neutron degeneracy ($\Delta N_{\text{bits}} \approx 4.5 \times 10^{58}$) at the shock temperature $T \sim 10^9$ K observed during supernova breakout gives a transition energy of $E_{\text{trans}} = 4.3 \times 10^{44}$ J, matching observed Type Ia supernova energies[^12] to within measurement uncertainty. The full derivation is developed in a [companion paper](/type-ia-supernova-information-theoretic-energetics) and requires only four observational inputs (Chandrasekhar mass, white dwarf radius, neutron star radius, and shock temperature). No parameters from the constraint geometry enter the energy calculation — it is a pure Landauer counting argument. The framework's role is to predict *when* the transition occurs (at the $(1-\eta)^{-\rho^*}$ divergence) and *why* (information bankruptcy under triadic tension).
+The energy cost of this reorganization follows from Landauer's principle. Counting the bits required to reorganize phase space information from electron to neutron degeneracy ($\Delta N_{\text{bits}} \approx 4.5 \times 10^{58}$) at the shock temperature $T \sim 10^9$ K observed during supernova breakout gives a transition energy of $E_{\text{trans}} = 4.3 \times 10^{44}$ J, matching observed Type Ia supernova energies[^13] to within measurement uncertainty. The full derivation is developed in a [companion paper](/type-ia-supernova-information-theoretic-energetics) and requires only four observational inputs (Chandrasekhar mass, white dwarf radius, neutron star radius, and shock temperature). No parameters from the constraint geometry enter the energy calculation — it is a pure Landauer counting argument. The framework's role is to predict *when* the transition occurs (at the $(1-\eta)^{-\rho^*}$ divergence) and *why* (information bankruptcy under triadic tension).
 
 ## 7. Quasicrystal Realization
 
-Experiments with exciton–polariton condensates on Penrose tiling lattices[^13] realize the $\pi$–$\varphi$–$10$ constraint geometry in a single device. A Penrose tiling potential imprinted in a GaAs microcavity using a spatial light modulator, pumped non-resonantly, forms exciton–polariton condensates at the vertices. The resulting structure exhibits aperiodic order with $C_{10}$ rotational symmetry, with reciprocal-space photoluminescence showing sharp Bragg peaks arranged in tenfold symmetry — a two-dimensional polariton quasicrystal that directly implements all three sectors simultaneously.
+Experiments with exciton–polariton condensates on Penrose tiling lattices[^14] realize the $\pi$–$\varphi$–$10$ constraint geometry in a single device. A Penrose tiling potential imprinted in a GaAs microcavity using a spatial light modulator, pumped non-resonantly, forms exciton–polariton condensates at the vertices. The resulting structure exhibits aperiodic order with $C_{10}$ rotational symmetry, with reciprocal-space photoluminescence showing sharp Bragg peaks arranged in tenfold symmetry — a two-dimensional polariton quasicrystal that directly implements all three sectors simultaneously.
 
 The $\pi$-sector manifests in reciprocal space, where the Bragg peaks lie on circular rings with angular positions separated by $\Delta\theta = 2\pi/10$. The system selects equal angular spacing with period $2\pi$, discretized into ten coherent directions by $C_{10}$ symmetry — the isotropic closure constant $\pi$ appearing in the circular diffraction shells. The $\varphi$-sector manifests through the Penrose tiling's inflation–deflation rules with scale factor $\varphi$, where all length and area ratios of the prototiles are powers of $\varphi$. This is exactly the inflation–subdivision consistency condition of Appendix A: coarse-graining tiles by $\varphi$ yields the same pattern at larger scale, subdividing by $\varphi$ yields the same pattern at smaller scale, and the fixed point of that recursion is $\varphi$. The $N$-sector manifests through the tenfold diffraction symmetry — the $C_{2\times5}$ sector with binary and pentagonal coherence meeting at decade symmetry.
 
 The experiment demonstrates near-perfect delocalization and phase synchronization of the polariton fluid over more than 100 times the healing length at a particular pump window, well beyond single-site scales. This mesoscopic coherence emerges exactly when the geometry aligns with the constraint manifold — the system rides the $\pi$–$\varphi$–$10$ structure rather than fighting it.
 
-Two additional platforms corroborate this convergence. In solid-state quasicrystals, decagonal Al–Co–Ni alloys grown in the presence of rigid obstacles exhibit defect-free engulfment[^14] through phasonic flexibility[^15] — internal rearrangements unique to aperiodic structures that allow local reconfiguration without breaking global symmetry. Phasonic strain enables the quasicrystal to locally adjust the inflation–subdivision balance while preserving the global fixed point $\varphi$, providing a materials-level demonstration that the $(\pi, \varphi, 10)$ constraint manifold acts as a geometric attractor. In programmable optomechanical lattices[^16], nanomechanical resonators coupled by optically driven synthetic magnetic flux reproduce the full triplet structure: synthetic Lorentz curvature induces the $\pi$-sector, recursive minibands realize the $\varphi$-sector, and discrete chiral activation windows align with the decade structure — transition points lying near fractional partitions $\alpha \approx 0.329$ and $0.671$.
+Two additional platforms corroborate this convergence. In solid-state quasicrystals, decagonal Al–Co–Ni alloys grown in the presence of rigid obstacles exhibit defect-free engulfment[^15] through phasonic flexibility[^16] — internal rearrangements unique to aperiodic structures that allow local reconfiguration without breaking global symmetry. Phasonic strain enables the quasicrystal to locally adjust the inflation–subdivision balance while preserving the global fixed point $\varphi$, providing a materials-level demonstration that the $(\pi, \varphi, 10)$ constraint manifold acts as a geometric attractor. In programmable optomechanical lattices[^17], nanomechanical resonators coupled by optically driven synthetic magnetic flux reproduce the full triplet structure: synthetic Lorentz curvature induces the $\pi$-sector, recursive minibands realize the $\varphi$-sector, and discrete chiral activation windows align with the decade structure — transition points lying near fractional partitions $\alpha \approx 0.329$ and $0.671$.
 
 Across three radically different substrates — tight-binding electrons, driven-dissipative quantum fluids, and programmable mechanical resonators — the same eigenvalue skeleton appears.
 
@@ -726,7 +744,7 @@ $$
 
 with mass-weighted corrections pushing this into the 0.28–0.34 range for equal-mass binaries, yielding a central expectation of 0.329.
 
-Analysis of 164 binary black hole mergers from combined GWTC catalogs[^17] (GWTC-1 through GWTC-4.0, 219 total events) shows consistency with both predictions within measurement uncertainty. The base prediction (0.233) aligns with the observed fraction at $\chi_{\text{eff}} > 0.15$, where 23.8% $\pm$ 3.3% of systems show aligned high spins — a deviation of 0.1$\sigma$. The mass-weighted prediction (0.329) matches at $\chi_{\text{eff}} > 0.10$, where 32.9% $\pm$ 3.7% of systems qualify.
+Analysis of 164 binary black hole mergers from combined GWTC catalogs[^18] (GWTC-1 through GWTC-4.0, 219 total events) shows consistency with both predictions within measurement uncertainty. The base prediction (0.233) aligns with the observed fraction at $\chi_{\text{eff}} > 0.15$, where 23.8% $\pm$ 3.3% of systems show aligned high spins — a deviation of 0.1$\sigma$. The mass-weighted prediction (0.329) matches at $\chi_{\text{eff}} > 0.10$, where 32.9% $\pm$ 3.7% of systems qualify.
 
 The distribution's shape supports the framework's predictions. D'Agostino-Pearson testing rejects Gaussian normality ($p < 0.0001$), with positive kurtosis (1.79) indicating heavier tails and positive skew (0.96) indicating asymmetry toward higher spins — statistics supporting discrete constraint-governed behavior rather than continuous dynamics. The spin population structure shows 56.7% at low spin ($|\chi| < 0.1$), 34.8% at mid spin ($0.1 \leq |\chi| < 0.3$), and 8.5% at high spin ($|\chi| \geq 0.3$), consistent with bimodal dynamics from dissipation field competition between high-coherence and low-coherence attractors.
 
@@ -776,7 +794,7 @@ The **critical approach regime** is the interval of the dissipation flow in whic
 
 Inside this regime, the coexistence of slowing flow and irreducible frustration produces oscillatory dynamics as a structural consequence, not a modeling choice. Near $\eta \to 1$, the $\beta$-function behaves as $\beta \sim -(1-\eta)[\rho^* + (d-2)\ln\varphi/2]$, so changes in $\eta$ become small per unit RG time. Simultaneously, strict frustration (T2) prevents convergence to any stable compromise — corrections that reduce one sector increase pressure in the other two. The result is cycling through transient balance configurations under a slowing flow: oscillation as the normal form of frustrated correction. This is the structural reason that the richest dynamics concentrate in approach rather than at equilibrium or after collapse.
 
-The triadic competition also explains why dimensionality is an energetic liability. Each additional degree of freedom introduces new curvature modes requiring continuous maintenance, and these penalties scale superlinearly with dimension. Finite systems cannot afford high-dimensional curvature indefinitely. When maintenance cost rises beyond sustainable levels, coherent systems reduce dimensionality by projection onto lower-dimensional manifolds — curvature minimization finding the lowest-maintenance configuration compatible with the constraints. Near gravitational horizons, effective dimension flows from 3 to 2 as radial information flow freezes while tangential flow remains free (Appendix B). The holographic principle[^18][^19][^20] — entropy scaling with area rather than volume — reflects this dimensional economics. Systems consistently flow toward the lowest dimension their constraints permit.
+The triadic competition also explains why dimensionality is an energetic liability. Each additional degree of freedom introduces new curvature modes requiring continuous maintenance, and these penalties scale superlinearly with dimension. Finite systems cannot afford high-dimensional curvature indefinitely. When maintenance cost rises beyond sustainable levels, coherent systems reduce dimensionality by projection onto lower-dimensional manifolds — curvature minimization finding the lowest-maintenance configuration compatible with the constraints. Near gravitational horizons, effective dimension flows from 3 to 2 as radial information flow freezes while tangential flow remains free (Appendix B). The holographic principle[^19][^20][^21] — entropy scaling with area rather than volume — reflects this dimensional economics. Systems consistently flow toward the lowest dimension their constraints permit.
 
 The same feasibility structure, applied to the constitutive stress sector, yields a concrete transport prediction. Let $T^{(0)}_{ij}$ be the nominal constitutive proposal and $T_{ij} = \Pi_x[T^{(0)}_{ij}]$ the implemented stress. In the transverse shear channel, the first-order dissipative operator is the Navier–Stokes shear tensor $\sigma_{ij}$. If the constraint architecture places this operator in the feasibility nullspace near equilibrium,
 
@@ -802,7 +820,7 @@ Three independent lines of quantitative evidence support the framework's predict
 
 The framework is falsifiable at multiple levels. If the off-diagonal covariances $\Sigma_{ij}$ are measured to be non-negative for any pair of sectors, T2 fails and the frustration picture collapses. If a configuration is found that simultaneously minimizes two sectors, T1 fails. If a linear relation among the three curvature observables exists on $\Omega$, T3 fails. If the angular manifold's effective geometry differs from $S^2$, the $\kappa_\pi = 4\pi$ identification fails and $I$ changes. Each of these is checkable, and Section 3.8 details the specific failure modes and how to test them.
 
-The constraint functional admits multiple eigenbranch families beyond the Penrose branch: Ammann–Beenker $(\pi, 1+\sqrt{2}, 8)$, dodecagonal $(\pi, 2+\sqrt{3}, 12)$, and metallic-mean families. These exist as metastable states with higher ground-state curvature. The Penrose branch dominates because $\varphi$ achieves the global minimum of the Lagrange spectrum (Hurwitz's theorem), providing maximal resonance protection among all irrationals. Whether this dominance is fundamental or reflects observational selection remains an open question, though the number-theoretic argument is strong.
+The constraint functional admits multiple eigenbranch families beyond the Penrose branch: Ammann–Beenker $(\pi, 1+\sqrt{2}, 8)$, dodecagonal $(\pi, 2+\sqrt{3}, 12)$, and metallic-mean families. These exist as metastable states with higher ground-state curvature, and the branch compensation proposition (§4.6) establishes that they can be thermodynamically stable only through entropy subsidies that offset their curvature liability — a mechanism demonstrated concretely in dodecagonal square–triangle quasicrystals[^9]. The Penrose branch is the unique eigenbranch requiring no such subsidy: $\varphi$ achieves the global minimum of the Lagrange spectrum (Hurwitz's theorem), providing maximal resonance protection among all irrationals.
 
 The framework's deepest claim is that constraint, not freedom, generates complexity. Most frameworks start with symmetry and ask what it permits. The triadic tension theorem starts with incompatibility and asks what it forces. Three curvature sectors that cannot be simultaneously minimized produce a frustrated ground state with nonzero curvature $I = 4\pi\varphi^2$. That curvature determines the RG coupling $\rho^* = I/10$. That coupling governs the $\beta$-function. The $\beta$-function determines how dissipation flows across scales. And the flow produces the organizational hierarchy — from elementary particles at $\eta \sim 10^{-6}$ through biological systems at $\eta \sim 10^{-1}$ to black holes at $\eta = 1$ — as a sequence of approximately stable plateaus in a renormalization group trajectory.
 
@@ -862,11 +880,11 @@ captures how organizational complexity drives dimensional reduction. At $\eta = 
 
 ## References
 
-[^1]: Amari, S.-I. (2016). *Information Geometry and Its Applications*. Springer Japan. <https://doi.org/10.1007/978-4-431-55978-8>
+[^1]: Jaynes, E. T. (1957). "Information theory and statistical mechanics." *Physical Review*, 106(4), 620–630. <https://doi.org/10.1103/PhysRev.106.620>
 
-[^2]: Frieden, B. R. (2004). *Science from Fisher Information: A Unification*. Cambridge University Press. <https://doi.org/10.1017/CBO9780511616907>
+[^2]: Amari, S.-I. (2016). *Information Geometry and Its Applications*. Springer Japan. <https://doi.org/10.1007/978-4-431-55978-8>
 
-[^3]: Jaynes, E. T. (1957). "Information theory and statistical mechanics." *Physical Review*, 106(4), 620–630. <https://doi.org/10.1103/PhysRev.106.620>
+[^3]: Frieden, B. R. (2004). *Science from Fisher Information: A Unification*. Cambridge University Press. <https://doi.org/10.1017/CBO9780511616907>
 
 [^4]: Penrose, R. (1974). "The role of aesthetics in pure and applied mathematical research." *Bulletin of the Institute of Mathematics and its Applications*, 10, 266–271.
 
@@ -878,26 +896,28 @@ captures how organizational complexity drives dimensional reduction. At $\eta = 
 
 [^8]: Hurwitz, A. (1891). "Über die angenäherte Darstellung der Irrationalzahlen durch rationale Brüche." *Mathematische Annalen*, 39(2), 279–284. <https://doi.org/10.1007/BF01206656>
 
-[^9]: Chandrasekhar, S. (1931). "The maximum mass of ideal white dwarfs." *Astrophysical Journal*, 74, 81–82. <https://doi.org/10.1086/143324>
+[^9]: Ulugöl, A., Del Monte, G., Kempkes, E. K., Smallenburg, F., & Filion, L. (2026). "Vacancy defects in square–triangle tilings and their implications for quasicrystals formed by square-shoulder particles." arXiv preprint arXiv:2602.03813. <https://arxiv.org/abs/2602.03813>
 
-[^10]: Gentile Fusillo, N. P., Tremblay, P.-E., Cukanovaite, E., et al. (2021). "A catalogue of white dwarfs in Gaia EDR3." *Monthly Notices of the Royal Astronomical Society*, 508(3), 3877–3896. <https://doi.org/10.1093/mnras/stab2672>
+[^10]: Chandrasekhar, S. (1931). "The maximum mass of ideal white dwarfs." *Astrophysical Journal*, 74, 81–82. <https://doi.org/10.1086/143324>
 
-[^11]: Camisassa, M. E., Althaus, L. G., Córsico, A. H., et al. (2016). "The impact of 22Ne diffusion in white dwarf cooling." *Astronomy & Astrophysics*, 595, A1. <https://doi.org/10.1051/0004-6361/201628303>
+[^11]: Gentile Fusillo, N. P., Tremblay, P.-E., Cukanovaite, E., et al. (2021). "A catalogue of white dwarfs in Gaia EDR3." *Monthly Notices of the Royal Astronomical Society*, 508(3), 3877–3896. <https://doi.org/10.1093/mnras/stab2672>
 
-[^12]: Hillebrandt, W., & Niemeyer, J. C. (2000). "Type Ia supernova explosion models." *Annual Review of Astronomy and Astrophysics*, 38, 191–230. <https://doi.org/10.1146/annurev.astro.38.1.191>
+[^12]: Camisassa, M. E., Althaus, L. G., Córsico, A. H., et al. (2016). "The impact of 22Ne diffusion in white dwarf cooling." *Astronomy & Astrophysics*, 595, A1. <https://doi.org/10.1051/0004-6361/201628303>
 
-[^13]: Alyatkin, S., Sigurdsson, H., Askitopoulos, A., Töpfer, J. D., Cilibrizzi, P., Ohadi, H., & Lagoudakis, P. G. (2024). "Quantum fluids of light in 2D artificial reconfigurable aperiodic crystals with tailored coupling." *Nature Communications*, 15, 6602. <https://doi.org/10.1038/s41467-024-50923-8>
+[^13]: Hillebrandt, W., & Niemeyer, J. C. (2000). "Type Ia supernova explosion models." *Annual Review of Astronomy and Astrophysics*, 38, 191–230. <https://doi.org/10.1146/annurev.astro.38.1.191>
 
-[^14]: Wang, J., Gastaldi, J., Durand, A., Meresse, Y., & Zurkirchen, M. (2024). "Defect-Free Growth of Decagonal Quasicrystals around Obstacles." *Physical Review Materials*, 8(12), 125601. <https://doi.org/10.1103/PhysRevMaterials.8.125601>
+[^14]: Alyatkin, S., Sigurdsson, H., Askitopoulos, A., Töpfer, J. D., Cilibrizzi, P., Ohadi, H., & Lagoudakis, P. G. (2024). "Quantum fluids of light in 2D artificial reconfigurable aperiodic crystals with tailored coupling." *Nature Communications*, 15, 6602. <https://doi.org/10.1038/s41467-024-50923-8>
 
-[^15]: Lubensky, T. C., Socolar, J. E. S., Steinhardt, P. J., Bancel, P. A., & Heiney, P. A. (1986). "Distortion and peak broadening in quasicrystal diffraction patterns." *Physical Review Letters*, 57(12), 1440–1443. <https://doi.org/10.1103/PhysRevLett.57.1440>
+[^15]: Wang, J., Gastaldi, J., Durand, A., Meresse, Y., & Zurkirchen, M. (2024). "Defect-Free Growth of Decagonal Quasicrystals around Obstacles." *Physical Review Materials*, 8(12), 125601. <https://doi.org/10.1103/PhysRevMaterials.8.125601>
 
-[^16]: del Pino, J., Slim, J. J., & Verhagen, E. (2022). "Synthetic magnetism for photon fluids." *Nature*, 606, 82–87. <https://doi.org/10.1038/s41586-022-04720-2>
+[^16]: Lubensky, T. C., Socolar, J. E. S., Steinhardt, P. J., Bancel, P. A., & Heiney, P. A. (1986). "Distortion and peak broadening in quasicrystal diffraction patterns." *Physical Review Letters*, 57(12), 1440–1443. <https://doi.org/10.1103/PhysRevLett.57.1440>
 
-[^17]: The LIGO Scientific Collaboration, the Virgo Collaboration, & the KAGRA Collaboration (2023). "Population of merging compact binaries inferred using gravitational waves through GWTC-3." *Physical Review X*, 13, 011048. <https://doi.org/10.1103/PhysRevX.13.011048>. Analysis here uses combined GWTC-1 through GWTC-4.0 catalogs (219 events, 164 BBH mergers) from GWOSC.
+[^17]: del Pino, J., Slim, J. J., & Verhagen, E. (2022). "Synthetic magnetism for photon fluids." *Nature*, 606, 82–87. <https://doi.org/10.1038/s41586-022-04720-2>
 
-[^18]: 't Hooft, G. (1993). "Dimensional reduction in quantum gravity." arXiv preprint gr-qc/9310026. <https://doi.org/10.48550/arXiv.gr-qc/9310026>
+[^18]: The LIGO Scientific Collaboration, the Virgo Collaboration, & the KAGRA Collaboration (2023). "Population of merging compact binaries inferred using gravitational waves through GWTC-3." *Physical Review X*, 13, 011048. <https://doi.org/10.1103/PhysRevX.13.011048>. Analysis here uses combined GWTC-1 through GWTC-4.0 catalogs (219 events, 164 BBH mergers) from GWOSC.
 
-[^19]: Susskind, L. (1995). "The world as a hologram." *Journal of Mathematical Physics*, 36(11), 6377–6396. <https://doi.org/10.1063/1.531249>
+[^19]: 't Hooft, G. (1993). "Dimensional reduction in quantum gravity." arXiv preprint gr-qc/9310026. <https://doi.org/10.48550/arXiv.gr-qc/9310026>
 
-[^20]: Bousso, R. (2002). "The holographic principle." *Reviews of Modern Physics*, 74(3), 825–874. <https://doi.org/10.1103/RevModPhys.74.829>
+[^20]: Susskind, L. (1995). "The world as a hologram." *Journal of Mathematical Physics*, 36(11), 6377–6396. <https://doi.org/10.1063/1.531249>
+
+[^21]: Bousso, R. (2002). "The holographic principle." *Reviews of Modern Physics*, 74(3), 825–874. <https://doi.org/10.1103/RevModPhys.74.829>
