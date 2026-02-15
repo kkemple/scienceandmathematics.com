@@ -1,6 +1,6 @@
 ---
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
-description: "Three incompatible curvature sectors compete under one constraint functional, forcing ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a dissipation β-function whose constants are geometrically determined."
+description: "Three incompatible curvature sectors compete under one constraint functional, forcing ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a β-function whose constants are geometrically determined."
 pubDate: '2025-11-28'
 zenodoDepositionId: 18645028
 zenodoUrl: "https://zenodo.org/records/18645028"

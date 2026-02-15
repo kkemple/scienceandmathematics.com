@@ -1,6 +1,6 @@
 ---
 title: 'Pentagonal Constraints & Quantum Computing'
-description: "Fibonacci anyon fusion τ × τ = 1 + τ forces quantum dimension d_τ = φ — the same identity underlying the constraint functional's recursive sector. Fibonacci pulses extend qubit coherence 3.7× via Hurwitz protection."
+description: "Fibonacci anyon fusion τ × τ = 1 + τ forces quantum dimension d_τ = φ — the same identity underlying the recursive sector. Fibonacci pulses extend qubit coherence 3.7× via Hurwitz protection."
 pubDate: '2025-10-19'
 updatedDate: '2026-01-28'
 zenodoDepositionId: 18645020

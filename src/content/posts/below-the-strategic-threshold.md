@@ -1,6 +1,6 @@
 ---
 title: 'Below the Strategic Threshold'
-description: "Most coordination happens without strategy. Understanding the structural dynamics of gradient-following, narrative gaps, and information asymmetry reveals how systems organize—and how that organization can be exploited."
+description: "Most coordination happens without strategy. Gradient-following, narrative gaps, and information asymmetry reveal how systems organize—and how that organization can be exploited."
 pubDate: '2026-01-20'
 zenodoDepositionId: 18511932
 zenodoUrl: "https://zenodo.org/records/18511932"
