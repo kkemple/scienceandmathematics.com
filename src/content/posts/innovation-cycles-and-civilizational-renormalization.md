@@ -3,9 +3,9 @@ title: 'Innovation Cycles and Civilizational Renormalization'
 description: "Civilizations build intervention stacks on natural mechanics until complexity outpaces surplus, forcing either breakthrough to new mechanics or simplification through collapse."
 pubDate: '2025-10-18'
 updatedDate: '2026-02-06'
-zenodoDepositionId: 18405981
-zenodoUrl: "https://zenodo.org/records/18405981"
-doi: "10.5281/zenodo.18405981"
+zenodoDepositionId: 18645019
+zenodoUrl: "https://zenodo.org/records/18645019"
+doi: "10.5281/zenodo.18645019"
 keywords:
   - "innovation cycles"
   - "civilizational collapse"
@@ -112,9 +112,9 @@ The acceleration follows from starting each cycle at higher baseline complexity.
 
 ## The Constraint
 
-The pattern has a formal expression. In the [information-theoretic framework](/information-theoretic-constraints-on-sociotechnical-systems), the complexity multiplier $(1-\eta)^{-\rho^*}$ grows nonlinearly as the fraction of capacity devoted to maintenance overhead $\eta$ rises, with the critical exponent $\nu = 1/\rho^* \approx 0.304$ governing the rate of divergence near [organizational phase transitions](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). "Complexity outpaces surplus" is what this acceleration looks like from inside the system—coordination overhead consuming productive capacity until the intervention stack can no longer sustain itself.
+The pattern has a formal expression. In the [information-theoretic framework](/information-theoretic-constraints-on-sociotechnical-systems), the complexity multiplier $(1-\xi)^{-u^*}$ grows nonlinearly as the fraction of capacity devoted to maintenance overhead $\xi$ rises, with the critical exponent $\nu = 1/u^* \approx 0.304$ governing the rate of divergence near [organizational phase transitions](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). "Complexity outpaces surplus" is what this acceleration looks like from inside the system—coordination overhead consuming productive capacity until the intervention stack can no longer sustain itself.
 
-Breakthrough resets $\eta$ by creating new surplus. Simplification resets $\eta$ by shedding complexity. Both paths restore the system to a regime where maintenance costs are sustainable. The difference is what gets preserved.
+Breakthrough resets $\xi$ by creating new surplus. Simplification resets $\xi$ by shedding complexity. Both paths restore the system to a regime where maintenance costs are sustainable. The difference is what gets preserved.
 
 [^1]: Cline, E. H. (2014). *1177 B.C.: The Year Civilization Collapsed*. Princeton University Press.
 

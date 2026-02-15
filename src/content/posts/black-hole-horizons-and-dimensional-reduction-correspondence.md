@@ -3,9 +3,9 @@ title: 'Black Hole Horizons & Dimensional Reduction Correspondence'
 description: "Five independent frameworks — geometry, thermodynamics, topology, information theory, entropic gravity — converge on the same horizon structure: 3D-to-2D dimensional reduction, dual chiral sectors, and S³ topology."
 pubDate: '2025-08-22'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18511934
-zenodoUrl: "https://zenodo.org/records/18511934"
-doi: "10.5281/zenodo.18511934"
+zenodoDepositionId: 18645009
+zenodoUrl: "https://zenodo.org/records/18645009"
+doi: "10.5281/zenodo.18645009"
 keywords:
   - "black hole thermodynamics"
   - "dimensional reduction"
@@ -195,7 +195,7 @@ LISA observations[^17] of extreme mass ratio inspirals will probe near-horizon s
 
 The dual-sector structure with $N_{max} = 2N_{BH}$ bears directly on the information paradox[^18]. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, providing sufficient capacity for complete information throughput during evaporation. The factor of 2 emerges from the topological structure of 2D surfaces supporting independent chiral sectors — it is exact, not approximate.
 
-Within the [constraint geometry framework](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), dimensional reduction at horizons represents the endpoint of the coupled $(\eta, d)$ flow derived in that monograph's Section 5. As the dissipation field $\eta$ approaches 1, the dimensional flow equation $dd/d\ln\mu = -(\eta/\rho^*)\ln\varphi$ drives effective dimension toward 2. Black holes are the unique physical systems that simultaneously saturate all three curvature sectors — the $\varphi$-sector as radial information flow freezes, the $\pi$-sector as angular degrees of freedom pack at maximal isotropic density, and the $N$-sector as discrete information storage reaches the Bekenstein-Hawking bound. The five-path convergence documented here provides independent mathematical confirmation that the $d \to 2$ fixed point is not merely a formal consequence of the RG flow but reflects genuine geometric reorganization at horizons.
+Within the [constraint geometry framework](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), dimensional reduction at horizons represents the endpoint of the coupled $(\xi, \mathcal{D})$ flow derived in that monograph's Section 5. As the maintenance fraction $\xi$ approaches 1, the dimensional flow equation $d\mathcal{D}/d\mu = -(\xi/u^*)\ln\varphi$ drives effective dimension toward 2. Black holes are the unique physical systems that simultaneously saturate all three curvature sectors — the $\varphi$-sector as radial information flow freezes, the $\pi$-sector as angular degrees of freedom pack at maximal isotropic density, and the $N$-sector as discrete information storage reaches the Bekenstein-Hawking bound. The five-path convergence documented here provides independent mathematical confirmation that the $\mathcal{D} \to 2$ fixed point is not merely a formal consequence of the RG flow but reflects genuine geometric reorganization at horizons.
 
 ## Attack Surface
 

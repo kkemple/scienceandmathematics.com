@@ -3,9 +3,9 @@ title: 'Preserved Curl, Scale Separation, & Topological Leakage'
 description: "Magnetic helicity decays slower than energy by the squared scale ratio. A parameterized hazard family proves the phase boundary exponent is operator-specific, flat when stress matches dissipation."
 pubDate: '2026-02-08'
 updatedDate: '2026-02-10'
-zenodoDepositionId: 18602866
-zenodoUrl: "https://zenodo.org/records/18602866"
-doi: "10.5281/zenodo.18602866"
+zenodoDepositionId: 18645021
+zenodoUrl: "https://zenodo.org/records/18645021"
+doi: "10.5281/zenodo.18645021"
 zenodoDescription: |
   Magnetic helicity — the integral measuring linkage and twist of divergence-free field lines — serves as a physical curl inventory whose decay timescale exceeds the energy decay timescale by a factor controlled entirely by scale separation. A Monte Carlo sweep across carrier and dissipative scales produces a universal stiffness collapse onto the linear law τ_H/τ_U ≈ 0.97X + 0.03, where X = (k_rms/k_c)².
 
@@ -152,9 +152,11 @@ The [Navier–Stokes finite-residence result](/navier-stokes-vorticity-growth-an
 
 The [compressor instantiation](/compressors-curl-and-constraint-geometry) of these ideas — rotating stall as curl made visible, the surge line as a finite-residence manifold — gains a field-theoretic underpinning. The stiffness ratio explains why compressor stall cells persist even as mean energy in the flow field dissipates: the topological content of the circulation pattern is stiffer than the amplitude, and clearing it requires an architectural intervention (changing the constraint geometry via variable stators or bleed valves) rather than a parametric one (retuning the controller). The operator resonance result constrains the mechanism further: if the physical stress driving topology change is current-driven reconnection, the rate of topology-change events at the phase boundary is scale-separation-independent. The stiffness ratio alone determines how the repair ceiling scales, falling as $1/X$, as derived in the [repair framework](/repair-as-local-optimization-in-constraint-geometry).
 
+Experimental evidence for spectral reorganization under non-integrable perturbation comes from non-Hermitian acoustic Chern lattices, where a single dislocation defect collapses bulk-extended states onto the defect site and converts boundary skin effects to dislocation-bound ones[^4] — a finite local constraint reshaping the global operator spectrum, consistent with the projection-induced spectral restructuring described here.
+
 ## Attack Surface
 
-The stiffness law $\tau_H/\tau_U \approx 0.97X + 0.03$ is derived in a linear, non-interacting Fourier model. Any nonlinear coupling — turbulent cascades, inverse helicity transfer, reconnection-driven redistribution — would alter the quantitative relationship, potentially strengthening protection (as inverse cascades in 3D MHD are known to do[^4]) or weakening it. The law establishes a lower bound on topological stiffness in the simplest possible setting; whether it survives as an approximate scaling in more complex dynamics is an empirical question addressable by MHD simulation.
+The stiffness law $\tau_H/\tau_U \approx 0.97X + 0.03$ is derived in a linear, non-interacting Fourier model. Any nonlinear coupling — turbulent cascades, inverse helicity transfer, reconnection-driven redistribution — would alter the quantitative relationship, potentially strengthening protection (as inverse cascades in 3D MHD are known to do[^5]) or weakening it. The law establishes a lower bound on topological stiffness in the simplest possible setting; whether it survives as an approximate scaling in more complex dynamics is an empirical question addressable by MHD simulation.
 
 The operator resonance identity — $I_j = U_{j0}/(2\eta)$ at $p = 1$ — is exact for pure $k^2$ diffusion. In real MHD, nonlinear terms modify the effective decay operator, and the physical hazard functional may not be exactly $J^2$. The identity establishes that current-driven topology change in a resistively-dominated regime has $X$-independent integrated hazard; quantifying departures when nonlinear effects are included requires resolved MHD simulation with tracked reconnection events.
 
@@ -162,7 +164,7 @@ The Monte Carlo phase boundary uses 100 realizations per boundary point, with ad
 
 The equal-energy partition $U_{c0} = U_{j0} = 1$ is a specific choice. Varying the energy partition shifts the $X$ range where the carrier-to-junk transition occurs, potentially changing the effective $\alpha$ measured over a fixed $X$ range without affecting the asymptotic result. The structural conclusion — $\alpha = 0$ at $p = 1$ — holds for any energy partition because the junk integral's $X$-independence is algebraic.
 
-The most important scope limitation is that this is a linear field theory with no back-reaction. In physical plasmas, helicity conservation constrains the dynamics — the Taylor relaxation principle holds that turbulent plasmas relax toward force-free states that minimize energy at fixed helicity[^5]. This back-reaction strengthens topological protection beyond what the passive diffusion model predicts. The present results therefore underestimate the stiffness of curl in systems where helicity actively constrains the evolution, making the linear model a conservative baseline rather than an optimistic projection.
+The most important scope limitation is that this is a linear field theory with no back-reaction. In physical plasmas, helicity conservation constrains the dynamics — the Taylor relaxation principle holds that turbulent plasmas relax toward force-free states that minimize energy at fixed helicity[^6]. This back-reaction strengthens topological protection beyond what the passive diffusion model predicts. The present results therefore underestimate the stiffness of curl in systems where helicity actively constrains the evolution, making the linear model a conservative baseline rather than an optimistic projection.
 
 [^1]: Moffatt, H. K. (1969). "The degree of knottedness of tangled vortex lines." *Journal of Fluid Mechanics*, 35(1), 117–129. <https://doi.org/10.1017/S0022112069000991>
 
@@ -170,6 +172,8 @@ The most important scope limitation is that this is a linear field theory with n
 
 [^3]: Priest, E. R., & Forbes, T. G. (2000). *Magnetic Reconnection: MHD Theory and Applications*. Cambridge University Press.
 
-[^4]: Brandenburg, A. (2001). "The inverse cascade and nonlinear alpha-effect in simulations of isotropic helical hydromagnetic turbulence." *The Astrophysical Journal*, 550(2), 824–840. <https://doi.org/10.1086/319783>
+[^4]: Meng, Y., et al. (2025). "Non-Hermitian acoustic dislocation." *Advanced Materials*, 37, 2515496. <https://doi.org/10.1002/adma.202515496>
 
-[^5]: Taylor, J. B. (1974). "Relaxation of toroidal plasma and generation of reverse magnetic fields." *Physical Review Letters*, 33(19), 1139–1141. <https://doi.org/10.1103/PhysRevLett.33.1139>
+[^5]: Brandenburg, A. (2001). "The inverse cascade and nonlinear alpha-effect in simulations of isotropic helical hydromagnetic turbulence." *The Astrophysical Journal*, 550(2), 824–840. <https://doi.org/10.1086/319783>
+
+[^6]: Taylor, J. B. (1974). "Relaxation of toroidal plasma and generation of reverse magnetic fields." *Physical Review Letters*, 33(19), 1139–1141. <https://doi.org/10.1103/PhysRevLett.33.1139>

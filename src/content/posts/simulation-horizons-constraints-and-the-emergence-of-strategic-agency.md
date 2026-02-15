@@ -2,9 +2,9 @@
 title: "Simulation Horizons, Constraints, & the Emergence of Strategic Agency"
 description: "A phase boundary for when optimization becomes strategy: systems play games only when horizon and authority justify intervention over migration under thermodynamic and institutional constraints."
 pubDate: "2025-12-21"
-zenodoDepositionId: 18511943
-zenodoUrl: "https://zenodo.org/records/18511943"
-doi: "10.5281/zenodo.18511943"
+zenodoDepositionId: 18645023
+zenodoUrl: "https://zenodo.org/records/18645023"
+doi: "10.5281/zenodo.18645023"
 updatedDate: "2026-02-06"
 type: "analysis"
 keywords:
@@ -86,12 +86,12 @@ $$
 
 Actual systems operate far above Landauer efficiency, but the bound remains a reference point: it reminds us that thinking is an energetic allocation problem, not a purely informational one. This is the thermodynamic thread running through [The Anthropic Thermodynamic Principle](/the-anthropic-thermodynamic-principle): agency lives in a narrow overhead window where complexity is sufficient yet slack remains.
 
-The practical abstraction separates maintenance from slack. Let total available power be $P$ and let $\eta \in (0,1)$ represent the fraction consumed by maintenance and overhead. Slack power is $(1-\eta)P$. This is the same structural role played by the dissipation field $\eta$ in [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), where $\eta$ measures the fraction of an energy budget devoted to curvature maintenance — the physics changes but the maintenance-versus-slack partition is identical. Not all slack is usable for planning — a recurring structure/capacity split, roughly "structure" versus "degrees of freedom," describes what fraction of slack is actually available for choice rather than absorbed by keeping the system coherent.
+The practical abstraction separates maintenance from slack. Let total available power be $P$ and let $\xi \in (0,1)$ represent the fraction consumed by maintenance and overhead. Slack power is $(1-\xi)P$. This is the same structural role played by the maintenance fraction $\xi$ in [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), where $\xi$ measures the fraction of an energy budget devoted to curvature maintenance — the physics changes but the maintenance-versus-slack partition is identical. Not all slack is usable for planning — a recurring structure/capacity split, roughly "structure" versus "degrees of freedom," describes what fraction of slack is actually available for choice rather than absorbed by keeping the system coherent.
 
 Define an available choice power budget,
 
 $$
-P_{\text{choice}} \equiv P \cdot \lambda \cdot (1-\eta),
+P_{\text{choice}} \equiv P \cdot \lambda \cdot (1-\xi),
 $$
 
 where $\lambda \in (0,1)$ is the usable fraction of slack after structure and coordination overhead is accounted for. In real organizations under load, $\lambda$ is often much less than 1.
@@ -111,12 +111,12 @@ $$
 Feasibility requires $E_{\text{sim}}(H) \le E_{\text{choice}}$, yielding an upper bound on the simulation horizon,
 
 $$
-H \le H^\star \equiv \left\lfloor \frac{P_{\text{choice}} \Delta t}{b \, e_b} \right\rfloor = \left\lfloor \frac{P \lambda (1-\eta) \Delta t}{b \, \chi \, k_B T \ln 2} \right\rfloor,
+H \le H^\star \equiv \left\lfloor \frac{P_{\text{choice}} \Delta t}{b \, e_b} \right\rfloor = \left\lfloor \frac{P \lambda (1-\xi) \Delta t}{b \, \chi \, k_B T \ln 2} \right\rfloor,
 $$
 
 where $\chi \ge 1$ captures inefficiency above the Landauer limit.
 
-This makes the qualitative claim quantitative: the planning horizon collapses when $\eta$ rises (stress), when $P$ falls (resource loss), when $b$ rises (model complexity), or when $e_b$ rises (inefficiency, friction, coordination cost). The statement that agents are rational within the horizon they can simulate becomes a physical constraint, not a psychological observation.
+This makes the qualitative claim quantitative: the planning horizon collapses when $\xi$ rises (stress), when $P$ falls (resource loss), when $b$ rises (model complexity), or when $e_b$ rises (inefficiency, friction, coordination cost). The statement that agents are rational within the horizon they can simulate becomes a physical constraint, not a psychological observation.
 
 ## Horizon Without Actuation Is Still Migration
 
@@ -162,22 +162,22 @@ Equilibrium becomes an emergent property of constrained feedback rather than an 
 
 The simplest prediction of this framework is qualitative: under stress, systems revert to gradient-following behavior because horizons shorten.
 
-In the energy model above, $H^\star$ is increasing in $P_{\text{choice}}$ and decreasing in $\eta$. Any stressor that raises maintenance overhead or reduces slack shrinks the feasible planning horizon. As $\tau_{\text{ctrl}} = H^\star \Delta t$ falls below $\tau_{\text{env}}$, $\kappa$ drops and strategic behavior becomes less descriptive.
+In the energy model above, $H^\star$ is increasing in $P_{\text{choice}}$ and decreasing in $\xi$. Any stressor that raises maintenance overhead or reduces slack shrinks the feasible planning horizon. As $\tau_{\text{ctrl}} = H^\star \Delta t$ falls below $\tau_{\text{env}}$, $\kappa$ drops and strategic behavior becomes less descriptive.
 
-This pattern appears consistently in financial panics. Decision cycles speed up ($\Delta t$ shrinks). Uncertainty inflates model complexity ($b$ rises). Funding constraints raise effective overhead ($\eta$ rises). Constraints bind faster than agents can re-coordinate.
+This pattern appears consistently in financial panics. Decision cycles speed up ($\Delta t$ shrinks). Uncertainty inflates model complexity ($b$ rises). Funding constraints raise effective overhead ($\xi$ rises). Constraints bind faster than agents can re-coordinate.
 
 The outcome looks like irrationality, but it is often rational under a collapsed horizon: migration dominates intervention because intervention can no longer be reliably evaluated. Panic is not a failure of reasoning but reasoning operating under a collapsed $\kappa$.
 
-Formally, stress raises effective overhead $\eta$, which reduces choice power,
+Formally, stress raises effective overhead $\xi$, which reduces choice power,
 
 $$
-\frac{\partial P_{\text{choice}}}{\partial \eta} = -P \lambda < 0.
+\frac{\partial P_{\text{choice}}}{\partial \xi} = -P \lambda < 0.
 $$
 
 Therefore $H^\star$ shrinks,
 
 $$
-\frac{\partial H^\star}{\partial \eta} < 0.
+\frac{\partial H^\star}{\partial \xi} < 0.
 $$
 
 Once $H^\star$ falls below the environment's strategic timescale, the system crosses back into the gradient-following regime. This is the mathematical statement of herding, forced deleveraging, flight-to-safety, and institutional default choice behavior—all of which are rational under a collapsed horizon.

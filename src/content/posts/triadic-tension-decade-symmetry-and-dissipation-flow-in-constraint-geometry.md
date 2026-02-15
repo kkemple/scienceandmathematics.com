@@ -1,10 +1,10 @@
 ---
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
-description: "Three incompatible curvature sectors compete under one constraint functional, forcing ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a dissipation β-function with zero free parameters."
+description: "Three incompatible curvature sectors compete under one constraint functional, forcing ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a dissipation β-function whose constants are geometrically determined."
 pubDate: '2025-11-28'
-zenodoDepositionId: 18613875
-zenodoUrl: "https://zenodo.org/records/18613875"
-doi: "10.5281/zenodo.18613875"
+zenodoDepositionId: 18645028
+zenodoUrl: "https://zenodo.org/records/18645028"
+doi: "10.5281/zenodo.18645028"
 updatedDate: '2026-02-06'
 keywords:
   - "constraint geometry"
@@ -29,14 +29,14 @@ zenodoDescription: |
 
   A negative selection argument forces the discrete sector to carry C₁₀ = C₂ × C₅ symmetry. The crystallographic restriction eliminates periodic groups, φ-compatibility eliminates all remaining quasicrystal families, and binary closure demands the C₂ factor. C₁₀ is the unique survivor. All three sector constants are now geometrically determined.
 
-  The dissipation β-function β(η,d) = -η(1-η)[ρ* + (d-2)ln(φ)/2], with ρ* = 4πφ²/10 ≈ 3.29, is derived through standard Wilsonian renormalization, with higher-order contributions forbidden by a vertex selection rule enforced by the exact recursion symmetry of the constraint functional. The universal critical exponent ν = 1/ρ* ≈ 0.304 governs coherence-length divergence at organizational phase transitions.
+  The dissipation β-function β(ξ,𝒟) = -ξ(1-ξ)[u* + (𝒟-2)ln(φ)/2], with u* = 4πφ²/10 ≈ 3.29, is derived through standard Wilsonian renormalization, with higher-order contributions forbidden by a vertex selection rule enforced by the exact recursion symmetry of the constraint functional. The universal critical exponent ν = 1/u* ≈ 0.304 governs coherence-length divergence at organizational phase transitions.
 
-  Quantitative evidence: white dwarf cooling anomalies at R/R_S = 10³ matching the structural saturation threshold (7,515 Gaia DR3 objects, 14.5σ), Type Ia supernova energies matching Landauer bit-counting predictions (4.3 × 10⁴⁴ J), Penrose polariton quasicrystals realizing all three sectors in a single device, and black hole spin population fractions from GWTC catalogs matching predictions derived from ρ* (164 BBH mergers, deviation 0.1σ).
+  Quantitative evidence: white dwarf cooling anomalies at R/R_S = 10³ matching the structural saturation threshold (7,515 Gaia DR3 objects, 14.5σ), Type Ia supernova energies matching Landauer bit-counting predictions (4.3 × 10⁴⁴ J), Penrose polariton quasicrystals realizing all three sectors in a single device, and black hole spin population fractions from GWTC catalogs matching predictions derived from u* (164 BBH mergers, deviation 0.1σ).
 ---
 
 Every organized system must maintain structure against entropy. Whether the system is a quantum lattice, a star, or a quasicrystal, maintaining coherence requires continuous corrective work, and that work has a cost. Curvature in an information distribution — angular bending, scale-wide bending, discrete frustration — measures this cost. Complexity is curvature. Coherence is what a system can afford to maintain.
 
-This monograph develops a constraint geometry in which three curvature sectors compete under a single variational functional. Their mutual incompatibility — triadic tension — forces nonzero ground-state curvature. Negative selection forces decade symmetry. The resulting dissipation flow has zero free parameters.
+This monograph develops a constraint geometry in which three curvature sectors compete under a single variational functional. Their mutual incompatibility — triadic tension — forces nonzero ground-state curvature. Negative selection forces decade symmetry. Every constant in the resulting dissipation flow traces to geometric or algebraic necessity.
 
 ## 1. Introduction
 
@@ -51,20 +51,20 @@ A negative selection argument (Section 4) forces the discrete sector to carry cy
 With all three sector constants determined, the dissipation $\beta$-function (Section 5) follows from standard Wilsonian renormalization applied to the constraint functional,
 
 $$
-\beta(\eta, d) = -\eta(1-\eta)\left[\rho^* + \frac{d-2}{2}\ln\varphi\right],
+\beta(\xi, \mathcal{D}) = -\xi(1-\xi)\left[u^* + \frac{\mathcal{D}-2}{2}\ln\varphi\right],
 $$
 
-where $\eta \in [0,1]$ is the dissipation field measuring the fraction of a system's energy budget devoted to curvature maintenance, $d$ is effective spatial dimension, and $\rho^* = 4\pi\varphi^2/10 \approx 3.29$ is the tree-level coupling constant. The logistic factor $\eta(1-\eta)$ reflects bounded competition at the two fixed points $\eta = 0$ (no structure) and $\eta = 1$ (all energy in maintenance). The dimensional correction $(d-2)\ln\varphi/2$ captures recursive degeneracy beyond the critical dimension $d = 2$. A vertex selection rule enforced by the recursion symmetry (§5.8) forbids all non-Gaussian couplings at the self-similar fixed point, making the one-loop result exact. The universal critical exponent $\nu = 1/\rho^* \approx 0.304$ governs how coherence length diverges as systems approach organizational phase transitions.
+where $\xi \in [0,1]$ is the dissipation field measuring the fraction of a system's energy budget devoted to curvature maintenance, $\mathcal{D}$ is effective spatial dimension, and $u^* = 4\pi\varphi^2/10 \approx 3.29$ is the tree-level coupling constant. The logistic factor $\xi(1-\xi)$ reflects bounded competition at the two fixed points $\xi = 0$ (no structure) and $\xi = 1$ (all energy in maintenance). The dimensional correction $(\mathcal{D}-2)\ln\varphi/2$ captures recursive degeneracy beyond the critical dimension $\mathcal{D} = 2$. A vertex selection rule enforced by the recursion symmetry (§5.8) forbids all non-Gaussian couplings at the self-similar fixed point, making the one-loop result exact. The universal critical exponent $\nu = 1/u^* \approx 0.304$ governs how coherence length diverges as systems approach organizational phase transitions.
 
 The constraint functional admits multiple eigenbranch families — Penrose $(\pi, \varphi, 10)$, Ammann–Beenker $(\pi, 1+\sqrt{2}, 8)$, dodecagonal $(\pi, 2+\sqrt{3}, 12)$ — each representing a distinct resolution of the triadic competition. The Penrose branch dominates natural systems because the golden ratio is the worst-approximable irrational number (Hurwitz's theorem), providing maximal resonance protection among all candidate inflation eigenvalues. Other branches exist as metastable states with higher ground-state curvature, requiring entropy subsidies to compensate their curvature liability (§4.6).
 
-Three independent lines of physical evidence confirm the framework's quantitative predictions. White dwarf cooling data from 7,515 Gaia DR3 objects reveals an anomaly at $R/R_S = 10^3$ matching the structural saturation threshold $\rho^*/10 \approx 0.329$, with significance $14.5\sigma$ (Section 6). The calculated Type Ia supernova energy of $4.3 \times 10^{44}$ J, derived entirely from Landauer costs of information reorganization, matches observed values. Penrose polariton quasicrystals realize all three constraint sectors simultaneously in a single device, achieving mesoscopic coherence exceeding 100 healing lengths when geometry aligns with the constraint manifold (Section 7). Analysis of 164 binary black hole mergers from combined GWTC catalogs shows spin population fractions matching predictions derived from $\rho^*$ within measurement uncertainty (Section 8).
+Three independent lines of physical evidence confirm the framework's quantitative predictions. White dwarf cooling data from 7,515 Gaia DR3 objects reveals an anomaly at $R/R_S = 10^3$ matching the structural saturation threshold $u^*/10 \approx 0.329$, with significance $14.5\sigma$ (Section 6). The calculated Type Ia supernova energy of $4.3 \times 10^{44}$ J, derived entirely from Landauer costs of information reorganization, matches observed values. Penrose polariton quasicrystals realize all three constraint sectors simultaneously in a single device, achieving mesoscopic coherence exceeding 100 healing lengths when geometry aligns with the constraint manifold (Section 7). Analysis of 164 binary black hole mergers from combined GWTC catalogs shows spin population fractions matching predictions derived from $u^*$ within measurement uncertainty (Section 8).
 
 The remainder of this monograph is organized as follows. Section 2 defines the constraint functional and derives its Euler–Lagrange equation. Section 3 states and proves the triadic tension theorem. Section 4 establishes the uniqueness of $C_{10}$ through negative selection. Section 5 derives the dissipation $\beta$-function. Sections 6–8 present physical evidence. Section 9 develops the connection between triadic tension and irreducible cycling through constraint projection. Section 10 summarizes what is proven, what is confirmed, and what would falsify the framework.
 
 ## Part I — Constraint Geometry
 
-The constraint geometry provides the mathematical foundation for the entire framework. This part defines the variational functional (Section 2), proves the triadic tension theorem establishing that its three curvature sectors cannot be simultaneously minimized (Section 3), forces the discrete sector to carry $C_{10}$ symmetry through negative selection (Section 4), and derives the dissipation $\beta$-function with zero free parameters (Section 5).
+The constraint geometry provides the mathematical foundation for the entire framework. This part defines the variational functional (Section 2), proves the triadic tension theorem establishing that its three curvature sectors cannot be simultaneously minimized (Section 3), forces the discrete sector to carry $C_{10}$ symmetry through negative selection (Section 4), and derives the dissipation $\beta$-function from geometric constraints alone (Section 5).
 
 ## 2. The Constraint Functional
 
@@ -105,10 +105,10 @@ Each functional is non-negative. Each has a well-defined minimizer on $\Omega$, 
 The full constraint functional is the weighted sum
 
 $$
-F[P] = \alpha \, K_\pi[P] + \beta \, K_\varphi[P] + \gamma \, K_N[P],
+F[P] = g_\pi \, K_\pi[P] + g_\varphi \, K_\varphi[P] + g_N \, K_N[P],
 $$
 
-where $\alpha, \beta, \gamma > 0$ are sector coupling constants. The ground state $P_0 = \text{argmin}_{P \in \Omega} F[P]$ represents the lowest-cost coherent configuration — the density that best balances angular, recursive, and discrete curvature under the given weighting.
+where $g_\pi, g_\varphi, g_N > 0$ are sector coupling constants. The ground state $P_0 = \text{argmin}_{P \in \Omega} F[P]$ represents the lowest-cost coherent configuration — the density that best balances angular, recursive, and discrete curvature under the given weighting.
 
 ### 2.4 Sector Minimizers
 
@@ -131,7 +131,7 @@ $$
 The curvature terms have the form $\int(\partial_x \ln P)^2 P\,dA = \int(\partial_x P)^2/P\,dA$. Under a perturbation $P \to P + \epsilon\,\delta P$, varying this expression and integrating by parts yields a contribution proportional to $\partial_{xx}\ln P$. The entropy term $S[P] = -\int P\ln P\,dA$ contributes $(1+\ln P)$ to the variation. Setting $\delta\mathcal{F} = 0$ for arbitrary $\delta P$ produces
 
 $$
--\alpha\,\partial_{\theta\theta}\ln P -\beta\,\partial_{\ell\ell}\ln P + \gamma\,\frac{\delta C_{2\times5}}{\delta P} = \lambda + \tau (1+\ln P), \qquad \ell = \log r.
+-g_\pi\,\partial_{\theta\theta}\ln P -g_\varphi\,\partial_{\ell\ell}\ln P + g_N\,\frac{\delta C_{2\times5}}{\delta P} = \lambda + \tau (1+\ln P), \qquad \ell = \log r.
 $$
 
 The left-hand side contains curvature forces in the angular, log-radial, and discrete sectors. The right-hand side encodes the balance between normalization and entropy through the Lagrange multipliers. Stationary solutions are the constraint eigenmodes — fixed points of the tradeoff between curvature costs and entropic spreading. The equation equates total curvature pressure to entropy pressure, so that admissible configurations are those where curvature costs exactly balance the entropic tendency to spread.
@@ -154,13 +154,13 @@ encodes correlations among sector fluctuations. The sign and magnitude of the of
 
 ## 3. The Triadic Tension Theorem
 
-The constraint functional $F[P] = F_\pi[P] + F_\varphi[P] + F_N[P]$ decomposes into three curvature sectors that cannot be simultaneously minimized. This mutual incompatibility — triadic tension — is the foundational structural claim of the framework. It forces nonzero ground-state curvature, generates the composite invariant $I = 4\pi\varphi^2$, and ultimately determines the RG coupling $\rho^* = I/10$ that governs all dissipation flow.
+The constraint functional $F[P] = F_\pi[P] + F_\varphi[P] + F_N[P]$ decomposes into three curvature sectors that cannot be simultaneously minimized. This mutual incompatibility — triadic tension — is the foundational structural claim of the framework. It forces nonzero ground-state curvature, generates the composite invariant $I = 4\pi\varphi^2$, and ultimately determines the RG coupling $u^* = I/10$ that governs all dissipation flow.
 
-If this claim fails — if some configuration simultaneously minimizes all three sectors — then the ground state carries zero curvature, the composite invariant $I$ vanishes, $\rho^* = 0$, the $\beta$-function has zero coupling, and the entire RG structure collapses. The claim must therefore be proven, not assumed. What follows is a theorem with checkable hypotheses, a rigorous proof, and clearly identified conditions for failure.
+If this claim fails — if some configuration simultaneously minimizes all three sectors — then the ground state carries zero curvature, the composite invariant $I$ vanishes, $u^* = 0$, the $\beta$-function has zero coupling, and the entire RG structure collapses. The claim must therefore be proven, not assumed. What follows is a theorem with checkable hypotheses, a rigorous proof, and clearly identified conditions for failure.
 
 ### 3.1 Statement of the Theorem
 
-**Theorem (Triadic Tension).** *Let $F[P] = \alpha K_\pi + \beta K_\varphi + \gamma K_N$ be the constraint functional on the entropy-constrained configuration space $\Omega$. Then:*
+**Theorem (Triadic Tension).** *Let $F[P] = g_\pi K_\pi + g_\varphi K_\varphi + g_N K_N$ be the constraint functional on the entropy-constrained configuration space $\Omega$. Then:*
 
 **(T1) Pairwise Incompatibility.** *The sector minimizers are mutually disjoint: for each pair $(i, j)$ with $i \neq j$,*
 
@@ -188,7 +188,7 @@ $$
 
 **(T4) Nonzero Ground-State Curvature.** *The minimum of $F$ on $\Omega$ satisfies $F[P_0] > 0$. The ground state carries nonzero total curvature.*
 
-**Corollary.** *On the Penrose (decagonal) eigenbranch with $(\alpha, \beta, \gamma) \to (4\pi, \varphi^2, C_{10})$, the ground-state curvature is $I = 4\pi\varphi^2 \approx 32.9$, and the RG coupling constant $\rho^* = I/10 \approx 3.29$ is fully determined.*
+**Corollary.** *On the Penrose (decagonal) eigenbranch with $(g_\pi, g_\varphi, g_N) \to (4\pi, \varphi^2, C_{10})$, the ground-state curvature is $I = 4\pi\varphi^2 \approx 32.9$, and the RG coupling constant $u^* = I/10 \approx 3.29$ is fully determined.*
 
 ### 3.2 Proof of Pairwise Incompatibility (T1)
 
@@ -336,17 +336,17 @@ The mixed-variation formulation makes the frustration mechanism transparent. Whe
 
 ### 3.6 Nonzero Ground-State Curvature (T4)
 
-**Proof of T4.** Suppose for contradiction that $F[P_0] = 0$. Since $\alpha, \beta, \gamma > 0$ and $K_i \geq 0$ for all $i$, this requires $K_\pi[P_0] = K_\varphi[P_0] = K_N[P_0] = 0$ simultaneously. But $K_i[P_0] = 0$ if and only if $P_0 = P_i^*$ (the unconstrained minimizer of sector $i$ on $\Omega$). Therefore $F[P_0] = 0$ requires $P_0 = P_\pi^* = P_\varphi^* = P_N^*$. This contradicts T1. $\square$
+**Proof of T4.** Suppose for contradiction that $F[P_0] = 0$. Since $g_\pi, g_\varphi, g_N > 0$ and $K_i \geq 0$ for all $i$, this requires $K_\pi[P_0] = K_\varphi[P_0] = K_N[P_0] = 0$ simultaneously. But $K_i[P_0] = 0$ if and only if $P_0 = P_i^*$ (the unconstrained minimizer of sector $i$ on $\Omega$). Therefore $F[P_0] = 0$ requires $P_0 = P_\pi^* = P_\varphi^* = P_N^*$. This contradicts T1. $\square$
 
 **Corollary (Composite Invariant).** On the Penrose eigenbranch, the three sector curvatures at the ground state take specific values. The recursive sector gives $K_\varphi[P_0] = \varphi^2$, the self-consistency eigenvalue of $x = 1 + 1/x$. The discrete sector gives $K_N[P_0] = C_{10}$, forced by the negative selection argument of Section 4. The angular sector gives $K_\pi[P_0] \equiv \kappa_\pi$, whose value is determined by the topology of the angular manifold.
 
-**Derivation of $\kappa_\pi = 4\pi$.** The location of the infrared fixed point $(\eta = 1, d = 2)$ is determined solely by the symmetry and factorization structure of the flow equations (Section 5). The logistic factor $\eta(1-\eta)$ vanishes at $\eta = 1$ regardless of the coupling constant, and the dimensional flow drives $d \to 2$ as $\eta \to 1$ regardless of $\kappa_\pi$'s value. The coupling governs the rate of approach to the fixed point, not its existence or location. This separation means we can evaluate the angular manifold at the fixed point without circularity.
+**Derivation of $\kappa_\pi = 4\pi$.** The location of the infrared fixed point $(\xi = 1, \mathcal{D} = 2)$ is determined solely by the symmetry and factorization structure of the flow equations (Section 5). The logistic factor $\xi(1-\xi)$ vanishes at $\xi = 1$ regardless of the coupling constant, and the dimensional flow drives $\mathcal{D} \to 2$ as $\xi \to 1$ regardless of $\kappa_\pi$'s value. The coupling governs the rate of approach to the fixed point, not its existence or location. This separation means we can evaluate the angular manifold at the fixed point without circularity.
 
-At $d = 2$, the angular manifold $\mathcal{M}_\pi$ on which the density $P$ is defined must satisfy four constraints, each imposed by an independent element of the framework. It must be two-dimensional, as forced by the dimensional flow. It must be compact with finite measure, as required by the normalization constraint $\int P\,dA = 1$. It must be orientable, as required by the $C_2$ parity factor established in Section 4 — binary closure demands that left- and right-handed curvature modes can be paired. And it must minimize curvature liability, as the $\pi$-sector penalizes angular curvature and selects the manifold carrying the least irreducible curvature cost.
+At $\mathcal{D} = 2$, the angular manifold $\mathcal{M}_\pi$ on which the density $P$ is defined must satisfy four constraints, each imposed by an independent element of the framework. It must be two-dimensional, as forced by the dimensional flow. It must be compact with finite measure, as required by the normalization constraint $\int P\,dA = 1$. It must be orientable, as required by the $C_2$ parity factor established in Section 4 — binary closure demands that left- and right-handed curvature modes can be paired. And it must minimize curvature liability, as the $\pi$-sector penalizes angular curvature and selects the manifold carrying the least irreducible curvature cost.
 
 The classification of closed orientable 2-manifolds by genus $g$ provides a topological sieve. Gauss–Bonnet gives the total Gaussian curvature as $\int_{\mathcal{M}} \mathcal{K}\,dA = 2\pi(2 - 2g)$. For genus $g \geq 2$, this is strictly negative — these surfaces carry irreducible negative curvature imposed by their topology that cannot be eliminated by any choice of metric. For the torus ($g = 1$), the total curvature vanishes. For the sphere ($g = 0$), the total curvature is $+4\pi$.
 
-T4 requires $I = \kappa_\pi \cdot \varphi^2 > 0$, which requires $\kappa_\pi > 0$. Since $\kappa_\pi$ is set by the total curvature of $\mathcal{M}_\pi$, this eliminates all genera except $g = 0$. The torus ($g = 1$) gives $\kappa_\pi = 0$, which yields $I = 0$ and $\rho^* = 0$ — the $\beta$-function loses its coupling and no dissipation flow exists. Higher-genus surfaces give $\kappa_\pi < 0$, which is worse. Only $g = 0$ survives. The angular manifold must be $S^2$.
+T4 requires $I = \kappa_\pi \cdot \varphi^2 > 0$, which requires $\kappa_\pi > 0$. Since $\kappa_\pi$ is set by the total curvature of $\mathcal{M}_\pi$, this eliminates all genera except $g = 0$. The torus ($g = 1$) gives $\kappa_\pi = 0$, which yields $I = 0$ and $u^* = 0$ — the $\beta$-function loses its coupling and no dissipation flow exists. Higher-genus surfaces give $\kappa_\pi < 0$, which is worse. Only $g = 0$ survives. The angular manifold must be $S^2$.
 
 The uniformization theorem confirms this selection. Every closed Riemann surface admits a constant-curvature metric, with curvature sign determined by topology. Among admissible manifolds, $S^2$ is the unique one admitting positive constant curvature. The round metric on $S^2$ realizes the maximal isometry group in two dimensions (SO(3), dimension 3), meaning no direction is preferred — exactly the condition the $\pi$-sector enforces. On $S^2$ with the round metric,
 
@@ -364,14 +364,14 @@ $$
 I = \kappa_\pi \cdot K_\varphi[P_0] = 4\pi\varphi^2 \approx 32.9.
 $$
 
-Every ingredient is now forced by the framework's own structure: $\kappa_\pi = 4\pi$ by dimensional reduction to $d = 2$ and topological selection of $S^2$ via Gauss–Bonnet, $\varphi^2$ by the recursive fixed-point algebra, $/10$ by negative selection of $C_{10}$ (Section 4), and the product being nonzero by triadic tension (T4). The composite invariant contains no free parameters and no assumed identifications. The discrete sector enters separately: $C_{10}$ symmetry partitions this curvature into 10 equivalent shells, yielding the RG coupling $\rho^* = I/10$ (Section 5).
+Every ingredient is now forced by the framework's own structure: $\kappa_\pi = 4\pi$ by dimensional reduction to $\mathcal{D} = 2$ and topological selection of $S^2$ via Gauss–Bonnet, $\varphi^2$ by the recursive fixed-point algebra, $/10$ by negative selection of $C_{10}$ (Section 4), and the product being nonzero by triadic tension (T4). Every factor in the composite invariant is forced by the framework's constraints. The discrete sector enters separately: $C_{10}$ symmetry partitions this curvature into 10 equivalent shells, yielding the RG coupling $u^* = I/10$ (Section 5).
 
 ### 3.7 The 1/3–2/3 Curvature Partition
 
 When the $N$-sector saturates first — reaching its minimum compatible with the continuous sectors — the remaining curvature redistributes between $K_\pi$ and $K_\varphi$. Minimizing the reduced functional
 
 $$
-F_{\text{eff}}[P] = \alpha K_\pi[P] + \beta K_\varphi[P],
+F_{\text{eff}}[P] = g_\pi K_\pi[P] + g_\varphi K_\varphi[P],
 $$
 
 subject to $K_N[P] = K_N^{\min}$ and the entropy constraint, yields
@@ -394,27 +394,27 @@ The theorem rests on checkable claims. Each represents a potential failure mode.
 
 **Degenerate ensemble (kills T2, T3).** If the entropy-constrained configuration space $\Omega$ is too small — for example, if the entropy constraint forces all configurations into a low-dimensional subspace where the sectors effectively decouple — then the covariance bounds may fail. This can be checked by verifying that the Gibbs ensemble at physical temperatures $\tau$ samples a sufficiently large region of $\Omega$.
 
-**The $I = 4\pi\varphi^2$ identity (kills the corollary).** The value $\kappa_\pi = 4\pi$ is derived from dimensional reduction at the IR fixed point, topological classification forcing genus 0, and Gauss–Bonnet on $S^2$ (§3.6). Any deviation from $S^2$ would require violating at least one of: compactness of the angular manifold (contradicting normalization), orientability (contradicting binary closure), the genus-0 requirement (contradicting T4, which requires $\kappa_\pi > 0$), or the dimensional flow to $d = 2$ (contradicting the $\beta$-function's fixed-point structure). The identification $K_\varphi[P_0] = \varphi^2$ from the recursive fixed-point equation $x = 1 + 1/x$ is independently checkable. If either the angular manifold's effective topology differs from $S^2$ through a mechanism that evades all four constraints, or if the ground-state density modifies the effective curvature integral, then $I$ changes and $\rho^*$ shifts.
+**The $I = 4\pi\varphi^2$ identity (kills the corollary).** The value $\kappa_\pi = 4\pi$ is derived from dimensional reduction at the IR fixed point, topological classification forcing genus 0, and Gauss–Bonnet on $S^2$ (§3.6). Any deviation from $S^2$ would require violating at least one of: compactness of the angular manifold (contradicting normalization), orientability (contradicting binary closure), the genus-0 requirement (contradicting T4, which requires $\kappa_\pi > 0$), or the dimensional flow to $\mathcal{D} = 2$ (contradicting the $\beta$-function's fixed-point structure). The identification $K_\varphi[P_0] = \varphi^2$ from the recursive fixed-point equation $x = 1 + 1/x$ is independently checkable. If either the angular manifold's effective topology differs from $S^2$ through a mechanism that evades all four constraints, or if the ground-state density modifies the effective curvature integral, then $I$ changes and $u^*$ shifts.
 
 ### 3.9 Precedent and Novelty
 
 Frustrated systems — where competing interactions prevent simultaneous satisfaction of all constraints — are well-studied in condensed matter physics. Antiferromagnets on triangular lattices, spin glasses with random couplings, and geometrically frustrated magnets on pyrochlore and kagome lattices all exhibit nonzero ground-state energy from frustrated configurations. The key precedent is that frustration generically produces nonzero ground-state energy, exactly as triadic tension produces nonzero ground-state curvature.
 
-Three features distinguish the present construction. First, the incompatibility involves three functionally independent curvature operators acting on orthogonal subspaces, rather than pairwise interactions between nearest-neighbor spins. Second, the ground-state curvature $I = 4\pi\varphi^2$ is determined by manifold geometry and algebra with no adjustable parameters — the frustration produces a specific, computable value rather than a distribution-dependent one. Third, the nonzero ground-state curvature becomes the tree-level coupling $\rho^* = I/10$ of a renormalization group flow (Section 5). Frustration does not just characterize the ground state — it is the engine driving the entire dissipation hierarchy.
+Three features distinguish the present construction. First, the incompatibility involves three functionally independent curvature operators acting on orthogonal subspaces, rather than pairwise interactions between nearest-neighbor spins. Second, the ground-state curvature $I = 4\pi\varphi^2$ is determined entirely by manifold geometry and algebra — the frustration produces a specific, computable value rather than a distribution-dependent one. Third, the nonzero ground-state curvature becomes the tree-level coupling $u^* = I/10$ of a renormalization group flow (Section 5). Frustration does not just characterize the ground state — it is the engine driving the entire dissipation hierarchy.
 
 The closest known precedent is bilateral frustration: two competing order parameters that cannot be simultaneously satisfied. Bilateral frustration admits a least-bad compromise where one order parameter dominates. Trilateral frustration is qualitatively different because any reduction in any sector forces increases in both others (T2). The frustration is fully connected, with no hierarchical resolution.
 
 The logical chain of the theorem is
 
 $$
-\text{Sector geometry} \xrightarrow{\text{T1}} \text{Incompatibility} \xrightarrow{\text{T2}} \text{Anticorrelated covariances} \xrightarrow{\text{T3}} \text{Nonzero volume} \xrightarrow{\text{T4}} I > 0 \xrightarrow{C_{10}} \rho^* = I/10 > 0.
+\text{Sector geometry} \xrightarrow{\text{T1}} \text{Incompatibility} \xrightarrow{\text{T2}} \text{Anticorrelated covariances} \xrightarrow{\text{T3}} \text{Nonzero volume} \xrightarrow{\text{T4}} I > 0 \xrightarrow{C_{10}} u^* = I/10 > 0.
 $$
 
-The triadic tension theorem sits at the base of the framework. It is the reason the ground state has nonzero curvature, which is the reason $\rho^*$ is nonzero, which is the reason the $\beta$-function (Section 5) has a nonzero coupling, which is the reason dissipation flows. Everything begins with the frustration.
+The triadic tension theorem sits at the base of the framework. It is the reason the ground state has nonzero curvature, which is the reason $u^*$ is nonzero, which is the reason the $\beta$-function (Section 5) has a nonzero coupling, which is the reason dissipation flows. Everything begins with the frustration.
 
 ## 4. Why Ten: Negative Selection of the Decade Symmetry
 
-The angular sector has closure constant $\kappa_\pi = 4\pi$, fixed by Gauss–Bonnet. The recursive sector has eigenvalue $\varphi^2$, fixed by the self-consistency equation $x = 1 + 1/x$. The discrete sector's cyclic symmetry $C_N$ remains to be determined. If $N$ is a free parameter, then $\rho^* = I/N$ is adjustable and the framework has a tunable knob — undermining the claim that constraint geometry determines all coupling constants. The value of $N$ must be forced.
+The angular sector has closure constant $\kappa_\pi = 4\pi$, fixed by Gauss–Bonnet. The recursive sector has eigenvalue $\varphi^2$, fixed by the self-consistency equation $x = 1 + 1/x$. The discrete sector's cyclic symmetry $C_N$ remains to be determined. If $N$ is a free parameter, then $u^* = I/N$ is adjustable and the framework has a tunable knob — undermining the claim that constraint geometry determines all coupling constants. The value of $N$ must be forced.
 
 The answer is negative selection. Three independent requirements progressively narrow the space of viable cyclic groups until only $C_{10}$ remains.
 
@@ -510,7 +510,7 @@ With the elimination of alternatives to $C_{10}$, all three sectors of the const
 | $\varphi$ (recursive) | $\varphi^2$ | Algebra | Self-consistency $x = 1+1/x$ |
 | $N$ (discrete) | $/10$ | Negative selection | Unique $C_N$ satisfying non-periodicity + $\varphi$-compatibility + parity |
 
-The composite invariant $I = 4\pi\varphi^2 \approx 32.9$ contains no adjustable pieces. The coupling constant $\rho^* = I/10 \approx 3.29$ is forced by the uniqueness of $C_{10}$. The decade structure of the dissipation ladder — the order-of-magnitude jumps $10^{-6} \to 10^{-3} \to 10^{-2} \to 10^{-1} \to 1$ — is a direct consequence of $N = 10$, where each RG period spans one decade in scale. If $N$ were different, the ladder would have different spacing. The observed decimal spacing is a prediction, not an input.
+The composite invariant $I = 4\pi\varphi^2 \approx 32.9$ is fully determined by the sector geometry. The coupling constant $u^* = I/10 \approx 3.29$ is forced by the uniqueness of $C_{10}$. The decade structure of the dissipation ladder — the order-of-magnitude jumps $10^{-6} \to 10^{-3} \to 10^{-2} \to 10^{-1} \to 1$ — is a direct consequence of $N = 10$, where each RG period spans one decade in scale. If $N$ were different, the ladder would have different spacing. The observed decimal spacing is a prediction, not an input.
 
 The Penrose eigenbranch dominates natural systems because $\varphi$ sits at the bottom of the Lagrange spectrum — the hierarchy of eigenbranch energies mirrors the hierarchy of Lagrange constants $\sqrt{5} < 2\sqrt{2} < (2+\sqrt{3}) < \cdots$, and the Penrose branch has the lowest ground-state curvature. Other eigenbranches (Ammann–Beenker, dodecagonal) exist as metastable states with stronger near-resonances and higher curvature cost.
 
@@ -534,27 +534,27 @@ The Penrose branch is therefore the unique eigenbranch that does not require an 
 
 ## 5. Deriving the Dissipation $\beta$-Function
 
-The dissipation field $\eta \in [0,1]$ measures the fraction of a system's energy budget devoted to curvature maintenance against entropy. Elementary particles maintain $\eta \sim 10^{-6}$, atoms $\sim 10^{-3}$, molecules $\sim 10^{-2}$, biological systems $\sim 10^{-1}$, and black holes saturate at $\eta = 1$. The Wilsonian question: as we coarse-grain from scale $\mu$ to $\mu + \delta\mu$ (integrating out fast modes in a thin shell), how does the effective $\eta$ change?
+The dissipation field $\xi \in [0,1]$ measures the fraction of a system's energy budget devoted to curvature maintenance against entropy. Elementary particles maintain $\xi \sim 10^{-6}$, atoms $\sim 10^{-3}$, molecules $\sim 10^{-2}$, biological systems $\sim 10^{-1}$, and black holes saturate at $\xi = 1$. The Wilsonian question: as we coarse-grain from scale $\mu$ to $\mu + \delta\mu$ (integrating out fast modes in a thin shell), how does the effective $\xi$ change?
 
 The derivation decomposes into four independently derivable steps, followed by a formal Wilsonian construction and a symmetry-enforced vertex selection rule that makes the result exact.
 
-### 5.1 The Logistic Factor $\eta(1-\eta)$
+### 5.1 The Logistic Factor $\xi(1-\xi)$
 
-The dissipation field is bounded: $\eta = 0$ (no structure, no maintenance) and $\eta = 1$ (all energy in maintenance, no available capacity) are the two fixed points of the RG flow. Any $\beta$-function for a bounded field must vanish at both fixed points.
+The dissipation field is bounded: $\xi = 0$ (no structure, no maintenance) and $\xi = 1$ (all energy in maintenance, no available capacity) are the two fixed points of the RG flow. Any $\beta$-function for a bounded field must vanish at both fixed points.
 
-When we integrate out a shell of fast modes at scale $\mu$, the curvature costs of those modes must be redistributed to the remaining system. Two factors govern this redistribution. The structure factor $\eta$ reflects that curvature being redistributed is proportional to the current maintenance level — more structure means more curvature cost carried by each shell. The capacity factor $1-\eta$ reflects that the remaining system can only absorb redistributed curvature if it has available capacity — as $\eta \to 1$, absorption capacity vanishes. The rate of change is proportional to the product,
+When we integrate out a shell of fast modes at scale $\mu$, the curvature costs of those modes must be redistributed to the remaining system. Two factors govern this redistribution. The structure factor $\xi$ reflects that curvature being redistributed is proportional to the current maintenance level — more structure means more curvature cost carried by each shell. The capacity factor $1-\xi$ reflects that the remaining system can only absorb redistributed curvature if it has available capacity — as $\xi \to 1$, absorption capacity vanishes. The rate of change is proportional to the product,
 
 $$
-\frac{d\eta}{d\ln\mu} \propto -\eta(1-\eta).
+\frac{d\xi}{d\ln\mu} \propto -\xi(1-\xi).
 $$
 
-The negative sign reflects that coarse-graining (increasing $\mu$, moving to larger scales) increases effective dissipation: integrating out fast modes removes degrees of freedom that were performing maintenance, forcing the remaining system to bear more load. This logistic form is the unique lowest-order polynomial vanishing at both fixed points with the correct physics. At $\eta = 0$, the UV fixed point is stable — systems at low dissipation remain there under fine-graining. At $\eta = 1$, the IR fixed point is stable — systems flow toward maximum dissipation under coarse-graining.
+The negative sign reflects that coarse-graining (increasing $\mu$, moving to larger scales) increases effective dissipation: integrating out fast modes removes degrees of freedom that were performing maintenance, forcing the remaining system to bear more load. This logistic form is the unique lowest-order polynomial vanishing at both fixed points with the correct physics. At $\xi = 0$, the UV fixed point is stable — systems at low dissipation remain there under fine-graining. At $\xi = 1$, the IR fixed point is stable — systems flow toward maximum dissipation under coarse-graining.
 
-### 5.2 The Tree-Level Coupling $\rho^*$
+### 5.2 The Tree-Level Coupling $u^*$
 
-The proportionality constant — the coupling $K(d)$ such that $\beta = -\eta(1-\eta)K(d)$ — is determined by the curvature cost per RG shell. Three exact constraints fix this value.
+The proportionality constant — the coupling $\mathcal{W}(\mathcal{D})$ such that $\beta = -\xi(1-\xi)\mathcal{W}(\mathcal{D})$ — is determined by the curvature cost per RG shell. Three exact constraints fix this value.
 
-Self-similarity (from the $\varphi$-sector) requires the curvature spectral density to be uniform in log-scale. If the curvature cost per unit of $\ln\mu$ varied with scale, there would be a preferred scale where curvature concentrates, violating the self-similar ground state. Therefore $dF/d\ln\mu = \rho_0 = \text{const}$.
+Self-similarity (from the $\varphi$-sector) requires the curvature spectral density to be uniform in log-scale. If the curvature cost per unit of $\ln\mu$ varied with scale, there would be a preferred scale where curvature concentrates, violating the self-similar ground state. Therefore $dF/d\ln\mu = u_0 = \text{const}$.
 
 Decade symmetry (from the $N$-sector) imposes $C_{10}$ on the curvature spectrum, partitioning the RG flow into 10 equivalent coarse-graining steps per RG period. The $C_{10}$ group acts transitively on the shell decomposition, so each shell carries identical curvature weight.
 
@@ -563,72 +563,72 @@ Eigenvalue normalization fixes the total curvature per period. One full RG perio
 Combining these three constraints — uniform distribution across 10 equivalent shells with total curvature $I$ per period — gives
 
 $$
-\rho^* = \frac{I}{10} = \frac{4\pi\varphi^2}{10} \approx 3.29.
+u^* = \frac{I}{10} = \frac{4\pi\varphi^2}{10} \approx 3.29.
 $$
 
 This is the curvature cost per RG shell. The $\pi$-sector contributes $\kappa_\pi = 4\pi$ (angular closure on $S^2$). The $\varphi$-sector contributes $\varphi^2$ (the squared recursive eigenvalue). These multiply because the sectors operate in orthogonal subspaces of the curvature spectrum, composing multiplicatively as eigenvalues of a block-diagonal operator. The $N$-sector divides by 10 through the decade partition.
 
-### 5.3 The Dimensional Correction $(d-2)\ln\varphi/2$
+### 5.3 The Dimensional Correction $(\mathcal{D}-2)\ln\varphi/2$
 
-The tree-level coupling $\rho^*$ is derived at $d = 2$, the critical dimension where the infrared fixed point resides. For systems operating at $d > 2$, an additional contribution enters from the recursive sector's interaction with spatial dimension.
+The tree-level coupling $u^*$ is derived at $\mathcal{D} = 2$, the critical dimension where the infrared fixed point resides. For systems operating at $\mathcal{D} > 2$, an additional contribution enters from the recursive sector's interaction with spatial dimension.
 
-The $\varphi$-eigenmode is self-similar: under one recursion step (scale change by factor $\varphi$), the system maps to itself. In $d$ spatial dimensions, the number of degrees of freedom at scale $\mu$ scales as $\mu^d$, giving a recursive degeneracy $N(\varphi\mu)/N(\mu) = \varphi^d$. In the Wilsonian RG, integrating out modes with degeneracy $g$ contributes $(1/2)\ln g$ to the effective action per mode, so the total degeneracy contribution is $\delta K_{\text{total}}(d) = (d/2)\ln\varphi$.
+The $\varphi$-eigenmode is self-similar: under one recursion step (scale change by factor $\varphi$), the system maps to itself. In $\mathcal{D}$ spatial dimensions, the number of degrees of freedom at scale $\mu$ scales as $\mu^{\mathcal{D}}$, giving a recursive degeneracy $N(\varphi\mu)/N(\mu) = \varphi^{\mathcal{D}}$. In the Wilsonian RG, integrating out modes with degeneracy $g$ contributes $(1/2)\ln g$ to the effective action per mode, so the total degeneracy contribution is $\delta K_{\text{total}}(\mathcal{D}) = (\mathcal{D}/2)\ln\varphi$.
 
-At $d = 2$, the recursive degeneracy is $\varphi^2$, which is precisely the $\varphi$-sector eigenvalue already captured in the composite invariant $I = 4\pi\varphi^2$. The tree-level coupling $\rho^*$ already includes this contribution. The correction for $d > 2$ is the excess degeneracy,
-
-$$
-\delta K_{\text{correction}}(d) = \frac{d}{2}\ln\varphi - \frac{2}{2}\ln\varphi = \frac{d-2}{2}\ln\varphi.
-$$
-
-Each spatial dimension beyond $d = 2$ provides one additional direction for the recursive eigenmode to fluctuate. The full coupling is $K(d) = \rho^* + (d-2)\ln\varphi/2$. At $d = 2$, the correction vanishes and $K(2) = \rho^* = 3.29$. At $d = 3$, $K(3) = 3.29 + 0.241 = 3.531$, which generates the decade structure in three spatial dimensions.
-
-### 5.4 The Critical Exponent $\nu = 1/\rho^*$
-
-The critical exponent $\nu$ governs how coherence length diverges as systems approach organizational phase transitions: $\xi \sim |\eta - \eta_c|^{-\nu}$. In standard RG, the critical exponent is determined by the slope of the $\beta$-function at the fixed point where the transition occurs. The infrared fixed point of the dissipation flow is $(\eta^*, d^*) = (1, 2)$ — the black hole saturation state.
-
-Near the IR fixed point, let $\varepsilon = 1 - \eta$ (small). Then
+At $\mathcal{D} = 2$, the recursive degeneracy is $\varphi^2$, which is precisely the $\varphi$-sector eigenvalue already captured in the composite invariant $I = 4\pi\varphi^2$. The tree-level coupling $u^*$ already includes this contribution. The correction for $\mathcal{D} > 2$ is the excess degeneracy,
 
 $$
-\beta(\varepsilon) = -(1-\varepsilon)\varepsilon \left[\rho^* + \frac{d^* - 2}{2}\ln\varphi\right] \approx +\varepsilon \cdot \rho^*,
+\delta K_{\text{correction}}(\mathcal{D}) = \frac{\mathcal{D}}{2}\ln\varphi - \frac{2}{2}\ln\varphi = \frac{\mathcal{D}-2}{2}\ln\varphi.
 $$
 
-where $d^* = 2$ causes the dimensional correction to vanish identically, and $(1-\varepsilon)\varepsilon \approx \varepsilon$ for small $\varepsilon$. The slope of $\beta$ at the fixed point is $\rho^*$, giving the correlation length exponent
+Each spatial dimension beyond $\mathcal{D} = 2$ provides one additional direction for the recursive eigenmode to fluctuate. The full coupling is $\mathcal{W}(\mathcal{D}) = u^* + (\mathcal{D}-2)\ln\varphi/2$. At $\mathcal{D} = 2$, the correction vanishes and $\mathcal{W}(2) = u^* = 3.29$. At $\mathcal{D} = 3$, $\mathcal{W}(3) = 3.29 + 0.241 = 3.531$, which generates the decade structure in three spatial dimensions.
+
+### 5.4 The Critical Exponent $\nu = 1/u^*$
+
+The critical exponent $\nu$ governs how coherence length diverges as systems approach organizational phase transitions: $\xi \sim |\xi - \xi_c|^{-\nu}$. In standard RG, the critical exponent is determined by the slope of the $\beta$-function at the fixed point where the transition occurs. The infrared fixed point of the dissipation flow is $(\xi^*, \mathcal{D}^*) = (1, 2)$ — the black hole saturation state.
+
+Near the IR fixed point, let $\varepsilon = 1 - \xi$ (small). Then
 
 $$
-\nu = \frac{1}{\rho^*} = \frac{10}{4\pi\varphi^2} \approx 0.304.
+\beta(\varepsilon) = -(1-\varepsilon)\varepsilon \left[u^* + \frac{\mathcal{D}^* - 2}{2}\ln\varphi\right] \approx +\varepsilon \cdot u^*,
 $$
 
-The exponent is $1/\rho^*$ rather than $1/K(d)$ for some ambient dimension $d$ because the critical exponent is evaluated at the fixed point, where $d = 2$ and the dimensional correction vanishes exactly. Every system approaching organizational collapse flows toward $(\eta = 1, d = 2)$ regardless of its starting dimension. The exponent is universal because it depends only on the constraint geometry ($\rho^*$), not on ambient dimensionality — the constraint-geometric analog of how critical exponents in standard statistical mechanics are determined by fixed-point structure rather than microscopic details.
+where $\mathcal{D}^* = 2$ causes the dimensional correction to vanish identically, and $(1-\varepsilon)\varepsilon \approx \varepsilon$ for small $\varepsilon$. The slope of $\beta$ at the fixed point is $u^*$, giving the correlation length exponent
+
+$$
+\nu = \frac{1}{u^*} = \frac{10}{4\pi\varphi^2} \approx 0.304.
+$$
+
+The exponent is $1/u^*$ rather than $1/\mathcal{W}(\mathcal{D})$ for some ambient dimension $\mathcal{D}$ because the critical exponent is evaluated at the fixed point, where $\mathcal{D} = 2$ and the dimensional correction vanishes exactly. Every system approaching organizational collapse flows toward $(\xi = 1, \mathcal{D} = 2)$ regardless of its starting dimension. The exponent is universal because it depends only on the constraint geometry ($u^*$), not on ambient dimensionality — the constraint-geometric analog of how critical exponents in standard statistical mechanics are determined by fixed-point structure rather than microscopic details.
 
 ### 5.5 The Complete $\beta$-Function
 
 Assembling the four steps,
 
 $$
-\boxed{\beta(\eta, d) = \frac{d\eta}{d\ln\mu} = -\eta(1-\eta)\left[\frac{4\pi\varphi^2}{10} + \frac{d-2}{2}\ln\varphi\right].}
+\boxed{\beta(\xi, \mathcal{D}) = \frac{d\xi}{d\ln\mu} = -\xi(1-\xi)\left[\frac{4\pi\varphi^2}{10} + \frac{\mathcal{D}-2}{2}\ln\varphi\right].}
 $$
 
 | Term | Origin | Section |
 |------|--------|---------|
-| $\eta(1-\eta)$ | Bounded competition at fixed points | §5.1 |
+| $\xi(1-\xi)$ | Bounded competition at fixed points | §5.1 |
 | $4\pi$ | Gauss–Bonnet invariant of $S^2$ ($\pi$-sector) | §3.6 |
 | $\varphi^2$ | Recursive eigenvalue ($\varphi$-sector) | §3.6 |
 | $/10$ | Decade partition ($N$-sector, $C_{10}$) | §4 |
-| $(d-2)\ln\varphi/2$ | Recursive degeneracy per extra dimension | §5.3 |
+| $(\mathcal{D}-2)\ln\varphi/2$ | Recursive degeneracy per extra dimension | §5.3 |
 
-The flow has fixed points at $\eta = 0$ (UV-stable, vacuum) and $\eta = 1$ (IR-stable, black hole). The solution is $\eta(\mu) = [1 + A\mu^{K(d)}]^{-1}$ where $K(d) = \rho^* + (d-2)\ln\varphi/2$. At $d = 3$, $K(3) = 3.531$ generates factor-of-10 jumps in $\eta$ per decade in energy scale, reproducing the observed hierarchy $10^{-6} \to 10^{-3} \to 10^{-2} \to 10^{-1} \to 1$.
+The flow has fixed points at $\xi = 0$ (UV-stable, vacuum) and $\xi = 1$ (IR-stable, black hole). The solution is $\xi(\mu) = [1 + A\mu^{\mathcal{W}(\mathcal{D})}]^{-1}$ where $\mathcal{W}(\mathcal{D}) = u^* + (\mathcal{D}-2)\ln\varphi/2$. At $\mathcal{D} = 3$, $\mathcal{W}(3) = 3.531$ generates factor-of-10 jumps in $\xi$ per decade in energy scale, reproducing the observed hierarchy $10^{-6} \to 10^{-3} \to 10^{-2} \to 10^{-1} \to 1$.
 
-The $\beta$-function for $\eta$ couples to a flow equation for effective dimension,
+The $\beta$-function for $\xi$ couples to a flow equation for effective dimension,
 
 $$
-\frac{dd}{d\ln\mu} = -\frac{\eta}{\rho^*}\ln\varphi.
+\frac{d\mathcal{D}}{d\ln\mu} = -\frac{\xi}{u^*}\ln\varphi.
 $$
 
-At $\eta = 0$, dimension remains constant (vacuum preserves dimensionality). As $\eta$ increases, dimension decreases — organizational complexity drives dimensional reduction. At $\eta = 1$, the flow drives $d \to 2$. The coupled system $(\eta, d)$ flows from the UV fixed point $(0, 3)$ toward the IR fixed point $(1, 2)$.
+At $\xi = 0$, dimension remains constant (vacuum preserves dimensionality). As $\xi$ increases, dimension decreases — organizational complexity drives dimensional reduction. At $\xi = 1$, the flow drives $\mathcal{D} \to 2$. The coupled system $(\xi, \mathcal{D})$ flows from the UV fixed point $(0, 3)$ toward the IR fixed point $(1, 2)$.
 
 ### 5.6 Formal Wilsonian Derivation
 
-The preceding construction assembled the $\beta$-function from physical and geometric arguments. The standard Wilsonian RG procedure, applied directly to the constraint functional, recovers $\rho^*$ as the tree-level coupling and $(d-2)\ln\varphi/2$ as the one-loop correction. The absence of higher-order corrections is established by the vertex selection rule in §5.8.
+The preceding construction assembled the $\beta$-function from physical and geometric arguments. The standard Wilsonian RG procedure, applied directly to the constraint functional, recovers $u^*$ as the tree-level coupling and $(\mathcal{D}-2)\ln\varphi/2$ as the one-loop correction. The absence of higher-order corrections is established by the vertex selection rule in §5.8.
 
 Consider the constraint functional $F[P]$ with UV cutoff at scale $\mu$. The modes of $P$ decompose into slow modes $P_<$ (scale $< \mu$) and fast modes $P_>$ (scale in the shell $[\mu, \mu + \delta\mu]$). The standard Wilsonian step integrates out $P_>$,
 
@@ -642,13 +642,13 @@ $$
 F_{\text{eff}}[P_<] = \underbrace{F[P_< + P_>^*]}_{\text{tree level}} + \underbrace{\tfrac{1}{2}\operatorname{Tr}_{\text{shell}} \ln F''_{>}[P_< + P_>^*]}_{\text{one loop}} + \cdots
 $$
 
-At tree level, the three exact constraints (self-similarity, decade symmetry, eigenvalue normalization) uniquely fix the curvature per shell to $\delta F_{\text{shell}} = I/10 = \rho^*$, giving $\beta_{\text{tree}}(\eta) = -\eta(1-\eta)\,\rho^*$.
+At tree level, the three exact constraints (self-similarity, decade symmetry, eigenvalue normalization) uniquely fix the curvature per shell to $\delta F_{\text{shell}} = I/10 = u^*$, giving $\beta_{\text{tree}}(\xi) = -\xi(1-\xi)\,u^*$.
 
-At one loop, the Hessian $H = F''[P_0]$ inherits the sector decomposition. Because the three sectors penalize orthogonal curvature types, the Hessian is block-diagonal at leading order: $H \approx H_\pi \oplus H_\varphi \oplus H_N$. At $d = 2$, the one-loop contribution is already absorbed into $\rho^*$ — the factor $\varphi^2$ in the composite invariant reflects the recursive degeneracy at $d = 2$. For $d > 2$, the recursive degeneracy grows from $\varphi^2$ to $\varphi^d$, and the excess contribution is $(d-2)\ln\varphi/2$, recovering the dimensional correction.
+At one loop, the Hessian $H = F''[P_0]$ inherits the sector decomposition. Because the three sectors penalize orthogonal curvature types, the Hessian is block-diagonal at leading order: $H \approx H_\pi \oplus H_\varphi \oplus H_N$. At $\mathcal{D} = 2$, the one-loop contribution is already absorbed into $u^*$ — the factor $\varphi^2$ in the composite invariant reflects the recursive degeneracy at $\mathcal{D} = 2$. For $\mathcal{D} > 2$, the recursive degeneracy grows from $\varphi^2$ to $\varphi^{\mathcal{D}}$, and the excess contribution is $(\mathcal{D}-2)\ln\varphi/2$, recovering the dimensional correction.
 
 ### 5.7 Tree-Level Protection
 
-The tree-level coupling $\rho^*$ is exact to all orders. Any correction to the curvature per shell would require violating at least one of the three defining constraints: a scale-dependent correction would break self-similarity ($\varphi$-sector), a shell-dependent correction would break decade symmetry ($C_{10}$), and a correction to the total curvature per period would contradict the eigenvalue theorem ($I = 4\pi\varphi^2$). Since all three are exact symmetries of the ground state, $\rho^* = I/10$ is protected against perturbative corrections at every order.
+The tree-level coupling $u^*$ is exact to all orders. Any correction to the curvature per shell would require violating at least one of the three defining constraints: a scale-dependent correction would break self-similarity ($\varphi$-sector), a shell-dependent correction would break decade symmetry ($C_{10}$), and a correction to the total curvature per period would contradict the eigenvalue theorem ($I = 4\pi\varphi^2$). Since all three are exact symmetries of the ground state, $u^* = I/10$ is protected against perturbative corrections at every order.
 
 ### 5.8 Symmetry Protection and Loop Truncation
 
@@ -685,28 +685,28 @@ This has a direct Wilsonian interpretation. Higher-loop corrections to the effec
 The $\beta$-function
 
 $$
-\beta(\eta, d) = -\eta(1-\eta)\left[\rho^* + \frac{d-2}{2}\ln\varphi\right]
+\beta(\xi, \mathcal{D}) = -\xi(1-\xi)\left[u^* + \frac{\mathcal{D}-2}{2}\ln\varphi\right]
 $$
 
-therefore receives no perturbative corrections beyond what is written. The tree-level coupling is protected by the three geometric constraints (§5.7). The one-loop correction is protected by the recursion symmetry's vertex selection rule. Every constant is geometrically forced, and no free parameters enter.
+therefore receives no perturbative corrections beyond what is written. The tree-level coupling is protected by the three geometric constraints (§5.7). The one-loop correction is protected by the recursion symmetry's vertex selection rule. Every constant is geometrically forced.
 
 ## Part II — Physical Evidence
 
-The constraint geometry makes quantitative predictions with no adjustable parameters. This part tests three of them against independent datasets: white dwarf collapse trajectories and cooling anomalies (Section 6), quasicrystal experiments realizing all three sectors in a single device (Section 7), and black hole spin populations from gravitational wave catalogs (Section 8).
+The constraint geometry makes quantitative predictions. This part tests three of them against independent datasets: white dwarf collapse trajectories and cooling anomalies (Section 6), quasicrystal experiments realizing all three sectors in a single device (Section 7), and black hole spin populations from gravitational wave catalogs (Section 8).
 
 ## 6. White Dwarf Collapse
 
-White dwarfs accreting toward the Chandrasekhar limit[^10] $M_{\text{Ch}} = 1.36 M_{\odot}$ provide a quantitative test of the framework's two distinct thresholds. The RG flow solution $\eta(\mu) = [1 + A\mu^{K(d)}]^{-1}$ from Section 5 determines $\eta$ and $d$ at each mass, and the total organizational overhead follows from how the constraint functional's curvature cost scales with these parameters. The complexity multiplier quantifying this overhead is
+White dwarfs accreting toward the Chandrasekhar limit[^10] $M_{\text{Ch}} = 1.36 M_{\odot}$ provide a quantitative test of the framework's two distinct thresholds. The RG flow solution $\xi(\mu) = [1 + A\mu^{\mathcal{W}(\mathcal{D})}]^{-1}$ from Section 5 determines $\xi$ and $\mathcal{D}$ at each mass, and the total organizational overhead follows from how the constraint functional's curvature cost scales with these parameters. The complexity multiplier quantifying this overhead is
 
 $$
-M(\eta,d) = \varphi^{2^{d-2}} \times (1-\eta)^{-\rho^*},
+M(\xi,\mathcal{D}) = \varphi^{2^{\mathcal{D}-2}} \times (1-\xi)^{-u^*},
 $$
 
-where the dimensional factor $\varphi^{2^{d-2}}$ captures how recursive degeneracy compounds across dimensions (each dimension contributes a factor of $\varphi$ to the mode count, and these compound exponentially), and the bankruptcy factor $(1-\eta)^{-\rho^*}$ captures how the remaining capacity $(1-\eta)$ to absorb curvature vanishes with exponent $\rho^*$ — the same coupling constant that governs the $\beta$-function. The first factor decreases mildly as $d$ drops from 3 toward 2. The second diverges catastrophically as $\eta$ approaches unity.
+where the dimensional factor $\varphi^{2^{\mathcal{D}-2}}$ captures how recursive degeneracy compounds across dimensions (each dimension contributes a factor of $\varphi$ to the mode count, and these compound exponentially), and the bankruptcy factor $(1-\xi)^{-u^*}$ captures how the remaining capacity $(1-\xi)$ to absorb curvature vanishes with exponent $u^*$ — the same coupling constant that governs the $\beta$-function. The first factor decreases mildly as $d$ drops from 3 toward 2. The second diverges catastrophically as $\xi$ approaches unity.
 
 Numerical integration from stable white dwarfs through collapse yields the following trajectory (using constant radius $R \approx 5000$ km from electron degeneracy pressure):
 
-| $M$ $(M_{\odot})$ | $R_S/R$ | $\eta$ | $d$ | $\varphi^{2^{d-2}}$ | $(1-\eta)^{-\rho^*}$ | $M(\eta,d)$ | $\eta \times M$ | Status |
+| $M$ $(M_{\odot})$ | $R_S/R$ | $\xi$ | $\mathcal{D}$ | $\varphi^{2^{\mathcal{D}-2}}$ | $(1-\xi)^{-u^*}$ | $M(\xi,\mathcal{D})$ | $\xi \times M$ | Status |
 |-------------------|---------|--------|-----|---------------------|---------------------|-------------|-----------------|---------|
 | 0.60 | $3.6 \times 10^{-4}$ | 0.066 | 2.97 | 2.61 | 1.24 | 3.2 | 0.21 | Stable |
 | 1.00 | $6.0 \times 10^{-4}$ | 0.27 | 2.87 | 2.52 | 2.90 | 7.3 | 2.0 | Normal |
@@ -714,13 +714,13 @@ Numerical integration from stable white dwarfs through collapse yields the follo
 | 1.30 | $7.8 \times 10^{-4}$ | 0.63 | 2.70 | 2.35 | 12.4 | 29.1 | 18.3 | Critical |
 | 1.35 | $8.0 \times 10^{-4}$ | 0.97 | 2.53 | 2.15 | 229 | 492 | 477 | Collapse |
 
-The trajectory reveals the mechanism. Geometric compression $R_S/R$ increases by a factor of 2.2 from $M = 0.60$ to $1.35 M_{\odot}$ — mild gravitational strengthening. Meanwhile, organizational complexity $\eta \times M$ explodes by a factor of 2200. This 1000-fold disparity indicates that information bankruptcy, not gravitational compression alone, drives instability. The dimensional factor $\varphi^{2^{d-2}}$ drops modestly from 2.61 to 2.15 as $d$ flows from 2.97 to 2.53 — barely 20% variation. The bankruptcy factor $(1-\eta)^{-\rho^*}$ generates the explosion: from 1.24 at stable masses to 229 near collapse, a 185-fold increase.
+The trajectory reveals the mechanism. Geometric compression $R_S/R$ increases by a factor of 2.2 from $M = 0.60$ to $1.35 M_{\odot}$ — mild gravitational strengthening. Meanwhile, organizational complexity $\xi \times M$ explodes by a factor of 2200. This 1000-fold disparity indicates that information bankruptcy, not gravitational compression alone, drives instability. The dimensional factor $\varphi^{2^{\mathcal{D}-2}}$ drops modestly from 2.61 to 2.15 as $\mathcal{D}$ flows from 2.97 to 2.53 — barely 20% variation. The bankruptcy factor $(1-\xi)^{-u^*}$ generates the explosion: from 1.24 at stable masses to 229 near collapse, a 185-fold increase.
 
-The trajectory passes through two distinct thresholds. The observational anomaly at $R/R_S = 10^3$ from analysis of 7,515 Gaia DR3 white dwarfs[^11] corresponds to $M \approx 1.17 M_{\odot}$ where $\eta = 0.46$ and $(1-\eta)^{-\rho^*} = 5.66$. This marks the structural saturation threshold $\rho^*/10 \approx 0.329$, where discrete closure can no longer remain soft. Before this threshold, complexity overhead grows by a factor of 3.6 from $M = 0.6$ to $1.17 M_{\odot}$. After crossing it, overhead explodes by a factor of 36 from $M = 1.17$ to $1.35 M_{\odot}$. The 995 objects in the anomaly zone ($R/R_S \in [700, 1000)$) exhibit a median cooling-age excess of $+76$ Myr ($14.5\sigma$, Wilcoxon $p = 4.27 \times 10^{-84}$), appearing systematically older than mass- and temperature-matched references — consistent with a cooling delay in which the object remains hotter than expected for its true age. Extension to ultra-massive tracks reveals a $+345$ Myr excess in the 500–700 bin ($p = 1.5 \times 10^{-6}$). The full analysis, including dual methodology for different mass regimes and systematic checks on core composition, is developed in [Repair as Local Optimization in Constraint Geometry](/repair-as-local-optimization-in-constraint-geometry). Candidate mechanisms include enhanced neutrino emission, crystallization energy release, $^{22}$Ne settling[^12], and GR corrections to the cooling rate — the framework predicts the threshold location and sharpness without committing to a specific microphysical channel.
+The trajectory passes through two distinct thresholds. The observational anomaly at $R/R_S = 10^3$ from analysis of 7,515 Gaia DR3 white dwarfs[^11] corresponds to $M \approx 1.17 M_{\odot}$ where $\xi = 0.46$ and $(1-\xi)^{-u^*} = 5.66$. This marks the structural saturation threshold $u^*/10 \approx 0.329$, where discrete closure can no longer remain soft. Before this threshold, complexity overhead grows by a factor of 3.6 from $M = 0.6$ to $1.17 M_{\odot}$. After crossing it, overhead explodes by a factor of 36 from $M = 1.17$ to $1.35 M_{\odot}$. The 995 objects in the anomaly zone ($R/R_S \in [700, 1000)$) exhibit a median cooling-age excess of $+76$ Myr ($14.5\sigma$, Wilcoxon $p = 4.27 \times 10^{-84}$), appearing systematically older than mass- and temperature-matched references — consistent with a cooling delay in which the object remains hotter than expected for its true age. Extension to ultra-massive tracks reveals a $+345$ Myr excess in the 500–700 bin ($p = 1.5 \times 10^{-6}$). The full analysis, including dual methodology for different mass regimes and systematic checks on core composition, is developed in [Repair as Local Optimization in Constraint Geometry](/repair-as-local-optimization-in-constraint-geometry). Candidate mechanisms include enhanced neutrino emission, crystallization energy release, $^{22}$Ne settling[^12], and GR corrections to the cooling rate — the framework predicts the threshold location and sharpness without committing to a specific microphysical channel.
 
-The collapse at $\eta \approx 0.97$ marks approach to true maintenance bankruptcy at $\nu = 1/\rho^* \approx 0.304$, where no sector can absorb further curvature. White dwarfs do not smoothly flow to the $(\eta=1, d=2)$ black hole fixed point. Instead, information bankruptcy forces a discontinuous organizational jump — the white dwarf transitions to neutron degeneracy at $\eta \sim 0.3$, $d \sim 2.5$, with organizational complexity dropping by a factor of 207.
+The collapse at $\xi \approx 0.97$ marks approach to true maintenance bankruptcy at $\nu = 1/u^* \approx 0.304$, where no sector can absorb further curvature. White dwarfs do not smoothly flow to the $(\xi=1, \mathcal{D}=2)$ black hole fixed point. Instead, information bankruptcy forces a discontinuous organizational jump — the white dwarf transitions to neutron degeneracy at $\xi \sim 0.3$, $\mathcal{D} \sim 2.5$, with organizational complexity dropping by a factor of 207.
 
-The energy cost of this reorganization follows from Landauer's principle. Counting the bits required to reorganize phase space information from electron to neutron degeneracy ($\Delta N_{\text{bits}} \approx 4.5 \times 10^{58}$) at the shock temperature $T \sim 10^9$ K observed during supernova breakout gives a transition energy of $E_{\text{trans}} = 4.3 \times 10^{44}$ J, matching observed Type Ia supernova energies[^13] to within measurement uncertainty. The full derivation is developed in a [companion paper](/type-ia-supernova-information-theoretic-energetics) and requires only four observational inputs (Chandrasekhar mass, white dwarf radius, neutron star radius, and shock temperature). No parameters from the constraint geometry enter the energy calculation — it is a pure Landauer counting argument. The framework's role is to predict *when* the transition occurs (at the $(1-\eta)^{-\rho^*}$ divergence) and *why* (information bankruptcy under triadic tension).
+The energy cost of this reorganization follows from Landauer's principle. Counting the bits required to reorganize phase space information from electron to neutron degeneracy ($\Delta N_{\text{bits}} \approx 4.5 \times 10^{58}$) at the shock temperature $T \sim 10^9$ K observed during supernova breakout gives a transition energy of $E_{\text{trans}} = 4.3 \times 10^{44}$ J, matching observed Type Ia supernova energies[^13] to within measurement uncertainty. The full derivation is developed in a [companion paper](/type-ia-supernova-information-theoretic-energetics) and requires only four observational inputs (Chandrasekhar mass, white dwarf radius, neutron star radius, and shock temperature). No parameters from the constraint geometry enter the energy calculation — it is a pure Landauer counting argument. The framework's role is to predict *when* the transition occurs (at the $(1-\xi)^{-u^*}$ divergence) and *why* (information bankruptcy under triadic tension).
 
 ## 7. Quasicrystal Realization
 
@@ -736,10 +736,10 @@ Across three radically different substrates — tight-binding electrons, driven-
 
 ## 8. Black Hole Spin Populations
 
-The dissipation field naturally produces a bimodal spin distribution in black hole populations. Systems that undergo coherent collapse or hierarchical mergers achieve the high-coherence fixed point ($\eta \approx 1$, $d \to 2$), yielding high-spin black holes. Systems with weak compression or common-envelope damping remain at the low-coherence attractor ($\eta < 1$, $d \approx 3$), producing low-spin remnants. The relative population of the two attractors is governed by the RG coupling $\rho^*$, which sets the barrier height between them: the $\beta$-function's coupling determines how strongly the flow drives systems toward the IR fixed point, and the fraction that reaches it follows a Boltzmann-like partition where $\rho^*$ plays the role of the effective energy barrier in units of the flow's "temperature." This gives
+The dissipation field naturally produces a bimodal spin distribution in black hole populations. Systems that undergo coherent collapse or hierarchical mergers achieve the high-coherence fixed point ($\xi \approx 1$, $\mathcal{D} \to 2$), yielding high-spin black holes. Systems with weak compression or common-envelope damping remain at the low-coherence attractor ($\xi < 1$, $\mathcal{D} \approx 3$), producing low-spin remnants. The relative population of the two attractors is governed by the RG coupling $u^*$, which sets the barrier height between them: the $\beta$-function's coupling determines how strongly the flow drives systems toward the IR fixed point, and the fraction that reaches it follows a Boltzmann-like partition where $u^*$ plays the role of the effective energy barrier in units of the flow's "temperature." This gives
 
 $$
-f_{\text{high}} \approx \frac{1}{1 + \rho^*} = \frac{1}{1 + 3.29} \approx 0.233,
+f_{\text{high}} \approx \frac{1}{1 + u^*} = \frac{1}{1 + 3.29} \approx 0.233,
 $$
 
 with mass-weighted corrections pushing this into the 0.28–0.34 range for equal-mass binaries, yielding a central expectation of 0.329.
@@ -748,7 +748,7 @@ Analysis of 164 binary black hole mergers from combined GWTC catalogs[^18] (GWTC
 
 The distribution's shape supports the framework's predictions. D'Agostino-Pearson testing rejects Gaussian normality ($p < 0.0001$), with positive kurtosis (1.79) indicating heavier tails and positive skew (0.96) indicating asymmetry toward higher spins — statistics supporting discrete constraint-governed behavior rather than continuous dynamics. The spin population structure shows 56.7% at low spin ($|\chi| < 0.1$), 34.8% at mid spin ($0.1 \leq |\chi| < 0.3$), and 8.5% at high spin ($|\chi| \geq 0.3$), consistent with bimodal dynamics from dissipation field competition between high-coherence and low-coherence attractors.
 
-Strong compression (massive stars, second-generation black holes, gas-rich collapsars) follows rapid approach to $d = 2$ with high spin retention ($\chi \approx 0.7$–$1.0$), while weak compression (common-envelope remnants, low-mass cores) exhibits slow approach with damped spin ($\chi \approx 0$–$0.2$). The dimensional flow exponent $1/\rho^* \approx 0.304$ determines how rapidly objects converge to the $d = 2$ fixed point, predicting the tail shape of spin distributions.
+Strong compression (massive stars, second-generation black holes, gas-rich collapsars) follows rapid approach to $\mathcal{D} = 2$ with high spin retention ($\chi \approx 0.7$–$1.0$), while weak compression (common-envelope remnants, low-mass cores) exhibits slow approach with damped spin ($\chi \approx 0$–$0.2$). The dimensional flow exponent $1/u^* \approx 0.304$ determines how rapidly objects converge to the $\mathcal{D} = 2$ fixed point, predicting the tail shape of spin distributions.
 
 ## Part III — Implications
 
@@ -778,23 +778,25 @@ $$
 \text{Incompatible minima} \to \text{State-dependent constraints} \to \text{Non-integrable projection} \to \text{Irreducible curl} \to \text{Cycling.}
 $$
 
-Empirical confirmation comes from direct numerical simulation of three-dimensional Navier–Stokes turbulence at Reynolds number $Re_\lambda \approx 430$. In regions of high vorticity, states where stretching and multiscale recursion are locally balanced show residence times of 1–2 timesteps across all tested thresholds $\varepsilon \in \{0.03, 0.05, 0.08, 0.10\}$. Escape from balance typically occurs by loss of local recursive coherence rather than immediate collapse of stretching — consistent with the triadic mechanism where correction in one sector destabilizes another. In a minimal field-theoretic setting, [magnetic helicity as a curl inventory](/preserved-curl-scale-separation-and-topological-leakage) exhibits the same asymmetry quantitatively: helicity (topology) decays slower than energy (amplitude) by a factor controlled entirely by scale separation, and a phase boundary separates regimes where topological protection holds from regimes where it leaks. The repair-augmented RG system developed in [Repair as Local Optimization in Constraint Geometry](/repair-as-local-optimization-in-constraint-geometry) gives this cycling dynamical teeth: a coupled $(\eta, d, r)$ system whose oscillatory solutions arise generically from irreducible curl, delayed repair actuation, and the geometric overhead floor, with empirical validation from white dwarf cooling thresholds.
+Empirical confirmation comes from direct numerical simulation of three-dimensional Navier–Stokes turbulence at Reynolds number $Re_\lambda \approx 430$. In regions of high vorticity, states where stretching and multiscale recursion are locally balanced show residence times of 1–2 timesteps across all tested thresholds $\varepsilon \in \{0.03, 0.05, 0.08, 0.10\}$. Escape from balance typically occurs by loss of local recursive coherence rather than immediate collapse of stretching — consistent with the triadic mechanism where correction in one sector destabilizes another. In a minimal field-theoretic setting, [magnetic helicity as a curl inventory](/preserved-curl-scale-separation-and-topological-leakage) exhibits the same asymmetry quantitatively: helicity (topology) decays slower than energy (amplitude) by a factor controlled entirely by scale separation, and a phase boundary separates regimes where topological protection holds from regimes where it leaks. The repair-augmented RG system developed in [Repair as Local Optimization in Constraint Geometry](/repair-as-local-optimization-in-constraint-geometry) gives this cycling dynamical teeth: a coupled $(\xi, d, r)$ system whose oscillatory solutions arise generically from irreducible curl, delayed repair actuation, and the geometric overhead floor, with empirical validation from white dwarf cooling thresholds.
 
 The preceding sections establish four distinct objects. It is worth separating them cleanly, because their logical roles differ:
 
 | Concept | Scope | Status |
 |---------|-------|--------|
 | Triadic tension | Global structural theorem | Proved (Section 3): no configuration minimizes two sectors simultaneously |
-| Dissipation flow | Global dynamical law | Derived (Section 5): exact $\beta$-function with no free parameters |
+| Dissipation flow | Global dynamical law | Derived (Section 5): exact $\beta$-function from geometric constraints |
 | Cycling | Local dynamical consequence | Proved (above): irreducible curl from state-dependent constraints |
 | Quartic shear | Transport-sector prediction | Derived (below): nullspace condition + stress symmetry $\Rightarrow$ $k^4$ leading relaxation |
 | Critical approach regime | Where cycling becomes dominant | Defined below |
 
-The **critical approach regime** is the interval of the dissipation flow in which curvature tradeoffs are binding, absorption capacity remains nonzero, and no integrable correction exists. It is bounded by two thresholds. The entry condition is structural saturation at $\rho^*/10 \approx 0.329$, where the discrete sector becomes binding and $C_{10}$ closure can no longer remain soft (Section 6). The exit condition is maintenance bankruptcy at $\eta \to 1$, where the logistic factor $\eta(1-\eta)$ drives absorption capacity to zero. Between these thresholds, $\eta$ is large enough that sector tradeoffs are binding, yet $1-\eta$ is not negligible — the system lingers.
+The **critical approach regime** is the interval of the dissipation flow in which curvature tradeoffs are binding, absorption capacity remains nonzero, and no integrable correction exists. It is bounded by two thresholds. The entry condition is structural saturation at $u^*/10 \approx 0.329$, where the discrete sector becomes binding and $C_{10}$ closure can no longer remain soft (Section 6). The exit condition is maintenance bankruptcy at $\xi \to 1$, where the logistic factor $\xi(1-\xi)$ drives absorption capacity to zero. Between these thresholds, $\xi$ is large enough that sector tradeoffs are binding, yet $1-\xi$ is not negligible — the system lingers.
 
-Inside this regime, the coexistence of slowing flow and irreducible frustration produces oscillatory dynamics as a structural consequence, not a modeling choice. Near $\eta \to 1$, the $\beta$-function behaves as $\beta \sim -(1-\eta)[\rho^* + (d-2)\ln\varphi/2]$, so changes in $\eta$ become small per unit RG time. Simultaneously, strict frustration (T2) prevents convergence to any stable compromise — corrections that reduce one sector increase pressure in the other two. The result is cycling through transient balance configurations under a slowing flow: oscillation as the normal form of frustrated correction. This is the structural reason that the richest dynamics concentrate in approach rather than at equilibrium or after collapse.
+Inside this regime, the coexistence of slowing flow and irreducible frustration produces oscillatory dynamics as a structural consequence, not a modeling choice. Near $\xi \to 1$, the $\beta$-function behaves as $\beta \sim -(1-\xi)[u^* + (\mathcal{D}-2)\ln\varphi/2]$, so changes in $\xi$ become small per unit RG time. Simultaneously, strict frustration (T2) prevents convergence to any stable compromise — corrections that reduce one sector increase pressure in the other two. The result is cycling through transient balance configurations under a slowing flow: oscillation as the normal form of frustrated correction. This is the structural reason that the richest dynamics concentrate in approach rather than at equilibrium or after collapse.
 
 The triadic competition also explains why dimensionality is an energetic liability. Each additional degree of freedom introduces new curvature modes requiring continuous maintenance, and these penalties scale superlinearly with dimension. Finite systems cannot afford high-dimensional curvature indefinitely. When maintenance cost rises beyond sustainable levels, coherent systems reduce dimensionality by projection onto lower-dimensional manifolds — curvature minimization finding the lowest-maintenance configuration compatible with the constraints. Near gravitational horizons, effective dimension flows from 3 to 2 as radial information flow freezes while tangential flow remains free (Appendix B). The holographic principle[^19][^20][^21] — entropy scaling with area rather than volume — reflects this dimensional economics. Systems consistently flow toward the lowest dimension their constraints permit.
+
+**External structural correspondence.** A recent classical Hamiltonian study using symplectic model order reduction demonstrates that UV/IR-regularized scalar field trajectories evolve on a minimal symplectic subspace whose effective dimension scales with boundary area rather than bulk volume; when expressed back in local field variables, the canonical Poisson algebra is governed by a finite-rank overlap projector rather than the identity[^22]. This provides an independent classical example of constraint-induced dimensional throttling and projector-modified phase-space structure, consistent with the general feasibility–projection mechanism described here.
 
 The same feasibility structure, applied to the constitutive stress sector, yields a concrete transport prediction. Let $T^{(0)}_{ij}$ be the nominal constitutive proposal and $T_{ij} = \Pi_x[T^{(0)}_{ij}]$ the implemented stress. In the transverse shear channel, the first-order dissipative operator is the Navier–Stokes shear tensor $\sigma_{ij}$. If the constraint architecture places this operator in the feasibility nullspace near equilibrium,
 
@@ -807,22 +809,22 @@ then the $k^2$ diffusive pole is structurally forbidden — not parametrically s
 If the leading even-order operator survives, $\Pi_x[\partial^2\sigma_{ij}] \neq 0$, then stress-tensor symmetry $T_{ij} = T_{ji}$ and rotational invariance exclude odd powers from the gradient expansion. The admissible tower is $k^2, k^4, k^6, \ldots$ with the $k^2$ term removed, giving quartic leading relaxation:
 
 $$
-\omega(k) = -i\,D_4\,k^4 + o(k^4), \qquad D_4 = \frac{\eta_4}{\chi_\pi}.
+\omega(k) = -i\,D_4\,k^4 + o(k^4), \qquad D_4 = \frac{\xi_4}{\chi_\pi}.
 $$
 
-This $k^4$ shear mode appears independently in non-relativistic Lifshitz holography (where bulk couplings cancel $k^2$ contributions in matched asymptotic expansion), in dipole-conserving and fracton fluids (where enhanced symmetry constraints forbid first-order kinetics), and in photonic quasicrystal spectral reorganization under irrational projection. The feasibility projection provides the operator-level account unifying these observations: the constraint architecture places $\sigma_{ij}$ in the nullspace of the implementation map, regardless of the specific mechanism enforcing the constraint. The full derivation, including the Burnett-type operator identification, attack surface, and independent confirmations, is developed in [Finite Residence, Feasibility Projections, & Quartic Transport](/finite-residence-feasibility-projections-and-quartic-transport).
+This $k^4$ shear mode appears independently in non-relativistic Lifshitz holography (where bulk couplings cancel $k^2$ contributions in matched asymptotic expansion), in dipole-conserving and fracton fluids (where enhanced symmetry constraints forbid first-order kinetics), and in photonic quasicrystal spectral reorganization under irrational projection. The feasibility projection provides the operator-level account unifying these observations: the constraint architecture places $\sigma_{ij}$ in the nullspace of the implementation map, regardless of the specific mechanism enforcing the constraint. The selection rule has an independent spectral formulation: in the Mori–Zwanzig continued-fraction expansion of the transverse resolvent, the nullspace condition shifts the leading Lanczos coefficient from $O(k)$ to $O(k^2)$, and a resolvent-dressed Krylov distribution provides a static diagnostic for detecting the regime shift numerically[^23]. The full derivation, including the Burnett-type operator identification, attack surface, and independent confirmations, is developed in [Finite Residence, Feasibility Projections, & Quartic Transport](/finite-residence-feasibility-projections-and-quartic-transport).
 
 ## 10. Discussion and Conclusion
 
-The framework rests on a chain of proven results. The triadic tension theorem (Section 3) establishes that three curvature sectors — angular, recursive, and discrete — cannot be simultaneously minimized (T1), are anticorrelated (T2), are genuinely independent (T3), and produce nonzero ground-state curvature (T4) — the irreducible curvature cost that every coherent configuration must continuously maintain, and whose per-shell value $\rho^* = I/10$ becomes the coupling constant of the dissipation flow. The negative selection argument (Section 4) forces the discrete sector to carry $C_{10} = C_2 \times C_5$ symmetry — the unique cyclic group surviving the crystallographic restriction, $\varphi$-compatibility, and binary closure. The dissipation $\beta$-function (Section 5) follows from standard Wilsonian renormalization, with every constant tracing to a geometric necessity and a vertex selection rule enforced by the recursion symmetry (§5.8) making the one-loop result exact.
+The framework rests on a chain of proven results. The triadic tension theorem (Section 3) establishes that three curvature sectors — angular, recursive, and discrete — cannot be simultaneously minimized (T1), are anticorrelated (T2), are genuinely independent (T3), and produce nonzero ground-state curvature (T4) — the irreducible curvature cost that every coherent configuration must continuously maintain, and whose per-shell value $u^* = I/10$ becomes the coupling constant of the dissipation flow. The negative selection argument (Section 4) forces the discrete sector to carry $C_{10} = C_2 \times C_5$ symmetry — the unique cyclic group surviving the crystallographic restriction, $\varphi$-compatibility, and binary closure. The dissipation $\beta$-function (Section 5) follows from standard Wilsonian renormalization, with every constant tracing to a geometric necessity and a vertex selection rule enforced by the recursion symmetry (§5.8) making the one-loop result exact.
 
-Three independent lines of quantitative evidence support the framework's predictions. The white dwarf cooling anomaly at $R/R_S = 10^3$ in 7,515 Gaia DR3 objects matches the structural saturation threshold $\rho^*/10 \approx 0.329$ at $14.5\sigma$ significance (Section 6). The Type Ia supernova energy of $4.3 \times 10^{44}$ J derived from Landauer bit-counting matches observed values. Penrose polariton quasicrystals realize all three constraint sectors in a single device, with corroboration from solid-state quasicrystal growth and optomechanical synthetic flux lattices (Section 7). Black hole spin population fractions from 164 GWTC binary mergers match predictions derived from $\rho^*$ within measurement uncertainty (Section 8). The feasibility structure extends to the transport sector: when the constraint architecture places the first-order shear operator in its nullspace, the hydrodynamic spectrum shifts from $k^2$ to $k^4$ (Section 9), a prediction confirmed independently in Lifshitz holographic and fracton-hydrodynamic settings.
+Three independent lines of quantitative evidence support the framework's predictions. The white dwarf cooling anomaly at $R/R_S = 10^3$ in 7,515 Gaia DR3 objects matches the structural saturation threshold $u^*/10 \approx 0.329$ at $14.5\sigma$ significance (Section 6). The Type Ia supernova energy of $4.3 \times 10^{44}$ J derived from Landauer bit-counting matches observed values. Penrose polariton quasicrystals realize all three constraint sectors in a single device, with corroboration from solid-state quasicrystal growth and optomechanical synthetic flux lattices (Section 7). Black hole spin population fractions from 164 GWTC binary mergers match predictions derived from $u^*$ within measurement uncertainty (Section 8). The feasibility structure extends to the transport sector: when the constraint architecture places the first-order shear operator in its nullspace, the hydrodynamic spectrum shifts from $k^2$ to $k^4$ (Section 9), a prediction confirmed independently in Lifshitz holographic and fracton-hydrodynamic settings.
 
 The framework is falsifiable at multiple levels. If the off-diagonal covariances $\Sigma_{ij}$ are measured to be non-negative for any pair of sectors, T2 fails and the frustration picture collapses. If a configuration is found that simultaneously minimizes two sectors, T1 fails. If a linear relation among the three curvature observables exists on $\Omega$, T3 fails. If the angular manifold's effective geometry differs from $S^2$, the $\kappa_\pi = 4\pi$ identification fails and $I$ changes. Each of these is checkable, and Section 3.8 details the specific failure modes and how to test them.
 
 The constraint functional admits multiple eigenbranch families beyond the Penrose branch: Ammann–Beenker $(\pi, 1+\sqrt{2}, 8)$, dodecagonal $(\pi, 2+\sqrt{3}, 12)$, and metallic-mean families. These exist as metastable states with higher ground-state curvature, and the branch compensation proposition (§4.6) establishes that they can be thermodynamically stable only through entropy subsidies that offset their curvature liability — a mechanism demonstrated concretely in dodecagonal square–triangle quasicrystals[^9]. The Penrose branch is the unique eigenbranch requiring no such subsidy: $\varphi$ achieves the global minimum of the Lagrange spectrum (Hurwitz's theorem), providing maximal resonance protection among all irrationals.
 
-The framework's deepest claim is that constraint, not freedom, generates complexity. Most frameworks start with symmetry and ask what it permits. The triadic tension theorem starts with incompatibility and asks what it forces. Three curvature sectors that cannot be simultaneously minimized produce a frustrated ground state with nonzero curvature $I = 4\pi\varphi^2$. That curvature determines the RG coupling $\rho^* = I/10$. That coupling governs the $\beta$-function. The $\beta$-function determines how dissipation flows across scales. And the flow produces the organizational hierarchy — from elementary particles at $\eta \sim 10^{-6}$ through biological systems at $\eta \sim 10^{-1}$ to black holes at $\eta = 1$ — as a sequence of approximately stable plateaus in a renormalization group trajectory.
+The framework's deepest claim is that constraint, not freedom, generates complexity. Most frameworks start with symmetry and ask what it permits. The triadic tension theorem starts with incompatibility and asks what it forces. Three curvature sectors that cannot be simultaneously minimized produce a frustrated ground state with nonzero curvature $I = 4\pi\varphi^2$. That curvature determines the RG coupling $u^* = I/10$. That coupling governs the $\beta$-function. The $\beta$-function determines how dissipation flows across scales. And the flow produces the organizational hierarchy — from elementary particles at $\xi \sim 10^{-6}$ through biological systems at $\xi \sim 10^{-1}$ to black holes at $\xi = 1$ — as a sequence of approximately stable plateaus in a renormalization group trajectory.
 
 Curvature is complexity. Coherence is what a system can afford to maintain. Everything begins with the frustration.
 
@@ -856,16 +858,16 @@ $$
 x = \frac{1 + \sqrt{5}}{2} = \varphi \approx 1.618.
 $$
 
-The power-law ansatz is justified by the scale-invariance of the $\varphi$-sector: if the log-radial curvature penalty $\int(\partial_\ell \ln P)^2 P\,dA$ is to be minimized under rescaling, the solution must be self-similar, which forces power-law behavior. In curved spacetime where effective dimension $d_{\text{eff}}$ varies with radius, the same analysis yields $\sigma = \varphi^{1/d_{\text{eff}}}$. Near horizons where $d_{\text{eff}} \to 2$, this gives $\sigma \to \sqrt{\varphi}$.
+The power-law ansatz is justified by the scale-invariance of the $\varphi$-sector: if the log-radial curvature penalty $\int(\partial_\ell \ln P)^2 P\,dA$ is to be minimized under rescaling, the solution must be self-similar, which forces power-law behavior. In curved spacetime where effective dimension $\mathcal{D}$ varies with radius, the same analysis yields $\sigma = \varphi^{1/\mathcal{D}}$. Near horizons where $\mathcal{D} \to 2$, this gives $\sigma \to \sqrt{\varphi}$.
 
 ### Appendix B — Dimensional Flow
 
-Effective dimension $d_{\text{eff}}$ counts the number of independent directions along which information can propagate at a given scale, defined operationally through the scaling of active information channels: $N(R) \sim R^{d_{\text{eff}}(R)}$. In flat space far from gravitational sources, $d_{\text{eff}} = 3$. Near a gravitational horizon, radial information flow becomes increasingly constrained while tangential flow remains free, causing $d_{\text{eff}}$ to decrease.
+Effective dimension $\mathcal{D}$ counts the number of independent directions along which information can propagate at a given scale, defined operationally through the scaling of active information channels: $N(R) \sim R^{\mathcal{D}(R)}$. In flat space far from gravitational sources, $\mathcal{D} = 3$. Near a gravitational horizon, radial information flow becomes increasingly constrained while tangential flow remains free, causing $\mathcal{D}$ to decrease.
 
 The Schwarzschild metric makes this explicit. Proper radial distance diverges as $ds_r = dr/\sqrt{1 - r_s/r}$ while tangential spacing $ds_\theta = r\,d\theta$ remains finite. The radial information flow rate follows $I_r(r) = c(1 - r_s/r)$, which vanishes at the horizon. The effective dimension flows as
 
 $$
-d_{\text{eff}}(R) = 2 + \left(1 - \frac{r_s}{R}\right),
+\mathcal{D}(R) = 2 + \left(1 - \frac{r_s}{R}\right),
 $$
 
 from 3 in flat space toward 2 at the horizon. This dimensional flow connects to holographic behavior: entropy scaling with area rather than volume reflects the reduction to an effective 2D surface. Dimensional flow reduces curvature — by projecting from 3D to 2D, the system eliminates the radial curvature contribution entirely, achieving a minimal-curvature configuration through dimensional collapse.
@@ -873,10 +875,10 @@ from 3 in flat space toward 2 at the horizon. This dimensional flow connects to 
 The coupled dimensional flow equation,
 
 $$
-\frac{dd}{d\ln\mu} = -\frac{\eta}{\rho^*}\ln\varphi,
+\frac{d\mathcal{D}}{d\ln\mu} = -\frac{\xi}{u^*}\ln\varphi,
 $$
 
-captures how organizational complexity drives dimensional reduction. At $\eta = 0$, dimension remains constant. As $\eta$ increases toward 1, the flow drives $d \to 2$, consistent with holographic dimensional reduction at horizons. The coupled system $(\eta, d)$ flows from $(0, 3)$ toward $(1, 2)$, and the trajectory through this space determines the organizational state of any system.
+captures how organizational complexity drives dimensional reduction. At $\xi = 0$, dimension remains constant. As $\xi$ increases toward 1, the flow drives $\mathcal{D} \to 2$, consistent with holographic dimensional reduction at horizons. The coupled system $(\xi, \mathcal{D})$ flows from $(0, 3)$ toward $(1, 2)$, and the trajectory through this space determines the organizational state of any system.
 
 ## References
 
@@ -921,3 +923,7 @@ captures how organizational complexity drives dimensional reduction. At $\eta = 
 [^20]: Susskind, L. (1995). "The world as a hologram." *Journal of Mathematical Physics*, 36(11), 6377–6396. <https://doi.org/10.1063/1.531249>
 
 [^21]: Bousso, R. (2002). "The holographic principle." *Reviews of Modern Physics*, 74(3), 825–874. <https://doi.org/10.1103/RevModPhys.74.829>
+
+[^22]: "Symplectic Model Order Reduction Reveals Area-Scaling of Minimal Phase-Space Support in Classical Scalar Field Trajectories." arXiv preprint arXiv:2602.09100 (2026). <https://arxiv.org/abs/2602.09100>
+
+[^23]: Alishahiha, M., & Vasli, M. H. (2026). "Krylov Distribution." arXiv:2602.06150. <https://arxiv.org/abs/2602.06150>

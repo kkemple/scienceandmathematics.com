@@ -3,9 +3,9 @@ title: "Hilbert's Sixth Problem & the Cost of Infinite Information"
 description: "Hilbert's 1900 call for axiomatic physics asked whether nature demands infinite precision. Three physical bounds converge on ~10¹²³ bits of universal capacity — statistical mechanics works because determinism exceeds it."
 pubDate: '2026-01-10'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18511939
-zenodoUrl: "https://zenodo.org/records/18511939"
-doi: "10.5281/zenodo.18511939"
+zenodoDepositionId: 18645017
+zenodoUrl: "https://zenodo.org/records/18645017"
+doi: "10.5281/zenodo.18645017"
 zenodoDescription: |
   In 1900, David Hilbert challenged mathematicians to axiomatize physics with the same rigor as geometry. The sixth of his famous problems specifically called for a mathematical treatment of probability in mechanics. Over a century later, the problem remains formally open.
 
@@ -125,7 +125,7 @@ The finite-information perspective clarifies phenomena that otherwise require ad
 
 Turbulence resists analytical solution despite being governed by deterministic Navier-Stokes equations. Kolmogorov's 1941 theory[^11] establishes that fully resolved turbulence at Reynolds number $Re$ requires tracking approximately $Re^{9/4}$ degrees of freedom. For geophysical and astrophysical flows at $Re \sim 10^{6}$–$10^{12}$, this demands $10^{13}$–$10^{27}$ modes — within the universe's capacity but far exceeding local information budgets. Coarse-grained statistical description (Reynolds averaging, large-eddy simulation) becomes necessary at scales where mode density exceeds locally available information processing, not merely where analytical methods fail.
 
-Emergence in complex systems — the appearance of collective behavior irreducible to component dynamics — follows related logic. When a system's full microscopic description requires more information than can be maintained at the organizational overhead the system can afford (the dissipation fraction $\eta$ from the monograph's framework), coarse-grained variables become the operationally meaningful description. This connects to the [complexity ladder](/complex-adaptable-systems-complexity-ladders-and-agency): each organizational scale operates at characteristic $\eta$, and the transition between scales occurs when microscopic tracking becomes informationally unsustainable, forcing emergence of coarse-grained descriptions at the next level.
+Emergence in complex systems — the appearance of collective behavior irreducible to component dynamics — follows related logic. When a system's full microscopic description requires more information than can be maintained at the organizational overhead the system can afford (the maintenance fraction $\xi$ from the monograph's framework), coarse-grained variables become the operationally meaningful description. This connects to the [complexity ladder](/complex-adaptable-systems-complexity-ladders-and-agency): each organizational scale operates at characteristic $\xi$, and the transition between scales occurs when microscopic tracking becomes informationally unsustainable, forcing emergence of coarse-grained descriptions at the next level.
 
 ## Scope and Boundaries
 

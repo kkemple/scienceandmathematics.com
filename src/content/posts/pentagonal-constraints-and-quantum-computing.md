@@ -3,9 +3,9 @@ title: 'Pentagonal Constraints & Quantum Computing'
 description: "Fibonacci anyon fusion τ × τ = 1 + τ forces quantum dimension d_τ = φ — the same identity underlying the constraint functional's recursive sector. Fibonacci pulses extend qubit coherence 3.7× via Hurwitz protection."
 pubDate: '2025-10-19'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18511942
-zenodoUrl: "https://zenodo.org/records/18511942"
-doi: "10.5281/zenodo.18511942"
+zenodoDepositionId: 18645020
+zenodoUrl: "https://zenodo.org/records/18645020"
+doi: "10.5281/zenodo.18645020"
 keywords:
   - "quantum computing"
   - "Fibonacci anyons"
@@ -79,9 +79,9 @@ The constraint geometry framework suggests design principles for quantum archite
 
 ## Organizational Overhead and Coherence
 
-The dissipation field $\eta$ measures the fraction of energy devoted to maintaining structure versus enabling transitions. The $\beta$-function's critical exponent $\nu = 1/\rho^* \approx 0.304$ governs how coherence length diverges at organizational phase transitions, $\xi \sim |\eta - \eta_c|^{-\nu}$. Systems with lower organizational overhead maintain more coherence, and the exponent determines how sensitively coherence responds to changes in overhead near a transition.
+The maintenance fraction $\xi$ measures the fraction of energy devoted to maintaining structure versus enabling transitions. The $\beta$-function's critical exponent $\nu = 1/u^* \approx 0.304$ governs how coherence length diverges at organizational phase transitions, $\ell_{\mathrm{coh}} \sim |\xi - \xi_c|^{-\nu}$. Systems with lower organizational overhead maintain more coherence, and the exponent determines how sensitively coherence responds to changes in overhead near a transition.
 
-For quantum systems, the participation ratio $P$ — the fraction of field energy in lossy materials — provides a natural analog of organizational overhead through the relation $\eta \propto P \times \tan\delta$, where $\tan\delta$ quantifies substrate loss. For tantalum qubits on sapphire, substrate loss $\tan\delta = 1.9 \times 10^{-8}$ permits high participation. Metal-air interfaces have $\tan\delta \sim 10^{-3}$, requiring surface participation $P_{\text{MA}} < 3 \times 10^{-4}$. This drives geometric optimization — trenching removes substrate from critical regions, suspended structures create air gaps, and careful metallization minimizes interface area. Current best tantalum qubits achieve $T_1 \approx 500$ microseconds[^5], with further optimization targeting lower participation ratios expected to yield coherence improvements as the system moves further from the critical regime.
+For quantum systems, the participation ratio $P$ — the fraction of field energy in lossy materials — provides a natural analog of organizational overhead through the relation $\xi \propto P \times \tan\delta$, where $\tan\delta$ quantifies substrate loss. For tantalum qubits on sapphire, substrate loss $\tan\delta = 1.9 \times 10^{-8}$ permits high participation. Metal-air interfaces have $\tan\delta \sim 10^{-3}$, requiring surface participation $P_{\text{MA}} < 3 \times 10^{-4}$. This drives geometric optimization — trenching removes substrate from critical regions, suspended structures create air gaps, and careful metallization minimizes interface area. Current best tantalum qubits achieve $T_1 \approx 500$ microseconds[^5], with further optimization targeting lower participation ratios expected to yield coherence improvements as the system moves further from the critical regime.
 
 ## Empirical Convergence
 
@@ -93,7 +93,7 @@ The confirmed predictions — Fibonacci temporal protection and the fusion algeb
 
 The framework's application to quantum computing rests on several identifications that could fail independently.
 
-**The $\eta \propto P \times \tan\delta$ mapping.** The identification of participation ratio with organizational overhead is motivated by analogy — both measure the fraction of resources consumed by maintenance rather than useful work — but is not derived from the constraint functional. If coherence in superconducting qubits is governed by mechanisms that do not map onto the $\beta$-function's dissipation flow, the quantitative predictions from the exponent $\nu$ would not apply.
+**The $\xi \propto P \times \tan\delta$ mapping.** The identification of participation ratio with organizational overhead is motivated by analogy — both measure the fraction of resources consumed by maintenance rather than useful work — but is not derived from the constraint functional. If coherence in superconducting qubits is governed by mechanisms that do not map onto the $\beta$-function's maintenance flow, the quantitative predictions from the exponent $\nu$ would not apply.
 
 **Prime qubit counts.** The claim that prime qubit counts minimize discrete curvature rests on the observation that fewer divisors means fewer rational commensurabilities. This is plausible but has not been tested against controlled experiments comparing prime versus composite qubit counts on identical hardware.
 
