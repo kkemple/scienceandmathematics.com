@@ -2,6 +2,7 @@
 title: 'Repair as Local Optimization in Constraint Geometry'
 description: "Repair is local optimization under geometric constraint — it bends RG flow without inverting it, persists even when ineffective, and becomes structurally decisive only when net capacity exceeds overhead."
 pubDate: '2026-02-09'
+category: 'supporting'
 updatedDate: '2026-02-10'
 zenodoDepositionId: 18645022
 zenodoUrl: "https://zenodo.org/records/18645022"

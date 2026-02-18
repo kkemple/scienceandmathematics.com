@@ -2,6 +2,7 @@
 title: 'Complex Adaptable Systems, Complexity Ladders, & Agency'
 description: "Complexity builds through a recursive ladder — constraints, structure, invariance, emergence — repeating at every scale. Agency appears when overhead reaches ξ ~ 0.1, balancing complexity with remaining energy."
 pubDate: '2025-10-18'
+category: 'applications'
 updatedDate: '2026-01-28'
 zenodoDepositionId: 18645010
 zenodoUrl: "https://zenodo.org/records/18645010"

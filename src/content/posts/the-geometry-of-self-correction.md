@@ -3,6 +3,7 @@ title: 'The Geometry of Self-Correction'
 description: "Converging and cycling systems differ by one geometric property: curl of the correction field. A Hodge-theoretic lower bound proves that cycling from state-dependent constraint projections is structural, not parametric."
 pubDate: '2026-01-09'
 updatedDate: '2026-01-28'
+category: 'supporting'
 draft: true
 zenodoDepositionId: 18602872
 zenodoUrl: "https://zenodo.org/records/18602872"

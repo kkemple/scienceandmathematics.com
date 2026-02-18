@@ -2,6 +2,7 @@
 title: 'Bounded Reflexivity & Constraint Theory'
 description: "A phenomenological field model embedding Soros-Keynes reflexivity within physical, informational, balance-sheet, and institutional constraints that set predictable breaking points."
 pubDate: '2025-11-04'
+category: 'applications'
 updatedDate: '2026-01-28'
 zenodoDepositionId: 18511935
 zenodoUrl: "https://zenodo.org/records/18511935"

@@ -2,10 +2,11 @@
 title: 'Navier–Stokes, Vorticity Growth, & the Finite Residence of Balanced States'
 description: "DNS at Re_λ ≈ 430 shows states balancing vortex stretching and multiscale recursion persist only 1–2 timesteps. Balance is crossed but not occupied — constraining plausible finite-time blow-up mechanisms."
 pubDate: '2026-01-17'
+category: 'supporting'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18571129
-zenodoUrl: "https://zenodo.org/records/18571129"
-doi: "10.5281/zenodo.18571129"
+zenodoDepositionId: 18683523
+zenodoUrl: "https://zenodo.org/records/18683523"
+doi: "10.5281/zenodo.18683523"
 keywords:
   - "Navier-Stokes"
   - "vorticity"
@@ -98,7 +99,7 @@ This does not rule out blow-up. It narrows the space of viable mechanisms.
 
 ## Connection to the Geometry of Self-Correction
 
-The structure observed here connects to a broader geometric principle. The [constraint geometry monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) establishes that three curvature sectors — angular, recursive, and discrete — are anticorrelated under triadic tension (Section 3, T2): tightening any one sector forces the others to carry more curvature. A direct consequence, developed in Section 9 of that monograph and formalized in [The Geometry of Self-Correction](/the-geometry-of-self-correction), is that balanced states are transversely unstable. When constraints are state-dependent — when admissible correction directions depend on where the system currently sits — projection of a gradient proposal onto the feasible set generically introduces irreducible curl into the effective dynamics. Systems with curl-free correction fields exhibit pure convergence; systems with nonzero curl cycle indefinitely. The cycling is structural rather than parametric, with its floor set by the Hodge spectral gap of the constraint manifold.
+The structure observed here connects to a broader geometric principle. The [constraint geometry monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) establishes that three curvature sectors — angular, recursive, and discrete — are anticorrelated under triadic tension (Section 3, T2): tightening any one sector forces the others to carry more curvature. A direct consequence, formalized in [The Geometry of Self-Correction](/the-geometry-of-self-correction), is that balanced states are transversely unstable. When constraints are state-dependent — when admissible correction directions depend on where the system currently sits — projection of a gradient proposal onto the feasible set generically introduces irreducible curl into the effective dynamics. Systems with curl-free correction fields exhibit pure convergence; systems with nonzero curl cycle indefinitely. The cycling is structural rather than parametric, with its floor set by the Hodge spectral gap of the constraint manifold.
 
 In Navier–Stokes, the nonlinear term $(\omega\cdot\nabla)u$ is a self-projection of the flow onto its own strain geometry, while viscosity acts as a smoothing projection. The empirical result is consistent with a geometric hypothesis: the Navier–Stokes nonlinearity induces transient curl, but viscosity prevents curl-supporting configurations from remaining integrable across scales. Stretching can spike, but the cascade geometry cannot remain integrable long enough to lock in a singularity — exactly the structure proved abstractly for projected gradient flows, where feasibility-induced curl creates cycling but cycling configurations are not energetically stationary.
 
@@ -130,7 +131,7 @@ The finite-residence observation rests on empirical evidence and geometric reaso
 
 **Subdomain size.** The $16^3$ grid cubes are a methodological choice balancing gradient resolution against multiscale capture. Smaller cubes may lack sufficient scale range to meaningfully define $L_\Omega$; larger cubes may average over spatially distinct dynamics. If residence times change qualitatively with subdomain size, the result reflects the observation window rather than the physics.
 
-**Inductive gap.** The leap from "transient in DNS at one Reynolds number" to "structurally unstable" is inductive. The geometric connection to triadic tension and irreducible curl (via the monograph's Section 9) provides theoretical scaffolding for why balance should be generically unstable, but that scaffolding has not been turned into a deductive proof within Navier–Stokes. The result does not prove global regularity, does not establish bounds uniform in Reynolds number, and does not replace analytic criteria such as Beale–Kato–Majda[^10].
+**Inductive gap.** The leap from "transient in DNS at one Reynolds number" to "structurally unstable" is inductive. The geometric connection to triadic tension and irreducible curl (via [The Geometry of Self-Correction](/the-geometry-of-self-correction)) provides theoretical scaffolding for why balance should be generically unstable, but that scaffolding has not been turned into a deductive proof within Navier–Stokes. The result does not prove global regularity, does not establish bounds uniform in Reynolds number, and does not replace analytic criteria such as Beale–Kato–Majda[^10].
 
 **Scope boundaries.** The analysis is periodic, event-localized, and unforced. Boundary-driven or externally forced flows fall outside its scope. Different flow geometries, compressibility effects, or non-Newtonian rheology could alter the balance dynamics.
 

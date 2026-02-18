@@ -2,6 +2,7 @@
 title: 'Innovation Cycles and Civilizational Renormalization'
 description: "Civilizations build intervention stacks on natural mechanics until complexity outpaces surplus, forcing either breakthrough to new mechanics or simplification through collapse."
 pubDate: '2025-10-18'
+category: 'applications'
 updatedDate: '2026-02-06'
 zenodoDepositionId: 18645019
 zenodoUrl: "https://zenodo.org/records/18645019"

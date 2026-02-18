@@ -2,6 +2,7 @@
 title: 'Conservation, Dissipation, & Field Emergence'
 description: "Conservation plus symmetry yields Maxwell, Klein-Gordon, and Euler field equations. Fermi's golden rule derives the microscopic origin of ξ, whose RG flow follows the constraint geometry β-function."
 pubDate: '2025-10-06'
+category: 'supporting'
 updatedDate: '2026-01-28'
 zenodoDepositionId: 18645011
 zenodoUrl: "https://zenodo.org/records/18645011"

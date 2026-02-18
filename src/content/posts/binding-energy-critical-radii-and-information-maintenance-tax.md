@@ -2,6 +2,7 @@
 title: 'Binding Energy, Critical Radii, & Information Maintenance Tax'
 description: "Binding energy as thermodynamic maintenance cost via Landauer's principle. White dwarf analysis reveals a phase transition at R/R_S ≈ 10³, and bit-counting predicts Type Ia supernova energy to 4.3 × 10⁴⁴ J."
 pubDate: '2025-10-14'
+category: 'supporting'
 updatedDate: '2026-01-28'
 zenodoDepositionId: 18645008
 zenodoUrl: "https://zenodo.org/records/18645008"

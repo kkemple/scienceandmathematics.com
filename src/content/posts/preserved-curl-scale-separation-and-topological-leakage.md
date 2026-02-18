@@ -2,6 +2,7 @@
 title: 'Preserved Curl, Scale Separation, & Topological Leakage'
 description: "Magnetic helicity decays slower than energy by the squared scale ratio. A parameterized hazard family proves the phase boundary exponent is operator-specific, flat when stress matches dissipation."
 pubDate: '2026-02-08'
+category: 'supporting'
 updatedDate: '2026-02-10'
 zenodoDepositionId: 18645021
 zenodoUrl: "https://zenodo.org/records/18645021"

@@ -2,9 +2,10 @@
 title: 'Compressors, Curl, & Constraint Geometry'
 description: "Axial compressors instantiate constraint geometry: the surge line is a finite-residence manifold, rotating stall is curl made visible, and balanced states are crossed but never occupied."
 pubDate: '2026-01-25'
-zenodoDepositionId: 18602864
-zenodoUrl: "https://zenodo.org/records/18602864"
-doi: "10.5281/zenodo.18602864"
+category: 'applications'
+zenodoDepositionId: 18683522
+zenodoUrl: "https://zenodo.org/records/18683522"
+doi: "10.5281/zenodo.18683522"
 updatedDate: '2026-01-28'
 keywords:
   - "compressors"
@@ -21,7 +22,7 @@ keywords:
 
 Axial compressors should not oscillate. Engineers have measured every blade angle to fractions of degrees, modeled pressure gradients across hundreds of operating conditions, and tuned control parameters through decades of iterative refinement. Yet certain regions of the compressor map remain impossible to occupy stably—rotating stall cells appear and propagate circumferentially, surge cycles persist across controller redesigns, and limit oscillations continue despite model-predictive control, adaptive gain scheduling, and detailed aerodynamic modeling. The behaviors the hardware insists on producing resist elimination through better tuning.
 
-The obstruction is geometric rather than parametric. The [constraint geometry monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) establishes a chain: incompatible sector minimizers produce state-dependent constraints, state-dependent constraints produce non-integrable feasibility projections, non-integrable projections produce irreducible curl, and irreducible curl forces cycling (Section 9). The [geometry of self-correction](/the-geometry-of-self-correction) formalizes this as Theorem 4 — a Hodge-theoretic lower bound proving that the curl floor is set by the spectral gap, not by parameter choices. The [finite-residence conjecture](/navier-stokes-vorticity-growth-and-finite-residence-of-balanced-states) adds the Navier–Stokes evidence: balanced states in the actual flow physics are crossed but not occupied.
+The obstruction is geometric rather than parametric. The [constraint geometry monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) establishes that incompatible sector minimizers produce state-dependent constraints, state-dependent constraints produce non-integrable feasibility projections, non-integrable projections produce irreducible curl, and irreducible curl forces cycling. The [geometry of self-correction](/the-geometry-of-self-correction) formalizes this as Theorem 4 — a Hodge-theoretic lower bound proving that the curl floor is set by the spectral gap, not by parameter choices. The [finite-residence conjecture](/navier-stokes-vorticity-growth-and-finite-residence-of-balanced-states) adds the Navier–Stokes evidence: balanced states in the actual flow physics are crossed but not occupied.
 
 A compressor control system satisfies the premises of Theorem 4 directly, not by analogy. The conclusions — irreducible cycling, structural curl, finite residence near balance — follow deductively. What engineers discovered empirically over decades, measuring surge margins and documenting failure modes, the mathematics renders inevitable.
 

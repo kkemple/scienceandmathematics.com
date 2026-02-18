@@ -2,6 +2,7 @@
 title: 'Finite Residence, Feasibility Projections, & Quartic Transport'
 description: "A state-dependent feasibility projection annihilates the first-order shear operator, forcing hydrodynamic relaxation from k² to k⁴. Finite residence of balanced Navier–Stokes states is the dynamical realization."
 pubDate: '2026-02-09'
+category: 'supporting'
 draft: true
 zenodoDepositionId: 18645016
 zenodoUrl: "https://zenodo.org/records/18645016"

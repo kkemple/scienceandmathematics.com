@@ -2,6 +2,7 @@
 title: 'The Anthropic Thermodynamic Principle'
 description: "The maintenance hierarchy places biology at ξ ~ 0.1. Recursive self-reference is sustainable only near this value — we observe consciousness here for the same reason we observe stars: no other regime permits it."
 pubDate: '2025-09-17'
+category: 'applications'
 updatedDate: '2026-01-28'
 zenodoDepositionId: 18645024
 zenodoUrl: "https://zenodo.org/records/18645024"

@@ -2,6 +2,7 @@
 title: 'Information-Theoretic Constraints on Sociotechnical Systems'
 description: "Derives universal speech rates, biological maintenance ceilings, and nonlinear organizational overhead scaling by applying Landauer physics to human organizations."
 pubDate: '2025-10-16'
+category: 'applications'
 updatedDate: '2026-01-28'
 zenodoDepositionId: 18645018
 zenodoUrl: "https://zenodo.org/records/18645018"

@@ -36,6 +36,10 @@ const posts = defineCollection({
 			type: z
 				.enum(["note", "paper", "experiment", "analysis", "review"])
 				.default("note"),
+			category: z
+				.enum(["core", "supporting", "applications"])
+				.default("applications"),
+			order: z.number().optional(),
 
 			// Citation metadata (optional - enables Zotero/Scholar support when present)
 			doi: z

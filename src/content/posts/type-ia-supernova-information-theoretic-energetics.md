@@ -2,6 +2,7 @@
 title: 'Type Ia Supernova Information-Theoretic Energetics'
 description: "A thermodynamic lower bound on Type Ia supernova energetics from Landauer's principle applied to phase-space reorganization at the Chandrasekhar limit. Four inputs yield E ≳ 10⁴⁴ J."
 pubDate: '2025-09-29'
+category: 'supporting'
 updatedDate: '2026-01-28'
 zenodoDepositionId: 18645026
 zenodoUrl: "https://zenodo.org/records/18645026"

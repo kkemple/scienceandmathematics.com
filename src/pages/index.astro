@@ -6,11 +6,48 @@ import { themeConfig } from '@/config'
 import { getSortedFilteredPosts } from '@/utils/draft'
 
 const posts = await getSortedFilteredPosts()
+
+const corePosts = posts
+  .filter((p) => p.data.category === 'core')
+  .sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99))
+
+const supportingPosts = posts
+  .filter((p) => p.data.category === 'supporting')
+
+const applicationPosts = posts
+  .filter((p) => p.data.category === 'applications')
 ---
 
 <IndexLayout title={themeConfig.site.title} description={themeConfig.site.description}>
   <About />
   <main>
-    <PostList posts={posts} />
+    <section>
+      <h2 class="section-heading">Core Theory</h2>
+      <PostList posts={corePosts} />
+    </section>
+    <section>
+      <h2 class="section-heading">Supporting Results</h2>
+      <PostList posts={supportingPosts} />
+    </section>
+    <section>
+      <h2 class="section-heading">Speculative & Applications</h2>
+      <PostList posts={applicationPosts} />
+    </section>
   </main>
 </IndexLayout>
+
+<style>
+  .section-heading {
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+    margin: 2rem 0 0.5rem;
+    padding: 0;
+    letter-spacing: 0.02em;
+  }
+
+  .section-heading:first-of-type {
+    margin-top: 0;
+  }
+</style>

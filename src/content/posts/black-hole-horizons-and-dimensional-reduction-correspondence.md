@@ -2,6 +2,7 @@
 title: 'Black Hole Horizons & Dimensional Reduction Correspondence'
 description: "Five independent frameworks — geometry, thermodynamics, topology, information theory, entropic gravity — converge on the same horizon structure: 3D-to-2D dimensional reduction, dual chiral sectors, and S³ topology."
 pubDate: '2025-08-22'
+category: 'supporting'
 updatedDate: '2026-01-28'
 zenodoDepositionId: 18645009
 zenodoUrl: "https://zenodo.org/records/18645009"
