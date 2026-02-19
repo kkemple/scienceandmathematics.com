@@ -4,9 +4,9 @@ description: "Any persistent distributed system must solve three irreducible pro
 pubDate: '2026-01-18'
 category: 'applications'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18602873
-zenodoUrl: "https://zenodo.org/records/18602873"
-doi: "10.5281/zenodo.18602873"
+zenodoDepositionId: 18701032
+zenodoUrl: "https://zenodo.org/records/18701032"
+doi: "10.5281/zenodo.18701032"
 keywords:
   - "coordination"
   - "information theory"

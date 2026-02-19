@@ -4,9 +4,9 @@ description: "Fibonacci anyon fusion τ × τ = 1 + τ forces quantum dimension 
 pubDate: '2025-10-19'
 category: 'applications'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18645020
-zenodoUrl: "https://zenodo.org/records/18645020"
-doi: "10.5281/zenodo.18645020"
+zenodoDepositionId: 18701076
+zenodoUrl: "https://zenodo.org/records/18701076"
+doi: "10.5281/zenodo.18701076"
 keywords:
   - "quantum computing"
   - "Fibonacci anyons"

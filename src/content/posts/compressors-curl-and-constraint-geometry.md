@@ -3,9 +3,9 @@ title: 'Compressors, Curl, & Constraint Geometry'
 description: "Axial compressors instantiate constraint geometry: the surge line is a finite-residence manifold, rotating stall is curl made visible, and balanced states are crossed but never occupied."
 pubDate: '2026-01-25'
 category: 'applications'
-zenodoDepositionId: 18683522
-zenodoUrl: "https://zenodo.org/records/18683522"
-doi: "10.5281/zenodo.18683522"
+zenodoDepositionId: 18701025
+zenodoUrl: "https://zenodo.org/records/18701025"
+doi: "10.5281/zenodo.18701025"
 updatedDate: '2026-01-28'
 keywords:
   - "compressors"

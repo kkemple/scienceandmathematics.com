@@ -4,9 +4,9 @@ description: "Conservation plus symmetry yields Maxwell, Klein-Gordon, and Euler
 pubDate: '2025-10-06'
 category: 'supporting'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18645011
-zenodoUrl: "https://zenodo.org/records/18645011"
-doi: "10.5281/zenodo.18645011"
+zenodoDepositionId: 18701080
+zenodoUrl: "https://zenodo.org/records/18701080"
+doi: "10.5281/zenodo.18701080"
 keywords:
   - "field theory"
   - "Noether theorem"

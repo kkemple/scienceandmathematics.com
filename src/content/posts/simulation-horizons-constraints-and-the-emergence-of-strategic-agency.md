@@ -3,9 +3,9 @@ title: "Simulation Horizons, Constraints, & the Emergence of Strategic Agency"
 description: "A phase boundary for when optimization becomes strategy: systems play games only when horizon and authority justify intervention over migration under thermodynamic and institutional constraints."
 pubDate: "2025-12-21"
 category: 'applications'
-zenodoDepositionId: 18645023
-zenodoUrl: "https://zenodo.org/records/18645023"
-doi: "10.5281/zenodo.18645023"
+zenodoDepositionId: 18701066
+zenodoUrl: "https://zenodo.org/records/18701066"
+doi: "10.5281/zenodo.18701066"
 updatedDate: "2026-02-06"
 type: "analysis"
 keywords:

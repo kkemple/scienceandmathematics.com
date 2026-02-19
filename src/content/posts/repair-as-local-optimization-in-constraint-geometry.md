@@ -4,9 +4,9 @@ description: "Repair is local optimization under geometric constraint — it ben
 pubDate: '2026-02-09'
 category: 'supporting'
 updatedDate: '2026-02-10'
-zenodoDepositionId: 18645022
-zenodoUrl: "https://zenodo.org/records/18645022"
-doi: "10.5281/zenodo.18645022"
+zenodoDepositionId: 18701099
+zenodoUrl: "https://zenodo.org/records/18701099"
+doi: "10.5281/zenodo.18701099"
 zenodoDescription: |
   Repair is local optimization under irreducible geometric constraint. This paper introduces repair as a first-class process in the constraint geometry framework, proving via a Repair–Geometry Compatibility lemma that any repair operation traversing a non-integrable feasibility map incurs a strictly positive geometric overhead bounded below by the Hodge spectral gap. Two empirically distinct modes emerge — persistent local optimization (aging-like decay) and net-positive structural repair (sharp threshold) — captured by a single gating function whose sharpness classifies system regimes. The repair-augmented RG system couples maintenance load, effective dimension, and repair actuation with explicit parameter dependence. Empirical validation from 7,515 Gaia DR3 white dwarfs reveals a sharp compactness-controlled threshold at R/R_S ≈ 10³ (14.5σ, Wilcoxon p = 4.3 × 10⁻⁸⁴), with a monotonic gradient from +345 Myr median excess in the ultra-massive 500–700 bin (using relativistic ONe-core tracks) through +108 Myr at 700–900 to null above R/R_S ≈ 1300, yielding ξ_crit = 0.46 and total overhead c = 0.292.
 keywords:
