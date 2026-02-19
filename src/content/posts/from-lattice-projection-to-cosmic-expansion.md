@@ -1,10 +1,10 @@
 ---
-title: 'From Lattice Projection to Cosmic Expansion'
+title: 'From 6D Lattice Projection to 3D Cosmic Expansion'
 description: "One projection from 6D produces a spectral gap and a triadic frustration. They feed one β-function whose flow organizes compact objects, derives the area law, and produces accelerated expansion."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18701847
-zenodoUrl: "https://zenodo.org/records/18701847"
-doi: "10.5281/zenodo.18701847"
+zenodoDepositionId: 18705628
+zenodoUrl: "https://zenodo.org/records/18705628"
+doi: "10.5281/zenodo.18705628"
 category: 'core'
 order: 1
 zenodoDescription: |
@@ -187,34 +187,21 @@ The [ADE domain wall computation](/ade-domain-walls-and-branch-selection) establ
 
 ## The Complete Chain
 
-$$
-6\text{D lattice}
-  \xrightarrow{\text{project}} S^3/\mathrm{2I}
-  \xrightarrow{\text{Molien}} \langle 6,10,15\rangle
-  \xrightarrow{n_l = 0} d_{\mathrm{eff}}
-$$
+A 6D periodic lattice projects to 3D. The projection simultaneously produces the orbifold $S^3/\mathrm{2I}$ — the Poincaré homology sphere, whose McKay correspondent is $E_8$.
 
-$$
-d_{\mathrm{eff}} \xrightarrow{\;\mathcal{D}\;}
-  \beta(\xi,\mathcal{D})
-  \xrightarrow{\text{flow}}
-  \begin{cases}
-    (1,2) & \text{local: BH} \\
-    \text{expansion} & \text{global}
-  \end{cases}
-$$
+$$6\text{D lattice} \xrightarrow{\;\text{project}\;} S^3/\mathrm{2I}$$
 
-In parallel:
+The Molien series of $\mathrm{2I}$ reads off which Kaluza–Klein modes survive the quotient. The surviving spins are exactly the elements of the numerical semigroup $\langle 6, 10, 15 \rangle$, with 15 gaps — half the Coxeter number $h = 30$, a property unique to $E_8$ among all ADE types.
 
-$$
-\text{projection}
-  \xrightarrow{\text{frustration}} I = 4\pi\varphi^2
-  \xrightarrow{C_{10}} u^* = I/10
-  \xrightarrow{\;\xi(1-\xi)\;}
-  \beta(\xi,\mathcal{D})
-$$
+$$S^3/\mathrm{2I} \xrightarrow{\;\text{Molien}\;} \langle 6,10,15 \rangle \xrightarrow{\;n_l = 0\;} d_{\mathrm{eff}} = 2.61$$
 
-The spectral path supplies $\mathcal{D}$. The frustration path supplies $u^*$. They converge in the bracket $[u^* + (\mathcal{D}-2)\ln\varphi/2]$.
+Those 15 missing modes thin the low-energy eigenvalue count. By Weyl's law, the orbifold is topologically three-dimensional but spectrally behaves as dimension 2.61 — the effective dimension $\mathcal{D}$ that enters the $\beta$-function.
+
+A second path runs in parallel. The same orbifold quotient prevents simultaneous relaxation of three curvature sectors, producing a ground-state curvature $I = 4\pi\varphi^2 \approx 32.9$. Decade symmetry partitions each RG period into 10 equivalent shells, giving the coupling constant $u^* = I/10 \approx 3.29$.
+
+$$\text{projection} \xrightarrow{\;\text{frustration}\;} I = 4\pi\varphi^2 \xrightarrow{\;C_{10}\;} u^* = I/10$$
+
+The spectral path delivers $\mathcal{D}$. The frustration path delivers $u^*$. Both are consequences of a single projection, and they converge in the bracket $[u^* + (\mathcal{D}-2)\ln\varphi/2]$.
 
 ## Attack Surface
 
