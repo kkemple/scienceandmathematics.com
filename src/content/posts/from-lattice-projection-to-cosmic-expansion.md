@@ -2,9 +2,9 @@
 title: 'From Lattice Projection to Cosmic Expansion'
 description: "One projection from 6D produces a spectral gap and a triadic frustration. They feed one β-function whose flow organizes compact objects, derives the area law, and produces accelerated expansion."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18700637
-zenodoUrl: "https://zenodo.org/records/18700637"
-doi: "10.5281/zenodo.18700637"
+zenodoDepositionId: 18701847
+zenodoUrl: "https://zenodo.org/records/18701847"
+doi: "10.5281/zenodo.18701847"
 category: 'core'
 order: 1
 zenodoDescription: |
@@ -179,7 +179,7 @@ The spectral drive — the product of protection factor $\sigma$ and $\beta$-fun
 | Tetrahedral ($E_6$) | $\mathrm{2T}$ | $\langle 3,4,6\rangle$ | 16× | 2.67 | 11.7 |
 | Dodecagonal ($D_8$) | $\mathrm{BD}_6$ | $\langle 2,7\rangle$ | 8× | 2.47 | 5.8 |
 
-The $\beta$-function varies by $\sim$1% across branches; the protection factor dominates. The $E_8$ branch's dominance traces to three independent properties: $\varphi$ is the worst-approximable irrational (maximal resonance protection), $\mathrm{2I}$ is the largest finite subgroup of $\mathrm{SU}(2)$ (most aggressive mode deletion), and $\langle 6, 10, 15 \rangle$ is the unique ADE semigroup achieving genus $g = h/2$ (maximally distributed gap structure).
+The $\beta$-function varies by $\sim1\%$ across branches; the protection factor dominates. The $E_8$ branch's dominance traces to three independent properties: $\varphi$ is the worst-approximable irrational (maximal resonance protection), $\mathrm{2I}$ is the largest finite subgroup of $\mathrm{SU}(2)$ (most aggressive mode deletion), and $\langle 6, 10, 15 \rangle$ is the unique ADE semigroup achieving genus $g = h/2$ (maximally distributed gap structure).
 
 Branches with weaker spectral drive remain viable only with thermodynamic compensation — configurational entropy from defect-tile species mixing. The dodecagonal branch requires approximately 5× entropy amplification ($S/Nk_B$ from 0.120 to 0.554). The Penrose branch requires no entropy subsidy.
 

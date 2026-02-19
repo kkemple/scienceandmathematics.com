@@ -4,9 +4,9 @@ description: "Hilbert's 1900 call for axiomatic physics asked whether nature dem
 pubDate: '2026-01-10'
 category: 'applications'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701073
-zenodoUrl: "https://zenodo.org/records/18701073"
-doi: "10.5281/zenodo.18701073"
+zenodoDepositionId: 18701908
+zenodoUrl: "https://zenodo.org/records/18701908"
+doi: "10.5281/zenodo.18701908"
 zenodoDescription: |
   In 1900, David Hilbert challenged mathematicians to axiomatize physics with the same rigor as geometry. The sixth of his famous problems specifically called for a mathematical treatment of probability in mechanics. Over a century later, the problem remains formally open.
 

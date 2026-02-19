@@ -4,9 +4,9 @@ description: "A state-dependent feasibility projection annihilates the first-ord
 pubDate: '2026-02-09'
 category: 'supporting'
 draft: true
-zenodoDepositionId: 18701100
-zenodoUrl: "https://zenodo.org/records/18701100"
-doi: "10.5281/zenodo.18701100"
+zenodoDepositionId: 18701921
+zenodoUrl: "https://zenodo.org/records/18701921"
+doi: "10.5281/zenodo.18701921"
 zenodoDescription: |
   When a state-dependent feasibility projection acts on the constitutive stress tensor and places the first-order shear operator in its nullspace, the k² diffusive pole is structurally forbidden — not parametrically suppressed. The leading admissible relaxation shifts to k⁴ via a Burnett-type operator, with k³ excluded by stress tensor symmetry σ_ij = σ_ji. The selection rule Π_x[σ_ij] = 0 is an operator-level statement whose dynamical realization is the finite residence of balanced Navier–Stokes states: DNS shows these configurations are crossed but not occupied, with escape occurring preferentially through loss of recursive coherence rather than collapse of stretching. The mechanism unifies independent k⁴ observations across non-relativistic Lifshitz holography (where bulk couplings cancel k² contributions), fracton and dipole-conserving fluids (where enhanced symmetry constraints forbid first-order kinetics), and photonic quasicrystal spectral reorganization under irrational projection methods. The framework situates quartic transport within constraint geometry as a transport-sector instantiation of the curl-maintenance floor established in the self-correction framework.
 keywords:

@@ -4,9 +4,9 @@ description: "Five independent frameworks — geometry, thermodynamics, topology
 pubDate: '2025-08-22'
 category: 'supporting'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701079
-zenodoUrl: "https://zenodo.org/records/18701079"
-doi: "10.5281/zenodo.18701079"
+zenodoDepositionId: 18701912
+zenodoUrl: "https://zenodo.org/records/18701912"
+doi: "10.5281/zenodo.18701912"
 keywords:
   - "black hole thermodynamics"
   - "dimensional reduction"

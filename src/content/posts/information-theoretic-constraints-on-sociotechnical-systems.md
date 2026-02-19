@@ -4,9 +4,9 @@ description: "Derives universal speech rates, biological maintenance ceilings, a
 pubDate: '2025-10-16'
 category: 'applications'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701033
-zenodoUrl: "https://zenodo.org/records/18701033"
-doi: "10.5281/zenodo.18701033"
+zenodoDepositionId: 18701896
+zenodoUrl: "https://zenodo.org/records/18701896"
+doi: "10.5281/zenodo.18701896"
 keywords:
   - "information theory"
   - "speech rate"

@@ -4,9 +4,9 @@ description: "Binding energy as thermodynamic maintenance cost via Landauer's pr
 pubDate: '2025-10-14'
 category: 'supporting'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701081
-zenodoUrl: "https://zenodo.org/records/18701081"
-doi: "10.5281/zenodo.18701081"
+zenodoDepositionId: 18701914
+zenodoUrl: "https://zenodo.org/records/18701914"
+doi: "10.5281/zenodo.18701914"
 keywords:
   - "Landauer principle"
   - "binding energy"

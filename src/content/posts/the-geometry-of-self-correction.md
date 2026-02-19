@@ -5,9 +5,9 @@ pubDate: '2026-01-09'
 updatedDate: '2026-01-28'
 category: 'supporting'
 draft: true
-zenodoDepositionId: 18701103
-zenodoUrl: "https://zenodo.org/records/18701103"
-doi: "10.5281/zenodo.18701103"
+zenodoDepositionId: 18701927
+zenodoUrl: "https://zenodo.org/records/18701927"
+doi: "10.5281/zenodo.18701927"
 zenodoDescription: |
   This paper develops a coordinate-free geometric framework for understanding when feedback systems converge versus cycle. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation.
 

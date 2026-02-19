@@ -4,9 +4,9 @@ description: "Complexity builds through a recursive ladder — constraints, stru
 pubDate: '2025-10-18'
 category: 'applications'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701069
-zenodoUrl: "https://zenodo.org/records/18701069"
-doi: "10.5281/zenodo.18701069"
+zenodoDepositionId: 18701906
+zenodoUrl: "https://zenodo.org/records/18701906"
+doi: "10.5281/zenodo.18701906"
 keywords:
   - "complexity"
   - "emergence"

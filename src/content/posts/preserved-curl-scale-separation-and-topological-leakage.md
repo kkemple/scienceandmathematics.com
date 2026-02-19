@@ -4,9 +4,9 @@ description: "Magnetic helicity decays slower than energy by the squared scale r
 pubDate: '2026-02-08'
 category: 'supporting'
 updatedDate: '2026-02-10'
-zenodoDepositionId: 18701101
-zenodoUrl: "https://zenodo.org/records/18701101"
-doi: "10.5281/zenodo.18701101"
+zenodoDepositionId: 18701922
+zenodoUrl: "https://zenodo.org/records/18701922"
+doi: "10.5281/zenodo.18701922"
 zenodoDescription: |
   Magnetic helicity — the integral measuring linkage and twist of divergence-free field lines — serves as a physical curl inventory whose decay timescale exceeds the energy decay timescale by a factor controlled entirely by scale separation. A Monte Carlo sweep across carrier and dissipative scales produces a universal stiffness collapse onto the linear law τ_H/τ_U ≈ 0.97X + 0.03, where X = (k_rms/k_c)².
 

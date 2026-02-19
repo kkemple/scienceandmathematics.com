@@ -4,9 +4,9 @@ description: "DNS at Re_λ ≈ 430 shows states balancing vortex stretching and 
 pubDate: '2026-01-17'
 category: 'supporting'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701026
-zenodoUrl: "https://zenodo.org/records/18701026"
-doi: "10.5281/zenodo.18701026"
+zenodoDepositionId: 18701890
+zenodoUrl: "https://zenodo.org/records/18701890"
+doi: "10.5281/zenodo.18701890"
 keywords:
   - "Navier-Stokes"
   - "vorticity"

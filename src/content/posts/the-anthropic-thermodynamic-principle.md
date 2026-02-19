@@ -4,9 +4,9 @@ description: "The maintenance hierarchy places biology at ξ ~ 0.1. Recursive se
 pubDate: '2025-09-17'
 category: 'applications'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701072
-zenodoUrl: "https://zenodo.org/records/18701072"
-doi: "10.5281/zenodo.18701072"
+zenodoDepositionId: 18701907
+zenodoUrl: "https://zenodo.org/records/18701907"
+doi: "10.5281/zenodo.18701907"
 keywords:
   - "consciousness"
   - "thermodynamics"

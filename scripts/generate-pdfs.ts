@@ -379,8 +379,15 @@ async function main() {
     ? path.resolve(process.cwd(), process.env.OUT_DIR)
     : DEFAULT_OUT_DIR;
 
-  const postFiles = listPostFiles();
-  console.log(`🧾 Found ${postFiles.length} posts`);
+  const slugFilter = process.argv.slice(2).filter((a) => !a.startsWith("-"));
+
+  let postFiles = listPostFiles();
+  if (slugFilter.length > 0) {
+    postFiles = postFiles.filter((f) =>
+      slugFilter.some((s) => path.basename(f).replace(/\.(md|mdx)$/, "") === s)
+    );
+  }
+  console.log(`🧾 Found ${postFiles.length} post(s)`);
   console.log(`📁 Writing PDFs to: ${outDir}`);
 
   let ok = 0;

@@ -2,9 +2,9 @@
 title: 'The Kaluza–Klein Spectrum on the Poincaré Homology Sphere'
 description: "The scalar KK tower on S³/2I has a gap structure controlled by the numerical semigroup ⟨6,10,15⟩ of the E₈ singularity. Fifteen levels are forbidden and d_eff crosses from 2.55 to 3 at the Coxeter number."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18701018
-zenodoUrl: "https://zenodo.org/records/18701018"
-doi: "10.5281/zenodo.18701018"
+zenodoDepositionId: 18701883
+zenodoUrl: "https://zenodo.org/records/18701883"
+doi: "10.5281/zenodo.18701883"
 category: 'core'
 order: 3
 zenodoDescription: |

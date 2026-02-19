@@ -4,9 +4,9 @@ description: "A thermodynamic lower bound on Type Ia supernova energetics from L
 pubDate: '2025-09-29'
 category: 'supporting'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701096
-zenodoUrl: "https://zenodo.org/records/18701096"
-doi: "10.5281/zenodo.18701096"
+zenodoDepositionId: 18701915
+zenodoUrl: "https://zenodo.org/records/18701915"
+doi: "10.5281/zenodo.18701915"
 keywords:
   - "Type Ia supernova"
   - "Chandrasekhar limit"

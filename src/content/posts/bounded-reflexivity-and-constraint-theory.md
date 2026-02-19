@@ -4,9 +4,9 @@ description: "A phenomenological field model embedding Soros-Keynes reflexivity 
 pubDate: '2025-11-04'
 category: 'applications'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701029
-zenodoUrl: "https://zenodo.org/records/18701029"
-doi: "10.5281/zenodo.18701029"
+zenodoDepositionId: 18701891
+zenodoUrl: "https://zenodo.org/records/18701891"
+doi: "10.5281/zenodo.18701891"
 keywords:
   - "reflexivity"
   - "market dynamics"

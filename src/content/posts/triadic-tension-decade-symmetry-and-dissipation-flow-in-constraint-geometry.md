@@ -2,9 +2,9 @@
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
 description: "Three curvature sectors compete under one constraint functional on S³/2I. Their incompatibility forces ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a geometrically determined β-function."
 pubDate: '2025-11-28'
-zenodoDepositionId: 18701024
-zenodoUrl: "https://zenodo.org/records/18701024"
-doi: "10.5281/zenodo.18701024"
+zenodoDepositionId: 18701885
+zenodoUrl: "https://zenodo.org/records/18701885"
+doi: "10.5281/zenodo.18701885"
 updatedDate: '2026-02-17'
 category: 'core'
 order: 2

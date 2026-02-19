@@ -759,10 +759,6 @@ header-includes:
   - \\makeatother
 ---
 
-*Originally published at: ${SITE_URL}/${slug}/*
-
----
-
 ${content}
 `;
 

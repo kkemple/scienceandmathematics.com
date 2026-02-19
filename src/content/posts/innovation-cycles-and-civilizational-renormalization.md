@@ -4,9 +4,9 @@ description: "Civilizations build intervention stacks on natural mechanics until
 pubDate: '2025-10-18'
 category: 'applications'
 updatedDate: '2026-02-06'
-zenodoDepositionId: 18701065
-zenodoUrl: "https://zenodo.org/records/18701065"
-doi: "10.5281/zenodo.18701065"
+zenodoDepositionId: 18701899
+zenodoUrl: "https://zenodo.org/records/18701899"
+doi: "10.5281/zenodo.18701899"
 keywords:
   - "innovation cycles"
   - "civilizational collapse"

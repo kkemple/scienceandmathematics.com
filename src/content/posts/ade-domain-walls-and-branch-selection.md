@@ -2,9 +2,9 @@
 title: 'ADE Domain Walls and Branch Selection'
 description: "Domain wall energies between ADE branches are finite, spanning 456×. Gap-set nesting makes E₈ maximal under inclusion. Thermal stability and frozen tunneling make selection primordial and irreversible."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18701021
-zenodoUrl: "https://zenodo.org/records/18701021"
-doi: "10.5281/zenodo.18701021"
+zenodoDepositionId: 18701884
+zenodoUrl: "https://zenodo.org/records/18701884"
+doi: "10.5281/zenodo.18701884"
 category: 'core'
 order: 4
 zenodoDescription: |
