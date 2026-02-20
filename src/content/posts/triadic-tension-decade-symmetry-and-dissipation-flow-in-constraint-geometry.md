@@ -2,9 +2,9 @@
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
 description: "Three curvature sectors compete under one constraint functional on S³/2I. Their incompatibility forces ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a geometrically determined β-function."
 pubDate: '2025-11-28'
-zenodoDepositionId: 18701885
-zenodoUrl: "https://zenodo.org/records/18701885"
-doi: "10.5281/zenodo.18701885"
+zenodoDepositionId: 18716823
+zenodoUrl: "https://zenodo.org/records/18716823"
+doi: "10.5281/zenodo.18716823"
 updatedDate: '2026-02-17'
 category: 'core'
 order: 2
@@ -198,7 +198,7 @@ Self-similarity under $T_\varphi$ requires that the density reproduce itself at 
 
 More precisely, let $P_\varphi^{(n)}$ be the density produced by $n$ applications of the Fibonacci inflation starting from a generic seed. For any finite $n$, $P_\varphi^{(n)}$ has angular Fourier modes $\hat{P}_k \neq 0$ for $k = 5, 10, 15, \ldots$ (the harmonics compatible with $C_5$), so $K_\pi[P_\varphi^{(n)}] > 0$ for all finite $n$.
 
-In the limit $n \to \infty$, the density converges to $P_\varphi^*$, which retains residual tenfold anisotropy in its bond-angular distribution. The vertex positions carry $C_5$ symmetry, but the pair correlation function—which governs the angular Fisher information—inherits inversion symmetry (Friedel's law), promoting $C_5 \to C_{10}$. The Penrose tiling's nearest-neighbor bonds point along ten directions at $36°$ intervals, and the bond-orientational order parameter[^boo] $\psi_{10} = \langle e^{i \cdot 10\theta_{ij}} \rangle$ is the natural measure of this anisotropy. The fivefold mode $\psi_5$ vanishes exactly for the $C_{10}$ bond pattern (the ten directions cancel in pairs under $e^{i5\theta}$), so the dominant angular harmonic is $m = 10$, not $m = 5$.
+In the limit $n \to \infty$, the density converges to $P_\varphi^*$, which retains residual tenfold anisotropy in its bond-angular distribution. The vertex positions carry $C_5$ symmetry, but the pair correlation function—which governs the angular Fisher information—inherits inversion symmetry (Friedel's law), promoting $C_5 \to C_{10}$. The Penrose tiling's nearest-neighbor bonds point along ten directions at $36°$ intervals, and the bond-orientational order parameter[^6] $\psi_{10} = \langle e^{i \cdot 10\theta_{ij}} \rangle$ is the natural measure of this anisotropy. The fivefold mode $\psi_5$ vanishes exactly for the $C_{10}$ bond pattern (the ten directions cancel in pairs under $e^{i5\theta}$), so the dominant angular harmonic is $m = 10$, not $m = 5$.
 
 Numerical computation on a 21,976-vertex Penrose tiling (Robinson triangle inflation, 12 subdivision steps from a sun seed, 62,820 directed nearest-neighbor bonds) gives $|\psi_{10}| = 0.849$. The rigorous, distribution-free lower bound on the angular Fisher information is
 
@@ -211,8 +211,6 @@ The von Mises maximum-entropy distribution matching this $|\psi_{10}|$ has conce
 The $\varphi$-sector minimizer therefore does not minimize the $\pi$-sector. Conversely, the $\pi$-sector minimizer $P_\pi^*$ is rotationally invariant and cannot reproduce the anisotropic structure required by the Fibonacci inflation. It fails to minimize $K_\varphi$ because self-similar scaling requires angular modulation to implement the substitution rules. $\square$
 
 Recursive subdivision generically breaks isotropy because Fibonacci inflations produce anisotropic patterns at every finite scale. No density can be simultaneously isotropic and self-similar under an aperiodic inflation.
-
-[^boo]: Nelson, D.R. & Halperin, B.I. (1979). Dislocation-mediated melting in two dimensions. *Physical Review B*, 19(5), 2457.
 
 **The $\varphi$–$N$ incompatibility: irrational scaling vs integer periodicity.**
 
@@ -372,23 +370,7 @@ where $\lambda_\varphi = \varphi^2$ is the recursion eigenvalue (from $x^2 = x+1
 
 The constraint functional arises from projecting a 6D periodic lattice to 3D, producing the orbifold $S^3/\mathrm{2I}$ (the Poincaré homology sphere). The same projection that creates the frustration also creates a spectral gap: scalar fields on $S^3/\mathrm{2I}$ decompose into Kaluza–Klein modes, and the orbifold quotient deletes every mode not invariant under $\mathrm{2I}$. The surviving spins form the numerical semigroup $\langle 6, 10, 15 \rangle$, with 15 gaps. Those 15 missing KK modes are what the frustration looks like spectrally. The nonzero ground-state curvature $I > 0$ is what it looks like variationally. The two descriptions—spectral and variational—are dual readouts of one projection. The full chain from the 6D lattice through the KK spectrum to the $\beta$-function is developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion).
 
-### 3.7 The 1/3–2/3 Curvature Partition
-
-When the $N$-sector saturates first—reaching its minimum compatible with the continuous sectors—the remaining curvature redistributes between $K_\pi$ and $K_\varphi$. Minimizing the reduced functional
-
-$$
-F_{\text{eff}}[P] = g_\pi K_\pi[P] + g_\varphi K_\varphi[P],
-$$
-
-subject to $K_N[P] = K_N^{\min}$ and the entropy constraint, yields
-
-$$
-\frac{K_N}{K_\pi + K_\varphi + K_N} \approx \frac{1}{3}, \qquad \frac{K_\pi + K_\varphi}{K_\pi + K_\varphi + K_N} \approx \frac{2}{3}.
-$$
-
-This structural/DOF partition is a consequence of the triadic geometry. It emerges specifically when the discrete sector saturates first—the generic case for systems below the black-hole regime. Variability around these values is the expected signature of ongoing triadic competition.
-
-### 3.8 Attack Surface
+### 3.7 Attack Surface
 
 The theorem rests on checkable claims. Each represents a potential failure mode. Five items previously on this surface—sector decoupling, positive covariances, functional dependence, degenerate ensemble support, and the vertex selection rule gap—have been verified computationally and are now closed. The incompatibility gaps ($\delta_{\pi\varphi} \geq 72.1$, $\delta_{\varphi N}/A^2 = 0.745$, $\delta_{\pi N} \geq 72.1$) are established in §3.2. The covariance signs, eigenvalue positivity, and ensemble support are verified on a parametric angular model. The vertex selection rule operator, prefactor, and periodicity argument are supplied in §5.8 with numerical confirmation. Two open items remain.
 
@@ -396,7 +378,7 @@ The theorem rests on checkable claims. Each represents a potential failure mode.
 
 **Eigenmode transition dynamics (tests cosmological prediction).** The $\beta$-function's cosmological consequences—eigenmode switching at $z \approx 0.63$, the dark energy equation of state from the N-sector curvature pump, and the approach window $[\xi_c, u^*/10] = [0.304, 0.329]$—are developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion). Open: first-principles derivation of the bare constraint coupling in the pump amplitude from the Euler–Lagrange equation.
 
-### 3.9 Precedent and Novelty
+### 3.8 Precedent and Novelty
 
 Frustrated systems—where competing interactions prevent simultaneous satisfaction of all constraints—are well-studied in condensed matter physics. Antiferromagnets on triangular lattices, spin glasses with random couplings, and geometrically frustrated magnets on pyrochlore and kagome lattices all exhibit nonzero ground-state energy from frustrated configurations. The key precedent is that frustration generically produces nonzero ground-state energy, exactly as triadic tension produces nonzero ground-state curvature.
 
@@ -442,7 +424,7 @@ Surviving candidates: $C_5, \, C_7, \, C_8, \, C_9, \, C_{10}, \, C_{11}, \, C_{
 
 The $\varphi$-sector and $N$-sector are independent in their curvature action but share the same RG flow. The $\varphi$-sector enforces self-similar recursion with scaling factor $\varphi$. For self-consistency, the inflation factor of the $N$-sector's quasicrystalline ordering—the ratio by which the pattern scales under one substitution step—must equal $\varphi$. If the $N$-sector has inflation factor $\lambda \neq \varphi$, the two sectors impose incompatible recursion structures on the same spectrum, and the ground state cannot simultaneously satisfy both.
 
-Each non-crystallographic cyclic symmetry is associated with a class of quasiperiodic tilings[^6][^7] whose inflation eigenvalue is determined by the geometry of the associated regular polygon:
+Each non-crystallographic cyclic symmetry is associated with a class of quasiperiodic tilings[^7][^8] whose inflation eigenvalue is determined by the geometry of the associated regular polygon:
 
 | Symmetry | Tiling family | Inflation factor $\lambda$ | $\lambda = \varphi$? |
 |----------|--------------|---------------------------|---------------------|
@@ -456,7 +438,7 @@ Each non-crystallographic cyclic symmetry is associated with a class of quasiper
 
 The connection between $C_5$ and $\varphi$ is geometric: in a regular pentagon, the diagonal-to-side ratio is exactly $\varphi$, following from the identity $\cos(\pi/5) = \varphi/2$. When a Penrose tiling undergoes substitution, the scaling factor is $\varphi$—directly inherited from the pentagon's diagonal-to-side ratio. No other regular polygon has this property: $2\cos(\pi/n) = \varphi$ if and only if $n = 5$. This is an exact arithmetic identity. The $\varphi$-sector's eigenvalue and the pentagon's geometry select each other uniquely.
 
-There is a deeper number-theoretic reason why $\varphi$ is optimal. Hurwitz's approximation theorem[^8] (1891) establishes that for any irrational number $\alpha$, there exist infinitely many rationals $p/q$ satisfying $|\alpha - p/q| < 1/(\sqrt{5}\,q^2)$. The constant $\sqrt{5}$ is best possible: it cannot be replaced by any larger constant if $\alpha = \varphi$. This means $\varphi$ is the worst-approximable irrational number—maximally distant from all rationals in the sense of Diophantine approximation. The continued fraction expansion $\varphi = [1; 1, 1, 1, \ldots]$ confirms this: all partial quotients are 1 (the smallest possible value), producing the slowest-converging continued fraction of any irrational number.
+There is a deeper number-theoretic reason why $\varphi$ is optimal. Hurwitz's approximation theorem[^9] (1891) establishes that for any irrational number $\alpha$, there exist infinitely many rationals $p/q$ satisfying $|\alpha - p/q| < 1/(\sqrt{5}\,q^2)$. The constant $\sqrt{5}$ is best possible: it cannot be replaced by any larger constant if $\alpha = \varphi$. This means $\varphi$ is the worst-approximable irrational number—maximally distant from all rationals in the sense of Diophantine approximation. The continued fraction expansion $\varphi = [1; 1, 1, 1, \ldots]$ confirms this: all partial quotients are 1 (the smallest possible value), producing the slowest-converging continued fraction of any irrational number.
 
 For the constraint functional, rational approximability translates to resonance vulnerability. $\varphi$ minimizes the strength of all near-resonances simultaneously. Even if the $\varphi$-sector did not already select $\varphi$ algebraically (through $x = 1+1/x$), the $N$-sector would select it number-theoretically (through maximal resonance protection). The two selections converge on the same answer from independent directions.
 
@@ -530,7 +512,7 @@ $$
 
 **Corollary (Defect-Enabled Compensation).** If the selected branch $b^*$ has small or saturated configurational entropy, any branch with $\Delta_b > 0$ can be stabilized only by enlarging $S^{\mathrm{conf}}_b$—for instance, by admitting additional tile types that expand the configuration manifold.
 
-The dodecagonal square–triangle quasicrystal illustrates this mechanism[^9]. The dodecagonal eigenbranch $(\pi, 2+\sqrt{3}, 12)$ is eliminated by the $\varphi$-compatibility sieve (§4.2) and carries a positive branch penalty relative to Penrose. Ulugöl et al. show that vibrational free energy alone does not stabilize the quasicrystal—stability requires the configurational entropy term. The baseline square–triangle tiling has entropy $S/(Nk_B) = 0.120$, but admitting irregular-hexagon defect tiles and mixing defect species amplifies this to $S/(Nk_B) \approx 0.554$, roughly fivefold. Individual defect types contribute negatively; the combinatorial mixing across species generates the positive entropy surplus. Stability arises from expansion of the configuration manifold, not from energetic improvement of any single motif—exactly the compensation the inequality requires.
+The dodecagonal square–triangle quasicrystal illustrates this mechanism[^10]. The dodecagonal eigenbranch $(\pi, 2+\sqrt{3}, 12)$ is eliminated by the $\varphi$-compatibility sieve (§4.2) and carries a positive branch penalty relative to Penrose. Ulugöl et al. show that vibrational free energy alone does not stabilize the quasicrystal—stability requires the configurational entropy term. The baseline square–triangle tiling has entropy $S/(Nk_B) = 0.120$, but admitting irregular-hexagon defect tiles and mixing defect species amplifies this to $S/(Nk_B) \approx 0.554$, roughly fivefold. Individual defect types contribute negatively; the combinatorial mixing across species generates the positive entropy surplus. Stability arises from expansion of the configuration manifold, not from energetic improvement of any single motif—exactly the compensation the inequality requires.
 
 The Penrose branch is therefore the unique eigenbranch that does not require an entropy subsidy. All other branches can exist physically, but they must pay a measurable thermodynamic cost to do so.
 
@@ -682,9 +664,7 @@ $$
 M = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}.
 $$
 
-By the Perron–Frobenius theorem[^pf] (applied to the non-negative irreducible matrix $M$), the dominant eigenvalue is $\varphi = (1+\sqrt{5})/2$ with eigenvector $(\varphi, 1)/(1+\varphi)$, giving the equilibrium thick-to-thin tile ratio. The sub-dominant eigenvalue is $-1/\varphi$, with $|-1/\varphi| < 1$, so perturbations in tile-type ratios contract under inflation—the equilibrium is stable.
-
-[^pf]: Perron, O. (1907). Zur Theorie der Matrices. *Math. Ann.* 64, 248–263. The theorem guarantees a unique positive dominant eigenvalue for irreducible non-negative matrices.
+By the Perron–Frobenius theorem[^11] (applied to the non-negative irreducible matrix $M$), the dominant eigenvalue is $\varphi = (1+\sqrt{5})/2$ with eigenvector $(\varphi, 1)/(1+\varphi)$, giving the equilibrium thick-to-thin tile ratio. The sub-dominant eigenvalue is $-1/\varphi$, with $|-1/\varphi| < 1$, so perturbations in tile-type ratios contract under inflation—the equilibrium is stable.
 
 Under one inflation step, the total tile count in a self-similar cell grows by factor $\varphi$ (the dominant eigenvalue), while the cell area grows by factor $\varphi^2$ (two-dimensional geometric scaling). The constraint functional $F$ measures curvature over self-similar cells—regions that map onto themselves under inflation. A perturbation $\delta P$ occupying one self-similar cell maps its fluctuation content into $\varphi$ cells' worth after inflation (because the substitution produces $\varphi$ times as many tiles per cell at the new scale). The perturbation amplitude per self-similar cell therefore scales by $\varphi$. This is the Perron–Frobenius eigenvalue acting on the fluctuation field, not a coordinate artifact.
 
@@ -746,7 +726,7 @@ The effective dimension $\mathcal{D}$ in the $\beta$-function is identified with
 
 ## 6. Quasicrystal Realization
 
-Experiments with exciton–polariton condensates on Penrose tiling lattices[^14] realize the $\pi$–$\varphi$–$10$ constraint geometry in a single device. A Penrose tiling potential imprinted in a GaAs microcavity using a spatial light modulator, pumped non-resonantly, forms exciton–polariton condensates at the vertices. The resulting structure exhibits aperiodic order with $C_{10}$ rotational symmetry, with reciprocal-space photoluminescence showing sharp Bragg peaks arranged in tenfold symmetry—a two-dimensional polariton quasicrystal that directly implements all three sectors simultaneously.
+Experiments with exciton–polariton condensates on Penrose tiling lattices[^12] realize the $\pi$–$\varphi$–$10$ constraint geometry in a single device. A Penrose tiling potential imprinted in a GaAs microcavity using a spatial light modulator, pumped non-resonantly, forms exciton–polariton condensates at the vertices. The resulting structure exhibits aperiodic order with $C_{10}$ rotational symmetry, with reciprocal-space photoluminescence showing sharp Bragg peaks arranged in tenfold symmetry—a two-dimensional polariton quasicrystal that directly implements all three sectors simultaneously.
 
 The $\pi$-sector manifests in reciprocal space, where the Bragg peaks lie on circular rings with angular positions separated by $\Delta\theta = 2\pi/10$. The system selects equal angular spacing with period $2\pi$, discretized into ten coherent directions by $C_{10}$ symmetry—the isotropic closure constant $\pi$ appearing in the circular diffraction shells. The $\varphi$-sector manifests through the Penrose tiling's inflation–deflation rules with scale factor $\varphi$, where all length and area ratios of the prototiles are powers of $\varphi$. This is exactly the inflation–subdivision consistency condition of Appendix A: coarse-graining tiles by $\varphi$ yields the same pattern at larger scale, subdividing by $\varphi$ yields the same pattern at smaller scale, and the fixed point of that recursion is $\varphi$. The $N$-sector manifests through the tenfold diffraction symmetry—the $C_{2\times5}$ sector with binary and pentagonal coherence meeting at decade symmetry.
 
@@ -758,7 +738,7 @@ The constraint geometry rests on a chain of proven results. The triadic tension 
 
 Penrose polariton quasicrystals realize all three constraint sectors in a single device (Section 6). The full chain—from 6D lattice through the orbifold $S^3/\mathrm{2I}$ and its Kaluza–Klein spectrum to the tier hierarchy, black hole area-law entropy, and accelerated expansion—is developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion). Implications for irreducible cycling, transport-sector predictions, and repair dynamics are developed in [The Geometry of Self-Correction](/the-geometry-of-self-correction), [Finite Residence, Feasibility Projections, & Quartic Transport](/finite-residence-feasibility-projections-and-quartic-transport), and [Repair as Local Optimization](/repair-as-local-optimization-in-constraint-geometry).
 
-The framework is falsifiable at multiple levels. If the off-diagonal covariances $\Sigma_{ij}$ are non-negative for any pair of sectors, T2 fails. If a configuration simultaneously minimizes two sectors, T1 fails. If a linear relation among the three curvature observables exists on $\Omega$, T3 fails. If the angular manifold's effective geometry differs from $S^2$, the $\kappa_\pi = 4\pi$ identification fails and $I$ changes. Section 3.8 details the specific failure modes.
+The framework is falsifiable at multiple levels. If the off-diagonal covariances $\Sigma_{ij}$ are non-negative for any pair of sectors, T2 fails. If a configuration simultaneously minimizes two sectors, T1 fails. If a linear relation among the three curvature observables exists on $\Omega$, T3 fails. If the angular manifold's effective geometry differs from $S^2$, the $\kappa_\pi = 4\pi$ identification fails and $I$ changes. Section 3.7 details the specific failure modes.
 
 The constraint functional admits multiple eigenbranch families beyond the Penrose branch: Ammann–Beenker $(\pi, 1+\sqrt{2}, 8)$, dodecagonal $(\pi, 2+\sqrt{3}, 12)$, and metallic-mean families. These exist as metastable states with higher ground-state curvature, requiring entropy subsidies to offset their curvature liability (§4.6). The Penrose branch is the unique eigenbranch requiring no such subsidy.
 
@@ -826,12 +806,16 @@ captures how organizational complexity drives dimensional reduction. At $\xi = 0
 
 [^5]: Baake, M., & Grimm, U. (2013). *Aperiodic Order: Volume 1, A Mathematical Invitation*. Cambridge University Press. <https://doi.org/10.1017/CBO9781139025256>
 
-[^6]: Senechal, M. (1995). *Quasicrystals and Geometry*. Cambridge University Press. ISBN: 978-0-521-37259-6
+[^6]: Nelson, D. R., & Halperin, B. I. (1979). "Dislocation-mediated melting in two dimensions." *Physical Review B*, 19(5), 2457. <https://doi.org/10.1103/PhysRevB.19.2457>
 
-[^7]: Steinhardt, P. J., & Ostlund, S. (Eds.). (1987). *The Physics of Quasicrystals*. World Scientific. <https://doi.org/10.1142/0391>
+[^7]: Senechal, M. (1995). *Quasicrystals and Geometry*. Cambridge University Press. ISBN: 978-0-521-37259-6
 
-[^8]: Hurwitz, A. (1891). "Über die angenäherte Darstellung der Irrationalzahlen durch rationale Brüche." *Mathematische Annalen*, 39(2), 279–284. <https://doi.org/10.1007/BF01206656>
+[^8]: Steinhardt, P. J., & Ostlund, S. (Eds.). (1987). *The Physics of Quasicrystals*. World Scientific. <https://doi.org/10.1142/0391>
 
-[^9]: Ulugöl, A., Del Monte, G., Kempkes, E. K., Smallenburg, F., & Filion, L. (2026). "Vacancy defects in square–triangle tilings and their implications for quasicrystals formed by square-shoulder particles." arXiv preprint arXiv:2602.03813. <https://arxiv.org/abs/2602.03813>
+[^9]: Hurwitz, A. (1891). "Über die angenäherte Darstellung der Irrationalzahlen durch rationale Brüche." *Mathematische Annalen*, 39(2), 279–284. <https://doi.org/10.1007/BF01206656>
 
-[^14]: Alyatkin, S., Sigurdsson, H., Askitopoulos, A., Töpfer, J. D., Cilibrizzi, P., Ohadi, H., & Lagoudakis, P. G. (2024). "Quantum fluids of light in 2D artificial reconfigurable aperiodic crystals with tailored coupling." *Nature Communications*, 15, 6602. <https://doi.org/10.1038/s41467-024-50923-8>
+[^10]: Ulugöl, A., Del Monte, G., Kempkes, E. K., Smallenburg, F., & Filion, L. (2026). "Vacancy defects in square–triangle tilings and their implications for quasicrystals formed by square-shoulder particles." arXiv preprint arXiv:2602.03813. <https://arxiv.org/abs/2602.03813>
+
+[^11]: Perron, O. (1907). "Zur Theorie der Matrices." *Mathematische Annalen*, 64, 248–263. <https://doi.org/10.1007/BF01449896>
+
+[^12]: Alyatkin, S., Sigurdsson, H., Askitopoulos, A., Töpfer, J. D., Cilibrizzi, P., Ohadi, H., & Lagoudakis, P. G. (2024). "Quantum fluids of light in 2D artificial reconfigurable aperiodic crystals with tailored coupling." *Nature Communications*, 15, 6602. <https://doi.org/10.1038/s41467-024-50923-8>
