@@ -7,4 +7,4 @@ This content will be displayed at the top of the index page.
 You can leave this empty if you don't want to show any content.
 -->
 
-This work investigates the geometric and thermodynamic constraints that govern physical organization, from aperiodic structure to cosmic expansion, and explores the implications that follow for coordination, overhead, and agency in biological, engineered, and social systems.
+The same geometric and thermodynamic constraints that organize matter — from aperiodic tilings to cosmic expansion — appear wherever systems must coordinate under finite resources. This work traces that thread, from physics through the natural and social sciences.
