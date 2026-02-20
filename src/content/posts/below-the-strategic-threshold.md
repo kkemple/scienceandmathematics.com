@@ -38,7 +38,7 @@ The central claim is simple: most collective motion in biological and social sys
 
 Bird flocks and herded animals provide the cleanest examples because they remove interpretation, incentives, and narrative entirely. What remains is pure coordination under constraint. Individual birds possess only local sensing—relative position, velocity, threat proximity. They cannot simulate the flock's future trajectory in any meaningful sense. Their motion is necessarily reactive, adjusting to neighbors and boundaries without reference to global objectives.
 
-Coordination emerges from three structural elements operating simultaneously — the same [irreducible coordination problems](/the-minimal-basis-of-coordination) that appear across every constrained system. Local signal extraction processes immediate sensory input into directional bias. Boundary stabilization maintains spacing, formation, or herd cohesion through continuous adjustment. Overload response triggers when constraints tighten—predator presence, bottlenecks, terrain—forcing rapid reconfiguration.
+Coordination emerges from three structural elements operating simultaneously—the same [irreducible coordination problems](/the-minimal-basis-of-coordination) that appear across every constrained system. Local signal extraction processes immediate sensory input into directional bias. Boundary stabilization maintains spacing, formation, or herd cohesion through continuous adjustment. Overload response triggers when constraints tighten—predator presence, bottlenecks, terrain—forcing rapid reconfiguration.
 
 No global objective function is required. The observed patterns—V-formations, murmurations, compressive fronts, vortices at obstacles—follow from feasibility projection acting on local correction fields. Each agent proposes a desired motion based on local gradients. Constraints (collision avoidance, energy limits, neighbor tracking) project that proposal into the space of admissible motions. The implemented correction field is what remains after projection.
 
@@ -152,12 +152,12 @@ The LIBOR scandal (banks deliberately submitting inaccurate data to influence be
 
 ## The Structure Beneath the History
 
-The technologies changed across 2,500 years — from human spies to postal networks to algorithmic trading — but the structural mechanisms remained constant. The cross-domain patterns reduce to five:
+The technologies changed across 2,500 years—from human spies to postal networks to algorithmic trading—but the structural mechanisms remained constant. The cross-domain patterns reduce to five:
 
-- **Intelligence advantage enables tactical advantage.** Schulmeister at Ulm, Churchill with Ultra, Rothschild at Waterloo — knowing first enabled acting first. Those above the strategic threshold exploit those below it.
-- **Deception multiplies force.** Hannibal at Cannae, Zhuge Liang's empty fort, Walsingham's Babington entrapment — making adversaries believe falsehoods is cheaper than direct confrontation. Deception induces gradient-following toward desired ends.
-- **Speed creates compounding returns.** Rothschild couriers, Metternich's postal monopoly, Livermore's tape reading — being hours ahead delivers outcomes impossible to replicate retroactively. Speed extends the simulation horizon relative to competitors operating on cached information.
-- **Networks generate sustainable advantages.** The Medici branch system, Hoover's files — institutional architecture makes temporary advantages permanent. Networks operate above the strategic threshold even when individual agents within them do not.
+- **Intelligence advantage enables tactical advantage.** Schulmeister at Ulm, Churchill with Ultra, Rothschild at Waterloo—knowing first enabled acting first. Those above the strategic threshold exploit those below it.
+- **Deception multiplies force.** Hannibal at Cannae, Zhuge Liang's empty fort, Walsingham's Babington entrapment—making adversaries believe falsehoods is cheaper than direct confrontation. Deception induces gradient-following toward desired ends.
+- **Speed creates compounding returns.** Rothschild couriers, Metternich's postal monopoly, Livermore's tape reading—being hours ahead delivers outcomes impossible to replicate retroactively. Speed extends the simulation horizon relative to competitors operating on cached information.
+- **Networks generate sustainable advantages.** The Medici branch system, Hoover's files—institutional architecture makes temporary advantages permanent. Networks operate above the strategic threshold even when individual agents within them do not.
 - **Control of narrative shapes what gets measured.** KGB Operation Denver persists in medical disinformation decades later because the cached explanation suppressed the incentive to measure. Pre-allocating the narrative gap determines which questions never get asked.
 
 These are not isolated strategies but interconnected components of a single structure. Information advantages compound when combined, and temporary edges become permanent dominance when institutionalized. The circuit closes: constraint structure produces gradient-following (Part I), gradient-following produces coordination without coherence and an exploitable measurement gap (Part II), and 2,500 years of operational history confirms that whoever occupies that gap compounds advantage indefinitely.

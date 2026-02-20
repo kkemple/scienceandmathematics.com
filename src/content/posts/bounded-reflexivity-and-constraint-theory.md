@@ -30,13 +30,13 @@ zenodoDescription: |
 
 ## Abstract
 
-Reflexive markets are often treated as unpredictable because psychology and coordination appear chaotic. Once you account for the constraints shaping market behavior — liquidity depth, leverage limits, coordination bandwidth, institutional rules, and network structure — reflexivity becomes analyzable. This paper develops a phenomenological field model where markets move along gradients in constraint and information fields, revealing when systems amplify behavior and when they snap back. The resulting constraint architecture explains why bubbles grow slowly, collapses happen suddenly, and crises across decades share underlying patterns.
+Reflexive markets are often treated as unpredictable because psychology and coordination appear chaotic. Once you account for the constraints shaping market behavior—liquidity depth, leverage limits, coordination bandwidth, institutional rules, and network structure—reflexivity becomes analyzable. This paper develops a phenomenological field model where markets move along gradients in constraint and information fields, revealing when systems amplify behavior and when they snap back. The resulting constraint architecture explains why bubbles grow slowly, collapses happen suddenly, and crises across decades share underlying patterns.
 
 ## Introduction
 
 George Soros's reflexivity theory and Keynes's beauty contest identified genuine market phenomena—but these dynamics operate within a deeper constraint architecture. Understanding these constraints transforms reflexive markets from unpredictable systems into environments where capital flows can be anticipated even during extreme coordination episodes.
 
-Markets coordinate around expectations rather than fundamentals, creating self-reinforcing feedback loops. Yet major historical episodes — the dot-com bubble and 2008 financial crisis among them — reveal that reflexive dynamics consistently encounter hard limits. These boundaries arise from physical constraints (liquidity depth, balance sheet capacity), information-theoretic limits (coordination costs, common knowledge requirements), institutional mandates (fiduciary duties, risk management), and fundamental arbitrage constraints.
+Markets coordinate around expectations rather than fundamentals, creating self-reinforcing feedback loops. Yet major historical episodes—the dot-com bubble and 2008 financial crisis among them—reveal that reflexive dynamics consistently encounter hard limits. These boundaries arise from physical constraints (liquidity depth, balance sheet capacity), information-theoretic limits (coordination costs, common knowledge requirements), institutional mandates (fiduciary duties, risk management), and fundamental arbitrage constraints.
 
 The interaction of these constraint layers creates predictable breaking points. This article develops the constraint framework theoretically, shows how it applies across domains, and demonstrates why constraints enable prediction even when psychology seems chaotic.
 
@@ -60,7 +60,7 @@ Markets coordinate through conventions—assuming "the existing state of affairs
 
 ## The Field-Theoretic Framework
 
-Markets don't move randomly. They move along gradients — away from constraints that bind, toward regions where information is clearer. What follows is a phenomenological model: a compact mathematical language for organizing what we observe about constraint-driven coordination, not a derivation from first principles.
+Markets don't move randomly. They move along gradients—away from constraints that bind, toward regions where information is clearer. What follows is a phenomenological model: a compact mathematical language for organizing what we observe about constraint-driven coordination, not a derivation from first principles.
 
 Every economic system operates within two fundamental fields. The **constraint field** $C(x,t)$ measures the cumulative pressure from liquidity depletion, capacity saturation, balance-sheet limits, and bottleneck formation. The **information field** $I(x,t)$ measures the system's capacity to process and coordinate around new signals—narrative bandwidth, signal-to-noise ratio, and the degree to which agents can coordinate through shared understanding versus mere imitation.
 
@@ -150,7 +150,7 @@ Float acts as a buffer-convexity pairing. It protects the downside by shielding 
 
 This mechanism generalizes beyond insurance. Any enterprise capable of generating predictable, delayed-outflow capital—subscriptions, prepayments, working-capital inversions—can manufacture a weaker version of float. The question becomes whether the institution has the discipline, time horizon, and selection function to convert that internal liquidity into asymmetric deployments when the external environment constrains everyone else.
 
-In constraint terms, float collapses degrees of vulnerability while increasing degrees of maneuverability — converting structural advantages into low internal friction.
+In constraint terms, float collapses degrees of vulnerability while increasing degrees of maneuverability—converting structural advantages into low internal friction.
 
 ### Limits to Arbitrage
 
@@ -288,7 +288,7 @@ When constraints bound, the result was catastrophic: \$1.755 trillion in market 
 
 House prices rose 92% cumulatively from 1996-2006 versus only 27% from 1890-1996. The price-credit-price spiral featured rising prices enabling increased lending enabling more demand enabling higher prices. Financial engineering amplified leverage through multiple layers: major investment banks operated with leverage ratios as high as 40\:1.
 
-Constraint analysis would have identified the network topology risk. Lehman's derivative network and multinational subsidiary structure made it a critical node — network analysis measuring degree centrality and betweenness would have revealed that its failure would exceed the percolation threshold for systemic contagion. The binding constraint was not just leverage ratios but the network structure itself.
+Constraint analysis would have identified the network topology risk. Lehman's derivative network and multinational subsidiary structure made it a critical node—network analysis measuring degree centrality and betweenness would have revealed that its failure would exceed the percolation threshold for systemic contagion. The binding constraint was not just leverage ratios but the network structure itself.
 
 When constraints bound on September 15, 2008, credit markets seized across every channel. The Asset-Backed Commercial Paper market collapsed from ~\$2 trillion to ~\$400 billion (80% decline). The Federal Reserve response (over \$1 trillion in loans, TARP \$700 billion) was necessary because the financial system had exceeded its balance sheet capacity and network topology could not support the interconnected exposures.
 
@@ -312,7 +312,7 @@ Soros and Keynes discovered real mechanisms—reflexivity (feedback between perc
 
 The constraint hierarchy flows from deepest to most proximate. At the foundation, physical limits (order book depth, balance sheet capacity, network connectivity, infrastructure supply) create absolute boundaries. Information-theoretic constraints (coordination costs, common knowledge requirements, processing bandwidth) bound coordination scope and speed. Institutional structures (fiduciary mandates, risk frameworks, regulatory compliance) restrict permissible actions. Limits to arbitrage (capital constraints, agency problems, noise trader risk) prevent efficient price correction. Finally, network topology (percolation thresholds, degree distribution, clustering) determines contagion pathways and coordination patterns.
 
-Expectations matter within constraints — they determine which of multiple possible equilibria markets coordinate toward, the speed of approach to constraint boundaries, the path through possibility space, and the triggering threshold for regime shifts. But constraints determine the location of equilibrium possibilities, the outer bounds of price movements, which coordination attempts succeed or fail, and when reflexive loops reverse.
+Expectations matter within constraints—they determine which of multiple possible equilibria markets coordinate toward, the speed of approach to constraint boundaries, the path through possibility space, and the triggering threshold for regime shifts. But constraints determine the location of equilibrium possibilities, the outer bounds of price movements, which coordination attempts succeed or fail, and when reflexive loops reverse.
 
 This constraint framework establishes the topology agents navigate. A separate question—addressed in [Simulation Horizons, Constraints, and the Emergence of Strategic Agency](/simulation-horizons-constraints-and-the-emergence-of-strategic-agency)—is *when* navigation becomes strategic rather than reactive. When simulation horizon collapses below environment timescale, or when control authority cannot reach relevant degrees of freedom, game-theoretic reasoning loses descriptive power. Agents stop playing games and start following gradients. The constraint topology remains; only the regime of behavior changes.
 

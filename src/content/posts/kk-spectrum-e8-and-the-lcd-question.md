@@ -32,11 +32,11 @@ keywords:
   - "constraint geometry"
 ---
 
-The projection from a 6D periodic lattice to 3D produces a quasicrystal in physical space and an orbifold $S^3/\mathrm{2I}$ — the Poincaré homology sphere — in the internal space. The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) and the spectral content of this orbifold are two outputs of that single projection. The constraint geometry provides the $\beta$-function. The spectral content provides the effective dimension $\mathcal{D}$ that enters the $\beta$-function's dimensional correction. The full chain connecting these is developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion). This post computes the scalar Kaluza–Klein spectrum on $S^3/\mathrm{2I}$.
+The projection from a 6D periodic lattice to 3D produces a quasicrystal in physical space and an orbifold $S^3/\mathrm{2I}$—the Poincaré homology sphere—in the internal space. The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) and the spectral content of this orbifold are two outputs of that single projection. The constraint geometry provides the $\beta$-function. The spectral content provides the effective dimension $\mathcal{D}$ that enters the $\beta$-function's dimensional correction. The full chain connecting these is developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion). This post computes the scalar Kaluza–Klein spectrum on $S^3/\mathrm{2I}$.
 
 ## 1. The Internal Space
 
-The binary icosahedral group $\mathrm{2I} \cong \mathrm{SL}(2,5)$ is the double cover of the icosahedral rotation group $\mathrm{I} \cong A_5$. It has 120 elements — the largest finite subgroup of $\mathrm{SU}(2)$ — and acts freely on $S^3 \simeq \mathrm{SU}(2)$ by left multiplication. The quotient $\Sigma = S^3/\mathrm{2I}$ is a smooth, compact, oriented three-manifold with $\pi_1(\Sigma) = \mathrm{2I}$ and $H_1(\Sigma;\mathbb{Z}) = 0$. Poincaré constructed it in 1904 as a counterexample to the conjecture that homology determines the three-sphere[^1]. It is the unique spherical space form with icosahedral holonomy.
+The binary icosahedral group $\mathrm{2I} \cong \mathrm{SL}(2,5)$ is the double cover of the icosahedral rotation group $\mathrm{I} \cong A_5$. It has 120 elements—the largest finite subgroup of $\mathrm{SU}(2)$—and acts freely on $S^3 \simeq \mathrm{SU}(2)$ by left multiplication. The quotient $\Sigma = S^3/\mathrm{2I}$ is a smooth, compact, oriented three-manifold with $\pi_1(\Sigma) = \mathrm{2I}$ and $H_1(\Sigma;\mathbb{Z}) = 0$. Poincaré constructed it in 1904 as a counterexample to the conjecture that homology determines the three-sphere[^1]. It is the unique spherical space form with icosahedral holonomy.
 
 In a Kaluza–Klein compactification on $\Sigma$, the scalar field equation reduces to the eigenvalue problem for the Laplace–Beltrami operator $\Delta_\Sigma$. The eigenvalues of $\Delta_{S^3}$ on the unit three-sphere are
 
@@ -110,7 +110,7 @@ $$
 
 **Asymptotics** ($l \gg 30$): The invariant count satisfies $n_l \to (2l+1)/120$ on average, and the full multiplicity $m_l = (2l+1) \cdot n_l \to (2l+1)^2/120$, recovering the expected $1/|\mathrm{2I}|$ factor relative to $S^3$.
 
-The first massive mode occurs at $l = 6$, with eigenvalue $\lambda_6 = 4 \cdot 6 \cdot 7 = 168$. The five consecutive forbidden levels $l = 1, \ldots, 5$ create the largest gap in the tower. The eigenvalue gap between the zero mode ($\lambda = 0$) and the first excitation ($\lambda = 168$) is a factor of 56 above the generic $S^3$ first excitation at $k = 1$ ($\lambda = 3$). This protection factor — 56× — is the largest among all finite subgroup quotients of $S^3$.
+The first massive mode occurs at $l = 6$, with eigenvalue $\lambda_6 = 4 \cdot 6 \cdot 7 = 168$. The five consecutive forbidden levels $l = 1, \ldots, 5$ create the largest gap in the tower. The eigenvalue gap between the zero mode ($\lambda = 0$) and the first excitation ($\lambda = 168$) is a factor of 56 above the generic $S^3$ first excitation at $k = 1$ ($\lambda = 3$). This protection factor—56×—is the largest among all finite subgroup quotients of $S^3$.
 
 | $l$ | $k = 2l$ | $\lambda = k(k+2)$ | $n_l$ | $m_l$ |
 |:---:|:---:|:---:|:---:|:---:|
@@ -142,7 +142,7 @@ $$
 \mathbb{Z}_{\geq 0} \setminus S = \{1, 2, 3, 4, 5, 7, 8, 9, 11, 13, 14, 17, 19, 23, 29\}.
 $$
 
-The semigroup has Frobenius number $F = 29$ (the largest gap) and genus $g = 15$ (the number of gaps). The identity $g = h/2$ — the genus equals half the Coxeter number — is specific to the $E_8$ case (§7).
+The semigroup has Frobenius number $F = 29$ (the largest gap) and genus $g = 15$ (the number of gaps). The identity $g = h/2$—the genus equals half the Coxeter number—is specific to the $E_8$ case (§7).
 
 **Theorem (Semigroup selection rule).** *Let $\Gamma \subset \mathrm{SU}(2)$ be a finite subgroup and let $d_1, \ldots, d_r$ be the degrees of the homogeneous generators of the invariant ring $\mathbb{C}[x,y]^{\Gamma}$. Define the numerical semigroup $S = \langle d_1/2, \ldots, d_r/2 \rangle$. Then the spin-$l$ representation of $\mathrm{SU}(2)$ contains a $\Gamma$-invariant vector ($n_l \geq 1$) if and only if $l \in S$. Equivalently, the forbidden KK levels on $S^3/\Gamma$ are the gaps of $S$.*
 
@@ -170,9 +170,9 @@ $$
 \{m_i\} = \{1, 7, 11, 13, 17, 19, 23, 29\}.
 $$
 
-All eight $E_8$ exponents appear among the 15 forbidden KK levels. The remaining seven forbidden levels are $\{2, 3, 4, 5, 8, 9, 14\}$, which complete the gap set of the semigroup. The $E_8$ exponents are the integers $m \in [1, h-1]$ coprime to $h = 30$[^8]: $\gcd(m, 30) = 1$. Since $30 = 2 \times 3 \times 5$, the exponents avoid multiples of 2, 3, and 5 — they are maximally incompatible with the generator structure $\{6, 10, 15\} = \{2 \times 3, \; 2 \times 5, \; 3 \times 5\}$ and the hardest gaps to fill by semigroup combinations.
+All eight $E_8$ exponents appear among the 15 forbidden KK levels. The remaining seven forbidden levels are $\{2, 3, 4, 5, 8, 9, 14\}$, which complete the gap set of the semigroup. The $E_8$ exponents are the integers $m \in [1, h-1]$ coprime to $h = 30$[^8]: $\gcd(m, 30) = 1$. Since $30 = 2 \times 3 \times 5$, the exponents avoid multiples of 2, 3, and 5—they are maximally incompatible with the generator structure $\{6, 10, 15\} = \{2 \times 3, \; 2 \times 5, \; 3 \times 5\}$ and the hardest gaps to fill by semigroup combinations.
 
-The $E_8$ exponents have a dual role: they are both the eigenvalue phases of the Coxeter element in the root system and a distinguished subset of the forbidden KK harmonics on the Poincaré homology sphere. The McKay correspondence[^7] — the bijection between finite subgroups of $\mathrm{SU}(2)$ and simply-laced Dynkin diagrams — provides the bridge. Under this correspondence, the representation graph of $\mathrm{2I}$ has the connectivity of the extended $\hat{E}_8$ Dynkin diagram. The KK spectrum inherits $E_8$ structure because the branching problem and the McKay graph encode the same algebraic data.
+The $E_8$ exponents have a dual role: they are both the eigenvalue phases of the Coxeter element in the root system and a distinguished subset of the forbidden KK harmonics on the Poincaré homology sphere. The McKay correspondence[^7]—the bijection between finite subgroups of $\mathrm{SU}(2)$ and simply-laced Dynkin diagrams—provides the bridge. Under this correspondence, the representation graph of $\mathrm{2I}$ has the connectivity of the extended $\hat{E}_8$ Dynkin diagram. The KK spectrum inherits $E_8$ structure because the branching problem and the McKay graph encode the same algebraic data.
 
 ## 6. The Coxeter Threshold
 
@@ -197,7 +197,7 @@ $$
 N(\lambda) \sim \frac{\mathrm{Vol}(\Sigma)}{6\pi^2} \, \lambda^{3/2}
 $$
 
-asymptotically on any Riemannian three-manifold $\Sigma$[^9]. For $\Sigma = S^3/\mathrm{2I}$ with unit radius, $\mathrm{Vol}(\Sigma) = 2\pi^2/120$, giving a Weyl coefficient of $1/360$. At spin $l = 500$ ($\lambda = 1{,}002{,}000$), the Weyl prediction is $N_{\mathrm{Weyl}} \approx 2{,}786{,}115$, while the exact count gives $N_{\mathrm{exact}} = 2{,}794{,}378$ — a ratio of 1.003, confirming the multiplicity formula and three-dimensional Weyl asymptotics to within 0.3%.
+asymptotically on any Riemannian three-manifold $\Sigma$[^9]. For $\Sigma = S^3/\mathrm{2I}$ with unit radius, $\mathrm{Vol}(\Sigma) = 2\pi^2/120$, giving a Weyl coefficient of $1/360$. At spin $l = 500$ ($\lambda = 1{,}002{,}000$), the Weyl prediction is $N_{\mathrm{Weyl}} \approx 2{,}786{,}115$, while the exact count gives $N_{\mathrm{exact}} = 2{,}794{,}378$—a ratio of 1.003, confirming the multiplicity formula and three-dimensional Weyl asymptotics to within 0.3%.
 
 Restricting the fit to the sparse regime below the Coxeter number yields a different exponent:
 
@@ -209,7 +209,7 @@ Restricting the fit to the sparse regime below the Coxeter number yields a diffe
 
 The deficit $\Delta d_{\mathrm{eff}} \approx 0.45$ between Region I and the asymptotic regime arises from the semigroup sparsity: 50% of spin values are forbidden in $[0, 30)$, each surviving level contributes multiplicity $(2l+1) \times 1$, and the resulting growth of $N(\lambda)$ is sub-Weyl.
 
-The running Weyl exponent — computed cumulatively from $l = 6$ up to successive cutoffs — shows the crossover:
+The running Weyl exponent—computed cumulatively from $l = 6$ up to successive cutoffs—shows the crossover:
 
 | Up to spin $l$ | $d_{\mathrm{eff}}$ |
 |:---:|:---:|
@@ -243,27 +243,27 @@ The semigroup structure generalizes across the ADE classification. For each bina
 | Protection factor | 56× | 27× | 16× | 8× |
 | $d_{\mathrm{eff}}$ Region I | 2.55 | 2.65 | 2.67 | 2.47 |
 
-The Penrose branch is extremal in protection — 56× versus 8× for the dodecagonal branch — but intermediate in Weyl deficit. The dodecagonal branch has a larger deficit (0.53 vs 0.45) despite having far fewer forbidden levels. The explanation is geometric: $\mathrm{BD}_6$ has only 24 elements, so $S^3/\mathrm{BD}_6$ has 5× the volume of $S^3/\mathrm{2I}$, and the 3 missing levels create a proportionally larger distortion in a shorter Coxeter window ($h = 14$ vs 30).
+The Penrose branch is extremal in protection—56× versus 8× for the dodecagonal branch—but intermediate in Weyl deficit. The dodecagonal branch has a larger deficit (0.53 vs 0.45) despite having far fewer forbidden levels. The explanation is geometric: $\mathrm{BD}_6$ has only 24 elements, so $S^3/\mathrm{BD}_6$ has 5× the volume of $S^3/\mathrm{2I}$, and the 3 missing levels create a proportionally larger distortion in a shorter Coxeter window ($h = 14$ vs 30).
 
 The cases $E_6$ and $D_8$ have the same group order, genus ($g = 3$), and Frobenius number ($F = 5$), yet their forbidden sets differ: $\{1, 2, 5\}$ for $E_6$ versus $\{1, 3, 5\}$ for $D_8$. These produce distinct protection factors (16× vs 8×) and distinct Region I effective dimensions (2.67 vs 2.47). The placement of the gap set within the spectral tower, not merely its cardinality or Frobenius number, governs the low-energy effective dimension.
 
-For the binary dihedral family (McKay type $D_n$, $n \geq 4$), the semigroup generators reduce to $\langle 2, p \rangle$ with $p$ the unique odd generator. The gap set is $\{1, 3, 5, \ldots, p-2\}$ — the first $g = (p-1)/2$ odd integers — so the first excitation occurs uniformly at $l = 2$ ($\lambda = 24$, protection factor 8×) for the entire family. As $n \to \infty$, $F/h \to 1/2$ and $g/h \to 1/4$, so $g = h/2$ is never achieved in the $D$-family.
+For the binary dihedral family (McKay type $D_n$, $n \geq 4$), the semigroup generators reduce to $\langle 2, p \rangle$ with $p$ the unique odd generator. The gap set is $\{1, 3, 5, \ldots, p-2\}$—the first $g = (p-1)/2$ odd integers—so the first excitation occurs uniformly at $l = 2$ ($\lambda = 24$, protection factor 8×) for the entire family. As $n \to \infty$, $F/h \to 1/2$ and $g/h \to 1/4$, so $g = h/2$ is never achieved in the $D$-family.
 
-For $E_8$, the genus equals $h/2$ exactly. The three generators $\{6, 10, 15\}$ are pairwise coprime ($\gcd(6,10) = 2$, $\gcd(6,15) = 3$, $\gcd(10,15) = 5$, while $\gcd(6,10,15) = 1$), producing a maximally sparse semigroup for the given generator sizes. The normalized Frobenius number $F/h = 29/30 = 0.967$ — algebraic protection extends through nearly the entire Coxeter range. For $D_8$, $F/h = 5/14 = 0.357$. The Penrose branch is the unique ADE branch whose spectral protection saturates nearly the full window below $h$.
+For $E_8$, the genus equals $h/2$ exactly. The three generators $\{6, 10, 15\}$ are pairwise coprime ($\gcd(6,10) = 2$, $\gcd(6,15) = 3$, $\gcd(10,15) = 5$, while $\gcd(6,10,15) = 1$), producing a maximally sparse semigroup for the given generator sizes. The normalized Frobenius number $F/h = 29/30 = 0.967$—algebraic protection extends through nearly the entire Coxeter range. For $D_8$, $F/h = 5/14 = 0.357$. The Penrose branch is the unique ADE branch whose spectral protection saturates nearly the full window below $h$.
 
 ## 9. The LCD Question
 
-The negative selection argument in the [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) forces $C_{10}$ as the discrete sector symmetry. The 6D lattice is the minimum embedding dimension for a periodic lattice whose projection to $\mathbb{R}^3$ carries icosahedral symmetry (Kramer–Neri, 1984[^10]). The $E_8$ algebraic structure enters through a separate channel: $C_{10}$ on $S^3$ gives $\mathrm{2I}$, and $\mathrm{2I}$ acting on $\mathbb{C}^2$ gives Klein invariants of degrees 12, 20, 30 satisfying $T^2 = H^3 - 1728f^5$ — the $E_8$ singularity. The McKay correspondence confirms the identification. Every link is a theorem.
+The negative selection argument in the [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) forces $C_{10}$ as the discrete sector symmetry. The 6D lattice is the minimum embedding dimension for a periodic lattice whose projection to $\mathbb{R}^3$ carries icosahedral symmetry (Kramer–Neri, 1984[^10]). The $E_8$ algebraic structure enters through a separate channel: $C_{10}$ on $S^3$ gives $\mathrm{2I}$, and $\mathrm{2I}$ acting on $\mathbb{C}^2$ gives Klein invariants of degrees 12, 20, 30 satisfying $T^2 = H^3 - 1728f^5$—the $E_8$ singularity. The McKay correspondence confirms the identification. Every link is a theorem.
 
-The two dimensions answer different questions. 6D is the minimum embedding dimension for the periodic parent lattice that projects to a 3D icosahedral quasicrystal — standard quasicrystallography. $E_8$ (whose root lattice lives in 8D) is the algebraic structure governing the compactification geometry. It enters through the McKay correspondence, which identifies finite subgroups of $\mathrm{SU}(2)$ with ADE Dynkin diagrams, and determines the spectral content of $S^3/\mathrm{2I}$: which KK modes survive, how the gap set is organized, and what effective dimension the low-energy spectrum carries.
+The two dimensions answer different questions. 6D is the minimum embedding dimension for the periodic parent lattice that projects to a 3D icosahedral quasicrystal—standard quasicrystallography. $E_8$ (whose root lattice lives in 8D) is the algebraic structure governing the compactification geometry. It enters through the McKay correspondence, which identifies finite subgroups of $\mathrm{SU}(2)$ with ADE Dynkin diagrams, and determines the spectral content of $S^3/\mathrm{2I}$: which KK modes survive, how the gap set is organized, and what effective dimension the low-energy spectrum carries.
 
-The chain is forced. Negative selection gives $C_{10}$. $C_{10}$ on $S^3$ gives $\mathrm{2I}$. $\mathrm{2I}$ acting on $\mathbb{C}^2$ gives the Klein invariants. The Klein invariants satisfy the $E_8$ surface equation. The McKay correspondence confirms the identification. The spectral content — 15 forbidden levels, protection factor 56×, genus $= h/2$, Frobenius number 29 — follows from the invariant ring structure alone.
+The chain is forced. Negative selection gives $C_{10}$. $C_{10}$ on $S^3$ gives $\mathrm{2I}$. $\mathrm{2I}$ acting on $\mathbb{C}^2$ gives the Klein invariants. The Klein invariants satisfy the $E_8$ surface equation. The McKay correspondence confirms the identification. The spectral content—15 forbidden levels, protection factor 56×, genus $= h/2$, Frobenius number 29—follows from the invariant ring structure alone.
 
 ## 10. Attack Surface
 
-The computation rests on the character orthogonality formula applied to the known conjugacy classes of $\mathrm{2I}$[^11]. The conjugacy class data — sizes, orders, and half-angle parameters — are standard results in the representation theory of finite groups. The semigroup identification is verified by direct enumeration up to $l = 500$; discrepancy at any single level would falsify the correspondence.
+The computation rests on the character orthogonality formula applied to the known conjugacy classes of $\mathrm{2I}$[^11]. The conjugacy class data—sizes, orders, and half-angle parameters—are standard results in the representation theory of finite groups. The semigroup identification is verified by direct enumeration up to $l = 500$; discrepancy at any single level would falsify the correspondence.
 
-The equivalence between the branching multiplicities $n_l$ and the Molien series is a theorem — it follows from the identification of $\mathrm{2I}$-invariant spherical harmonics with $\mathrm{2I}$-invariant homogeneous polynomials via the restriction map $\mathrm{Sym}^{2l}(\mathbb{C}^2) \to L^2(S^3)$. The semigroup structure of the gap set then follows from the structure of the invariant ring $\mathbb{C}[x,y]^{\mathrm{2I}}$ as a graded algebra with three generators and one relation.
+The equivalence between the branching multiplicities $n_l$ and the Molien series is a theorem—it follows from the identification of $\mathrm{2I}$-invariant spherical harmonics with $\mathrm{2I}$-invariant homogeneous polynomials via the restriction map $\mathrm{Sym}^{2l}(\mathbb{C}^2) \to L^2(S^3)$. The semigroup structure of the gap set then follows from the structure of the invariant ring $\mathbb{C}[x,y]^{\mathrm{2I}}$ as a graded algebra with three generators and one relation.
 
 The multiplicity formula $m_l = (2l+1) \cdot n_l$ follows from the Peter–Weyl decomposition: the eigenspace at KK level $k = 2l$ decomposes as $D_l^L \otimes D_l^R$ under $\mathrm{SU}(2)_L \times \mathrm{SU}(2)_R$, with $\mathrm{2I}$ acting on one factor. The invariant subspace retains the full $(2l+1)$-dimensional representation on the opposite factor. This is confirmed by the Weyl law check at $l = 500$: the predicted count $N \approx 2{,}786{,}115$ matches the computed $N = 2{,}794{,}378$ to within 0.3%.
 
@@ -271,7 +271,7 @@ The Weyl exponent fits are standard log-log regressions with 14 data points in R
 
 The computation does not address whether $S^3/\mathrm{2I}$ appears as an internal space in any consistent compactification of string theory or supergravity. The Poincaré homology sphere is not Kähler, not Calabi–Yau, and not a group manifold. The spectral results reported here follow from representation theory alone and hold for any scalar field equation on $S^3/\mathrm{2I}$ with the round metric. The extension to $p$-form spectra (vectors, spinors, symmetric tensors) requires analogous branching rules and has not been carried out.
 
-The dynamical selection question — whether the $E_8$ branch is favored over competing ADE branches — is addressed in [ADE Domain Walls and Branch Selection](/ade-domain-walls-and-branch-selection). The gap sets nest: $\mathrm{gap}(E_6) \subset \mathrm{gap}(E_7) \subset \mathrm{gap}(E_8)$ and $\mathrm{gap}(D_8) \subset \mathrm{gap}(E_8)$, so $E_8$ is the unique maximal element under gap-set inclusion. Domain wall tensions between branches are finite (bounded by $\max(h_1, h_2)$), with $E_8$ walls the most expensive by a factor of $\sim$456×. Thermal stability analysis shows $E_8$ walls dissolve last during cosmological cooling, and zero-temperature bounce actions satisfy $B \gg 1$ for all downhill transitions — tunneling between branches is frozen out. Selection occurs during the compactification epoch and is irreversible.
+The dynamical selection question—whether the $E_8$ branch is favored over competing ADE branches—is addressed in [ADE Domain Walls and Branch Selection](/ade-domain-walls-and-branch-selection). The gap sets nest: $\mathrm{gap}(E_6) \subset \mathrm{gap}(E_7) \subset \mathrm{gap}(E_8)$ and $\mathrm{gap}(D_8) \subset \mathrm{gap}(E_8)$, so $E_8$ is the unique maximal element under gap-set inclusion. Domain wall tensions between branches are finite (bounded by $\max(h_1, h_2)$), with $E_8$ walls the most expensive by a factor of $\sim$456×. Thermal stability analysis shows $E_8$ walls dissolve last during cosmological cooling, and zero-temperature bounce actions satisfy $B \gg 1$ for all downhill transitions—tunneling between branches is frozen out. Selection occurs during the compactification epoch and is irreversible.
 
 ## References
 

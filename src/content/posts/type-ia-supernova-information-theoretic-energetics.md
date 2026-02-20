@@ -30,7 +30,7 @@ zenodoDescription: |
   4. A characteristic temperature
 ---
 
-Type Ia supernovae release characteristic kinetic energies of order $10^{44}$ J with sufficient consistency to serve as cosmological standard candles[^1]. In standard models, the energy budget is supplied by thermonuclear burning of C/O material in a white dwarf approaching the Chandrasekhar mass[^2]. A simple information-theoretic estimate — applying Landauer's bound to the state-space reorganization available to Chandrasekhar-mass degenerate matter — independently recovers the same energy scale. The estimate is a thermodynamic budget, a lower bound on irreversible dissipation associated with a large compression/state-space contrast. It makes no claim about explosion mechanism and is not in tension with thermonuclear models.
+Type Ia supernovae release characteristic kinetic energies of order $10^{44}$ J with sufficient consistency to serve as cosmological standard candles[^1]. In standard models, the energy budget is supplied by thermonuclear burning of C/O material in a white dwarf approaching the Chandrasekhar mass[^2]. A simple information-theoretic estimate—applying Landauer's bound to the state-space reorganization available to Chandrasekhar-mass degenerate matter—independently recovers the same energy scale. The estimate is a thermodynamic budget, a lower bound on irreversible dissipation associated with a large compression/state-space contrast. It makes no claim about explosion mechanism and is not in tension with thermonuclear models.
 
 ## Scales and Particle Number
 
@@ -112,7 +112,7 @@ $$
 
 The bound depends only logarithmically on the compression proxy $\chi$ but linearly on $T$. For $N \simeq 1.7 \times 10^{57}$ and $\chi \sim 10^7$–$10^9$ (corresponding to $\log_2 \chi \simeq 23$–$30$), and $T \sim 3 \times 10^8$–$3 \times 10^9$ K, the resulting lower bound spans roughly an order of magnitude around $10^{44}$ J. That this bound lands near the observed SN Ia kinetic energy for plausible $(\chi, T)$ is the main observation.
 
-In practice, $T$ should be interpreted as an effective temperature of the degrees of freedom acting as the heat bath for the irreversible dissipation in Landauer's bound — a parameter to be constrained by explosion conditions.
+In practice, $T$ should be interpreted as an effective temperature of the degrees of freedom acting as the heat bath for the irreversible dissipation in Landauer's bound—a parameter to be constrained by explosion conditions.
 
 ## Relation to Thermonuclear Burning
 
@@ -122,13 +122,13 @@ $$
 E_{\text{nuc}} \sim (10^{57})(0.6 \text{ MeV})(1.602 \times 10^{-13} \text{ J MeV}^{-1}) \sim 10^{44} \text{ J}.
 $$
 
-The information-theoretic estimate is not in tension with this; it reframes the energy scale in terms of a coarse-grained reorganization budget set by the accessible-state geometry. A minimal phenomenology is $E \sim f \, \Delta N_b \, k_B T \ln 2$ with $f \in (0, 1]$ representing the realized fraction of the available reorganization. Variation in $f$ across different explosion channels — deflagration, detonation, delayed detonation — provides a natural framework for Type Ia luminosity diversity.
+The information-theoretic estimate is not in tension with this; it reframes the energy scale in terms of a coarse-grained reorganization budget set by the accessible-state geometry. A minimal phenomenology is $E \sim f \, \Delta N_b \, k_B T \ln 2$ with $f \in (0, 1]$ representing the realized fraction of the available reorganization. Variation in $f$ across different explosion channels—deflagration, detonation, delayed detonation—provides a natural framework for Type Ia luminosity diversity.
 
 ## Connection to Constraint Geometry
 
-The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) develops the broader framework in which this calculation sits. As white dwarfs accrete toward $M_{\text{Ch}}$, the maintenance fraction $\xi$ increases and the complexity multiplier $(1-\xi)^{-u^*}$ diverges. The white dwarf cooling anomaly at $R/R_S = 10^3$ observed across 7,515 Gaia DR3 objects ($14.5\sigma$, Wilcoxon $p = 4.27 \times 10^{-84}$) marks the structural saturation threshold where this divergence begins. The Landauer bit-counting performed here quantifies the energy cost of the discontinuous organizational jump forced by information bankruptcy — the transition from electron degeneracy ($\xi \sim 0.5$) to neutron degeneracy ($\xi \sim 0.3$), with complexity dropping by a factor of $\sim 200$.
+The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) develops the broader framework in which this calculation sits. As white dwarfs accrete toward $M_{\text{Ch}}$, the maintenance fraction $\xi$ increases and the complexity multiplier $(1-\xi)^{-u^*}$ diverges. The white dwarf cooling anomaly at $R/R_S = 10^3$ observed across 7,515 Gaia DR3 objects ($14.5\sigma$, Wilcoxon $p = 4.27 \times 10^{-84}$) marks the structural saturation threshold where this divergence begins. The Landauer bit-counting performed here quantifies the energy cost of the discontinuous organizational jump forced by information bankruptcy—the transition from electron degeneracy ($\xi \sim 0.5$) to neutron degeneracy ($\xi \sim 0.3$), with complexity dropping by a factor of $\sim 200$.
 
-The four observational inputs — Chandrasekhar mass, white dwarf radius, compression proxy, and shock temperature — enter the Landauer calculation. No parameters from the constraint geometry appear in the energy estimate itself. The constraint geometry's role is to predict *when* the transition occurs (at the $(1-\xi)^{-u^*}$ divergence) and *why* (information bankruptcy under triadic tension).
+The four observational inputs—Chandrasekhar mass, white dwarf radius, compression proxy, and shock temperature—enter the Landauer calculation. No parameters from the constraint geometry appear in the energy estimate itself. The constraint geometry's role is to predict *when* the transition occurs (at the $(1-\xi)^{-u^*}$ divergence) and *why* (information bankruptcy under triadic tension).
 
 ## Discussion
 

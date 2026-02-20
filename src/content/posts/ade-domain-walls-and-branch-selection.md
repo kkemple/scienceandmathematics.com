@@ -8,9 +8,9 @@ doi: "10.5281/zenodo.18701884"
 category: 'core'
 order: 4
 zenodoDescription: |
-  Domain wall energies between the four principal ADE compactification branches — E₈ (binary icosahedral, 2I), E₇ (binary octahedral, 2O), E₆ (binary tetrahedral, 2T), and D₈ (binary dihedral, BD₆) — are computed from the Kaluza–Klein spectral mismatch on their respective orbifolds S³/Γ. All hard wall tensions are finite, bounded by the larger Coxeter number of each pair.
+  Domain wall energies between the four principal ADE compactification branches—E₈ (binary icosahedral, 2I), E₇ (binary octahedral, 2O), E₆ (binary tetrahedral, 2T), and D₈ (binary dihedral, BD₆)—are computed from the Kaluza–Klein spectral mismatch on their respective orbifolds S³/Γ. All hard wall tensions are finite, bounded by the larger Coxeter number of each pair.
 
-  The gap sets satisfy a strict inclusion hierarchy: gap(E₆) ⊂ gap(E₇) ⊂ gap(E₈) and gap(D₈) ⊂ gap(E₈), making E₈ the unique maximal element under gap-set inclusion. This ordering is purely combinatorial — independent of energetic modeling, KK multiplicities, or wall tension functionals.
+  The gap sets satisfy a strict inclusion hierarchy: gap(E₆) ⊂ gap(E₇) ⊂ gap(E₈) and gap(D₈) ⊂ gap(E₈), making E₈ the unique maximal element under gap-set inclusion. This ordering is purely combinatorial—independent of energetic modeling, KK multiplicities, or wall tension functionals.
 
   The wall tension hierarchy spans a factor of ~456× from the cheapest wall (E₆↔D₈, T = 73, two mismatched modes) to the most expensive (E₈↔D₈, T = 33,332, twelve mismatched modes). At every E₈ wall, the mismatch is one-directional: the partner branch always has modes that E₈ forbids, but E₈ never has modes the partner forbids.
 
@@ -32,9 +32,9 @@ keywords:
   - "spectral mismatch"
 ---
 
-The [KK spectrum computation](/kk-spectrum-e8-and-the-lcd-question) established that the Poincaré homology sphere $S^3/\mathrm{2I}$ has the deepest spectral protection gap among ADE orbifolds — 56× enhancement of the KK mass gap, 15 forbidden levels, genus $g = h/2$. The ADE classification permits other branches: $E_7$ (binary octahedral), $E_6$ (binary tetrahedral), and the $D$-series (binary dihedral), each with its own orbifold, semigroup, and spectral gap. The question is whether these branches can coexist on the same 6D substrate, and if so, what energy cost the domain walls between them carry. If domain wall energies are infinite, branches are globally exclusive and $E_8$ selection is a boundary condition. If finite, coexistence is possible and the stability hierarchy determines relative populations.
+The [KK spectrum computation](/kk-spectrum-e8-and-the-lcd-question) established that the Poincaré homology sphere $S^3/\mathrm{2I}$ has the deepest spectral protection gap among ADE orbifolds—56× enhancement of the KK mass gap, 15 forbidden levels, genus $g = h/2$. The ADE classification permits other branches: $E_7$ (binary octahedral), $E_6$ (binary tetrahedral), and the $D$-series (binary dihedral), each with its own orbifold, semigroup, and spectral gap. The question is whether these branches can coexist on the same 6D substrate, and if so, what energy cost the domain walls between them carry. If domain wall energies are infinite, branches are globally exclusive and $E_8$ selection is a boundary condition. If finite, coexistence is possible and the stability hierarchy determines relative populations.
 
-This post computes the spectral mismatch between all pairs of the four principal ADE branches ($E_8$, $E_7$, $E_6$, $D_8$), establishes that all domain wall energies are finite, and shows that $E_8$ selection is a dynamical stability outcome — primordial and irreversible.
+This post computes the spectral mismatch between all pairs of the four principal ADE branches ($E_8$, $E_7$, $E_6$, $D_8$), establishes that all domain wall energies are finite, and shows that $E_8$ selection is a dynamical stability outcome—primordial and irreversible.
 
 ## 1. Gap Sets and Structural Ordering
 
@@ -59,7 +59,7 @@ $$
 
 Verified: $\{1,2,5\} \subset \{1,2,3,5,7,11\} \subset \{1,2,3,4,5,7,8,9,11,13,14,17,19,23,29\}$, and $\{1,3,5\} \subset \{1,2,3,5,7,11\} \subset \{1,2,3,4,5,7,8,9,11,13,14,17,19,23,29\}$. The $E_6$ and $D_8$ gap sets are not nested in either direction: $E_6$ uniquely forbids $l = 2$, $D_8$ uniquely forbids $l = 3$.
 
-$E_8$ is the unique maximal element under gap-set inclusion in the sparse regime ($l \leq 29 = h_{E_8} - 1$). This ordering uses no energetic modeling, no KK multiplicities, and no wall tension functional. The invariant ring structure alone induces it. The $A$-family (binary cyclic groups) has empty gap sets — the halved Klein degrees always include 1, generating all of $\mathbb{Z}_{\geq 0}$ — and contributes no structural deletion.
+$E_8$ is the unique maximal element under gap-set inclusion in the sparse regime ($l \leq 29 = h_{E_8} - 1$). This ordering uses no energetic modeling, no KK multiplicities, and no wall tension functional. The invariant ring structure alone induces it. The $A$-family (binary cyclic groups) has empty gap sets—the halved Klein degrees always include 1, generating all of $\mathbb{Z}_{\geq 0}$—and contributes no structural deletion.
 
 ## 2. Spectral Mismatch and Domain Walls
 
@@ -116,7 +116,7 @@ At GUT-scale compactification ($R = 10^4 \, l_{\mathrm{Pl}}$):
 | GUT | $10^{16}$ | 0.13 | 1.46 | 25.9 | 60.7 |
 | Electroweak | 159 | $\gg 1$ | $\gg 1$ | $\gg 1$ | $\gg 1$ |
 
-where the stability ratio $\Omega = \sigma_{\mathrm{wall}} / T_{\mathrm{cosmo}}^3$, with $\Omega > 1$ indicating wall stability. At the GUT scale, the cheapest wall ($E_6 \leftrightarrow D_8$) has $\Omega = 0.13$ — marginally unstable. The $E_8 \leftrightarrow D_8$ wall has $\Omega = 61$ — stable by a factor of 60. A selection window exists between $\sim 5 \times 10^{15}$ and $\sim 4 \times 10^{16}$ GeV where cheap walls dissolve while $E_8$ walls persist.
+where the stability ratio $\Omega = \sigma_{\mathrm{wall}} / T_{\mathrm{cosmo}}^3$, with $\Omega > 1$ indicating wall stability. At the GUT scale, the cheapest wall ($E_6 \leftrightarrow D_8$) has $\Omega = 0.13$—marginally unstable. The $E_8 \leftrightarrow D_8$ wall has $\Omega = 61$—stable by a factor of 60. A selection window exists between $\sim 5 \times 10^{15}$ and $\sim 4 \times 10^{16}$ GeV where cheap walls dissolve while $E_8$ walls persist.
 
 As the universe cools through the branch selection epoch, walls dissolve in order:
 
@@ -162,7 +162,7 @@ The mechanism: $B \sim T_{\mathrm{hard}}^4 / \Delta\mathrm{drive}^3$. The wall t
 
 At finite temperature, the thermal bounce action is $B_{\mathrm{thermal}} = 16\pi \sigma^3 / (3\varepsilon^2 T)$, which does depend on $R$. At GUT-scale compactification and GUT temperature, the cheapest transition ($D_8 \to E_6$) has $B_{\mathrm{thermal}} \approx 23{,}000$. Thermal activation cannot drive transitions either.
 
-Branch selection is primordial. Once a region of the 6D substrate compactifies to a particular $S^3/\Gamma$, it cannot convert to another branch by bubble nucleation — at any temperature below the compactification scale. Selection occurs during the compactification phase transition itself, when $E_8$ has the highest critical temperature, the deepest spectral gap, and the most distributed gap structure. Once formed, the frozen tunneling rates ensure it is irreversible.
+Branch selection is primordial. Once a region of the 6D substrate compactifies to a particular $S^3/\Gamma$, it cannot convert to another branch by bubble nucleation—at any temperature below the compactification scale. Selection occurs during the compactification phase transition itself, when $E_8$ has the highest critical temperature, the deepest spectral gap, and the most distributed gap structure. Once formed, the frozen tunneling rates ensure it is irreversible.
 
 ## 6. The Five-Leg Argument
 
@@ -172,8 +172,8 @@ Five independent properties converge on $E_8$:
 |:---:|:---|:---|:---|
 | 1 | $\varphi$ is the worst-approximable irrational (Hurwitz) | [Constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), §4 | Why $E_8$ is favored |
 | 2 | $\mathrm{2I}$ is the largest finite $\subset \mathrm{SU}(2)$ ($\|\mathrm{2I}\| = 120$) | [KK spectrum](/kk-spectrum-e8-and-the-lcd-question), §1 | Why $E_8$ is favored |
-| 3 | $\langle 6, 10, 15 \rangle$ achieves $g = h/2$ — maximally distributed gaps | [KK spectrum](/kk-spectrum-e8-and-the-lcd-question), §8 | Why $E_8$ is favored |
-| 4 | $E_8$ walls most expensive, dissolve last — thermal attractor | §4 above | When selection occurs |
+| 3 | $\langle 6, 10, 15 \rangle$ achieves $g = h/2$—maximally distributed gaps | [KK spectrum](/kk-spectrum-e8-and-the-lcd-question), §8 | Why $E_8$ is favored |
+| 4 | $E_8$ walls most expensive, dissolve last—thermal attractor | §4 above | When selection occurs |
 | 5 | All tunneling rates frozen ($B \gg 1$, $R$-independent) | §5 above | Why it is irreversible |
 
 Legs 1–3 establish why $E_8$ is the spectrally preferred branch. Leg 4 identifies the epoch at which selection occurs. Leg 5 proves the selection is permanent.
@@ -182,13 +182,13 @@ Legs 1–3 establish why $E_8$ is the spectrally preferred branch. Leg 4 identif
 
 The hard tension model treats each evanescent mode as contributing independently to the wall energy. Interference effects between evanescent modes, and the detailed spatial profile of the domain wall (which depends on the compactification dynamics), could modify the numerical values. The ordering of the hierarchy is controlled by the combinatorics of the mismatch sets and is robust to the details of the tension functional.
 
-The soft mismatch — multiplicity differences between modes that survive on both sides — contributes a formally divergent sum for branch pairs with $|\Gamma_1| \neq |\Gamma_2|$, since the asymptotic multiplicities scale as $(2l+1)^2 / |\Gamma|$. This divergence is a standard UV artifact regularizable via spectral zeta functions[^2]. The hard mismatch (the focus of this computation) is unconditionally finite.
+The soft mismatch—multiplicity differences between modes that survive on both sides—contributes a formally divergent sum for branch pairs with $|\Gamma_1| \neq |\Gamma_2|$, since the asymptotic multiplicities scale as $(2l+1)^2 / |\Gamma|$. This divergence is a standard UV artifact regularizable via spectral zeta functions[^2]. The hard mismatch (the focus of this computation) is unconditionally finite.
 
 The bounce action computation uses the thin-wall approximation and identifies vacuum energy splittings with spectral drive differences. A more refined treatment would derive $\varepsilon$ from the Casimir energy of each orbifold. The $R$-independence of $B$ is exact within this model.
 
 The compactification radius $R$ remains a free parameter. It sets the physical energy scale but does not affect the hierarchy of wall tensions, the gap-set nesting, or the bounce action ratios.
 
-The $E_6 \leftrightarrow D_8$ wall tension ($T = 73$) is $\sim$456× cheaper than the most expensive $E_8$ wall. These two branches — sharing the same group order ($|\Gamma| = 24$), the same genus ($g = 3$), and the same Frobenius number ($F = 5$) — are near-degenerate and the most likely candidates for local coexistence.
+The $E_6 \leftrightarrow D_8$ wall tension ($T = 73$) is $\sim$456× cheaper than the most expensive $E_8$ wall. These two branches—sharing the same group order ($|\Gamma| = 24$), the same genus ($g = 3$), and the same Frobenius number ($F = 5$)—are near-degenerate and the most likely candidates for local coexistence.
 
 ## References
 

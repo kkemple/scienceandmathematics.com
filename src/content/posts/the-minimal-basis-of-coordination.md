@@ -70,7 +70,7 @@ Repeated operations must therefore harden into persistent interfaces—organizat
 
 From finiteness, information excess, and nonstationarity, there exist regimes in which environmental change, novelty, or load exceeds the system's design capacity. In such regimes, signal extraction degrades and previously stabilized boundaries weaken or conflict.
 
-[Constraint-theoretic analysis](/the-geometry-of-self-correction) shows that under state-dependent feasibility constraints, effective dynamics generically lose integrability. Curl appears in the correction field; gradient descent no longer exists; cycling, imitation, and local synchronization dominate behavior. Empirically, this manifests as herding, panic, and coordination cascades — a pattern we call *entropy swarming*[^5]: behavior becomes more synchronized than it is understood. If such regimes are unmanaged, systems fail catastrophically rather than degrading gracefully. This problem is failure-critical.
+[Constraint-theoretic analysis](/the-geometry-of-self-correction) shows that under state-dependent feasibility constraints, effective dynamics generically lose integrability. Curl appears in the correction field; gradient descent no longer exists; cycling, imitation, and local synchronization dominate behavior. Empirically, this manifests as herding, panic, and coordination cascades—a pattern we call *entropy swarming*[^5]: behavior becomes more synchronized than it is understood. If such regimes are unmanaged, systems fail catastrophically rather than degrading gracefully. This problem is failure-critical.
 
 ## Independence and Completeness
 
