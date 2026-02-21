@@ -2,9 +2,9 @@
 title: 'From 6D Lattice Projection to 3D Cosmic Expansion'
 description: "One projection from 6D produces a spectral gap and a triadic frustration. They feed one β-function whose flow organizes compact objects, derives the area law, and produces accelerated expansion."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18718086
-zenodoUrl: "https://zenodo.org/records/18718086"
-doi: "10.5281/zenodo.18718086"
+zenodoDepositionId: 18719042
+zenodoUrl: "https://zenodo.org/records/18719042"
+doi: "10.5281/zenodo.18719042"
 category: 'core'
 order: 1
 zenodoDescription: |
@@ -128,7 +128,7 @@ The $\beta$-function is assembled. Its fixed points are known. The question now 
 
 Physical systems sit at different points along the trajectory from $(0, 3)$ to $(1, 2)$, and the $\beta$-function value at each point determines the local dynamics.
 
-Dark matter halos occupy $\xi \sim 10^{-5}$. The $\beta$-function evaluates to $\beta \sim -4 \times 10^{-5}$—weak flow, far from any threshold. White dwarfs approach the threshold $u^*/10 \approx 0.329$, where a single RG shell's worth of curvature budget is consumed. The Gaia DR3 catalog contains 7,515 white dwarfs with a cooling anomaly at this radius ratio, at $14.5\sigma$ significance[^11]. Neutron stars sit at $\xi \sim 0.125$, where the $\beta$-function is steep ($\beta \sim -0.38$) and the effective dimension has begun dropping below 3.
+Dark matter halos occupy $\xi \sim 10^{-5}$. The $\beta$-function evaluates to $\beta \sim -4 \times 10^{-5}$—weak flow, far from any threshold. White dwarfs approach the threshold $u^*/10 \approx 0.329$, where a single RG shell's worth of curvature budget is consumed. The Gaia DR3 catalog contains 7,515 white dwarfs with a cooling anomaly at this radius ratio, at $14.5\sigma$ significance[^11]. Neutron stars sit at $\xi \sim 0.31$–$0.49$ (NICER X-ray timing: $R_S/R$ for J0030+0451, J0437−4715, and J0740+6620), above the critical threshold $\xi_c = 0.304$. The $\beta$-function is steep ($\beta \sim -0.83$ for the canonical 1.4$\,M_\odot$/11 km case) and the effective dimension has begun dropping below 3.
 
 Black holes complete the trajectory. At $(\xi, \mathcal{D}) = (1, 2)$, the $\beta$-function evaluates to $\beta(1, 2) = -1 \cdot 0 \cdot [u^* + 0] = 0$. The flow halts. The effective dimension is 2. Entropy scales as area rather than volume because the system has reached a two-dimensional fixed point of a derived flow—the Bekenstein–Hawking area law[^12][^13] as a derived consequence. The LIGO/Virgo gravitational wave catalog (GWTC, 164 binary black hole mergers) yields spin populations consistent with the $u^*$ prediction at $0.1\sigma$ deviation[^14].
 
