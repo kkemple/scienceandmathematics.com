@@ -4,9 +4,9 @@ description: "Conservation plus symmetry yields Maxwell, Klein-Gordon, and Euler
 pubDate: '2025-10-06'
 category: 'supporting'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701913
-zenodoUrl: "https://zenodo.org/records/18701913"
-doi: "10.5281/zenodo.18701913"
+zenodoDepositionId: 18724802
+zenodoUrl: "https://zenodo.org/records/18724802"
+doi: "10.5281/zenodo.18724802"
 keywords:
   - "field theory"
   - "Noether theorem"
@@ -50,10 +50,10 @@ remains constant in time. This is Gauss's theorem in curved spacetime—the tota
 Specific field equations follow from introducing an action functional $S[\phi]$ where $\phi$ represents field degrees of freedom. Noether's theorem connects symmetries to conserved currents[^1],
 
 $$
-n^\mu = \frac{\partial \mathcal{L}}{\partial(\partial_\mu \phi)},
+j^\mu = \frac{\partial \mathcal{L}}{\partial(\partial_\mu \phi)} \, \delta\phi,
 $$
 
-where $\mathcal{L}$ is the Lagrangian density. The Euler-Lagrange equations,
+where $\mathcal{L}$ is the Lagrangian density and $\delta\phi$ is the field variation under the symmetry transformation. The Euler-Lagrange equations,
 
 $$
 \partial_\mu \left(\frac{\partial \mathcal{L}}{\partial(\partial_\mu \phi)}\right) - \frac{\partial \mathcal{L}}{\partial \phi} = 0,
@@ -157,7 +157,7 @@ $$
 \eta_k = \frac{\Gamma_k}{E_0/\hbar},
 $$
 
-where $\Gamma_k$ quantifies thermal relaxation rate and $E_0$ sets the characteristic energy scale. The decade spacing of the maintenance hierarchy—$10^{-6}$ for elementary particles through $10^{-1}$ for biological systems—is governed by the RG coupling $u^* = 4\pi\varphi^2/10 \approx 3.29$, derived in the [constraint geometry monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) from the triadic tension theorem and $C_{10}$ decade symmetry. The factor of 10 in the denominator reflects the unique cyclic group $C_{10} = C_2 \times C_5$ surviving negative selection (non-crystallographic, $\varphi$-compatible, binary-closed), which partitions each RG period into ten equivalent coarse-graining shells. One full RG period spans one decade in scale, producing the observed order-of-magnitude jumps in $\xi$.
+where $\Gamma_k$ quantifies thermal relaxation rate and $E_0$ sets the characteristic energy scale. The decade spacing of the maintenance hierarchy—$10^{-6}$ for elementary particles through $10^{-1}$ for biological systems—is governed by the RG coupling $u^* = 4\pi\varphi^2/10 \approx 3.29$, derived in [Triadic Tension, Decade Symmetry, & Dissipation Flow](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) from the triadic tension theorem and $C_{10}$ decade symmetry. The factor of 10 in the denominator reflects the unique cyclic group $C_{10} = C_2 \times C_5$ surviving negative selection (non-crystallographic, $\varphi$-compatible, binary-closed), which partitions each RG period into ten equivalent coarse-graining shells. One full RG period spans one decade in scale, producing the observed order-of-magnitude jumps in $\xi$.
 
 ## Microscopic Origin of Dissipation
 
@@ -175,7 +175,7 @@ $$
 g \sim \frac{e^2}{4\pi\epsilon_0 a_0^2} \times \sqrt{\frac{\hbar}{M\omega_{ph}}},
 $$
 
-where $a_0 = 0.529$ Å is the Bohr radius and $M$ the nuclear mass. Evaluating yields,
+where $a_0 = 0.529\,\AA$ is the Bohr radius and $M$ the nuclear mass. Expressing the Coulomb energy in terms of $\alpha$ and evaluating $|g|^2\rho(E)$ at the Debye scale gives the dimensionless dissipation rate,
 
 $$
 \eta_0 = \alpha^2 \sqrt{\frac{m_e}{M}} \approx 10^{-6},
@@ -185,17 +185,17 @@ where $\alpha = e^2/(4\pi\epsilon_0\hbar c) = 1/137$ is the fine structure const
 
 The mode-specific $\eta_k$ from the Langevin dynamics above and this baseline $\eta_0$ from Fermi's golden rule are microscopic quantities. The macroscopic maintenance fraction $\xi$ appearing in the [constraint geometry's RG flow](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) is their coarse-grained counterpart—the fraction of a system's total energy budget devoted to curvature maintenance against entropy. The $\beta$-function $\beta(\xi, \mathcal{D}) = -\xi(1-\xi)[u^* + (\mathcal{D}-2)\ln\varphi/2]$ governs how this macroscopic field evolves across scales, with $\eta_0 \approx 10^{-6}$ as the UV boundary condition set by the quantum mechanical floor derived here.
 
-Complex systems exhibit enhanced dissipation through geometric factors[^7]. Atoms achieve $\xi_a = \eta_0 \times \sqrt{a_0/r_n} \times \sqrt{Z} \approx 10^{-3}$ through nuclear-electron coupling[^10]. Molecules reach $\xi_m \approx 10^{-2}$ via additional vibrational and rotational modes. Biological systems attain $\xi_b \approx 10^{-1}$ through hierarchical organization across multiple scales. Black holes saturate at $\xi = 1$, the IR fixed point of the $\beta$-function where all available energy maintains horizon structure against Hawking radiation. The decade spacing of this progression—each order of magnitude corresponding to one RG period—follows from the $C_{10}$ decade symmetry and the coupling $u^* = 4\pi\varphi^2/10 \approx 3.29$, whose derivation from triadic tension and negative selection is given in the [monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry).
+Complex systems exhibit enhanced dissipation through geometric factors[^7]. Atoms achieve $\xi_a = \eta_0 \times \sqrt{a_0/r_n} \times \sqrt{Z} \approx 10^{-3}$ through nuclear-electron coupling[^10]. Molecules reach $\xi_m \approx 10^{-2}$ via additional vibrational and rotational modes. Biological systems attain $\xi_b \approx 10^{-1}$ through hierarchical organization across multiple scales. Black holes saturate at $\xi = 1$, the IR fixed point of the $\beta$-function where all available energy maintains horizon structure against Hawking radiation. The decade spacing of this progression—each order of magnitude corresponding to one RG period—follows from the $C_{10}$ decade symmetry and the coupling $u^* = 4\pi\varphi^2/10 \approx 3.29$, whose derivation from triadic tension and negative selection is given in [Triadic Tension, Decade Symmetry, & Dissipation Flow](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry).
 
 ## Complete Field Dynamics
 
-Combining conservation and dissipation gives the complete evolution equation,
+Combining conservation and dissipation gives the complete mode-level evolution equation,
 
 $$
-\frac{\partial \phi}{\partial t} = \{\phi, H\} - \sum_k \eta_k(\phi_k - \phi_k^0) + \sqrt{2\eta_k k_B T} \, \xi_k(t).
+\frac{d\phi_k}{dt} = -i\omega_k \phi_k - \eta_k(\phi_k - \phi_k^0) + \sqrt{2\eta_k k_B T} \, \xi_k(t).
 $$
 
-The first term $\{\phi, H\}$ represents conservative Hamiltonian evolution from the action principle. The second term drives dissipation toward equilibrium. The third term adds thermal fluctuations maintaining detailed balance.
+The first term represents conservative Hamiltonian evolution (the natural frequency $\omega_k$ from the action principle). The second term drives dissipation toward equilibrium. The third term adds thermal fluctuations maintaining detailed balance.
 
 The fluctuation-dissipation theorem establishes thermal equilibrium[^8],
 
@@ -213,7 +213,7 @@ $$
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}, \quad \nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0\epsilon_0 \frac{\partial \mathbf{E}}{\partial t},
 $$
 
-with Ohmic dissipation $\mathbf{J} = \sigma \mathbf{E}$. The conductivity $\sigma = ne^2\tau/m$ connects to $\eta$ through the scattering time $\tau = 1/(\eta \omega_p)$ where $\omega_p$ is the plasma frequency.
+with Ohmic dissipation $\mathbf{J} = \sigma \mathbf{E}$. The Drude conductivity $\sigma = ne^2\tau/m$ connects to $\eta$ through the scattering time $\tau$, which is set by the microscopic dissipation rate at the plasma frequency scale.
 
 Viscous fluid dynamics follows from Galilean-invariant conservation with dissipation,
 
@@ -221,11 +221,11 @@ $$
 \frac{\partial \mathbf{v}}{\partial t} + (\mathbf{v} \cdot \nabla)\mathbf{v} = -\frac{1}{\rho}\nabla P + \nu \nabla^2 \mathbf{v},
 $$
 
-where kinematic viscosity $\nu = \eta v_{th}^2/\omega_v$ relates dissipation coefficient to thermal velocity and vorticity frequency.
+where kinematic viscosity $\nu \sim v_{\mathrm{th}}^2 \tau$ in kinetic theory, with $v_{\mathrm{th}}$ the thermal velocity and $\tau$ the mean collision time. Stronger microscopic coupling (larger $\eta$) increases the collision rate $\Gamma \propto \eta$, shortening $\tau$ and reducing $\nu$ in the dilute limit.
 
 ## Fundamental Structure
 
-Conservation plus symmetry generates the reversible dynamics of physical fields—Maxwell from U(1), Klein-Gordon from Lorentz invariance, Euler from Galilean symmetry. Thermal coupling breaks time-reversal symmetry through the maintenance fraction $\xi$, whose microscopic origin traces to Fermi's golden rule. The baseline $\eta_0 = \alpha^2\sqrt{m_e/M} \approx 10^{-6}$ is a derived quantity, not a phenomenological parameter.
+Conservation plus symmetry generates the reversible dynamics of physical fields—Maxwell from U(1), Klein-Gordon from Lorentz invariance, Euler from Galilean symmetry. Thermal coupling breaks time-reversal symmetry through the maintenance fraction $\xi$, whose microscopic origin traces to Fermi's golden rule. The baseline $\eta_0 = \alpha^2\sqrt{m_e/M} \approx 10^{-6}$ is derived from quantum mechanics through Fermi's golden rule.
 
 This microscopic floor is the starting point of the macroscopic maintenance fraction $\xi \in [0,1]$ that appears in the [constraint geometry's $\beta$-function](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The $\beta$-function governs how $\xi$ flows across scales, with the RG coupling $u^* = 4\pi\varphi^2/10 \approx 3.29$ producing the observed decade-spaced hierarchy from elementary particles through biological systems to black holes. The microscopic derivation here establishes that $\xi$ is physical—the constraint geometry determines how it flows.
 

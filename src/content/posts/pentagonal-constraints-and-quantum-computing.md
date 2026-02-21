@@ -4,9 +4,9 @@ description: "Fibonacci anyon fusion τ × τ = 1 + τ forces quantum dimension 
 pubDate: '2025-10-19'
 category: 'applications'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701909
-zenodoUrl: "https://zenodo.org/records/18701909"
-doi: "10.5281/zenodo.18701909"
+zenodoDepositionId: 18724810
+zenodoUrl: "https://zenodo.org/records/18724810"
+doi: "10.5281/zenodo.18724810"
 keywords:
   - "quantum computing"
   - "Fibonacci anyons"
@@ -90,7 +90,7 @@ Quantum engineers building better qubits have discovered $\varphi$-based structu
 
 The confirmed predictions—Fibonacci temporal protection and the fusion algebra quantum dimension—follow directly from the Hurwitz resonance argument and the recursive fixed-point equation, respectively. The architectural design principles (prime qubit counts, $\varphi$-ratio spacing, prime code distances) remain testable predictions awaiting systematic experimental validation. Current superconducting technology—tantalum Josephson junctions on high-purity sapphire[^5], autonomous quantum refrigerators[^8], cryo-CMOS control electronics[^9]—provides the substrate for testing, and multi-chip integration with photonic interconnects[^10] enables scaling. Quantum systems provide faster experimental iteration than astrophysical observations, making them a natural testbed for constraint geometry at accessible laboratory scales.
 
-## Attack Surface
+## Scope and Limitations
 
 The framework's application to quantum computing rests on several identifications that could fail independently.
 

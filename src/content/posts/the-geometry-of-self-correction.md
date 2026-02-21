@@ -5,9 +5,9 @@ pubDate: '2026-01-09'
 updatedDate: '2026-01-28'
 category: 'supporting'
 draft: true
-zenodoDepositionId: 18701927
-zenodoUrl: "https://zenodo.org/records/18701927"
-doi: "10.5281/zenodo.18701927"
+zenodoDepositionId: 18724815
+zenodoUrl: "https://zenodo.org/records/18724815"
+doi: "10.5281/zenodo.18724815"
 zenodoDescription: |
   This paper develops a coordinate-free geometric framework for understanding when feedback systems converge versus cycle. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation.
 
@@ -266,37 +266,37 @@ $$
 \mathcal{M}_{\mathrm{curl}}(F) \geq \frac{\kappa}{2} |\delta\alpha_\perp|^2_{L^2} > 0,
 $$
 
-for some $\kappa > 0$ determined by the spectral gap and the divergence structure of the defect[^13].
+for some $\kappa > 0$ determined by the spectral gap and the divergence structure of the defect[^4].
 
 This is the quantitative version of "structural, not parametric." A system whose correction architecture repeatedly induces a nontrivial projection defect carries an irreducible curl floor. The floor is not a tuning artifact but a geometric constant times the persistent defect magnitude. Because the curl floor is set by the Hodge spectral gap, no gain scheduling, local smoothing, or parameter tuning can eliminate cycling without changing the feasibility map itself. Cycling and sustained corrective work are the irreducible residue of feasibility—the cost of implementing constraints that prevent a global scalar Lyapunov function from existing on the realized dynamics.
 
 ### Connection to Triadic Tension
 
-The curl floor theorem applies to any system with state-dependent, non-integrable constraint projections. The [triadic tension theorem](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) identifies a specific and important instance: three curvature sectors—angular ($\pi$), recursive ($\varphi$), and discrete ($N$)—that cannot be simultaneously minimized. When a system attempts to correct across all three sectors, the admissible correction directions at any configuration depend on which sector is currently dominant. This state-dependence is not a modeling choice but a geometric consequence of the pairwise incompatibility of the sector minimizers (T1).
+The curl floor theorem applies to any system with state-dependent, non-integrable constraint projections. The [triadic tension theorem](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) identifies a specific and important instance: three curvature sectors—angular ($\pi$), recursive ($\varphi$), and discrete ($N$)—that cannot be simultaneously minimized. When a system attempts to correct across all three sectors, the admissible correction directions at any configuration depend on which sector is currently dominant. This state-dependence is a geometric consequence of the pairwise incompatibility of the sector minimizers (T1).
 
 The resulting feasibility map is non-integrable. If the system sits near the $\varphi$-sector minimum, the admissible cone tilts toward reducing recursive curvature, but this forces angular curvature to increase (by the strictly negative off-diagonal covariances, T2). As the system corrects angular curvature, the cone tilts again, now forcing discrete curvature to rise. The correction field circulates through sector-dominated configurations rather than converging to a point where all three are simultaneously satisfied—because no such point exists. The projection defect $\delta\alpha$ has persistent magnitude (the sectors are genuinely independent observables, by T3), and the Hodge spectral gap provides the lower bound. Theorem 4 then guarantees a strictly positive curl floor: triadic tension forces irreducible cycling with a quantifiable maintenance cost.
 
-This connection closes the loop between the general theory developed here and the specific constraint geometry of [the monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The curl diagnostic is a general tool; triadic tension is a specific trigger; and the curl floor theorem quantifies the consequence. A minimal field-theoretic model in which the stiffness ratio and topological protection boundary are computed exactly is developed in [Preserved Curl, Scale Separation, and Topological Leakage](/preserved-curl-scale-separation-and-topological-leakage). The repair framework extends these results by treating local optimization under the curl floor as a first-class process, proving that repair operations traversing the same non-integrable feasibility map incur a strictly positive geometric overhead bounded by the same spectral gap—see [Repair as Local Optimization in Constraint Geometry](/repair-as-local-optimization-in-constraint-geometry).
+This connection closes the loop between the general theory developed here and the specific constraint geometry of [Triadic Tension, Decade Symmetry, & Dissipation Flow](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The curl diagnostic is a general tool; triadic tension is a specific trigger; and the curl floor theorem quantifies the consequence. A minimal field-theoretic model in which the stiffness ratio and topological protection boundary are computed exactly is developed in [Preserved Curl, Scale Separation, and Topological Leakage](/preserved-curl-scale-separation-and-topological-leakage). The repair framework extends these results by treating local optimization under the curl floor as a first-class process, proving that repair operations traversing the same non-integrable feasibility map incur a strictly positive geometric overhead bounded by the same spectral gap—see [Repair as Local Optimization in Constraint Geometry](/repair-as-local-optimization-in-constraint-geometry).
 
 ### Control Systems
 
-Classical control theory developed stability criteria for linear time-invariant systems: Nyquist plots[^4], Bode margins[^5], root locus methods[^6]. These tools implicitly analyze whether the closed-loop system has a Lyapunov function—whether the correction field is effectively curl-free.
+Classical control theory developed stability criteria for linear time-invariant systems: Nyquist plots[^5], Bode margins[^6], root locus methods[^7]. These tools implicitly analyze whether the closed-loop system has a Lyapunov function—whether the correction field is effectively curl-free.
 
-Nonlinear control extends these ideas through Lyapunov's direct method, which seeks scalar functions that decrease along trajectories[^7]. The gradient-flow perspective reveals why this works: a decreasing Lyapunov function certifies that the correction field derives from a potential, guaranteeing convergence without solving the dynamics explicitly.
+Nonlinear control extends these ideas through Lyapunov's direct method, which seeks scalar functions that decrease along trajectories[^8]. The gradient-flow perspective reveals why this works: a decreasing Lyapunov function certifies that the correction field derives from a potential, guaranteeing convergence without solving the dynamics explicitly.
 
 The curl diagnostic adds predictive power. If a control system exhibits limit cycles or oscillations, the correction field has nonzero curl. This directs attention toward the source of circulation—often saturation, backlash, or mode-switching—rather than toward gain adjustment.
 
-Return to the turbofan. Its Full Authority Digital Engine Control (FADEC) manages fuel flow, variable stator vanes, bleed valves, and afterburner sequencing[^8]. Each subsystem has its own correction loop. When the aircraft transitions between flight regimes—say, from cruise to rapid descent—the correction loops can interfere. The fuel controller reduces flow to lower temperature; the compressor controller opens bleed valves to prevent surge; the bleed valve opening reduces pressure, triggering the fuel controller to compensate. Under certain conditions, these interactions create circulation in the combined correction field. The engine can oscillate between correction modes—a known failure mode in switched/gain-scheduled control systems that requires careful bumpless transfer design to prevent[^9]. Engine designers spend considerable effort ensuring the combined FADEC architecture remains curl-free across the operating envelope—a geometric constraint on multi-loop control design. The compressor provides a particularly clean instantiation: the surge line is a finite-residence manifold, variable stators and bleed valves perform feasibility projections that induce structural curl, and rotating stall is curl made visible in the flow field. See [Compressors, Curl, & Constraint Geometry](/compressors-curl-and-constraint-geometry) for the complete mapping.
+Return to the turbofan. Its Full Authority Digital Engine Control (FADEC) manages fuel flow, variable stator vanes, bleed valves, and afterburner sequencing[^9]. Each subsystem has its own correction loop. When the aircraft transitions between flight regimes—say, from cruise to rapid descent—the correction loops can interfere. The fuel controller reduces flow to lower temperature; the compressor controller opens bleed valves to prevent surge; the bleed valve opening reduces pressure, triggering the fuel controller to compensate. Under certain conditions, these interactions create circulation in the combined correction field. The engine can oscillate between correction modes—a known failure mode in switched/gain-scheduled control systems that requires careful bumpless transfer design to prevent[^10]. Engine designers spend considerable effort ensuring the combined FADEC architecture remains curl-free across the operating envelope—a geometric constraint on multi-loop control design. The compressor provides a particularly clean instantiation: the surge line is a finite-residence manifold, variable stators and bleed valves perform feasibility projections that induce structural curl, and rotating stall is curl made visible in the flow field. See [Compressors, Curl, & Constraint Geometry](/compressors-curl-and-constraint-geometry) for the complete mapping.
 
 ### AI Alignment
 
-Gradient descent on a loss function is literal gradient flow—the system moves along $-\nabla L$ where $L$ is the loss. Reward hacking and specification gaming represent curl emergence[^10]: when an agent finds ways to increase measured reward that decrease intended performance, the actual correction field diverges from the intended one, and the system cycles through exploits rather than converging to aligned behavior. The curl diagnostic frames the core alignment problem geometrically—alignment architectures must ensure that whatever signals actually drive learning derive from a scalar potential consistent with intended behavior.
+Gradient descent on a loss function is literal gradient flow—the system moves along $-\nabla L$ where $L$ is the loss. Reward hacking and specification gaming represent curl emergence[^11]: when an agent finds ways to increase measured reward that decrease intended performance, the actual correction field diverges from the intended one, and the system cycles through exploits rather than converging to aligned behavior. The curl diagnostic frames the core alignment problem geometrically—alignment architectures must ensure that whatever signals actually drive learning derive from a scalar potential consistent with intended behavior.
 
 ## Why This Matters
 
 The curl diagnostic has direct consequences for design, diagnosis, and prediction. A system intended to self-correct will succeed only if its correction field derives from a consistent scalar objective, so the design principle is conservative: prefer architectures that provably maintain curl-free correction fields, and when multiple objectives are genuinely necessary, combine them as weighted sums of scalar potentials rather than as interacting vector corrections. When a system cycles rather than converges, the curl diagnostic localizes the problem—it points to specific architectural features generating the cycling and distinguishes problems solvable by parameter adjustment (zero curl, multiple local minima) from problems requiring structural redesign (nonzero curl, architectural interference). Knowing the curl structure of a system's correction architecture allows prediction of its long-run behavior without simulating the detailed dynamics, because systems with curl-free correction fields will converge while systems with nonzero curl will cycle. The geometry of self-correction transforms informal intuitions about feedback and stability into precise, measurable structure. Systems that converge share mathematical form with systems that cycle—except for one property. That property is coordinate-free, computable, and decisive.
 
-## Attack Surface
+## Limitations and Falsifiability
 
 The curl diagnostic and the curl floor theorem (Theorem 4) rest on checkable claims. If a system with demonstrably state-dependent, non-integrable constraint projections exhibits sustained monotone convergence without cycling, the diagnostic fails—the non-integrability condition in the theorem's hypothesis would need to be revisited for that class of projections. If the Hodge spectral gap $\lambda_1^\perp$ vanishes on physically relevant manifolds (e.g., noncompact manifolds where the spectral gap degenerates), the quantitative lower bound loses its floor and the curl-maintenance functional can approach zero even with persistent projection defects. The theorem applies to any compact Riemannian manifold: when $H^1(M) = 0$ (e.g., spheres), $\lambda_1^\perp$ is the usual first eigenvalue on all 1-forms; when $H^1(M) \neq 0$ (e.g., periodic domains $T^3$), the bound applies to the non-harmonic sector, with harmonic forms contributing no curl. Extending to noncompact state spaces requires verifying that the spectral gap remains positive. Both conditions are independently testable—the first through numerical simulation of constrained dynamics, the second through spectral analysis of the Hodge Laplacian on the manifold in question.
 
@@ -444,7 +444,7 @@ $$
 
 by the identity $d^2 = 0$. Hence gradient fields are curl-free.
 
-Conversely, on simply connected manifolds, a curl-free vector field is locally (and globally) a gradient by the Poincaré lemma[^11]. On manifolds with nontrivial topology, curl-free fields may have nonzero "circulation" around non-contractible loops.
+Conversely, on simply connected manifolds, a curl-free vector field is locally (and globally) a gradient by the Poincaré lemma[^13]. On manifolds with nontrivial topology, curl-free fields may have nonzero "circulation" around non-contractible loops.
 
 For $\mathbb{S}^{n-1}$ with $n \geq 3$, the sphere is simply connected, so curl-free implies gradient. For $\mathbb{S}^1$ (the circle), a constant tangent field has zero curl but is not a gradient—it has nonzero circulation around the circle.
 
@@ -614,22 +614,22 @@ The wedge statement summarizes the result: among all vector fields satisfying a 
 
 [^3]: Müller, C. (1966). *Spherical Harmonics*. Lecture Notes in Mathematics, Vol. 17, Springer.
 
-[^4]: Nyquist, H. (1932). Regeneration Theory. *Bell System Technical Journal*, 11(1), 126-147.
+[^4]: The spectral gap $\lambda_1^\perp$ is the smallest positive eigenvalue of the Hodge Laplacian $\Delta_1 = d\delta + \delta d$ on 1-forms orthogonal to harmonic forms. When $H^1(M) = 0$ (e.g., $\mathbb{S}^{n-1}$ for $n \geq 2$), this equals the usual first eigenvalue; for $\mathbb{S}^{n-1}$ that value is $n-1$. On $T^3$, $\lambda_1^\perp = (2\pi/L)^2$ where $L$ is the box side length. See Rosenberg, S. (1997). *The Laplacian on a Riemannian Manifold*. Cambridge University Press, Chapter 4.
 
-[^5]: Bode, H.W. (1945). *Network Analysis and Feedback Amplifier Design*. Van Nostrand, New York.
+[^5]: Nyquist, H. (1932). Regeneration Theory. *Bell System Technical Journal*, 11(1), 126-147.
 
-[^6]: Evans, W.R. (1948). Graphical Analysis of Control Systems. *Transactions of the AIEE*, 67(1), 547-551.
+[^6]: Bode, H.W. (1945). *Network Analysis and Feedback Amplifier Design*. Van Nostrand, New York.
 
-[^7]: Khalil, H.K. (2002). *Nonlinear Systems*, 3rd ed. Prentice Hall.
+[^7]: Evans, W.R. (1948). Graphical Analysis of Control Systems. *Transactions of the AIEE*, 67(1), 547-551.
 
-[^8]: Spang, H.A. & Brown, H. (1999). Control of Jet Engines. *Control Engineering Practice*, 7(9), 1043-1059.
+[^8]: Khalil, H.K. (2002). *Nonlinear Systems*, 3rd ed. Prentice Hall.
 
-[^9]: Csank, J.T., et al. (2013). Aircraft Turbine Engine Control Research at NASA Glenn Research Center. NASA/TM—2013-217821.
+[^9]: Spang, H.A. & Brown, H. (1999). Control of Jet Engines. *Control Engineering Practice*, 7(9), 1043-1059.
 
-[^10]: Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., & Mané, D. (2016). Concrete Problems in AI Safety. arXiv\:1606.06565.
+[^10]: Csank, J.T., et al. (2013). Aircraft Turbine Engine Control Research at NASA Glenn Research Center. NASA/TM—2013-217821.
 
-[^11]: Spivak, M. (1965). *Calculus on Manifolds*. Benjamin.
+[^11]: Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., & Mané, D. (2016). Concrete Problems in AI Safety. arXiv\:1606.06565.
 
 [^12]: Clarke, F.H. (1983). *Optimization and Nonsmooth Analysis*. Wiley.
 
-[^13]: The spectral gap $\lambda_1^\perp$ is the smallest positive eigenvalue of the Hodge Laplacian $\Delta_1 = d\delta + \delta d$ on 1-forms orthogonal to harmonic forms. When $H^1(M) = 0$ (e.g., $\mathbb{S}^{n-1}$ for $n \geq 2$), this equals the usual first eigenvalue; for $\mathbb{S}^{n-1}$ that value is $n-1$. On $T^3$, $\lambda_1^\perp = (2\pi/L)^2$ where $L$ is the box side length. See Rosenberg, S. (1997). *The Laplacian on a Riemannian Manifold*. Cambridge University Press, Chapter 4.
+[^13]: Spivak, M. (1965). *Calculus on Manifolds*. Benjamin.

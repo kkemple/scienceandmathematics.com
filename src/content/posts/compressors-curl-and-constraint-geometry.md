@@ -3,9 +3,9 @@ title: 'Compressors, Curl, & Constraint Geometry'
 description: "Axial compressors instantiate constraint geometry: the surge line is a finite-residence manifold, rotating stall is curl made visible, and balanced states are crossed but never occupied."
 pubDate: '2026-01-25'
 category: 'applications'
-zenodoDepositionId: 18701888
-zenodoUrl: "https://zenodo.org/records/18701888"
-doi: "10.5281/zenodo.18701888"
+zenodoDepositionId: 18724801
+zenodoUrl: "https://zenodo.org/records/18724801"
+doi: "10.5281/zenodo.18724801"
 updatedDate: '2026-01-28'
 keywords:
   - "compressors"
@@ -84,7 +84,7 @@ The surge line is a physical measurement of the finite-residence principle, mapp
 
 The persistence of limit cycles across controller redesigns validates the structural nature of curl. If cycling were parametric, decades of control engineering would have eliminated it. That it persists despite sophisticated model-predictive control, adaptive gain scheduling, and detailed aerodynamic modeling indicates the obstruction is geometric. The theory says it must be; the hardware confirms it is.
 
-## Attack Surface
+## Scope and Limitations
 
 The compressor application has a narrower attack surface than most posts in the corpus because the mapping to Theorem 4 is a direct instance, not an analogy. The residual vulnerabilities lie upstream.
 

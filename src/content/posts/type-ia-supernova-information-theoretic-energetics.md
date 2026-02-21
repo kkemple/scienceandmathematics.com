@@ -4,9 +4,9 @@ description: "A thermodynamic lower bound on Type Ia supernova energetics from L
 pubDate: '2025-09-29'
 category: 'supporting'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701915
-zenodoUrl: "https://zenodo.org/records/18701915"
-doi: "10.5281/zenodo.18701915"
+zenodoDepositionId: 18724817
+zenodoUrl: "https://zenodo.org/records/18724817"
+doi: "10.5281/zenodo.18724817"
 keywords:
   - "Type Ia supernova"
   - "Chandrasekhar limit"
@@ -20,7 +20,7 @@ keywords:
 zenodoDescription: |
   A compact, order-of-magnitude constraint on Type Ia supernova kinetic energy based on information/entropy accounting. Using a minimal proxy for the amount of coarse-grained state-space reorganization available to Chandrasekhar-mass degenerate matter, we estimate an information scale ΔN_b ≃ N log₂ χ ~ 4.6 × 10⁵⁸ bits for N ≃ M_Ch/m_p and a fiducial density contrast χ ≡ V_WD/V_nuc ~ 10⁸. Applying Landauer's bound, E ≳ k_B T ln 2 per bit, gives a dissipation scale E ≳ 10⁴⁴ J for characteristic explosion temperatures T ~ 10⁹ K.
 
-  This is a bound-style thermodynamic estimate. It does not assert that SNe Ia reach neutron-star densities; the compression proxy χ (with R_nuc ~ 10 km as one illustrative normalization) parameterizes a large state-space contrast. The estimate is not in tension with thermonuclear burning models, which yield similar energies through different accounting. A minimal phenomenology E ~ f ΔN_b k_B T ln 2 with f ∈ (0,1] representing the realized fraction of available reorganization provides a natural framework for Type Ia luminosity diversity.
+  This is a bound-style thermodynamic estimate. The compression proxy χ (with R_nuc ~ 10 km as one illustrative normalization) parameterizes a large state-space contrast. The estimate is consistent with thermonuclear burning models, which yield similar energies through different accounting. A minimal phenomenology E ~ f ΔN_b k_B T ln 2 with f ∈ (0,1] representing the realized fraction of available reorganization provides a natural framework for Type Ia luminosity diversity.
 
   The calculation requires four inputs:
 
@@ -30,7 +30,7 @@ zenodoDescription: |
   4. A characteristic temperature
 ---
 
-Type Ia supernovae release characteristic kinetic energies of order $10^{44}$ J with sufficient consistency to serve as cosmological standard candles[^1]. In standard models, the energy budget is supplied by thermonuclear burning of C/O material in a white dwarf approaching the Chandrasekhar mass[^2]. A simple information-theoretic estimate—applying Landauer's bound to the state-space reorganization available to Chandrasekhar-mass degenerate matter—independently recovers the same energy scale. The estimate is a thermodynamic budget, a lower bound on irreversible dissipation associated with a large compression/state-space contrast. It makes no claim about explosion mechanism and is not in tension with thermonuclear models.
+Type Ia supernovae release characteristic kinetic energies of order $10^{44}$ J with sufficient consistency to serve as cosmological standard candles[^1]. In standard models, the energy budget is supplied by thermonuclear burning of C/O material in a white dwarf approaching the Chandrasekhar mass[^2]. A simple information-theoretic estimate—applying Landauer's bound to the state-space reorganization available to Chandrasekhar-mass degenerate matter—independently recovers the same energy scale. The estimate is a thermodynamic budget, a lower bound on irreversible dissipation associated with a large compression/state-space contrast, independent of explosion mechanism and consistent with thermonuclear models.
 
 ## Scales and Particle Number
 
@@ -58,7 +58,7 @@ $$
 \chi \sim \left(\frac{R_{\text{WD}}}{R_{\text{nuc}}}\right)^3 \sim \left(\frac{5000}{10}\right)^3 \simeq 1.25 \times 10^8.
 $$
 
-The quantity $R_{\text{nuc}} \sim 10$ km serves as a fiducial normalization for $\chi$. Normal Type Ia supernovae are thermonuclear disruptions and do not approach neutron-star densities; $\chi$ should be read as a parameter encoding a large state-space contrast, not as a claim about the remnant.
+The quantity $R_{\text{nuc}} \sim 10$ km serves as a fiducial normalization for $\chi$, encoding a large state-space contrast. Normal Type Ia supernovae are thermonuclear disruptions; $\chi$ parametrizes the available reorganization volume, with the specific normalization chosen for computational convenience.
 
 ## Information Reorganization
 
@@ -74,7 +74,7 @@ $$
 \Delta N_b \simeq N \log_2\!\left(\frac{V_1}{V_2}\right) + 3N \log_2\!\left(\frac{p_{F,1}}{p_{F,2}}\right).
 $$
 
-For a letter-length, order-of-magnitude estimate we retain only the configuration-space contribution and treat the momentum-space correction as an $\mathcal{O}(1)$ factor,
+For ideal degenerate fermions, the momentum term exactly cancels the configuration term: $p_F \propto (N/V)^{1/3}$ implies $p_{F,1}/p_{F,2} = \chi^{-1/3}$, so $3N\log_2(\chi^{-1/3}) = -N\log_2\chi$. This is Liouville's theorem[^5]—total phase space volume is conserved under Hamiltonian evolution. The Landauer cost applies to the irreversible spatial reorganization (the erased information about which particles occupied which spatial cells), giving,
 
 $$
 \Delta N_b \simeq N \log_2 \chi.
@@ -90,7 +90,7 @@ The dependence on the density contrast is weak: $\Delta N_b \propto \log_2 \chi$
 
 ## Energetics via Landauer's Bound
 
-Landauer's principle gives a minimum dissipation of $\epsilon(T) = k_B T \ln 2$ per bit at temperature $T$[^5]. Associating the reorganization $\Delta N_b$ with characteristic temperatures $T \sim 10^9$ K during the explosion/shock phase[^6][^7],
+Landauer's principle gives a minimum dissipation of $\epsilon(T) = k_B T \ln 2$ per bit at temperature $T$[^6]. Associating the reorganization $\Delta N_b$ with characteristic temperatures $T \sim 10^9$ K during the explosion/shock phase[^7][^8],
 
 $$
 E \gtrsim \Delta N_b \, k_B T \ln 2,
@@ -122,7 +122,7 @@ $$
 E_{\text{nuc}} \sim (10^{57})(0.6 \text{ MeV})(1.602 \times 10^{-13} \text{ J MeV}^{-1}) \sim 10^{44} \text{ J}.
 $$
 
-The information-theoretic estimate is not in tension with this; it reframes the energy scale in terms of a coarse-grained reorganization budget set by the accessible-state geometry. A minimal phenomenology is $E \sim f \, \Delta N_b \, k_B T \ln 2$ with $f \in (0, 1]$ representing the realized fraction of the available reorganization. Variation in $f$ across different explosion channels—deflagration, detonation, delayed detonation—provides a natural framework for Type Ia luminosity diversity.
+The information-theoretic estimate recovers the same energy scale through different accounting, reframing it in terms of a coarse-grained reorganization budget set by the accessible-state geometry. A minimal phenomenology is $E \sim f \, \Delta N_b \, k_B T \ln 2$ with $f \in (0, 1]$ representing the realized fraction of the available reorganization. Variation in $f$ across different explosion channels—deflagration, detonation, delayed detonation—provides a natural framework for Type Ia luminosity diversity.
 
 ## Connection to Constraint Geometry
 
@@ -148,8 +148,10 @@ which makes clear that the estimate depends only logarithmically on the compress
 
 [^4]: Pathria, R. K., & Beale, P. D. (2011). *Statistical Mechanics* (3rd ed.). Academic Press.
 
-[^5]: Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183-191.
+[^5]: Goldstein, H., Poole, C., & Safko, J. (2002). *Classical Mechanics* (3rd ed.). Addison-Wesley. §9.9.
 
-[^6]: Nomoto, K., Thielemann, F.-K., & Yokoi, K. (1984). Accreting White Dwarf Models of Type I Supernovae. *Astrophysical Journal*, 286, 644-658.
+[^6]: Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183-191.
 
-[^7]: Seitenzahl, I. R., Ciaraldi-Schoolmann, F., Röpke, F. K., Ruiter, A. J., Pakmor, R., Sim, S. A., Kromer, M., Ohlmann, S. T., Taubenberger, S., Springel, V., & Hillebrandt, W. (2013). Three-dimensional delayed-detonation models with nucleosynthesis for Type Ia supernovae. *Monthly Notices of the Royal Astronomical Society*, 429, 1156-1172.
+[^7]: Nomoto, K., Thielemann, F.-K., & Yokoi, K. (1984). Accreting White Dwarf Models of Type I Supernovae. *Astrophysical Journal*, 286, 644-658.
+
+[^8]: Seitenzahl, I. R., Ciaraldi-Schoolmann, F., Röpke, F. K., Ruiter, A. J., Pakmor, R., Sim, S. A., Kromer, M., Ohlmann, S. T., Taubenberger, S., Springel, V., & Hillebrandt, W. (2013). Three-dimensional delayed-detonation models with nucleosynthesis for Type Ia supernovae. *Monthly Notices of the Royal Astronomical Society*, 429, 1156-1172.

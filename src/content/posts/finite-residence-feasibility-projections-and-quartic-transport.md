@@ -4,9 +4,9 @@ description: "A state-dependent feasibility projection annihilates the first-ord
 pubDate: '2026-02-09'
 category: 'supporting'
 draft: true
-zenodoDepositionId: 18701921
-zenodoUrl: "https://zenodo.org/records/18701921"
-doi: "10.5281/zenodo.18701921"
+zenodoDepositionId: 18724803
+zenodoUrl: "https://zenodo.org/records/18724803"
+doi: "10.5281/zenodo.18724803"
 zenodoDescription: |
   When a state-dependent feasibility projection acts on the constitutive stress tensor and places the first-order shear operator in its nullspace, the k² diffusive pole is structurally forbidden—not parametrically suppressed. The leading admissible relaxation shifts to k⁴ via a Burnett-type operator, with k³ excluded by stress tensor symmetry σ_ij = σ_ji. The selection rule Π_x[σ_ij] = 0 is an operator-level statement whose dynamical realization is the finite residence of balanced Navier–Stokes states: DNS shows these configurations are crossed but not occupied, with escape occurring preferentially through loss of recursive coherence rather than collapse of stretching. The mechanism unifies independent k⁴ observations across non-relativistic Lifshitz holography (where bulk couplings cancel k² contributions), fracton and dipole-conserving fluids (where enhanced symmetry constraints forbid first-order kinetics), and photonic quasicrystal spectral reorganization under irrational projection methods. The framework situates quartic transport within constraint geometry as a transport-sector instantiation of the curl-maintenance floor established in the self-correction framework.
 keywords:
@@ -122,19 +122,19 @@ and with it the $k^2$ contribution to the dispersion relation.
 What survives is the next admissible operator in the gradient expansion consistent with feasibility. In the transverse channel, rotational invariance constrains the allowed structures: the stress tensor is symmetric and traceless, and the transverse projection eliminates longitudinal terms. The next rotationally invariant operator contributing to $T_{xy}$ is second order in gradients on $\sigma$—a Burnett-type term[^6],
 
 $$
-\Pi^{(2)}_{xy} = -\eta_4\,\partial_x^2\,\sigma_{xy}.
+\Pi^{(2)}_{xy} = \eta_4\,\partial_x^2\,\sigma_{xy}.
 $$
 
-In the transverse channel, $\sigma_{xy} = \partial_x v_y$, so
+The sign is positive: the Burnett-type correction enters with the opposite sign to the first-order Navier–Stokes term, producing dissipation at fourth order. In the transverse channel, $\sigma_{xy} = \partial_x v_y$, so
 
 $$
-\Pi^{(2)}_{xy} = -\eta_4\,\partial_x^3 v_y = -\frac{\eta_4}{\chi_\pi}\,\partial_x^3\,\pi_y.
+\Pi^{(2)}_{xy} = \eta_4\,\partial_x^3 v_y = \frac{\eta_4}{\chi_\pi}\,\partial_x^3\,\pi_y.
 $$
 
-Substituting back into conservation:
+Substituting back into conservation ($\partial_t \pi_y = -\partial_x T_{xy}$):
 
 $$
-\partial_t \pi_y = -ik\left(-\frac{\eta_4}{\chi_\pi}(ik)^3\,\pi_y\right) = -\frac{\eta_4}{\chi_\pi}\,k^4\,\pi_y,
+\partial_t \pi_y = -\partial_x\!\left(\frac{\eta_4}{\chi_\pi}\,\partial_x^3\,\pi_y\right) = -\frac{\eta_4}{\chi_\pi}\,k^4\,\pi_y,
 $$
 
 yielding the quartic dispersion,
@@ -179,11 +179,11 @@ The [compressor instantiation](/compressors-curl-and-constraint-geometry) exhibi
 
 The independent emergence of $k^4$ shear across multiple settings admits a unified reading through the feasibility projection mechanism. In Lifshitz holography[^1], the Lifshitz scaling exponent and bulk couplings cause the $k^2$ contributions from the two coupled perturbation channels (metric and gauge/momentum) to cancel in the matched asymptotic expansion, leaving quartic dispersion as the leading survivor—a cancellation that the selection rule identifies as structural rather than algebraic. In dipole-conserving fluids[^2][^3], the conservation of dipole moment imposes kinematic constraints that forbid the first-order transport operator at the level of symmetry, producing subdiffusive shear as the generic outcome—precisely the operator-nullspace mechanism formalized here. In non-Hermitian acoustic Chern lattices[^9], a single dislocation defect reorganizes the bulk spectrum globally—extended states collapse onto the defect site and the skin effect converts from boundary-bound to dislocation-bound—so that a finite local constraint annihilates bulk operator channels in an experimentally realized setting. In each case, some constraint (Lifshitz scaling, dipole conservation, non-Hermitian dislocation, feasibility projection) removes the first-order shear operator from the implemented dynamics, and the leading admissible channel shifts to $k^4$. The feasibility projection framework provides the operator-level account of why this shift occurs: the constraint architecture places $\sigma_{ij}$ in the nullspace of the implementation map, regardless of the specific physical mechanism that enforces the constraint.
 
-## Attack Surface
+## Limitations and Falsifiability
 
 The derivation of quartic dispersion from the nullspace condition $\Pi_x[\sigma_{ij}] = 0$ is an operator-level result that does not depend on Navier–Stokes specifically. The interpretive step—identifying finite residence of balanced DNS states with the nullspace condition—is where the argument is most exposed.
 
-The finite-residence observation is empirical, at a single Reynolds number ($Re_\lambda \approx 430$). If balanced states become persistent at higher Reynolds numbers, the dynamical motivation for the nullspace condition weakens. The [attack surface of the finite-residence paper](/navier-stokes-vorticity-growth-and-finite-residence-of-balanced-states) discusses this in detail: Reynolds number dependence, definition sensitivity of $L_\Omega$, and subdomain size effects are all testable failure modes.
+The finite-residence observation is empirical, at a single Reynolds number ($Re_\lambda \approx 430$). If balanced states become persistent at higher Reynolds numbers, the dynamical motivation for the nullspace condition weakens. The [limitations section of the finite-residence paper](/navier-stokes-vorticity-growth-and-finite-residence-of-balanced-states) discusses this in detail: Reynolds number dependence, definition sensitivity of $L_\Omega$, and subdomain size effects are all testable failure modes.
 
 The mapping from "balanced states are transient" to "$\Pi_x[\sigma_{ij}] = 0$" involves an interpretive identification: balanced Navier–Stokes configurations are treated as the dynamical states that would support integrable first-order shear transport. This identification is natural but not proven from first principles within Navier–Stokes. An independent derivation showing that the NS nonlinearity forces the first-order shear operator into the nullspace of the self-consistent stress—without passing through the finite-residence observation—would close this gap deductively.
 

@@ -4,9 +4,9 @@ description: "DNS at Re_λ ≈ 430 shows states balancing vortex stretching and 
 pubDate: '2026-01-17'
 category: 'supporting'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701890
-zenodoUrl: "https://zenodo.org/records/18701890"
-doi: "10.5281/zenodo.18701890"
+zenodoDepositionId: 18724809
+zenodoUrl: "https://zenodo.org/records/18724809"
+doi: "10.5281/zenodo.18724809"
 keywords:
   - "Navier-Stokes"
   - "vorticity"
@@ -99,7 +99,7 @@ This does not rule out blow-up. It narrows the space of viable mechanisms.
 
 ## Connection to the Geometry of Self-Correction
 
-The structure observed here connects to a broader geometric principle. The [constraint geometry monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) establishes that three curvature sectors—angular, recursive, and discrete—are anticorrelated under triadic tension (Section 3, T2): tightening any one sector forces the others to carry more curvature. A direct consequence, formalized in [The Geometry of Self-Correction](/the-geometry-of-self-correction), is that balanced states are transversely unstable. When constraints are state-dependent—when admissible correction directions depend on where the system currently sits—projection of a gradient proposal onto the feasible set generically introduces irreducible curl into the effective dynamics. Systems with curl-free correction fields exhibit pure convergence; systems with nonzero curl cycle indefinitely. The cycling is structural rather than parametric, with its floor set by the Hodge spectral gap of the constraint manifold.
+The structure observed here connects to a broader geometric principle. The [constraint geometry framework](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) establishes that three curvature sectors—angular, recursive, and discrete—are anticorrelated under triadic tension (Section 3, T2): tightening any one sector forces the others to carry more curvature. A direct consequence, formalized in [The Geometry of Self-Correction](/the-geometry-of-self-correction), is that balanced states are transversely unstable. When constraints are state-dependent—when admissible correction directions depend on where the system currently sits—projection of a gradient proposal onto the feasible set generically introduces irreducible curl into the effective dynamics. Systems with curl-free correction fields exhibit pure convergence; systems with nonzero curl cycle indefinitely. The cycling is structural rather than parametric, with its floor set by the Hodge spectral gap of the constraint manifold.
 
 In Navier–Stokes, the nonlinear term $(\omega\cdot\nabla)u$ is a self-projection of the flow onto its own strain geometry, while viscosity acts as a smoothing projection. The empirical result is consistent with a geometric hypothesis: the Navier–Stokes nonlinearity induces transient curl, but viscosity prevents curl-supporting configurations from remaining integrable across scales. Stretching can spike, but the cascade geometry cannot remain integrable long enough to lock in a singularity—exactly the structure proved abstractly for projected gradient flows, where feasibility-induced curl creates cycling but cycling configurations are not energetically stationary.
 
@@ -121,7 +121,7 @@ Boundary-driven or forced blow-up scenarios—external forcing, nonperiodic doma
 
 Taken together, the finite-residence result constrains all blow-up mechanisms that rely on sustained local balance between stretching and recursive scale-feeding, including classical anti-parallel vortex intuitions, self-similar collapse, and turbulence-cascade-based heuristics. It does not claim to constrain purely nonlocal, purely intermittent, boundary-driven, or highly artificial constructions. The result identifies a configuration widely assumed to be dangerous and shows it is not dynamically persistent.
 
-## Attack Surface
+## Limitations and Falsifiability
 
 The finite-residence observation rests on empirical evidence and geometric reasoning, not on a closed proof. Several specific failure modes would undermine the result, and each is testable.
 

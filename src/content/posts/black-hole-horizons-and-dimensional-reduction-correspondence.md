@@ -4,9 +4,9 @@ description: "Five independent frameworks—geometry, thermodynamics, topology, 
 pubDate: '2025-08-22'
 category: 'supporting'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701912
-zenodoUrl: "https://zenodo.org/records/18701912"
-doi: "10.5281/zenodo.18701912"
+zenodoDepositionId: 18724797
+zenodoUrl: "https://zenodo.org/records/18724797"
+doi: "10.5281/zenodo.18724797"
 keywords:
   - "black hole thermodynamics"
   - "dimensional reduction"
@@ -28,7 +28,7 @@ zenodoDescription: |
   Observable predictions include quasi-normal mode phase correlations constrained by holographic bounds, spectral features at characteristic phase intervals Δψ = 2π/n_max, and potential waveform phase jumps in LISA extreme mass ratio inspiral observations. The dual-sector structure bears on the information paradox by providing processing capacity (2N_BH operations) exceeding storage (N_BH bits), sufficient for complete information throughput during evaporation.
 ---
 
-Five independent mathematical frameworks—differential geometry, thermodynamics, topology, information theory, and entropic gravity—converge on the same structural conclusion about black hole horizons. Extreme gravitational fields force dimensional reduction from three spatial dimensions to two, with the radial direction compactifying into a topological circle. The convergence is not approximate: each framework independently produces 2D surface dynamics with dual chiral sectors, $S^3$ topology from radial compactification, and quantized winding numbers. The routes are entirely different. The destination is the same.
+Five independent mathematical frameworks—differential geometry, thermodynamics, topology, information theory, and entropic gravity—converge on the same structural conclusion about black hole horizons. Extreme gravitational fields force dimensional reduction from three spatial dimensions to two, with the radial direction compactifying into a topological circle. The convergence is exact: each framework independently produces 2D surface dynamics with dual chiral sectors, $S^3$ topology from radial compactification, and quantized winding numbers.
 
 Recent gravitational wave observations reinforce the picture. LIGO-Virgo's detection of GW250114 confirmed the second law of black hole thermodynamics to 4.4$\sigma$ confidence—final horizon area exceeded the sum of initial areas by measurable margin[^1], validating decades of theoretical work on event horizon structure[^2][^3].
 
@@ -128,13 +128,13 @@ The topology demands dimensional reduction. The $S^3$ structure encodes 3D infor
 
 Processing rate constraints reveal dimensional structure through computational capacity bounds. Black holes saturate the Planck frequency limit $f_P = \sqrt{c^5/(\hbar G)} = 1.855 \times 10^{43}$ Hz[^10], representing the fastest possible information processing.
 
-For a 10 $M_{\odot}$ black hole, the total processing rate is,
+For a 10 $M_{\odot}$ black hole with $N_{BH} = A/(4l_P^2) \approx 1.05 \times 10^{79}$ bits, the total processing rate—each bit operating at Planck frequency—is,
 
 $$
-\dot{I} = f_P \frac{A}{4l_P^2} = f_P \times (1.09 \times 10^{79}) = 3.5 \times 10^{81} \text{ bits/s}.
+\dot{I} = f_P \times N_{BH} \approx 1.9 \times 10^{122} \text{ bits/s}.
 $$
 
-This massive rate distributes across $10^{79}$ independent channels, each operating at $f_P$—the horizon functions as a massively parallel processor. By contrast, information loss through Hawking radiation at temperature $T_H = 6.2 \times 10^{-9}$ K yields approximately $10^4$ bits/s, a ratio of $\dot{I}_H/\dot{I}_p = 10^{-77}$ that demonstrates extreme processing efficiency.
+This distributes across $\sim 10^{79}$ independent channels, each operating at $f_P$—the horizon functions as a massively parallel processor. By contrast, the Hawking luminosity $L_H = \hbar c^6/(15360\pi G^2 M^2) \approx 9 \times 10^{-31}$ W yields an information emission rate of $L_H/(k_B T_H \ln 2) \sim 10^1$ bits/s. The ratio $\dot{I}_H/\dot{I}_p \sim 10^{-121}$ demonstrates that the horizon's internal processing capacity exceeds its information output by over 120 orders of magnitude.
 
 This efficiency requires specific architecture. Three-dimensional processing at Planck-scale densities would require coordinating information flow across all three dimensions simultaneously, with communication overhead scaling as $N^{4/3}$. Two-dimensional surface processing scales as $N$, eliminating the coordination bottleneck.
 
@@ -194,11 +194,11 @@ LISA observations[^17] of extreme mass ratio inspirals will probe near-horizon s
 
 ## Implications
 
-The dual-sector structure with $N_{max} = 2N_{BH}$ bears directly on the information paradox[^18]. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, providing sufficient capacity for complete information throughput during evaporation. The factor of 2 emerges from the topological structure of 2D surfaces supporting independent chiral sectors—it is exact, not approximate.
+The dual-sector structure with $N_{max} = 2N_{BH}$ bears directly on the information paradox[^18]. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, providing sufficient capacity for complete information throughput during evaporation. The factor of 2 emerges from the topological structure of 2D surfaces supporting independent chiral sectors and is exact.
 
-Within the [constraint geometry framework](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), dimensional reduction at horizons represents the endpoint of the coupled $(\xi, \mathcal{D})$ flow derived in that monograph's Section 5. As the maintenance fraction $\xi$ approaches 1, the dimensional flow equation $d\mathcal{D}/d\mu = -(\xi/u^*)\ln\varphi$ drives effective dimension toward 2. Black holes are the unique physical systems that simultaneously saturate all three curvature sectors—the $\varphi$-sector as radial information flow freezes, the $\pi$-sector as angular degrees of freedom pack at maximal isotropic density, and the $N$-sector as discrete information storage reaches the Bekenstein-Hawking bound. The five-path convergence documented here provides independent mathematical confirmation that the $\mathcal{D} \to 2$ fixed point is not merely a formal consequence of the RG flow but reflects genuine geometric reorganization at horizons.
+Within the [constraint geometry framework](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), dimensional reduction at horizons represents the endpoint of the coupled $(\xi, \mathcal{D})$ flow derived in §5 of that post. As the maintenance fraction $\xi$ approaches 1, the dimensional flow equation $d\mathcal{D}/d\mu = -(\xi/u^*)\ln\varphi$ drives effective dimension toward 2. Black holes are the unique physical systems that simultaneously saturate all three curvature sectors—the $\varphi$-sector as radial information flow freezes, the $\pi$-sector as angular degrees of freedom pack at maximal isotropic density, and the $N$-sector as discrete information storage reaches the Bekenstein-Hawking bound. The five-path convergence documented here provides independent mathematical confirmation that the $\mathcal{D} \to 2$ fixed point reflects genuine geometric reorganization at horizons.
 
-## Attack Surface
+## Limitations and Falsifiability
 
 The five-path convergence is the paper's central claim, and each path represents a potential failure mode. If a consistent 3D interior description of horizon physics can be maintained with finite action—contradicting the entropic gravity path—then the dimensional reduction may be an artifact of coordinate choice rather than physical reorganization. If the factor-of-two relationship $N_{max} = 2N_{BH}$ receives corrections from quantum gravity effects (loop quantum gravity, string theory microstate counting), the dual chiral sector interpretation loses its exactness. If LISA observations of extreme mass ratio inspirals show no evidence of winding structure (no phase jumps at $\Delta f/f \sim 1/n_{max}$), the topological sector predictions would be empirically excluded. The convergence argument is strongest when all five paths remain independently valid—breaking any one weakens the case but does not eliminate the others, while confirming the predicted observable signatures would substantially strengthen it.
 

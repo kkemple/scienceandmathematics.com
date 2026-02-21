@@ -4,9 +4,9 @@ description: "The maintenance hierarchy places biology at ξ ~ 0.1. Recursive se
 pubDate: '2025-09-17'
 category: 'applications'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701907
-zenodoUrl: "https://zenodo.org/records/18701907"
-doi: "10.5281/zenodo.18701907"
+zenodoDepositionId: 18724814
+zenodoUrl: "https://zenodo.org/records/18724814"
+doi: "10.5281/zenodo.18724814"
 keywords:
   - "consciousness"
   - "thermodynamics"
@@ -105,7 +105,7 @@ The framework predicts where consciousness appears. It does not explain why expe
 
 The framework is agnostic on free will. Whether systems at $\xi \sim 0.1$ exercise genuine agency or follow deterministic dynamics experienced subjectively as choice is a question the thermodynamic anthropic principle does not address.
 
-## Attack Surface
+## Scope and Limitations
 
 **The window's boundaries are empirical.** The placement of the consciousness window at $\xi \sim 0.05$-$0.15$ is observed, not derived from the constraint geometry. If artificial systems achieve recursive self-modeling at substantially lower $\xi$ through architectural innovation, the anthropic argument weakens—the window would reflect biological architecture rather than thermodynamic necessity.
 

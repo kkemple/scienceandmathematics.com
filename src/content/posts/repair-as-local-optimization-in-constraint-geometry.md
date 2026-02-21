@@ -4,9 +4,9 @@ description: "Repair is local optimization under geometric constraint—it bends
 pubDate: '2026-02-09'
 category: 'supporting'
 updatedDate: '2026-02-10'
-zenodoDepositionId: 18701918
-zenodoUrl: "https://zenodo.org/records/18701918"
-doi: "10.5281/zenodo.18701918"
+zenodoDepositionId: 18724813
+zenodoUrl: "https://zenodo.org/records/18724813"
+doi: "10.5281/zenodo.18724813"
 zenodoDescription: |
   Repair is local optimization under irreducible geometric constraint. This paper introduces repair as a first-class process in the constraint geometry framework, proving via a Repair–Geometry Compatibility lemma that any repair operation traversing a non-integrable feasibility map incurs a strictly positive geometric overhead bounded below by the Hodge spectral gap. Two empirically distinct modes emerge—persistent local optimization (aging-like decay) and net-positive structural repair (sharp threshold)—captured by a single gating function whose sharpness classifies system regimes. The repair-augmented RG system couples maintenance load, effective dimension, and repair actuation with explicit parameter dependence. Empirical validation from 7,515 Gaia DR3 white dwarfs reveals a sharp compactness-controlled threshold at R/R_S ≈ 10³ (14.5σ, Wilcoxon p = 4.3 × 10⁻⁸⁴), with a monotonic gradient from +345 Myr median excess in the ultra-massive 500–700 bin (using relativistic ONe-core tracks) through +108 Myr at 700–900 to null above R/R_S ≈ 1300, yielding ξ_crit = 0.46 and total overhead c = 0.292.
 keywords:
@@ -181,7 +181,7 @@ The answer is structurally constrained. Repair bends the RG vector field without
 
 The [self-correction framework's](/the-geometry-of-self-correction) curl floor provides the lower bound that makes the two-mode structure possible. If there were no geometric minimum, repair could in principle eliminate all circulation and the system would admit a global potential—contradicting Theorem 4. The existence of the floor means that even in Mode II, where repair is net-positive, there is a structural limit to recovery. The system can remove excess curl but not the irreducible geometric contribution, and this limit is what ultimately distinguishes repair from reversal.
 
-## Attack Surface
+## Limitations and Falsifiability
 
 The Repair–Geometry Compatibility lemma establishes that $c_{\mathrm{geom}}$ is bounded below by $\kappa \, \lambda_1^\perp \, |\delta\alpha_{\mathrm{rep},\perp}|^2$, anchoring the repair threshold in the same spectral geometry that sets the curl floor. The white dwarf cooling analysis constrains the total overhead to $c = 0.292$, which in turn constrains the product $\kappa \, \lambda_1^\perp \, |\delta\alpha_{\mathrm{rep},\perp}|^2$ from above. Computing $\kappa$ independently from the spectral properties of the Hodge Laplacian on the white dwarf constraint manifold would close this loop: if the predicted $c_{\mathrm{geom}}$ matches the empirically inferred $c$, it would confirm that the overhead is predominantly geometric rather than architectural.
 

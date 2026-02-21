@@ -4,9 +4,9 @@ description: "Hilbert's 1900 call for axiomatic physics asked whether nature dem
 pubDate: '2026-01-10'
 category: 'applications'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701908
-zenodoUrl: "https://zenodo.org/records/18701908"
-doi: "10.5281/zenodo.18701908"
+zenodoDepositionId: 18724807
+zenodoUrl: "https://zenodo.org/records/18724807"
+doi: "10.5281/zenodo.18724807"
 zenodoDescription: |
   In 1900, David Hilbert challenged mathematicians to axiomatize physics with the same rigor as geometry. The sixth of his famous problems specifically called for a mathematical treatment of probability in mechanics. Over a century later, the problem remains formally open.
 
@@ -138,7 +138,7 @@ Similarly, explaining why a cutoff must exist differs from deriving quantum mech
 
 What the analysis does provide is a physical reason for statistical description in mechanics. Hilbert asked for rigorous foundations. The answer emerging from a century of physics is that finite information capacity is the foundation. Statistics enters physics because the alternative—infinite-precision determinism—requires infinite information that finite physical systems cannot process.
 
-## Attack Surface
+## Scope and Limitations
 
 **The information-theoretic reframing itself.** The claim that Hilbert's question "reduces to" whether nature requires infinite information is an interpretive move, not a derivation. One could accept all three physical bounds while denying that they answer Hilbert's question, which asked for axioms, not physical explanations. The reframing offers explanatory closure but not the formal resolution Hilbert sought.
 

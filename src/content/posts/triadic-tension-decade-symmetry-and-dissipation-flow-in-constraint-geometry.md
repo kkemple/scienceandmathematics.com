@@ -2,9 +2,9 @@
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
 description: "Three curvature sectors compete under one constraint functional on S³/2I. Their incompatibility forces ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a geometrically determined β-function."
 pubDate: '2025-11-28'
-zenodoDepositionId: 18718088
-zenodoUrl: "https://zenodo.org/records/18718088"
-doi: "10.5281/zenodo.18718088"
+zenodoDepositionId: 18724816
+zenodoUrl: "https://zenodo.org/records/18724816"
+doi: "10.5281/zenodo.18724816"
 updatedDate: '2026-02-17'
 category: 'core'
 order: 2
@@ -152,7 +152,7 @@ encodes correlations among sector fluctuations. The sign and magnitude of the of
 
 The constraint functional $F[P] = F_\pi[P] + F_\varphi[P] + F_N[P]$ decomposes into three curvature sectors that cannot be simultaneously minimized. This mutual incompatibility—triadic tension—is the foundational structural claim of the framework. It forces nonzero ground-state curvature, generates the composite invariant $I = 4\pi\varphi^2$, and ultimately determines the RG coupling $u^* = I/10$ that governs all dissipation flow.
 
-If this claim fails—if some configuration simultaneously minimizes all three sectors—then the ground state carries zero curvature, the composite invariant $I$ vanishes, $u^* = 0$, the $\beta$-function has zero coupling, and the entire RG structure collapses. The claim must therefore be proven, not assumed. What follows is a theorem with checkable hypotheses, a rigorous proof, and clearly identified conditions for failure.
+If this claim fails—if some configuration simultaneously minimizes all three sectors—then the ground state carries zero curvature, the composite invariant $I$ vanishes, $u^* = 0$, the $\beta$-function has zero coupling, and the entire RG structure collapses.
 
 ### 3.1 Statement of the Theorem
 
@@ -304,6 +304,20 @@ $$
 
 The cross-susceptibility $\partial_{\lambda_j}\langle K_i \rangle_\lambda$ can be estimated numerically by finite differences: compute $\langle K_i \rangle$ at two nearby values of $\lambda_j$ and verify that the difference is positive. This provides a direct numerical test of T2 independent of the geometric arguments above.
 
+**Numerical verification.** The cross-susceptibility argument has been instantiated on a finite-dimensional model of the Gibbs ensemble. Angular probability distributions $P(\theta; a_1, a_2) \propto \exp(a_1\cos 10\theta + a_2\cos 7\theta)$ on $N = 360$ bins parametrize competing $C_{10}$ and $C_7$ order, where the coprime frequencies ($\gcd(7, 10) = 1$) mirror the incommensurability of $\ln\varphi$ and $\ln 10$ in the physical sectors. The sector functionals are discrete angular Fisher information $K_\pi$, absence of $C_{10}$ order $K_N = 1 - |\psi_{10}|^2$, and absence of $C_7$ order $K_\varphi = 1 - |\psi_7|^2$. Ensemble averages and covariances were computed by direct numerical integration over a $200 \times 200$ grid in $(a_1, a_2) \in [0, 8]^2$, with cross-susceptibilities obtained by symmetric central finite differences ($\delta\lambda = 0.05$).
+
+At representative parameters $(\tau = 0.01, \lambda_\pi = \lambda_\varphi = \lambda_N = 1)$, the cross-susceptibility matrix $R_{ij} = \partial_{\lambda_j}\langle K_i \rangle$ has all six off-diagonal entries strictly positive: $R_{\pi\varphi} = +0.036$, $R_{\pi N} = +0.069$, $R_{\varphi N} = +0.002$, confirming that tightening any one sector forces the other two to carry more curvature. Via $\Sigma_{ij} = -\tau R_{ij}$, all six off-diagonal covariances are strictly negative, with eigenvalues $\{1.70 \times 10^{-5}, 7.49 \times 10^{-4}, 1.59 \times 10^{-3}\}$, all positive (confirming T3).
+
+The result is robust across two orders of magnitude in effective temperature ($\tau \in [0.002, 0.1]$) and a factor of 2.5 in regularization width ($\sigma \in \{2, 3, 5\}$): all six off-diagonal covariances remain strictly negative in every tested configuration. Changing $\tau$ and $\sigma$ alters the magnitudes of the covariances but never flips their signs.
+
+The covariance magnitudes satisfy a persistent hierarchy:
+
+$$
+|\Sigma_{\pi N}| > |\Sigma_{\pi\varphi}| \gg |\Sigma_{\varphi N}|.
+$$
+
+The $\pi$–$N$ anticorrelation is strongest because isotropy and $C_{10}$ order are directly antagonistic—the same angular degree of freedom (smoothness vs. peaks) mediates both. The $\pi$–$\varphi$ anticorrelation is intermediate for the same structural reason applied to the incommensurate sector. The $\varphi$–$N$ anticorrelation is weakest because $C_{10}$ and $C_7$ order compete indirectly: both require angular peaks, but the peak positions are incompatible. The anticorrelation is real but structurally weaker because both order parameters draw from the Fisher information budget simultaneously.
+
 ### 3.4 Strict Positive Definiteness (T3)
 
 **Proof of T3.** The covariance matrix $\Sigma$ is a $3 \times 3$ real symmetric matrix with $\Sigma_{ii} > 0$ (positive diagonal, since each sector has nonzero variance at the non-minimizing ground state) and $\Sigma_{ij} < 0$ for $i \neq j$ (negative off-diagonal, by T2). As a covariance matrix, $\Sigma$ is positive semidefinite ($\det(\Sigma) \geq 0$).
@@ -370,13 +384,17 @@ where $\lambda_\varphi = \varphi^2$ is the recursion eigenvalue (from $x^2 = x+1
 
 The constraint functional arises from projecting a 6D periodic lattice to 3D, producing the orbifold $S^3/\mathrm{2I}$ (the Poincaré homology sphere). The same projection that creates the frustration also creates a spectral gap: scalar fields on $S^3/\mathrm{2I}$ decompose into Kaluza–Klein modes, and the orbifold quotient deletes every mode not invariant under $\mathrm{2I}$. The surviving spins form the numerical semigroup $\langle 6, 10, 15 \rangle$, with 15 gaps. Those 15 missing KK modes are what the frustration looks like spectrally. The nonzero ground-state curvature $I > 0$ is what it looks like variationally. The two descriptions—spectral and variational—are dual readouts of one projection. The full chain from the 6D lattice through the KK spectrum to the $\beta$-function is developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion).
 
-### 3.7 Attack Surface
+### 3.7 Limitations and Falsifiability
 
-The theorem rests on checkable claims. Each represents a potential failure mode. Five items previously on this surface—sector decoupling, positive covariances, functional dependence, degenerate ensemble support, and the vertex selection rule gap—have been verified computationally and are now closed. The incompatibility gaps ($\delta_{\pi\varphi} \geq 72.1$, $\delta_{\varphi N}/A^2 = 0.745$, $\delta_{\pi N} \geq 72.1$) are established in §3.2. The covariance signs, eigenvalue positivity, and ensemble support are verified on a parametric angular model. The vertex selection rule operator, prefactor, and periodicity argument are supplied in §5.8 with numerical confirmation. Two open items remain.
+The theorem rests on checkable claims. Each represents a potential failure mode.
 
-**The $I = 4\pi\varphi^2$ identity (kills the corollary).** The value $\kappa_\pi = 4\pi$ is derived from dimensional reduction at the IR fixed point, topological classification forcing genus 0, and Gauss–Bonnet on $S^2$ (§3.6). Any deviation from $S^2$ would require violating at least one of: compactness of the angular manifold (contradicting normalization), orientability (contradicting binary closure), the genus-0 requirement (contradicting T4, which requires $\kappa_\pi > 0$), or the dimensional flow to $\mathcal{D} = 2$ (contradicting the $\beta$-function's fixed-point structure). The identification $K_\varphi[P_0] = \varphi^2$ from the recursive fixed-point equation $x = 1 + 1/x$ is independently checkable. If either the angular manifold's effective topology differs from $S^2$ through a mechanism that evades all four constraints, or if the ground-state density modifies the effective curvature integral, then $I$ changes and $u^*$ shifts.
+The incompatibility gaps ($\delta_{\pi\varphi} \geq 72.1$, $\delta_{\varphi N}/A^2 = 0.745$, $\delta_{\pi N} \geq 72.1$) are computed from tiling data in §3.2. The covariance signs, eigenvalue positivity, and ensemble support are verified on a parametric angular model in §3.3. The vertex selection rule operator, prefactor, and periodicity argument are supplied in §5.8 with numerical confirmation. If a configuration were found that simultaneously minimizes two sectors, T1 fails and the frustration picture collapses. If the off-diagonal covariances $\Sigma_{ij}$ are non-negative for any pair, T2 fails. If a linear relation among the three curvature observables exists on $\Omega$, T3 fails.
 
-**Eigenmode transition dynamics (tests cosmological prediction).** The $\beta$-function's cosmological consequences—eigenmode switching at $z \approx 0.63$, the dark energy equation of state from the N-sector curvature pump, and the approach window $[\xi_c, u^*/10] = [0.304, 0.329]$—are developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion). Open: first-principles derivation of the bare constraint coupling in the pump amplitude from the Euler–Lagrange equation.
+Two structural vulnerabilities remain.
+
+**The $I = 4\pi\varphi^2$ identity.** The value $\kappa_\pi = 4\pi$ is derived from dimensional reduction at the IR fixed point, topological classification forcing genus 0, and Gauss–Bonnet on $S^2$ (§3.6). Any deviation from $S^2$ would require violating at least one of: compactness of the angular manifold (contradicting normalization), orientability (contradicting binary closure), the genus-0 requirement (contradicting T4, which requires $\kappa_\pi > 0$), or the dimensional flow to $\mathcal{D} = 2$ (contradicting the $\beta$-function's fixed-point structure). The recursion eigenvalue $\lambda_\varphi = \varphi^2$ from the fixed-point equation $x = 1 + 1/x$ is independently checkable. If either the angular manifold's effective topology differs from $S^2$ through a mechanism that evades all four constraints, or if the ground-state density modifies the effective curvature integral, then $I$ changes and $u^*$ shifts.
+
+**Eigenmode transition dynamics.** The $\beta$-function's cosmological consequences—eigenmode switching at $z \approx 0.63$, the dark energy equation of state from the N-sector curvature pump, and the approach window $[\xi_c, u^*/10] = [0.304, 0.329]$—are developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion). A first-principles derivation of the bare constraint coupling in the pump amplitude from the Euler–Lagrange equation would strengthen this link.
 
 ### 3.8 Precedent and Novelty
 

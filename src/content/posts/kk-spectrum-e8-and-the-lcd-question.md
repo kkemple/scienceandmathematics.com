@@ -2,9 +2,9 @@
 title: 'The Kaluza–Klein Spectrum on the Poincaré Homology Sphere'
 description: "The scalar KK tower on S³/2I has a gap structure controlled by the numerical semigroup ⟨6,10,15⟩ of the E₈ singularity. Fifteen levels are forbidden and d_eff crosses from 2.61 to 3 at the Coxeter number."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18718087
-zenodoUrl: "https://zenodo.org/records/18718087"
-doi: "10.5281/zenodo.18718087"
+zenodoDepositionId: 18724808
+zenodoUrl: "https://zenodo.org/records/18724808"
+doi: "10.5281/zenodo.18724808"
 category: 'core'
 order: 3
 zenodoDescription: |
@@ -259,7 +259,7 @@ The two dimensions answer different questions. 6D is the minimum embedding dimen
 
 The chain is forced. Negative selection gives $C_{10}$. $C_{10}$ on $S^3$ gives $\mathrm{2I}$. $\mathrm{2I}$ acting on $\mathbb{C}^2$ gives the Klein invariants. The Klein invariants satisfy the $E_8$ surface equation. The McKay correspondence confirms the identification. The spectral content—15 forbidden levels, protection factor 56×, genus $= h/2$, Frobenius number 29—follows from the invariant ring structure alone.
 
-## 10. Attack Surface
+## 10. Limitations and Falsifiability
 
 The computation rests on the character orthogonality formula applied to the known conjugacy classes of $\mathrm{2I}$[^11]. The conjugacy class data—sizes, orders, and half-angle parameters—are standard results in the representation theory of finite groups. The semigroup identification is verified by direct enumeration up to $l = 500$; discrepancy at any single level would falsify the correspondence.
 

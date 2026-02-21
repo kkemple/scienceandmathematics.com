@@ -4,9 +4,9 @@ description: "Magnetic helicity decays slower than energy by the squared scale r
 pubDate: '2026-02-08'
 category: 'supporting'
 updatedDate: '2026-02-10'
-zenodoDepositionId: 18701922
-zenodoUrl: "https://zenodo.org/records/18701922"
-doi: "10.5281/zenodo.18701922"
+zenodoDepositionId: 18724812
+zenodoUrl: "https://zenodo.org/records/18724812"
+doi: "10.5281/zenodo.18724812"
 zenodoDescription: |
   Magnetic helicity—the integral measuring linkage and twist of divergence-free field lines—serves as a physical curl inventory whose decay timescale exceeds the energy decay timescale by a factor controlled entirely by scale separation. A Monte Carlo sweep across carrier and dissipative scales produces a universal stiffness collapse onto the linear law τ_H/τ_U ≈ 0.97X + 0.03, where X = (k_rms/k_c)².
 
@@ -155,7 +155,7 @@ The [compressor instantiation](/compressors-curl-and-constraint-geometry) of the
 
 Experimental evidence for spectral reorganization under non-integrable perturbation comes from non-Hermitian acoustic Chern lattices, where a single dislocation defect collapses bulk-extended states onto the defect site and converts boundary skin effects to dislocation-bound ones[^4]—a finite local constraint reshaping the global operator spectrum, consistent with the projection-induced spectral restructuring described here.
 
-## Attack Surface
+## Limitations and Falsifiability
 
 The stiffness law $\tau_H/\tau_U \approx 0.97X + 0.03$ is derived in a linear, non-interacting Fourier model. Any nonlinear coupling—turbulent cascades, inverse helicity transfer, reconnection-driven redistribution—would alter the quantitative relationship, potentially strengthening protection (as inverse cascades in 3D MHD are known to do[^5]) or weakening it. The law establishes a lower bound on topological stiffness in the simplest possible setting; whether it survives as an approximate scaling in more complex dynamics is an empirical question addressable by MHD simulation.
 

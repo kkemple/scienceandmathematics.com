@@ -2,9 +2,9 @@
 title: 'ADE Domain Walls and Branch Selection'
 description: "Domain wall energies between ADE branches are finite, spanning 456×. Gap-set nesting makes E₈ maximal under inclusion. Thermal stability and frozen tunneling make selection primordial and irreversible."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18701884
-zenodoUrl: "https://zenodo.org/records/18701884"
-doi: "10.5281/zenodo.18701884"
+zenodoDepositionId: 18724795
+zenodoUrl: "https://zenodo.org/records/18724795"
+doi: "10.5281/zenodo.18724795"
 category: 'core'
 order: 4
 zenodoDescription: |
@@ -178,7 +178,7 @@ Five independent properties converge on $E_8$:
 
 Legs 1–3 establish why $E_8$ is the spectrally preferred branch. Leg 4 identifies the epoch at which selection occurs. Leg 5 proves the selection is permanent.
 
-## 7. Attack Surface
+## 7. Limitations and Falsifiability
 
 The hard tension model treats each evanescent mode as contributing independently to the wall energy. Interference effects between evanescent modes, and the detailed spatial profile of the domain wall (which depends on the compactification dynamics), could modify the numerical values. The ordering of the hierarchy is controlled by the combinatorics of the mismatch sets and is robust to the details of the tension functional.
 

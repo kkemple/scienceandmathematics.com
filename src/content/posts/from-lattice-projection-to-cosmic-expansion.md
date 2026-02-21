@@ -2,9 +2,9 @@
 title: 'From 6D Lattice Projection to 3D Cosmic Expansion'
 description: "One projection from 6D produces a spectral gap and a triadic frustration. They feed one β-function whose flow organizes compact objects, derives the area law, and produces accelerated expansion."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18723839
-zenodoUrl: "https://zenodo.org/records/18723839"
-doi: "10.5281/zenodo.18723839"
+zenodoDepositionId: 18724804
+zenodoUrl: "https://zenodo.org/records/18724804"
+doi: "10.5281/zenodo.18724804"
 category: 'core'
 order: 1
 zenodoDescription: |
@@ -52,7 +52,7 @@ The image $\pi_\parallel(\Lambda)$ is a 3D Penrose tiling—aperiodic because th
 
 The symmetry group is forced. Three independent requirements eliminate all alternatives. Crystallographic restriction eliminates $C_1, C_2, C_3, C_4, C_6$—these produce resonance lock-in under recursive scaling. $\varphi$-compatibility eliminates every remaining $n \neq 5$, since $2\cos(\pi/n) = \varphi$ has the unique solution $n = 5$. Binary closure on $S^2$ (which carries $\mathbb{Z}_2$ antipodal symmetry) lifts $C_5$ to $C_2 \times C_5 = C_{10}$. On $S^3$, the group implementing $C_{10}$ symmetry is $\mathrm{2I}$.
 
-The orbifold $S^3/\mathrm{2I}$ is now constructed. The next question is what it does to fields living on it—which modes survive the quotient, and how the surviving spectrum differs from that of the parent $S^3$.
+The orbifold $S^3/\mathrm{2I}$ determines which fields survive the quotient and how the surviving spectrum differs from that of the parent $S^3$.
 
 ## The Spectral Gap
 
@@ -122,11 +122,9 @@ with coupled dimensional flow $d\mathcal{D}/d(\ln\mu) = -(\xi/u^*)\ln\varphi$.
 
 The UV fixed point is $(\xi, \mathcal{D}) = (0, 3)$: no organizational structure, full three dimensions. The IR fixed point is $(\xi, \mathcal{D}) = (1, 2)$: complete organizational saturation, two effective dimensions. At $\mathcal{D} = 2$, the dimensional correction vanishes exactly, and the critical exponent takes its universal value $\nu = 1/u^* = 10/(4\pi\varphi^2) \approx 0.304$.
 
-The $\beta$-function is assembled and its fixed points are known — the question is whether the flow between them corresponds to anything physical.
-
 ## The Tier Hierarchy
 
-The $\beta$-function has two fixed points and a flow between them. The question is whether anything physical lives along that flow, and if so, what the observable consequences are.
+Physical systems sit at different points along the flow from $(0, 3)$ to $(1, 2)$, and the $\beta$-function value at each point determines the local dynamics.
 
 ### From Curl to Maintenance Cost
 
@@ -198,7 +196,7 @@ $$
 
 ### Black Hole Tier
 
-All black holes satisfy $\xi = 1$ and $\mathcal{D} = 2$. The formation channel differs — core collapse for stellar-mass, sustained accretion for supermassive — but the end state is identical. The event horizon defines $R = R_S$, Hawking entropy scales as area not volume, and the system is confined to boundary-supported dynamics. The LIGO/Virgo catalog (GWTC, 164 binary black hole mergers) yields spin populations consistent with the $u^*$ prediction at $0.1\sigma$ deviation[^14].
+All black holes satisfy $\xi = 1$ and $\mathcal{D} = 2$. The formation channel differs — core collapse for stellar-mass, sustained accretion for supermassive — but the end state is identical. The event horizon defines $R = R_S$, Bekenstein–Hawking entropy[^12][^13] scales as area not volume, and the system is confined to boundary-supported dynamics. The LIGO/Virgo catalog (GWTC, 164 binary black hole mergers) yields spin populations consistent with the $u^*$ prediction at $0.1\sigma$ deviation[^14].
 
 SMBH mass density is anchored at $\rho_{\mathrm{SMBH}}(0) = 4.3 \times 10^5\,M_\odot\,\mathrm{Mpc}^{-3}$ from the Soltan argument — integrating AGN luminosity across cosmic time with radiative efficiency $\epsilon \approx 0.1$ gives the total accreted mass. Stellar black hole density is constructed from stellar evolution inventories. Since $\xi_{\mathrm{BH}} = 1$ for all black holes, their maintenance contribution is simply their combined mass fraction:
 
@@ -283,7 +281,7 @@ Every system discussed so far — halos, white dwarfs, neutron stars, black hole
 
 ## Accelerated Expansion
 
-Bound systems can complete the flow to $(1, 2)$. The universe fails Stage 1 of the activation cascade—it is unbound—so it responds differently. When the global matter fraction $\Omega_m$ approaches $\xi_c \approx 0.304$, the response is eigenmode transition.
+Bound systems can complete the flow to $(1, 2)$. The universe fails Stage 1 of the activation cascade—it is unbound—so it responds differently. The critical maintenance fraction $\xi_c = 1/u^* \approx 0.304$ is the threshold where the maintenance multiplier $(1-\xi)^{-u^*}$ enters nonlinear divergence—the same divergence that drives white dwarf information bankruptcy. When the global matter fraction $\Omega_m$ approaches this threshold, the response for an unbound system is not collapse but eigenmode transition.
 
 The constraint functional admits different dominant eigenmodes at different epochs. The Euler–Lagrange equation
 
@@ -291,11 +289,9 @@ $$
 -g_\pi \partial_{\theta\theta}\ln P - g_\varphi \partial_{\ell\ell}\ln P + g_N \frac{\delta C_{2\times 5}}{\delta P} = \lambda + \tau(1 + \ln P)
 $$
 
-yields radiation-dominated dynamics ($\pi$-sector dominant) at early times, matter-dominated clustering ($\varphi + N$ sectors dominant) during structure formation, and accelerated expansion ($\pi$-sector dominant again) at late times. The transition occurs at $z \approx 0.63$, when $\Omega_m$ approaches 0.304—the same $\xi_c$ derived from the coupling $u^*$.
+yields radiation-dominated dynamics ($\pi$-sector dominant) at early times, matter-dominated clustering ($\varphi + N$ sectors dominant) during structure formation, and accelerated expansion ($\pi$-sector dominant again) at late times. The transition occurs at $z \approx 0.63$, when $\Omega_m$ approaches $\xi_c = 0.304$. The upper boundary of the transition is set by $u^*/10 = 0.329$—the per-shell curvature budget—where the discrete sector becomes fully binding and the $\pi$-eigenmode takes over. The acceleration onset occurs when $\Omega_\Lambda(z)$ crosses this threshold, which happens at $z = 0.632$, matching the observed $q = 0$ redshift.
 
-Accelerated expansion is the $\pi$-eigenmode of the same constraint functional that produces triadic tension, becoming dominant when the matter sectors approach saturation at the global scale. The matter fraction $\Omega_m \approx 0.31$ and the critical threshold $\xi_c \approx 0.304$ appear as the same quantity in different observational contexts.
-
-The eigenmode transition produces a quantitative prediction for the dark energy equation of state. The acceleration onset occurs when $\Omega_\Lambda(z)$ crosses $u^*/10 = 0.329$, which happens at $z = 0.632$—matching the observed $q = 0$ redshift. The present-day $\Omega_m = 0.315$ sits inside the approach window $[\xi_c, \, u^*/10] = [0.304, \, 0.329]$.
+The present-day $\Omega_m = 0.315 \pm 0.007$ (Planck 2018) sits inside the approach window $[\xi_c, \, u^*/10] = [0.304, \, 0.329]$. The window is a structural attractor. When $\Omega_m$ drops below $\xi_c$, the N-sector desaturates, the $\pi$-eigenmode weakens, structure formation reactivates, and the matter fraction stabilizes. When $\Omega_m$ rises above $u^*/10$, the N-sector saturates, the $\pi$-eigenmode dominates, expansion accelerates, and matter dilutes back down. The feedback holds $\Omega_m$ in the window between the two thresholds derived from the same coupling constant $u^* = 4\pi\varphi^2/10$.
 
 The physical mechanism is the N-sector curvature pump. For $w_0 > -1$ (as DESI observes), $\rho_{DE}$ must increase with $z$ near $z = 0$: dark energy was slightly stronger in the recent past. At higher $z$, $\Omega_m$ is larger, the N-sector is more saturated, and the cross-susceptibility $R_{\pi N} = +0.069 > 0$ (from T2) pumps curvature into the $\pi$-sector, enhancing $\rho_{DE}$. As the N-sector desaturates toward $z = 0$, the pump weakens and $\rho_{DE}$ relaxes toward $\Lambda$. The capped pump model
 
@@ -346,19 +342,19 @@ $$\text{projection} \xrightarrow{\;\text{frustration}\;} I = 4\pi\varphi^2 \xrig
 
 The spectral path delivers $\mathcal{D}$. The frustration path delivers $u^*$. Both are consequences of a single projection, and they converge in the bracket $[u^* + (\mathcal{D}-2)\ln\varphi/2]$.
 
-## Attack Surface
+## Limitations and Falsifiability
 
 **The 6D lattice is assumed.** The Kramer–Neri theorem establishes that 6 is the minimum dimension for icosahedral projection, but does not explain why a 6D lattice exists. The framework begins at the lattice and derives everything downstream.
 
 **The compactification radius $R$ is a free parameter.** Everything else—$u^*$, $\xi_c$, the spectral gap, the tier hierarchy, the expansion onset—follows from the projection. But $R$ sets the energy scale at which KK modes become relevant, and its value is not derived.
 
-**The "+1" in $A = 1 + \mathcal{W}(3)$ has a physical interpretation but not yet a first-principles derivation.** The N-sector curvature pump model yields $w_0 = -0.724$ ($0.4\sigma$ from DESI DR2) and $w_a = -0.746$ ($0.5\sigma$ from DESI DR2). The amplitude $A = \mathcal{W}(3) + 1$ is numerically verified ($\chi^2$ at the derived value matches the numerical optimum to 3 decimal places) and cross-predicts $R_{\pi N}/|R_{\pi\pi}| = (\mathcal{W}(3)+1)/5 = 0.906$ vs measured 0.908 (0.2% match). The "+1" admits a bare + dressed decomposition: $1$ = bare constraint coupling, $\mathcal{W}(3)$ = RG-mediated coupling. A rigorous derivation from the Euler–Lagrange equation showing that the constraint-level response is exactly unity would close this item.
+**The "+1" in $A = 1 + \mathcal{W}(3)$ has a physical interpretation but not yet a first-principles derivation.** The N-sector curvature pump model yields $w_0 = -0.724$ ($0.4\sigma$ from DESI DR2) and $w_a = -0.746$ ($0.5\sigma$ from DESI DR2). The amplitude $A = \mathcal{W}(3) + 1$ is numerically verified ($\chi^2$ at the derived value matches the numerical optimum to 3 decimal places) and cross-predicts $R_{\pi N}/|R_{\pi\pi}| = (\mathcal{W}(3)+1)/5 = 0.906$ vs measured 0.908 (0.2% match). The "+1" admits a bare + dressed decomposition: $1$ = bare constraint coupling, $\mathcal{W}(3)$ = RG-mediated coupling. A rigorous derivation from the Euler–Lagrange equation showing that the constraint-level response is exactly unity would complete this link.
 
 **The $d_{\mathrm{eff}} \to \mathcal{D}$ identification.** The effective spectral dimension from the KK computation enters the $\beta$-function as $\mathcal{D}$, the effective spatial dimension governing the RG flow. This identification is natural but not rigorously derived—it assumes that the spectral content of the orbifold directly controls the dimensional parameter in the Wilsonian flow. A derivation from first principles (showing that the RG blocking procedure on $S^3/\mathrm{2I}$ produces a $\beta$-function with $\mathcal{D} = d_{\mathrm{eff}}$) would strengthen the chain.
 
 **The tier hierarchy placements are approximate.** The $\beta$-function's flow from $(0, 3)$ to $(1, 2)$ produces a hierarchy, but the specific $\xi$ values assigned to halos, white dwarfs, and neutron stars are estimates based on physical properties, not direct computations from the framework. The white dwarf anomaly ($14.5\sigma$ at $u^*/10$) and BH spins ($0.1\sigma$ at $u^*$) provide quantitative contact with data. The other placements need similar observational tests.
 
-**The triadic tension theorem's domain.** T1–T4 are proved for the constraint functional $F[P]$ on entropy-constrained densities with the specific sector functionals $K_\pi$, $K_\varphi$, $K_N$. If alternative sector functionals are equally well-motivated, the specific incompatibility mechanisms (and therefore the numerical value of $I$) could change. The T1 incompatibility proofs are quantitative—three computable gaps $\delta_{\pi\varphi} \geq 72.1$, $\delta_{\varphi N}/A^2 = 0.745$, $\delta_{\pi N} \geq 72.1$—and T2 is verified numerically. The domain question remains open.
+**The triadic tension theorem's domain.** T1–T4 are proved for the constraint functional $F[P]$ on entropy-constrained densities with the specific sector functionals $K_\pi$, $K_\varphi$, $K_N$. If alternative sector functionals are equally well-motivated, the specific incompatibility mechanisms (and therefore the numerical value of $I$) could change. The T1 incompatibility proofs are quantitative—three computable gaps $\delta_{\pi\varphi} \geq 72.1$, $\delta_{\varphi N}/A^2 = 0.745$, $\delta_{\pi N} \geq 72.1$—and T2 is verified numerically. Whether alternative sector functionals could produce the same frustration structure with different numerical values has not been ruled out.
 
 ## References
 

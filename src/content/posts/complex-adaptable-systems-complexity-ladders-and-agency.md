@@ -4,9 +4,9 @@ description: "Complexity builds through a recursive ladder—constraints, struct
 pubDate: '2025-10-18'
 category: 'applications'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701906
-zenodoUrl: "https://zenodo.org/records/18701906"
-doi: "10.5281/zenodo.18701906"
+zenodoDepositionId: 18724800
+zenodoUrl: "https://zenodo.org/records/18724800"
+doi: "10.5281/zenodo.18724800"
 keywords:
   - "complexity"
   - "emergence"
@@ -83,7 +83,7 @@ The window is narrow. Below $\xi \sim 0.05$, organizational depth appears insuff
 
 Reaching the agency window is necessary but not sufficient for strategic behavior. Systems at $\xi \sim 0.1$ can operate in two distinct regimes depending on simulation horizon. When the horizon is adequate—when the system can simulate counterfactual futures far enough ahead—behavior becomes strategic: incurring present cost to reshape future payoffs. When the horizon collapses through stress or resource depletion, even agentic systems revert to gradient-following. The ladder builds the substrate for agency; whether that agency expresses as strategy depends on [horizon adequacy](/simulation-horizons-constraints-and-the-emergence-of-strategic-agency).
 
-## Attack Surface
+## Scope and Limitations
 
 The structural principle rests on claims that can be challenged at several levels.
 

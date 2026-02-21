@@ -4,9 +4,9 @@ description: "Binding energy as thermodynamic maintenance cost via Landauer's pr
 pubDate: '2025-10-14'
 category: 'supporting'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701914
-zenodoUrl: "https://zenodo.org/records/18701914"
-doi: "10.5281/zenodo.18701914"
+zenodoDepositionId: 18724796
+zenodoUrl: "https://zenodo.org/records/18724796"
+doi: "10.5281/zenodo.18724796"
 keywords:
   - "Landauer principle"
   - "binding energy"
@@ -37,19 +37,19 @@ White dwarfs accreting toward the Chandrasekhar limit reveal the mechanism. Geom
 
 [Landauer's principle](/hilberts-sixth-problem-and-the-cost-of-infinite-information) establishes the minimum energy cost for information maintenance against thermal noise—$k_B T \ln 2$ per bit, where $k_B$ is Boltzmann's constant and $T$ is temperature[^1]. Binding energy across all scales represents this ongoing thermodynamic maintenance against entropy. Rather than stored or latent energy that could be released, binding energy quantifies the continuous work required to keep structure coherent. Nuclear binding maintains quark confinement, electromagnetic binding maintains atomic configurations, gravitational binding maintains bulk coherence—each through sustained energy expenditure against thermal randomization.
 
-Any organized system requires bits to specify its configuration. For a bound system with accessible phase space volume $\Omega$, the bit count equals,
+Any organized system requires bits to specify its configuration. For a bound system with $N$ particles of mass $m$ confined to radius $R$ with characteristic momentum $p$, the bit count equals,
 
 $$
 N_{\text{bits}} = \log_2\left(\frac{\Omega}{h^{3N}}\right),
 $$
 
-where $h$ is Planck's constant and $N$ is particle number. Phase space volume scales with both position and momentum degrees of freedom through virial relationships,
+where $\Omega$ is the accessible phase space volume and $h$ is Planck's constant. Each particle contributes $\sim (Rp/\hbar)^3$ states, so the total scales as,
 
 $$
-\Omega \sim \left(\frac{MR}{\hbar}\right)^{3N/2},
+\Omega \sim \left(\frac{Rp}{\hbar}\right)^{3N},
 $$
 
-where $M$ is mass, $R$ is radius, and $\hbar = h/2\pi$.
+where $p \sim \sqrt{GMm/R}$ for gravitationally bound systems at virial equilibrium.
 
 Thermal and quantum fluctuations constantly randomize configurations, requiring continuous energy expenditure,
 
@@ -73,7 +73,7 @@ where $E_a = Mc^2(1 - R_S/R)$ represents energy available for work beyond mainte
 
 ### The Geometric Origin of Maintenance
 
-The thermodynamic tax is not merely an accounting identity—it has a geometric origin. Any organized system enforces feasibility constraints on its dynamics: electron shells confine electrons to quantized orbitals, nuclear binding confines quarks within hadrons, gravitational virial relations confine matter within characteristic radii. These constraints project the system's dynamics onto admissible configurations.
+The thermodynamic tax has a geometric origin. Any organized system enforces feasibility constraints on its dynamics: electron shells confine electrons to quantized orbitals, nuclear binding confines quarks within hadrons, gravitational virial relations confine matter within characteristic radii. These constraints project the system's dynamics onto admissible configurations.
 
 When constraints are state-independent—the same restriction everywhere in phase space—the projected dynamics can still derive from a scalar potential. The system descends toward equilibrium along a well-defined gradient. When constraints vary with state—when the admissible directions depend on where the system currently sits—the projection generically introduces [curl into the effective dynamics](/the-geometry-of-self-correction).
 
@@ -107,7 +107,7 @@ $$
 r_{\text{grav}} = R_S = \frac{2GM}{c^2}.
 $$
 
-The maintenance fraction $\xi$ quantifies the fraction of a system's energy budget devoted to curvature maintenance (Section 5 of the [monograph](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry)). Observed values cluster near decade-spaced plateaus: elementary particles at $\xi \sim 10^{-6}$, atoms at $\sim 10^{-3}$, molecules at $\sim 10^{-2}$, and biological systems at $\sim 10^{-1}$. These values are order-of-magnitude estimates from the characteristic energy scales at each organizational level—the fine structure constant $\alpha^2 \approx 5 \times 10^{-5}$ sets the electromagnetic coupling scale, Bohr-to-nuclear radius ratios set atomic coordination costs, and conformational entropy sets molecular overhead. The decade spacing itself is a prediction of the RG flow with $C_{10}$ symmetry (Section 4 of the monograph), where each RG period spans one decade in scale.
+The maintenance fraction $\xi$ quantifies the fraction of a system's energy budget devoted to curvature maintenance (§5 of [Triadic Tension, Decade Symmetry, & Dissipation Flow](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry)). Observed values cluster near decade-spaced plateaus: elementary particles at $\xi \sim 10^{-6}$, atoms at $\sim 10^{-3}$, molecules at $\sim 10^{-2}$, and biological systems at $\sim 10^{-1}$. These values are order-of-magnitude estimates from the characteristic energy scales at each organizational level—the fine structure constant $\alpha^2 \approx 5 \times 10^{-5}$ sets the electromagnetic coupling scale, Bohr-to-nuclear radius ratios set atomic coordination costs, and conformational entropy sets molecular overhead. The decade spacing itself is a prediction of the RG flow with $C_{10}$ symmetry (§4 of the same post), where each RG period spans one decade in scale.
 
 | Force | $r_{\text{crit}}$ | Typical $r/r_{\text{crit}}$ | Maintenance Cost |
 |-------|------------------|----------------------------|------------------|
@@ -143,7 +143,7 @@ The trajectory reveals the mechanism. Geometric compression $R_S/R$ increases by
 
 ### Basin of Attraction Entrance
 
-The observational anomaly at $R/R_S = 10^3$ corresponds to $M \approx 1.17 M_{\odot}$ where $\xi = 0.46$ and $(1-\xi)^{-u^*} = 5.66$. This marks the boundary where thermodynamic bankruptcy becomes inevitable rather than merely possible—the entrance to the basin of attraction toward organizational collapse. The basin language is precise, not metaphorical: as formalized in the [feasibility projection framework](/finite-residence-feasibility-projections-and-quartic-transport), it suffices that the system's dynamics land within the basin of attraction of the feasibility operator $\Pi_x$, with exact feasibility enforced by the projector rather than the proposal dynamics[^3]. Below $R/R_S \approx 10^3$, proposals that would maintain the current organizational state no longer converge under the feasibility map—the system has exited the projector's attraction basin, and no correction schedule can restore convergence without structural reorganization. The residual-gradient correction framework from constrained diffusion for ACOPF[^3] provides the operational analog: once the infeasibility residual $\mathcal{R}(x)$ exceeds the basin boundary, gradient corrections $x' = x - \lambda\,\nabla_x \mathcal{R}(x)$ no longer converge to a feasible state, and the system must jump to a qualitatively different organizational mode.
+The observational anomaly at $R/R_S = 10^3$ corresponds to $M \approx 1.17 M_{\odot}$ where $\xi = 0.46$ and $(1-\xi)^{-u^*} = 5.66$. This marks the boundary where thermodynamic bankruptcy becomes inevitable rather than merely possible—the entrance to the basin of attraction toward organizational collapse. The basin language is precise: as formalized in the [feasibility projection framework](/finite-residence-feasibility-projections-and-quartic-transport), it suffices that the system's dynamics land within the basin of attraction of the feasibility operator $\Pi_x$, with exact feasibility enforced by the projector rather than the proposal dynamics[^3]. Below $R/R_S \approx 10^3$, proposals that would maintain the current organizational state no longer converge under the feasibility map—the system has exited the projector's attraction basin, and no correction schedule can restore convergence without structural reorganization. The residual-gradient correction framework from constrained diffusion for ACOPF[^3] provides the operational analog: once the infeasibility residual $\mathcal{R}(x)$ exceeds the basin boundary, gradient corrections $x' = x - \lambda\,\nabla_x \mathcal{R}(x)$ no longer converge to a feasible state, and the system must jump to a qualitatively different organizational mode.
 
 Before this threshold, complexity overhead grows slowly—a factor of 3.6 from $M = 0.6$ to $1.17 M_{\odot}$. After crossing $R/R_S = 10^3$, overhead explodes—a factor of 36 from $M = 1.17$ to $1.35 M_{\odot}$. The $(1-\xi)^{-u^*}$ value of 5.66 at the anomaly threshold represents the onset of nonlinear divergence. Systems maintain $\xi < 0.5$ through moderate overhead factors. Beyond $\xi \sim 0.5$, divergence accelerates uncontrollably.
 
@@ -189,7 +189,7 @@ The geometric foundation connects this observation to the [constraint geometry f
 
 The white dwarf trajectory through the basin of attraction threshold at $R/R_S = 10^3$ confirms the predicted mechanism, and the [Type Ia supernova energy](/type-ia-supernova-information-theoretic-energetics) of $4.3 \times 10^{44}$ J from Landauer bit-counting matches observation. Black holes represent the thermodynamic endpoint where all energy maintains horizon structure—maximum entropy as pure maintenance with zero excess capacity. Critical mass phenomena from Chandrasekhar to Oppenheimer-Volkoff limits[^7] emerge as bankruptcy thresholds where organizational modes become unsustainable.
 
-## Attack Surface
+## Limitations and Falsifiability
 
 The binding-as-maintenance interpretation rests on two empirical claims and one theoretical identification. If the white dwarf cooling anomaly at $R/R_S \approx 10^3$ is explained by conventional physics—enhanced neutrino cooling, modified equations of state near the Chandrasekhar limit, or systematic biases in progenitor populations—then the sector saturation interpretation loses its primary evidence, though the Landauer energy calculation would remain independent. If the Type Ia supernova energy match ($4.3 \times 10^{44}$ J) is coincidental rather than causal—if the agreement between Landauer bit-counting and observed energies reflects fortuitous cancellation of errors in the four input parameters—then the framework's strongest quantitative prediction dissolves. The theoretical identification of binding energy with curl-maintenance cost depends on the constraint geometry's claim that state-dependent projections introduce irreducible circulation (Theorem 4 of the [self-correction paper](/the-geometry-of-self-correction)); if that theorem's hypotheses fail on the relevant physical manifolds, the geometric foundation weakens. The methodology appendix below details the empirical analysis and its limitations.
 
