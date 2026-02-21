@@ -2,9 +2,9 @@
 title: 'From 6D Lattice Projection to 3D Cosmic Expansion'
 description: "One projection from 6D produces a spectral gap and a triadic frustration. They feed one β-function whose flow organizes compact objects, derives the area law, and produces accelerated expansion."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18719042
-zenodoUrl: "https://zenodo.org/records/18719042"
-doi: "10.5281/zenodo.18719042"
+zenodoDepositionId: 18723839
+zenodoUrl: "https://zenodo.org/records/18723839"
+doi: "10.5281/zenodo.18723839"
 category: 'core'
 order: 1
 zenodoDescription: |
