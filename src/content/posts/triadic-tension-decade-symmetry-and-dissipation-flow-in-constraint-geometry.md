@@ -2,9 +2,9 @@
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
 description: "Three curvature sectors compete under one constraint functional on S³/2I. Their incompatibility forces ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a geometrically determined β-function."
 pubDate: '2025-11-28'
-zenodoDepositionId: 18716823
-zenodoUrl: "https://zenodo.org/records/18716823"
-doi: "10.5281/zenodo.18716823"
+zenodoDepositionId: 18718088
+zenodoUrl: "https://zenodo.org/records/18718088"
+doi: "10.5281/zenodo.18718088"
 updatedDate: '2026-02-17'
 category: 'core'
 order: 2
@@ -521,9 +521,9 @@ The dominance of the Penrose branch can be quantified through the spectral drive
 | Branch | $\Gamma$ | Semigroup | $\sigma$ | $d_{\mathrm{eff}}$ | Drive |
 |:---|:---|:---|---:|:---:|---:|
 | Penrose ($E_8$) | $\mathrm{2I}$ | $\langle 6,10,15\rangle$ | 56× | 2.61 | 40.7 |
-| Octahedral ($E_7$) | $\mathrm{2O}$ | $\langle 4,6,9\rangle$ | 27× | 2.64 | 19.5 |
-| Tetrahedral ($E_6$) | $\mathrm{2T}$ | $\langle 3,4,6\rangle$ | 16× | 2.65 | 11.7 |
-| Dodecagonal ($D_8$) | $\mathrm{BD}_6$ | $\langle 2,7\rangle$ | 8× | 2.47 | 5.8 |
+| Octahedral ($E_7$) | $\mathrm{2O}$ | $\langle 4,6,9\rangle$ | 27× | 2.68 | 19.5 |
+| Tetrahedral ($E_6$) | $\mathrm{2T}$ | $\langle 3,4,6\rangle$ | 16× | 2.70 | 11.7 |
+| Dodecagonal ($D_8$) | $\mathrm{BD}_6$ | $\langle 2,7\rangle$ | 8× | 2.50 | 5.8 |
 
 The $\beta$-function varies by $\sim$1% across branches; the protection factor $\sigma$ dominates. The Penrose branch has 7× more spectral drive than the dodecagonal branch. Three independent properties converge: $\varphi$ is the worst-approximable irrational (maximal resonance protection), $\mathrm{2I}$ is the largest finite subgroup of $\mathrm{SU}(2)$ (most aggressive mode deletion), and $\langle 6, 10, 15 \rangle$ is the unique ADE semigroup with genus $g = h/2$ (maximally distributed gap structure).
 

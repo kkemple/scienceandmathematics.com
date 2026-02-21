@@ -2,9 +2,9 @@
 title: 'From 6D Lattice Projection to 3D Cosmic Expansion'
 description: "One projection from 6D produces a spectral gap and a triadic frustration. They feed one β-function whose flow organizes compact objects, derives the area law, and produces accelerated expansion."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18705628
-zenodoUrl: "https://zenodo.org/records/18705628"
-doi: "10.5281/zenodo.18705628"
+zenodoDepositionId: 18718086
+zenodoUrl: "https://zenodo.org/records/18718086"
+doi: "10.5281/zenodo.18718086"
 category: 'core'
 order: 1
 zenodoDescription: |
@@ -175,9 +175,9 @@ The spectral drive—the product of protection factor $\sigma$ and $\beta$-funct
 | Branch | $\Gamma$ | Semigroup | $\sigma$ | $d_{\mathrm{eff}}$ | Drive |
 |:---|:---|:---|---:|:---:|---:|
 | Penrose ($E_8$) | $\mathrm{2I}$ | $\langle 6,10,15\rangle$ | 56× | 2.61 | 40.7 |
-| Octahedral ($E_7$) | $\mathrm{2O}$ | $\langle 4,6,9\rangle$ | 27× | 2.65 | 19.5 |
-| Tetrahedral ($E_6$) | $\mathrm{2T}$ | $\langle 3,4,6\rangle$ | 16× | 2.67 | 11.7 |
-| Dodecagonal ($D_8$) | $\mathrm{BD}_6$ | $\langle 2,7\rangle$ | 8× | 2.47 | 5.8 |
+| Octahedral ($E_7$) | $\mathrm{2O}$ | $\langle 4,6,9\rangle$ | 27× | 2.68 | 19.5 |
+| Tetrahedral ($E_6$) | $\mathrm{2T}$ | $\langle 3,4,6\rangle$ | 16× | 2.70 | 11.7 |
+| Dodecagonal ($D_8$) | $\mathrm{BD}_6$ | $\langle 2,7\rangle$ | 8× | 2.50 | 5.8 |
 
 The $\beta$-function varies by $\sim1\%$ across branches; the protection factor dominates. The $E_8$ branch's dominance traces to three independent properties: $\varphi$ is the worst-approximable irrational (maximal resonance protection), $\mathrm{2I}$ is the largest finite subgroup of $\mathrm{SU}(2)$ (most aggressive mode deletion), and $\langle 6, 10, 15 \rangle$ is the unique ADE semigroup achieving genus $g = h/2$ (maximally distributed gap structure).
 
