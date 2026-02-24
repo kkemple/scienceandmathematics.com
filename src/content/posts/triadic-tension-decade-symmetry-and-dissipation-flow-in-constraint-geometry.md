@@ -2,10 +2,10 @@
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
 description: "Three curvature sectors compete under one constraint functional on S³/2I. Their incompatibility forces ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a geometrically determined β-function."
 pubDate: '2025-11-28'
-zenodoDepositionId: 18724816
-zenodoUrl: "https://zenodo.org/records/18724816"
-doi: "10.5281/zenodo.18724816"
-updatedDate: '2026-02-17'
+zenodoDepositionId: 18763111
+zenodoUrl: "https://zenodo.org/records/18763111"
+doi: "10.5281/zenodo.18763111"
+updatedDate: '2026-02-24'
 category: 'core'
 order: 2
 keywords:
@@ -54,13 +54,13 @@ $$
 \beta(\xi, \mathcal{D}) = -\xi(1-\xi)\left[u^* + \frac{\mathcal{D}-2}{2}\ln\varphi\right],
 $$
 
-where $\xi \in [0,1]$ is the dissipation field measuring the fraction of a system's energy budget devoted to curvature maintenance, $\mathcal{D}$ is effective spatial dimension, and $u^* = 4\pi\varphi^2/10 \approx 3.29$ is the tree-level coupling constant. The logistic factor $\xi(1-\xi)$ reflects bounded competition at the two fixed points $\xi = 0$ (no structure) and $\xi = 1$ (all energy in maintenance). The dimensional correction $(\mathcal{D}-2)\ln\varphi/2$ captures recursive degeneracy beyond the critical dimension $\mathcal{D} = 2$. A vertex selection rule enforced by the recursion symmetry (§5.8)—with the operator $T_\varphi(\delta P) = \varphi \cdot \delta P(\theta, \ell + \ln\varphi)$ whose amplitude prefactor $\varphi$ is the Perron–Frobenius eigenvalue of the Penrose substitution matrix—forbids all non-Gaussian couplings at the self-similar fixed point, making the one-loop result exact. The universal critical exponent $\nu = 1/u^* \approx 0.304$ governs how coherence length diverges as systems approach organizational phase transitions.
+where $\xi \in [0,1]$ is the dissipation field measuring the fraction of a system's energy budget devoted to curvature maintenance, $\mathcal{D}$ is the effective spatial dimension identified with the Weyl exponent of the KK spectrum on $S^3/2I$ (§5.2), and $u^* = 4\pi\varphi^2/10 \approx 3.29$ is the tree-level coupling constant. The logistic factor $\xi(1-\xi)$ reflects bounded competition at the two fixed points $\xi = 0$ (no structure) and $\xi = 1$ (all energy in maintenance). The dimensional correction $(\mathcal{D}-2)\ln\varphi/2$ captures recursive degeneracy beyond the critical dimension $\mathcal{D} = 2$. A vertex selection rule enforced by the recursion symmetry (§5.8)—with the operator $T_\varphi(\delta P) = \varphi \cdot \delta P(\theta, \ell + \ln\varphi)$ whose amplitude prefactor $\varphi$ is the Perron–Frobenius eigenvalue of the Penrose substitution matrix—forbids all non-Gaussian couplings at the self-similar fixed point, making the one-loop result exact. The universal critical exponent $\nu = 1/u^* \approx 0.304$ governs how coherence length diverges as systems approach organizational phase transitions.
 
 The constraint functional admits multiple eigenbranch families—Penrose $(\pi, \varphi, 10)$, Ammann–Beenker $(\pi, 1+\sqrt{2}, 8)$, dodecagonal $(\pi, 2+\sqrt{3}, 12)$—each representing a distinct resolution of the triadic competition. The Penrose branch dominates natural systems because the golden ratio is the worst-approximable irrational number (Hurwitz's theorem), providing maximal resonance protection among all candidate inflation eigenvalues. Other branches exist as metastable states with higher ground-state curvature, requiring entropy subsidies to compensate their curvature liability (§4.6).
 
 Penrose polariton quasicrystals realize all three constraint sectors in a single device, achieving mesoscopic coherence exceeding 100 healing lengths when the geometry aligns with the constraint manifold (Section 6). Quantitative tests against white dwarf cooling data, black hole spin populations, and cosmological observations are developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion) and companion posts.
 
-Section 2 defines the constraint functional and derives its Euler–Lagrange equation. Section 3 states and proves the triadic tension theorem. Section 4 establishes the uniqueness of $C_{10}$ through negative selection. Section 5 derives the dissipation $\beta$-function. Section 6 presents the quasicrystal realization. Section 7 summarizes the proven chain and identifies falsification conditions.
+Section 2 defines the constraint functional and derives its Euler–Lagrange equation. Section 3 states and proves the triadic tension theorem. Section 4 establishes the uniqueness of $C_{10}$ through negative selection. Section 5 derives the dissipation $\beta$-function. Section 6 presents the quasicrystal realization. Section 7 summarizes the proven chain.
 
 ## 2. The Constraint Functional
 
@@ -92,7 +92,7 @@ $$
 K_N[P] = C_{2 \times 5}[P].
 $$
 
-The first two are Fisher-information-type curvature penalties[^2][^3]. $K_\pi$ measures angular bending—departure from isotropy. It is minimal when $P$ is rotationally invariant, with $\partial_\theta P = 0$, so that the density depends only on the radial coordinate. $K_\varphi$ measures log-radial bending—departure from scale self-similarity. It is minimal when $P$ follows a power law in $r$, equivalently linear in $\ell$, forced by the fixed-point equation $x = 1 + 1/x$ whose positive root is the golden ratio $\varphi = (1+\sqrt{5})/2$. The third functional $K_N$ is a discrete penalty suppressing configurations incompatible with $C_{10} = C_2 \times C_5$ symmetry.
+The first two are Fisher-information-type curvature penalties[^2][^3]. $K_\pi$ measures angular bending—departure from isotropy. It is minimal when $P$ is rotationally invariant, with $\partial_\theta P = 0$, so that the density depends only on the radial coordinate. $K_\varphi$ measures log-radial bending—departure from scale self-similarity. It is minimal when $P$ follows a power law in $r$, equivalently linear in $\ell$. The golden ratio emerges as the unique inflation eigenvalue: if coarse-graining by factor $\sigma$ and subdividing by $\sigma$ must commute on the radial profile, the separable ansatz $R(r) \propto r^s$ applied to the consistency relation $R(\sigma r) = R(r) + R(r/\sigma)$ yields $\sigma^s = 1 + \sigma^{-s}$, or equivalently $x^2 = x + 1$ with $x = \sigma^s$. The positive root is $\varphi = (1+\sqrt{5})/2$. In curved spacetime where effective dimension $\mathcal{D}$ varies with radius, the same analysis gives $\sigma = \varphi^{1/\mathcal{D}}$; near horizons where $\mathcal{D} \to 2$, this yields $\sigma \to \sqrt{\varphi}$. The third functional $K_N$ is a discrete penalty suppressing configurations incompatible with $C_{10} = C_2 \times C_5$ symmetry.
 
 Each functional is non-negative. Each has a well-defined minimizer on $\Omega$, with existence following from lower semicontinuity of Fisher information on the entropy-constrained set.
 
@@ -384,15 +384,7 @@ where $\lambda_\varphi = \varphi^2$ is the recursion eigenvalue (from $x^2 = x+1
 
 The constraint functional arises from projecting a 6D periodic lattice to 3D, producing the orbifold $S^3/\mathrm{2I}$ (the Poincaré homology sphere). The same projection that creates the frustration also creates a spectral gap: scalar fields on $S^3/\mathrm{2I}$ decompose into Kaluza–Klein modes, and the orbifold quotient deletes every mode not invariant under $\mathrm{2I}$. The surviving spins form the numerical semigroup $\langle 6, 10, 15 \rangle$, with 15 gaps. Those 15 missing KK modes are what the frustration looks like spectrally. The nonzero ground-state curvature $I > 0$ is what it looks like variationally. The two descriptions—spectral and variational—are dual readouts of one projection. The full chain from the 6D lattice through the KK spectrum to the $\beta$-function is developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion).
 
-### 3.7 Limitations and Falsifiability
-
-The theorem rests on checkable claims. Each represents a potential failure mode.
-
-The incompatibility gaps ($\delta_{\pi\varphi} \geq 72.1$, $\delta_{\varphi N}/A^2 = 0.745$, $\delta_{\pi N} \geq 72.1$) are computed from tiling data in §3.2. The covariance signs, eigenvalue positivity, and ensemble support are verified on a parametric angular model in §3.3. The vertex selection rule operator, prefactor, and periodicity argument are supplied in §5.8 with numerical confirmation. If a configuration were found that simultaneously minimizes two sectors, T1 fails and the frustration picture collapses. If the off-diagonal covariances $\Sigma_{ij}$ are non-negative for any pair, T2 fails. If a linear relation among the three curvature observables exists on $\Omega$, T3 fails.
-
-Two structural vulnerabilities remain.
-
-**The $I = 4\pi\varphi^2$ identity.** The value $\kappa_\pi = 4\pi$ is derived from dimensional reduction at the IR fixed point, topological classification forcing genus 0, and Gauss–Bonnet on $S^2$ (§3.6). Any deviation from $S^2$ would require violating at least one of: compactness of the angular manifold (contradicting normalization), orientability (contradicting binary closure), the genus-0 requirement (contradicting T4, which requires $\kappa_\pi > 0$), or the dimensional flow to $\mathcal{D} = 2$ (contradicting the $\beta$-function's fixed-point structure). The recursion eigenvalue $\lambda_\varphi = \varphi^2$ from the fixed-point equation $x = 1 + 1/x$ is independently checkable. If either the angular manifold's effective topology differs from $S^2$ through a mechanism that evades all four constraints, or if the ground-state density modifies the effective curvature integral, then $I$ changes and $u^*$ shifts.
+### 3.7 Limitations
 
 **Eigenmode transition dynamics.** The $\beta$-function's cosmological consequences—eigenmode switching at $z \approx 0.63$, the dark energy equation of state from the N-sector curvature pump, and the approach window $[\xi_c, u^*/10] = [0.304, 0.329]$—are developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion). A first-principles derivation of the bare constraint coupling in the pump amplitude from the Euler–Lagrange equation would strengthen this link.
 
@@ -543,7 +535,7 @@ The dominance of the Penrose branch can be quantified through the spectral drive
 | Tetrahedral ($E_6$) | $\mathrm{2T}$ | $\langle 3,4,6\rangle$ | 16× | 2.70 | 11.7 |
 | Dodecagonal ($D_8$) | $\mathrm{BD}_6$ | $\langle 2,7\rangle$ | 8× | 2.50 | 5.8 |
 
-The $\beta$-function varies by $\sim$1% across branches; the protection factor $\sigma$ dominates. The Penrose branch has 7× more spectral drive than the dodecagonal branch. Three independent properties converge: $\varphi$ is the worst-approximable irrational (maximal resonance protection), $\mathrm{2I}$ is the largest finite subgroup of $\mathrm{SU}(2)$ (most aggressive mode deletion), and $\langle 6, 10, 15 \rangle$ is the unique ADE semigroup with genus $g = h/2$ (maximally distributed gap structure).
+The $\beta$-function varies by $\sim$1% across branches; the protection factor $\sigma$ dominates. The Penrose branch has 7× more spectral drive than the dodecagonal branch. Three independent properties converge: $\varphi$ is the worst-approximable irrational (maximal resonance protection), $\mathrm{2I}$ is the largest finite subgroup of $\mathrm{SU}(2)$ (most aggressive mode deletion), and $\langle 6, 10, 15 \rangle$ is the unique ADE semigroup with genus $g = h/2$ (maximally distributed gap structure). The [ADE domain wall computation](/ade-domain-walls-and-branch-selection) completes the selection argument: $E_8$ walls are most expensive by a factor of $\sim$456×, gap-set nesting makes $E_8$ the unique maximal element under inclusion, and all tunneling rates are frozen ($B \gg 1$, $R$-independent).
 
 ## 5. Deriving the Dissipation $\beta$-Function
 
@@ -563,7 +555,31 @@ $$
 
 The negative sign reflects that coarse-graining (increasing $\mu$, moving to larger scales) increases effective dissipation: integrating out fast modes removes degrees of freedom that were performing maintenance, forcing the remaining system to bear more load. This logistic form is the unique lowest-order polynomial vanishing at both fixed points with the correct physics. At $\xi = 0$, the UV fixed point is stable—systems at low dissipation remain there under fine-graining. At $\xi = 1$, the IR fixed point is stable—systems flow toward maximum dissipation under coarse-graining.
 
-### 5.2 The Tree-Level Coupling $u^*$
+### 5.2 The Spectral Origin of $\mathcal{D}$
+
+The effective dimension $\mathcal{D}$ appearing in the $\beta$-function is not a free parameter—it is the Weyl exponent of the Kaluza–Klein spectrum on the internal space $S^3/2I$.
+
+The Laplacian on $S^3$ has eigenvalues $\lambda_l = 4l(l+1)$ with multiplicity $(2l+1)^2$. The orbifold quotient by the binary icosahedral group $2I$ projects out all modes not invariant under the group action; the surviving multiplicities $m_l = (2l+1)n_l$ are computed via Burnside's lemma from the nine conjugacy classes of $2I$ (§3 of the [ADE domain wall analysis](/ade-domain-walls-and-branch-selection)). The surviving modes are precisely those whose spin index $l$ lies in the numerical semigroup $\langle 6, 10, 15 \rangle$; the 15 forbidden levels below the Coxeter number $h = 30$ constitute the gap set.
+
+The cumulative mode count $N(\lambda) = \sum_{\lambda_l < \lambda} m_l$ determines $\mathcal{D}$ through the Weyl law. On a smooth $d$-dimensional manifold, $N(\lambda) \sim \lambda^{d/2}$ (Minakshisundaram & Pleijel 1949). On $S^3/2I$, the semigroup gaps thin the spectrum below the Coxeter threshold $\lambda_h = 4 \cdot 30 \cdot 31 = 3720$, producing a reduced exponent in the gap-controlled regime:
+
+$$
+N(\lambda) \sim \lambda^{\mathcal{D}/2}, \qquad \mathcal{D} \approx 2.61 \quad (l \leq h).
+$$
+
+Above the Coxeter threshold all modes survive and $\mathcal{D} \to 3$, recovering the full round $S^3$.
+
+The connection to the $\beta$-function is through the Schwinger proper-time representation of the one-loop effective action (Schwinger 1951, Vassilevich 2003):
+
+$$
+\Gamma_1 = -\tfrac{1}{2} \int_0^\infty \frac{dt}{t} \, K_{\text{int}}(t) \, K_{4d}(t) \, e^{-m^2 t},
+$$
+
+where $K_{\text{int}}(t) = \sum_l m_l \, e^{-\lambda_l t}$ is the heat trace on the internal manifold. At renormalization-group scale $\mu$, the integral is dominated by proper time $t \sim 1/\mu^2$. Since $e^{-\lambda_l/\mu^2} \approx 1$ for $\lambda_l \ll \mu^2$ and vanishes exponentially for $\lambda_l \gg \mu^2$, the heat trace at $t = 1/\mu^2$ effectively counts only modes below the scale $\mu^2$. The number of contributing modes is therefore $N(\mu^2)$, which scales as $(\mu^2)^{\mathcal{D}/2}$. This is the mechanism by which $\mathcal{D}$ enters the $\beta$-function: it is the Weyl exponent of the internal space as seen by the running coupling at scale $\mu$.
+
+The crossover is sharp. For $\mu^2 \gg \lambda_h$ (UV), all KK modes contribute and $\mathcal{D}_{\text{eff}} = 3$. For $\mu^2 \lesssim \lambda_h$ (below the compactification scale), the semigroup gaps dominate and $\mathcal{D}_{\text{eff}} = 2.61$. The Coxeter number sets the transition scale. A consistency check from general relativity: near a Schwarzschild horizon, $\mathcal{D}(R) = 2 + (1 - r_s/R)$, interpolating continuously from 3 in flat space to 2 at the horizon—the same endpoint the coupled flow reaches at $\xi = 1$.
+
+### 5.3 The Tree-Level Coupling $u^*$
 
 The proportionality constant—the coupling $\mathcal{W}(\mathcal{D})$ such that $\beta = -\xi(1-\xi)\mathcal{W}(\mathcal{D})$—is determined by the curvature cost per RG shell. Three exact constraints fix this value.
 
@@ -579,9 +595,9 @@ $$
 u^* = \frac{I}{10} = \frac{4\pi\varphi^2}{10} \approx 3.29.
 $$
 
-This is the curvature cost per RG shell. The $\pi$-sector contributes $\kappa_\pi = 4\pi$ (Gauss–Bonnet on $S^2$: the total Gaussian curvature of the angular manifold, setting the angular mode count). The $\varphi$-sector contributes $\lambda_\varphi = \varphi^2$ (the recursion eigenvalue from $x^2 = x + 1$: the mode-counting factor per inflation step at $\mathcal{D} = 2$). These multiply because the configuration space is locally a product of the angular manifold $\mathcal{M}_\pi$ and the log-radial direction $\mathbb{R}_\varphi$; spectral content on product spaces factorizes via the heat-kernel product identity $\operatorname{Tr}_{M_1 \times M_2} e^{-t\Delta} = \operatorname{Tr}_{M_1} e^{-t\Delta_1} \cdot \operatorname{Tr}_{M_2} e^{-t\Delta_2}$, so the total mode count in a shell is $\kappa_\pi \cdot \lambda_\varphi = 4\pi\varphi^2$. The $N$-sector divides by 10 through the decade partition.
+This is the curvature cost per RG shell. The $\pi$-sector contributes $\kappa_\pi = 4\pi$ (Gauss–Bonnet on $S^2$: the total Gaussian curvature of the angular manifold, setting the angular mode count). The $\varphi$-sector contributes $\lambda_\varphi = \varphi^2$ (the recursion eigenvalue from $x^2 = x + 1$: the mode-counting factor per inflation step at $\mathcal{D} = 2$). These multiply because the configuration space is locally a product of the angular manifold $\mathcal{M}_\pi$ and the log-radial direction $\mathbb{R}_\varphi$; spectral content on product spaces factorizes via the heat-kernel product identity $\operatorname{Tr}_{M_1 \times M_2} e^{-t\Delta} = \operatorname{Tr}_{M_1} e^{-t\Delta_1} \cdot \operatorname{Tr}_{M_2} e^{-t\Delta_2}$, so the total mode count in a shell is $\kappa_\pi \cdot \lambda_\varphi = 4\pi\varphi^2$. The $N$-sector divides by 10 through the decade partition. The coupling $u^*$ is exact to all orders: any correction to the curvature per shell would require violating at least one of the three defining constraints—a scale-dependent correction would break self-similarity, a shell-dependent correction would break decade symmetry, and a correction to the total curvature per period would contradict the eigenvalue theorem. Since all three are exact symmetries of the ground state, $u^* = I/10$ is protected against perturbative corrections at every order.
 
-### 5.3 The Dimensional Correction $(\mathcal{D}-2)\ln\varphi/2$
+### 5.4 The Dimensional Correction $(\mathcal{D}-2)\ln\varphi/2$
 
 The tree-level coupling $u^*$ is derived at $\mathcal{D} = 2$, the critical dimension where the infrared fixed point resides. For systems operating at $\mathcal{D} > 2$, an additional contribution enters from the recursive sector's interaction with spatial dimension.
 
@@ -595,7 +611,7 @@ $$
 
 Each spatial dimension beyond $\mathcal{D} = 2$ provides one additional direction for the recursive eigenmode to fluctuate. The full coupling is $\mathcal{W}(\mathcal{D}) = u^* + (\mathcal{D}-2)\ln\varphi/2$. At $\mathcal{D} = 2$, the correction vanishes and $\mathcal{W}(2) = u^* = 3.29$. At $\mathcal{D} = 3$, $\mathcal{W}(3) = 3.29 + 0.241 = 3.531$, which generates the decade structure in three spatial dimensions.
 
-### 5.4 The Critical Exponent $\nu = 1/u^*$
+### 5.5 The Critical Exponent $\nu = 1/u^*$
 
 The critical exponent $\nu$ governs how coherence length diverges as systems approach organizational phase transitions: $\xi \sim |\xi - \xi_c|^{-\nu}$. In standard RG, the critical exponent is determined by the slope of the $\beta$-function at the fixed point where the transition occurs. The infrared fixed point of the dissipation flow is $(\xi^*, \mathcal{D}^*) = (1, 2)$—the black hole saturation state.
 
@@ -613,7 +629,7 @@ $$
 
 The exponent is $1/u^*$ rather than $1/\mathcal{W}(\mathcal{D})$ for some ambient dimension $\mathcal{D}$ because the critical exponent is evaluated at the fixed point, where $\mathcal{D} = 2$ and the dimensional correction vanishes exactly. Every system approaching organizational collapse flows toward $(\xi = 1, \mathcal{D} = 2)$ regardless of its starting dimension. The exponent is universal because it depends only on the constraint geometry ($u^*$), not on ambient dimensionality—the constraint-geometric analog of how critical exponents in standard statistical mechanics are determined by fixed-point structure rather than microscopic details.
 
-### 5.5 The Complete $\beta$-Function
+### 5.6 The Complete $\beta$-Function
 
 Assembling the four steps,
 
@@ -627,7 +643,7 @@ $$
 | $4\pi$ | Gauss–Bonnet invariant of $S^2$ ($\pi$-sector) | §3.6 |
 | $\varphi^2$ | Recursive eigenvalue ($\varphi$-sector) | §3.6 |
 | $/10$ | Decade partition ($N$-sector, $C_{10}$) | §4 |
-| $(\mathcal{D}-2)\ln\varphi/2$ | Recursive degeneracy per extra dimension | §5.3 |
+| $(\mathcal{D}-2)\ln\varphi/2$ | Recursive degeneracy per extra dimension | §5.4 |
 | $g_n = 0$ for $n > 2$ | PF eigenvalue of substitution matrix + $\ln\varphi$-periodicity | §5.8 |
 
 The flow has fixed points at $\xi = 0$ (UV-stable, vacuum) and $\xi = 1$ (IR-stable, black hole). The solution is $\xi(\mu) = [1 + A\mu^{\mathcal{W}(\mathcal{D})}]^{-1}$ where $\mathcal{W}(\mathcal{D}) = u^* + (\mathcal{D}-2)\ln\varphi/2$. At $\mathcal{D} = 3$, $\mathcal{W}(3) = 3.531$ generates factor-of-10 jumps in $\xi$ per decade in energy scale, reproducing the observed hierarchy $10^{-6} \to 10^{-3} \to 10^{-2} \to 10^{-1} \to 1$.
@@ -640,7 +656,7 @@ $$
 
 At $\xi = 0$, dimension remains constant (vacuum preserves dimensionality). As $\xi$ increases, dimension decreases—organizational complexity drives dimensional reduction. At $\xi = 1$, the flow drives $\mathcal{D} \to 2$. The coupled system $(\xi, \mathcal{D})$ flows from the UV fixed point $(0, 3)$ toward the IR fixed point $(1, 2)$.
 
-### 5.6 Formal Wilsonian Derivation
+### 5.7 Formal Wilsonian Derivation
 
 The preceding construction assembled the $\beta$-function from physical and geometric arguments. The standard Wilsonian RG procedure, applied directly to the constraint functional, recovers $u^*$ as the tree-level coupling and $(\mathcal{D}-2)\ln\varphi/2$ as the one-loop correction. The absence of higher-order corrections is established by the vertex selection rule in §5.8, where the recursion symmetry operator $T_\varphi(\delta P)(\theta, \ell) = \varphi \cdot \delta P(\theta, \ell + \ln\varphi)$—with the $\varphi$ prefactor derived from the Perron–Frobenius eigenvalue of the Penrose substitution matrix—forbids all non-Gaussian vertices at the self-similar fixed point.
 
@@ -659,10 +675,6 @@ $$
 At tree level, the three exact constraints (self-similarity, decade symmetry, eigenvalue normalization) uniquely fix the curvature per shell to $\delta F_{\text{shell}} = I/10 = u^*$, giving $\beta_{\text{tree}}(\xi) = -\xi(1-\xi)\,u^*$.
 
 At one loop, the Hessian $H = F''[P_0]$ inherits the sector decomposition. Because the three sectors penalize orthogonal curvature types, the Hessian is block-diagonal at leading order: $H \approx H_\pi \oplus H_\varphi \oplus H_N$. At $\mathcal{D} = 2$, the one-loop contribution is already absorbed into $u^*$—the factor $\varphi^2$ in the composite invariant reflects the recursive degeneracy at $\mathcal{D} = 2$. For $\mathcal{D} > 2$, the recursive degeneracy grows from $\varphi^2$ to $\varphi^{\mathcal{D}}$, and the excess contribution is $(\mathcal{D}-2)\ln\varphi/2$, recovering the dimensional correction.
-
-### 5.7 Tree-Level Protection
-
-The tree-level coupling $u^*$ is exact to all orders. Any correction to the curvature per shell would require violating at least one of the three defining constraints: a scale-dependent correction would break self-similarity ($\varphi$-sector), a shell-dependent correction would break decade symmetry ($C_{10}$), and a correction to the total curvature per period would contradict the eigenvalue theorem ($I = 4\pi\varphi^2$). Since all three are exact symmetries of the ground state, $u^* = I/10$ is protected against perturbative corrections at every order.
 
 ### 5.8 Symmetry Protection and Loop Truncation
 
@@ -728,91 +740,27 @@ The fluctuation theory about the self-similar ground state is exactly Gaussian.
 
 **Numerical verification.** The scaling identity and vertex selection rule have been tested on a $360 \times 200$ grid over $(\theta, \ell) \in [0, 2\pi) \times [0, 5\ln\varphi)$, with a ground state carrying $C_{10}$ angular modulation and $\ln\varphi$-periodic radial profile. For perturbations with log-radial structure (the physically relevant modes that couple to the RG flow), the ratio $\Delta F[P_0 + \varepsilon T_\varphi \delta P] / \Delta F[P_0 + \varepsilon \delta P]$ equals $\varphi^2 = 2.618$ to $|{\rm ratio} - \varphi^2| < 10^{-5}$ across $\varepsilon \in [10^{-4}, 10^{-1.5}]$. The sectors verify independently: $K_\pi$ and $K_\varphi$ each reproduce the $\varphi^2$ scaling to the same precision. The cubic vertex coefficient, extracted from the $\varepsilon$-dependence of the ratio (which would be $\varphi^2 + O(\varepsilon \cdot g_3/g_2)$ if $g_3 \neq 0$), gives $g_3/g_2 \lesssim 0.02$—consistent with zero. The vertex selection rule $g_n = 0$ for $n > 2$ is confirmed numerically.
 
-**Wilsonian interpretation.** Higher-loop corrections to the effective action arise only from non-Gaussian cumulants generated by cubic and higher vertices in the saddle-point expansion (§5.6). Because the recursion symmetry forbids all such vertices at the fixed point, the functional integral over fast modes terminates at the Gaussian determinant—the one-loop term $\frac{1}{2}\operatorname{Tr}_{\text{shell}} \ln F''_>$ is the final contribution. No higher-loop renormalization of the dissipation coupling exists.
-
-**Consistency check (not used in derivation).** The Wilsonian mode-counting argument at the IR fixed point $\mathcal{D} = 2$ independently gives $\varphi^{\mathcal{D}_{\rm eff}} = \varphi^2$ modes per RG shell, reproducing the same scaling exponent in the identity. This provides an independent consistency check but is not part of the derivation, which would otherwise be circular (since $\mathcal{D} = 2$ follows from the $\beta$-function that the vertex selection rule helps establish).
-
-The $\beta$-function
-
-$$
-\beta(\xi, \mathcal{D}) = -\xi(1-\xi)\left[u^* + \frac{\mathcal{D}-2}{2}\ln\varphi\right]
-$$
-
-therefore receives no perturbative corrections beyond what is written. The tree-level coupling is protected by the three geometric constraints (§5.7). The one-loop correction is protected by the recursion symmetry's vertex selection rule, whose operator definition, amplitude prefactor, and $\ln\varphi$-periodicity argument are all derived from the Penrose tiling structure established in §4. Every constant is geometrically forced.
-
-The effective dimension $\mathcal{D}$ in the $\beta$-function is identified with $d_{\mathrm{eff}}$ from the Kaluza–Klein spectrum on $S^3/\mathrm{2I}$. The orbifold's Molien series determines which spin levels survive the quotient; the surviving set is the numerical semigroup $\langle 6, 10, 15 \rangle$. The thinned eigenvalue count grows as $N(\lambda) \sim \lambda^{d_{\mathrm{eff}}/2}$ with $d_{\mathrm{eff}} = 2.61$ in the semigroup-controlled regime ($l \leq h = 30$), crossing over to Weyl growth $d_{\mathrm{eff}} \to 3$ at higher cutoffs. The running $d_{\mathrm{eff}}$ traces the path from the UV fixed point $(\xi, \mathcal{D}) = (0, 3)$ toward the IR fixed point $(1, 2)$, and the running effective coupling $\mathcal{W}(l) = u^* + (d_{\mathrm{eff}}(l) - 2)\ln\varphi/2$ quantifies the flow at each spectral level. The full computation is developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion).
+**Wilsonian interpretation.** Higher-loop corrections to the effective action arise only from non-Gaussian cumulants generated by cubic and higher vertices in the saddle-point expansion (§5.7). Because the recursion symmetry forbids all such vertices at the fixed point, the functional integral over fast modes terminates at the Gaussian determinant—the one-loop term $\frac{1}{2}\operatorname{Tr}_{\text{shell}} \ln F''_>$ is the final contribution. The $\beta$-function therefore receives no perturbative corrections beyond what is written: tree-level coupling $u^*$ is protected by the three geometric constraints (§5.3), and the one-loop dimensional correction is protected by the vertex selection rule above. Every constant is geometrically forced.
 
 ## 6. Quasicrystal Realization
 
 Experiments with exciton–polariton condensates on Penrose tiling lattices[^12] realize the $\pi$–$\varphi$–$10$ constraint geometry in a single device. A Penrose tiling potential imprinted in a GaAs microcavity using a spatial light modulator, pumped non-resonantly, forms exciton–polariton condensates at the vertices. The resulting structure exhibits aperiodic order with $C_{10}$ rotational symmetry, with reciprocal-space photoluminescence showing sharp Bragg peaks arranged in tenfold symmetry—a two-dimensional polariton quasicrystal that directly implements all three sectors simultaneously.
 
-The $\pi$-sector manifests in reciprocal space, where the Bragg peaks lie on circular rings with angular positions separated by $\Delta\theta = 2\pi/10$. The system selects equal angular spacing with period $2\pi$, discretized into ten coherent directions by $C_{10}$ symmetry—the isotropic closure constant $\pi$ appearing in the circular diffraction shells. The $\varphi$-sector manifests through the Penrose tiling's inflation–deflation rules with scale factor $\varphi$, where all length and area ratios of the prototiles are powers of $\varphi$. This is exactly the inflation–subdivision consistency condition of Appendix A: coarse-graining tiles by $\varphi$ yields the same pattern at larger scale, subdividing by $\varphi$ yields the same pattern at smaller scale, and the fixed point of that recursion is $\varphi$. The $N$-sector manifests through the tenfold diffraction symmetry—the $C_{2\times5}$ sector with binary and pentagonal coherence meeting at decade symmetry.
+The $\pi$-sector manifests in reciprocal space, where the Bragg peaks lie on circular rings with angular positions separated by $\Delta\theta = 2\pi/10$. The system selects equal angular spacing with period $2\pi$, discretized into ten coherent directions by $C_{10}$ symmetry—the isotropic closure constant $\pi$ appearing in the circular diffraction shells. The $\varphi$-sector manifests through the Penrose tiling's inflation–deflation rules with scale factor $\varphi$, where all length and area ratios of the prototiles are powers of $\varphi$. This is exactly the inflation–subdivision consistency condition of §2.2: coarse-graining tiles by $\varphi$ yields the same pattern at larger scale, subdividing by $\varphi$ yields the same pattern at smaller scale, and the fixed point of that recursion is $\varphi$. The $N$-sector manifests through the tenfold diffraction symmetry—the $C_{2\times5}$ sector with binary and pentagonal coherence meeting at decade symmetry.
 
 The experiment demonstrates near-perfect delocalization and phase synchronization of the polariton fluid over more than 100 times the healing length at a particular pump window, well beyond single-site scales. This mesoscopic coherence emerges when the geometry aligns with the constraint manifold.
 
 ## 7. Discussion and Conclusion
 
-The constraint geometry rests on a chain of proven results. The triadic tension theorem (Section 3) establishes that three curvature sectors—angular, recursive, and discrete—cannot be simultaneously minimized (T1), are anticorrelated (T2), are genuinely independent (T3), and produce nonzero ground-state curvature (T4). The per-shell curvature $u^* = I/10$ becomes the coupling constant of the dissipation flow. The negative selection argument (Section 4) forces the discrete sector to carry $C_{10} = C_2 \times C_5$ symmetry—the unique cyclic group surviving the crystallographic restriction, $\varphi$-compatibility, and binary closure. The dissipation $\beta$-function (Section 5) follows from standard Wilsonian renormalization, with the vertex selection rule enforced by the recursion symmetry operator $T_\varphi(\delta P) = \varphi \cdot \delta P(\theta, \ell + \ln\varphi)$ making the one-loop result exact.
+The constraint geometry rests on a chain of proven results. The triadic tension theorem (Section 3) establishes that three curvature sectors—angular, recursive, and discrete—cannot be simultaneously minimized (T1), are anticorrelated (T2), are genuinely independent (T3), and produce nonzero ground-state curvature (T4). The per-shell curvature $u^* = I/10$ becomes the coupling constant of the dissipation flow. The negative selection argument (Section 4) forces the discrete sector to carry $C_{10} = C_2 \times C_5$ symmetry—the unique cyclic group surviving the crystallographic restriction, $\varphi$-compatibility, and binary closure. The dissipation $\beta$-function (Section 5) follows from standard Wilsonian renormalization. The effective dimension $\mathcal{D}$ entering the $\beta$-function is derived from the Weyl exponent of the KK spectrum via the Schwinger proper-time integral (§5.2), giving $\mathcal{D} \approx 2.61$ in the gap-controlled regime and $\mathcal{D} \to 3$ above the Coxeter threshold. The vertex selection rule enforced by the recursion symmetry operator $T_\varphi(\delta P) = \varphi \cdot \delta P(\theta, \ell + \ln\varphi)$ makes the one-loop result exact.
 
 Penrose polariton quasicrystals realize all three constraint sectors in a single device (Section 6). The full chain—from 6D lattice through the orbifold $S^3/\mathrm{2I}$ and its Kaluza–Klein spectrum to the tier hierarchy, black hole area-law entropy, and accelerated expansion—is developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion). Implications for irreducible cycling, transport-sector predictions, and repair dynamics are developed in [The Geometry of Self-Correction](/the-geometry-of-self-correction), [Finite Residence, Feasibility Projections, & Quartic Transport](/finite-residence-feasibility-projections-and-quartic-transport), and [Repair as Local Optimization](/repair-as-local-optimization-in-constraint-geometry).
-
-The framework is falsifiable at multiple levels. If the off-diagonal covariances $\Sigma_{ij}$ are non-negative for any pair of sectors, T2 fails. If a configuration simultaneously minimizes two sectors, T1 fails. If a linear relation among the three curvature observables exists on $\Omega$, T3 fails. If the angular manifold's effective geometry differs from $S^2$, the $\kappa_\pi = 4\pi$ identification fails and $I$ changes. Section 3.7 details the specific failure modes.
 
 The constraint functional admits multiple eigenbranch families beyond the Penrose branch: Ammann–Beenker $(\pi, 1+\sqrt{2}, 8)$, dodecagonal $(\pi, 2+\sqrt{3}, 12)$, and metallic-mean families. These exist as metastable states with higher ground-state curvature, requiring entropy subsidies to offset their curvature liability (§4.6). The Penrose branch is the unique eigenbranch requiring no such subsidy.
 
 Three curvature sectors that cannot be simultaneously minimized produce a frustrated ground state with curvature $I = 4\pi\varphi^2$. That curvature determines the RG coupling $u^* = I/10$. That coupling governs the $\beta$-function. The $\beta$-function determines how dissipation flows across scales.
 
 Curvature is complexity. Coherence is what a system can afford to maintain. Everything begins with the frustration.
-
-## Appendices
-
-The following appendices provide two derivations referenced in the main text: the emergence of $\varphi$ as the fixed point of recursive curvature (Appendix A), and the coupled dimensional flow equation (Appendix B).
-
-### Appendix A—Derivation of $\varphi$ from Recursive Curvature
-
-The golden ratio emerges as the fixed point of recursive curvature when inflation and subdivision are required to commute. Working with separable solutions $P(r,\theta) = R(r)\Theta(\theta)$ and focusing on the log-radial sector, the key requirement is inflation–subdivision consistency: coarse-graining by a factor $\sigma$ and then subdividing by $\sigma$ should reproduce the same radial profile as subdividing first and inflating afterwards. This translates to the functional relation
-
-$$
-R(\sigma r) = R(r) + R(r/\sigma).
-$$
-
-The information content at scale $\sigma r$ equals the sum of contributions from scale $r$ and scale $r/\sigma$—a recursive decomposition across scales. Assuming a power-law ansatz $R(r) \propto r^s$ and substituting,
-
-$$
-(\sigma r)^s = r^s + (r/\sigma)^s,
-$$
-
-which simplifies to $\sigma^s = 1 + \sigma^{-s}$. Multiplying both sides by $\sigma^s$ and defining $x = \sigma^s$ gives
-
-$$
-x^2 = x + 1,
-$$
-
-the defining equation of the golden ratio. The positive solution is
-
-$$
-x = \frac{1 + \sqrt{5}}{2} = \varphi \approx 1.618.
-$$
-
-The power-law ansatz is justified by the scale-invariance of the $\varphi$-sector: if the log-radial curvature penalty $\int(\partial_\ell \ln P)^2 P\,dA$ is to be minimized under rescaling, the solution must be self-similar, which forces power-law behavior. In curved spacetime where effective dimension $\mathcal{D}$ varies with radius, the same analysis yields $\sigma = \varphi^{1/\mathcal{D}}$. Near horizons where $\mathcal{D} \to 2$, this gives $\sigma \to \sqrt{\varphi}$.
-
-### Appendix B—Dimensional Flow
-
-Effective dimension $\mathcal{D}$ counts the number of independent directions along which information can propagate at a given scale: $N(R) \sim R^{\mathcal{D}(R)}$. Near a gravitational horizon, radial information flow vanishes while tangential flow remains free, so $\mathcal{D}$ decreases. In Schwarzschild geometry,
-
-$$
-\mathcal{D}(R) = 2 + \left(1 - \frac{r_s}{R}\right),
-$$
-
-from 3 in flat space toward 2 at the horizon. The coupled dimensional flow equation,
-
-$$
-\frac{d\mathcal{D}}{d\ln\mu} = -\frac{\xi}{u^*}\ln\varphi,
-$$
-
-captures how organizational complexity drives dimensional reduction. At $\xi = 0$, dimension remains constant. As $\xi$ increases toward 1, the flow drives $\mathcal{D} \to 2$. The coupled system $(\xi, \mathcal{D})$ flows from $(0, 3)$ toward $(1, 2)$.
-
-## References
 
 [^1]: Jaynes, E. T. (1957). "Information theory and statistical mechanics." *Physical Review*, 106(4), 620–630. <https://doi.org/10.1103/PhysRev.106.620>
 

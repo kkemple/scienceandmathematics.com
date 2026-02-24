@@ -2,9 +2,9 @@
 title: 'ADE Domain Walls and Branch Selection'
 description: "Domain wall energies between ADE branches are finite, spanning 456×. Gap-set nesting makes E₈ maximal under inclusion. Thermal stability and frozen tunneling make selection primordial and irreversible."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18724795
-zenodoUrl: "https://zenodo.org/records/18724795"
-doi: "10.5281/zenodo.18724795"
+zenodoDepositionId: 18763108
+zenodoUrl: "https://zenodo.org/records/18763108"
+doi: "10.5281/zenodo.18763108"
 category: 'core'
 order: 4
 zenodoDescription: |
@@ -32,13 +32,13 @@ keywords:
   - "spectral mismatch"
 ---
 
-The [KK spectrum computation](/kk-spectrum-e8-and-the-lcd-question) established that the Poincaré homology sphere $S^3/\mathrm{2I}$ has the deepest spectral protection gap among ADE orbifolds—56× enhancement of the KK mass gap, 15 forbidden levels, genus $g = h/2$. The ADE classification permits other branches: $E_7$ (binary octahedral), $E_6$ (binary tetrahedral), and the $D$-series (binary dihedral), each with its own orbifold, semigroup, and spectral gap. The question is whether these branches can coexist on the same 6D substrate, and if so, what energy cost the domain walls between them carry. If domain wall energies are infinite, branches are globally exclusive and $E_8$ selection is a boundary condition. If finite, coexistence is possible and the stability hierarchy determines relative populations.
+The [KK spectrum computation](/kk-spectrum-e8-and-the-lcd-question) established that the Poincaré homology sphere $S^3/\mathrm{2I}$ has the deepest spectral protection gap among ADE orbifolds—56× enhancement of the KK mass gap, 15 forbidden levels, genus $g = h/2$. The ADE classification[^1] permits other branches: $E_7$ (binary octahedral), $E_6$ (binary tetrahedral), and the $D$-series (binary dihedral), each with its own orbifold, semigroup, and spectral gap. The question is whether these branches can coexist on the same 6D substrate, and if so, what energy cost the domain walls between them carry. If domain wall energies are infinite, branches are globally exclusive and $E_8$ selection is a boundary condition. If finite, coexistence is possible and the stability hierarchy determines relative populations.
 
 This post computes the spectral mismatch between all pairs of the four principal ADE branches ($E_8$, $E_7$, $E_6$, $D_8$), establishes that all domain wall energies are finite, and shows that $E_8$ selection is a dynamical stability outcome—primordial and irreversible.
 
 ## 1. Gap Sets and Structural Ordering
 
-The [semigroup selection rule](/kk-spectrum-e8-and-the-lcd-question#4-the-numerical-semigroup) determines the forbidden KK levels for each branch from the Klein invariant degrees alone. The four gap sets are:
+The [semigroup selection rule](/kk-spectrum-e8-and-the-lcd-question#4-the-numerical-semigroup) determines the forbidden KK levels for each branch from the Klein invariant degrees[^2] alone. The numerical semigroup[^3] gap sets for the four branches are:
 
 | Branch | $\Gamma$ | Semigroup | Gap set | $\|G\|$ |
 |:---|:---|:---|:---|:---:|
@@ -129,9 +129,11 @@ As the universe cools through the branch selection epoch, walls dissolve in orde
 
 $E_8$ walls form first and are the last to become unstable. $E_8$ is the last branch standing.
 
+The dissolution ordering has a statistical-mechanical origin. The KK partition function on each orbifold $S^3/\Gamma$ is $Z_\Gamma(T) = \sum_l m_l \, e^{-\sqrt{\lambda_l}/(TR)}$, where the sum runs only over modes surviving the quotient. Branches with more gap-set deletions have fewer thermally active modes at any temperature below the compactification scale. $E_8$ deletes 15 of the first 30 levels and pushes the spectral floor to $\lambda_1 = 168$; $E_6$ deletes 3 and has $\lambda_1 = 48$; $D_8$ deletes 3 and has $\lambda_1 = 24$. As the universe cools below the compactification scale, branches with lower spectral floors activate thermal excitations first—each activated mode contributes $\sim T^4$ to the effective potential density, raising $V_{\mathrm{eff}}$ above the value of branches whose modes remain frozen. The branch that activates last has the lowest effective potential at every temperature in the cooling sequence. Gap-set nesting ($\mathrm{gap}(E_6) \subset \mathrm{gap}(E_7) \subset \mathrm{gap}(E_8)$) guarantees that $E_8$ activates last at every level: any mode frozen in a smaller gap set is necessarily frozen in $E_8$, but $E_8$ freezes additional modes that the smaller sets permit. The wall dissolution hierarchy is the domain-wall manifestation of this partition function ordering—the same physics viewed from the boundary rather than the bulk.
+
 ## 5. Frozen Tunneling
 
-In the thin-wall approximation, the Euclidean bounce action for tunneling from a false vacuum to a true vacuum separated by a domain wall of tension $\sigma$ with vacuum energy splitting $\varepsilon$ is[^1]
+In the thin-wall approximation, the Euclidean bounce action for tunneling from a false vacuum to a true vacuum separated by a domain wall of tension $\sigma$ with vacuum energy splitting $\varepsilon$ is[^4]
 
 $$
 B = \frac{27\pi^2 \sigma^4}{2\varepsilon^3}.
@@ -160,7 +162,7 @@ Every bounce action satisfies $B \gg 1$. The smallest is $B \approx 1.8 \times 1
 
 The mechanism: $B \sim T_{\mathrm{hard}}^4 / \Delta\mathrm{drive}^3$. The wall tensions range from 73 to 33,332. The vacuum energy splittings range from 5.9 to 34.9. The fourth power of the wall tension overwhelms the third power of the splitting. The domain walls are much too expensive relative to the vacuum energy gained by conversion.
 
-At finite temperature, the thermal bounce action is $B_{\mathrm{thermal}} = 16\pi \sigma^3 / (3\varepsilon^2 T)$, which does depend on $R$. At GUT-scale compactification and GUT temperature, the cheapest transition ($D_8 \to E_6$) has $B_{\mathrm{thermal}} \approx 23{,}000$. Thermal activation cannot drive transitions either.
+At finite temperature, the thermal bounce action is $B_{\mathrm{thermal}} = 16\pi \sigma^3 / (3\varepsilon^2 T)$[^5], which does depend on $R$. At GUT-scale compactification and GUT temperature, the cheapest transition ($D_8 \to E_6$) has $B_{\mathrm{thermal}} \approx 23{,}000$. Thermal activation cannot drive transitions either.
 
 Branch selection is primordial. Once a region of the 6D substrate compactifies to a particular $S^3/\Gamma$, it cannot convert to another branch by bubble nucleation—at any temperature below the compactification scale. Selection occurs during the compactification phase transition itself, when $E_8$ has the highest critical temperature, the deepest spectral gap, and the most distributed gap structure. Once formed, the frozen tunneling rates ensure it is irreversible.
 
@@ -170,7 +172,7 @@ Five independent properties converge on $E_8$:
 
 | | Argument | Source | Role |
 |:---:|:---|:---|:---|
-| 1 | $\varphi$ is the worst-approximable irrational (Hurwitz) | [Constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), §4 | Why $E_8$ is favored |
+| 1 | $\varphi$ is the worst-approximable irrational (Hurwitz[^6]) | [Constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), §4 | Why $E_8$ is favored |
 | 2 | $\mathrm{2I}$ is the largest finite $\subset \mathrm{SU}(2)$ ($\|\mathrm{2I}\| = 120$) | [KK spectrum](/kk-spectrum-e8-and-the-lcd-question), §1 | Why $E_8$ is favored |
 | 3 | $\langle 6, 10, 15 \rangle$ achieves $g = h/2$—maximally distributed gaps | [KK spectrum](/kk-spectrum-e8-and-the-lcd-question), §8 | Why $E_8$ is favored |
 | 4 | $E_8$ walls most expensive, dissolve last—thermal attractor | §4 above | When selection occurs |
@@ -178,20 +180,14 @@ Five independent properties converge on $E_8$:
 
 Legs 1–3 establish why $E_8$ is the spectrally preferred branch. Leg 4 identifies the epoch at which selection occurs. Leg 5 proves the selection is permanent.
 
-## 7. Limitations and Falsifiability
+[^1]: McKay, J. (1980). Graphs, singularities, and finite groups. In *The Santa Cruz Conference on Finite Groups*, Proceedings of Symposia in Pure Mathematics, Vol. 37, AMS, 183–186.
 
-The hard tension model treats each evanescent mode as contributing independently to the wall energy. Interference effects between evanescent modes, and the detailed spatial profile of the domain wall (which depends on the compactification dynamics), could modify the numerical values. The ordering of the hierarchy is controlled by the combinatorics of the mismatch sets and is robust to the details of the tension functional.
+[^2]: Klein, F. (1884). *Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade*. Teubner, Leipzig. English translation: *Lectures on the Icosahedron and the Solution of Equations of the Fifth Degree*, Dover, 1956.
 
-The soft mismatch—multiplicity differences between modes that survive on both sides—contributes a formally divergent sum for branch pairs with $|\Gamma_1| \neq |\Gamma_2|$, since the asymptotic multiplicities scale as $(2l+1)^2 / |\Gamma|$. This divergence is a standard UV artifact regularizable via spectral zeta functions[^2]. The hard mismatch (the focus of this computation) is unconditionally finite.
+[^3]: Rosales, J. C. & García-Sánchez, P. A. (2009). *Numerical Semigroups*. Developments in Mathematics, Vol. 20, Springer.
 
-The bounce action computation uses the thin-wall approximation and identifies vacuum energy splittings with spectral drive differences. A more refined treatment would derive $\varepsilon$ from the Casimir energy of each orbifold. The $R$-independence of $B$ is exact within this model.
+[^4]: Coleman, S. & De Luccia, F. (1980). Gravitational effects on and of vacuum decay. *Physical Review D*, 21(12), 3305–3315.
 
-The compactification radius $R$ remains a free parameter. It sets the physical energy scale but does not affect the hierarchy of wall tensions, the gap-set nesting, or the bounce action ratios.
+[^5]: Linde, A. D. (1983). Decay of the false vacuum at finite temperature. *Nuclear Physics B*, 216(2), 421–445.
 
-The $E_6 \leftrightarrow D_8$ wall tension ($T = 73$) is $\sim$456× cheaper than the most expensive $E_8$ wall. These two branches—sharing the same group order ($|\Gamma| = 24$), the same genus ($g = 3$), and the same Frobenius number ($F = 5$)—are near-degenerate and the most likely candidates for local coexistence.
-
-## References
-
-[^1]: Coleman, S. & De Luccia, F. (1980). Gravitational effects on and of vacuum decay. *Physical Review D*, 21(12), 3305–3315.
-
-[^2]: Minakshisundaram, S. & Pleijel, Å. (1949). Some properties of the eigenfunctions of the Laplace-operator on Riemannian manifolds. *Canadian Journal of Mathematics*, 1, 242–256.
+[^6]: Hurwitz, A. (1891). Ueber die angenäherte Darstellung der Irrationalzahlen durch rationale Brüche. *Mathematische Annalen*, 39(2), 279–284.

@@ -2,9 +2,10 @@
 title: 'From 6D Lattice Projection to 3D Cosmic Expansion'
 description: "One projection from 6D produces a spectral gap and a triadic frustration. They feed one β-function whose flow organizes compact objects, derives the area law, and produces accelerated expansion."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18724804
-zenodoUrl: "https://zenodo.org/records/18724804"
-doi: "10.5281/zenodo.18724804"
+updatedDate: '2026-02-24'
+zenodoDepositionId: 18763109
+zenodoUrl: "https://zenodo.org/records/18763109"
+doi: "10.5281/zenodo.18763109"
 category: 'core'
 order: 1
 zenodoDescription: |
@@ -38,7 +39,7 @@ Penrose tilings[^1] have appeared on bathroom floors, building facades, and medi
 
 A 6D periodic lattice, projected to 3D, simultaneously produces a quasicrystal, a spectral gap, and a triadic frustration. The spectral gap and the frustration are dual descriptions of one obstruction—the orbifold quotient removes degrees of freedom that would otherwise allow simultaneous relaxation of all three curvature sectors. The spectral gap delivers an effective dimension $\mathcal{D}$. The frustration delivers a coupling constant $u^*$. Both feed independently into a single $\beta$-function, $\beta(\xi, \mathcal{D}) = -\xi(1-\xi)[u^* + (\mathcal{D}-2)\ln\varphi/2]$, whose flow from $(\xi, \mathcal{D}) = (0, 3)$ to $(1, 2)$ organizes the tier hierarchy of compact objects. Bound systems that complete the flow reach a two-dimensional IR fixed point—the Bekenstein–Hawking area law. The universe as a whole, which is unbound, responds to the same threshold by switching eigenmodes, producing accelerated expansion at $z \approx 0.63$.
 
-The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) provides the $\beta$-function. The [KK spectrum computation](/kk-spectrum-e8-and-the-lcd-question) provides the effective dimension. Each section below traces one link of this chain, from the lattice through the projection, the spectrum, the frustration, the $\beta$-function, the physical hierarchy, and the cosmological consequences.
+The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) provides the $\beta$-function. The [KK spectrum computation](/kk-spectrum-e8-and-the-lcd-question) provides the effective dimension. The [ADE domain wall analysis](/ade-domain-walls-and-branch-selection) establishes why $E_8$ is selected over competing branches. Each section below traces one link of this chain, from the lattice through the projection, the spectrum, the frustration, the $\beta$-function, the physical hierarchy, branch selection, and the cosmological consequences.
 
 ## The 6D Lattice and Its Projection
 
@@ -46,7 +47,9 @@ Kramer and Neri proved in 1984 that the minimum dimension for a periodic lattice
 
 The projection map $\Pi = (\pi_\parallel, \, S^3 \to S^3/\mathrm{2I})$ acts on $\Lambda$ and on the internal space simultaneously. Three independent consequences follow from this single operation:
 
-$$\Pi \;\longmapsto\; \begin{cases} \mathcal{T}: \pi_\parallel(\Lambda) \to \text{aperiodic tiling} & \text{(quasicrystal)} \\ \mathcal{S}: \mathrm{Spec}(\Delta_{S^3/\mathrm{2I}}) \to \{l : n_l \neq 0\} & \text{(spectral gap)} \\ \mathcal{F}: F[P]\big|_{S^3/\mathrm{2I}} \to I > 0 & \text{(frustration).} \end{cases}$$
+$$
+\Pi \;\longmapsto\; \begin{cases} \mathcal{T}: \pi_\parallel(\Lambda) \to \text{aperiodic tiling} & \text{(quasicrystal)} \\ \mathcal{S}: \mathrm{Spec}(\Delta_{S^3/\mathrm{2I}}) \to \{l : n_l \neq 0\} & \text{(spectral gap)} \\ \mathcal{F}: F[P]\big|_{S^3/\mathrm{2I}} \to I > 0 & \text{(frustration).} \end{cases}
+$$
 
 The image $\pi_\parallel(\Lambda)$ is a 3D Penrose tiling—aperiodic because the irrationality of $\varphi$ prevents any lattice translation from mapping entirely into $E_\parallel$. The internal space $E_\perp$ compactifies to $S^3$ and the icosahedral symmetry quotients it to the orbifold $S^3/\mathrm{2I}$, where $\mathrm{2I}$ is the binary icosahedral group ($|\mathrm{2I}| = 120$, the largest finite subgroup of $\mathrm{SU}(2)$). The McKay correspondence[^5] identifies this orbifold with the $E_8$ singularity, with Coxeter number $h = 30$.
 
@@ -62,13 +65,34 @@ $$
 M(t) = \frac{1 + t^{30}}{(1 - t^{12})(1 - t^{20})}.
 $$
 
-The exponents 12, 20, 30 are the degrees of the Klein invariants[^7] $(H, T, f)$ satisfying the $E_8$ surface equation $T^2 = H^3 - 1728f^5$. The surviving spins are the elements of the numerical semigroup[^8] $\langle 6, 10, 15 \rangle = \langle a/2, \, b/2, \, h/2 \rangle$, with gap set $\{1, 2, 3, 4, 5, 7, 8, 9, 11, 13, 14, 17, 19, 23, 29\}$. There are 15 gaps, and the genus $g = 15 = h/2$. This relationship—genus equals half the Coxeter number—holds only for $E_8$ among all ADE types.
+The exponents 12, 20, 30 are the degrees of the Klein invariants[^7] $(H, T, f)$ satisfying the $E_8$ surface equation $T^2 = H^3 - 1728f^5$. The surviving spins are the elements of the numerical semigroup[^8] $\langle 6, 10, 15 \rangle = \langle a/2, \, b/2, \, h/2 \rangle$, with gap set $\{1, 2, 3, 4, 5, 7, 8, 9, 11, 13, 14, 17, 19, 23, 29\}$. There are 15 gaps, and the genus $g = 15 = h/2$. This relationship—genus equals half the Coxeter number—holds only for $E_8$ among all [ADE types](/ade-domain-walls-and-branch-selection).
 
 The first surviving mode sits at $l = 6$, with eigenvalue $\lambda_1 = 4 \cdot 6 \cdot 7 = 168$. On the unquotiented $S^3$, the first excitation is $\lambda = 3$. The protection factor $\sigma = 168/3 = 56$ measures how far the orbifold has pushed up the spectral floor.
 
 The deletion of 15 modes changes the effective dimensionality. Weyl's law[^9] says the cumulative eigenvalue count on a $d$-dimensional manifold grows as $N(\lambda) \sim \lambda^{d/2}$. On $S^3/\mathrm{2I}$, the thinned count in the semigroup-controlled regime ($l \leq h$) grows as $N(\lambda) \sim \lambda^{d_{\mathrm{eff}}/2}$ with $d_{\mathrm{eff}} = 2.61$. The orbifold is topologically three-dimensional but spectrally behaves as dimension $\sim$2.6 at low energies. Scale-dependent spectral dimension—including reduction to 2 in the infrared—has also been reported in causal dynamical triangulations[^10]. As the cutoff increases past the Coxeter number, $d_{\mathrm{eff}}$ asymptotes back toward 3—the Weyl regime. The full computation is in the [KK spectrum post](/kk-spectrum-e8-and-the-lcd-question).
 
-The spectral gap delivers the first of two inputs to the $\beta$-function: the effective dimension $\mathcal{D}$. The second input—a coupling constant—comes from the same orbifold, read differently.
+The spectral gap delivers the first of two inputs to the $\beta$-function: the effective dimension $\mathcal{D}$. But the projection from 6D forces *an* ADE orbifold, not uniquely this one. The question of *why* $E_8$ requires comparing all available branches.
+
+## Branch Competition
+
+Other finite subgroups of $\mathrm{SU}(2)$—the binary octahedral ($\mathrm{2O}$, mapping to $E_7$), binary tetrahedral ($\mathrm{2T}$, mapping to $E_6$), and binary dihedral groups (mapping to the $D$-series)—produce legitimate eigenbranches with distinct orbifolds, semigroups, spectral gaps, and $\beta$-function profiles.
+
+The spectral drive—the product of protection factor $\sigma$ and $\beta$-function strength at criticality—measures the total flow capacity of each branch:
+
+| Branch | $\Gamma$ | Semigroup | $\sigma$ | $d_{\mathrm{eff}}$ | Drive |
+|:---|:---|:---|---:|:---:|---:|
+| Penrose ($E_8$) | $\mathrm{2I}$ | $\langle 6,10,15\rangle$ | 56× | 2.61 | 40.7 |
+| Octahedral ($E_7$) | $\mathrm{2O}$ | $\langle 4,6,9\rangle$ | 27× | 2.68 | 19.5 |
+| Tetrahedral ($E_6$) | $\mathrm{2T}$ | $\langle 3,4,6\rangle$ | 16× | 2.70 | 11.7 |
+| Dodecagonal ($D_8$) | $\mathrm{BD}_6$ | $\langle 2,7\rangle$ | 8× | 2.50 | 5.8 |
+
+The $\beta$-function varies by $\sim1\%$ across branches; the protection factor dominates. The $E_8$ branch's dominance traces to three independent properties: $\varphi$ is the worst-approximable irrational (maximal resonance protection), $\mathrm{2I}$ is the largest finite subgroup of $\mathrm{SU}(2)$ (most aggressive mode deletion), and $\langle 6, 10, 15 \rangle$ is the unique ADE semigroup achieving genus $g = h/2$ (maximally distributed gap structure).
+
+Branches with weaker spectral drive remain viable only with thermodynamic compensation—configurational entropy from defect-tile species mixing. The dodecagonal branch requires approximately 5× entropy amplification ($S/Nk_B$ from 0.120 to 0.554). The Penrose branch requires no entropy subsidy.
+
+The [ADE domain wall computation](/ade-domain-walls-and-branch-selection) establishes that domain wall energies between all branch pairs are finite, with the $E_8$ walls most expensive by a factor of $\sim 456\times$. Gap-set nesting ($\mathrm{gap}(E_6) \subset \mathrm{gap}(E_7) \subset \mathrm{gap}(E_8)$) makes $E_8$ the unique maximal element under inclusion. Thermal stability analysis shows $E_8$ walls dissolve last during cosmological cooling, and all tunneling rates are frozen ($B \gg 1$, $R$-independent). Selection is primordial and irreversible.
+
+The second input to the $\beta$-function—a coupling constant—comes from the same $E_8$ orbifold, read differently.
 
 ## The Frustration
 
@@ -120,7 +144,7 @@ $$
 
 with coupled dimensional flow $d\mathcal{D}/d(\ln\mu) = -(\xi/u^*)\ln\varphi$.
 
-The UV fixed point is $(\xi, \mathcal{D}) = (0, 3)$: no organizational structure, full three dimensions. The IR fixed point is $(\xi, \mathcal{D}) = (1, 2)$: complete organizational saturation, two effective dimensions. At $\mathcal{D} = 2$, the dimensional correction vanishes exactly, and the critical exponent takes its universal value $\nu = 1/u^* = 10/(4\pi\varphi^2) \approx 0.304$.
+The UV fixed point is $(\xi, \mathcal{D}) = (0, 3)$: no organizational structure, full three dimensions. The IR fixed point is $(\xi, \mathcal{D}) = (1, 2)$: complete organizational saturation, two effective dimensions. At $\mathcal{D} = 2$, the dimensional correction vanishes exactly, and the critical exponent takes its universal value $\nu = 1/u^* = 10/(4\pi\varphi^2) \approx 0.304$. This same ratio defines the critical maintenance fraction $\xi_c = 1/u^* \approx 0.304$—the threshold where the maintenance multiplier $(1-\xi)^{-u^*}$ enters nonlinear divergence. Systems crossing $\xi_c$ undergo qualitative structural change; the universe as a whole, being unbound, responds with eigenmode transition rather than collapse (§Accelerated Expansion below).
 
 ## The Tier Hierarchy
 
@@ -128,7 +152,7 @@ Physical systems sit at different points along the flow from $(0, 3)$ to $(1, 2)
 
 ### From Curl to Maintenance Cost
 
-Feasibility projection through incompatible curvature sectors generically produces irreducible curl — correction fields that cannot be written as gradients. A system with irreducible curl cannot globally relax. It must sustain ongoing redistributive dynamics: energy continuously committed to maintaining the constrained configuration rather than settling to a minimum — a thermodynamic cost locked into structural coherence and unavailable for any other purpose.
+Feasibility projection through incompatible curvature sectors generically produces [irreducible curl](/the-geometry-of-self-correction) — correction fields that cannot be written as gradients. A system with irreducible curl cannot globally relax. It must sustain ongoing redistributive dynamics: energy continuously committed to maintaining the constrained configuration rather than settling to a minimum — a thermodynamic cost locked into structural coherence and unavailable for any other purpose.
 
 The maintenance fraction $\xi$ measures this cost as a share of total energy budget:
 
@@ -182,7 +206,7 @@ This number is small. Halos are gravitationally bound — they pass Stage 1 of t
 
 ### Compact Remnant Tier
 
-White dwarfs at $\xi_{\mathrm{WD}} \sim 2 \times 10^{-4}$ are approaching the structural saturation threshold $u^*/10 \approx 0.329$. The Gaia DR3 catalog contains 7,515 white dwarfs with a cooling anomaly at this radius ratio, at $14.5\sigma$ significance[^11]. As mass approaches the Chandrasekhar limit, $R$ shrinks, $\xi$ rises, and the maintenance multiplier $(1-\xi)^{-u^*}$ diverges — the system reaches information bankruptcy and reorganizes.
+White dwarfs at $\xi_{\mathrm{WD}} \sim 2 \times 10^{-4}$ are approaching the structural saturation threshold $u^*/10 \approx 0.329$. The Gaia DR3 catalog contains 7,515 white dwarfs with a [cooling anomaly](/binding-energy-critical-radii-and-information-maintenance-tax) at this radius ratio, at $14.5\sigma$ significance[^11]. As mass approaches the Chandrasekhar limit, $R$ shrinks, $\xi$ rises, and the maintenance multiplier $(1-\xi)^{-u^*}$ diverges — the system reaches information bankruptcy and reorganizes.
 
 Neutron stars sit at $\xi \sim 0.31$–$0.49$, measured directly from NICER X-ray timing (simultaneous mass–radius: J0030+0451 at $\xi = 0.311$, J0437$-$4715 at $\xi = 0.369$, J0740+6620 at $\xi = 0.493$). Every measured neutron star exceeds $\xi_c = 0.304$. They have passed all three stages of the activation cascade — kinematic binding, organizational loading past $\xi_c$, and geometric transition where the curl floor engages. The $\beta$-function is steep ($\beta \sim -0.83$ for the canonical $1.4\,M_\odot$/11 km case) and the effective dimension has begun dropping below 3. Neutron stars are the highest-$\xi$ objects that remain below tri-sector saturation.
 
@@ -196,13 +220,15 @@ $$
 
 ### Black Hole Tier
 
-All black holes satisfy $\xi = 1$ and $\mathcal{D} = 2$. The formation channel differs — core collapse for stellar-mass, sustained accretion for supermassive — but the end state is identical. The event horizon defines $R = R_S$, Bekenstein–Hawking entropy[^12][^13] scales as area not volume, and the system is confined to boundary-supported dynamics. The LIGO/Virgo catalog (GWTC, 164 binary black hole mergers) yields spin populations consistent with the $u^*$ prediction at $0.1\sigma$ deviation[^14].
+All black holes satisfy $\xi = 1$ and $\mathcal{D} = 2$. The formation channel differs — core collapse for stellar-mass, sustained accretion for supermassive — but the end state is identical. The event horizon defines $R = R_S$, Bekenstein–Hawking entropy[^12][^13] scales as area not volume, and the system is confined to boundary-supported dynamics. The LIGO/Virgo catalog (GWTC, 164 binary black hole mergers) yields spin populations consistent with the $u^*$ prediction at [$0.1\sigma$ deviation](/black-hole-horizons-and-dimensional-reduction-correspondence)[^14].
 
 SMBH mass density is anchored at $\rho_{\mathrm{SMBH}}(0) = 4.3 \times 10^5\,M_\odot\,\mathrm{Mpc}^{-3}$ from the Soltan argument — integrating AGN luminosity across cosmic time with radiative efficiency $\epsilon \approx 0.1$ gives the total accreted mass. Stellar black hole density is constructed from stellar evolution inventories. Since $\xi_{\mathrm{BH}} = 1$ for all black holes, their maintenance contribution is simply their combined mass fraction:
 
 $$
 \xi_{\mathrm{BH}}(z) = f_{\mathrm{SMBH}}(z) + f_{\mathrm{sBH}}(z), \qquad \xi_{\mathrm{BH}}(0) \approx 1.1 \times 10^{-4}.
 $$
+
+Because $\xi_{\mathrm{BH}} = 1$, all energy is consumed by maintenance and the [dimensional flow](/black-hole-horizons-and-dimensional-reduction-correspondence) drives $\mathcal{D} \to 2$ — horizons are boundary-supported dynamics at the IR fixed point. The flow factor $\xi(1-\xi) = 0$ confirms they have completed the RG trajectory: no further evolution is possible, and their contribution to the cosmological tier budget is purely their combined mass fraction.
 
 ### Diagnostic Mean Binding Fraction
 
@@ -225,7 +251,7 @@ This value is diagnostic only — it indicates the overall scale of cosmological
 
 RG evolution must be performed separately for each tier because the flow equations are nonlinear. The maintenance rate $d\xi/d\mu = \xi(1-\xi)\mathcal{W}(\mathcal{D})$ depends on $\xi(1-\xi)$, which is concave. By Jensen's inequality, averaging $\xi$ across tiers first and then computing the flow rate systematically overestimates the result compared to computing flow rates tierwise and then averaging. The error is proportional to the variance of $\xi$ across tiers — and since $\xi$ spans from 0 (diffuse) to 1 (black holes), the variance is maximal.
 
-More concretely: the diffuse tier ($\xi = 0$) contributes zero to the flow regardless of weighting, and the black hole tier ($\xi = 1$) also contributes zero — it is at the fixed point where $\xi(1-\xi) = 0$. Only the intermediate tiers (halos and compact remnants) drive nonzero flow. Averaging first would incorrectly attribute flow contributions to the diffuse and black hole mass that properly contribute nothing.
+More concretely: the diffuse tier ($\xi = 0$) contributes zero to the flow because no energy has been committed to maintenance — structure has not begun. The black hole tier ($\xi = 1$) also contributes zero *further* flow, but for the opposite reason: all energy is consumed by maintenance, the dimensional flow has driven $\mathcal{D} \to 2$, and the system has completed its RG trajectory. Both give $\xi(1-\xi) = 0$, but the physics is opposite — one has not started, the other is maximally active at the IR fixed point. Only the intermediate tiers (halos and compact remnants) drive nonzero evolution. Averaging first would incorrectly attribute flow contributions to the diffuse and black hole mass whose $\xi$ values properly produce no further change.
 
 The tierwise dimension evolution is
 
@@ -255,15 +281,7 @@ $$
 \delta'' + \left[2 + \frac{d\ln H}{d\ln a} + \Gamma_{\mathrm{TCG}}(z,k)\right]\delta' - \frac{3}{2}\Omega_m(a)\,\delta = 0.
 $$
 
-The maintenance-rate friction kernel is
-
-$$
-\Gamma_{\mathrm{TCG}}(z,k) = \frac{B_0}{\epsilon_{\mathrm{micro}}} \mathcal{W}(\xi)\,\xi(1-\xi) \left[1 + \left(\frac{k}{k_{\mathrm{coh}}(z)}\right)^2\right]^{-1}.
-$$
-
-Every factor is assembled from previously defined geometric objects. $B_0 = [\mathcal{W}(\xi_c)(1-\xi_c)]^{-1} \approx 0.4155$ is the maintenance-rate normalization at criticality. $\epsilon_{\mathrm{micro}} = 1/\beta_{\mathrm{coh}} \approx 12.15$ is the microstructural amplification factor — the ratio by which spectral concentration on Penrose defect vertices ($\chi_{\mathrm{hot}} \approx 0.677$) exceeds their geometric support ($f_{\mathrm{def}} = \varphi^{-6} \approx 0.056$). The kernel $\mathcal{W}(\xi)\xi(1-\xi)$ is the logistic maintenance rate from the RG flow. The Lorentzian factor suppresses modes above the coherence scale $k_{\mathrm{coh}}(z) = 2\pi/(\beta_{\mathrm{coh}} R_H(z))$, where $R_H(z)$ is the cosmological horizon.
-
-### Numerical Results
+The friction kernel $\Gamma_{\mathrm{TCG}}(z,k)$ combines the logistic maintenance rate $\mathcal{W}(\xi)\,\xi(1-\xi)$ from the $\beta$-function, a normalization set at criticality, a microstructural amplification factor from spectral concentration on Penrose defect vertices, and a Lorentzian cutoff at the cosmological coherence scale. Every factor is assembled from previously defined geometric objects — no new free parameters enter.
 
 Because $\bar{\xi}(z) \ll 1$ and diffuse mass dominates, the friction kernel forces deviations into the sub-ppm regime:
 
@@ -281,7 +299,7 @@ Every system discussed so far — halos, white dwarfs, neutron stars, black hole
 
 ## Accelerated Expansion
 
-Bound systems can complete the flow to $(1, 2)$. The universe fails Stage 1 of the activation cascade—it is unbound—so it responds differently. The critical maintenance fraction $\xi_c = 1/u^* \approx 0.304$ is the threshold where the maintenance multiplier $(1-\xi)^{-u^*}$ enters nonlinear divergence—the same divergence that drives white dwarf information bankruptcy. When the global matter fraction $\Omega_m$ approaches this threshold, the response for an unbound system is not collapse but eigenmode transition.
+Bound systems can complete the flow to $(1, 2)$. The universe fails Stage 1 of the activation cascade—it is unbound—so it responds differently. When the global matter fraction $\Omega_m$ approaches $\xi_c \approx 0.304$—the same divergence threshold that drives white dwarf information bankruptcy—the response for an unbound system is not collapse but eigenmode transition.
 
 The constraint functional admits different dominant eigenmodes at different epochs. The Euler–Lagrange equation
 
@@ -301,28 +319,7 @@ $$
 
 has each structural feature determined by the framework: $n = 1/2$ (mean-field exponent), $m = \varphi^2$ (framework constant), cap $= 1/\xi_c - 1$ (N-sector saturation limit), and amplitude $A = \mathcal{W}(3) + 1 = u^* + 1 + \ln\varphi/2 \approx 4.531$ (the full 3D coupling plus unit curvature offset). The resulting equation of state gives $w_0 = -0.724$ vs DESI DR2's $-0.75 \pm 0.07$ ($0.4\sigma$) and $w_a = -0.746$ vs DESI's $-0.86 \pm 0.25$ ($0.5\sigma$)[^15]. As a cross-check, $A = \mathcal{W}(3)+1$ predicts $R_{\pi N}/|R_{\pi\pi}| = (\mathcal{W}(3)+1)/5 = 0.906$, matching the measured 0.908 to 0.2%.
 
-The eigenmode transition also makes contact with Type Ia supernova energetics. At the $\pi$-sector transition, the white dwarf's organizational information must be erased and rewritten — a process whose minimum thermodynamic cost is set by Landauer's principle[^16] applied to the number of structural bits crossing the threshold. The resulting energy $E = 4.3 \times 10^{44}$ J matches the observed bolometric output of normal Type Ia events[^17].
-
-Everything above assumed $E_8$—the binary icosahedral group, the semigroup $\langle 6, 10, 15 \rangle$, the specific spectral gap. The projection from 6D forces *an* ADE orbifold, but it does not uniquely force this one. The question of *why* $E_8$ requires comparing all available branches.
-
-## Branch Competition
-
-Other finite subgroups of $\mathrm{SU}(2)$—the binary octahedral ($\mathrm{2O}$, mapping to $E_7$), binary tetrahedral ($\mathrm{2T}$, mapping to $E_6$), and binary dihedral groups (mapping to the $D$-series)—produce legitimate eigenbranches with distinct orbifolds, semigroups, spectral gaps, and $\beta$-function profiles.
-
-The spectral drive—the product of protection factor $\sigma$ and $\beta$-function strength at criticality—measures the total flow capacity of each branch:
-
-| Branch | $\Gamma$ | Semigroup | $\sigma$ | $d_{\mathrm{eff}}$ | Drive |
-|:---|:---|:---|---:|:---:|---:|
-| Penrose ($E_8$) | $\mathrm{2I}$ | $\langle 6,10,15\rangle$ | 56× | 2.61 | 40.7 |
-| Octahedral ($E_7$) | $\mathrm{2O}$ | $\langle 4,6,9\rangle$ | 27× | 2.68 | 19.5 |
-| Tetrahedral ($E_6$) | $\mathrm{2T}$ | $\langle 3,4,6\rangle$ | 16× | 2.70 | 11.7 |
-| Dodecagonal ($D_8$) | $\mathrm{BD}_6$ | $\langle 2,7\rangle$ | 8× | 2.50 | 5.8 |
-
-The $\beta$-function varies by $\sim1\%$ across branches; the protection factor dominates. The $E_8$ branch's dominance traces to three independent properties: $\varphi$ is the worst-approximable irrational (maximal resonance protection), $\mathrm{2I}$ is the largest finite subgroup of $\mathrm{SU}(2)$ (most aggressive mode deletion), and $\langle 6, 10, 15 \rangle$ is the unique ADE semigroup achieving genus $g = h/2$ (maximally distributed gap structure).
-
-Branches with weaker spectral drive remain viable only with thermodynamic compensation—configurational entropy from defect-tile species mixing. The dodecagonal branch requires approximately 5× entropy amplification ($S/Nk_B$ from 0.120 to 0.554). The Penrose branch requires no entropy subsidy.
-
-The [ADE domain wall computation](/ade-domain-walls-and-branch-selection) establishes that domain wall energies between all branch pairs are finite, with the $E_8$ walls most expensive by a factor of $\sim 456\times$. Gap-set nesting ($\mathrm{gap}(E_6) \subset \mathrm{gap}(E_7) \subset \mathrm{gap}(E_8)$) makes $E_8$ the unique maximal element under inclusion. Thermal stability analysis shows $E_8$ walls dissolve last during cosmological cooling, and all tunneling rates are frozen ($B \gg 1$, $R$-independent). Selection is primordial and irreversible.
+The eigenmode transition also makes contact with [Type Ia supernova energetics](/type-ia-supernova-information-theoretic-energetics). At the $\pi$-sector transition, the white dwarf's organizational information must be erased and rewritten — a process whose minimum thermodynamic cost is set by Landauer's principle[^16] applied to the number of structural bits crossing the threshold. The resulting energy $E = 4.3 \times 10^{44}$ J matches the observed bolometric output of normal Type Ia events[^17].
 
 ## The Complete Chain
 
@@ -342,21 +339,15 @@ $$\text{projection} \xrightarrow{\;\text{frustration}\;} I = 4\pi\varphi^2 \xrig
 
 The spectral path delivers $\mathcal{D}$. The frustration path delivers $u^*$. Both are consequences of a single projection, and they converge in the bracket $[u^* + (\mathcal{D}-2)\ln\varphi/2]$.
 
-## Limitations and Falsifiability
+The projection forces *an* ADE orbifold but does not uniquely force $E_8$. Branch selection completes the chain: $E_8$ has the highest spectral drive (40.7 vs 5.8 for $D_8$), the most expensive [domain walls](/ade-domain-walls-and-branch-selection) (factor 456×), and is the unique maximal element under gap-set inclusion. All tunneling rates are frozen ($B \gg 1$, $R$-independent). Selection is primordial and irreversible.
+
+## Limitations
 
 **The 6D lattice is assumed.** The Kramer–Neri theorem establishes that 6 is the minimum dimension for icosahedral projection, but does not explain why a 6D lattice exists. The framework begins at the lattice and derives everything downstream.
 
 **The compactification radius $R$ is a free parameter.** Everything else—$u^*$, $\xi_c$, the spectral gap, the tier hierarchy, the expansion onset—follows from the projection. But $R$ sets the energy scale at which KK modes become relevant, and its value is not derived.
 
 **The "+1" in $A = 1 + \mathcal{W}(3)$ has a physical interpretation but not yet a first-principles derivation.** The N-sector curvature pump model yields $w_0 = -0.724$ ($0.4\sigma$ from DESI DR2) and $w_a = -0.746$ ($0.5\sigma$ from DESI DR2). The amplitude $A = \mathcal{W}(3) + 1$ is numerically verified ($\chi^2$ at the derived value matches the numerical optimum to 3 decimal places) and cross-predicts $R_{\pi N}/|R_{\pi\pi}| = (\mathcal{W}(3)+1)/5 = 0.906$ vs measured 0.908 (0.2% match). The "+1" admits a bare + dressed decomposition: $1$ = bare constraint coupling, $\mathcal{W}(3)$ = RG-mediated coupling. A rigorous derivation from the Euler–Lagrange equation showing that the constraint-level response is exactly unity would complete this link.
-
-**The $d_{\mathrm{eff}} \to \mathcal{D}$ identification.** The effective spectral dimension from the KK computation enters the $\beta$-function as $\mathcal{D}$, the effective spatial dimension governing the RG flow. This identification is natural but not rigorously derived—it assumes that the spectral content of the orbifold directly controls the dimensional parameter in the Wilsonian flow. A derivation from first principles (showing that the RG blocking procedure on $S^3/\mathrm{2I}$ produces a $\beta$-function with $\mathcal{D} = d_{\mathrm{eff}}$) would strengthen the chain.
-
-**The tier hierarchy placements are approximate.** The $\beta$-function's flow from $(0, 3)$ to $(1, 2)$ produces a hierarchy, but the specific $\xi$ values assigned to halos, white dwarfs, and neutron stars are estimates based on physical properties, not direct computations from the framework. The white dwarf anomaly ($14.5\sigma$ at $u^*/10$) and BH spins ($0.1\sigma$ at $u^*$) provide quantitative contact with data. The other placements need similar observational tests.
-
-**The triadic tension theorem's domain.** T1–T4 are proved for the constraint functional $F[P]$ on entropy-constrained densities with the specific sector functionals $K_\pi$, $K_\varphi$, $K_N$. If alternative sector functionals are equally well-motivated, the specific incompatibility mechanisms (and therefore the numerical value of $I$) could change. The T1 incompatibility proofs are quantitative—three computable gaps $\delta_{\pi\varphi} \geq 72.1$, $\delta_{\varphi N}/A^2 = 0.745$, $\delta_{\pi N} \geq 72.1$—and T2 is verified numerically. Whether alternative sector functionals could produce the same frustration structure with different numerical values has not been ruled out.
-
-## References
 
 [^1]: Penrose, R. (1974). The role of aesthetics in pure and applied mathematical research. *Bulletin of the Institute of Mathematics and Its Applications*, 10, 266–271.
 

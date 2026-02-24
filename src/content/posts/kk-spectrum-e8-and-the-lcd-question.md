@@ -2,9 +2,9 @@
 title: 'The Kaluza–Klein Spectrum on the Poincaré Homology Sphere'
 description: "The scalar KK tower on S³/2I has a gap structure controlled by the numerical semigroup ⟨6,10,15⟩ of the E₈ singularity. Fifteen levels are forbidden and d_eff crosses from 2.61 to 3 at the Coxeter number."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18724808
-zenodoUrl: "https://zenodo.org/records/18724808"
-doi: "10.5281/zenodo.18724808"
+zenodoDepositionId: 18763110
+zenodoUrl: "https://zenodo.org/records/18763110"
+doi: "10.5281/zenodo.18763110"
 category: 'core'
 order: 3
 zenodoDescription: |
@@ -32,7 +32,7 @@ keywords:
   - "constraint geometry"
 ---
 
-The projection from a 6D periodic lattice to 3D produces a quasicrystal in physical space and an orbifold $S^3/\mathrm{2I}$—the Poincaré homology sphere—in the internal space. The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) and the spectral content of this orbifold are two outputs of that single projection. The constraint geometry provides the $\beta$-function. The spectral content provides the effective dimension $\mathcal{D}$ that enters the $\beta$-function's dimensional correction. The full chain connecting these is developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion). This post computes the scalar Kaluza–Klein spectrum on $S^3/\mathrm{2I}$.
+The projection from a 6D periodic lattice to 3D produces a quasicrystal in physical space and an orbifold $S^3/\mathrm{2I}$—the Poincaré homology sphere—in the internal space. The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) and the spectral content of this orbifold are two outputs of that single projection. The constraint geometry provides the $\beta$-function. The spectral content provides the effective dimension $\mathcal{D}$ that enters the $\beta$-function's dimensional correction. The full chain connecting these is developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion). This post computes the scalar Kaluza–Klein spectrum on $S^3/\mathrm{2I}$. The extension to $p$-form spectra (vectors, spinors, symmetric tensors) requires analogous branching rules and has not been carried out.
 
 ## 1. The Internal Space
 
@@ -259,22 +259,6 @@ The two dimensions answer different questions. 6D is the minimum embedding dimen
 
 The chain is forced. Negative selection gives $C_{10}$. $C_{10}$ on $S^3$ gives $\mathrm{2I}$. $\mathrm{2I}$ acting on $\mathbb{C}^2$ gives the Klein invariants. The Klein invariants satisfy the $E_8$ surface equation. The McKay correspondence confirms the identification. The spectral content—15 forbidden levels, protection factor 56×, genus $= h/2$, Frobenius number 29—follows from the invariant ring structure alone.
 
-## 10. Limitations and Falsifiability
-
-The computation rests on the character orthogonality formula applied to the known conjugacy classes of $\mathrm{2I}$[^11]. The conjugacy class data—sizes, orders, and half-angle parameters—are standard results in the representation theory of finite groups. The semigroup identification is verified by direct enumeration up to $l = 500$; discrepancy at any single level would falsify the correspondence.
-
-The equivalence between the branching multiplicities $n_l$ and the Molien series is a theorem—it follows from the identification of $\mathrm{2I}$-invariant spherical harmonics with $\mathrm{2I}$-invariant homogeneous polynomials via the restriction map $\mathrm{Sym}^{2l}(\mathbb{C}^2) \to L^2(S^3)$. The semigroup structure of the gap set then follows from the structure of the invariant ring $\mathbb{C}[x,y]^{\mathrm{2I}}$ as a graded algebra with three generators and one relation.
-
-The multiplicity formula $m_l = (2l+1) \cdot n_l$ follows from the Peter–Weyl decomposition: the eigenspace at KK level $k = 2l$ decomposes as $D_l^L \otimes D_l^R$ under $\mathrm{SU}(2)_L \times \mathrm{SU}(2)_R$, with $\mathrm{2I}$ acting on one factor. The invariant subspace retains the full $(2l+1)$-dimensional representation on the opposite factor. This is confirmed by the Weyl law check at $l = 500$: the predicted count $N \approx 2{,}786{,}115$ matches the computed $N = 2{,}794{,}378$ to within 0.3%.
-
-The Weyl exponent fits are standard log-log regressions with 15 data points in Region I and 301 in the deep asymptotic regime. The deficit $d_{\mathrm{eff}} \approx 2.61$ is robust to variations in the fitting window and quantifies spectral thinning caused by the semigroup gap structure.
-
-The computation does not address whether $S^3/\mathrm{2I}$ appears as an internal space in any consistent compactification of string theory or supergravity. The Poincaré homology sphere is not Kähler, not Calabi–Yau, and not a group manifold. The spectral results reported here follow from representation theory alone and hold for any scalar field equation on $S^3/\mathrm{2I}$ with the round metric. The extension to $p$-form spectra (vectors, spinors, symmetric tensors) requires analogous branching rules and has not been carried out.
-
-The dynamical selection question—whether the $E_8$ branch is favored over competing ADE branches—is addressed in [ADE Domain Walls and Branch Selection](/ade-domain-walls-and-branch-selection). The gap sets nest: $\mathrm{gap}(E_6) \subset \mathrm{gap}(E_7) \subset \mathrm{gap}(E_8)$ and $\mathrm{gap}(D_8) \subset \mathrm{gap}(E_8)$, so $E_8$ is the unique maximal element under gap-set inclusion. Domain wall tensions between branches are finite (bounded by $\max(h_1, h_2)$), with $E_8$ walls the most expensive by a factor of $\sim$456×. Thermal stability analysis shows $E_8$ walls dissolve last during cosmological cooling, and zero-temperature bounce actions satisfy $B \gg 1$ for all downhill transitions—tunneling between branches is frozen out. Selection occurs during the compactification epoch and is irreversible.
-
-## References
-
 [^1]: Poincaré, H. (1904). Cinquième complément à l'Analysis Situs. *Rendiconti del Circolo Matematico di Palermo*, 18, 45–110.
 
 [^2]: Ikeda, A. (1997). On the spectrum of homogeneous spherical space forms. *Kodai Mathematical Journal*, 20(3), 259–274.
@@ -294,5 +278,3 @@ The dynamical selection question—whether the $E_8$ branch is favored over comp
 [^9]: Weyl, H. (1911). Über die asymptotische Verteilung der Eigenwerte. *Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen*, 110–117.
 
 [^10]: Kramer, P. & Neri, R. (1984). On periodic and non-periodic space fillings of Eⁿ obtained by projection. *Acta Crystallographica Section A*, 40(5), 580–587.
-
-[^11]: Coxeter, H. S. M. & Moser, W. O. J. (1972). *Generators and Relations for Discrete Groups*, 3rd ed. Springer.
