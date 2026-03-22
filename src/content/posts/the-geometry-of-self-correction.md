@@ -260,15 +260,15 @@ where $\alpha = F^\flat$ is the metric-dual 1-form. This measures the $L^2$-size
 
 When a curl-free proposal $F_0 = \nabla \phi$ passes through a feasibility projection $\Pi$, the implemented field becomes $F = \Pi(F_0)$ with defect $\delta F = F - F_0$. Since $d(d\phi) = 0$, all curl-maintenance derives from the defect: $\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}|d(\delta\alpha)|^2_{L^2}$.
 
-The substantive result is that this cost has a geometric lower bound. The Hodge Laplacian $\Delta_1 = d\delta + \delta d$ has a kernel equal to the harmonic 1-forms $\mathcal{H}^1(M)$. If $H^1(M) = 0$ (e.g., spheres $\mathbb{S}^{n-1}$ for $n \geq 2$), then $\mathcal{H}^1(M) = \{0\}$ and $\Delta_1$ has a strictly positive spectral gap on all 1-forms. If $H^1(M) \neq 0$ (e.g., periodic domains such as $T^3$), $\mathcal{H}^1(M)$ is nontrivial and $\Delta_1$ has zero modes, but a strictly positive spectral gap persists on the orthogonal complement. In either case, the curl-maintenance of the non-harmonic component of the projection defect satisfies,
+The substantive result is that this cost has a geometric lower bound. The projection defect decomposes via Hodge theory into harmonic, exact, and co-exact components. Harmonic forms are closed and contribute no curl. Exact forms $d\psi$ satisfy $d(d\psi) = 0$ and also contribute no curl. Only the co-exact component $\beta$ (forms with $\delta\beta = 0$, $d\beta \neq 0$) produces curl-maintenance. The first eigenvalue of the Hodge Laplacian restricted to the co-exact subspace, $\lambda_1^{\mathrm{co\text{-}ex}}$, provides the sharp lower bound:
 
 $$
-\mathcal{M}_{\mathrm{curl}}(F) \geq \frac{\kappa}{2} |\delta\alpha_\perp|^2_{L^2} > 0,
+\mathcal{M}_{\mathrm{curl}}(F) \geq \frac{\lambda_1^{\mathrm{co\text{-}ex}}}{2} |\beta|^2_{L^2} > 0,
 $$
 
-for some $\kappa > 0$ determined by the spectral gap and the divergence structure of the defect[^4].
+where $\beta$ is the co-exact component of the projection defect[^4]. On $\mathbb{S}^{n-1}$, $\lambda_1^{\mathrm{co\text{-}ex}} = 2(n-2)$, and the bound is achieved by co-differentials of first 2-form eigenfunctions.
 
-This is the quantitative version of "structural, not parametric." A system whose correction architecture repeatedly induces a nontrivial projection defect carries an irreducible curl floor. The floor is not a tuning artifact but a geometric constant times the persistent defect magnitude. Because the curl floor is set by the Hodge spectral gap, no gain scheduling, local smoothing, or parameter tuning can eliminate cycling without changing the feasibility map itself. Cycling and sustained corrective work are the irreducible residue of feasibility—the cost of implementing constraints that prevent a global scalar Lyapunov function from existing on the realized dynamics.
+This is the quantitative version of "structural, not parametric." A system whose correction architecture repeatedly induces a projection defect with a nonzero co-exact component carries an irreducible curl floor. The floor is not a tuning artifact but a geometric constant times the persistent co-exact defect magnitude. Because the curl floor is set by $\lambda_1^{\mathrm{co\text{-}ex}}$—the spectral gap on the subspace of forms that actually produce curl—no gain scheduling, local smoothing, or parameter tuning can eliminate cycling without changing the feasibility map itself. The bound is sharp: the constant $\lambda_1^{\mathrm{co\text{-}ex}}$ cannot be improved. Cycling and sustained corrective work are the irreducible residue of feasibility—the cost of implementing constraints that prevent a global scalar Lyapunov function from existing on the realized dynamics.
 
 ### Connection to Triadic Tension
 
@@ -298,7 +298,7 @@ The curl diagnostic has direct consequences for design, diagnosis, and predictio
 
 ## Limitations and Falsifiability
 
-The curl diagnostic and the curl floor theorem (Theorem 4) rest on checkable claims. If a system with demonstrably state-dependent, non-integrable constraint projections exhibits sustained monotone convergence without cycling, the diagnostic fails—the non-integrability condition in the theorem's hypothesis would need to be revisited for that class of projections. If the Hodge spectral gap $\lambda_1^\perp$ vanishes on physically relevant manifolds (e.g., noncompact manifolds where the spectral gap degenerates), the quantitative lower bound loses its floor and the curl-maintenance functional can approach zero even with persistent projection defects. The theorem applies to any compact Riemannian manifold: when $H^1(M) = 0$ (e.g., spheres), $\lambda_1^\perp$ is the usual first eigenvalue on all 1-forms; when $H^1(M) \neq 0$ (e.g., periodic domains $T^3$), the bound applies to the non-harmonic sector, with harmonic forms contributing no curl. Extending to noncompact state spaces requires verifying that the spectral gap remains positive. Both conditions are independently testable—the first through numerical simulation of constrained dynamics, the second through spectral analysis of the Hodge Laplacian on the manifold in question.
+The curl diagnostic and the curl floor theorem (Theorem 4) rest on checkable claims. If a system with demonstrably state-dependent, non-integrable constraint projections exhibits sustained monotone convergence without cycling, the diagnostic fails—the non-integrability condition in the theorem's hypothesis would need to be revisited for that class of projections. If the co-exact spectral gap $\lambda_1^{\mathrm{co\text{-}ex}}$ vanishes on physically relevant manifolds (e.g., noncompact manifolds where the spectral gap degenerates), the quantitative lower bound loses its floor and the curl-maintenance functional can approach zero even with persistent projection defects. The theorem applies to any compact Riemannian manifold: when $H^1(M) = 0$ (e.g., spheres), $\lambda_1^{\mathrm{co\text{-}ex}}$ is the first eigenvalue of the Hodge Laplacian restricted to co-exact 1-forms; when $H^1(M) \neq 0$ (e.g., periodic domains $T^3$), the bound applies to the co-exact sector of the non-harmonic complement, with harmonic and exact forms contributing no curl. Extending to noncompact state spaces requires verifying that the co-exact spectral gap remains positive. Both conditions are independently testable—the first through numerical simulation of constrained dynamics, the second through spectral analysis of the Hodge Laplacian on the manifold in question.
 
 ---
 
@@ -536,7 +536,7 @@ Thus, among all fields with a prescribed divergence profile, the zero-maintenanc
 
 #### The Spectral Lower Bound
 
-Let $\Delta_1 := d\delta + \delta d$ be the Hodge Laplacian on 1-forms, with kernel $\mathcal{H}^1(M)$ (the harmonic 1-forms). Define the spectral gap on the orthogonal complement:
+Let $\Delta_1 := d\delta + \delta d$ be the Hodge Laplacian on 1-forms, with kernel $\mathcal{H}^1(M)$ (the harmonic 1-forms). The Hodge decomposition splits the orthogonal complement of $\mathcal{H}^1(M)$ into exact forms $d\Omega^0(M)$ and co-exact forms $\delta\Omega^2(M)$. Define the spectral gap on the orthogonal complement:
 
 $$
 \lambda_1^\perp \;:=\; \inf_{\beta \perp \mathcal{H}^1,\; \beta \neq 0} \frac{|d\beta|^2_{L^2} + |\delta\beta|^2_{L^2}}{|\beta|^2_{L^2}} \;>\; 0.
@@ -544,19 +544,21 @@ $$
 
 When $H^1(M) = 0$, $\mathcal{H}^1(M) = \{0\}$ and the infimum is over all nonzero 1-forms; $\lambda_1^\perp$ reduces to the usual $\lambda_1$. When $H^1(M) \neq 0$ (e.g., periodic domains $T^3$), $\mathcal{H}^1(M)$ is nontrivial, but $\lambda_1^\perp$ remains strictly positive on the complement—$\Delta_1$ is invertible on the non-harmonic sector.
 
-**Lemma 3 (Spectral lower bound for the defect curl).** Let $\beta \in \Omega^1(M)$ with $\beta \perp \mathcal{H}^1(M)$. Then,
+The spectral gap $\lambda_1^\perp$ is achieved by exact forms—1-forms of the type $df$ for eigenfunctions $f$ of the scalar Laplacian $\Delta_0$. But exact forms are closed: $d(df) = 0$. They contribute nothing to the curl-maintenance functional. The forms that produce curl are the co-exact ones: forms $\beta$ with $\delta\beta = 0$ and $d\beta \neq 0$. The first eigenvalue of $\Delta_1$ restricted to the co-exact subspace is generically larger:
 
 $$
-|d\beta|^2_{L^2} \geq \lambda_1^\perp |\beta|^2_{L^2} - |\delta\beta|^2_{L^2}.
+\lambda_1^{\mathrm{co\text{-}ex}} \;:=\; \inf_{\substack{\beta \in \delta\Omega^2(M) \\ \beta \neq 0}} \frac{|d\beta|^2_{L^2}}{|\beta|^2_{L^2}} \;\geq\; \lambda_1^\perp.
 $$
 
-*Proof.* By the variational characterization of $\lambda_1^\perp$,
+On $\mathbb{S}^{n-1}$, $\lambda_1^\perp = n - 1$ (achieved by differentials of first spherical harmonics) while $\lambda_1^{\mathrm{co\text{-}ex}} = 2(n-2)$ (achieved by co-differentials of first 2-form eigenfunctions). For $\mathbb{S}^2$ these coincide at 2; for $\mathbb{S}^3$ the improvement is $3 \to 4$; for $\mathbb{S}^4$ it is $4 \to 6$. The gap widens with dimension.
+
+**Lemma 3 (Spectral lower bound on the co-exact subspace).** Let $\beta \in \delta\Omega^2(M)$ be a co-exact 1-form. Then,
 
 $$
-|d\beta|^2_{L^2} + |\delta\beta|^2_{L^2} \geq \lambda_1^\perp |\beta|^2_{L^2}.
+|d\beta|^2_{L^2} \geq \lambda_1^{\mathrm{co\text{-}ex}} |\beta|^2_{L^2}.
 $$
 
-Rearrange. $\blacksquare$
+*Proof.* Since $\beta$ is co-exact, $\delta\beta = 0$, and $\langle \Delta_1 \beta, \beta \rangle = |d\beta|^2_{L^2}$. The variational characterization of $\lambda_1^{\mathrm{co\text{-}ex}}$ on $\delta\Omega^2(M)$ gives the result. $\blacksquare$
 
 #### The Main Theorem
 
@@ -566,27 +568,29 @@ $$
 \delta\alpha = \delta\alpha_{\mathrm{harm}} + \delta\alpha_\perp, \qquad \delta\alpha_{\mathrm{harm}} \in \mathcal{H}^1(M),\;\; \delta\alpha_\perp \perp \mathcal{H}^1(M).
 $$
 
-Then $d(\delta\alpha_{\mathrm{harm}}) = 0$ and
+Further decompose the non-harmonic part into exact and co-exact components:
 
 $$
-\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2} |d(\delta\alpha)|^2_{L^2} = \frac{1}{2} |d(\delta\alpha_\perp)|^2_{L^2} \;\geq\; \frac{1}{2} \left( \lambda_1^\perp |\delta\alpha_\perp|^2_{L^2} - |\delta(\delta\alpha_\perp)|^2_{L^2} \right).
+\delta\alpha_\perp = d\psi + \beta, \qquad d\psi \in d\Omega^0(M),\;\; \beta \in \delta\Omega^2(M).
 $$
 
-In particular, if the non-harmonic defect has persistent magnitude and is not entirely divergence-dominated—i.e., if there exists $\kappa > 0$ such that,
+Then $d(\delta\alpha_{\mathrm{harm}}) = 0$, $d(d\psi) = 0$, and all curl-maintenance derives from the co-exact component:
 
 $$
-|\delta(\delta\alpha_\perp)|_{L^2} \leq \sqrt{\lambda_1^\perp - \kappa} \, |\delta\alpha_\perp|_{L^2},
+\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2} |d(\delta\alpha)|^2_{L^2} = \frac{1}{2} |d\beta|^2_{L^2} \;\geq\; \frac{\lambda_1^{\mathrm{co\text{-}ex}}}{2} |\beta|^2_{L^2}.
 $$
 
-then,
+In particular, if the co-exact component of the projection defect has persistent magnitude—i.e., $|\beta|_{L^2} > 0$—then,
 
 $$
-\mathcal{M}_{\mathrm{curl}}(F) \geq \frac{\kappa}{2} |\delta\alpha_\perp|^2_{L^2} > 0.
+\mathcal{M}_{\mathrm{curl}}(F) \geq \frac{\lambda_1^{\mathrm{co\text{-}ex}}}{2} |\beta|^2_{L^2} > 0.
 $$
 
-*Proof.* Since $\alpha_0$ is exact, $d\alpha = d(\delta\alpha)$. Harmonic forms are closed, so $d(\delta\alpha) = d(\delta\alpha_\perp)$, hence $\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}|d(\delta\alpha_\perp)|^2_{L^2}$. The lower bound is Lemma 3 with $\beta = \delta\alpha_\perp$. The strict positivity condition is immediate from the displayed inequality. $\blacksquare$
+*Proof.* Since $\alpha_0$ is exact, $d\alpha = d(\delta\alpha)$. Harmonic forms are closed, so $d(\delta\alpha) = d(\delta\alpha_\perp)$. The exact component $d\psi$ satisfies $d(d\psi) = 0$, so $d(\delta\alpha_\perp) = d\beta$, and $\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}|d\beta|^2_{L^2}$. Since $\beta$ is co-exact, the lower bound follows from Lemma 3. $\blacksquare$
 
-This is the formal "structural, not parametric" statement: if feasibility repeatedly induces a nontrivial projection defect whose non-harmonic component cannot be represented purely as divergence, curl-maintenance is bounded away from zero by a geometric constant (through $\lambda_1^\perp$) times a persistent defect magnitude. In periodic simulation domains $M = T^3$, the harmonic 1-forms correspond to spatially uniform ($k = 0$) modes and contribute no curl. The curl-floor bound therefore applies to the mean-zero sector ($k \neq 0$) relevant to vorticity, stress gradients, and transport—exactly the sector used in DNS measurements of finite residence and shear relaxation.
+*Sharpness.* On $\mathbb{S}^{n-1}$, the bound is saturated. Take any eigenfunction $\omega$ of $\Delta_2$ at its first eigenvalue and let $\beta = \delta\omega$. Then $\beta$ is co-exact, $\Delta_1 \beta = \lambda_1^{\mathrm{co\text{-}ex}} \beta$, and $|d\beta|^2_{L^2} = \lambda_1^{\mathrm{co\text{-}ex}} |\beta|^2_{L^2}$ exactly. Equality holds, and the saturating form is explicit.
+
+This is the formal "structural, not parametric" statement: if feasibility repeatedly induces a nontrivial projection defect with a nonzero co-exact component, curl-maintenance is bounded away from zero by a geometric constant $\lambda_1^{\mathrm{co\text{-}ex}}$ times the co-exact defect magnitude. The bound is sharp: the constant cannot be improved without additional assumptions on the defect. In periodic simulation domains $M = T^3$, the harmonic 1-forms correspond to spatially uniform ($k = 0$) modes and contribute no curl. The curl-floor bound therefore applies to the mean-zero sector ($k \neq 0$) relevant to vorticity, stress gradients, and transport—exactly the sector used in DNS measurements of finite residence and shear relaxation.
 
 #### When Projection Preserves Zero Maintenance
 
@@ -614,7 +618,7 @@ The wedge statement summarizes the result: among all vector fields satisfying a 
 
 [^3]: Müller, C. (1966). *Spherical Harmonics*. Lecture Notes in Mathematics, Vol. 17, Springer.
 
-[^4]: The spectral gap $\lambda_1^\perp$ is the smallest positive eigenvalue of the Hodge Laplacian $\Delta_1 = d\delta + \delta d$ on 1-forms orthogonal to harmonic forms. When $H^1(M) = 0$ (e.g., $\mathbb{S}^{n-1}$ for $n \geq 2$), this equals the usual first eigenvalue; for $\mathbb{S}^{n-1}$ that value is $n-1$. On $T^3$, $\lambda_1^\perp = (2\pi/L)^2$ where $L$ is the box side length. See Rosenberg, S. (1997). *The Laplacian on a Riemannian Manifold*. Cambridge University Press, Chapter 4.
+[^4]: The co-exact spectral gap $\lambda_1^{\mathrm{co\text{-}ex}}$ is the smallest eigenvalue of the Hodge Laplacian $\Delta_1 = d\delta + \delta d$ restricted to co-exact 1-forms (forms $\beta = \delta\omega$ with $\delta\beta = 0$). This is the sharp constant for the curl floor because exact forms contribute nothing to the curl-maintenance functional ($d(df) = 0$). On $\mathbb{S}^{n-1}$, $\lambda_1^{\mathrm{co\text{-}ex}} = 2(n-2)$, achieved by co-differentials of first 2-form eigenfunctions. The earlier spectral gap $\lambda_1^\perp = n - 1$ on $\mathbb{S}^{n-1}$ is achieved by exact forms and gives a valid but non-sharp bound. On $T^3$, both gaps equal $(2\pi/L)^2$ where $L$ is the box side length, since the Hodge Laplacian acts as $|k|^2$ on all Fourier modes. See Rosenberg, S. (1997). *The Laplacian on a Riemannian Manifold*. Cambridge University Press, Chapter 4.
 
 [^5]: Nyquist, H. (1932). Regeneration Theory. *Bell System Technical Journal*, 11(1), 126-147.
 

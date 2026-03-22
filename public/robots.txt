@@ -3,13 +3,8 @@
 
 User-agent: *
 Allow: /
-Disallow: /api/
-Disallow: /open-graph/
 Crawl-delay: 5
 
 # Key discovery endpoints
 Sitemap: https://scienceandmathematics.com/sitemap-index.xml
 LLMS: https://scienceandmathematics.com/llms.txt
-
-# Contact the author if you need clarified permissions or bulk access support.
-Contact: https://scienceandmathematics.com/about

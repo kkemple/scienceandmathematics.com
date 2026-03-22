@@ -188,7 +188,7 @@ with sufficient authority to reshape $C(x,t)$. Entropy swarming corresponds to $
 
 This lemma establishes that curl is the structural signature of swarming, not a behavioral add-on.
 
-Let $(M,g)$ be a compact, oriented Riemannian manifold. Decompose $\Omega^1(M) = d\Omega^0 \oplus \delta\Omega^2 \oplus \mathcal{H}^1(M)$ via the Hodge theorem, and let $\lambda_1^\perp > 0$ denote the first positive eigenvalue of the Hodge Laplacian on the orthogonal complement of harmonic forms $\mathcal{H}^1(M)$. Let $\phi \in C^\infty(M)$ define a smooth potential and let the proposal correction field be the gradient flow,
+Let $(M,g)$ be a compact, oriented Riemannian manifold. Decompose $\Omega^1(M) = d\Omega^0 \oplus \delta\Omega^2 \oplus \mathcal{H}^1(M)$ via the Hodge theorem, and let $\lambda_1^{\mathrm{co\text{-}ex}} > 0$ denote the first eigenvalue of the Hodge Laplacian restricted to co-exact 1-forms $\delta\Omega^2(M)$—the subspace of forms that actually produce curl (exact forms and harmonics contribute nothing to the curl-maintenance functional). Let $\phi \in C^\infty(M)$ define a smooth potential and let the proposal correction field be the gradient flow,
 
 $$
 F_0 := -\nabla \phi, \qquad \alpha_0 := F_0^\flat = -d\phi,
@@ -221,19 +221,13 @@ $$
 Then,
 
 $$
-\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}|d(\delta\alpha_\perp)|_{L^2}^2 \geq \frac{1}{2}\Big(\lambda_1^\perp|\delta\alpha_\perp|_{L^2}^2 - |\delta(\delta\alpha_\perp)|_{L^2}^2\Big),
+\mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2}|d\beta|_{L^2}^2 \geq \frac{\lambda_1^{\mathrm{co\text{-}ex}}}{2}|\beta|_{L^2}^2,
 $$
 
-where $\delta\alpha_\perp$ is the non-harmonic component of the projection defect (harmonic forms contribute no curl since $d\delta\alpha_{\mathrm{harm}} = 0$), and $\lambda_1^\perp > 0$ is the spectral gap on the complement of $\mathcal{H}^1(M)$[^6]. On periodic domains such as $T^3$, harmonic 1-forms correspond to spatially uniform ($k = 0$) modes, so $\lambda_1^\perp$ governs the mean-zero sector relevant to vorticity and transport. In particular, if there exists $\kappa > 0$ such that,
+where $\delta\alpha_\perp$ is the non-harmonic component of the projection defect, decomposed as $\delta\alpha_\perp = d\psi + \beta$ into exact and co-exact parts, and $\beta \in \delta\Omega^2(M)$ is the co-exact component[^6]. Harmonic forms contribute no curl ($d\delta\alpha_{\mathrm{harm}} = 0$), and exact forms contribute no curl ($d(d\psi) = 0$), so all curl-maintenance derives from $\beta$. The bound is sharp: on $\mathbb{S}^{n-1}$, $\lambda_1^{\mathrm{co\text{-}ex}} = 2(n-2)$, achieved by co-differentials of first 2-form eigenfunctions. On periodic domains such as $T^3$, $\lambda_1^{\mathrm{co\text{-}ex}}$ governs the mean-zero sector relevant to vorticity and transport. In particular, if the co-exact component has persistent magnitude—i.e., $|\beta|_{L^2} > 0$—then,
 
 $$
-|\delta(\delta\alpha_\perp)|_{L^2} \leq \sqrt{\lambda_1^\perp - \kappa} \, |\delta\alpha_\perp|_{L^2},
-$$
-
-then,
-
-$$
-\mathcal{M}_{\mathrm{curl}}(F) \geq \frac{\kappa}{2} |\delta\alpha_\perp|_{L^2}^2 > 0.
+\mathcal{M}_{\mathrm{curl}}(F) \geq \frac{\lambda_1^{\mathrm{co\text{-}ex}}}{2} |\beta|_{L^2}^2 > 0.
 $$
 
 **Interpretation.** In the gradient regime, $d\alpha \approx 0$ and motion is approximately potential-driven; coherent descent dominates. In the entropy swarm regime, feasibility projection is state-dependent and non-integrable, inducing persistent $d\alpha \neq 0$ (curl). Monotone descent is obstructed and cycling, herding, and cascades become generic responses to pressure.
