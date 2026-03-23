@@ -4,9 +4,9 @@ description: "Binding energy as thermodynamic maintenance cost via Landauer's pr
 pubDate: '2025-10-14'
 category: 'supporting'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18724796
-zenodoUrl: "https://zenodo.org/records/18724796"
-doi: "10.5281/zenodo.18724796"
+zenodoDepositionId: 19192732
+zenodoUrl: "https://zenodo.org/records/19192732"
+doi: "10.5281/zenodo.19192732"
 keywords:
   - "Landauer principle"
   - "binding energy"
@@ -107,7 +107,7 @@ $$
 r_{\text{grav}} = R_S = \frac{2GM}{c^2}.
 $$
 
-The maintenance fraction $\xi$ quantifies the fraction of a system's energy budget devoted to curvature maintenance (§5 of [Triadic Tension, Decade Symmetry, & Dissipation Flow](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry)). Observed values cluster near decade-spaced plateaus: elementary particles at $\xi \sim 10^{-6}$, atoms at $\sim 10^{-3}$, molecules at $\sim 10^{-2}$, and biological systems at $\sim 10^{-1}$. These values are order-of-magnitude estimates from the characteristic energy scales at each organizational level—the fine structure constant $\alpha^2 \approx 5 \times 10^{-5}$ sets the electromagnetic coupling scale, Bohr-to-nuclear radius ratios set atomic coordination costs, and conformational entropy sets molecular overhead. The decade spacing itself is a prediction of the RG flow with $C_{10}$ symmetry (§4 of the same post), where each RG period spans one decade in scale.
+The maintenance fraction $\xi$ quantifies the fraction of a system's energy budget devoted to curvature maintenance (§5 of [Triadic Tension, Decade Symmetry, & Dissipation Flow](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry)). Observed values cluster near decade-spaced walking plateaus: elementary particles at $\xi \sim 10^{-6}$, atoms at $\sim 10^{-3}$, molecules at $\sim 10^{-2}$, and biological systems at $\sim 10^{-1}$. These values are order-of-magnitude estimates from the characteristic energy scales at each physical regime—the fine structure constant $\alpha^2 \approx 5 \times 10^{-5}$ sets the electromagnetic coupling scale, Bohr-to-nuclear radius ratios set atomic coordination costs, and conformational entropy sets molecular overhead. The decade spacing itself is a prediction of the RG flow with $C_{10}$ symmetry (§4 of the same post), where each RG period spans one decade in scale.
 
 | Force | $r_{\text{crit}}$ | Typical $r/r_{\text{crit}}$ | Maintenance Cost |
 |-------|------------------|----------------------------|------------------|
@@ -161,7 +161,7 @@ The organizational complexity drops by a factor of 207, requiring massive inform
 
 The $(\xi=1, \mathcal{D}=2)$ black hole state requires additional compression beyond neutron star density, achievable only by exceeding the Oppenheimer-Volkoff limit[^7]. White dwarf collapse represents information bankruptcy at electron degeneracy—a different failure mode with lower organizational overhead than neutron star collapse to black holes. This mechanism operates across all scales: ionization at atomic bankruptcy (~100 eV per particle), molecular dissociation at chemical limits (~10 eV per bond), stellar collapse at gravitational thresholds (~$10^{44}$ J for solar masses).
 
-## Information Processing Hierarchy
+## Information Processing Regimes
 
 Black holes occupy the IR fixed point of the $\beta$-function at $(\xi = 1, \mathcal{D} = 2)$, where all available energy is dedicated to maintaining horizon structure—maximum entropy as pure curvature maintenance with zero excess capacity[^8]. The [dimensional reduction to $\mathcal{D} = 2$](/black-hole-horizons-and-dimensional-reduction-correspondence) at this fixed point is consistent with the holographic scaling of Bekenstein-Hawking entropy with boundary area rather than volume. All other organized systems operate at $\xi < 1$, with residual capacity $(1-\xi)$ available for organizational dynamics beyond pure pattern preservation.
 

@@ -4,9 +4,9 @@ description: "Conservation plus symmetry yields Maxwell, Klein-Gordon, and Euler
 pubDate: '2025-10-06'
 category: 'supporting'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18724802
-zenodoUrl: "https://zenodo.org/records/18724802"
-doi: "10.5281/zenodo.18724802"
+zenodoDepositionId: 19192740
+zenodoUrl: "https://zenodo.org/records/19192740"
+doi: "10.5281/zenodo.19192740"
 keywords:
   - "field theory"
   - "Noether theorem"
@@ -24,7 +24,7 @@ zenodoDescription: |
 
   The framework extends to include thermal dissipation through a coefficient ξ quantifying energy loss to microscopic degrees of freedom. Fermi's golden rule provides the microscopic origin: electron-phonon coupling yields ξ₀ = α²√(mₑ/M) ≈ 10⁻⁶ for elementary particles, with the fine structure constant α = 1/137 appearing naturally. The fluctuation-dissipation theorem ensures thermal equilibrium through balanced noise and damping.
 
-  This microscopic derivation establishes ξ as a physical, derivable quantity—the essential prerequisite for its role as the maintenance fraction ξ ∈ [0,1] in the constraint geometry's β-function. The decade-spaced hierarchy from ξ ~ 10⁻⁶ (particles) through 10⁻¹ (biological systems) to 1 (black holes) follows from the RG coupling u* = 4πφ²/10 ≈ 3.29, derived from triadic tension and C₁₀ decade symmetry. The microscopic origin derived here provides the UV boundary condition; the constraint geometry determines the flow.
+  This microscopic derivation establishes ξ as a physical, derivable quantity—the essential prerequisite for its role as the maintenance fraction ξ ∈ [0,1] in the constraint geometry's β-function. The decade-spaced regime structure from ξ ~ 10⁻⁶ (particles) through 10⁻¹ (biological systems) to 1 (black holes) follows from the RG coupling u* = 4πφ²/10 ≈ 3.29, derived from triadic tension and C₁₀ decade symmetry. The microscopic origin derived here provides the UV boundary condition; the constraint geometry determines the flow.
 ---
 
 Conservation plus symmetry produces field equations. Start with a single constraint—a conserved current $n^\mu$ with vanishing divergence—and impose symmetry requirements. U(1) gauge symmetry generates Maxwell's equations. Lorentz invariance yields Klein-Gordon. Galilean symmetry produces Euler's fluid equations. Mathematical consistency alone. Add dissipation through thermal coupling with maintenance fraction $\xi$ ranging from $10^{-6}$ for elementary particles to unity for black holes, [quantifying the energy required to maintain organizational structure](/binding-energy-critical-radii-and-information-maintenance-tax). Fermi's golden rule provides the microscopic origin of $\xi$, establishing it as a physical quantity whose flow across scales is governed by the [constraint geometry's $\beta$-function](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry).
@@ -157,7 +157,7 @@ $$
 \eta_k = \frac{\Gamma_k}{E_0/\hbar},
 $$
 
-where $\Gamma_k$ quantifies thermal relaxation rate and $E_0$ sets the characteristic energy scale. The decade spacing of the maintenance hierarchy—$10^{-6}$ for elementary particles through $10^{-1}$ for biological systems—is governed by the RG coupling $u^* = 4\pi\varphi^2/10 \approx 3.29$, derived in [Triadic Tension, Decade Symmetry, & Dissipation Flow](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) from the triadic tension theorem and $C_{10}$ decade symmetry. The factor of 10 in the denominator reflects the unique cyclic group $C_{10} = C_2 \times C_5$ surviving negative selection (non-crystallographic, $\varphi$-compatible, binary-closed), which partitions each RG period into ten equivalent coarse-graining shells. One full RG period spans one decade in scale, producing the observed order-of-magnitude jumps in $\xi$.
+where $\Gamma_k$ quantifies thermal relaxation rate and $E_0$ sets the characteristic energy scale. The decade spacing of the maintenance regime structure—$10^{-6}$ for elementary particles through $10^{-1}$ for biological systems—is governed by the RG coupling $u^* = 4\pi\varphi^2/10 \approx 3.29$, derived in [Triadic Tension, Decade Symmetry, & Dissipation Flow](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) from the triadic tension theorem and $C_{10}$ decade symmetry. The factor of 10 in the denominator reflects the unique cyclic group $C_{10} = C_2 \times C_5$ surviving negative selection (non-crystallographic, $\varphi$-compatible, binary-closed), which partitions each RG period into ten equivalent coarse-graining shells. One full RG period spans one decade in scale, producing the observed order-of-magnitude jumps in $\xi$.
 
 ## Microscopic Origin of Dissipation
 
@@ -227,7 +227,7 @@ where kinematic viscosity $\nu \sim v_{\mathrm{th}}^2 \tau$ in kinetic theory, w
 
 Conservation plus symmetry generates the reversible dynamics of physical fields—Maxwell from U(1), Klein-Gordon from Lorentz invariance, Euler from Galilean symmetry. Thermal coupling breaks time-reversal symmetry through the maintenance fraction $\xi$, whose microscopic origin traces to Fermi's golden rule. The baseline $\eta_0 = \alpha^2\sqrt{m_e/M} \approx 10^{-6}$ is derived from quantum mechanics through Fermi's golden rule.
 
-This microscopic floor is the starting point of the macroscopic maintenance fraction $\xi \in [0,1]$ that appears in the [constraint geometry's $\beta$-function](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The $\beta$-function governs how $\xi$ flows across scales, with the RG coupling $u^* = 4\pi\varphi^2/10 \approx 3.29$ producing the observed decade-spaced hierarchy from elementary particles through biological systems to black holes. The microscopic derivation here establishes that $\xi$ is physical—the constraint geometry determines how it flows.
+This microscopic floor is the starting point of the macroscopic maintenance fraction $\xi \in [0,1]$ that appears in the [constraint geometry's $\beta$-function](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The $\beta$-function governs how $\xi$ flows across scales, with the RG coupling $u^* = 4\pi\varphi^2/10 \approx 3.29$ producing the observed decade-spaced walking plateaus from elementary particles through biological systems to black holes. The microscopic derivation here establishes that $\xi$ is physical—the constraint geometry determines how it flows.
 
 [^1]: Noether, E. (1918). Invariante Variationsprobleme. *Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse*, 1918, 235-257.
 

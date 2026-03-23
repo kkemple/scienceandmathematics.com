@@ -3,9 +3,9 @@ title: 'From 6D Lattice Projection to 3D Cosmic Expansion'
 description: "One projection from 6D produces a spectral gap and a triadic frustration. They feed one β-function whose flow organizes compact objects, derives the area law, and produces accelerated expansion."
 pubDate: '2026-02-18'
 updatedDate: '2026-02-24'
-zenodoDepositionId: 18763109
-zenodoUrl: "https://zenodo.org/records/18763109"
-doi: "10.5281/zenodo.18763109"
+zenodoDepositionId: 19192743
+zenodoUrl: "https://zenodo.org/records/19192743"
+doi: "10.5281/zenodo.19192743"
 category: 'core'
 order: 1
 zenodoDescription: |
@@ -13,7 +13,7 @@ zenodoDescription: |
 
   The spectral gap delivers an effective dimension D through the semigroup-controlled eigenvalue count on S³/2I, where 15 forbidden modes thin the low-energy spectrum to d_eff ≈ 2.61. The frustration delivers the coupling constant u* = 4πφ²/10 ≈ 3.29 through ground-state curvature I = 4πφ² partitioned by C₁₀ decade symmetry. Both feed independently into the β-function β(ξ, D) = −ξ(1−ξ)[u* + (D−2)ln(φ)/2], whose one-loop exactness is enforced by a vertex selection rule derived from the Perron–Frobenius eigenvalue of the Penrose substitution matrix.
 
-  The coupled flow from (ξ, D) = (0, 3) to (1, 2) organizes the tier hierarchy of compact objects. Dark matter halos sit at ξ ~ 10⁻⁵. White dwarfs approach the structural saturation threshold u*/10 ≈ 0.329, where the Gaia DR3 catalog reveals a cooling anomaly at 14.5σ. Black holes complete the flow to the IR fixed point, where the effective dimension reaches 2—the Bekenstein–Hawking area law as a derived consequence. GWTC spin populations match the u* prediction at 0.1σ.
+  The coupled flow from (ξ, D) = (0, 3) to (1, 2) organizes the regime structure of compact objects. Dark matter halos sit at ξ ~ 10⁻⁵. White dwarfs approach the structural saturation threshold u*/10 ≈ 0.329, where the Gaia DR3 catalog reveals a cooling anomaly at 14.5σ. Black holes complete the flow to the IR fixed point, where the effective dimension reaches 2—the Bekenstein–Hawking area law as a derived consequence. GWTC spin populations match the u* prediction at 0.1σ.
 
   The universe as a whole is unbound and responds differently. When Ω_m approaches ξ_c ≈ 0.304, the constraint functional undergoes eigenmode transition: the π-sector becomes dominant, producing accelerated expansion. The N-sector curvature pump model yields w₀ = −0.724 and w_a = −0.746, matching DESI DR2 measurements at 0.4σ and 0.5σ respectively.
 
@@ -37,9 +37,9 @@ keywords:
 
 Penrose tilings[^1] have appeared on bathroom floors, building facades, and medieval Islamic architecture centuries before anyone wrote down their mathematics. Their defining property is aperiodicity—no finite translation maps the pattern onto itself—enforced by the golden ratio $\varphi = (1+\sqrt{5})/2$, whose continued fraction $[1; 1, 1, 1, \ldots]$ converges more slowly than any other irrational number. Hurwitz proved this in 1891: $\varphi$ is the worst-approximable number, meaning no rational $p/q$ satisfies $|\varphi - p/q| < 1/(\sqrt{5} \cdot q^2)$[^2]. That extremal property of a single irrational number connects a 6D lattice to cosmic expansion through a chain of results.
 
-A 6D periodic lattice, projected to 3D, simultaneously produces a quasicrystal, a spectral gap, and a triadic frustration. The spectral gap and the frustration are dual descriptions of one obstruction—the orbifold quotient removes degrees of freedom that would otherwise allow simultaneous relaxation of all three curvature sectors. The spectral gap delivers an effective dimension $\mathcal{D}$. The frustration delivers a coupling constant $u^*$. Both feed independently into a single $\beta$-function, $\beta(\xi, \mathcal{D}) = -\xi(1-\xi)[u^* + (\mathcal{D}-2)\ln\varphi/2]$, whose flow from $(\xi, \mathcal{D}) = (0, 3)$ to $(1, 2)$ organizes the tier hierarchy of compact objects. Bound systems that complete the flow reach a two-dimensional IR fixed point—the Bekenstein–Hawking area law. The universe as a whole, which is unbound, responds to the same threshold by switching eigenmodes, producing accelerated expansion at $z \approx 0.63$.
+A 6D periodic lattice, projected to 3D, simultaneously produces a quasicrystal, a spectral gap, and a triadic frustration. The spectral gap and the frustration are dual descriptions of one obstruction—the orbifold quotient removes degrees of freedom that would otherwise allow simultaneous relaxation of all three curvature sectors. The spectral gap delivers an effective dimension $\mathcal{D}$. The frustration delivers a coupling constant $u^*$. Both feed independently into a single $\beta$-function, $\beta(\xi, \mathcal{D}) = -\xi(1-\xi)[u^* + (\mathcal{D}-2)\ln\varphi/2]$, whose flow from $(\xi, \mathcal{D}) = (0, 3)$ to $(1, 2)$ organizes the regime structure of compact objects. Bound systems occupy distinct walking plateaus along that flow and complete it only at the two-dimensional IR fixed point, where the Bekenstein–Hawking area law appears as a derived consequence. The universe as a whole, which is unbound, responds to the same threshold by switching eigenmodes, producing accelerated expansion at $z \approx 0.63$.
 
-The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) provides the $\beta$-function. The [KK spectrum computation](/kk-spectrum-e8-and-the-lcd-question) provides the effective dimension. The [ADE domain wall analysis](/ade-domain-walls-and-branch-selection) establishes why $E_8$ is selected over competing branches. Each section below traces one link of this chain, from the lattice through the projection, the spectrum, the frustration, the $\beta$-function, the physical hierarchy, branch selection, and the cosmological consequences.
+The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) provides the $\beta$-function. The [KK spectrum computation](/kk-spectrum-e8-and-the-lcd-question) provides the effective dimension. The [ADE domain wall analysis](/ade-domain-walls-and-branch-selection) establishes why $E_8$ is selected over competing branches. Each section below traces one link of this chain, from the lattice through the projection, the spectrum, the frustration, the $\beta$-function, the physical regime structure, branch selection, and the cosmological consequences.
 
 ## The 6D Lattice and Its Projection
 
@@ -146,9 +146,9 @@ with coupled dimensional flow $d\mathcal{D}/d(\ln\mu) = -(\xi/u^*)\ln\varphi$.
 
 The UV fixed point is $(\xi, \mathcal{D}) = (0, 3)$: no organizational structure, full three dimensions. The IR fixed point is $(\xi, \mathcal{D}) = (1, 2)$: complete organizational saturation, two effective dimensions. At $\mathcal{D} = 2$, the dimensional correction vanishes exactly, and the critical exponent takes its universal value $\nu = 1/u^* = 10/(4\pi\varphi^2) \approx 0.304$. This same ratio defines the critical maintenance fraction $\xi_c = 1/u^* \approx 0.304$—the threshold where the maintenance multiplier $(1-\xi)^{-u^*}$ enters nonlinear divergence. Systems crossing $\xi_c$ undergo qualitative structural change; the universe as a whole, being unbound, responds with eigenmode transition rather than collapse (§Accelerated Expansion below).
 
-## The Tier Hierarchy
+## Regime Structure of Bound Systems
 
-Physical systems sit at different points along the flow from $(0, 3)$ to $(1, 2)$, and the $\beta$-function value at each point determines the local dynamics.
+Physical systems sit at different points along the flow from $(0, 3)$ to $(1, 2)$, and the $\beta$-function value at each point determines the local dynamics. The UV and IR endpoints are the only exact fixed points. The intermediate astrophysical populations occupy walking plateaus where the flow lingers with distinct maintenance loads and dimensional responses.
 
 ### From Curl to Maintenance Cost
 
@@ -172,11 +172,11 @@ $$
 
 where $R_S$ is the Schwarzschild radius and $R$ is the characteristic system radius. This is dimensionless, scale-covariant, and computable directly from observed masses and radii. It provides the operational bridge between the abstract constraint geometry and astrophysical data.
 
-### Four-Tier Partition
+### Four-Regime Partition
 
-Cosmic matter partitions into four tiers corresponding to four qualitatively distinct regimes of the $(\xi, \mathcal{D})$ flow. Each tier occupies a different region of the flow plane, and the RG evolution within each region has qualitatively different character.
+Cosmic matter partitions into four regimes corresponding to four qualitatively distinct regions of the $(\xi, \mathcal{D})$ flow. Each regime occupies a different part of the flow plane, and the RG evolution within each region has qualitatively different character.
 
-1. **Diffuse, non-collapsed matter.** $\xi_0 = 0$, $\mathcal{D}_0 = 3$. This matter has never entered the flow. At $z = 0$, roughly 56% of cosmic matter remains in this tier.
+1. **Diffuse, non-collapsed matter.** $\xi_0 = 0$, $\mathcal{D}_0 = 3$. This matter has never entered the flow. At $z = 0$, roughly 56% of cosmic matter remains in this regime.
 
 2. **Halo gravitational channel.** Dark matter halos have entered gravitational collapse but remain at $\xi \sim 10^{-5}$ — bound but far below $\xi_c$. About 44% of matter at $z = 0$.
 
@@ -188,13 +188,13 @@ Mass fractions satisfy $f_0(z) + f_h(z) + f_r(z) + f_{\mathrm{BH}}(z) = 1$, with
 
 ### Halo Gravitational Maintenance
 
-The halo tier requires explicit construction because its $\xi$ is an integral over the halo population. Halos are modeled with NFW profiles, and the maintenance fraction uses the central potential depth normalized to $R_S/R$ in the point-mass limit:
+The halo regime requires explicit construction because its $\xi$ is an integral over the halo population. Halos are modeled with NFW profiles, and the maintenance fraction uses the central potential depth normalized to $R_S/R$ in the point-mass limit:
 
 $$
 \xi_{\mathrm{halo,grav}}(M,z) = \frac{2GM}{R_{\mathrm{vir}}c^2} \frac{c(M,z)}{\ln(1+c) - c/(1+c)},
 $$
 
-where $c(M,z)$ is the concentration parameter. The factor of 2 ensures consistency with $\xi_{\mathrm{grav}} = R_S/R = 2GM/(Rc^2)$ across all tiers — it comes from the Schwarzschild radius definition, not the virial theorem.
+where $c(M,z)$ is the concentration parameter. The factor of 2 ensures consistency with $\xi_{\mathrm{grav}} = R_S/R = 2GM/(Rc^2)$ across all regimes — it comes from the Schwarzschild radius definition, not the virial theorem.
 
 The global halo maintenance load, mass-weighted over the Sheth–Tormen halo mass function and normalized to total matter density, is
 
@@ -210,7 +210,7 @@ White dwarfs at $\xi_{\mathrm{WD}} \sim 2 \times 10^{-4}$ are approaching the st
 
 Neutron stars sit at $\xi \sim 0.31$–$0.49$, measured directly from NICER X-ray timing (simultaneous mass–radius: J0030+0451 at $\xi = 0.311$, J0437$-$4715 at $\xi = 0.369$, J0740+6620 at $\xi = 0.493$). Every measured neutron star exceeds $\xi_c = 0.304$. They have passed all three stages of the activation cascade — kinematic binding, organizational loading past $\xi_c$, and geometric transition where the curl floor engages. The $\beta$-function is steep ($\beta \sim -0.83$ for the canonical $1.4\,M_\odot$/11 km case) and the effective dimension has begun dropping below 3. Neutron stars are the highest-$\xi$ objects that remain below tri-sector saturation.
 
-Stellar black holes are not in this tier. $R_S/R = 1$ for any black hole — they belong to the black hole tier at the IR fixed point.
+Stellar black holes are not in this regime. $R_S/R = 1$ for any black hole — they belong to the black hole regime at the IR fixed point.
 
 Although individual neutron star $\xi$ values are large, the neutron star mass density is small relative to total matter ($\rho_{\mathrm{NS}} \sim 10^{-4}\,\rho_m$), so the global compact-remnant maintenance load remains small:
 
@@ -228,11 +228,11 @@ $$
 \xi_{\mathrm{BH}}(z) = f_{\mathrm{SMBH}}(z) + f_{\mathrm{sBH}}(z), \qquad \xi_{\mathrm{BH}}(0) \approx 1.1 \times 10^{-4}.
 $$
 
-Because $\xi_{\mathrm{BH}} = 1$, all energy is consumed by maintenance and the [dimensional flow](/black-hole-horizons-and-dimensional-reduction-correspondence) drives $\mathcal{D} \to 2$ — horizons are boundary-supported dynamics at the IR fixed point. The flow factor $\xi(1-\xi) = 0$ confirms they have completed the RG trajectory: no further evolution is possible, and their contribution to the cosmological tier budget is purely their combined mass fraction.
+Because $\xi_{\mathrm{BH}} = 1$, all energy is consumed by maintenance and the [dimensional flow](/black-hole-horizons-and-dimensional-reduction-correspondence) drives $\mathcal{D} \to 2$ — horizons are boundary-supported dynamics at the IR fixed point. The flow factor $\xi(1-\xi) = 0$ confirms they have completed the RG trajectory: no further evolution is possible, and their contribution to the cosmological regime budget is purely their combined mass fraction.
 
 ### Diagnostic Mean Binding Fraction
 
-The global diagnostic is the direct sum of tier contributions, each normalized to total matter density:
+The global diagnostic is the direct sum of regime contributions, each normalized to total matter density:
 
 $$
 \bar{\xi}(z) = \xi_h(z) + \xi_r(z) + \xi_{\mathrm{BH}}(z).
@@ -245,15 +245,15 @@ $$
 | $\xi_{\mathrm{BH}}$ | $\sim 1.1 \times 10^{-4}$ |
 | $\bar{\xi}$ | $\sim 1.5 \times 10^{-4}$ |
 
-This value is diagnostic only — it indicates the overall scale of cosmological maintenance burden. RG integration must proceed tierwise, not from this average, for reasons explained below.
+This value is diagnostic only — it indicates the overall scale of cosmological maintenance burden. RG integration must proceed regime by regime, not from this average, for reasons explained below.
 
 ### Tierwise RG Integration
 
-RG evolution must be performed separately for each tier because the flow equations are nonlinear. The maintenance rate $d\xi/d\mu = \xi(1-\xi)\mathcal{W}(\mathcal{D})$ depends on $\xi(1-\xi)$, which is concave. By Jensen's inequality, averaging $\xi$ across tiers first and then computing the flow rate systematically overestimates the result compared to computing flow rates tierwise and then averaging. The error is proportional to the variance of $\xi$ across tiers — and since $\xi$ spans from 0 (diffuse) to 1 (black holes), the variance is maximal.
+RG evolution must be performed separately for each regime because the flow equations are nonlinear. The maintenance rate $d\xi/d\mu = \xi(1-\xi)\mathcal{W}(\mathcal{D})$ depends on $\xi(1-\xi)$, which is concave. By Jensen's inequality, averaging $\xi$ across regimes first and then computing the flow rate systematically overestimates the result compared to computing flow rates regime by regime and then averaging. The error is proportional to the variance of $\xi$ across regimes — and since $\xi$ spans from 0 (diffuse) to 1 (black holes), the variance is maximal.
 
-More concretely: the diffuse tier ($\xi = 0$) contributes zero to the flow because no energy has been committed to maintenance — structure has not begun. The black hole tier ($\xi = 1$) also contributes zero *further* flow, but for the opposite reason: all energy is consumed by maintenance, the dimensional flow has driven $\mathcal{D} \to 2$, and the system has completed its RG trajectory. Both give $\xi(1-\xi) = 0$, but the physics is opposite — one has not started, the other is maximally active at the IR fixed point. Only the intermediate tiers (halos and compact remnants) drive nonzero evolution. Averaging first would incorrectly attribute flow contributions to the diffuse and black hole mass whose $\xi$ values properly produce no further change.
+More concretely: the diffuse regime ($\xi = 0$) contributes zero to the flow because no energy has been committed to maintenance — structure has not begun. The black hole regime ($\xi = 1$) also contributes zero further flow, but for the opposite reason: all energy is consumed by maintenance, the dimensional flow has driven $\mathcal{D} \to 2$, and the system has completed its RG trajectory. Both give $\xi(1-\xi) = 0$, but the physics is opposite — one has not started, the other has completed the flow at the IR fixed point. Only the intermediate regimes (halos and compact remnants) drive nonzero evolution. Averaging first would incorrectly attribute flow contributions to the diffuse and black hole mass whose $\xi$ values properly produce no further change.
 
-The tierwise dimension evolution is
+The regime-wise dimension evolution is
 
 $$
 \mathcal{D}_i(z) = 3 - \frac{\ln\varphi}{u^*} \int_{\mu(z_{\mathrm{ref}})}^{\mu(z)} \xi_i(\mu')\,d\mu',
@@ -345,7 +345,7 @@ The projection forces *an* ADE orbifold but does not uniquely force $E_8$. Branc
 
 **The 6D lattice is assumed.** The Kramer–Neri theorem establishes that 6 is the minimum dimension for icosahedral projection, but does not explain why a 6D lattice exists. The framework begins at the lattice and derives everything downstream.
 
-**The compactification radius $R$ is a free parameter.** Everything else—$u^*$, $\xi_c$, the spectral gap, the tier hierarchy, the expansion onset—follows from the projection. But $R$ sets the energy scale at which KK modes become relevant, and its value is not derived.
+**The compactification radius $R$ is a free parameter.** Everything else—$u^*$, $\xi_c$, the spectral gap, the regime structure, the expansion onset—follows from the projection. But $R$ sets the energy scale at which KK modes become relevant, and its value is not derived.
 
 **The "+1" in $A = 1 + \mathcal{W}(3)$ has a physical interpretation but not yet a first-principles derivation.** The N-sector curvature pump model yields $w_0 = -0.724$ ($0.4\sigma$ from DESI DR2) and $w_a = -0.746$ ($0.5\sigma$ from DESI DR2). The amplitude $A = \mathcal{W}(3) + 1$ is numerically verified ($\chi^2$ at the derived value matches the numerical optimum to 3 decimal places) and cross-predicts $R_{\pi N}/|R_{\pi\pi}| = (\mathcal{W}(3)+1)/5 = 0.906$ vs measured 0.908 (0.2% match). The "+1" admits a bare + dressed decomposition: $1$ = bare constraint coupling, $\mathcal{W}(3)$ = RG-mediated coupling. A rigorous derivation from the Euler–Lagrange equation showing that the constraint-level response is exactly unity would complete this link.
 

@@ -4,9 +4,9 @@ description: "Civilizations build intervention stacks on natural mechanics until
 pubDate: '2025-10-18'
 category: 'applications'
 updatedDate: '2026-02-06'
-zenodoDepositionId: 18701899
-zenodoUrl: "https://zenodo.org/records/18701899"
-doi: "10.5281/zenodo.18701899"
+zenodoDepositionId: 19192760
+zenodoUrl: "https://zenodo.org/records/19192760"
+doi: "10.5281/zenodo.19192760"
 keywords:
   - "innovation cycles"
   - "civilizational collapse"
@@ -43,7 +43,7 @@ This distinction clarifies what actually runs out during civilizational crises. 
 
 Civilizational capacity is the density and height of the intervention stack across known mechanics. Simple interventions (hammers, levers) sit at the base. Complex interventions (computers, power grids) sit higher and depend on layers beneath them.
 
-The stack has ordering constraints. You can't skip rungs. Semiconductors require metallurgy require smelting require fire. Each layer is prerequisite to the next—civilizations climb [complexity ladders](/complex-adaptable-systems-complexity-ladders-and-agency) where each rung enables the next. Advanced technologies harness multiple mechanics at once—the more mechanics an intervention touches, the more stack dependencies it has, and the more fragile it is to disruption below.
+The stack has ordering constraints. You can't skip rungs. Semiconductors require metallurgy require smelting require fire. Each layer is prerequisite to the next—civilizations build through [stepwise structure accumulation](/complex-adaptive-systems-and-stepwise-structure-buildup), where each stabilized layer enables the next. Advanced technologies harness multiple mechanics at once—the more mechanics an intervention touches, the more stack dependencies it has, and the more fragile it is to disruption below.
 
 A civilization builds interventions on available mechanics. Early in adoption, returns are high and coordination costs low. Over time, the intervention space fills. Marginal returns diminish while coordination overhead, maintenance burden, and complexity rise. At saturation, complexity outpaces the surplus the intervention portfolio can sustain.
 

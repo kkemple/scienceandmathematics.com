@@ -3,9 +3,9 @@ title: "Simulation Horizons, Constraints, & the Emergence of Strategic Agency"
 description: "A phase boundary for when optimization becomes strategy: systems play games only when horizon and authority justify intervention over migration under thermodynamic and institutional constraints."
 pubDate: "2025-12-21"
 category: 'applications'
-zenodoDepositionId: 18701901
-zenodoUrl: "https://zenodo.org/records/18701901"
-doi: "10.5281/zenodo.18701901"
+zenodoDepositionId: 19192763
+zenodoUrl: "https://zenodo.org/records/19192763"
+doi: "10.5281/zenodo.19192763"
 updatedDate: "2026-02-06"
 type: "analysis"
 keywords:
@@ -157,7 +157,7 @@ $$
 
 Stability is a spectral condition: the closed-loop matrix must have spectral radius less than 1 in discrete time, or eigenvalues with negative real parts in continuous time. But crucially, bounded reflexivity shows up in the search for $K_t$ (horizon-limited planning), while authority shows up in admissible $u_t$ and effective $B_t$.
 
-Equilibrium becomes an emergent property of constrained feedback rather than an abstract solution concept. This is the bridge between the market-level story in [Bounded Reflexivity & Constraint Theory](/bounded-reflexivity-and-constraint-theory) and the agency story in [Complex Adaptable Systems, Complexity Ladders, & Agency](/complex-adaptable-systems-complexity-ladders-and-agency): stability is what systems do when they can afford it.
+Equilibrium becomes an emergent property of constrained feedback rather than an abstract solution concept. This is the bridge between the market-level story in [Bounded Reflexivity & Constraint Theory](/bounded-reflexivity-and-constraint-theory) and the regime-structure story in [Complex Adaptive Systems & Stepwise Structure Buildup](/complex-adaptive-systems-and-stepwise-structure-buildup): stability is what systems do when they can afford it.
 
 ## Stress Collapses Games into Gradients
 
@@ -253,7 +253,7 @@ Crisis is horizon collapse. Panic, herding, flight-to-safety—these are not fai
 
 ## Closing Note
 
-This piece is intended to sit alongside [Bounded Reflexivity & Constraint Theory](/bounded-reflexivity-and-constraint-theory) (the market substrate: constraints and feedback) and [Complex Adaptable Systems, Complexity Ladders, & Agency](/complex-adaptable-systems-complexity-ladders-and-agency) (the thermodynamic feasibility window for agency) as a third foundation: when does optimization become strategy at all?
+This piece is intended to sit alongside [Bounded Reflexivity & Constraint Theory](/bounded-reflexivity-and-constraint-theory) (the market substrate: constraints and feedback) and [Complex Adaptive Systems & Stepwise Structure Buildup](/complex-adaptive-systems-and-stepwise-structure-buildup) (the scale-by-scale buildup of organized structure) as a third foundation: when does optimization become strategy at all?
 
 The useful formal object is not rationality but $\kappa$—horizon adequacy—paired with an authority measure. Where both are high, game theory explains a lot. Where either collapses, the system looks less like a game and more like a field.
 

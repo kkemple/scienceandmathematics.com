@@ -4,9 +4,9 @@ description: "Derives universal speech rates, biological maintenance ceilings, a
 pubDate: '2025-10-16'
 category: 'applications'
 updatedDate: '2026-01-28'
-zenodoDepositionId: 18701896
-zenodoUrl: "https://zenodo.org/records/18701896"
-doi: "10.5281/zenodo.18701896"
+zenodoDepositionId: 19192755
+zenodoUrl: "https://zenodo.org/records/19192755"
+doi: "10.5281/zenodo.19192755"
 keywords:
   - "information theory"
   - "speech rate"
@@ -80,7 +80,7 @@ The brain's power-to-mass ratio of 14 watts per kilogram exceeds body average by
 
 From the [binding energy framework](/binding-energy-critical-radii-and-information-maintenance-tax), complexity overhead follows a hierarchy across scales. Elementary particles achieve $\xi_{\text{elem}} \approx 10^{-6}$. Atoms require $\xi_{\text{atom}} \approx 10^{-3}$ to coordinate electron clouds. Molecules need $\xi_{\text{mol}} \approx 10^{-2}$ for conformational flexibility. Biological systems approach the ceiling at $\xi_{\text{bio}} \sim 10^{-1}$.
 
-Systems cannot sustainably exceed this 10% threshold without exhausting capacity for adaptation. The brain operates at this ceiling, dedicating maximum sustainable overhead to information processing while maintaining homeostatic functions. This represents a hard physical limit from [recursive ladder climbing](/complex-adaptable-systems-complexity-ladders-and-agency) through organizational scales.
+Systems cannot sustainably exceed this 10% threshold without exhausting capacity for adaptation. The brain operates at this ceiling, dedicating maximum sustainable overhead to information processing while maintaining homeostatic functions. This represents a hard physical limit from [stepwise structure buildup](/complex-adaptive-systems-and-stepwise-structure-buildup) across organizational scales.
 
 Kleiber's law—metabolic rate scaling as $P \propto M^{3/4}$—emerges from this same constraint. Fractal vascular networks optimize information and energy distribution while minimizing transport overhead[^9]. The 3/4 power law reflects geometric constraints on distribution in three-dimensional biological networks operating under the maintenance ceiling.
 
