@@ -3,10 +3,10 @@ title: 'Black Hole Horizons & Dimensional Reduction Correspondence'
 description: "Five independent frameworks—geometry, thermodynamics, topology, information theory, entropic gravity—converge on the same horizon structure: 3D-to-2D dimensional reduction, dual chiral sectors, and S³ topology."
 pubDate: '2025-08-22'
 category: 'supporting'
-updatedDate: '2026-01-28'
-zenodoDepositionId: 18724797
-zenodoUrl: "https://zenodo.org/records/18724797"
-doi: "10.5281/zenodo.18724797"
+updatedDate: "2026-03-26"
+zenodoDepositionId: 19241809
+zenodoUrl: "https://zenodo.org/records/19241809"
+doi: "10.5281/zenodo.19241809"
 keywords:
   - "black hole thermodynamics"
   - "dimensional reduction"
@@ -92,6 +92,28 @@ $$
 
 The thermodynamic constraint forces dual-sector architecture, which demands dimensional reduction to a surface supporting chiral modes.
 
+### Kerr Black Holes and Chiral Asymmetry
+
+The Schwarzschild result $N_{max} = 2N_{BH}$ relies on the Smarr formula $Mc^2 = 2T_H S_{BH}$, where the entire rest energy participates in a single thermal term with no work contributions[^9]. For a Kerr black hole with angular momentum $J$ and horizon angular velocity $\Omega_H$, the Smarr formula acquires a rotational work term,
+
+$$
+Mc^2 = 2T_H S_{BH} + 2\Omega_H J.
+$$
+
+The Landauer capacity $N_{max} = Mc^2/(k_B T_H \ln 2)$ then exceeds $2N_{BH}$ by $2\Omega_H J/(k_B T_H \ln 2)$ for any nonzero spin. Rotation adds processing capacity beyond what entropy counting alone predicts.
+
+The Kerr/CFT correspondence[^10] and its non-extremal extension through hidden conformal symmetry[^11] decompose the horizon into left-moving and right-moving chiral sectors with equal central charges $c_L = c_R = 12J$. The macroscopic entropy splits as $N_{BH} = N_L + N_R$, with each sector's entropy given by the Cardy formula. A key identity links macroscopic rotation to the right-moving sector: the ratio $T_H/\Omega_H$ equals the right-moving temperature $T_R$. This allows the rotational excess to be rewritten entirely in right-moving variables, $2\Omega_H J/(k_B T_H \ln 2) = 2J/(k_B T_R \ln 2)$.
+
+Substituting $J = S_R/(4\pi^2 T_R)$ from the Cardy formula converts angular momentum into right-moving bits. The total processing capacity decouples into independent chiral budgets,
+
+$$
+N_{max} = 2N_L + 2N_R \frac{M^2}{M^2 - a^2},
+$$
+
+where $a = J/M$ is the spin parameter. The left-moving capacity $2N_L$ is independent of spin—since $r_+ + r_- = 2M$, the left-moving Cardy entropy evaluates to $S_L = 2\pi M^2$ for all values of $a$. The right-moving capacity absorbs the entire rotational work term through the boost factor $M^2/(M^2 - a^2)$.
+
+The limiting cases confirm the structure. In the Schwarzschild limit ($a \to 0$), both sectors contribute equally with $N_L = N_R = N_{BH}/2$ and the boost factor approaches unity, recovering $N_{max} = 2N_{BH}$. In the extremal limit ($a \to M$), the right-moving temperature vanishes and the Landauer cost per right-moving bit drops to zero, sending $N_{max}^{(R)} \to \infty$ while the left-moving budget remains finite. The divergence of processing capacity at extremality is confined entirely to the right-moving sector—the sector that carries the rotational information.
+
 ## The Topological Path
 
 The compactification mechanism operates through lattice site density near the horizon. Consider a thin spherical shell at radius $r$ with thickness $dr$. The number of lattice sites in this shell is,
@@ -106,7 +128,7 @@ $$
 N_{shell} = \frac{4\pi r_s^2}{a^2} \int_0^\epsilon \frac{dx}{\sqrt{x(2r_s + x)}} < \infty.
 $$
 
-This finite site count indicates that the radial dimension has compactified—points that appear infinitely separated in proper distance correspond to finite phase separation in the compactified coordinate. The compactified radial direction forms a circle $S^1$ attached to each point on the 2D horizon sphere $S^2$, producing the Hopf fibration[^9] with total topology $S^3$. Parameterize using two complex numbers with $|z_1|^2 + |z_2|^2 = 1$,
+This finite site count indicates that the radial dimension has compactified—points that appear infinitely separated in proper distance correspond to finite phase separation in the compactified coordinate. The compactified radial direction forms a circle $S^1$ attached to each point on the 2D horizon sphere $S^2$, producing the Hopf fibration[^12] with total topology $S^3$. Parameterize using two complex numbers with $|z_1|^2 + |z_2|^2 = 1$,
 
 $$
 z_1 = \cos(\xi/2) e^{i(\psi + \phi)/2}, \quad z_2 = \sin(\xi/2) e^{i(\psi - \phi)/2}.
@@ -126,7 +148,7 @@ The topology demands dimensional reduction. The $S^3$ structure encodes 3D infor
 
 ## The Information Processing Path
 
-Processing rate constraints reveal dimensional structure through computational capacity bounds. Black holes saturate the Planck frequency limit $f_P = \sqrt{c^5/(\hbar G)} = 1.855 \times 10^{43}$ Hz[^10], representing the fastest possible information processing.
+Processing rate constraints reveal dimensional structure through computational capacity bounds. Black holes saturate the Planck frequency limit $f_P = \sqrt{c^5/(\hbar G)} = 1.855 \times 10^{43}$ Hz[^13], representing the fastest possible information processing.
 
 For a 10 $M_{\odot}$ black hole with $N_{BH} = A/(4l_P^2) \approx 1.05 \times 10^{79}$ bits, the total processing rate—each bit operating at Planck frequency—is,
 
@@ -142,7 +164,7 @@ Dimensional reduction to 2D eliminates this bottleneck. Surface processing with 
 
 ## The Entropic Gravity Path
 
-Bianconi's framework interprets the spacetime metric as a quantum density matrix encoding information about matter fields[^11]. The metric $g_{\mu\nu}$ becomes an effective description of how information propagates through regions with varying matter content.
+Bianconi's framework interprets the spacetime metric as a quantum density matrix encoding information about matter fields[^14]. The metric $g_{\mu\nu}$ becomes an effective description of how information propagates through regions with varying matter content.
 
 Matter fields induce metric perturbations through the G-field,
 
@@ -170,9 +192,9 @@ The entropic formalism shows dimensional reduction as informational necessity. M
 
 ## Convergence
 
-Five independent frameworks—differential geometry, thermodynamics, topology, information theory, and entropic gravity—each built from different axioms and following different mathematical machinery, converge on identical structure at black hole horizons[^12][^13]. The geometric path calculates metric singularities forcing radial compactification. The thermodynamic path requires $N_{max} = 2N_{BH}$, forcing dual sectors. The topological path identifies Hopf fibration structure from radial compactification. The information processing path demands 2D architecture to eliminate communication overhead. The entropic gravity path shows radial form structure collapsing to maintain finite action. All five arrive at the same conclusion: horizons are 2D surfaces with $S^1$ radial compactification, supporting dual chiral sectors with quantized winding numbers.
+Five independent frameworks—differential geometry, thermodynamics, topology, information theory, and entropic gravity—each built from different axioms and following different mathematical machinery, converge on identical structure at black hole horizons[^15][^16]. The geometric path calculates metric singularities forcing radial compactification. The thermodynamic path requires $N_{max} = 2N_{BH}$, forcing dual sectors. The topological path identifies Hopf fibration structure from radial compactification. The information processing path demands 2D architecture to eliminate communication overhead. The entropic gravity path shows radial form structure collapsing to maintain finite action. All five arrive at the same conclusion: horizons are 2D surfaces with $S^1$ radial compactification, supporting dual chiral sectors with quantized winding numbers.
 
-The resulting structure is a 2D conformal surface (Virasoro algebra)[^14] with dual chiral sectors carrying equal central charges $c_L = c_R$, $S^3$ topology from the Hopf fibration of the compactified radial direction over the horizon sphere, quantized winding numbers $n = 0, 1, \ldots, n_{max}$ providing topologically protected information channels, processing capacity $N_{max} = 2N_{BH}$ from the dual sectors, and central charge $c = 24r_s^2/l_P^2$ determined by horizon area[^15]. For stellar-mass black holes, $n_{max} \approx 14$ discrete winding sectors partition the available information channels.
+The resulting structure is a 2D conformal surface (Virasoro algebra)[^17] with dual chiral sectors carrying equal central charges $c_L = c_R$, $S^3$ topology from the Hopf fibration of the compactified radial direction over the horizon sphere, quantized winding numbers $n = 0, 1, \ldots, n_{max}$ providing topologically protected information channels, processing capacity $N_{max} = 2N_{BH}$ from the dual sectors, and central charge $c = 24r_s^2/l_P^2$ determined by horizon area[^10]. For stellar-mass black holes, $n_{max} \approx 14$ discrete winding sectors partition the available information channels.
 
 When independent frameworks converge on identical mathematical structure through entirely different machinery, the convergence itself carries evidential weight. The horizon marks a dimensional phase transition where spacetime reorganizes to maintain finite information processing capacity.
 
@@ -188,13 +210,13 @@ $$
 
 Statistical analysis of stacked O5 observations could detect these correlations through departures from random phase distributions, with the $n_{max} \approx 14$ discrete sectors manifesting as spectral features separated by characteristic phase intervals $\Delta\psi = 2\pi/n_{max}$.
 
-For primordial black holes[^16] with $M < 10^{15}$ g, Hawking temperature exceeds 100 GeV and enables direct particle emission. The winding structure scales with mass through $n_{max} = \frac{1}{2\pi}\ln(r_s/l_P)$, so smaller black holes have fewer topological sectors—potentially creating detectable gaps in emission spectra at angles $\psi = 2\pi n$.
+For primordial black holes[^18] with $M < 10^{15}$ g, Hawking temperature exceeds 100 GeV and enables direct particle emission. The winding structure scales with mass through $n_{max} = \frac{1}{2\pi}\ln(r_s/l_P)$, so smaller black holes have fewer topological sectors—potentially creating detectable gaps in emission spectra at angles $\psi = 2\pi n$.
 
-LISA observations[^17] of extreme mass ratio inspirals will probe near-horizon structure through gravitational self-force effects. Winding transitions could appear as phase jumps in the waveform with characteristic frequency shifts $\Delta f/f \sim 1/n_{max} \sim 0.07$ for solar-mass objects.
+LISA observations[^19] of extreme mass ratio inspirals will probe near-horizon structure through gravitational self-force effects. Winding transitions could appear as phase jumps in the waveform with characteristic frequency shifts $\Delta f/f \sim 1/n_{max} \sim 0.07$ for solar-mass objects.
 
 ## Implications
 
-The dual-sector structure with $N_{max} = 2N_{BH}$ bears directly on the information paradox[^18]. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, providing sufficient capacity for complete information throughput during evaporation. The factor of 2 emerges from the topological structure of 2D surfaces supporting independent chiral sectors and is exact.
+The dual-sector structure with $N_{max} = 2N_{BH}$ bears directly on the information paradox[^20]. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, providing sufficient capacity for complete information throughput during evaporation. The factor of 2 emerges from the topological structure of 2D surfaces supporting independent chiral sectors and is exact.
 
 Within the [constraint geometry framework](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), dimensional reduction at horizons represents the endpoint of the coupled $(\xi, \mathcal{D})$ flow derived in §5 of that post. As the maintenance fraction $\xi$ approaches 1, the dimensional flow equation $d\mathcal{D}/d\mu = -(\xi/u^*)\ln\varphi$ drives effective dimension toward 2. Black holes are the unique physical systems that simultaneously saturate all three curvature sectors—the $\varphi$-sector as radial information flow freezes, the $\pi$-sector as angular degrees of freedom pack at maximal isotropic density, and the $N$-sector as discrete information storage reaches the Bekenstein-Hawking bound. The five-path convergence documented here provides independent mathematical confirmation that the $\mathcal{D} \to 2$ fixed point reflects genuine geometric reorganization at horizons.
 
@@ -218,22 +240,26 @@ The five-path convergence is the paper's central claim, and each path represents
 
 [^8]: Hawking, S. W., Perry, M. J., & Strominger, A. (2018). Superrotation Charge and Supertranslation Hair on Black Holes. arXiv\:1810.01847.
 
-[^9]: Hopf, H. (1931). Über die Abbildungen der dreidimensionalen Sphäre auf die Kugelfläche. *Mathematische Annalen*, 104(1), 637-665.
+[^9]: Smarr, L. (1973). Mass Formula for Kerr Black Holes. *Physical Review Letters*, 30(2), 71-73.
 
-[^10]: Mohr, P. J., Newell, D. B., & Taylor, B. N. (2016). CODATA recommended values of the fundamental physical constants\: 2014. *Reviews of Modern Physics*, 88(3), 035009. arXiv\:1507.07956.
+[^10]: Guica, M., Hartman, T., Song, W., & Strominger, A. (2009). The Kerr/CFT Correspondence. *Physical Review D*, 80(12), 124008. arXiv\:0809.4266.
 
-[^11]: Bianconi, G. (2024). Gravity from Entropy. *Physical Review D*, 111(6), 066001. arXiv\:2408.14391.
+[^11]: Castro, A., Maloney, A., & Strominger, A. (2010). Hidden Conformal Symmetry of the Kerr Black Hole. *Physical Review D*, 82(2), 024008. arXiv\:1004.0996.
 
-[^12]: Strominger, A., & Vafa, C. (1996). Microscopic Origin of the Bekenstein-Hawking Entropy. *Physics Letters B*, 379(1-4), 99-104.
+[^12]: Hopf, H. (1931). Über die Abbildungen der dreidimensionalen Sphäre auf die Kugelfläche. *Mathematische Annalen*, 104(1), 637-665.
 
-[^13]: Carlip, S. (2005). Conformal Field Theory, (2+1)-Dimensional Gravity, and the BTZ Black Hole. *Classical and Quantum Gravity*, 22(12), R85-R124.
+[^13]: Mohr, P. J., Newell, D. B., & Taylor, B. N. (2016). CODATA recommended values of the fundamental physical constants\: 2014. *Reviews of Modern Physics*, 88(3), 035009. arXiv\:1507.07956.
 
-[^14]: Blöte, H. W. J., Cardy, J. L., & Nightingale, M. P. (1986). Conformal invariance, the central charge, and universal finite-size amplitudes at criticality. *Physical Review Letters*, 56(7), 742-745.
+[^14]: Bianconi, G. (2024). Gravity from Entropy. *Physical Review D*, 111(6), 066001. arXiv\:2408.14391.
 
-[^15]: Guica, M., Hartman, T., Song, W., & Strominger, A. (2009). The Kerr/CFT Correspondence. *Physical Review D*, 80(12), 124008. arXiv\:0809.4266.
+[^15]: Strominger, A., & Vafa, C. (1996). Microscopic Origin of the Bekenstein-Hawking Entropy. *Physics Letters B*, 379(1-4), 99-104.
 
-[^16]: Carr, B. J., & Hawking, S. W. (1974). Black Holes in the Early Universe. *Monthly Notices of the Royal Astronomical Society*, 168(2), 399-415.
+[^16]: Carlip, S. (2005). Conformal Field Theory, (2+1)-Dimensional Gravity, and the BTZ Black Hole. *Classical and Quantum Gravity*, 22(12), R85-R124.
 
-[^17]: Amaro-Seoane, P., Audley, H., Babak, S., Baker, J., Barausse, E., et al. (2017). Laser Interferometer Space Antenna. arXiv\:1702.00786.
+[^17]: Blöte, H. W. J., Cardy, J. L., & Nightingale, M. P. (1986). Conformal invariance, the central charge, and universal finite-size amplitudes at criticality. *Physical Review Letters*, 56(7), 742-745.
 
-[^18]: Hawking, S. W. (1976). Breakdown of Predictability in Gravitational Collapse. *Physical Review D*, 14(10), 2460-2473.
+[^18]: Carr, B. J., & Hawking, S. W. (1974). Black Holes in the Early Universe. *Monthly Notices of the Royal Astronomical Society*, 168(2), 399-415.
+
+[^19]: Amaro-Seoane, P., Audley, H., Babak, S., Baker, J., Barausse, E., et al. (2017). Laser Interferometer Space Antenna. arXiv\:1702.00786.
+
+[^20]: Hawking, S. W. (1976). Breakdown of Predictability in Gravitational Collapse. *Physical Review D*, 14(10), 2460-2473.

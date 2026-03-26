@@ -353,6 +353,10 @@ function updatePostFrontmatter(
   frontmatterContent = updateField(frontmatterContent, "doi", doi);
   frontmatterContent = updateField(frontmatterContent, "zenodoUrl", zenodoUrl);
   frontmatterContent = updateField(frontmatterContent, "zenodoDepositionId", depositionId);
+  
+  // Update the updatedDate to today
+  const today = new Date().toISOString().split("T")[0];
+  frontmatterContent = updateField(frontmatterContent, "updatedDate", today);
 
   const newContent = rawContent.replace(
     /^---\n[\s\S]*?\n---/,
