@@ -30,3 +30,8 @@ pnpm-debug.log*
 .netlify/
 notes/
 pdfs/
+papers/
+
+# Claude
+Claude.md
+.claude/

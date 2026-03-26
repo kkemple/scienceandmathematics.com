@@ -2,7 +2,7 @@
 title: "Hilbert's Sixth Problem & the Cost of Infinite Information"
 description: "Hilbert's 1900 call for axiomatic physics asked whether nature demands infinite precision. Three physical bounds converge on ~10¹²³ bits of capacity—statistical mechanics works because determinism exceeds it."
 pubDate: '2026-01-10'
-category: 'applications'
+category: 'supporting'
 updatedDate: '2026-01-28'
 zenodoDepositionId: 19192752
 zenodoUrl: "https://zenodo.org/records/19192752"

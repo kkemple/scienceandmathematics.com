@@ -4,9 +4,9 @@ description: "A state-dependent feasibility projection annihilates the first-ord
 pubDate: '2026-02-09'
 category: 'supporting'
 draft: true
-zenodoDepositionId: 18724803
-zenodoUrl: "https://zenodo.org/records/18724803"
-doi: "10.5281/zenodo.18724803"
+zenodoDepositionId: 19228183
+zenodoUrl: "https://zenodo.org/records/19228183"
+doi: "10.5281/zenodo.19228183"
 zenodoDescription: |
   When a state-dependent feasibility projection acts on the constitutive stress tensor and places the first-order shear operator in its nullspace, the k² diffusive pole is structurally forbidden—not parametrically suppressed. The leading admissible relaxation shifts to k⁴ via a Burnett-type operator, with k³ excluded by stress tensor symmetry σ_ij = σ_ji. The selection rule Π_x[σ_ij] = 0 is an operator-level statement whose dynamical realization is the finite residence of balanced Navier–Stokes states: DNS shows these configurations are crossed but not occupied, with escape occurring preferentially through loss of recursive coherence rather than collapse of stretching. The mechanism unifies independent k⁴ observations across non-relativistic Lifshitz holography (where bulk couplings cancel k² contributions), fracton and dipole-conserving fluids (where enhanced symmetry constraints forbid first-order kinetics), and photonic quasicrystal spectral reorganization under irrational projection methods. The framework situates quartic transport within constraint geometry as a transport-sector instantiation of the curl-maintenance floor established in the self-correction framework.
 keywords:
@@ -89,7 +89,7 @@ The critical distinction is between suppressing a coefficient and forbidding an 
 
 Following physics-corrected DDIM for ACOPF[^5], we treat feasibility as enforced by an external projection/correction operator; the role of the proposal dynamics is to place trajectories within the projector's attraction basin, not to satisfy feasibility identically.
 
-**Lemma (Basin sufficiency).** It is sufficient that the proposal dynamics land within the basin of attraction of the feasibility operator $\Pi_x$; exact feasibility is enforced by the projector. The generative/proposal dynamics need only initialize states within the basin of attraction of a feasibility projection[^5], and the projection or solver then enforces the constraint.
+**Lemma (Basin sufficiency).** It is sufficient that the proposal dynamics land within the basin of attraction of the feasibility operator $\Pi_x$; exact feasibility is enforced by the projector[^5].
 
 This reframes the nullspace condition below from a strong constitutive assumption into a basin statement: the first-order shear channel is excluded because its would-be integrable manifold has vanishing residence under the implemented map—the [finite-residence evidence](/navier-stokes-vorticity-growth-and-finite-residence-of-balanced-states) is literally a basin-emptiness measurement for the $k^2$ operator.
 
@@ -147,7 +147,7 @@ The result requires three conditions in the transverse sector: (1) momentum is c
 
 The shift is by two derivative orders because rotational invariance of the stress tensor restricts the allowed structures: odd-order terms in the transverse shear gradient expansion vanish by the symmetry $\sigma_{ij} = \sigma_{ji}$, so the tower of admissible operators steps as $k^2, k^4, k^6, \ldots$ rather than $k^2, k^3, k^4, \ldots$.
 
-The nullspace selection rule has an independent spectral formulation: in the Mori–Zwanzig continued-fraction expansion of the transverse resolvent, the condition $\Pi_x[\sigma_{xy}] = 0$ forces the leading Lanczos coefficient to scale as $O(k^2)$ rather than $O(k)$, shifting the continued-fraction pole from $k^2$ to $k^4$ without invoking the gradient expansion[^7]. The hydrodynamic generator is non-Hermitian, so this route uses memory-function recursion rather than the Hermitian Lanczos algorithm; recent work on resolvent-dressed Krylov distributions provides a static diagnostic framework for detecting the regime shift numerically[^7].
+The nullspace selection rule has an independent spectral formulation: in the Mori–Zwanzig continued-fraction expansion of the transverse resolvent, the condition $\Pi_x[\sigma_{xy}] = 0$ forces the leading Lanczos coefficient to scale as $O(k^2)$ rather than $O(1)$, shifting the continued-fraction pole from $k^2$ to $k^4$ without invoking the gradient expansion[^7]. The hydrodynamic generator is non-Hermitian, so this route uses memory-function recursion rather than the Hermitian Lanczos algorithm; recent work on resolvent-dressed Krylov distributions provides a static diagnostic framework for detecting the regime shift numerically[^7].
 
 The structure mirrors the deterministic-path/correction split in constrained diffusion for ACOPF[^5]. DDPM corresponds to many small stochastic steps preserving a Markovian approximation; DDIM corresponds to a deterministic, non-Markovian path with explicit constraint correction at each step[^5]. This mirrors constrained DDIM for ACOPF: a fast deterministic trajectory is taken, and feasibility is enforced by explicit residual-gradient corrections at each step rather than by requiring the base model to be feasible. In the present framework, the first-order integrable channel ($k^2$) plays the role of the slow stochastic path, and the quartic channel ($k^4$) is the deterministic fast path that survives projection. The drift risk from skipping intermediate steps maps to falling off the integrable manifold, and the correction at each scale maps to the projection defect that forces the $k^4$ channel.
 
@@ -191,7 +191,7 @@ The Burnett-type operator $\partial_x^2\,\sigma_{xy}$ is identified as the leadi
 
 The framework applies to systems where stress transport is mediated by a constitutive law subject to feasibility constraints. Systems with fundamentally different transport mechanisms—ballistic, anomalous, or driven—fall outside its scope.
 
-[^1]: Liu, Y., & Wu, X.-M. (2026). "Shear subdiffusion in non-relativistic holography." arXiv:2602.01971. <https://arxiv.org/abs/2602.01971>
+[^1]: Liu, Y., Wang, Z.-L., & Wu, X.-M. (2026). "Shear subdiffusion in non-relativistic holography." arXiv:2602.01971. <https://arxiv.org/abs/2602.01971>
 
 [^2]: Gromov, A., Lucas, A., & Nandkishore, R. M. (2020). "Fracton hydrodynamics." *Physical Review Research*, 2, 033124. <https://doi.org/10.1103/PhysRevResearch.2.033124>
 
@@ -203,7 +203,7 @@ The framework applies to systems where stress transport is mediated by a constit
 
 [^6]: Burnett, D. (1936). "The distribution of molecular velocities and the mean motion in a non-uniform gas." *Proceedings of the London Mathematical Society*, s2-40(1), 382–435. <https://doi.org/10.1112/plms/s2-40.1.382>
 
-[^7]: Alishahiha, M., & Vasli, M. H. (2026). "Krylov Distribution." arXiv:2602.06150. <https://arxiv.org/abs/2602.06150>
+[^7]: Alishahiha, M., & Vasli, M. J. (2026). "Krylov Distribution." arXiv:2602.06150. <https://arxiv.org/abs/2602.06150>
 
 [^8]: Quan, H., Si, W., & Jiang, K. (2026). "Spectral Distribution of one-dimensional Photonic Quasicrystals: The Role of Irrational Numbers." arXiv:2601.06482. <https://arxiv.org/abs/2601.06482>
 
