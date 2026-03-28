@@ -3,10 +3,10 @@ title: 'Type Ia Supernova Information-Theoretic Energetics'
 description: "A thermodynamic lower bound on Type Ia supernova energetics from Landauer's principle applied to phase-space reorganization at the Chandrasekhar limit. Four inputs yield E ≳ 10⁴⁴ J."
 pubDate: '2025-09-29'
 category: 'supporting'
-updatedDate: '2026-01-28'
-zenodoDepositionId: 18724817
-zenodoUrl: "https://zenodo.org/records/18724817"
-doi: "10.5281/zenodo.18724817"
+updatedDate: "2026-03-28"
+zenodoDepositionId: 19283885
+zenodoUrl: "https://zenodo.org/records/19283885"
+doi: "10.5281/zenodo.19283885"
 keywords:
   - "Type Ia supernova"
   - "Chandrasekhar limit"
@@ -74,11 +74,13 @@ $$
 \Delta N_b \simeq N \log_2\!\left(\frac{V_1}{V_2}\right) + 3N \log_2\!\left(\frac{p_{F,1}}{p_{F,2}}\right).
 $$
 
-For ideal degenerate fermions, the momentum term exactly cancels the configuration term: $p_F \propto (N/V)^{1/3}$ implies $p_{F,1}/p_{F,2} = \chi^{-1/3}$, so $3N\log_2(\chi^{-1/3}) = -N\log_2\chi$. This is Liouville's theorem[^5]—total phase space volume is conserved under Hamiltonian evolution. The Landauer cost applies to the irreversible spatial reorganization (the erased information about which particles occupied which spatial cells), giving,
+For ideal degenerate fermions, $p_F \propto (N/V)^{1/3}$ implies $p_{F,1}/p_{F,2} = \chi^{-1/3}$, so the momentum contribution is $3N\log_2(\chi^{-1/3}) = -N\log_2\chi$. This exactly cancels the configuration-space term $+N\log_2\chi$, giving a total phase-space bit change of zero. This is Liouville's theorem[^5]—total phase-space volume is conserved under Hamiltonian evolution. The momentum redistribution is reversible; the spatial reorganization is not. Landauer's principle prices only the irreversible configuration-space component,
 
 $$
-\Delta N_b \simeq N \log_2 \chi.
+\Delta N_b^{\text{config}} = N \log_2 \chi.
 $$
+
+We write $\Delta N_b := \Delta N_b^{\text{config}}$ for the remainder of this post.
 
 Using $\chi \simeq 1.25 \times 10^8$ and $N \simeq 1.7 \times 10^{57}$,
 
@@ -138,7 +140,7 @@ $$
 E \gtrsim N \, k_B T \ln 2 \, \log_2 \chi \simeq \Delta N_b \, k_B T \ln 2,
 $$
 
-which makes clear that the estimate depends only logarithmically on the compression proxy $\chi$ but linearly on $T$. With four inputs ($M_{\text{Ch}}$, $R_{\text{WD}}$, a density-contrast proxy such as $R_{\text{nuc}}$ or $\chi$, and a characteristic $T$), a simple state-counting model combined with Landauer's bound provides a compact constraint on the SN Ia energy scale. Whether (and in what sense) the explosion dynamics approaches this bound requires a microphysical identification of the relevant dissipative degrees of freedom, which is beyond the scope of this estimate.
+which makes clear that the estimate depends only logarithmically on the compression proxy $\chi$ but linearly on $T$. With four inputs ($M_{\text{Ch}}$, $R_{\text{WD}}$, a density-contrast proxy such as $R_{\text{nuc}}$ or $\chi$, and a characteristic $T$), a simple state-counting model combined with Landauer's bound provides a compact constraint on the SN Ia energy scale. Whether (and in what sense) the explosion dynamics approach this bound requires a microphysical identification of the relevant dissipative degrees of freedom, which is beyond the scope of this estimate.
 
 [^1]: Maoz, D., Mannucci, F., & Nelemans, G. (2014). Observational Clues to the Progenitors of Type Ia Supernovae. *Annual Review of Astronomy and Astrophysics*, 52, 107-170.
 
