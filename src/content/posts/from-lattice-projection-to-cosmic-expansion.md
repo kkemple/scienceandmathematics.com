@@ -3,9 +3,9 @@ title: 'From 6D Lattice Projection to 3D Cosmic Expansion'
 description: "One projection from 6D produces a spectral gap and a triadic frustration. They feed one β-function whose flow organizes compact objects, derives the area law, and produces accelerated expansion."
 pubDate: '2026-02-18'
 updatedDate: "2026-03-29"
-zenodoDepositionId: 19302223
-zenodoUrl: "https://zenodo.org/records/19302223"
-doi: "10.5281/zenodo.19302223"
+zenodoDepositionId: 19320976
+zenodoUrl: "https://zenodo.org/records/19320976"
+doi: "10.5281/zenodo.19320976"
 category: 'core'
 order: 1
 zenodoDescription: |
@@ -65,11 +65,13 @@ $$
 M(t) = \frac{1 + t^{30}}{(1 - t^{12})(1 - t^{20})}.
 $$
 
-The exponents 12, 20, 30 are the degrees of the Klein invariants[^7] $(H, T, f)$ satisfying the $E_8$ surface equation $T^2 = H^3 - 1728f^5$. The surviving spins are the elements of the numerical semigroup[^8] $\langle 6, 10, 15 \rangle = \langle a/2, \, b/2, \, h/2 \rangle$, with gap set $\{1, 2, 3, 4, 5, 7, 8, 9, 11, 13, 14, 17, 19, 23, 29\}$. There are 15 gaps, and the genus $g = 15 = h/2$. This relationship—genus equals half the Coxeter number—holds only for $E_8$ among all [ADE types](/ade-domain-walls-and-branch-selection).
+The exponents 12, 20, 30 are the degrees of the Klein invariants[^7] $(H, T, f)$ satisfying the $E_8$ surface equation $T^2 = H^3 - 1728f^5$. The surviving spins are the elements of the numerical semigroup[^8] $\langle 6, 10, 15 \rangle = \langle a/2, \, b/2, \, h/2 \rangle$, with gap set $\{1, 2, 3, 4, 5, 7, 8, 9, 11, 13, 14, 17, 19, 23, 29\}$. The generators are the pairwise least common multiples of the icosahedral rotation axis orders $\{2, 3, 5\}$: $\operatorname{lcm}(2,3) = 6$, $\operatorname{lcm}(2,5) = 10$, $\operatorname{lcm}(3,5) = 15$—the spins at which the period-4, period-6, and period-10 character contributions first constructively interfere. There are 15 gaps, and the genus $g = 15 = h/2$. This relationship—genus equals half the Coxeter number—holds only for $E_8$ among all [ADE types](/ade-domain-walls-and-branch-selection).
 
 The first surviving mode sits at $l = 6$, with eigenvalue $\lambda_1 = 4 \cdot 6 \cdot 7 = 168$. On the unquotiented $S^3$, the first excitation is $\lambda = 3$. The protection factor $\sigma = 168/3 = 56$ measures how far the orbifold has pushed up the spectral floor.
 
-The deletion of 15 modes changes the effective dimensionality. Weyl's law[^9] says the cumulative eigenvalue count on a $d$-dimensional manifold grows as $N(\lambda) \sim \lambda^{d/2}$. On $S^3/\mathrm{2I}$, the thinned count in the semigroup-controlled regime ($l \leq h$) grows as $N(\lambda) \sim \lambda^{d_{\mathrm{eff}}/2}$ with $d_{\mathrm{eff}} \approx \varphi^2 \approx 2.618$, a value structurally forced by the golden ratio content of the $\mathrm{2I}$ character sum (the Chebyshev polynomials $U_l(\varphi/2)$ have exact period 10, producing the $C_{10}$ decade symmetry in the spectral domain). The orbifold is topologically three-dimensional but spectrally behaves as dimension $\sim$2.6 at low energies. Scale-dependent spectral dimension—including reduction to 2 in the infrared—has also been reported in causal dynamical triangulations[^10]. As the cutoff increases past the Coxeter number, $d_{\mathrm{eff}}$ asymptotes back toward 3—the Weyl regime. The full computation is in the [KK spectrum post](/kk-spectrum-e8-and-the-lcd-question).
+The deletion of 15 modes changes the effective dimensionality. Weyl's law[^9] says the cumulative eigenvalue count on a $d$-dimensional manifold grows as $N(\lambda) \sim \lambda^{d/2}$. On $S^3/\mathrm{2I}$, the thinned count in the semigroup-controlled regime ($l \leq h$) grows as $N(\lambda) \sim \lambda^{d_{\mathrm{eff}}/2}$ with $d_{\mathrm{eff}} \approx \varphi^2 \approx 2.618$, a value structurally forced by the golden ratio content of the $\mathrm{2I}$ character sum (the Chebyshev polynomials $U_l(\varphi/2)$ have exact period 10, producing the $C_{10}$ decade symmetry in the spectral domain). The orbifold is topologically three-dimensional but spectrally behaves as dimension $\sim$2.6 at low energies. Scale-dependent spectral dimension—including reduction to 2 in the infrared—has also been reported in causal dynamical triangulations[^10]. As the cutoff increases past the Coxeter number, $d_{\mathrm{eff}}$ asymptotes back toward 3—the Weyl regime. The full mode count computation is in the [KK spectrum post](/kk-spectrum-e8-and-the-lcd-question).
+
+The running spectral dimension crosses $\varphi^2$ between $l_{\max} = 30$ and $l_{\max} = 31$—at the Coxeter number $h = 30$, where the semigroup releases its last gap and the full spectrum becomes available. The value $\varphi^2$ has independent standing as a phase transition constant: the Mignosi–Restivo–Salemi periodicity theorem[^mrs] establishes $\varphi^2$ as the exact recurrence threshold separating aperiodic from ultimately periodic behaviour in combinatorics on words. The Fibonacci word has recurrence quotient exactly $\varphi^2$ and is not ultimately periodic; any word whose recurrence quotient strictly exceeds $\varphi^2$ is ultimately periodic. Below $\varphi^2$, the spectrum has local order but not global Weyl coherence; above $\varphi^2$, global completeness is forced and $d_{\mathrm{eff}} \to 3$. The full derivation, including the Chebyshev recurrence at icosahedral half-angles and the connection to the Penrose substitution matrix, is in [§5.2 of the triadic tension post](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry).
 
 The spectral gap delivers the first of two inputs to the $\beta$-function: the effective dimension $\mathcal{D}$. But the projection from 6D forces *an* ADE orbifold, not uniquely this one. The question of *why* $E_8$ requires comparing all available branches.
 
@@ -142,7 +144,7 @@ $$
 \beta(\xi, \mathcal{D}) = -\xi(1-\xi)\left[u^* + \frac{\mathcal{D}-2}{2}\ln\varphi\right]
 $$
 
-with coupled dimensional flow $d\mathcal{D}/d(\ln\mu) = -(\xi/u^*)\ln\varphi$.
+with coupled dimensional flow $d\mathcal{D}/d(\ln\mu) = -(\xi/u^*)\ln\varphi$. At the Coxeter threshold $\mathcal{D} = \varphi^2$, the dimensional correction becomes $(\varphi^2 - 2)\ln\varphi/2 = \ln\varphi/(2\varphi)$, since $\varphi^2 - 2 = 1/\varphi$—the subdominant eigenvalue of the Penrose substitution matrix whose dominant eigenvalue squared sets the spectral dimension itself.
 
 The UV fixed point is $(\xi, \mathcal{D}) = (0, 3)$: no organizational structure, full three dimensions. The IR fixed point is $(\xi, \mathcal{D}) = (1, 2)$: complete organizational saturation, two effective dimensions. At $\mathcal{D} = 2$, the dimensional correction vanishes exactly, and the critical exponent takes its universal value $\nu = 1/u^* = 10/(4\pi\varphi^2) \approx 0.304$. This same ratio defines the critical maintenance fraction $\xi_c = 1/u^* \approx 0.304$—the threshold where the maintenance multiplier $(1-\xi)^{-u^*}$ enters nonlinear divergence. Systems crossing $\xi_c$ undergo qualitative structural change; the universe as a whole, being unbound, responds with eigenmode transition rather than collapse (§Accelerated Expansion below).
 
@@ -382,3 +384,5 @@ The projection forces *an* ADE orbifold but does not uniquely force $E_8$. Branc
 [^16]: Landauer, R. (1961). Irreversibility and heat generation in the computing process. *IBM Journal of Research and Development*, 5(3), 183–191.
 
 [^17]: Scalzo, R. A., et al. (2019). Type Ia supernova bolometric light curves and ejected mass estimates from the Nearby Supernova Factory. *Monthly Notices of the Royal Astronomical Society*, 483(3), 3297–3311.
+
+[^mrs]: Mignosi, F., Restivo, A., & Salemi, S. (1998). Periodicity and the golden ratio. *Theoretical Computer Science*, 204(1–2), 153–167. <https://doi.org/10.1016/S0304-3975(98)00037-1>

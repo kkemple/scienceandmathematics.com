@@ -3,9 +3,9 @@ title: 'The Kaluza–Klein Spectrum on the Poincaré Homology Sphere'
 description: "The scalar KK tower on S³/2I has a gap structure controlled by the numerical semigroup ⟨6,10,15⟩ of the E₈ singularity. Fifteen levels are forbidden and d_eff crosses from φ² ≈ 2.618 to 3 at the Coxeter number."
 pubDate: '2026-02-18'
 updatedDate: "2026-03-29"
-zenodoDepositionId: 19302224
-zenodoUrl: "https://zenodo.org/records/19302224"
-doi: "10.5281/zenodo.19302224"
+zenodoDepositionId: 19320979
+zenodoUrl: "https://zenodo.org/records/19320979"
+doi: "10.5281/zenodo.19320979"
 category: 'core'
 order: 3
 zenodoDescription: |
@@ -163,6 +163,8 @@ and $S = \langle 6, 10, 15 \rangle$ with gap set identical to the forbidden KK l
 
 The theorem reduces the determination of forbidden KK levels to a purely algebraic problem: given $\Gamma$, look up the Klein invariant degrees and compute the gap set of the resulting semigroup. The character sum is required only for multiplicities $n_l > 1$ above the Coxeter threshold.
 
+The generators themselves have a direct group-theoretic origin. The icosahedral rotation group $\mathrm{I} \cong A_5$ has rotation axes of orders $\{2, 3, 5\}$—edge midpoints, face centers, and vertices of the icosahedron. The semigroup generators $\{6, 10, 15\} = \{\operatorname{lcm}(2,3),\; \operatorname{lcm}(2,5),\; \operatorname{lcm}(3,5)\}$ are the pairwise least common multiples of these axis orders. In the character sum for $n_l$, each conjugacy class contributes with a periodicity in $l$ determined by its half-angle: the $C_4$ class ($\alpha = \pi/2$) has character period 2, the $C_3$/$C_6$ classes ($\alpha = 2\pi/3$, $\pi/3$) have period 3, and the four icosahedral classes ($\alpha = k\pi/5$, $k = 1,2,3,4$) have period 5. These periods match the rotation axis orders $\{2, 3, 5\}$ of the icosahedron. The first spin value at which all three periodicities simultaneously produce constructive interference is $\operatorname{lcm}(2,3) = 6$—the smallest generator. The remaining generators 10 and 15 mark the first pairwise constructive interferences of the $\{2, 5\}$ and $\{3, 5\}$ axis-order pairs.
+
 ## 5. The $E_8$ Exponents
 
 The $E_8$ root system has eight exponents $m_i$ defined by the eigenvalues of the Coxeter element: $e^{2\pi i m_i/h}$ where $h = 30$. The exponents are
@@ -225,6 +227,8 @@ The running Weyl exponent—computed cumulatively from $l = 6$ up to successive 
 
 The crossover from $\sim$2.6 to $\sim$3.0 occurs in a window around the Coxeter number. The Region I exponent $d_{\mathrm{eff}} = 2.613$ is within 0.2% of $\varphi^2 = (3+\sqrt{5})/2 \approx 2.618$, and the [triadic tension analysis](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) shows this is structurally forced: the Chebyshev polynomials $U_l(\varphi/2)$ evaluated at the icosahedral conjugacy classes have exact period 10, and the golden ratio enters the character sum exclusively through these classes with amplitudes $\pm 12\varphi$ and $\pm 12/\varphi$—the two eigenvalues of the Penrose substitution matrix. The Poincaré homology sphere is topologically three-dimensional everywhere, but its low-energy spectral content is thinner than a generic three-manifold. The semigroup gap structure creates a spectral bottleneck: modes are absent, and the cumulative eigenvalue count grows as if the manifold had effective dimension $\varphi^2$. Above $h$, all levels are present, degeneracies grow normally, and standard Weyl behavior recovers. The crossover at $l = h$ is a spectral signature of the $E_8$ algebraic structure imprinted on the geometry.
 
+The appearance of $\varphi^2$ at the Coxeter threshold is controlled by three algebraic facts. First, Chebyshev periodicity: since $\varphi/2 = \cos(\pi/5)$, the Chebyshev polynomial $U_l(\varphi/2) = \sin((l{+}1)\pi/5)/\sin(\pi/5)$ takes values in $\{0, \pm 1, \pm\varphi\}$ with exact period 10. The evaluations at $\cos(4\pi/5) = -\varphi/2$ share the same value set, while those at $\cos(2\pi/5) = 1/(2\varphi)$ and $\cos(3\pi/5) = -1/(2\varphi)$ take values in $\{0, \pm 1, \pm 1/\varphi\}$. The individual periods are 10 for the $\pi/5$ and $3\pi/5$ classes and 5 for the $2\pi/5$ and $4\pi/5$ classes; the combined icosahedral contribution has period $\operatorname{lcm}(5, 10) = 10$. The irrational amplitudes $\varphi$ and $1/\varphi$ are exactly the eigenvalues of the Penrose substitution matrix $M = \bigl[\begin{smallmatrix}1&1\\1&0\end{smallmatrix}\bigr]$, and they enter the spectrum through the four icosahedral conjugacy classes alone—all other classes contribute integer character values. Second, the spectral dimension at the Coxeter threshold ($\varphi^2$) and the asymptotic value ($3$) are both spectral invariants of $M$: $\varphi^2 = \varphi + 1$ is the Perron–Frobenius eigenvalue of $M^2$, while $3 = \operatorname{Tr}(M^2) = \varphi^2 + 1/\varphi^2$. The two values are separated by exactly $1/\varphi^2$, and no free parameter interpolates between them. Third, the Mignosi–Restivo–Salemi periodicity theorem[^mrs] establishes $\varphi^2$ as the exact recurrence threshold separating aperiodic from ultimately periodic behaviour in combinatorics on words. The recurrence quotient of a word measures the maximum gap between consecutive occurrences of any factor relative to the factor length; the Fibonacci word—the canonical aperiodic sequence governed by the substitution $a \to ab$, $b \to a$—has recurrence quotient exactly $\varphi^2$, achieved as a supremum, and is not ultimately periodic. Any word whose recurrence quotient strictly exceeds $\varphi^2$ is ultimately periodic. The constant $\varphi^2$ is therefore the sharp boundary: at and below $\varphi^2$, aperiodic structure can persist; above it, global periodicity is forced. The semigroup gap structure below $h$ instantiates this transition—below the threshold, local periodicity of the character sum does not propagate to global completeness, and the spectrum remains sparse.
+
 ## 8. Branch Comparison
 
 The semigroup structure generalizes across the ADE classification. For each binary polyhedral group $\Gamma \subset \mathrm{SU}(2)$, the Klein invariant ring has specific generator degrees, and the KK gap set on $S^3/\Gamma$ is controlled by the corresponding semigroup.
@@ -279,3 +283,5 @@ The chain is forced. Negative selection gives $C_{10}$. $C_{10}$ on $S^3$ gives 
 [^9]: Weyl, H. (1911). Über die asymptotische Verteilung der Eigenwerte. *Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen*, 110–117.
 
 [^10]: Kramer, P. & Neri, R. (1984). On periodic and non-periodic space fillings of Eⁿ obtained by projection. *Acta Crystallographica Section A*, 40(5), 580–587.
+
+[^mrs]: Mignosi, F., Restivo, A., & Salemi, S. (1998). Periodicity and the golden ratio. *Theoretical Computer Science*, 204(1–2), 153–167. <https://doi.org/10.1016/S0304-3975(98)00037-1>

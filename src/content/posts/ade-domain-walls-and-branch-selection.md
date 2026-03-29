@@ -2,9 +2,10 @@
 title: 'ADE Domain Walls and Branch Selection'
 description: "Domain wall energies between ADE branches are finite, spanning 456×. Gap-set nesting makes E₈ maximal under inclusion. Thermal stability and frozen tunneling make selection primordial and irreversible."
 pubDate: '2026-02-18'
-zenodoDepositionId: 18763108
-zenodoUrl: "https://zenodo.org/records/18763108"
-doi: "10.5281/zenodo.18763108"
+updatedDate: "2026-03-29"
+zenodoDepositionId: 19320975
+zenodoUrl: "https://zenodo.org/records/19320975"
+doi: "10.5281/zenodo.19320975"
 category: 'core'
 order: 4
 zenodoDescription: |
@@ -60,6 +61,8 @@ $$
 Verified: $\{1,2,5\} \subset \{1,2,3,5,7,11\} \subset \{1,2,3,4,5,7,8,9,11,13,14,17,19,23,29\}$, and $\{1,3,5\} \subset \{1,2,3,5,7,11\} \subset \{1,2,3,4,5,7,8,9,11,13,14,17,19,23,29\}$. The $E_6$ and $D_8$ gap sets are not nested in either direction: $E_6$ uniquely forbids $l = 2$, $D_8$ uniquely forbids $l = 3$.
 
 $E_8$ is the unique maximal element under gap-set inclusion in the sparse regime ($l \leq 29 = h_{E_8} - 1$). This ordering uses no energetic modeling, no KK multiplicities, and no wall tension functional. The invariant ring structure alone induces it. The $A$-family (binary cyclic groups) has empty gap sets—the halved Klein degrees always include 1, generating all of $\mathbb{Z}_{\geq 0}$—and contributes no structural deletion.
+
+The gap-depth hierarchy has a character-theoretic origin in the Chebyshev polynomials of the second kind. The KK multiplicity at spin $l$ on $S^3/\Gamma$ is determined by a character sum over conjugacy classes of $\Gamma$, each evaluated at the Chebyshev polynomial $U_{2l}(\cos(\theta_g/2))$, where $\theta_g$ is the rotation angle of the group element. A spin $l$ falls in the gap set precisely when destructive interference among these Chebyshev amplitudes produces exact cancellation. The depth of each branch's gap set therefore depends on the algebraic nature of the cosines at its characteristic half-angles. For binary tetrahedral ($\mathrm{2T}$, $E_6$), the half-angles are $\pi/3$ and $\pi/2$, giving $\cos(\pi/3) = 1/2$ and $\cos(\pi/2) = 0$. All even-index Chebyshev values $U_{2l}$ at these arguments are integers cycling through $\{0, \pm 1\}$, and the resulting character sums cancel at only 3 spins. For binary octahedral ($\mathrm{2O}$, $E_7$), the additional half-angle $\pi/4$ introduces $\cos(\pi/4) = \sqrt{2}/2$, but the irrationality cancels at even indices: $U_{2l}(\sqrt{2}/2) = \sin((2l+1)\pi/4)/\sin(\pi/4)$, and since $(2l+1)$ is always odd, $\sin((2l+1)\pi/4) \in \{\pm\sqrt{2}/2\}$, so $U_{2l}(\sqrt{2}/2) \in \{\pm 1\}$ exactly. Six gaps result. For binary dihedral ($\mathrm{BD}_6$, $D_8$), the half-angle $\pi/6$ gives $\cos(\pi/6) = \sqrt{3}/2$, and $U_{2l}(\sqrt{3}/2) = 2\sin((2l+1)\pi/6) \in \{\pm 1, \pm 2\}$—again all integer. Three gaps. For binary icosahedral ($\mathrm{2I}$, $E_8$), the half-angle $\pi/5$ gives $\cos(\pi/5) = \varphi/2$. The even-index values $U_{2l}(\varphi/2) = \sin((2l+1)\pi/5)/\sin(\pi/5)$ cycle through $\{0, \pm 1, \pm\varphi\}$ with period 5 in $l$. The golden ratio $\varphi$ enters the character formula directly at even indices—the only branch where this occurs. Because $\varphi$ is the worst-approximable irrational[^6] (Hurwitz 1891), the resulting destructive interference in the character sum is maximally effective: integer and irrational amplitudes cannot achieve the partial cancellations that would produce near-zero but nonzero multiplicities. They either cancel exactly or miss by an irreducible irrational margin. This algebraic incompatibility between $\varphi$ and $\mathbb{Z}$ produces the deepest gap structure—15 forbidden spins—among all ADE branches.
 
 ## 2. Spectral Mismatch and Domain Walls
 
@@ -177,6 +180,8 @@ Five independent properties converge on $E_8$:
 | 3 | $\langle 6, 10, 15 \rangle$ achieves $g = h/2$—maximally distributed gaps | [KK spectrum](/kk-spectrum-e8-and-the-lcd-question), §8 | Why $E_8$ is favored |
 | 4 | $E_8$ walls most expensive, dissolve last—thermal attractor | §4 above | When selection occurs |
 | 5 | All tunneling rates frozen ($B \gg 1$, $R$-independent) | §5 above | Why it is irreversible |
+
+Leg 1 has a concrete spectral mechanism: the worst-approximability of $\varphi$ manifests through the Chebyshev periodicity theorem (§1)—$U_{2l}(\varphi/2)$ takes values in $\{0, \pm 1, \pm\varphi\}$ with period 5 in $l$, and these irrational amplitudes create the strongest destructive interference in the character sum, producing the deepest gap structure among all ADE branches. The other three branches have exclusively integer even-index Chebyshev values, limiting their gap depth to 3–6 spins. The full Chebyshev analysis connects the [phi-sector of constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) (which identifies $\varphi$ as the recursion eigenvalue) to the [KK spectral computation](/kk-spectrum-e8-and-the-lcd-question) (which computes the resulting gap set): Hurwitz worst-approximability is the algebraic engine driving spectral gap depth.
 
 Legs 1–3 establish why $E_8$ is the spectrally preferred branch. Leg 4 identifies the epoch at which selection occurs. Leg 5 proves the selection is permanent.
 
