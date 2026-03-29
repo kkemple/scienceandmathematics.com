@@ -2,16 +2,16 @@
 title: 'From 6D Lattice Projection to 3D Cosmic Expansion'
 description: "One projection from 6D produces a spectral gap and a triadic frustration. They feed one β-function whose flow organizes compact objects, derives the area law, and produces accelerated expansion."
 pubDate: '2026-02-18'
-updatedDate: '2026-02-24'
-zenodoDepositionId: 19192743
-zenodoUrl: "https://zenodo.org/records/19192743"
-doi: "10.5281/zenodo.19192743"
+updatedDate: "2026-03-29"
+zenodoDepositionId: 19302223
+zenodoUrl: "https://zenodo.org/records/19302223"
+doi: "10.5281/zenodo.19302223"
 category: 'core'
 order: 1
 zenodoDescription: |
   A 6D periodic lattice projected to 3D simultaneously produces three structures: an aperiodic tiling (the quasicrystal), a spectral gap (from the Kaluza–Klein spectrum on the orbifold S³/2I), and a triadic frustration (from the constraint functional on entropy-constrained densities). The spectral gap and the frustration are dual descriptions of one obstruction—the orbifold quotient removes degrees of freedom that would otherwise allow simultaneous relaxation of all three curvature sectors.
 
-  The spectral gap delivers an effective dimension D through the semigroup-controlled eigenvalue count on S³/2I, where 15 forbidden modes thin the low-energy spectrum to d_eff ≈ 2.61. The frustration delivers the coupling constant u* = 4πφ²/10 ≈ 3.29 through ground-state curvature I = 4πφ² partitioned by C₁₀ decade symmetry. Both feed independently into the β-function β(ξ, D) = −ξ(1−ξ)[u* + (D−2)ln(φ)/2], whose one-loop exactness is enforced by a vertex selection rule derived from the Perron–Frobenius eigenvalue of the Penrose substitution matrix.
+  The spectral gap delivers an effective dimension D through the semigroup-controlled eigenvalue count on S³/2I, where 15 forbidden modes thin the low-energy spectrum to d_eff ≈ φ² ≈ 2.618, a value structurally forced by Chebyshev periodicity at the golden ratio angles in the 2I character sum. The frustration delivers the coupling constant u* = 4πφ²/10 ≈ 3.29 through ground-state curvature I = 4πφ² partitioned by C₁₀ decade symmetry. Both feed independently into the β-function β(ξ, D) = −ξ(1−ξ)[u* + (D−2)ln(φ)/2], whose one-loop exactness is enforced by a vertex selection rule derived from the Perron–Frobenius eigenvalue of the Penrose substitution matrix.
 
   The coupled flow from (ξ, D) = (0, 3) to (1, 2) organizes the regime structure of compact objects. Dark matter halos sit at ξ ~ 10⁻⁵. White dwarfs approach the structural saturation threshold u*/10 ≈ 0.329, where the Gaia DR3 catalog reveals a cooling anomaly at 14.5σ. Black holes complete the flow to the IR fixed point, where the effective dimension reaches 2—the Bekenstein–Hawking area law as a derived consequence. GWTC spin populations match the u* prediction at 0.1σ.
 
@@ -69,7 +69,7 @@ The exponents 12, 20, 30 are the degrees of the Klein invariants[^7] $(H, T, f)$
 
 The first surviving mode sits at $l = 6$, with eigenvalue $\lambda_1 = 4 \cdot 6 \cdot 7 = 168$. On the unquotiented $S^3$, the first excitation is $\lambda = 3$. The protection factor $\sigma = 168/3 = 56$ measures how far the orbifold has pushed up the spectral floor.
 
-The deletion of 15 modes changes the effective dimensionality. Weyl's law[^9] says the cumulative eigenvalue count on a $d$-dimensional manifold grows as $N(\lambda) \sim \lambda^{d/2}$. On $S^3/\mathrm{2I}$, the thinned count in the semigroup-controlled regime ($l \leq h$) grows as $N(\lambda) \sim \lambda^{d_{\mathrm{eff}}/2}$ with $d_{\mathrm{eff}} = 2.61$. The orbifold is topologically three-dimensional but spectrally behaves as dimension $\sim$2.6 at low energies. Scale-dependent spectral dimension—including reduction to 2 in the infrared—has also been reported in causal dynamical triangulations[^10]. As the cutoff increases past the Coxeter number, $d_{\mathrm{eff}}$ asymptotes back toward 3—the Weyl regime. The full computation is in the [KK spectrum post](/kk-spectrum-e8-and-the-lcd-question).
+The deletion of 15 modes changes the effective dimensionality. Weyl's law[^9] says the cumulative eigenvalue count on a $d$-dimensional manifold grows as $N(\lambda) \sim \lambda^{d/2}$. On $S^3/\mathrm{2I}$, the thinned count in the semigroup-controlled regime ($l \leq h$) grows as $N(\lambda) \sim \lambda^{d_{\mathrm{eff}}/2}$ with $d_{\mathrm{eff}} \approx \varphi^2 \approx 2.618$, a value structurally forced by the golden ratio content of the $\mathrm{2I}$ character sum (the Chebyshev polynomials $U_l(\varphi/2)$ have exact period 10, producing the $C_{10}$ decade symmetry in the spectral domain). The orbifold is topologically three-dimensional but spectrally behaves as dimension $\sim$2.6 at low energies. Scale-dependent spectral dimension—including reduction to 2 in the infrared—has also been reported in causal dynamical triangulations[^10]. As the cutoff increases past the Coxeter number, $d_{\mathrm{eff}}$ asymptotes back toward 3—the Weyl regime. The full computation is in the [KK spectrum post](/kk-spectrum-e8-and-the-lcd-question).
 
 The spectral gap delivers the first of two inputs to the $\beta$-function: the effective dimension $\mathcal{D}$. But the projection from 6D forces *an* ADE orbifold, not uniquely this one. The question of *why* $E_8$ requires comparing all available branches.
 
@@ -329,9 +329,9 @@ $$6\text{D lattice} \xrightarrow{\;\text{project}\;} S^3/\mathrm{2I}.$$
 
 The Molien series of $\mathrm{2I}$ reads off which Kaluza–Klein modes survive the quotient. The surviving spins are exactly the elements of the numerical semigroup $\langle 6, 10, 15 \rangle$, with 15 gaps—half the Coxeter number $h = 30$, a property unique to $E_8$ among all ADE types.
 
-$$S^3/\mathrm{2I} \xrightarrow{\;\text{Molien}\;} \langle 6,10,15 \rangle \xrightarrow{\;n_l = 0\;} d_{\mathrm{eff}} = 2.61.$$
+$$S^3/\mathrm{2I} \xrightarrow{\;\text{Molien}\;} \langle 6,10,15 \rangle \xrightarrow{\;n_l = 0\;} d_{\mathrm{eff}} \approx \varphi^2.$$
 
-Those 15 missing modes thin the low-energy eigenvalue count. By Weyl's law, the orbifold is topologically three-dimensional but spectrally behaves as dimension 2.61—the effective dimension $\mathcal{D}$ that enters the $\beta$-function.
+Those 15 missing modes thin the low-energy eigenvalue count. By Weyl's law, the orbifold is topologically three-dimensional but spectrally behaves as dimension $\varphi^2 \approx 2.618$—the effective dimension $\mathcal{D}$ that enters the $\beta$-function.
 
 A second path runs in parallel. The same orbifold quotient prevents simultaneous relaxation of three curvature sectors, producing a ground-state curvature $I = 4\pi\varphi^2 \approx 32.9$. Decade symmetry partitions each RG period into 10 equivalent shells, giving the coupling constant $u^* = I/10 \approx 3.29$.
 
