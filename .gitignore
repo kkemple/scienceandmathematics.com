@@ -27,7 +27,6 @@ pnpm-debug.log*
 notes/
 pdfs/
 retired_posts/
-scripts/
 
 # Claude
 Claude.md
