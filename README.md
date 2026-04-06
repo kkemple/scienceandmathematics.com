@@ -1,6 +1,6 @@
 # Science & Mathematics 🧬
 
-This work studies agents and coordination in constrained systems under finite resources, treating agency, emergence, and collective behavior as phenomena shaped by feasibility, planning horizon adequacy, and irreducible maintenance costs across physical, biological, and social domains.
+This work studies agents and coordination in constrained systems under finite resources—treating agency, emergence, and collective behavior as phenomena shaped by feasibility, planning horizon adequacy, and irreducible maintenance costs across physical, biological, and social domains.
 
 **Live Site**: [scienceandmathematics.com](https://scienceandmathematics.com/)
 
