@@ -3,9 +3,9 @@ dist/
 .output/
 .cursor/
 .github/
-
-# Generated types
+.netlify/
 .astro/
+.venv/
 
 # Dependencies
 node_modules/
@@ -23,14 +23,11 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
-# IDE settings
-.idea/
-
-# Netlify build output
-.netlify/
+#local files
 notes/
 pdfs/
-papers/
+retired_posts/
+scripts/
 
 # Claude
 Claude.md
