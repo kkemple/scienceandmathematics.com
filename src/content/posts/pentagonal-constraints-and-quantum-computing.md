@@ -23,16 +23,16 @@ zenodoDescription: |
 
   The strongest empirical support comes from Fibonacci pulse sequences: Dumitrescu et al. demonstrated that quasi-periodic dynamical decoupling following Fibonacci timing extends qubit coherence from 1.5 to 5.5 seconds (3.7× improvement) on trapped-ion hardware. The mechanism—φ being the "hardest irrational to approximate" (Hurwitz's theorem)—maximally separates all resonances, preventing the constructive interference that degrades periodic sequences.
 
-  Additional experimental support includes: exciton-polariton condensates on Penrose tiling lattices exhibiting C₁₀ Bragg spectra and 100× extended coherence; X-ray tomography showing decagonal quasicrystals maintaining order through phason-mediated rearrangements; and independent convergence by IBM and other groups toward topologies minimizing frequency collisions through structures the framework interprets as φ-aligned.
+  Additional experimental support includes: exciton-polariton condensates on Penrose tiling lattices exhibiting C₁₀ Bragg spectra and 100× extended coherence; X-ray tomography showing decagonal quasicrystals maintaining order through phason-mediated rearrangements; and independent convergence by IBM and other groups toward topologies minimizing frequency collisions through structures that constraint geometry interprets as φ-aligned.
 
-  The paper proposes specific design principles—prime qubit counts to minimize divisor resonances, φ-ratio frequency spacing, Fibonacci temporal protection, prime code distances—and generates testable predictions for current hardware. The constraint geometry framework interprets pentagonal geometry as encoding the φ-sector (diagonal-to-side ratio = φ) and the discrete sector (C₅ × C₂ = C₁₀), explaining why aperiodic structures exhibit extended coherence: they minimize discrete curvature by maximizing distance from rational approximations.
+  The paper proposes specific design principles—prime qubit counts to minimize divisor resonances, φ-ratio frequency spacing, Fibonacci temporal protection, prime code distances—and generates testable predictions for current hardware. Constraint geometry interprets pentagonal geometry as encoding the φ-sector (diagonal-to-side ratio = φ) and the discrete sector (C₅ × C₂ = C₁₀), explaining why aperiodic structures exhibit extended coherence: they minimize discrete curvature by maximizing distance from rational approximations.
 
   The critical exponent ν = 1/ρ* ≈ 0.304 governs how coherence length diverges at organizational phase transitions. While some predictions are confirmed (Fibonacci temporal protection, anyon quantum dimension), others await systematic experimental validation.
 ---
 
 Pentagons cannot tile three-dimensional space. Unlike cubes or tetrahedra, regular pentagons leave gaps when attempting periodic arrangements—the internal angle $108° = 3\pi/5$ doesn't divide $2\pi$ evenly, requiring exactly 3.33 pentagons per vertex. This geometric frustration makes pentagons impossible for crystal lattices yet essential for aperiodic order.
 
-Within the [constraint geometry framework](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), this frustration has a precise meaning. The diagonal-to-side ratio of a regular pentagon is exactly $\varphi = (1+\sqrt{5})/2$, the same algebraic constant forced by the recursive fixed-point equation $x = 1 + 1/x$ that defines the $\varphi$-sector (Appendix A of the monograph). The fivefold rotational symmetry $C_5$ combines with binary closure $C_2$ to form $C_{10}$—the unique cyclic group surviving negative selection in the discrete sector (Section 4). Pentagonal geometry directly encodes both the $\varphi$-sector and the discrete sector. Every length ratio in a Penrose tiling is a power of $\varphi$, and the tiling's inflation–deflation rules propagate pentagonal order aperiodically across scales.
+Within [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), this frustration has a precise meaning. The diagonal-to-side ratio of a regular pentagon is exactly $\varphi = (1+\sqrt{5})/2$, the same algebraic constant forced by the recursive fixed-point equation $x = 1 + 1/x$ that defines the $\varphi$-sector (Appendix A of the monograph). The fivefold rotational symmetry $C_5$ combines with binary closure $C_2$ to form $C_{10}$—the unique cyclic group surviving negative selection in the discrete sector (Section 4). Pentagonal geometry directly encodes both the $\varphi$-sector and the discrete sector. Every length ratio in a Penrose tiling is a power of $\varphi$, and the tiling's inflation–deflation rules propagate pentagonal order aperiodically across scales.
 
 Recent experiments with exciton–polariton condensates on Penrose tiling lattices demonstrate this directly—the system exhibits $C_{10}$ Bragg spectra and phase synchronization exceeding 100 healing lengths when the geometry aligns with the constraint manifold. Complementary X-ray tomography work shows decagonal quasicrystals maintaining long-range order while growing around obstacles through phason-mediated rearrangements[^1]—internal degrees of freedom unique to aperiodic structures that redistribute curvature to boundaries without nucleating defects. Pentagonal order protects quantum coherence because it minimizes the curvature costs encoded in the constraint functional, and frustration prevents crystallization into periodic patterns vulnerable to systematic resonances.
 
@@ -68,11 +68,11 @@ The same principle suggests that gate timing with irrational ratios should outpe
 
 ## Architectural Implications
 
-The constraint geometry framework suggests design principles for quantum architectures, though specific implementations require experimental validation.
+Constraint geometry suggests design principles for quantum architectures, though specific implementations require experimental validation.
 
 **Qubit counts**: Prime numbers minimize divisor-based resonances. A lattice of $n$ sites admits oscillations at every divisor of $n$; the divisor function $\tau(n)$ counts these modes. For $n = 12 = 2^2 \times 3$, the divisor count $\tau(12) = 6$ creates six resonant modes. For prime $p$, divisor count $\tau(p) = 2$ (minimal). Prime Fibonacci numbers—like 89, 233, 1597—combine minimal discrete curvature with the $\varphi$-sector's recursive structure.
 
-**Spatial arrangement**: The framework suggests that $\varphi$-ratio spacing between modules should minimize standing wave resonances, following the same logic as Penrose tilings. Hierarchical structures with scale factors of $\varphi$ would maintain aperiodic order across levels.
+**Spatial arrangement**: Constraint geometry suggests that $\varphi$-ratio spacing between modules should minimize standing wave resonances, following the same logic as Penrose tilings. Hierarchical structures with scale factors of $\varphi$ would maintain aperiodic order across levels.
 
 **Frequency allocation**: $\varphi$-based frequency detuning maintains irrational ratios between all qubit pairs. Unlike uniform or rational spacing, irrational ratios prevent any harmonic from coinciding exactly—the same principle that makes Fibonacci pulse sequences effective for temporal protection.
 
@@ -92,7 +92,7 @@ The confirmed predictions—Fibonacci temporal protection and the fusion algebra
 
 ## Scope and Limitations
 
-The framework's application to quantum computing rests on several identifications that could fail independently.
+The application to quantum computing rests on several identifications that could fail independently.
 
 **The $\xi \propto P \times \tan\delta$ mapping.** The identification of participation ratio with organizational overhead is motivated by analogy—both measure the fraction of resources consumed by maintenance rather than useful work—but is not derived from the constraint functional. If coherence in superconducting qubits is governed by mechanisms that do not map onto the $\beta$-function's maintenance flow, the quantitative predictions from the exponent $\nu$ would not apply.
 
@@ -100,11 +100,11 @@ The framework's application to quantum computing rests on several identification
 
 **$\varphi$-ratio frequency spacing.** The prediction that irrational frequency ratios outperform rational ones follows from the Hurwitz argument, but competing engineering constraints (fabrication tolerances, control electronics) may dominate the resonance-minimization benefit in practice.
 
-**Scope of the fusion algebra connection.** The algebraic identity $d^2 - d - 1 = 0$ forces $d_\tau = \varphi$ independently of the constraint geometry—it is a consequence of the fusion rule, not a prediction of the framework. The framework provides an interpretation ($\varphi$-sector recursive consistency) but does not predict the fusion rule itself. The connection is downstream, not upstream.
+**Scope of the fusion algebra connection.** The algebraic identity $d^2 - d - 1 = 0$ forces $d_\tau = \varphi$ independently of the constraint geometry—it is a consequence of the fusion rule, not a prediction of constraint geometry. Constraint geometry provides an interpretation ($\varphi$-sector recursive consistency) but does not predict the fusion rule itself. The connection is downstream, not upstream.
 
 ## Conclusion
 
-Pentagonal geometry encodes the $\varphi$-sector and the discrete sector of the constraint functional. The recursive fixed-point equation $x = 1 + 1/x$ that determines the $\varphi$-sector eigenvalue is the same algebraic identity as the Fibonacci anyon fusion rule $\tau \times \tau = \mathbb{1} + \tau$, and the number-theoretic property that makes $\varphi$ optimal for resonance protection (Hurwitz's theorem) is the same property that makes Fibonacci pulse sequences optimal for dynamical decoupling. The confirmed experimental results—3.7× coherence extension from Fibonacci timing and $d_\tau = \varphi$ from anyon fusion measurements—follow from these mathematical necessities. The architectural design principles that emerge from the framework (prime qubit counts, $\varphi$-ratio spacing, prime code distances) provide testable predictions for current quantum hardware.
+Pentagonal geometry encodes the $\varphi$-sector and the discrete sector of the constraint functional. The recursive fixed-point equation $x = 1 + 1/x$ that determines the $\varphi$-sector eigenvalue is the same algebraic identity as the Fibonacci anyon fusion rule $\tau \times \tau = \mathbb{1} + \tau$, and the number-theoretic property that makes $\varphi$ optimal for resonance protection (Hurwitz's theorem) is the same property that makes Fibonacci pulse sequences optimal for dynamical decoupling. The confirmed experimental results—3.7× coherence extension from Fibonacci timing and $d_\tau = \varphi$ from anyon fusion measurements—follow from these mathematical necessities. The architectural design principles that emerge from constraint geometry (prime qubit counts, $\varphi$-ratio spacing, prime code distances) provide testable predictions for current quantum hardware.
 
 [^1]: Franke, L., et al. (2025). Defect-Free Growth of Decagonal Quasicrystals around Obstacles. *Physical Review Letters*, 135, 166203.
 

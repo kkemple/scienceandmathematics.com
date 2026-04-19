@@ -19,7 +19,7 @@ keywords:
   - "intelligence history"
   - "crowd dynamics"
 zenodoDescription: |
-  This paper presents a structural analysis of coordination in constrained systems, arguing that most collective behavior—from bird flocks to financial markets—operates below a threshold where strategic planning becomes feasible. The framework explains why systems can coordinate without coherence, how narrative functions as derivative rather than causal information, and why information asymmetry creates compounding advantages across domains.
+  This paper presents a structural analysis of coordination in constrained systems, arguing that most collective behavior—from bird flocks to financial markets—operates below a threshold where strategic planning becomes feasible. The analysis explains why systems can coordinate without coherence, how narrative functions as derivative rather than causal information, and why information asymmetry creates compounding advantages across domains.
 
   Part I establishes that agents with bounded processing and limited horizons necessarily follow local gradients rather than optimize over counterfactual futures. Strategy requires simulation depth and slack; when either is absent, systems default to gradient-following behavior indistinguishable across biological and social contexts.
 
@@ -27,7 +27,7 @@ zenodoDescription: |
 
   Part III demonstrates these dynamics through 2,500 years of information warfare, from Sun Tzu's spy networks to modern market manipulation. The historical record confirms that those who understood gradient-following behavior and narrative gaps systematically accumulated advantage. The mechanisms evolved but the structural exploitation remained constant.
 
-  The framework makes no psychological claims. It describes boundary conditions on agency and explains why coordination persists where coherence fails, why correction becomes expensive once narratives are cached, and why information asymmetry compounds into institutional dominance.
+  The analysis makes no psychological claims. It describes boundary conditions on agency and explains why coordination persists where coherence fails, why correction becomes expensive once narratives are cached, and why information asymmetry compounds into institutional dominance.
 ---
 
 Most systems coordinate without strategy. Bird flocks, herded sheep, human crowds under stress, markets in crisis—all exhibit synchronized motion without shared plans. This coordination emerges from structure, not from intention. Understanding that structure reveals both the limits of agency and the mechanisms by which those limits are exploited.
@@ -66,7 +66,7 @@ This is not a reduction of agency. It is a boundary condition on it.
 
 Narrative is not causal information. It is derivative information—produced after state change, recording the difference between two system configurations under constraint. Narrative occupies a higher informational layer than signal or coordination. It is the compressed residue of transition.
 
-In the constraint framework, agents move according to local gradients shaped by feasibility, bandwidth, and energetic limits. When simulation horizons are long and slack exists, agents can afford to compare counterfactual futures, integrate delayed effects, and stabilize coherent internal models. In that regime, narrative can be constructed contemporaneously with action, sometimes even guiding intervention. This is the strategic regime.
+In constraint geometry, agents move according to local gradients shaped by feasibility, bandwidth, and energetic limits. When simulation horizons are long and slack exists, agents can afford to compare counterfactual futures, integrate delayed effects, and stabilize coherent internal models. In that regime, narrative can be constructed contemporaneously with action, sometimes even guiding intervention. This is the strategic regime.
 
 Outside that regime—under rising entropy, time pressure, or constraint saturation—simulation depth collapses. Agents still sense gradients. They still align with neighbors. Coordination persists. Coherence disappears. The system enters a phase best described as coordination without coherence: synchronized motion without a shared causal model.
 

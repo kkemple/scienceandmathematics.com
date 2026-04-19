@@ -60,7 +60,7 @@ $$
 
 When $\kappa \ll 1$, the future is effectively opaque. Intervention cannot be justified reliably, and myopic descent dominates. When $\kappa \gtrsim 1$, counterfactual evaluation becomes feasible, and present sacrifice can be traded for future payoff-shape change.
 
-If strategic behavior persists as $\kappa \ll 1$, this framework is wrong. The claim is falsifiable by observation: systems that maintain game-theoretic coordination despite collapsed horizons would refute the threshold structure.
+If strategic behavior persists as $\kappa \ll 1$, this analysis is wrong. The claim is falsifiable by observation: systems that maintain game-theoretic coordination despite collapsed horizons would refute the threshold structure.
 
 This is not a moral distinction—smart versus dumb, rational versus irrational. It is a constraint distinction. When $\kappa$ collapses through stress, bandwidth loss, or depleted slack, systems revert to migration even if they were strategic the day before.
 
@@ -161,7 +161,7 @@ Equilibrium becomes an emergent property of constrained feedback rather than an 
 
 ## Stress Collapses Games into Gradients
 
-The simplest prediction of this framework is qualitative: under stress, systems revert to gradient-following behavior because horizons shorten.
+The simplest prediction of this analysis is qualitative: under stress, systems revert to gradient-following behavior because horizons shorten.
 
 In the energy model above, $H^\star$ is increasing in $P_{\text{choice}}$ and decreasing in $\xi$. Any stressor that raises maintenance overhead or reduces slack shrinks the feasible planning horizon. As $\tau_{\text{ctrl}} = H^\star \Delta t$ falls below $\tau_{\text{env}}$, $\kappa$ drops and strategic behavior becomes less descriptive.
 
@@ -237,7 +237,7 @@ When those conditions fail, game theory does not become false—it becomes incom
 
 This explains why game theory often feels least predictive in crises. Crises are the moments when $\kappa$ is collapsing and $\mathcal{U}(x)$ is shrinking. The lens designed for strategic equilibrium loses resolution precisely when it matters most.
 
-Game theory implicitly assumes sufficient simulation horizon, negligible cost of reasoning, and static constraints. This framework yields a precise boundary: game theory applies only above the simulation threshold. Below it, agents do not play games, equilibria are flow states, and control collapses into feasibility gradients. Under stress, markets revert to biology.
+Game theory implicitly assumes sufficient simulation horizon, negligible cost of reasoning, and static constraints. This analysis yields a precise boundary: game theory applies only above the simulation threshold. Below it, agents do not play games, equilibria are flow states, and control collapses into feasibility gradients. Under stress, markets revert to biology.
 
 ## Implications
 

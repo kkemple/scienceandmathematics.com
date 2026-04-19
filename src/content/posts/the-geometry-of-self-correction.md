@@ -9,9 +9,9 @@ zenodoDepositionId: 18724815
 zenodoUrl: "https://zenodo.org/records/18724815"
 doi: "10.5281/zenodo.18724815"
 zenodoDescription: |
-  This paper develops a coordinate-free geometric framework for understanding when feedback systems converge versus cycle. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation.
+  This paper develops a coordinate-free geometric theory for understanding when feedback systems converge versus cycle. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation.
 
-  The framework uses the unit sphere as the simplest nontrivial state space, where the alignment distance between a system's current state and its target anchor serves as a natural Lyapunov function. Gradient flow on this manifold guarantees monotonic convergence—but real systems often fail to converge despite well-defined targets. The resolution lies in the correction field's differential structure: when multiple objectives, constraints, or state-dependent rules combine as interacting vector fields rather than weighted sums of scalar potentials, curl emerges and convergence guarantees dissolve.
+  The theory uses the unit sphere as the simplest nontrivial state space, where the alignment distance between a system's current state and its target anchor serves as a natural Lyapunov function. Gradient flow on this manifold guarantees monotonic convergence—but real systems often fail to converge despite well-defined targets. The resolution lies in the correction field's differential structure: when multiple objectives, constraints, or state-dependent rules combine as interacting vector fields rather than weighted sums of scalar potentials, curl emerges and convergence guarantees dissolve.
 
   Three mechanisms introduce curl: (1) multi-objective interference through state-dependent weighting or thresholds, (2) constraints and saturation creating asymmetric correction, and (3) delays and hysteresis coupling current corrections to past states. The curl diagnostic distinguishes problems solvable by parameter adjustment (zero curl, multiple local minima) from problems requiring structural redesign (nonzero curl, architectural interference).
 
@@ -276,7 +276,7 @@ The curl floor theorem applies to any system with state-dependent, non-integrabl
 
 The resulting feasibility map is non-integrable. If the system sits near the $\varphi$-sector minimum, the admissible cone tilts toward reducing recursive curvature, but this forces angular curvature to increase (by the strictly negative off-diagonal covariances, T2). As the system corrects angular curvature, the cone tilts again, now forcing discrete curvature to rise. The correction field circulates through sector-dominated configurations rather than converging to a point where all three are simultaneously satisfied—because no such point exists. The projection defect $\delta\alpha$ has persistent magnitude (the sectors are genuinely independent observables, by T3), and the Hodge spectral gap provides the lower bound. Theorem 4 then guarantees a strictly positive curl floor: triadic tension forces irreducible cycling with a quantifiable maintenance cost.
 
-This connection closes the loop between the general theory developed here and the specific constraint geometry of [Triadic Tension, Decade Symmetry, & Dissipation Flow](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The curl diagnostic is a general tool; triadic tension is a specific trigger; and the curl floor theorem quantifies the consequence. A minimal field-theoretic model in which the stiffness ratio and topological protection boundary are computed exactly is developed in [Preserved Curl, Scale Separation, and Topological Leakage](/preserved-curl-scale-separation-and-topological-leakage). The repair framework extends these results by treating local optimization under the curl floor as a first-class process, proving that repair operations traversing the same non-integrable feasibility map incur a strictly positive geometric overhead bounded by the same spectral gap—see [Repair as Local Optimization in Constraint Geometry](/repair-as-local-optimization-in-constraint-geometry).
+This connection closes the loop between the general theory developed here and the specific constraint geometry of [Triadic Tension, Decade Symmetry, & Dissipation Flow](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The curl diagnostic is a general tool; triadic tension is a specific trigger; and the curl floor theorem quantifies the consequence. A minimal field-theoretic model in which the stiffness ratio and topological protection boundary are computed exactly is developed in [Preserved Curl, Scale Separation, and Topological Leakage](/preserved-curl-scale-separation-and-topological-leakage). The repair analysis extends these results by treating local optimization under the curl floor as a first-class process, proving that repair operations traversing the same non-integrable feasibility map incur a strictly positive geometric overhead bounded by the same spectral gap—see [Repair as Local Optimization in Constraint Geometry](/repair-as-local-optimization-in-constraint-geometry).
 
 ### Control Systems
 
@@ -374,7 +374,7 @@ $$
 
 ### Constraint-Induced Non-Integrability and Differential Inclusions
 
-The geometric arguments in the main text can be formalized using the theory of differential inclusions, which provides the correct mathematical framework for systems with state-dependent constraints, saturations, and projections.
+The geometric arguments in the main text can be formalized using the theory of differential inclusions, which provides the correct mathematical formalism for systems with state-dependent constraints, saturations, and projections.
 
 Let $M$ be a smooth Riemannian manifold (e.g., $\mathbb{S}^{n-1}$), and let
 
@@ -450,7 +450,7 @@ For $\mathbb{S}^{n-1}$ with $n \geq 3$, the sphere is simply connected, so curl-
 
 ### Curl-Maintenance Under Feasibility Projections
 
-This section develops the quantitative theory underlying the curl floor discussed in the main text. The framework applies to any compact, oriented Riemannian manifold $(M, g)$ without boundary, with $\dim M = n \geq 2$.
+This section develops the quantitative theory underlying the curl floor discussed in the main text. The theory applies to any compact, oriented Riemannian manifold $(M, g)$ without boundary, with $\dim M = n \geq 2$.
 
 #### The Curl-Maintenance Functional
 

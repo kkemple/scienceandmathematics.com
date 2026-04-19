@@ -40,7 +40,7 @@ Apparent alternatives—incentives, culture, power, learning, strategy—are red
 
 ## Scope and Intent
 
-This analysis does not propose a new sociological typology, organizational framework, or behavioral taxonomy. Its aim is narrower and more structural: to identify the minimal set of independent problems that must be solved by any persistent multi-agent system operating under finite informational and energetic constraints.
+This analysis does not propose a new sociological typology, organizational model, or behavioral taxonomy. Its aim is narrower and more structural: to identify the minimal set of independent problems that must be solved by any persistent multi-agent system operating under finite informational and energetic constraints.
 
 The claim is not that all systems solve these problems well, nor that solutions are identical across domains, but that no system can avoid confronting them, and that no fourth independent problem remains once they are accounted for. The argument proceeds as a necessity result rather than an empirical generalization.
 

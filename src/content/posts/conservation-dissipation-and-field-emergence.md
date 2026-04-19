@@ -22,7 +22,7 @@ keywords:
 zenodoDescription: |
   Classical field equations emerge from conservation constraints combined with symmetry requirements. Noether's theorem connects symmetries to conserved currents; U(1) gauge invariance yields Maxwell's equations; Lorentz invariance produces Klein-Gordon; Galilean symmetry generates Euler's fluid equations. These textbook results establish the pattern that conservation plus symmetry determines dynamics.
 
-  The framework extends to include thermal dissipation through a coefficient ξ quantifying energy loss to microscopic degrees of freedom. Fermi's golden rule provides the microscopic origin: electron-phonon coupling yields ξ₀ = α²√(mₑ/M) ≈ 10⁻⁶ for elementary particles, with the fine structure constant α = 1/137 appearing naturally. The fluctuation-dissipation theorem ensures thermal equilibrium through balanced noise and damping.
+  The derivation extends to include thermal dissipation through a coefficient ξ quantifying energy loss to microscopic degrees of freedom. Fermi's golden rule provides the microscopic origin: electron-phonon coupling yields ξ₀ = α²√(mₑ/M) ≈ 10⁻⁶ for elementary particles, with the fine structure constant α = 1/137 appearing naturally. The fluctuation-dissipation theorem ensures thermal equilibrium through balanced noise and damping.
 
   This microscopic derivation establishes ξ as a physical, derivable quantity—the essential prerequisite for its role as the maintenance fraction ξ ∈ [0,1] in the constraint geometry's β-function. The decade-spaced regime structure from ξ ~ 10⁻⁶ (particles) through 10⁻¹ (biological systems) to 1 (black holes) follows from the RG coupling u* = 4πφ²/10 ≈ 3.29, derived from triadic tension and C₁₀ decade symmetry. The microscopic origin derived here provides the UV boundary condition; the constraint geometry determines the flow.
 ---
@@ -207,7 +207,7 @@ recovering the Boltzmann distribution.
 
 ## Application to Field Theories
 
-The framework reproduces established field equations with dissipation emerging from thermal coupling. Electromagnetic fields in conductors obey Maxwell's equations,
+The derivation reproduces established field equations with dissipation emerging from thermal coupling. Electromagnetic fields in conductors obey Maxwell's equations,
 
 $$
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}, \quad \nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0\epsilon_0 \frac{\partial \mathbf{E}}{\partial t},

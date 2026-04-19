@@ -51,7 +51,7 @@ A civilization builds interventions on available mechanics. Early in adoption, r
 
 As intervention saturation approaches, global coordination and long-horizon planning become increasingly expensive. Agents respond rationally by shortening time horizons and shifting toward local optimization. This manifests as fragmentation, defensive behavior, rent-seeking, norm hardening, and conflict over fixed resources. Innovation doesn't disappear but becomes incremental, recombinatory, or cosmetic—focused on extracting the last remaining gains from a saturated intervention space rather than opening new ones.
 
-These behaviors are not moral failures or cultural accidents. They are predictable responses to a system operating beyond the scalable domain of its underlying intervention portfolio. The [simulation horizons framework](/simulation-horizons-constraints-and-the-emergence-of-strategic-agency) explains this transition: when coordination costs exceed the returns from strategic planning, agents rationally collapse from game-theoretic reasoning to gradient-following behavior. The shift from long-horizon strategy to short-horizon reaction is a diagnostic signal of approaching saturation.
+These behaviors are not moral failures or cultural accidents. They are predictable responses to a system operating beyond the scalable domain of its underlying intervention portfolio. The [simulation horizons analysis](/simulation-horizons-constraints-and-the-emergence-of-strategic-agency) explains this transition: when coordination costs exceed the returns from strategic planning, agents rationally collapse from game-theoretic reasoning to gradient-following behavior. The shift from long-horizon strategy to short-horizon reaction is a diagnostic signal of approaching saturation.
 
 ## The Ladder
 
@@ -83,7 +83,7 @@ Recovery isn't "climb back up." It's rebuild with gaps you can't see, dependenci
 
 ## Historical Patterns
 
-The framework illuminates why some saturations produce breakthrough and others produce collapse. The difference isn't luck or leadership—it's whether the intervention stack has climbed high enough to perceive and build the next viable interface.
+This analysis illuminates why some saturations produce breakthrough and others produce collapse. The difference isn't luck or leadership—it's whether the intervention stack has climbed high enough to perceive and build the next viable interface.
 
 ### Bronze Age Collapse
 
@@ -113,7 +113,7 @@ The acceleration follows from starting each cycle at higher baseline complexity.
 
 ## The Constraint
 
-The pattern has a formal expression. In the [information-theoretic framework](/information-theoretic-constraints-on-sociotechnical-systems), the complexity multiplier $(1-\xi)^{-u^*}$ grows nonlinearly as the fraction of capacity devoted to maintenance overhead $\xi$ rises, with the critical exponent $\nu = 1/u^* \approx 0.304$ governing the rate of divergence near [organizational phase transitions](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). "Complexity outpaces surplus" is what this acceleration looks like from inside the system—coordination overhead consuming productive capacity until the intervention stack can no longer sustain itself.
+The pattern has a formal expression. In the [information-theoretic analysis](/information-theoretic-constraints-on-sociotechnical-systems), the complexity multiplier $(1-\xi)^{-u^*}$ grows nonlinearly as the fraction of capacity devoted to maintenance overhead $\xi$ rises, with the critical exponent $\nu = 1/u^* \approx 0.304$ governing the rate of divergence near [organizational phase transitions](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). "Complexity outpaces surplus" is what this acceleration looks like from inside the system—coordination overhead consuming productive capacity until the intervention stack can no longer sustain itself.
 
 Breakthrough resets $\xi$ by creating new surplus. Simplification resets $\xi$ by shedding complexity. Both paths restore the system to a regime where maintenance costs are sustainable. The difference is what gets preserved.
 
