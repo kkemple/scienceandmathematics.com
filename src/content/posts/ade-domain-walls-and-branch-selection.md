@@ -2,10 +2,10 @@
 title: 'ADE Domain Walls and Branch Selection'
 description: "Domain wall energies between ADE branches are finite, spanning 456×. Gap-set nesting makes E₈ maximal under inclusion. Thermal stability and frozen tunneling make selection primordial and irreversible."
 pubDate: '2026-02-18'
-updatedDate: "2026-03-29"
-zenodoDepositionId: 19320975
-zenodoUrl: "https://zenodo.org/records/19320975"
-doi: "10.5281/zenodo.19320975"
+updatedDate: "2026-04-19"
+zenodoDepositionId: 19652105
+zenodoUrl: "https://zenodo.org/records/19652105"
+doi: "10.5281/zenodo.19652105"
 category: 'core'
 order: 4
 zenodoDescription: |
@@ -35,8 +35,6 @@ keywords:
 
 The [KK spectrum computation](/kk-spectrum-e8-and-the-lcd-question) established that the Poincaré homology sphere $S^3/\mathrm{2I}$ has the deepest spectral protection gap among ADE orbifolds—56× enhancement of the KK mass gap, 15 forbidden levels, genus $g = h/2$. The ADE classification[^1] permits other branches: $E_7$ (binary octahedral), $E_6$ (binary tetrahedral), and the $D$-series (binary dihedral), each with its own orbifold, semigroup, and spectral gap. The question is whether these branches can coexist on the same 6D substrate, and if so, what energy cost the domain walls between them carry. If domain wall energies are infinite, branches are globally exclusive and $E_8$ selection is a boundary condition. If finite, coexistence is possible and the stability hierarchy determines relative populations.
 
-This post computes the spectral mismatch between all pairs of the four principal ADE branches ($E_8$, $E_7$, $E_6$, $D_8$), establishes that all domain wall energies are finite, and shows that $E_8$ selection is a dynamical stability outcome—primordial and irreversible.
-
 ## 1. Gap Sets and Structural Ordering
 
 The [semigroup selection rule](/kk-spectrum-e8-and-the-lcd-question#4-the-numerical-semigroup) determines the forbidden KK levels for each branch from the Klein invariant degrees[^2] alone. The numerical semigroup[^3] gap sets for the four branches are:
@@ -51,25 +49,25 @@ The [semigroup selection rule](/kk-spectrum-e8-and-the-lcd-question#4-the-numeri
 The gap sets satisfy a strict inclusion hierarchy:
 
 $$
-\mathrm{gap}(E_6) \subset \mathrm{gap}(E_7) \subset \mathrm{gap}(E_8)
+\mathrm{gap}(E_6) \subset \mathrm{gap}(E_7) \subset \mathrm{gap}(E_8),
 $$
 
 $$
-\mathrm{gap}(D_8) \subset \mathrm{gap}(E_7) \subset \mathrm{gap}(E_8)
+\mathrm{gap}(D_8) \subset \mathrm{gap}(E_7) \subset \mathrm{gap}(E_8).
 $$
 
 Verified: $\{1,2,5\} \subset \{1,2,3,5,7,11\} \subset \{1,2,3,4,5,7,8,9,11,13,14,17,19,23,29\}$, and $\{1,3,5\} \subset \{1,2,3,5,7,11\} \subset \{1,2,3,4,5,7,8,9,11,13,14,17,19,23,29\}$. The $E_6$ and $D_8$ gap sets are not nested in either direction: $E_6$ uniquely forbids $l = 2$, $D_8$ uniquely forbids $l = 3$.
 
 $E_8$ is the unique maximal element under gap-set inclusion in the sparse regime ($l \leq 29 = h_{E_8} - 1$). This ordering uses no energetic modeling, no KK multiplicities, and no wall tension functional. The invariant ring structure alone induces it. The $A$-family (binary cyclic groups) has empty gap sets—the halved Klein degrees always include 1, generating all of $\mathbb{Z}_{\geq 0}$—and contributes no structural deletion.
 
-The gap-depth hierarchy has a character-theoretic origin in the Chebyshev polynomials of the second kind. The KK multiplicity at spin $l$ on $S^3/\Gamma$ is determined by a character sum over conjugacy classes of $\Gamma$, each evaluated at the Chebyshev polynomial $U_{2l}(\cos(\theta_g/2))$, where $\theta_g$ is the rotation angle of the group element. A spin $l$ falls in the gap set precisely when destructive interference among these Chebyshev amplitudes produces exact cancellation. The depth of each branch's gap set therefore depends on the algebraic nature of the cosines at its characteristic half-angles. For binary tetrahedral ($\mathrm{2T}$, $E_6$), the half-angles are $\pi/3$ and $\pi/2$, giving $\cos(\pi/3) = 1/2$ and $\cos(\pi/2) = 0$. All even-index Chebyshev values $U_{2l}$ at these arguments are integers cycling through $\{0, \pm 1\}$, and the resulting character sums cancel at only 3 spins. For binary octahedral ($\mathrm{2O}$, $E_7$), the additional half-angle $\pi/4$ introduces $\cos(\pi/4) = \sqrt{2}/2$, but the irrationality cancels at even indices: $U_{2l}(\sqrt{2}/2) = \sin((2l+1)\pi/4)/\sin(\pi/4)$, and since $(2l+1)$ is always odd, $\sin((2l+1)\pi/4) \in \{\pm\sqrt{2}/2\}$, so $U_{2l}(\sqrt{2}/2) \in \{\pm 1\}$ exactly. Six gaps result. For binary dihedral ($\mathrm{BD}_6$, $D_8$), the half-angle $\pi/6$ gives $\cos(\pi/6) = \sqrt{3}/2$, and $U_{2l}(\sqrt{3}/2) = 2\sin((2l+1)\pi/6) \in \{\pm 1, \pm 2\}$—again all integer. Three gaps. For binary icosahedral ($\mathrm{2I}$, $E_8$), the half-angle $\pi/5$ gives $\cos(\pi/5) = \varphi/2$. The even-index values $U_{2l}(\varphi/2) = \sin((2l+1)\pi/5)/\sin(\pi/5)$ cycle through $\{0, \pm 1, \pm\varphi\}$ with period 5 in $l$. The golden ratio $\varphi$ enters the character formula directly at even indices—the only branch where this occurs. Because $\varphi$ is the worst-approximable irrational[^6] (Hurwitz 1891), the resulting destructive interference in the character sum is maximally effective: integer and irrational amplitudes cannot achieve the partial cancellations that would produce near-zero but nonzero multiplicities. They either cancel exactly or miss by an irreducible irrational margin. This algebraic incompatibility between $\varphi$ and $\mathbb{Z}$ produces the deepest gap structure—15 forbidden spins—among all ADE branches.
+The gap-depth hierarchy has a character-theoretic origin in the Chebyshev polynomials of the second kind. The KK multiplicity at spin $l$ on $S^3/\Gamma$ is determined by a character sum over conjugacy classes of $\Gamma$, each evaluated at the Chebyshev polynomial $U_{2l}(\cos(\theta_g/2))$, where $\theta_g$ is the rotation angle of the group element. A spin $l$ falls in the gap set precisely when destructive interference among these Chebyshev amplitudes produces exact cancellation. The depth of each branch's gap set therefore depends on the algebraic nature of the cosines at its characteristic half-angles. For binary tetrahedral ($\mathrm{2T}$, $E_6$), the half-angles are $\pi/3$ and $\pi/2$, giving $\cos(\pi/3) = 1/2$ and $\cos(\pi/2) = 0$. All even-index Chebyshev values $U_{2l}$ at these arguments are integers cycling through $\{0, \pm 1\}$, and the resulting character sums cancel at only 3 spins. For binary octahedral ($\mathrm{2O}$, $E_7$), the additional half-angle $\pi/4$ introduces $\cos(\pi/4) = \sqrt{2}/2$, but the irrationality cancels at even indices: $U_{2l}(\sqrt{2}/2) = \sin((2l+1)\pi/4)/\sin(\pi/4)$, and since $(2l+1)$ is always odd, $\sin((2l+1)\pi/4) \in \{\pm\sqrt{2}/2\}$, so $U_{2l}(\sqrt{2}/2) \in \{\pm 1\}$ exactly. Six gaps result. For binary dihedral ($\mathrm{BD}_6$, $D_8$), the half-angle $\pi/6$ gives $\cos(\pi/6) = \sqrt{3}/2$, and $U_{2l}(\sqrt{3}/2) = 2\sin((2l+1)\pi/6) \in \{\pm 1, \pm 2\}$—again all integer. Three gaps. For binary icosahedral ($\mathrm{2I}$, $E_8$), the half-angle $\pi/5$ gives $\cos(\pi/5) = \varphi/2$. The even-index values $U_{2l}(\varphi/2) = \sin((2l+1)\pi/5)/\sin(\pi/5)$ cycle through $\{0, \pm 1, \pm\varphi\}$ with period 5 in $l$. The golden ratio $\varphi$ enters the character formula directly at even indices—the only branch where this occurs. Because $\varphi$ is the worst-approximable irrational[^6] (Hurwitz 1891), the resulting destructive interference in the character sum is maximally effective: integer and irrational amplitudes cannot achieve the partial cancellations that would produce near-zero but nonzero multiplicities. They either cancel exactly or miss by an irreducible irrational margin. This algebraic incompatibility between $\varphi$ and $\mathbb{Z}$ produces the deepest gap structure—15 forbidden spins—among all ADE branches. The same period-5 cycle carries an exact algebraic identity, $\|U_{2\bullet}(\varphi/2)\|^2_5 / \|U_{2\bullet}(1/(2\varphi))\|^2_5 = \varphi^2$, the Chebyshev norm ratio at the two icosahedral half-angles—the same $\varphi^2$ that factorizes the ground-state curvature $I = 4\pi\varphi^2$ in the triadic tension analysis and sets the effective spectral dimension at the Coxeter threshold in the KK spectrum computation.
 
 ## 2. Spectral Mismatch and Domain Walls
 
-At a domain wall between branches $\Gamma_1$ and $\Gamma_2$, a KK mode at spin $l$ that propagates on one side ($n_l > 0$) but sits in the gap set of the other ($n_l = 0$) becomes evanescent, with decay length $\delta_l = R / \sqrt{4l(l+1)}$. Each evanescent mode contributes boundary energy proportional to its multiplicity times inverse penetration depth:
+At a domain wall between branches $\Gamma_1$ and $\Gamma_2$, a KK mode at spin $l$ that propagates on one side ($n_l > 0$) but sits in the gap set of the other ($n_l = 0$) becomes evanescent, with decay length $\delta_l = R / \sqrt{4l(l+1)}$. Each evanescent mode contributes boundary energy proportional to its multiplicity times inverse penetration depth,
 
 $$
-\varepsilon_l \propto m_l \cdot \sqrt{\lambda_l}
+\varepsilon_l \propto m_l \cdot \sqrt{\lambda_l}.
 $$
 
 The hard mismatch set $\mathcal{M}$ consists of all spin values that survive on one side but are forbidden on the other. This set is bounded above by $\max(h_1, h_2)$: above both Coxeter numbers, all modes survive on both sides and contribute no hard mismatch. The hard tension sum therefore terminates after finitely many terms. No regularization is required.
@@ -130,7 +128,7 @@ As the universe cools through the branch selection epoch, walls dissolve in orde
 5. $E_8 \leftrightarrow E_6$ dissolves at $T > 3.9 \times 10^{16}$ GeV
 6. $E_8 \leftrightarrow D_8$ dissolves at $T > 3.9 \times 10^{16}$ GeV
 
-$E_8$ walls form first and are the last to become unstable. $E_8$ is the last branch standing.
+$E_8$ walls form first and are the last to dissolve.
 
 The dissolution ordering has a statistical-mechanical origin. The KK partition function on each orbifold $S^3/\Gamma$ is $Z_\Gamma(T) = \sum_l m_l \, e^{-\sqrt{\lambda_l}/(TR)}$, where the sum runs only over modes surviving the quotient. Branches with more gap-set deletions have fewer thermally active modes at any temperature below the compactification scale. $E_8$ deletes 15 of the first 30 levels and pushes the spectral floor to $\lambda_1 = 168$; $E_6$ deletes 3 and has $\lambda_1 = 48$; $D_8$ deletes 3 and has $\lambda_1 = 24$. As the universe cools below the compactification scale, branches with lower spectral floors activate thermal excitations first—each activated mode contributes $\sim T^4$ to the effective potential density, raising $V_{\mathrm{eff}}$ above the value of branches whose modes remain frozen. The branch that activates last has the lowest effective potential at every temperature in the cooling sequence. Gap-set nesting ($\mathrm{gap}(E_6) \subset \mathrm{gap}(E_7) \subset \mathrm{gap}(E_8)$) guarantees that $E_8$ activates last at every level: any mode frozen in a smaller gap set is necessarily frozen in $E_8$, but $E_8$ freezes additional modes that the smaller sets permit. The wall dissolution hierarchy is the domain-wall manifestation of this partition function ordering—the same physics viewed from the boundary rather than the bulk.
 
@@ -142,7 +140,7 @@ $$
 B = \frac{27\pi^2 \sigma^4}{2\varepsilon^3}.
 $$
 
-For the ADE branches, $\sigma = T_{\mathrm{hard}} / R^3$ and $\varepsilon = \Delta\mathrm{drive} / R^4$. Substituting:
+For the ADE branches, $\sigma = T_{\mathrm{hard}} / R^3$ and $\varepsilon = \Delta\mathrm{drive} / R^4$, so
 
 $$
 B = \frac{27\pi^2 \, T_{\mathrm{hard}}^4}{2 \, \Delta\mathrm{drive}^3}.
@@ -184,6 +182,10 @@ Five independent properties converge on $E_8$:
 Leg 1 has a concrete spectral mechanism: the worst-approximability of $\varphi$ manifests through the Chebyshev periodicity theorem (§1)—$U_{2l}(\varphi/2)$ takes values in $\{0, \pm 1, \pm\varphi\}$ with period 5 in $l$, and these irrational amplitudes create the strongest destructive interference in the character sum, producing the deepest gap structure among all ADE branches. The other three branches have exclusively integer even-index Chebyshev values, limiting their gap depth to 3–6 spins. The full Chebyshev analysis connects the [phi-sector of constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) (which identifies $\varphi$ as the recursion eigenvalue) to the [KK spectral computation](/kk-spectrum-e8-and-the-lcd-question) (which computes the resulting gap set): Hurwitz worst-approximability is the algebraic engine driving spectral gap depth.
 
 Legs 1–3 establish why $E_8$ is the spectrally preferred branch. Leg 4 identifies the epoch at which selection occurs. Leg 5 proves the selection is permanent.
+
+## Conclusion
+
+Branch selection in the ADE landscape reduces to a chain of structural facts. Gap-set inclusion makes $E_8$ the unique maximal element among the four principal branches—a purely combinatorial ordering derived from the invariant ring alone. Spectral mismatch then converts that ordering into a wall-tension hierarchy spanning a factor of $\sim$456, with every $E_8$ wall one-directional: the partner branch always has modes that $E_8$ forbids, never the reverse. Thermal stability at GUT-scale compactification identifies a narrow selection window where cheap walls dissolve while $E_8$ walls persist, and the partition-function ordering guarantees $E_8$ activates last at every level. The Coleman–De Luccia bounce action is $R$-independent and satisfies $B \gg 1$ on every downhill channel, freezing quantum tunneling at any sub-compactification temperature. What began as a combinatorial observation about gap sets becomes, through the domain-wall and bounce-action machinery, a dynamical selection outcome that is primordial and irreversible.
 
 [^1]: McKay, J. (1980). Graphs, singularities, and finite groups. In *The Santa Cruz Conference on Finite Groups*, Proceedings of Symposia in Pure Mathematics, Vol. 37, AMS, 183–186.
 

@@ -2,10 +2,10 @@
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
 description: "Three curvature sectors compete under one constraint functional on S³/2I. Their incompatibility forces ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a geometrically determined β-function."
 pubDate: '2025-11-28'
-zenodoDepositionId: 19320982
-zenodoUrl: "https://zenodo.org/records/19320982"
-doi: "10.5281/zenodo.19320982"
-updatedDate: "2026-03-29"
+zenodoDepositionId: 19652102
+zenodoUrl: "https://zenodo.org/records/19652102"
+doi: "10.5281/zenodo.19652102"
+updatedDate: "2026-04-19"
 category: 'core'
 order: 2
 keywords:
@@ -27,7 +27,9 @@ keywords:
 zenodoDescription: |
   Three curvature sectors—angular closure (π-sector), recursive self-similarity (φ-sector), and discrete resonance (N-sector)—compete under a single constraint functional on entropy-constrained probability densities, arising from the projection of a 6D periodic lattice to the orbifold S³/2I. No configuration can simultaneously minimize all three.
 
-  The triadic tension theorem proves this rigorously. Pairwise incompatibility of sector minimizers (T1), strictly negative off-diagonal covariances via cross-susceptibility (T2), strict positive definiteness of the covariance matrix (T3), and nonzero ground-state curvature (T4) follow in logical sequence. The ground state on the Penrose eigenbranch carries composite invariant I = 4πφ² ≈ 32.9. The 15 missing Kaluza–Klein modes (gaps of the numerical semigroup ⟨6, 10, 15⟩) and the nonzero ground-state curvature are dual descriptions of the same obstruction.
+  The triadic tension theorem proves this rigorously. Pairwise incompatibility of sector minimizers (T1), strictly negative off-diagonal covariances via cross-susceptibility (T2), strict positive definiteness of the covariance matrix (T3), and nonzero ground-state curvature (T4) follow in logical sequence. The ground state on the Penrose eigenbranch carries composite invariant I = 4πφ² ≈ 32.9, which factorizes exactly as Gauss–Bonnet (4π, the topological constant for S²) times the Chebyshev norm ratio φ² at the two icosahedral half-angles. The 15 missing Kaluza–Klein modes (gaps of the numerical semigroup ⟨6, 10, 15⟩) and the nonzero ground-state curvature are dual descriptions of the same obstruction, mediated by the same Chebyshev norm ratio.
+
+  The spectral-variational duality is mediated by an exact algebraic identity: ‖U_{2•}(φ/2)‖²₅ / ‖U_{2•}(1/(2φ))‖²₅ = φ² exactly over one period, where the two icosahedral half-angles cos(π/5) = φ/2 and cos(2π/5) = 1/(2φ) are the dominant and subdominant Penrose eigenvalues. The effective spectral dimension d_eff = φ² is exact; the regression value d_eff(30) = 2.613 is a finite-sample power-law fit to the same Chebyshev norm ratio, undershooting by 0.2%.
 
   A negative selection argument forces the discrete sector to carry C₁₀ = C₂ × C₅ symmetry—the same symmetry implemented by the binary icosahedral group 2I on S³. The crystallographic restriction eliminates periodic groups, φ-compatibility eliminates all remaining quasicrystal families, and binary closure demands the C₂ factor. C₁₀ is the unique survivor.
 
@@ -61,8 +63,6 @@ The same flow appears at three resolutions. Globally it is the RG trajectory fro
 The constraint functional admits multiple eigenbranch families—Penrose $(\pi, \varphi, 10)$, Ammann–Beenker $(\pi, 1+\sqrt{2}, 8)$, dodecagonal $(\pi, 2+\sqrt{3}, 12)$—each representing a distinct resolution of the triadic competition. The Penrose branch dominates natural systems because the golden ratio is the worst-approximable irrational number (Hurwitz's theorem), providing maximal resonance protection among all candidate inflation eigenvalues. Other branches exist as metastable states with higher ground-state curvature, requiring entropy subsidies to compensate their curvature liability (§4.6).
 
 Penrose polariton quasicrystals realize all three constraint sectors in a single device, achieving mesoscopic coherence exceeding 100 healing lengths when the geometry aligns with the constraint manifold (Section 6). Quantitative tests against white dwarf cooling data, black hole spin populations, and cosmological observations are developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion) and companion posts.
-
-Section 2 defines the constraint functional and derives its Euler–Lagrange equation. Section 3 states and proves the triadic tension theorem. Section 4 establishes the uniqueness of $C_{10}$ through negative selection. Section 5 derives the dissipation $\beta$-function. Section 6 presents the quasicrystal realization. Section 7 summarizes the proven chain.
 
 ## 2. The Constraint Functional
 
@@ -312,7 +312,7 @@ At representative parameters $(\tau = 0.01, \lambda_\pi = \lambda_\varphi = \lam
 
 The result is robust across two orders of magnitude in effective temperature ($\tau \in [0.002, 0.1]$) and a factor of 2.5 in regularization width ($\sigma \in \{2, 3, 5\}$): all six off-diagonal covariances remain strictly negative in every tested configuration. Changing $\tau$ and $\sigma$ alters the magnitudes of the covariances but never flips their signs.
 
-The covariance magnitudes satisfy a persistent hierarchy:
+The covariance magnitudes satisfy a persistent hierarchy,
 
 $$
 |\Sigma_{\pi N}| > |\Sigma_{\pi\varphi}| \gg |\Sigma_{\varphi N}|.
@@ -374,7 +374,7 @@ $$
 
 This is a topological invariant, independent of the specific metric within the conformal class. The value $4\pi$ is not a normalization choice but a consequence of the Euler characteristic $\chi(S^2) = 2$.
 
-A clarification on the role of Fisher information: the functional $K_\pi[P] = \int(\partial_\theta \ln P)^2 P\,dA$ measures departures of the density $P$ from uniformity on $\mathcal{M}_\pi$. For the ground-state density $P_0 = 1/(4\pi)$ on $S^2$, the Fisher information vanishes because $P_0$ is constant—there is no angular bending to penalize. The quantity $\kappa_\pi = 4\pi$ is not the Fisher information of $P_0$ but the total Gaussian curvature of the manifold on which $P$ is defined. The manifold's intrinsic curvature sets the baseline that the $\pi$-sector's contribution to $I$ inherits. The Fisher functional measures fluctuations above this baseline; the baseline itself is topological.
+The Fisher functional $K_\pi[P] = \int(\partial_\theta \ln P)^2 P\,dA$ measures departures of the density $P$ from uniformity on $\mathcal{M}_\pi$. For the ground-state density $P_0 = 1/(4\pi)$ on $S^2$, the Fisher information vanishes because $P_0$ is constant—there is no angular bending to penalize. The quantity $\kappa_\pi = 4\pi$ is not the Fisher information of $P_0$ but the total Gaussian curvature of the manifold on which $P$ is defined. The manifold's intrinsic curvature sets the baseline that the $\pi$-sector's contribution to $I$ inherits. The Fisher functional measures fluctuations above this baseline; the baseline itself is topological.
 
 With $\kappa_\pi = 4\pi$ derived rather than assumed, the composite invariant is
 
@@ -382,9 +382,17 @@ $$
 I = \kappa_\pi \cdot \lambda_\varphi = 4\pi\varphi^2 \approx 32.9,
 $$
 
-where $\lambda_\varphi = \varphi^2$ is the recursion eigenvalue (from $x^2 = x+1$), entering as the mode-counting factor per inflation step at $\mathcal{D} = 2$. The product $\kappa_\pi \cdot \lambda_\varphi$—rather than a sum—arises because the angular and log-radial sectors probe independent coordinates of a locally product configuration space $\mathcal{M}_\pi \times \mathbb{R}_\varphi$, and spectral content on product spaces factorizes (heat-kernel product identity). Every ingredient is now forced by the framework's own structure: $\kappa_\pi = 4\pi$ by dimensional reduction to $\mathcal{D} = 2$ and topological selection of $S^2$ via Gauss–Bonnet, $\varphi^2$ by the recursive fixed-point algebra, $/10$ by negative selection of $C_{10}$ (Section 4), and the product being nonzero by triadic tension (T4). The discrete sector enters separately: $C_{10}$ symmetry partitions this curvature into 10 equivalent shells, yielding the RG coupling $u^* = I/10$ (Section 5).
+where $\lambda_\varphi = \varphi^2$ enters as the mode-counting factor per inflation step at $\mathcal{D} = 2$. Three convergent readings fix the same number. As a recursion eigenvalue, $\varphi^2$ solves the self-consistency equation $x^2 = x + 1$—the Perron–Frobenius eigenvalue squared of the Penrose substitution matrix $M = \bigl(\begin{smallmatrix}1&1\\1&0\end{smallmatrix}\bigr)$. As a Weyl exponent, $\varphi^2$ is the spectral dimension the Kaluza–Klein count realizes at the Coxeter threshold on $S^3/\mathrm{2I}$ (§5.2). And as an exact algebraic identity, $\varphi^2$ is the Chebyshev norm ratio at the two icosahedral half-angles,
 
-The constraint functional arises from projecting a 6D periodic lattice to 3D, producing the orbifold $S^3/\mathrm{2I}$ (the Poincaré homology sphere). The same projection that creates the frustration also creates a spectral gap: scalar fields on $S^3/\mathrm{2I}$ decompose into Kaluza–Klein modes, and the orbifold quotient deletes every mode not invariant under $\mathrm{2I}$. The surviving spins form the numerical semigroup $\langle 6, 10, 15 \rangle$, with 15 gaps. Those 15 missing KK modes are what the frustration looks like spectrally. The nonzero ground-state curvature $I > 0$ is what it looks like variationally. The two descriptions—spectral and variational—are dual readouts of one projection. The full chain from the 6D lattice through the KK spectrum to the $\beta$-function is developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion).
+$$
+\lambda_\varphi = \frac{\|U_{2\bullet}(\cos(\pi/5))\|^2_5}{\|U_{2\bullet}(\cos(2\pi/5))\|^2_5} = \frac{\|U_{2\bullet}(\varphi/2)\|^2_5}{\|U_{2\bullet}(1/(2\varphi))\|^2_5} = \varphi^2,
+$$
+
+where the Chebyshev polynomials evaluated at $\cos(\pi/5) = \varphi/2$ and $\cos(2\pi/5) = 1/(2\varphi)$ each produce a period-5 cycle in the even-index sequence, and the squared-norm ratio evaluates to $(1 + \varphi^2 + 0 + \varphi^2 + 1)/(1 + 1/\varphi^2 + 0 + 1/\varphi^2 + 1) = \varphi^2$ after multiplying through by $\varphi^2$. The three readings coincide because they read the same algebraic object—the extremal structure of $\varphi$ as Hurwitz's worst-approximable irrational—from three directions: recursively, spectrally, and through the character sum of the icosahedral group.
+
+The product $\kappa_\pi \cdot \lambda_\varphi$—rather than a sum—arises because the angular and log-radial sectors probe independent coordinates of a locally product configuration space $\mathcal{M}_\pi \times \mathbb{R}_\varphi$, and spectral content on product spaces factorizes (heat-kernel product identity). Every ingredient is now forced by the framework's own structure: $\kappa_\pi = 4\pi$ by dimensional reduction to $\mathcal{D} = 2$ and topological selection of $S^2$ via Gauss–Bonnet; $\varphi^2$ by the Chebyshev norm ratio (equivalently, the recursive fixed-point algebra and the KK Weyl exponent); $/10$ by negative selection of $C_{10}$ (Section 4); and the product being nonzero by triadic tension (T4). The discrete sector enters separately: $C_{10}$ symmetry partitions this curvature into 10 equivalent shells, yielding the RG coupling $u^* = I/10$ (Section 5).
+
+The constraint functional arises from projecting a 6D periodic lattice to 3D, producing the orbifold $S^3/\mathrm{2I}$ (the Poincaré homology sphere). The same projection that creates the frustration also creates a spectral gap: scalar fields on $S^3/\mathrm{2I}$ decompose into Kaluza–Klein modes, and the orbifold quotient deletes every mode not invariant under $\mathrm{2I}$. The surviving spins form the numerical semigroup $\langle 6, 10, 15 \rangle$, with 15 gaps. Those 15 missing KK modes are what the frustration looks like spectrally. The nonzero ground-state curvature $I > 0$ is what it looks like variationally. The Chebyshev norm ratio is the algebraic object that both readings are reading—exact over the full Chebyshev period that controls the gap structure, and the same $\varphi^2$ that appears in $I = 4\pi\varphi^2$. The full chain from the 6D lattice through the KK spectrum to the $\beta$-function is developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion).
 
 ### 3.7 Limitations
 
@@ -424,7 +432,7 @@ $$
 
 When $\ln\varphi / T$ is rational—say $p/q$—the recursion returns exactly to its starting configuration after $q$ steps, producing exact resonance of order $q$. At this resonance, curvature modes at scale $\mu$ interfere constructively with modes at scale $\varphi^q \mu$. The triadic tension (the strictly negative off-diagonal covariances established in Section 3) amplifies these interferences, producing divergent curvature accumulation. The physical outcome is crystallization: the system collapses into a rigid periodic ground state with no capacity for structural variation. The $N$-sector exists to partition curvature into redistributable shells, and resonance lock-in makes that redistribution impossible.
 
-All crystallographic cyclic groups produce periodic spectra and are eliminated:
+All crystallographic cyclic groups produce periodic spectra and are eliminated,
 
 $$
 C_1, \, C_2, \, C_3, \, C_4, \, C_6 \quad \longrightarrow \quad \text{eliminated (resonance lock-in under recursion)}.
@@ -454,7 +462,7 @@ There is a deeper number-theoretic reason why $\varphi$ is optimal. Hurwitz's ap
 
 For the constraint functional, rational approximability translates to resonance vulnerability. $\varphi$ minimizes the strength of all near-resonances simultaneously. Even if the $\varphi$-sector did not already select $\varphi$ algebraically (through $x = 1+1/x$), the $N$-sector would select it number-theoretically (through maximal resonance protection). The two selections converge on the same answer from independent directions.
 
-All non-crystallographic groups except $C_5$ (and $C_{10} = C_2 \times C_5$) are eliminated by $\varphi$-incompatibility:
+All non-crystallographic groups except $C_5$ (and $C_{10} = C_2 \times C_5$) are eliminated by $\varphi$-incompatibility,
 
 $$
 C_7, \, C_8, \, C_9, \, C_{11}, \, C_{12}, \, C_{13}, \, \ldots \quad \longrightarrow \quad \text{eliminated (inflation factor} \neq \varphi\text{)}.
@@ -480,7 +488,7 @@ Larger extensions are ruled out. The factor $C_4$ in $C_4 \times C_5 = C_{20}$ i
 
 ### 4.4 Uniqueness and Overdetermination
 
-After all three stages, exactly one group remains:
+After all three stages, exactly one group remains,
 
 $$
 \boxed{C_{10} = C_2 \times C_5}
@@ -563,15 +571,15 @@ The effective dimension $\mathcal{D}$ appearing in the $\beta$-function is not a
 
 The Laplacian on $S^3$ has eigenvalues $\lambda_l = 4l(l+1)$ with multiplicity $(2l+1)^2$. The orbifold quotient by the binary icosahedral group $2I$ projects out all modes not invariant under the group action; the surviving multiplicities $m_l = (2l+1)n_l$ are computed via Burnside's lemma from the nine conjugacy classes of $2I$ (§3 of the [ADE domain wall analysis](/ade-domain-walls-and-branch-selection)). The surviving modes are precisely those whose spin index $l$ lies in the numerical semigroup $\langle 6, 10, 15 \rangle$; the 15 forbidden levels below the Coxeter number $h = 30$ constitute the gap set.
 
-The cumulative mode count $N(\lambda) = \sum_{\lambda_l < \lambda} m_l$ determines $\mathcal{D}$ through the Weyl law. On a smooth $d$-dimensional manifold, $N(\lambda) \sim \lambda^{d/2}$ (Minakshisundaram & Pleijel 1949). On $S^3/2I$, the semigroup gaps thin the spectrum below the Coxeter threshold $\lambda_h = 4 \cdot 30 \cdot 31 = 3720$, producing a reduced exponent in the gap-controlled regime:
+The cumulative mode count $N(\lambda) = \sum_{\lambda_l < \lambda} m_l$ determines $\mathcal{D}$ through the Weyl law. On a smooth $d$-dimensional manifold, $N(\lambda) \sim \lambda^{d/2}$ (Minakshisundaram & Pleijel 1949). On $S^3/2I$, the semigroup gaps thin the spectrum below the Coxeter threshold $\lambda_h = 4 \cdot 30 \cdot 31 = 3720$, producing a reduced exponent in the gap-controlled regime,
 
 $$
-N(\lambda) \sim \lambda^{\mathcal{D}/2}, \qquad \mathcal{D} \approx \varphi^2 \quad (l \leq h).
+N(\lambda) \sim \lambda^{\mathcal{D}/2}, \qquad \mathcal{D} = \varphi^2 \quad (l \leq h).
 $$
 
 Above the Coxeter threshold all modes survive and $\mathcal{D} \to 3$, recovering the full round $S^3$.
 
-The value $\varphi^2 = (3+\sqrt{5})/2 \approx 2.618$ is structurally forced by the golden ratio content of the binary icosahedral group. The character of the spin-$l$ representation of SU(2) at half-angle $\alpha$ is the Chebyshev polynomial $U_l(\cos\alpha)$. The conjugacy classes of $2I$ include elements at half-angles $\pi/5$ and $2\pi/5$—the golden ratio angles, since $\cos(\pi/5) = \varphi/2$. Evaluating the Chebyshev recurrence $U_{n+1}(x) = 2x U_n(x) - U_{n-1}(x)$ at $x = \varphi/2$ yields a periodic sequence with period 10:
+The value $\varphi^2 = (3+\sqrt{5})/2 \approx 2.618$ is the exact Chebyshev norm ratio at the two icosahedral half-angles—the same algebraic object that appears as $\lambda_\varphi$ in the composite invariant $I = 4\pi\varphi^2$ (§3.6). The multiplicity sum evaluated through character theory of $2I$ reads the ratio as a Weyl exponent; the ground-state curvature reads it as a factor. The character of the spin-$l$ representation of SU(2) at half-angle $\alpha$ is the Chebyshev polynomial $U_l(\cos\alpha)$. The conjugacy classes of $2I$ include elements at half-angles $\pi/5$ and $2\pi/5$—the golden ratio angles, since $\cos(\pi/5) = \varphi/2$. Evaluating the Chebyshev recurrence $U_{n+1}(x) = 2x U_n(x) - U_{n-1}(x)$ at $x = \varphi/2$ yields a periodic sequence with period 10,
 
 $$
 U_l(\varphi/2) \in \{0, \pm 1, \pm\varphi\}, \qquad U_{l+10} = U_l.
@@ -583,13 +591,21 @@ The same 10 appears in three roles: as the Chebyshev period that controls the sp
 
 The golden ratio enters the spectrum exclusively through the four icosahedral conjugacy classes (half-angles $\pi/5$, $2\pi/5$, $3\pi/5$, $4\pi/5$), which contribute amplitudes $\pm 12\varphi$ and $\pm 12/\varphi$ to the character sum. The remaining classes—identity, $-I$, cubic ($C_3$, $C_6$), and quaternionic ($C_4$)—contribute only integer-valued terms. These two amplitude families are the two eigenvalues of the Penrose substitution matrix $M = \bigl(\begin{smallmatrix}1 & 1 \\ 1 & 0\end{smallmatrix}\bigr)$: the dominant eigenvalue $\varphi$ carried by $U_l(\varphi/2)$, and the subdominant eigenvalue $1/\varphi$ carried by $U_l(1/(2\varphi))$. The substitution matrix that governs the Penrose tiling's self-similarity is the same object whose eigenvalues modulate the KK character sum.
 
-The running spectral dimension $\mathcal{D}_{\text{eff}}$, computed as the log-log slope of $N(\lambda)$ over the window $[6, l_{\max}]$, crosses $\varphi^2$ between $l_{\max} = 30$ and $l_{\max} = 31$—at the Coxeter number $h = 30$, the threshold where the semigroup $\langle 6, 10, 15 \rangle$ releases its last gap ($l = 29$, the Frobenius number) and the full spectrum becomes available. At $l_{\max} = 30$, $\mathcal{D}_{\text{eff}} = 2.613$, within 0.2% of $\varphi^2$. One mode later, $\mathcal{D}_{\text{eff}} = 2.629$, already above $\varphi^2$. The crossover is sharp: the semigroup holds $\mathcal{D}_{\text{eff}}$ below $\varphi^2$ throughout the gap-controlled regime, and the Coxeter number is where the E8 algebraic structure releases the spectrum past the golden ratio threshold.
+The running spectral dimension $\mathcal{D}_{\text{eff}}$, computed as the log-log slope of $N(\lambda)$ over the window $[6, l_{\max}]$, crosses $\varphi^2$ between $l_{\max} = 30$ and $l_{\max} = 31$—at the Coxeter number $h = 30$, the threshold where the semigroup $\langle 6, 10, 15 \rangle$ releases its last gap ($l = 29$, the Frobenius number) and the full spectrum becomes available. At $l_{\max} = 30$, $\mathcal{D}_{\text{eff}} = 2.613$, within 0.2% of $\varphi^2$. One mode later, $\mathcal{D}_{\text{eff}} = 2.629$, already above $\varphi^2$. The crossover is sharp: the semigroup holds $\mathcal{D}_{\text{eff}}$ below $\varphi^2$ throughout the gap-controlled regime, and the Coxeter number is where the $E_8$ algebraic structure releases the spectrum past the golden ratio threshold.
+
+The refined spectral quantity that equals $\varphi^2$ exactly is the Chebyshev norm ratio. Over one Chebyshev period (length 5 in even index), the squared-norm ratio at the two icosahedral half-angles evaluates to
+
+$$
+\frac{\|U_{2\bullet}(\varphi/2)\|^2_5}{\|U_{2\bullet}(1/(2\varphi))\|^2_5} = \frac{1^2 + \varphi^2 + 0^2 + \varphi^2 + 1^2}{1^2 + (1/\varphi)^2 + 0^2 + (1/\varphi)^2 + 1^2} = \frac{2 + 2\varphi^2}{2 + 2/\varphi^2} = \varphi^2,
+$$
+
+where the integer terms $0^2$ and $1^2$ cancel in the ratio and the proof reduces to $(1 + \varphi^2)/(1 + 1/\varphi^2) = \varphi^2$ by multiplying numerator and denominator by $\varphi^2$. The ratio measures the relative spectral power of the dominant and subdominant Penrose eigenvalues in the character sum, the same eigenvalues whose amplitudes carve the gap structure that the regression estimates through the Weyl law. The $0.2\%$ discrepancy between $\mathcal{D}_{\text{eff}}(30)$ and $\varphi^2$ is a finite-sample artifact of fitting a power law to 15 discrete points, not a structural gap. The regression was measuring the Chebyshev norm ratio all along.
 
 The spectral dimension at the Coxeter threshold and its asymptotic value are spectral invariants of the substitution matrix. The dominant eigenvalue squared gives $\varphi^2$; the trace of $M^2$ gives $\operatorname{Tr}(M^2) = \varphi^2 + 1/\varphi^2 = 3$. The two values are equally spaced: $3 - \varphi^2 = \varphi^2 - \sqrt{5} = 1/\varphi^2$, where $\sqrt{5} = \varphi + 1/\varphi$ is the sum of absolute eigenvalues. The geometry that the 6D lattice projection produces—the Penrose tiling, governed by $M$—encodes its own spectral invariants as the effective dimension of the KK spectrum on the orbifold it generates.
 
 The constant $\varphi^2$ has independent standing as a phase transition threshold in combinatorics on words. The Mignosi–Restivo–Salemi periodicity theorem[^mrs] establishes $\varphi^2$ as the exact critical exponent separating local from global periodicity. The Fibonacci word—the canonical aperiodic sequence governed by the substitution $a \to ab$, $b \to a$—has critical exponent exactly $\varphi^2$, achieved as a supremum but not attained, and is not ultimately periodic. Any word whose critical exponent strictly exceeds $\varphi^2$ is ultimately periodic. The constant $\varphi^2$ is therefore the sharp boundary: at and below $\varphi^2$, aperiodic structure can persist; above it, global periodicity is forced. The semigroup gap structure below $h$ is a binary word—a sequence of allowed and forbidden positions—whose local periodicity properties (the stepping density pattern increasing through $1/6, 2/6, 3/6, 4/6, 5/6$ across successive ranges) become sufficient to guarantee global completeness at the Coxeter threshold. The spectral dimension crossing $\varphi^2$ at $h = 30$ instantiates this transition: below $\varphi^2$, the spectrum has local order but not global Weyl coherence; at and above $\varphi^2$, global completeness is established and $\mathcal{D}_{\text{eff}} \to 3$.
 
-The connection to the $\beta$-function is through the Schwinger proper-time representation of the one-loop effective action (Schwinger 1951, Vassilevich 2003):
+The connection to the $\beta$-function is through the Schwinger proper-time representation of the one-loop effective action (Schwinger 1951, Vassilevich 2003),
 
 $$
 \Gamma_1 = -\tfrac{1}{2} \int_0^\infty \frac{dt}{t} \, K_{\text{int}}(t) \, K_{4d}(t) \, e^{-m^2 t},
@@ -615,7 +631,7 @@ $$
 u^* = \frac{I}{10} = \frac{4\pi\varphi^2}{10} \approx 3.29.
 $$
 
-This is the curvature cost per RG shell. The $\pi$-sector contributes $\kappa_\pi = 4\pi$ (Gauss–Bonnet on $S^2$: the total Gaussian curvature of the angular manifold, setting the angular mode count). The $\varphi$-sector contributes $\lambda_\varphi = \varphi^2$ (the recursion eigenvalue from $x^2 = x + 1$: the mode-counting factor per inflation step at $\mathcal{D} = 2$). These multiply because the configuration space is locally a product of the angular manifold $\mathcal{M}_\pi$ and the log-radial direction $\mathbb{R}_\varphi$; spectral content on product spaces factorizes via the heat-kernel product identity $\operatorname{Tr}_{M_1 \times M_2} e^{-t\Delta} = \operatorname{Tr}_{M_1} e^{-t\Delta_1} \cdot \operatorname{Tr}_{M_2} e^{-t\Delta_2}$, so the total mode count in a shell is $\kappa_\pi \cdot \lambda_\varphi = 4\pi\varphi^2$. The $N$-sector divides by 10 through the decade partition. The coupling $u^*$ is exact to all orders: any correction to the curvature per shell would require violating at least one of the three defining constraints—a scale-dependent correction would break self-similarity, a shell-dependent correction would break decade symmetry, and a correction to the total curvature per period would contradict the eigenvalue theorem. Since all three are exact symmetries of the ground state, $u^* = I/10$ is protected against perturbative corrections at every order.
+This is the curvature cost per RG shell. The $\pi$-sector contributes $\kappa_\pi = 4\pi$ (Gauss–Bonnet on $S^2$: the total Gaussian curvature of the angular manifold, setting the angular mode count). The $\varphi$-sector contributes $\lambda_\varphi = \varphi^2$—equivalently the recursion eigenvalue from $x^2 = x + 1$, the Weyl exponent of the KK spectrum at the Coxeter threshold, and the exact Chebyshev norm ratio at the two icosahedral half-angles (§3.6, §5.2). These multiply because the configuration space is locally a product of the angular manifold $\mathcal{M}_\pi$ and the log-radial direction $\mathbb{R}_\varphi$; spectral content on product spaces factorizes via the heat-kernel product identity $\operatorname{Tr}_{M_1 \times M_2} e^{-t\Delta} = \operatorname{Tr}_{M_1} e^{-t\Delta_1} \cdot \operatorname{Tr}_{M_2} e^{-t\Delta_2}$, so the total mode count in a shell is $\kappa_\pi \cdot \lambda_\varphi = 4\pi\varphi^2$. The $N$-sector divides by 10 through the decade partition. The coupling $u^*$ is exact to all orders: any correction to the curvature per shell would require violating at least one of the three defining constraints—a scale-dependent correction would break self-similarity, a shell-dependent correction would break decade symmetry, and a correction to the total curvature per period would contradict the eigenvalue theorem. Since all three are exact symmetries of the ground state, $u^* = I/10$ is protected against perturbative corrections at every order.
 
 ### 5.4 The Dimensional Correction $(\mathcal{D}-2)\ln\varphi/2$
 
@@ -661,9 +677,9 @@ $$
 |------|--------|---------|
 | $\xi(1-\xi)$ | Bounded competition at fixed points | §5.1 |
 | $4\pi$ | Gauss–Bonnet invariant of $S^2$ ($\pi$-sector) | §3.6 |
-| $\varphi^2$ | Recursive eigenvalue ($\varphi$-sector) | §3.6 |
+| $\varphi^2$ | Chebyshev norm ratio at icosahedral half-angles ($\varphi$-sector) | §3.6, §5.2 |
 | $/10$ | Decade partition ($N$-sector, $C_{10}$) | §4 |
-| $\mathcal{D} \approx \varphi^2$ | Chebyshev periodicity at golden ratio angles in $2I$ character sum | §5.2 |
+| $\mathcal{D} = \varphi^2$ | Exact Chebyshev norm ratio; Weyl exponent at Coxeter threshold | §5.2 |
 | $(\mathcal{D}-2)\ln\varphi/2$ | Recursive degeneracy; at $\mathcal{D} = \varphi^2$, equals $\ln\varphi/(2\varphi)$ | §5.4 |
 | $g_n = 0$ for $n > 2$ | PF eigenvalue of substitution matrix + $\ln\varphi$-periodicity | §5.8 |
 
@@ -721,37 +737,37 @@ Under one inflation step, the total tile count in a self-similar cell grows by f
 
 The shift $\ell \to \ell + \ln\varphi$ alone cannot produce non-trivial scaling—it is a change of integration variable that leaves every integral functional invariant. The $\varphi$ prefactor is essential and has a unique source: the dominant eigenvalue of the substitution matrix determined by the tiling that §4 selects.
 
-**The scaling identity.** At the self-similar ground state, the constraint functional satisfies the exact identity on the perturbative part $\Delta F = F - F[P_0]$:
+**The scaling identity.** At the self-similar ground state, the constraint functional satisfies the exact identity on the perturbative part $\Delta F = F - F[P_0]$,
 
 $$
 \Delta F[P_0 + T_\varphi \delta P] = \varphi^2 \, \Delta F[P_0 + \delta P],
 $$
 
-where the scaling exponent $\varphi^2$ is the square of the PF eigenvalue, arising because the action is quadratic in the field at leading order and the amplitude prefactor enters squared. Expand $\Delta F$ around $P_0$ in powers of $\delta P$:
+where the scaling exponent $\varphi^2$ is the square of the PF eigenvalue, arising because the action is quadratic in the field at leading order and the amplitude prefactor enters squared. Expand $\Delta F$ around $P_0$ in powers of $\delta P$,
 
 $$
 \Delta F[P_0 + \delta P] = \sum_{n \geq 1} \frac{1}{n!} \, g_n[\delta P^{\,n}],
 $$
 
-where $g_n$ denotes the $n$-linear vertex functional (the $n$-th functional derivative of $F$ evaluated at the ground state). Applying $T_\varphi$ to each order:
+where $g_n$ denotes the $n$-linear vertex functional (the $n$-th functional derivative of $F$ evaluated at the ground state). Applying $T_\varphi$ to each order gives
 
 $$
 g_n[\underbrace{T_\varphi \delta P, \ldots, T_\varphi \delta P}_{n}] = g_n[\underbrace{\varphi \cdot \delta P(\cdot, \cdot + \ln\varphi), \ldots}_{n}] = \varphi^n \cdot g_n[\underbrace{\delta P(\cdot, \cdot + \ln\varphi), \ldots}_{n}].
 $$
 
-The vertex functionals $g_n$ are the $n$-th functional derivatives of $F$ evaluated at $P_0$. Since $P_0$ is $\ln\varphi$-periodic in $\ell$, these derivatives inherit the same periodicity: $g_n$ evaluated on shifted arguments equals $g_n$ evaluated on unshifted arguments. This is the $\ln\varphi$-periodicity step—the shift drops out, and only the amplitude scaling remains:
+The vertex functionals $g_n$ are the $n$-th functional derivatives of $F$ evaluated at $P_0$. Since $P_0$ is $\ln\varphi$-periodic in $\ell$, these derivatives inherit the same periodicity: $g_n$ evaluated on shifted arguments equals $g_n$ evaluated on unshifted arguments. This is the $\ln\varphi$-periodicity step—the shift drops out, and only the amplitude scaling remains,
 
 $$
 g_n[T_\varphi \delta P, \ldots, T_\varphi \delta P] = \varphi^n \, g_n[\delta P, \ldots, \delta P].
 $$
 
-Substituting into the scaling identity $\Delta F[P_0 + T_\varphi \delta P] = \varphi^2 \Delta F[P_0 + \delta P]$ and matching coefficients order by order:
+Substituting into the scaling identity $\Delta F[P_0 + T_\varphi \delta P] = \varphi^2 \Delta F[P_0 + \delta P]$ and matching coefficients order by order gives
 
 $$
 \varphi^n \, g_n = \varphi^2 \, g_n \quad \Rightarrow \quad g_n(\varphi^n - \varphi^2) = 0.
 $$
 
-At $n = 1$: $g_1(\varphi - \varphi^2) = 0$, which is independently satisfied because $g_1 = 0$ at the stationary point $P_0$ (the Euler–Lagrange equation of §2.5). At $n = 2$: $g_2(\varphi^2 - \varphi^2) = 0$, which is $0 = 0$—the quadratic vertex survives unconditionally. For $n \geq 3$: since $\varphi$ is irrational, $\varphi^n \neq \varphi^2$ for all $n \neq 2$ (no positive integer power of $\varphi$ equals $\varphi^2$ except the second, because the minimal polynomial $x^2 - x - 1$ is irreducible over $\mathbb{Q}$). Therefore:
+At $n = 1$: $g_1(\varphi - \varphi^2) = 0$, which is independently satisfied because $g_1 = 0$ at the stationary point $P_0$ (the Euler–Lagrange equation of §2.5). At $n = 2$: $g_2(\varphi^2 - \varphi^2) = 0$, which is $0 = 0$—the quadratic vertex survives unconditionally. For $n \geq 3$: since $\varphi$ is irrational, $\varphi^n \neq \varphi^2$ for all $n \neq 2$ (no positive integer power of $\varphi$ equals $\varphi^2$ except the second, because the minimal polynomial $x^2 - x - 1$ is irreducible over $\mathbb{Q}$). The selection rule follows,
 
 $$
 g_n = 0 \quad \text{for } n > 2.
@@ -759,7 +775,7 @@ $$
 
 The fluctuation theory about the self-similar ground state is exactly Gaussian.
 
-**Numerical verification.** The scaling identity and vertex selection rule have been tested on a $360 \times 200$ grid over $(\theta, \ell) \in [0, 2\pi) \times [0, 5\ln\varphi)$, with a ground state carrying $C_{10}$ angular modulation and $\ln\varphi$-periodic radial profile. For perturbations with log-radial structure (the physically relevant modes that couple to the RG flow), the ratio $\Delta F[P_0 + \varepsilon T_\varphi \delta P] / \Delta F[P_0 + \varepsilon \delta P]$ equals $\varphi^2 = 2.618$ to $|{\rm ratio} - \varphi^2| < 10^{-5}$ across $\varepsilon \in [10^{-4}, 10^{-1.5}]$. The sectors verify independently: $K_\pi$ and $K_\varphi$ each reproduce the $\varphi^2$ scaling to the same precision. The cubic vertex coefficient, extracted from the $\varepsilon$-dependence of the ratio (which would be $\varphi^2 + O(\varepsilon \cdot g_3/g_2)$ if $g_3 \neq 0$), gives $g_3/g_2 \lesssim 0.02$—consistent with zero. The vertex selection rule $g_n = 0$ for $n > 2$ is confirmed numerically.
+**Numerical verification.** The scaling identity and vertex selection rule have been tested on a $360 \times 200$ grid over $(\theta, \ell) \in [0, 2\pi) \times [0, 5\ln\varphi)$, with a ground state carrying $C_{10}$ angular modulation and $\ln\varphi$-periodic radial profile. For perturbations with log-radial structure (the physically relevant modes that couple to the RG flow), the ratio $\Delta F[P_0 + \varepsilon T_\varphi \delta P] / \Delta F[P_0 + \varepsilon \delta P]$ equals $\varphi^2 = 2.618$ to $|{\rm ratio} - \varphi^2| < 10^{-5}$ across $\varepsilon \in [10^{-4}, 10^{-1.5}]$. The sectors verify independently—$K_\pi$ and $K_\varphi$ each reproduce the $\varphi^2$ scaling to the same precision. The cubic vertex coefficient, extracted from the $\varepsilon$-dependence of the ratio (which would be $\varphi^2 + O(\varepsilon \cdot g_3/g_2)$ if $g_3 \neq 0$), gives $g_3/g_2 \lesssim 0.02$—consistent with zero. The vertex selection rule $g_n = 0$ for $n > 2$ is confirmed numerically.
 
 **Spectral consistency.** The vertex selection rule proves one-loop exactness algebraically: the Perron–Frobenius eigenvalue $\varphi$ of the substitution matrix $M$ eliminates all non-Gaussian vertices via irrationality. The KK spectral chain (§5.2) arrives at the same $\varphi^2$ through an independent mechanism: the Chebyshev values $U_l(\varphi/2) \in \{0, \pm 1, \pm\varphi\}$ in the character sum set $\mathcal{D} \approx \varphi^2$ at the Coxeter threshold—a group-theoretically determined value. The eigenvalues $\varphi$ and $1/\varphi$ of $M$ enter both the tiling inflation (where they govern the substitution) and the KK character sum (where they modulate the icosahedral class contributions), producing correlated constraints through a shared algebraic origin in pentagonal geometry. The scaling identity $\Delta F[P_0 + T_\varphi \delta P] = \varphi^2 \, \Delta F[P_0 + \delta P]$ says the constraint functional scales by $\varphi^2$ under recursion; the Weyl exponent says the KK mode count scales as $\lambda^{\varphi^2/2}$. Any hypothetical higher-loop correction would need to be consistent with both the algebraic vertex selection (which eliminates it) and the spectral structure (which fixes $\mathcal{D} = \varphi^2$ from the exact character sum). The golden ratio's defining property—worst approximability among all irrationals (Hurwitz 1891)—is what makes both protections maximally effective: the vertex truncation is algebraically complete ($\varphi^n \neq \varphi^2$ for all $n \neq 2$), and the spectral thinning is maximally separated from rational dimension values.
 
@@ -773,7 +789,7 @@ The $\pi$-sector manifests in reciprocal space, where the Bragg peaks lie on cir
 
 The experiment demonstrates near-perfect delocalization and phase synchronization of the polariton fluid over more than 100 times the healing length at a particular pump window, well beyond single-site scales. This mesoscopic coherence emerges when the geometry aligns with the constraint manifold.
 
-## 7. Discussion and Conclusion
+## 7. Conclusion
 
 The constraint geometry rests on a chain of proven results. The triadic tension theorem (Section 3) establishes that three curvature sectors—angular, recursive, and discrete—cannot be simultaneously minimized (T1), are anticorrelated (T2), are genuinely independent (T3), and produce nonzero ground-state curvature (T4). The per-shell curvature $u^* = I/10$ becomes the coupling constant of the dissipation flow. The negative selection argument (Section 4) forces the discrete sector to carry $C_{10} = C_2 \times C_5$ symmetry—the unique cyclic group surviving the crystallographic restriction, $\varphi$-compatibility, and binary closure. The dissipation $\beta$-function (Section 5) follows from standard Wilsonian renormalization. The effective dimension $\mathcal{D}$ entering the $\beta$-function is derived from the Weyl exponent of the KK spectrum via the Schwinger proper-time integral (§5.2). The golden ratio content of the binary icosahedral group—Chebyshev polynomials $U_l(\varphi/2)$ taking values in $\{0, \pm 1, \pm\varphi\}$ with period 10—enters the character sum that determines which modes survive, producing $\mathcal{D} \approx \varphi^2$ in the gap-controlled regime, with the running spectral dimension crossing $\varphi^2$ at the Coxeter number $h = 30$. Above the threshold, $\mathcal{D} \to 3 = \operatorname{Tr}(M^2)$, recovering the trace of the squared substitution matrix. The vertex selection rule enforced by the recursion symmetry operator $T_\varphi(\delta P) = \varphi \cdot \delta P(\theta, \ell + \ln\varphi)$ makes the one-loop result exact.
 

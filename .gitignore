@@ -31,3 +31,4 @@ retired_posts/
 # Claude
 Claude.md
 .claude/
+logs/

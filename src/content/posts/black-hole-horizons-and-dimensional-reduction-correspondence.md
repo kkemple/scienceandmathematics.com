@@ -3,10 +3,10 @@ title: 'Black Hole Horizons & Dimensional Reduction Correspondence'
 description: "Five independent frameworks—geometry, thermodynamics, topology, information theory, entropic gravity—converge on the same horizon structure: 3D-to-2D dimensional reduction, dual chiral sectors, and S³ topology."
 pubDate: '2025-08-22'
 category: 'supporting'
-updatedDate: "2026-03-26"
-zenodoDepositionId: 19241809
-zenodoUrl: "https://zenodo.org/records/19241809"
-doi: "10.5281/zenodo.19241809"
+updatedDate: "2026-04-19"
+zenodoDepositionId: 19652104
+zenodoUrl: "https://zenodo.org/records/19652104"
+doi: "10.5281/zenodo.19652104"
 keywords:
   - "black hole thermodynamics"
   - "dimensional reduction"
@@ -18,12 +18,14 @@ keywords:
   - "information theory"
   - "entropic gravity"
   - "quasi-normal modes"
+  - "gravitational UV catastrophe"
+  - "finite information capacity"
 zenodoDescription: |
-  Five independent mathematical frameworks—differential geometry, thermodynamics, topology, information theory, and entropic gravity—converge on identical structure at black hole horizons.
+  Five independent mathematical frameworks—differential geometry, thermodynamics, topology, information theory, and entropic gravity—converge on identical structure at black hole horizons. The convergence is explained by a single principle: the gravitational ultraviolet catastrophe, structurally parallel to Planck's 1900 electromagnetic catastrophe.
 
-  The geometric path follows Schwarzschild metric singularities where radial information flow vanishes as r → r_s while tangential flow persists. The thermodynamic path derives Landauer processing capacity N_max = 2N_BH, a factor of two consistent with dual chiral sectors on 2D surfaces. The topological path identifies finite lattice site counts despite infinite proper distance, with radial compactification into S¹ yielding Hopf fibration S³ topology. The information processing path shows that 3D communication overhead becomes prohibitive at Planck densities, favoring 2D surface architecture. The entropic gravity path (following Bianconi) shows radial form components vanishing to maintain finite action.
+  The geometric path follows Schwarzschild metric singularities where radial information flow vanishes as r → r_s while tangential flow persists. The thermodynamic path derives Landauer processing capacity N_max = 2N_BH, a factor of two consistent with dual chiral sectors on 2D surfaces. The topological path identifies finite lattice site counts despite infinite proper distance, with radial compactification into S¹ yielding Hopf fibration S³ topology. The information processing path shows that 3D communication overhead scales as N^(4/3) and becomes prohibitive at Planck densities, favoring 2D surface architecture. The entropic gravity path (following Bianconi) shows radial form components vanishing to maintain finite action. Each framework reads one face of a single structural reorganization.
 
-  Each framework independently produces: dimensional reduction from 3D to 2D, dual chiral sectors with equal central charges, S³ topology from radial compactification, and quantized winding numbers n = 0, 1, ..., n_max ≈ 14 for stellar-mass black holes.
+  Both UV catastrophes resolve "infinite information request from finite substrate." The electromagnetic case is resolved by spectral quantization (h·ν cutoff). The gravitational case is resolved by dimensional cutoff (3D → 2D). Each framework independently produces: dimensional reduction from 3D to 2D, dual chiral sectors with equal central charges, S³ topology from radial compactification, and quantized winding numbers n = 0, 1, ..., n_max ≈ 14 for stellar-mass black holes. In the constraint-geometry framework, the mechanism is the geometric slack mapping l_max = ⌊h(1/ξ − 1)⌋: when the maintenance fraction ξ exceeds 0.5, the system requests internal KK modes below the Coxeter threshold, into the 15 forbidden levels of the ⟨6,10,15⟩ gap set, forcing topological phase transition. The Bekenstein-Hawking area law is the geometric circuit breaker.
 
   Observable predictions include quasi-normal mode phase correlations constrained by holographic bounds, spectral features at characteristic phase intervals Δψ = 2π/n_max, and potential waveform phase jumps in LISA extreme mass ratio inspiral observations. The dual-sector structure bears on the information paradox by providing processing capacity (2N_BH operations) exceeding storage (N_BH bits), sufficient for complete information throughput during evaporation.
 ---
@@ -32,7 +34,7 @@ Five independent mathematical frameworks—differential geometry, thermodynamics
 
 Recent gravitational wave observations reinforce the picture. LIGO-Virgo's detection of GW250114 confirmed the second law of black hole thermodynamics to 4.4$\sigma$ confidence—final horizon area exceeded the sum of initial areas by measurable margin[^1], validating decades of theoretical work on event horizon structure[^2][^3].
 
-## The Geometric Path
+## 1. The geometric path
 
 The Schwarzschild metric describes spacetime curvature around a non-rotating black hole of mass $M$ with Schwarzschild radius $r_s = 2GM/c^2$[^4]. Near the horizon, the metric components reveal strong anisotropy between radial and tangential directions.
 
@@ -56,7 +58,7 @@ This metric-induced anisotropy forces dimensional reduction. Three-dimensional p
 
 Recent observations align with this geometric picture. The tidal disruption event AT2020afhd exhibits synchronized, long-lived X-ray and radio oscillations with a period of approximately 20 days, consistent with Lense–Thirring precession driven by black hole spin[^5]. The spin inference emerges entirely from coherent boundary dynamics—angular momentum encoded in the geometry of spacetime dragging. Such coherence persisting over many dynamical times suggests radial degrees of freedom have become effectively inaccessible, consistent with the dimensional reduction derived above.
 
-## The Thermodynamic Path
+## 2. The thermodynamic path
 
 Black hole thermodynamics reveals a precise numerical relationship between information processing capacity and entropy storage that demands dimensional structure.
 
@@ -92,7 +94,7 @@ $$
 
 The thermodynamic constraint forces dual-sector architecture, which demands dimensional reduction to a surface supporting chiral modes.
 
-### Kerr Black Holes and Chiral Asymmetry
+### 2.1 Kerr black holes and chiral asymmetry
 
 The Schwarzschild result $N_{max} = 2N_{BH}$ relies on the Smarr formula $Mc^2 = 2T_H S_{BH}$, where the entire rest energy participates in a single thermal term with no work contributions[^9]. For a Kerr black hole with angular momentum $J$ and horizon angular velocity $\Omega_H$, the Smarr formula acquires a rotational work term,
 
@@ -114,7 +116,7 @@ where $a = J/M$ is the spin parameter. The left-moving capacity $2N_L$ is indepe
 
 The limiting cases confirm the structure. In the Schwarzschild limit ($a \to 0$), both sectors contribute equally with $N_L = N_R = N_{BH}/2$ and the boost factor approaches unity, recovering $N_{max} = 2N_{BH}$. In the extremal limit ($a \to M$), the right-moving temperature vanishes and the Landauer cost per right-moving bit drops to zero, sending $N_{max}^{(R)} \to \infty$ while the left-moving budget remains finite. The divergence of processing capacity at extremality is confined entirely to the right-moving sector—the sector that carries the rotational information.
 
-## The Topological Path
+## 3. The topological path
 
 The compactification mechanism operates through lattice site density near the horizon. Consider a thin spherical shell at radius $r$ with thickness $dr$. The number of lattice sites in this shell is,
 
@@ -146,7 +148,7 @@ Quantum cutoff at Planck length $l_P$ yields maximum winding number $n_{max} = \
 
 The topology demands dimensional reduction. The $S^3$ structure encodes 3D information on a 2D surface through winding phase relationships.
 
-## The Information Processing Path
+## 4. The information processing path
 
 Processing rate constraints reveal dimensional structure through computational capacity bounds. Black holes saturate the Planck frequency limit $f_P = \sqrt{c^5/(\hbar G)} = 1.855 \times 10^{43}$ Hz[^13], representing the fastest possible information processing.
 
@@ -162,7 +164,7 @@ This efficiency requires specific architecture. Three-dimensional processing at 
 
 Dimensional reduction to 2D eliminates this bottleneck. Surface processing with left/right chiral sectors provides the dual-channel architecture matching the factor-of-two thermodynamic requirement. The information processing constraint independently demands the same dimensional structure derived geometrically and topologically.
 
-## The Entropic Gravity Path
+## 5. The entropic gravity path
 
 Bianconi's framework interprets the spacetime metric as a quantum density matrix encoding information about matter fields[^14]. The metric $g_{\mu\nu}$ becomes an effective description of how information propagates through regions with varying matter content.
 
@@ -190,7 +192,7 @@ At the event horizon, the radial metric component becomes singular: $G_{rr} \to 
 
 The entropic formalism shows dimensional reduction as informational necessity. Maintaining three-dimensional quantum relative entropy near the horizon requires infinite action. Nature resolves this by collapsing the radial form structure, leaving only 2D tangential degrees of freedom that support finite entropy production. The dimensional reduction emerges from demanding finite, well-defined entropic action at all spacetime points.
 
-## Convergence
+## 6. Convergence
 
 Five independent frameworks—differential geometry, thermodynamics, topology, information theory, and entropic gravity—each built from different axioms and following different mathematical machinery, converge on identical structure at black hole horizons[^15][^16]. The geometric path calculates metric singularities forcing radial compactification. The thermodynamic path requires $N_{max} = 2N_{BH}$, forcing dual sectors. The topological path identifies Hopf fibration structure from radial compactification. The information processing path demands 2D architecture to eliminate communication overhead. The entropic gravity path shows radial form structure collapsing to maintain finite action. All five arrive at the same conclusion: horizons are 2D surfaces with $S^1$ radial compactification, supporting dual chiral sectors with quantized winding numbers.
 
@@ -198,7 +200,31 @@ The resulting structure is a 2D conformal surface (Virasoro algebra)[^17] with d
 
 When independent frameworks converge on identical mathematical structure through entirely different machinery, the convergence itself carries evidential weight. The horizon marks a dimensional phase transition where spacetime reorganizes to maintain finite information processing capacity.
 
-## Observable Consequences
+## 7. The gravitational ultraviolet catastrophe
+
+The five paths describe the same reorganization from five vantage points. A single principle forces the reorganization, and it is structurally parallel to Planck's 1900 ultraviolet catastrophe: a physical system requesting infinite information from a finite substrate, resolved by the minimum structural change that renders the demand finite.
+
+Classical electrodynamics in thermal equilibrium assigned energy $k_B T$ to each mode, with cavity mode density scaling as $N(\nu) \sim \nu^3$. Each mode costs $k_B T \ln 2$ to specify (Landauer), so the catastrophe was an information overflow before it was an energy divergence. Planck's quantum $h\nu$ resolved it through spectral truncation: high-frequency modes were frozen out without altering the geometry. The cutoff was one-dimensional—in frequency space.
+
+Gravity faces the analogous catastrophe in a different variable. Three-dimensional information processing at Planck-scale density requires communication channels scaling as $N^{(d+1)/d} = N^{4/3}$. For a 10 $M_\odot$ black hole with $N_{BH} \sim 10^{79}$ bits, the coordination overhead reaches $\sim 10^{105}$—vastly exceeding the holographic area budget. The Bekenstein–Hawking entropy scales as area ($M^2$), but 3D coordination scales as volume ($M^3$). As compactness increases, 3D processing becomes impossible. The resolution is geometric: the radial dimension freezes, coordination overhead drops from $N^{4/3}$ to $N$, and storage and processing become finite and proportional.
+
+| Feature | EM UV catastrophe | Gravitational UV catastrophe |
+|:---|:---|:---|
+| Divergent quantity | Mode density $\sim \nu^3$ | Coordination overhead $\sim N^{4/3}$ |
+| Divergence variable | Frequency $\nu \to \infty$ | Compactness $r/r_s \to 1$ |
+| What is exceeded | Finite energy budget | Finite holographic budget |
+| Resolution | Quantization ($h\nu$ cutoff) | Dimensional reduction (3D $\to$ 2D) |
+| Cutoff character | Spectral (in frequency space) | Geometric (in real space) |
+| What is preserved | Spatial dimensionality | Information capacity |
+| Key constant | $\hbar$ | $\ell_P^2 = \hbar G/c^3$ |
+
+The five paths are five readings of this single principle. The geometric path reads the cutoff through metric singularities. The thermodynamic path reads it through the Landauer–Bekenstein constraint $N_{\max} = 2 N_{BH}$—storage and processing made proportional. The topological path reads it through radial $S^1$ compactification. The information-processing path reads it through the elimination of the $N^{4/3}$ bottleneck. The entropic-gravity path reads it through the vanishing of radial form components. Each framework sees one face of the same structural reorganization.
+
+The mechanism is transparent in the [constraint-geometry framework](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The maintenance fraction $\xi = R_S/R$ measures macroscopic compactness, and it couples to the internal Kaluza–Klein spectrum on $S^3/\mathrm{2I}$ through the geometric slack mapping $l_{\max} = \lfloor h(1/\xi - 1)\rfloor = \lfloor 30(1/\xi - 1)\rfloor$. At $\xi = 0.5$, $l_{\max} = 30$—the Coxeter boundary. PSR J0740+6620 at $\xi = 0.493$ sits there exactly, as the [full chain post](/from-lattice-projection-to-cosmic-expansion) documents. When $\xi > 0.5$, the system requests $l_{\max} < 30$—but the semigroup $\langle 6, 10, 15 \rangle$ has 15 forbidden levels below the Coxeter number. The internal geometry cannot fulfill the request. Storage overflows from the saturated isotropic sector into the discrete sector; the discrete sector runs out of admissible spin levels; the substrate executes a topological phase transition. The radial dimension collapses, $\mathcal{D}$ drops from 3 to 2, and the Bekenstein–Hawking area law $S_{BH} = A/(4\ell_P^2)$ is the geometric circuit breaker that protects the information budget.
+
+Gravitational collapse, in this reading, is not a mechanical yield of degeneracy pressure. It is the minimum geometric reorganization that keeps the information request finite. The five paths converge because they each detect one face of a single structural cutoff—the gravitational analog of what Planck's quantum did for the electromagnetic spectrum.
+
+## 8. Observable consequences
 
 The dimensional reduction framework makes testable predictions distinguishable from standard Kerr black hole models. GW250114 ringdown analysis measured two quasi-normal modes: $(l=2, m=2, n=0)$ and $(l=2, m=2, n=1)$[^1]. The frequency deviation $\delta f_{221} = 0.1 \pm 0.3$ confirms Kerr structure within 30% precision.
 
@@ -214,15 +240,19 @@ For primordial black holes[^18] with $M < 10^{15}$ g, Hawking temperature exceed
 
 LISA observations[^19] of extreme mass ratio inspirals will probe near-horizon structure through gravitational self-force effects. Winding transitions could appear as phase jumps in the waveform with characteristic frequency shifts $\Delta f/f \sim 1/n_{max} \sim 0.07$ for solar-mass objects.
 
-## Implications
+## 9. Implications
 
 The dual-sector structure with $N_{max} = 2N_{BH}$ bears directly on the information paradox[^20]. The horizon stores $N_{BH}$ bits but can process $2N_{BH}$ operations, providing sufficient capacity for complete information throughput during evaporation. The factor of 2 emerges from the topological structure of 2D surfaces supporting independent chiral sectors and is exact.
 
-Within the [constraint geometry framework](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry), dimensional reduction at horizons represents the endpoint of the coupled $(\xi, \mathcal{D})$ flow derived in §5 of that post. As the maintenance fraction $\xi$ approaches 1, the dimensional flow equation $d\mathcal{D}/d\mu = -(\xi/u^*)\ln\varphi$ drives effective dimension toward 2. Black holes are the unique physical systems that simultaneously saturate all three curvature sectors—the $\varphi$-sector as radial information flow freezes, the $\pi$-sector as angular degrees of freedom pack at maximal isotropic density, and the $N$-sector as discrete information storage reaches the Bekenstein-Hawking bound. The five-path convergence documented here provides independent mathematical confirmation that the $\mathcal{D} \to 2$ fixed point reflects genuine geometric reorganization at horizons.
+Within the constraint geometry framework, dimensional reduction at horizons represents the endpoint of the coupled $(\xi, \mathcal{D})$ flow derived in §5 of that post. As the maintenance fraction $\xi$ approaches 1, the dimensional flow equation $d\mathcal{D}/d\mu = -(\xi/u^*)\ln\varphi$ drives effective dimension toward 2. Black holes are the unique physical systems that simultaneously saturate all three curvature sectors—the $\varphi$-sector as radial information flow freezes, the $\pi$-sector as angular degrees of freedom pack at maximal isotropic density, and the $N$-sector as discrete information storage reaches the Bekenstein-Hawking bound. The five-path convergence documented here provides independent mathematical confirmation that the $\mathcal{D} \to 2$ fixed point reflects genuine geometric reorganization at horizons.
 
-## Limitations and Falsifiability
+## 10. Limitations and falsifiability
 
 The five-path convergence is the paper's central claim, and each path represents a potential failure mode. If a consistent 3D interior description of horizon physics can be maintained with finite action—contradicting the entropic gravity path—then the dimensional reduction may be an artifact of coordinate choice rather than physical reorganization. If the factor-of-two relationship $N_{max} = 2N_{BH}$ receives corrections from quantum gravity effects (loop quantum gravity, string theory microstate counting), the dual chiral sector interpretation loses its exactness. If LISA observations of extreme mass ratio inspirals show no evidence of winding structure (no phase jumps at $\Delta f/f \sim 1/n_{max}$), the topological sector predictions would be empirically excluded. The convergence argument is strongest when all five paths remain independently valid—breaking any one weakens the case but does not eliminate the others, while confirming the predicted observable signatures would substantially strengthen it.
+
+## 11. Conclusion
+
+Five independent mathematical frameworks—differential geometry, thermodynamics, topology, information theory, and entropic gravity—produce the same horizon structure from entirely different axioms. The convergence is not coincidence. Each path detects one face of a single structural cutoff: the gravitational analog of Planck's 1900 ultraviolet catastrophe. Classical three-dimensional processing at Planck-scale density requests infinite coordination from a finite substrate; the minimum geometric reorganization that keeps the demand finite is radial compactification, $S^1$ over the horizon $S^2$, with storage and processing made proportional through the Landauer–Bekenstein relation $N_{\max} = 2 N_{BH}$. In the constraint-geometry reading, the mechanism is the geometric slack mapping $l_{\max} = \lfloor h(1/\xi - 1)\rfloor$ against the $\langle 6, 10, 15 \rangle$ gap set: when $\xi$ crosses $1/2$, the internal Kaluza–Klein spectrum runs out of admissible levels below the Coxeter number, and the Bekenstein–Hawking area law engages as the geometric circuit breaker. Gravitational collapse, on this reading, is the minimum structural change that preserves the information budget.
 
 [^1]: Isi, M., Farr, W. M., Giesler, M., Scheel, M. A., & Teukolsky, S. A. (2021). Testing the No-Hair Theorem with GW150914. *Physical Review Letters*, 127(1), 011103.
 
