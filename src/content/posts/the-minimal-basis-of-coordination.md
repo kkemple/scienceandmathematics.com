@@ -3,10 +3,10 @@ title: 'The Minimal Basis of Coordination'
 description: "Any persistent distributed system must solve three irreducible problems: signal extraction, boundary stabilization, and overload management. These are independent, jointly sufficient, and minimal."
 pubDate: '2026-01-18'
 category: 'applications'
-updatedDate: '2026-01-28'
-zenodoDepositionId: 18701892
-zenodoUrl: "https://zenodo.org/records/18701892"
-doi: "10.5281/zenodo.18701892"
+updatedDate: "2026-04-19"
+zenodoDepositionId: 19653850
+zenodoUrl: "https://zenodo.org/records/19653850"
+doi: "10.5281/zenodo.19653850"
 keywords:
   - "coordination"
   - "information theory"
@@ -32,19 +32,19 @@ zenodoDescription: |
   The result is a basis decomposition of coordination dynamics forced by finiteness, time extension, and nonstationarity—not a behavioral taxonomy but a structural necessity.
 ---
 
-Every persistent system composed of finite agents—neurons, organisms, teams, firms, markets, civilizations—faces the same structural challenge: coordinate repeatedly over time under informational and energetic constraints. The specific solutions vary enormously. The underlying problems do not.
+On September 24, 2015, roughly 2,400 pilgrims died in a crowd crush at Mina, outside Mecca, when two converging streams on Street 204 synchronized faster than any participant could interpret what was happening. No individual was irrational; no single decision caused the collapse. The coordination failure was structural—signals became unreadable, stabilized flow boundaries dissolved, and the system entered an overload regime from which no local action could recover. The same three failure modes, in the same order, appear in the simultaneous NYSE halt, United Airlines ground-stop, and Wall Street Journal outage of July 8, 2015, and in every air-traffic-control cascade that forces regional ground delays.
 
-This note formalizes a result that emerged empirically from analysis of large-scale sociotechnical systems and was later reinforced by constraint-theoretic and information-theoretic considerations. Any such system must solve exactly three irreducible problems: extraction of decision-relevant signal from noise under bandwidth constraints, stabilization of coordination boundaries across time to amortize interaction costs, and management of overload regimes in which neither signal extraction nor boundary stabilization remains effective. These three problems are independent, jointly sufficient, and minimal. No additional independent coordination problem exists once they are accounted for.
+Any persistent system of finite agents must solve exactly three irreducible problems: extraction of decision-relevant signal from noise under bandwidth constraints, stabilization of coordination boundaries across time to amortize interaction costs, and management of overload regimes in which neither signal extraction nor boundary stabilization remains effective. These three problems are independent, jointly sufficient, and minimal. No additional independent coordination problem exists once they are accounted for.
 
 Apparent alternatives—incentives, culture, power, learning, strategy—are reducible to one or more of the three. The result is not a taxonomy of behaviors but a basis decomposition of coordination dynamics forced by finiteness, time extension, and nonstationarity.
 
-## Scope and Intent
+## The Minimality Claim
 
 This analysis does not propose a new sociological typology, organizational model, or behavioral taxonomy. Its aim is narrower and more structural: to identify the minimal set of independent problems that must be solved by any persistent multi-agent system operating under finite informational and energetic constraints.
 
 The claim is not that all systems solve these problems well, nor that solutions are identical across domains, but that no system can avoid confronting them, and that no fourth independent problem remains once they are accounted for. The argument proceeds as a necessity result rather than an empirical generalization.
 
-## Assumptions
+## Finiteness, Information Excess, Coordination, and Nonstationarity
 
 The derivation requires only four assumptions, each weaker than those typically invoked in economics, control theory, or game theory.
 
@@ -60,7 +60,7 @@ From finiteness and information excess, raw input exceeds processing capacity. C
 
 This follows directly from Shannon's channel capacity[^2] and [Landauer's principle](/hilberts-sixth-problem-and-the-cost-of-infinite-information)[^3]: information processing has irreducible physical cost, and finite systems cannot preserve all distinctions. If signal extraction fails, the system cannot define state or act coherently. This problem is existence-critical.
 
-### Boundary Stabilization Through Repetition
+### Boundary Stabilization and Persistent Interfaces
 
 From time-extended coordination, renegotiating roles, interfaces, and expectations at every interaction incurs superlinear cost. Coordination becomes intractable unless interaction patterns stabilize.
 
@@ -78,7 +78,7 @@ The three problems are independent. Signal extraction concerns state definition.
 
 They are also jointly sufficient: once all three are accounted for, no additional irreducible coordination problem remains.
 
-## Elimination of Candidate Fourth Problems
+## Reducibility of Candidate Fourth Problems
 
 Commonly proposed alternatives are reducible to the triad.
 
@@ -94,23 +94,19 @@ The minimality result connects to several related formal structures developed el
 
 The triad does not compete with these results; it is the coordination-level projection of the same underlying constraints. The technical appendix below makes the mapping explicit through the constraint–information field model developed in the bounded reflexivity treatment.
 
-## The Result
+## Statement of the Minimality Theorem
 
 Any persistent distributed system of finite agents must implement mechanisms for extracting decision-relevant signal from noise, stabilizing coordination boundaries across time, and managing overload regimes in which neither signal extraction nor boundary stabilization remains effective. These three problems are independent and jointly sufficient. No additional independent coordination problem exists.
 
 This is a minimality claim in the same sense as a basis in linear algebra or conserved quantities in physics.
 
-## Implications
+## Diagnostic and Theoretical Implications
 
 The practical implication is diagnostic rather than prescriptive. Every intervention in a sociotechnical system operates by strengthening one of the three dimensions or by trading off among them. Every failure mode corresponds to degradation in one of the three.
 
 The theoretical implication is more general: coordination dynamics across biology, organizations, markets, and civilizations share a common structural basis imposed by information and thermodynamic constraints, not by domain-specific conventions.
 
-## Closing Remark
-
-The result presented here did not originate from abstraction but from empirical compression: a wide variety of observed systems collapsed onto the same minimal set of irreducible coordination problems. Subsequent formal analysis shows that this collapse is not coincidental. It is forced.
-
-What varies across systems is not which problems exist, but how they are solved, deferred, or allowed to fail.
+Signal extraction, boundary stabilization, and overload management are independent, jointly sufficient, and minimal under finiteness, information excess, time-extended coordination, and nonstationarity. No fourth independent coordination problem remains, and what varies across neurons, organisms, firms, markets, and civilizations is not which problems exist but how they are solved, deferred, or allowed to fail.
 
 ## Technical Appendix: Connection to Constraint–Information Field Dynamics
 

@@ -4,9 +4,9 @@ description: "A thermodynamic lower bound on Type Ia supernova energetics from L
 pubDate: '2025-09-29'
 category: 'supporting'
 updatedDate: "2026-04-19"
-zenodoDepositionId: 19652973
-zenodoUrl: "https://zenodo.org/records/19652973"
-doi: "10.5281/zenodo.19652973"
+zenodoDepositionId: 19653853
+zenodoUrl: "https://zenodo.org/records/19653853"
+doi: "10.5281/zenodo.19653853"
 keywords:
   - "Type Ia supernova"
   - "Chandrasekhar limit"
@@ -95,15 +95,13 @@ The dependence on the density contrast is weak: $\Delta N_b \propto \log_2 \chi$
 Landauer's principle gives a minimum dissipation of $\epsilon(T) = k_B T \ln 2$ per bit at temperature $T$[^6]. Associating the reorganization $\Delta N_b$ with characteristic temperatures $T \sim 10^9$ K during the explosion/shock phase[^7][^8],
 
 $$
-E \gtrsim \Delta N_b \, k_B T \ln 2,
+E \gtrsim \Delta N_b \, k_B T \ln 2.
 $$
 
-$$
-\simeq (4.6 \times 10^{58})(1.38 \times 10^{-23} \text{ J K}^{-1})(10^9 \text{ K})(0.693),
-$$
+Evaluating with the bit budget from the previous section and the fiducial shock temperature,
 
 $$
-\simeq 4.4 \times 10^{44} \text{ J}.
+E \gtrsim (4.6 \times 10^{58})(1.38 \times 10^{-23} \text{ J K}^{-1})(10^9 \text{ K})(0.693) \simeq 4.4 \times 10^{44} \text{ J}.
 $$
 
 Written to show parameter dependence,
@@ -134,7 +132,7 @@ The four observational inputs—Chandrasekhar mass, white dwarf radius, compress
 
 The Type Ia transition is the first rung of a two-rung gravitational cascade. The second rung—neutron star collapse to a black hole—occurs at the $E_8$ Coxeter threshold via the [geometric slack mapping](/from-lattice-projection-to-cosmic-expansion) $l_{\max} = \lfloor h(1/\xi - 1)\rfloor = \lfloor 30(1/\xi - 1)\rfloor$, when macroscopic compactness $\xi = R_S/R$ reaches $0.5$. PSR J0740+6620 at $\xi = 0.493$ sits on this boundary at $l_{\max} = 30$; beyond it, the system requests internal Kaluza–Klein modes below the Coxeter number, descending into the 15 forbidden levels of the $\langle 6, 10, 15\rangle$ gap set, and the internal geometry executes the topological phase transition to a two-dimensional horizon. The first rung is driven by information bankruptcy in the complexity multiplier $(1-\xi)^{-u^*}$; the second by geometric bankruptcy in the slack mapping. Both rungs are Landauer-priced reorganizations of a single substrate failure—a gravitational ultraviolet catastrophe structurally parallel to Planck's 1900 problem, with dimensional cutoff (gravity, 3D $\to$ 2D) replacing spectral cutoff (electromagnetism, $h\nu$). The Type Ia energy quantifies the Landauer cost of the first rung; the Bekenstein–Hawking area law quantifies the geometric cost of the second.
 
-## Conclusion
+## The Four-Input Bound
 
 The bound is most transparently written as,
 
@@ -142,7 +140,9 @@ $$
 E \gtrsim N \, k_B T \ln 2 \, \log_2 \chi \simeq \Delta N_b \, k_B T \ln 2,
 $$
 
-which factors the bit budget into the baryon count $N$ and the compression $\log_2 \chi$. With four inputs ($M_{\text{Ch}}$, $R_{\text{WD}}$, a density-contrast proxy such as $R_{\text{nuc}}$ or $\chi$, and a characteristic $T$), a simple state-counting model combined with Landauer's bound provides a compact constraint on the SN Ia energy scale. Whether (and in what sense) the explosion dynamics approach this bound requires a microphysical identification of the relevant dissipative degrees of freedom, which is beyond the scope of this estimate.
+which factors the bit budget into the baryon count $N$ and the compression $\log_2 \chi$. Four physical inputs—the Chandrasekhar mass $M_{\text{Ch}}$, the white dwarf radius $R_{\text{WD}}$, a nuclear length scale $R_{\text{NS}}$ setting the density contrast $\chi$, and a shock temperature $T_{\text{shock}}$—are sufficient to recover the observed Type Ia kinetic energy scale of $\sim 10^{44}$ J. No parameter from the constraint geometry enters the estimate; Landauer accounting on the accessible phase-space reorganization is enough on its own. The structural result is that the Type Ia energy scale is a Landauer-limited quantity set by the baryon count and the logarithmic compression of accessible state space, independent of the detailed explosion mechanism.
+
+The Landauer-limited interpretation is falsifiable. It predicts that the dominant dissipation channel during the explosion saturates—within an $\mathcal{O}(1)$ factor $f \in (0,1]$—the bound $E \gtrsim \Delta N_b \, k_B T \ln 2$ evaluated at the shock temperature. A microphysical identification of a dominant channel whose irreversible entropy production falls substantially below this bound, or whose required energy release exceeds it by more than the factor permitted by the realized reorganization fraction, would disprove the interpretation. The same disproof follows if the observed energetics require a phase-space reorganization budget incompatible with $N \log_2 \chi$ for the four inputs above.
 
 [^1]: Maoz, D., Mannucci, F., & Nelemans, G. (2014). Observational Clues to the Progenitors of Type Ia Supernovae. *Annual Review of Astronomy and Astrophysics*, 52, 107-170.
 

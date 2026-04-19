@@ -3,10 +3,10 @@ title: 'Information-Theoretic Constraints on Sociotechnical Systems'
 description: "Derives universal speech rates, biological maintenance ceilings, and nonlinear organizational overhead scaling by applying Landauer physics to human organizations."
 pubDate: '2025-10-16'
 category: 'applications'
-updatedDate: '2026-01-28'
-zenodoDepositionId: 19192755
-zenodoUrl: "https://zenodo.org/records/19192755"
-doi: "10.5281/zenodo.19192755"
+updatedDate: "2026-04-19"
+zenodoDepositionId: 19653860
+zenodoUrl: "https://zenodo.org/records/19653860"
+doi: "10.5281/zenodo.19653860"
 keywords:
   - "information theory"
   - "speech rate"
@@ -30,9 +30,7 @@ zenodoDescription: |
   We distinguish these first-principles results from speculative extensions: Dunbar's number (~150), market phase transitions, and civilizational convergence patterns are consistent with information-theoretic constraints but involve multiple contributing factors and lack first-principles derivation. Maintaining this distinction—between rigorous derivation and suggestive phenomenology—keeps the analysis honest while exploring potentially deep connections.
 ---
 
-Human organizations process information under physical constraints. Not metaphorically—literally. Every decision requires minimum energy to specify, every communication channel has measurable bandwidth, every coordination structure exhibits quantifiable overhead. The same information theory governing [computational speed limits](/hilberts-sixth-problem-and-the-cost-of-infinite-information) and [binding energy as maintenance tax](/binding-energy-critical-radii-and-information-maintenance-tax) makes quantitative predictions about biological and organizational behavior.
-
-This article derives three rigorous results from first principles: (1) universal speech rate convergence at 39 bits/s emerges from tissue biomechanics, (2) biological systems operate near a 10% maintenance overhead ceiling, and (3) organizational overhead accelerates nonlinearly through the complexity multiplier $(1-\xi)^{-u^*}$, with the coupling constant $u^* \approx 3.29$ derived from constraint geometry. These predictions match empirical observations across disparate contexts.
+Across 668 recordings in 48 languages from every continent, syllable rate peaks at 6.77 Hz and information transmission converges on 39.15 ± 0.39 bits per second. English, Mandarin, Spanish, Vietnamese, Japanese, Turkish, Finnish—radically different phoneme inventories, grammars, and cultures—land on the same rate. The convergence is not cultural. It is the viscoelastic response time of tongue tissue, measurable in grams and newton-seconds per meter, setting a ceiling on how fast human mouths can move. The same information theory governing [computational speed limits](/hilberts-sixth-problem-and-the-cost-of-infinite-information) and [binding energy as maintenance tax](/binding-energy-critical-radii-and-information-maintenance-tax) makes quantitative predictions about biological and organizational behavior.
 
 ## Speech Rate from Tissue Physics
 
@@ -64,13 +62,13 @@ $$
 \dot{I} = f \times \log_2 N = 6.7 \times 5.32 \approx 36 \text{ bits/s}.
 $$
 
-The empirical observation across all studied languages is 39.15 ± 0.39 bits per second. The 8% discrepancy reflects prosodic information—stress, intonation, rhythm—and phonotactic constraints where phoneme sequences aren't independent. The derivation captures the dominant constraint: tissue mechanics sets the rate, not thermodynamics or neural processing.
+The empirical observation across all studied languages is 39.15 ± 0.39 bits per second. The 8% discrepancy reflects prosodic information—stress, intonation, rhythm—and phonotactic constraints where phoneme sequences are not independent. The derivation captures the dominant constraint: tissue mechanics sets the rate, not thermodynamics or neural processing.
 
 Recent analysis of 668 speech recordings across 48 languages from every continent validates this mechanical constraint[^7]. Syllable rate peaks at 6.77 Hz—within 1% of the biomechanically predicted rate. This consistency holds across 27 distinct language families, different sexes, and across the human lifespan. The match between first-principles derivation from tissue viscosity and empirical measurement across maximally diverse languages provides strong validation that mechanical constraints, not neural processing or cultural factors, determine the universal speech rate.
 
 The same study identified a second temporal structure: intonation units occurring at 0.6 Hz, approximately one unit every 1.6 seconds. These units show consistent acoustic patterns—reset and declination in pitch and intensity, acceleration-deceleration dynamics—independent of syllable-level timing. The intonation unit rate explains only 0.8% of variance in syllable rate, suggesting hierarchical structure where mechanical constraints govern syllable production while cognitive constraints govern information chunking into larger units. The 1.6-second interval aligns with working memory timescales and may represent the natural "chunk size" for information packaging in human communication.
 
-The key insight reverses conventional understanding. The bottleneck is the physical actuator—tissue viscosity limits how fast we can move our mouths.
+The key insight reverses conventional understanding. The bottleneck is the physical actuator—tissue viscosity limits how fast the articulators can move.
 
 ## Biological Maintenance Overhead
 
@@ -126,7 +124,7 @@ $$
 t_{\text{failure}} = 0.25 \times \exp\left[3.29 \times \frac{0.30 - 0.35}{0.30}\right] \approx 0.14 \text{ years}.
 $$
 
-Collapse within a single quarter. This matches observed behavior when high-growth companies suddenly miss targets and cascade into insolvency. The trigger isn't external shock—it's crossing into a regime where maintaining organizational coherence requires more energy than available capacity.
+Collapse within a single quarter. This matches observed behavior when high-growth companies suddenly miss targets and cascade into insolvency. The trigger is not external shock—it is crossing into a regime where maintaining organizational coherence requires more energy than available capacity.
 
 Organizations demanding constant availability accumulate maintenance debt through the $(1-\xi)^{-u^*}$ overhead factor. For an individual operating at $\xi = 0.95$ (5% capacity toward personal maintenance),
 
@@ -134,7 +132,7 @@ $$
 M(0.95) = (0.05)^{-3.29} \approx 229.
 $$
 
-Maintaining this state requires a factor of 229 increase in available energy—impossible without an external source. The system draws from stored reserves (sleep, health, relationships) until reserves deplete, typically 6-18 months. This matches empirical burnout timelines in high-intensity organizations[^10]. The math predicts the timeline.
+Maintaining this state requires a factor of 229 increase in available energy—impossible without an external source. The system draws from stored reserves (sleep, health, relationships) until reserves deplete, typically 6-18 months. This matches empirical burnout timelines in high-intensity organizations[^10]. The derivation predicts the timeline.
 
 Software projects exhibit the same dynamics. Code complexity grows with features while refactoring capacity remains constant. When complexity overhead exceeds the critical regime, more effort goes toward managing existing complexity than adding capability. For a project with a monthly release cycle and complexity overhead $\xi = 0.32$,
 
@@ -142,7 +140,7 @@ $$
 t_{\text{failure}} = 1 \times \exp\left[3.29 \times \frac{0.30 - 0.32}{0.30}\right] \approx 0.80 \text{ months}.
 $$
 
-Development velocity collapse within a single sprint. This matches common experience where teams suddenly "can't ship anything" despite no obvious trigger[^11]. The trigger is crossing into the critical overhead regime.
+Development velocity collapse within a single sprint. This matches common experience where teams suddenly cannot ship anything despite no obvious trigger[^11]. The trigger is crossing into the critical overhead regime.
 
 ## Testable Predictions
 
@@ -154,11 +152,11 @@ Companies approaching $\xi \approx 0.30$ coordination overhead should exhibit me
 
 Biological information processors should operate near $\xi_{\text{bio}} \sim 0.1$ ceiling. Organisms dedicating larger metabolic fraction to neural tissue should show reduced capacity for other functions—growth, reproduction, immune response. Artificial systems approaching fundamental processing limits should face similar energy tradeoffs. Quantum computers and neural networks cannot escape thermodynamic constraints regardless of architectural cleverness.
 
-Software projects should exhibit velocity collapse when complexity metrics exceed the threshold. Tracking cyclomatic complexity, coupling, and refactoring burden as a fraction of development effort should reveal the critical transition. The challenge is operationalizing $\xi$ from code metrics, which requires project-specific normalization. But the threshold should appear universally once overhead is properly measured.
+Software projects should exhibit velocity collapse when complexity metrics exceed the threshold. Tracking cyclomatic complexity, coupling, and refactoring burden as a fraction of development effort should reveal the critical transition. The challenge is operationalizing $\xi$ from code metrics, which requires project-specific normalization. The threshold should appear universally once overhead is properly measured.
 
 ## Speculative Extensions
 
-The rigorous results—speech rate from biomechanics, metabolic overhead ceiling, organizational overhead scaling—follow from first principles. Several additional patterns align with information-theoretic constraints but require more empirical inputs or involve multiple contributing factors. **The following connections are suggestive, not proven.**
+The rigorous results—speech rate from biomechanics, metabolic overhead ceiling, organizational overhead scaling—follow from first principles. Several additional patterns align with information-theoretic constraints but require more empirical inputs or involve multiple contributing factors. The following connections are suggestive, not proven.
 
 Social group sizes show remarkable consistency across contexts. Hunter-gatherer clan sizes average 148 individuals[^12]. Roman military maniples contained 120-160 soldiers. Gore-Tex maintains factory sizes below 150 employees[^13]. Hutterite communities split when reaching 150 members[^14]. Time budget arguments provide one explanation: maintaining relationship requires periodic interaction, available social time constrains total relationships, meaningful relationships requiring roughly 1 hour per month average maintenance[^15] yield capacity around 200-250 connections. Dunbar's neocortex ratio[^12] provides alternative correlation: primate neocortex size predicts social group size through empirical power law yielding approximately 150 for humans. These converging estimates suggest real constraint around this threshold, though the mechanism likely involves multiple factors—working memory limits, theory of mind processing costs, reciprocity tracking overhead, time budgets. The pattern is consistent with information-theoretic limits but not derivable from first principles like speech rate.
 
@@ -166,15 +164,11 @@ Financial markets exhibit phase transitions resembling critical phenomena in sta
 
 Historical patterns show convergent evolution across isolated civilizations. Ancient Egypt, Maya, China, and Mesopotamia independently developed similar calendar structures[^19] reflecting astronomical periodicity constrained by human memory limits. Pyramids and ziggurats appeared independently across continents[^20], minimizing coordination overhead through hierarchical organization while also reflecting structural stability, material constraints, and symbolic representation. Multiple writing systems evolved from pictographic toward phonetic representations[^21], consistent with compression optimization where finite symbol sets recombine to encode unlimited concepts. These patterns align with information-theoretic pressures but also reflect agricultural cycles, cultural transmission, technological constraints, and social factors. Convergent evolution under similar constraints produces similar solutions through multiple pathways. The patterns are consistent with information optimization but not proof of it.
 
-## The Correspondence
+## Information Cost as a Cross-Scale Invariant
 
-The information maintenance costs govern systems from elementary particles to human organizations. The correspondence between [binding energy as thermodynamic tax](/binding-energy-critical-radii-and-information-maintenance-tax) and organizational overhead reveals a partial unity—physical systems and information processors both face energy costs for pattern maintenance.
+Information maintenance is a tax levied at every scale of organization. The rate varies; the mechanism does not. Elementary particles pay $\xi \sim 10^{-6}$ to hold their quantum numbers against vacuum fluctuation. Atoms pay $\xi \sim 10^{-3}$ to coordinate electron clouds against Coulomb repulsion. Biological systems saturate near $\xi \sim 10^{-1}$—the brain's 20 watts for 1.4 kilograms sits at this ceiling, and recursive self-modeling cannot exceed it without draining the reserves that keep the organism alive. Black holes pay $\xi = 1$ and reorganize into area law at the IR fixed point. The thresholds separating these regimes are not conventions. They are set by the [composite invariant](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) $u^* = 4\pi\varphi^2/10 \approx 3.29$, and the complexity multiplier $(1-\xi)^{-u^*}$ diverges at each one.
 
-The strongest results emerge from first-principles derivation. Speech rate at 39 bits per second follows from tissue viscosity determining phoneme rate and optimal inventory around 40 phonemes yielding 36 bits per second within 8% of observed. Biological overhead at $\xi_{\text{bio}} \sim 0.1$ emerges from metabolic measurements showing the brain operates at maximum sustainable maintenance fraction. The complexity multiplier $(1-\xi)^{-u^*}$ with $u^* = 4\pi\varphi^2/10 \approx 3.29$ from [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) governs the rate at which organizational overhead compounds, with the critical exponent $\nu = 1/u^* \approx 0.304$ setting the pace of divergence.
-
-Human organizations are physical systems operating under thermodynamic constraints. The same principles explaining [computational speed limits](/hilberts-sixth-problem-and-the-cost-of-infinite-information) provide accounts of organizational failure modes. This unity suggests information physics as more fundamental than previously recognized, though extensions to complex sociotechnical systems require careful attention to operational definitions and empirical validation.
-
-The analysis makes quantitative predictions where mechanisms are well-specified and offers suggestive patterns where multiple factors contribute. The distinction matters. Speech rate derivation matches observation to 8%. Social group sizes show convergent evidence but lack first-principles derivation. Market dynamics exhibit phase transitions but operational mapping needs development. Maintaining this distinction—between rigorous derivation, strong phenomenology, and speculative extension—keeps the science honest while exploring potentially deep connections.
+Human organizations sit inside this same scaling. A company crossing $\xi \approx 0.30$ is not in trouble because management failed; it is at the same critical exponent $\nu = 1/u^* \approx 0.304$ that governs white dwarf collapse, and the failure timescale follows from the same expression. The universality is what makes the predictions falsifiable: if the speech rate derivation holds at 8%, if biological overhead saturates at the decade predicted by C10 shell structure, and if organizational failure follows the same multiplier that governs gravitational information bankruptcy, then sociotechnical systems are not metaphorically like physical systems—they are instances of the same underlying accounting.
 
 [^1]: Coupé, C., et al. (2019). Different languages, similar encoding efficiency: Comparable information rates across the human communicative niche. *Science Advances*, 5(9), eaaw2594.
 

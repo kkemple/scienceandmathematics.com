@@ -4,9 +4,9 @@ description: "Binding energy as thermodynamic maintenance cost via Landauer's pr
 pubDate: '2025-10-14'
 category: 'supporting'
 updatedDate: "2026-04-19"
-zenodoDepositionId: 19652974
-zenodoUrl: "https://zenodo.org/records/19652974"
-doi: "10.5281/zenodo.19652974"
+zenodoDepositionId: 19653836
+zenodoUrl: "https://zenodo.org/records/19653836"
+doi: "10.5281/zenodo.19653836"
 keywords:
   - "Landauer principle"
   - "binding energy"
@@ -29,7 +29,7 @@ zenodoDescription: |
   Analysis of 7,515 Gaia DR3 white dwarfs identifies R/R_S ≈ 10³ as a discrete phase transition boundary (14.5σ, Wilcoxon p = 4.3 × 10⁻⁸⁴), with anomaly-zone objects appearing systematically older than mass- and temperature-matched references—a monotonic gradient from +345 Myr at 500–700 through +108 Myr at 700–900 to null above R/R_S ≈ 1300. Type Ia supernova energy equals the Landauer cost of reorganizing phase space information from electron to neutron degeneracy—counting bits (ΔN ≈ 4.5 × 10⁵⁸) at shock temperature (T ~ 10⁹ K) gives E = 4.3 × 10⁴⁴ J, matching observed supernova energies.
 ---
 
-Every atom in your body pays continuous energy to maintain its structure against entropy. Nuclear binding energy, chemical bonds, gravitational self-energy—these represent ongoing thermodynamic costs, an information maintenance tax that all organized systems pay to resist dissolution into thermal chaos.
+Every atom in a bound system pays continuous energy to maintain its structure against entropy. Nuclear binding energy, chemical bonds, gravitational self-energy—these represent ongoing thermodynamic costs, an information maintenance tax that all organized systems pay to resist dissolution into thermal chaos.
 
 White dwarfs accreting toward the Chandrasekhar limit reveal the mechanism. Geometric gravitational compression increases by a factor of 2.2 while organizational complexity explodes by a factor of 2200—a 1000-fold disparity suggesting information bankruptcy drives collapse. Independent analysis of two white dwarf catalogs identifies $R/R_S \approx 10^3$ as a discrete phase transition boundary: objects crossing this threshold appear systematically older than mass-and-temperature matched references, with the Montreal sample showing +103 Myr excess aging at 3.59σ significance and Gaia confirming at 34.6σ. The effect concentrates below $R/R_S \approx 1000$ and vanishes above, consistent with sector saturation forcing accelerated entropy production. The correspondence between binding energies and thermodynamic maintenance costs spans 57 orders of magnitude, from elementary particles to black holes.
 
@@ -135,7 +135,7 @@ Numerical integration from stable white dwarfs through collapse yields the traje
 |-------------------|---------|--------|-----|------------------|---------------------|-------------|-----------------|---------|
 | 0.60 | $3.6 \times 10^{-4}$ | 0.066 | 2.97 | 2.61 | 1.24 | 3.2 | 0.21 | Stable |
 | 1.00 | $6.0 \times 10^{-4}$ | 0.27 | 2.87 | 2.52 | 2.90 | 7.3 | 2.0 | Normal |
-| 1.17 | $7.0 \times 10^{-4}$ | 0.46 | 2.78 | 2.42 | 5.66 | 13.7 | 6.3 | **Anomaly** |
+| 1.17 | $7.0 \times 10^{-4}$ | 0.46 | 2.78 | 2.42 | 5.66 | 13.7 | 6.3 | Anomaly |
 | 1.30 | $7.8 \times 10^{-4}$ | 0.63 | 2.70 | 2.35 | 12.4 | 29.1 | 18.3 | Critical |
 | 1.35 | $8.0 \times 10^{-4}$ | 0.97 | 2.53 | 2.15 | 229 | 492 | 477 | Collapse |
 
@@ -151,11 +151,11 @@ Analysis of 7,515 Gaia DR3 white dwarfs[^4] reveals that objects in the anomaly 
 
 The discrete, threshold-like character of the effect—rather than a continuous gradient with mass—suggests a phase transition in constraint geometry. Once a white dwarf crosses into the $R/R_S < 1000$ regime, it enters a qualitatively different organizational basin characterized by accelerated entropy production and faster evolution through state space. This is consistent with sector saturation in the constraint eigenvalue decomposition—at $R/R_S \approx 10^3$, one organizational sector reaches capacity, forcing reconfiguration whose thermodynamic cost manifests as ~100 Myr of accelerated aging.
 
-Independent observational work has recently identified anomalous behavior in ultra-massive white dwarfs concentrated near the same compactness scale. A 2026 analysis of Gaia-selected white dwarfs along the Q branch[^5] reports extended cooling delays localized to this regime, inferred from kinematic clustering and photometric evolution rather than direct age residuals. While interpreted within conventional stellar-evolution models, the discreteness and localization of the effect closely mirror the threshold behavior identified here. The convergence of independent observables—cooling dwell time on the Q branch and apparent age excess relative to matched controls—suggests a structural transition in white dwarf evolution rather than a smooth modification of cooling physics, reinforcing the interpretation of $R/R_S \sim 10^3$ as a physically meaningful regime boundary across independent observational parameterizations rather than a model-dependent artifact.
+Independent observational work has recently identified anomalous behavior in ultra-massive white dwarfs concentrated near the same compactness scale. A 2026 analysis of Gaia-selected white dwarfs along the Q branch[^5] reports extended cooling delays localized to this regime, inferred from kinematic clustering and photometric evolution rather than direct age residuals. While interpreted within conventional stellar-evolution models, the discreteness and localization of the effect mirror the threshold behavior identified here. The convergence of independent observables—cooling dwell time on the Q branch and apparent age excess relative to matched controls—suggests a structural transition in white dwarf evolution rather than a smooth modification of cooling physics, reinforcing the interpretation of $R/R_S \sim 10^3$ as a physically meaningful regime boundary across independent observational parameterizations rather than a model-dependent artifact.
 
 ## The Discontinuous Jump to Neutron Degeneracy
 
-White dwarfs do not smoothly flow to the $(\xi=1, \mathcal{D}=2)$ black hole fixed point. Instead, information bankruptcy forces a discontinuous organizational jump. At $M \approx M_{\text{Ch}}$, the system reaches $\xi \approx 0.97$, $\mathcal{D} \approx 2.5$ with maintenance cost $\xi \times M \approx 477$. This overhead exceeds sustainable levels, triggering catastrophic reorganization—the white dwarf **jumps** to neutron degeneracy at $\xi \sim 0.3$, $\mathcal{D} \sim 2.5$ with complexity $\xi \times M \approx 2.3$.
+White dwarfs do not smoothly flow to the $(\xi=1, \mathcal{D}=2)$ black hole fixed point. Instead, information bankruptcy forces a discontinuous organizational jump. At $M \approx M_{\text{Ch}}$, the system reaches $\xi \approx 0.97$, $\mathcal{D} \approx 2.5$ with maintenance cost $\xi \times M \approx 477$. This overhead exceeds sustainable levels, triggering catastrophic reorganization—the white dwarf jumps to neutron degeneracy at $\xi \sim 0.3$, $\mathcal{D} \sim 2.5$ with complexity $\xi \times M \approx 2.3$.
 
 The organizational complexity drops by a factor of 207, requiring massive information restructuring. The energy cost of this reorganization follows from Landauer's principle: counting the bits required to reorganize phase space information from electron to neutron degeneracy ($\Delta N_{\text{bits}} \approx 4.5 \times 10^{58}$) at the shock temperature $T \sim 10^9$ K gives a transition energy of $E_{\text{trans}} = 4.3 \times 10^{44}$ J—matching observed [Type Ia supernova energies](/type-ia-supernova-information-theoretic-energetics)[^6] to within measurement uncertainty. The full derivation, which requires only four observational inputs (Chandrasekhar mass, white dwarf radius, neutron star radius, and shock temperature) and no parameters from the constraint geometry, is developed in the companion paper. The white dwarf collapses because maintaining organizational complexity at $\xi \approx 0.97$ requires infinite energy through the $(1-\xi)^{-u^*}$ divergence.
 

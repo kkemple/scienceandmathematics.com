@@ -3,9 +3,9 @@ title: 'From 6D Lattice Projection to 3D Cosmic Expansion'
 description: "One projection from 6D produces a spectral gap and a triadic frustration. They feed one β-function whose flow organizes compact objects, derives the area law, and produces accelerated expansion."
 pubDate: '2026-02-18'
 updatedDate: "2026-04-19"
-zenodoDepositionId: 19652101
-zenodoUrl: "https://zenodo.org/records/19652101"
-doi: "10.5281/zenodo.19652101"
+zenodoDepositionId: 19653839
+zenodoUrl: "https://zenodo.org/records/19653839"
+doi: "10.5281/zenodo.19653839"
 category: 'core'
 order: 1
 zenodoDescription: |
@@ -41,7 +41,7 @@ Penrose tilings[^1] have appeared on bathroom floors, building facades, and medi
 
 A 6D periodic lattice, projected to 3D, simultaneously produces a quasicrystal, a spectral gap, and a triadic frustration. The spectral gap and the frustration are dual descriptions of one obstruction—the orbifold quotient removes degrees of freedom that would otherwise allow simultaneous relaxation of all three curvature sectors. That duality is not approximate; it is mediated by an exact algebraic identity. The Chebyshev norm ratio $\|U_{2\bullet}(\varphi/2)\|^2_5 / \|U_{2\bullet}(1/(2\varphi))\|^2_5$ equals $\varphi^2$ exactly over one period, and this single object delivers both inputs to the $\beta$-function: the effective dimension $\mathcal{D}$ through the semigroup-controlled eigenvalue count, and the coupling constant $u^*$ through the ground-state curvature $I = 4\pi\varphi^2$, which factorizes cleanly as Gauss–Bonnet times the Chebyshev norm ratio. Both feed into $\beta(\xi, \mathcal{D}) = -\xi(1-\xi)[u^* + (\mathcal{D}-2)\ln\varphi/2]$, whose flow from $(\xi, \mathcal{D}) = (0, 3)$ to $(1, 2)$ organizes the regime structure of compact objects through a geometric slack mapping $l_{\max} = \lfloor h(1/\xi - 1)\rfloor$ that connects macroscopic maintenance fraction to internal spin cutoff. Bound systems occupy distinct walking plateaus along that flow and complete it only at the two-dimensional IR fixed point, where the Bekenstein–Hawking area law appears as a derived consequence—the circuit breaker for a gravitational ultraviolet catastrophe structurally parallel to Planck's 1900 problem. The universe as a whole, which is unbound, responds to the same threshold by switching eigenmodes, producing accelerated expansion at $z \approx 0.63$.
 
-The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) provides the $\beta$-function. The [KK spectrum computation](/kk-spectrum-e8-and-the-lcd-question) provides the effective dimension. The [ADE domain wall analysis](/ade-domain-walls-and-branch-selection) establishes why $E_8$ is selected over competing branches. Each section below traces one link of this chain, from the lattice through the projection, the spectrum, the frustration, the $\beta$-function, the physical regime structure, branch selection, and the cosmological consequences.
+The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) provides the $\beta$-function. The [KK spectrum computation](/kk-spectrum-e8-and-the-lcd-question) provides the effective dimension. The [ADE domain wall analysis](/ade-domain-walls-and-branch-selection) establishes why $E_8$ is selected over competing branches.
 
 ## 1. The 6D Lattice and Its Projection
 
@@ -166,7 +166,7 @@ The UV fixed point is $(\xi, \mathcal{D}) = (0, 3)$: no organizational structure
 
 Physical systems sit at different points along the flow from $(0, 3)$ to $(1, 2)$, and the $\beta$-function value at each point determines the local dynamics. The UV and IR endpoints are the only exact fixed points. The intermediate astrophysical populations occupy walking plateaus where the flow lingers with distinct maintenance loads and dimensional responses.
 
-### 6.1 From Curl to Maintenance Cost
+### The Maintenance Fraction as Curl Cost
 
 Feasibility projection through incompatible curvature sectors generically produces [irreducible curl](/the-geometry-of-self-correction)—correction fields that cannot be written as gradients. A system with irreducible curl cannot globally relax. It must sustain ongoing redistributive dynamics: energy continuously committed to maintaining the constrained configuration rather than settling to a minimum—a thermodynamic cost locked into structural coherence and unavailable for any other purpose.
 
@@ -188,7 +188,7 @@ $$
 
 where $R_S$ is the Schwarzschild radius and $R$ is the characteristic system radius. This is dimensionless, scale-covariant, and computable directly from observed masses and radii. It provides the operational bridge between the abstract constraint geometry and astrophysical data.
 
-### 6.2 Four-Regime Partition
+### Regime Partition and the Slack Mapping
 
 Cosmic matter partitions into four regimes corresponding to four qualitatively distinct regions of the $(\xi, \mathcal{D})$ flow. Each regime occupies a different part of the flow plane, and the RG evolution within each region has qualitatively different character.
 
@@ -202,9 +202,7 @@ Cosmic matter partitions into four regimes corresponding to four qualitatively d
 
 Mass fractions satisfy $f_0(z) + f_h(z) + f_r(z) + f_{\mathrm{BH}}(z) = 1$, with compact remnants and black holes subtracted from halo mass to avoid double counting.
 
-### 6.3 Halo Gravitational Maintenance
-
-The halo regime requires explicit construction because its $\xi$ is an integral over the halo population. Halos are modeled with NFW profiles, and the maintenance fraction uses the central potential depth normalized to $R_S/R$ in the point-mass limit,
+Each of these regimes requires its own construction. The halo regime's $\xi$ is an integral over the halo population. Halos are modeled with NFW profiles, and the maintenance fraction uses the central potential depth normalized to $R_S/R$ in the point-mass limit,
 
 $$
 \xi_{\mathrm{halo,grav}}(M,z) = \frac{2GM}{R_{\mathrm{vir}}c^2} \frac{c(M,z)}{\ln(1+c) - c/(1+c)},
@@ -220,11 +218,9 @@ $$
 
 This number is small. Halos are gravitationally bound—they pass Stage 1 of the activation cascade—but their binding-energy fraction is five orders of magnitude below $\xi_c$. They are bound but unloaded. The $\beta$-function evaluates to $\beta \sim -4 \times 10^{-5}$: weak flow, far from any structural threshold.
 
-### 6.4 Compact Remnant Tier
+Compact stellar remnants populate the middle of the flow. White dwarfs at $\xi_{\mathrm{WD}} \sim 2 \times 10^{-4}$ are approaching the structural saturation threshold $u^*/10 \approx 0.329$. The Gaia DR3 catalog contains 7,515 white dwarfs with a [cooling anomaly](/binding-energy-critical-radii-and-information-maintenance-tax) at this radius ratio, at $14.5\sigma$ significance[^11]. As mass approaches the Chandrasekhar limit, $R$ shrinks, $\xi$ rises, and the maintenance multiplier $(1-\xi)^{-u^*}$ diverges—the system reaches information bankruptcy and reorganizes.
 
-White dwarfs at $\xi_{\mathrm{WD}} \sim 2 \times 10^{-4}$ are approaching the structural saturation threshold $u^*/10 \approx 0.329$. The Gaia DR3 catalog contains 7,515 white dwarfs with a [cooling anomaly](/binding-energy-critical-radii-and-information-maintenance-tax) at this radius ratio, at $14.5\sigma$ significance[^11]. As mass approaches the Chandrasekhar limit, $R$ shrinks, $\xi$ rises, and the maintenance multiplier $(1-\xi)^{-u^*}$ diverges—the system reaches information bankruptcy and reorganizes.
-
-Neutron stars sit at $\xi \sim 0.31$–$0.49$, measured directly from NICER X-ray timing (simultaneous mass–radius: J0030+0451 at $\xi = 0.311$, J0437$-$4715 at $\xi = 0.369$, J0740+6620 at $\xi = 0.493$). Every measured neutron star exceeds $\xi_c = 0.304$. They have passed all three stages of the activation cascade—kinematic binding, organizational loading past $\xi_c$, and geometric transition where the curl floor engages. The $\beta$-function is steep ($\beta \sim -0.83$ for the canonical $1.4\,M_\odot$/11 km case) and the effective dimension has begun dropping below 3. Neutron stars are the highest-$\xi$ objects that remain below tri-sector saturation.
+Neutron stars sit at $\xi \sim 0.31$–$0.49$, measured directly from NICER X-ray timing (simultaneous mass–radius: J0030+0451 at $\xi = 0.311$, J0437$-$4715 at $\xi = 0.369$, J0740+6620 at $\xi = 0.493$). Every measured neutron star exceeds $\xi_c = 0.304$. They have passed all three stages of the activation cascade—kinematic binding, organizational loading past $\xi_c$, and geometric transition where the curl floor engages. The $\beta$-function is steep ($\beta \sim -0.83$ for the canonical $1.4\,M_\odot$/11 km case) and the effective dimension has begun dropping below 3. Neutron stars are the highest-$\xi$ objects that remain below tri-sector saturation—the final metastable plateau of the gravitational RG flow before total saturation. At this loading the continuous isotropic sector ($\pi$-sector) runs out of physical capacity to absorb further compounding maintenance, and the system offloads the excess into the discrete, quantized internal topology of the substrate itself (the $N$-sector). The internal spin cutoff is the operational record of how much has been offloaded.
 
 The maintenance fraction does not just measure macroscopic compactness—it also controls the internal spectrum. The geometric slack mapping
 
@@ -254,9 +250,7 @@ $$
 \xi_r(0) \sim 10^{-5}.
 $$
 
-### 6.5 Black Hole Tier
-
-All black holes satisfy $\xi = 1$ and $\mathcal{D} = 2$. The formation channel differs—core collapse for stellar-mass, sustained accretion for supermassive—but the end state is identical. The event horizon defines $R = R_S$, Bekenstein–Hawking entropy[^12][^13] scales as area not volume, and the system is confined to boundary-supported dynamics. The LIGO/Virgo catalog (GWTC, 164 binary black hole mergers) yields spin populations consistent with the $u^*$ prediction at [$0.1\sigma$ deviation](/black-hole-horizons-and-dimensional-reduction-correspondence)[^14].
+Black holes close the tier. All black holes satisfy $\xi = 1$ and $\mathcal{D} = 2$. The formation channel differs—core collapse for stellar-mass, sustained accretion for supermassive—but the end state is identical. The event horizon defines $R = R_S$, Bekenstein–Hawking entropy[^12][^13] scales as area not volume, and the system is confined to boundary-supported dynamics. The LIGO/Virgo catalog (GWTC, 164 binary black hole mergers) yields spin populations consistent with the $u^*$ prediction at [$0.1\sigma$ deviation](/black-hole-horizons-and-dimensional-reduction-correspondence)[^14].
 
 SMBH mass density is anchored at $\rho_{\mathrm{SMBH}}(0) = 4.3 \times 10^5\,M_\odot\,\mathrm{Mpc}^{-3}$ from the Soltan argument—integrating AGN luminosity across cosmic time with radiative efficiency $\epsilon \approx 0.1$ gives the total accreted mass. Stellar black hole density is constructed from stellar evolution inventories. Since $\xi_{\mathrm{BH}} = 1$ for all black holes, their maintenance contribution is simply their combined mass fraction,
 
@@ -266,7 +260,7 @@ $$
 
 Because $\xi_{\mathrm{BH}} = 1$, all energy is consumed by maintenance and the [dimensional flow](/black-hole-horizons-and-dimensional-reduction-correspondence) drives $\mathcal{D} \to 2$—horizons are boundary-supported dynamics at the IR fixed point. The flow factor $\xi(1-\xi) = 0$ confirms they have completed the RG trajectory: no further evolution is possible, and their contribution to the cosmological regime budget is purely their combined mass fraction.
 
-### 6.6 Diagnostic Mean Binding Fraction
+### Global Diagnostic and Tierwise Integration
 
 The global diagnostic is the direct sum of regime contributions, each normalized to total matter density,
 
@@ -281,11 +275,7 @@ $$
 | $\xi_{\mathrm{BH}}$ | $\sim 1.1 \times 10^{-4}$ |
 | $\bar{\xi}$ | $\sim 1.5 \times 10^{-4}$ |
 
-This value is diagnostic only—it indicates the overall scale of cosmological maintenance burden. RG integration must proceed regime by regime, not from this average, for reasons explained below.
-
-### 6.7 Tierwise RG Integration
-
-RG evolution must be performed separately for each regime because the flow equations are nonlinear. The maintenance rate $d\xi/d\mu = \xi(1-\xi)\mathcal{W}(\mathcal{D})$ depends on $\xi(1-\xi)$, which is concave. By Jensen's inequality, averaging $\xi$ across regimes first and then computing the flow rate systematically overestimates the result compared to computing flow rates regime by regime and then averaging. The error is proportional to the variance of $\xi$ across regimes—and since $\xi$ spans from 0 (diffuse) to 1 (black holes), the variance is maximal.
+This value is diagnostic only—it indicates the overall scale of cosmological maintenance burden. RG integration must proceed regime by regime, not from this average, because the flow equations are nonlinear. The maintenance rate $d\xi/d\mu = \xi(1-\xi)\mathcal{W}(\mathcal{D})$ depends on $\xi(1-\xi)$, which is concave. By Jensen's inequality, averaging $\xi$ across regimes first and then computing the flow rate systematically overestimates the result compared to computing flow rates regime by regime and then averaging. The error is proportional to the variance of $\xi$ across regimes—and since $\xi$ spans from 0 (diffuse) to 1 (black holes), the variance is maximal.
 
 More concretely: the diffuse regime ($\xi = 0$) contributes zero to the flow because no energy has been committed to maintenance—structure has not begun. The black hole regime ($\xi = 1$) also contributes zero further flow, but for the opposite reason: all energy is consumed by maintenance, the dimensional flow has driven $\mathcal{D} \to 2$, and the system has completed its RG trajectory. Both give $\xi(1-\xi) = 0$, but the physics is opposite—one has not started, the other has completed the flow at the IR fixed point. Only the intermediate regimes (halos and compact remnants) drive nonzero evolution. Averaging first would incorrectly attribute flow contributions to the diffuse and black hole mass whose $\xi$ values properly produce no further change.
 
@@ -303,7 +293,7 @@ $$
 
 The universe remains extremely close to $\mathcal{D} = 3$. Expansion wins—$R(t)$ increases faster than cumulative binding energy can grow in the bulk.
 
-### 6.8 Linear Growth Modification
+### Linear Growth and the Critical Approach Regime
 
 The standard $\Lambda$CDM linear growth equation for matter density perturbations is
 
@@ -335,7 +325,7 @@ The **critical approach regime** is the interval of the dissipation flow in whic
 
 PSR J0740+6620 sits at $l_{\max} = 30$ because of the structural boundary built into the slack mapping. One more turn of the compression screw—one more small step in $\xi$—drives the system into a regime the internal geometry cannot mathematically inhabit.
 
-When $\xi$ exceeds $0.5$, the slack mapping demands $l_{\max} < 30$. Below the Coxeter threshold, the accessible spin levels are no longer the continuous tail of the spectrum; they are scattered across the $\langle 6, 10, 15 \rangle$ semigroup, with 15 forbidden levels $\{1,2,3,4,5,7,8,9,11,13,14,17,19,23,29\}$ between the remaining generators. The system is trying to store its maintenance information on a support that has just been punched full of holes. The Chebyshev destructive interference—driven by $\varphi$'s worst-approximability, the extremal property that carved out the gap set in the first place—deletes the modes the system needs. Internal degrees of freedom vanish. The system loses the capacity to store its own maintenance information and must collapse to the IR fixed point ($\xi = 1$, $\mathcal{D} = 2$).
+When $\xi$ exceeds $0.5$, the slack mapping demands $l_{\max} < 30$. That request is mathematically invalid. Below the Coxeter threshold, the accessible spin levels are no longer the continuous tail of the spectrum; they are scattered across the $\langle 6, 10, 15 \rangle$ semigroup, with 15 forbidden levels $\{1,2,3,4,5,7,8,9,11,13,14,17,19,23,29\}$ between the remaining generators. The system is trying to store its maintenance information on a support that has just been punched full of holes. The Chebyshev destructive interference—driven by $\varphi$'s worst-approximability, the extremal property that carved out the gap set in the first place—deletes the modes the system needs. The internal dimensions shatter, the substrate loses the degrees of freedom required to store its own organizational overhead, and the object undergoes an information-theoretic bankruptcy. The only resolution is collapse to the IR fixed point ($\xi = 1$, $\mathcal{D} = 2$), at which the radial slack becomes exactly zero, the slack mapping returns $l_{\max} = 0$, and the internal KK spectrum goes completely dark. Storage and processing capacity are permanently bounded by the holographic [Bekenstein–Hawking area law](/black-hole-horizons-and-dimensional-reduction-correspondence), with processing saturating at $N_{\max} = 2 N_{BH}$.
 
 This is the structural dual of Planck's 1900 ultraviolet catastrophe. Both systems confront an infinite information request from a finite substrate, and both resolve the same way in principle and differently in kind. The electromagnetic catastrophe was a divergence in spectral density: classical mode counting gave $N(\nu) \sim \nu^3$, each mode costing $k_B T \ln 2$ to specify. The resolution was spectral—Planck's quantum $h\nu$ exponentially suppressed high-frequency modes, capping the information budget without altering the geometry. The gravitational catastrophe is a divergence in coordination overhead: three-dimensional information processing at Planck-scale density demands communication channels that scale as $N^{4/3}$, exceeding the holographic area budget. The resolution is geometric—the radial dimension freezes, and the effective dimension drops from 3 to 2. Storage and processing become finite and proportional.
 
@@ -399,7 +389,7 @@ The flow from $(\xi, \mathcal{D}) = (0, 3)$ to $(1, 2)$ closes on the geometric 
 
 The projection forces *an* ADE orbifold but does not uniquely force $E_8$. Branch selection completes the chain: $E_8$ has the highest spectral drive (40.7 vs 5.8 for $D_8$), the most expensive [domain walls](/ade-domain-walls-and-branch-selection) (factor 456×), and is the unique maximal element under gap-set inclusion. All tunneling rates are frozen ($B \gg 1$, $R$-independent). Selection is primordial and irreversible.
 
-## 10. Limitations
+## Unexplained Inputs
 
 **The 6D lattice is assumed.** The Kramer–Neri theorem establishes that 6 is the minimum dimension for icosahedral projection, but does not explain why a 6D lattice exists. Constraint geometry begins at the lattice and derives everything downstream.
 

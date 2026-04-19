@@ -2,12 +2,12 @@
 title: 'The Geometry of Self-Correction'
 description: "Converging and cycling systems differ by one geometric property: curl of the correction field. A Hodge-theoretic lower bound proves that cycling from state-dependent constraint projections is structural, not parametric."
 pubDate: '2026-01-09'
-updatedDate: '2026-01-28'
+updatedDate: "2026-04-19"
 category: 'supporting'
 draft: true
-zenodoDepositionId: 18724815
-zenodoUrl: "https://zenodo.org/records/18724815"
-doi: "10.5281/zenodo.18724815"
+zenodoDepositionId: 19655429
+zenodoUrl: "https://zenodo.org/records/19655429"
+doi: "10.5281/zenodo.19655429"
 zenodoDescription: |
   This paper develops a coordinate-free geometric theory for understanding when feedback systems converge versus cycle. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation.
 
@@ -40,9 +40,9 @@ keywords:
   - "differential forms"
 ---
 
-Feedback systems that successfully self-correct share a common mathematical structure—their correction dynamics follow the gradient of a scalar potential on the space of possible states. This paper develops the geometry of such systems using coordinate-free methods on the unit sphere, where the alignment distance between a system's current state and its target anchor serves as a natural Lyapunov function. The central result is a diagnostic criterion: systems with curl-free correction fields exhibit pure convergence, while systems with nonzero curl cycle indefinitely. More precisely, nonzero curl obstructs monotone descent and makes limit cycles generic under perturbation. Divergence of the correction field measures local compressive strength—where trajectories concentrate versus disperse. A Hodge-theoretic lower bound (Theorem 4) establishes that when feasibility projections are state-dependent and non-integrable, the resulting curl floor is structural: no amount of parameter tuning can eliminate cycling without changing the constraint architecture itself.
+On 1 February 2000, a Pratt & Whitney F100-powered F-15 on a high-altitude intercept training run entered an augmentor-induced limit cycle: afterburner pressure feedback, variable inlet geometry, and the FADEC's fuel schedule coupled into a sustained oscillation between correction modes that no gain adjustment in the control law could damp. The engine was physically sound. The controller was operating exactly as designed. The architecture itself was cycling. Events of this kind—documented in NASA Glenn's turbine engine control research and central to the bumpless-transfer literature on switched control systems—are not failures of tuning. They are failures of geometry. A correction field assembled from multiple interacting loops can carry circulation that no scalar objective generates, and when it does, no parameter choice removes it.
 
-## Introduction
+## Thermostats, Turbofans, and the Gradient Potential
 
 A thermostat and a high-bypass turbofan engine solve the same problem: temperature regulation. The mechanism is isomorphic—measure deviation from target, apply corrective force. What differs is scale and complexity. The thermostat flips a switch. The turbofan coordinates fuel flow, compressor discharge pressure, variable stator geometry, altitude compensation, and thermal load management across interdependent subsystems. Both regulate temperature. The thermostat converges reliably. The turbofan, under certain flight regimes, can oscillate between correction modes.
 
@@ -210,7 +210,7 @@ The compression scales with dimension $n$ and gain $k$. Higher-dimensional state
 
 Divergence identifies which regions of state space act as attractors and how strongly. In control applications, this translates to stability margins: a system operating in a high-compression region (large negative divergence) damps perturbations quickly, while a system near the equator ($\cos \theta \approx 0$) responds sluggishly. The turbofan's FADEC maintains operating points in high-compression regions of the thermal state space—not because engineers computed divergence explicitly, but because trial and error converges on the same geometric fact.
 
-## When Curl Emerges
+## The Sources of Curl
 
 Pure gradient flow guarantees convergence, but the gradient structure is fragile. Several common architectural features introduce nonzero curl, breaking the convergence guarantee.
 
@@ -238,17 +238,7 @@ Feedback systems with significant delays can develop oscillations even when the 
 
 Hysteresis produces similar effects. A system that activates correction at one threshold but deactivates at another exhibits path-dependent behavior. The correction field is not single-valued; it depends on history. This history-dependence can manifest as cycling.
 
-### Diagnostic Application
-
-The curl diagnostic provides actionable information. If a feedback system cycles rather than converges, measuring or estimating the curl of its correction field localizes the problem.
-
-Zero curl everywhere: the potential exists but has multiple local minima, or the gain is insufficient, or external perturbations dominate. These are parameter problems.
-
-Nonzero curl in specific regions: the architecture introduces circulation in those regions. The fix requires structural change—simplifying objectives, removing state-dependent gating, or redesigning the feedback pathway—not parameter adjustment.
-
-This distinction matters because parameter optimization cannot eliminate architectural curl. Turbofans that oscillate between correction modes, AI systems that exhibit reward hacking, markets that oscillate around equilibrium values—all may have correction fields with intrinsic curl that no amount of tuning can remove.
-
-### Quantifying the Curl Floor
+### The Curl Floor and the Hodge Spectral Gap
 
 The claim that feasibility projection "introduces curl" admits a sharper formulation. Define the curl-maintenance functional for a vector field $F$ on a Riemannian manifold $(M, g)$ as,
 
@@ -278,6 +268,18 @@ The resulting feasibility map is non-integrable. If the system sits near the $\v
 
 This connection closes the loop between the general theory developed here and the specific constraint geometry of [Triadic Tension, Decade Symmetry, & Dissipation Flow](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The curl diagnostic is a general tool; triadic tension is a specific trigger; and the curl floor theorem quantifies the consequence. A minimal field-theoretic model in which the stiffness ratio and topological protection boundary are computed exactly is developed in [Preserved Curl, Scale Separation, and Topological Leakage](/preserved-curl-scale-separation-and-topological-leakage). The repair analysis extends these results by treating local optimization under the curl floor as a first-class process, proving that repair operations traversing the same non-integrable feasibility map incur a strictly positive geometric overhead bounded by the same spectral gap—see [Repair as Local Optimization in Constraint Geometry](/repair-as-local-optimization-in-constraint-geometry).
 
+## Applications: Control, Alignment, and Diagnosis
+
+### Diagnostic Application
+
+The curl diagnostic provides actionable information. If a feedback system cycles rather than converges, measuring or estimating the curl of its correction field localizes the problem.
+
+Zero curl everywhere: the potential exists but has multiple local minima, or the gain is insufficient, or external perturbations dominate. These are parameter problems.
+
+Nonzero curl in specific regions: the architecture introduces circulation in those regions. The fix requires structural change—simplifying objectives, removing state-dependent gating, or redesigning the feedback pathway—not parameter adjustment.
+
+This distinction matters because parameter optimization cannot eliminate architectural curl. Turbofans that oscillate between correction modes, AI systems that exhibit reward hacking, markets that oscillate around equilibrium values—all may have correction fields with intrinsic curl that no amount of tuning can remove.
+
 ### Control Systems
 
 Classical control theory developed stability criteria for linear time-invariant systems: Nyquist plots[^5], Bode margins[^6], root locus methods[^7]. These tools implicitly analyze whether the closed-loop system has a Lyapunov function—whether the correction field is effectively curl-free.
@@ -292,9 +294,9 @@ Return to the turbofan. Its Full Authority Digital Engine Control (FADEC) manage
 
 Gradient descent on a loss function is literal gradient flow—the system moves along $-\nabla L$ where $L$ is the loss. Reward hacking and specification gaming represent curl emergence[^11]: when an agent finds ways to increase measured reward that decrease intended performance, the actual correction field diverges from the intended one, and the system cycles through exploits rather than converging to aligned behavior. The curl diagnostic frames the core alignment problem geometrically—alignment architectures must ensure that whatever signals actually drive learning derive from a scalar potential consistent with intended behavior.
 
-## Why This Matters
+## Consequences for Design, Diagnosis, and Prediction
 
-The curl diagnostic has direct consequences for design, diagnosis, and prediction. A system intended to self-correct will succeed only if its correction field derives from a consistent scalar objective, so the design principle is conservative: prefer architectures that provably maintain curl-free correction fields, and when multiple objectives are genuinely necessary, combine them as weighted sums of scalar potentials rather than as interacting vector corrections. When a system cycles rather than converges, the curl diagnostic localizes the problem—it points to specific architectural features generating the cycling and distinguishes problems solvable by parameter adjustment (zero curl, multiple local minima) from problems requiring structural redesign (nonzero curl, architectural interference). Knowing the curl structure of a system's correction architecture allows prediction of its long-run behavior without simulating the detailed dynamics, because systems with curl-free correction fields will converge while systems with nonzero curl will cycle. The geometry of self-correction transforms informal intuitions about feedback and stability into precise, measurable structure. Systems that converge share mathematical form with systems that cycle—except for one property. That property is coordinate-free, computable, and decisive.
+The curl of a correction field is the structural invariant that separates systems which converge from systems which cycle. It is coordinate-free, it is computable, and it carries a sharp geometric lower bound: when a gradient proposal passes through a non-integrable feasibility projection, the curl-maintenance functional is bounded below by the Hodge spectral gap on the co-exact subspace times the persistent defect magnitude. Cycling induced by constraint geometry is therefore not a parameter failure but a geometric consequence. Gain adjustment, smoothing, and tuning cannot cross the floor; only changing the feasibility map—the architecture itself—can. The same distinction that separates problems with multiple local minima from problems with architectural interference separates interventions that can succeed from interventions that cannot. Knowing the curl structure predicts the long-run behavior of a self-correcting system without simulating its trajectories, and knowing it is nonzero predicts that every control effort operating inside the existing architecture will circulate rather than converge.
 
 ## Limitations and Falsifiability
 
@@ -302,7 +304,7 @@ The curl diagnostic and the curl floor theorem (Theorem 4) rest on checkable cla
 
 ---
 
-## Technical Appendix
+## Technical Appendix: Derivations and the Curl Floor Theorem
 
 For readers interested in the complete derivations, this appendix provides the formal details.
 
@@ -448,11 +450,9 @@ Conversely, on simply connected manifolds, a curl-free vector field is locally (
 
 For $\mathbb{S}^{n-1}$ with $n \geq 3$, the sphere is simply connected, so curl-free implies gradient. For $\mathbb{S}^1$ (the circle), a constant tangent field has zero curl but is not a gradient—it has nonzero circulation around the circle.
 
-### Curl-Maintenance Under Feasibility Projections
+### The Curl-Maintenance Functional
 
-This section develops the quantitative theory underlying the curl floor discussed in the main text. The theory applies to any compact, oriented Riemannian manifold $(M, g)$ without boundary, with $\dim M = n \geq 2$.
-
-#### The Curl-Maintenance Functional
+The remaining subsections develop the quantitative theory underlying the curl floor discussed in the main text. The theory applies to any compact, oriented Riemannian manifold $(M, g)$ without boundary, with $\dim M = n \geq 2$.
 
 Let $\mathfrak{X}(M)$ denote smooth vector fields and $\Omega^k(M)$ denote smooth $k$-forms on $M$. For $F \in \mathfrak{X}(M)$, let $\alpha := F^\flat \in \Omega^1(M)$ be the metric-dual 1-form. The curl-maintenance (or vorticity energy) functional is,
 
@@ -462,7 +462,7 @@ $$
 
 This is a purely geometric quantity measuring the $L^2$-size of the exterior derivative of the implemented 1-form.
 
-#### Feasibility as Projection
+### Feasibility as Projection
 
 Assume that for each $x \in M$ there is a closed convex cone (or subspace) $\mathcal{K}_x \subset T_x M$, and let $\Pi_x : T_x M \to \mathcal{K}_x$ be the metric orthogonal projection. Given a proposal field $F_0 \in \mathfrak{X}(M)$, define the implemented field,
 
@@ -488,7 +488,7 @@ $$
 \mathcal{M}_{\mathrm{curl}}(F) = \frac{1}{2} \int_M |d(\delta\alpha)|^2 \, dV_g.
 $$
 
-#### The Integrability Criterion
+### The Integrability Criterion
 
 A 1-form $\alpha$ is curl-free if and only if it is closed: $d\alpha = 0$. On manifolds with $H^1(M) = 0$ (e.g., spheres $\mathbb{S}^m$ for $m \geq 2$), closed implies exact, so curl-free is equivalent to $\alpha = d\psi$ for some scalar potential $\psi$.
 
@@ -508,7 +508,7 @@ $$
 
 This makes the "no global scalar function" claim operational: curl is exactly the obstruction to scalar descent.
 
-#### Minimum-Curl Solutions at Fixed Divergence
+### Minimum-Curl Solutions at Fixed Divergence
 
 To connect to minimum-maintenance correction architectures, fix a divergence constraint. For a 1-form $\alpha$, the codifferential $\delta\alpha$ equals (up to sign conventions) the divergence of the corresponding vector field. Fix any smooth function $s \in C^\infty(M)$ with $\int_M s \, dV_g = 0$ (necessary for solvability on a compact manifold without boundary). Consider the feasible class,
 
@@ -534,7 +534,7 @@ Thus, among all fields with a prescribed divergence profile, the zero-maintenanc
 
 *Interpretation:* If a system can implement any field satisfying the divergence requirement, then curl-maintenance can be driven to zero by choosing a gradient field. Persistent maintenance becomes necessary only when feasibility excludes that integrable solution or when implementation maps a curl-free proposal through a non-integrable feasibility operator.
 
-#### The Spectral Lower Bound
+### The Spectral Lower Bound
 
 Let $\Delta_1 := d\delta + \delta d$ be the Hodge Laplacian on 1-forms, with kernel $\mathcal{H}^1(M)$ (the harmonic 1-forms). The Hodge decomposition splits the orthogonal complement of $\mathcal{H}^1(M)$ into exact forms $d\Omega^0(M)$ and co-exact forms $\delta\Omega^2(M)$. Define the spectral gap on the orthogonal complement:
 
@@ -560,7 +560,7 @@ $$
 
 *Proof.* Since $\beta$ is co-exact, $\delta\beta = 0$, and $\langle \Delta_1 \beta, \beta \rangle = |d\beta|^2_{L^2}$. The variational characterization of $\lambda_1^{\mathrm{co\text{-}ex}}$ on $\delta\Omega^2(M)$ gives the result. $\blacksquare$
 
-#### The Main Theorem
+### The Main Theorem
 
 **Theorem 4 (Projected gradient flows have an unavoidable curl floor).** Let the proposal be gradient: $\alpha_0 = d\phi$, and let $\alpha = \Pi(\nabla\phi)^\flat$ be the implemented field, with defect $\delta\alpha = \alpha - \alpha_0$. Decompose the defect into harmonic and non-harmonic parts:
 
@@ -592,7 +592,7 @@ $$
 
 This is the formal "structural, not parametric" statement: if feasibility repeatedly induces a nontrivial projection defect with a nonzero co-exact component, curl-maintenance is bounded away from zero by a geometric constant $\lambda_1^{\mathrm{co\text{-}ex}}$ times the co-exact defect magnitude. The bound is sharp: the constant cannot be improved without additional assumptions on the defect. In periodic simulation domains $M = T^3$, the harmonic 1-forms correspond to spatially uniform ($k = 0$) modes and contribute no curl. The curl-floor bound therefore applies to the mean-zero sector ($k \neq 0$) relevant to vorticity, stress gradients, and transport—exactly the sector used in DNS measurements of finite residence and shear relaxation.
 
-#### When Projection Preserves Zero Maintenance
+### When Projection Preserves Zero Maintenance
 
 Given the theorem, "zero maintenance after projection" is a special case characterized by integrability of the implemented field:
 
@@ -602,7 +602,7 @@ $$
 
 Operationally: feasibility preserves zero maintenance only when the projection rule $\Pi_x$ maps the proposal $\nabla\phi$ into another gradient field $\nabla\psi$ globally. Fixed linear projections onto fixed subspaces can do this (they are integrable). State-dependent gating, asymmetric saturation cones, and mode-switching generically do not: they vary with $x$ and with the proposal direction, producing a defect with nontrivial exterior derivative.
 
-#### Connection to the Three Curl Generators
+### Connection to the Three Curl Generators
 
 The three curl-generating mechanisms identified in the main text—multi-objective interference, constraints and saturation, delays and hysteresis—align under a single obstruction. Each mechanism induces an effective state-dependent, non-integrable feasibility map, hence a defect $\delta\alpha$ with $d(\delta\alpha) \neq 0$.
 

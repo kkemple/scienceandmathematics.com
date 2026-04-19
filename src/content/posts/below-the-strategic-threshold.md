@@ -3,10 +3,10 @@ title: 'Below the Strategic Threshold'
 description: "Most coordination happens without strategy. Gradient-following, narrative gaps, and information asymmetry reveal how systems organize—and how that organization can be exploited."
 pubDate: '2026-01-20'
 category: 'applications'
-zenodoDepositionId: 18701905
-zenodoUrl: "https://zenodo.org/records/18701905"
-doi: "10.5281/zenodo.18701905"
-updatedDate: '2026-01-28'
+zenodoDepositionId: 19653849
+zenodoUrl: "https://zenodo.org/records/19653849"
+doi: "10.5281/zenodo.19653849"
+updatedDate: "2026-04-19"
 keywords:
   - "coordination"
   - "information asymmetry"
@@ -21,20 +21,20 @@ keywords:
 zenodoDescription: |
   This paper presents a structural analysis of coordination in constrained systems, arguing that most collective behavior—from bird flocks to financial markets—operates below a threshold where strategic planning becomes feasible. The analysis explains why systems can coordinate without coherence, how narrative functions as derivative rather than causal information, and why information asymmetry creates compounding advantages across domains.
 
-  Part I establishes that agents with bounded processing and limited horizons necessarily follow local gradients rather than optimize over counterfactual futures. Strategy requires simulation depth and slack; when either is absent, systems default to gradient-following behavior indistinguishable across biological and social contexts.
+  The first section establishes that agents with bounded processing and limited horizons necessarily follow local gradients rather than optimize over counterfactual futures. Strategy requires simulation depth and slack; when either is absent, systems default to gradient-following behavior indistinguishable across biological and social contexts.
 
-  Part II introduces narrative as level-3 information: the compressed residue of state transitions rather than their cause. This creates a structural vulnerability—the measurement gap between cause and effect can be pre-allocated by injecting ready-made explanations before transitions complete. Disinformation exploits this gap by suppressing the incentive to measure.
+  The second section introduces narrative as level-3 information: the compressed residue of state transitions rather than their cause. This creates a structural vulnerability—the measurement gap between cause and effect can be pre-allocated by injecting ready-made explanations before transitions complete. Disinformation exploits this gap by suppressing the incentive to measure.
 
-  Part III demonstrates these dynamics through 2,500 years of information warfare, from Sun Tzu's spy networks to modern market manipulation. The historical record confirms that those who understood gradient-following behavior and narrative gaps systematically accumulated advantage. The mechanisms evolved but the structural exploitation remained constant.
+  The third section demonstrates these dynamics through 2,500 years of information warfare, from Sun Tzu's spy networks to modern market manipulation. The historical record confirms that those who understood gradient-following behavior and narrative gaps systematically accumulated advantage. The mechanisms evolved but the structural exploitation remained constant.
 
   The analysis makes no psychological claims. It describes boundary conditions on agency and explains why coordination persists where coherence fails, why correction becomes expensive once narratives are cached, and why information asymmetry compounds into institutional dominance.
 ---
 
-Most systems coordinate without strategy. Bird flocks, herded sheep, human crowds under stress, markets in crisis—all exhibit synchronized motion without shared plans. This coordination emerges from structure, not from intention. Understanding that structure reveals both the limits of agency and the mechanisms by which those limits are exploited.
+On the night of 29 October 2022, 159 people died in a 3.2-meter-wide alleyway in Itaewon. No stampede started it. No shouted command propagated through the crowd. Density rose past the threshold at which individual footing becomes conditional on the bodies pressing from four sides, and the collective motion—compressive waves, rotational eddies, sudden vertical pile-ups—emerged without any agent planning it. The coordination was real. The coherence was absent. Nobody in the alley held a model of what the crowd was doing.
 
-## Part I: Gradient Coordination and the Absence of Strategy
+## Gradient Coordination and the Absence of Strategy
 
-The central claim is simple: most collective motion in biological and social systems occurs below the strategic threshold. In this regime, agents follow local gradients induced by constraint structure, information availability, and energetic cost. Strategy requires simulation of counterfactual futures—comparing what would happen under different choices and selecting accordingly. When simulation horizons are short relative to environment timescales, or when slack is insufficient to absorb planning overhead, strategy becomes infeasible. Systems default to gradient-following.
+Most collective motion in biological and social systems occurs below the strategic threshold. In this regime, agents follow local gradients induced by constraint structure, information availability, and energetic cost. Strategy requires simulation of counterfactual futures—comparing what would happen under different choices and selecting accordingly. When simulation horizons are short relative to environment timescales, or when slack is insufficient to absorb planning overhead, strategy becomes infeasible. Systems default to gradient-following.
 
 Bird flocks and herded animals provide the cleanest examples because they remove interpretation, incentives, and narrative entirely. What remains is pure coordination under constraint. Individual birds possess only local sensing—relative position, velocity, threat proximity. They cannot simulate the flock's future trajectory in any meaningful sense. Their motion is necessarily reactive, adjusting to neighbors and boundaries without reference to global objectives.
 
@@ -62,7 +62,7 @@ Animal collectives are not metaphors for human systems. They are baseline cases.
 
 This is not a reduction of agency. It is a boundary condition on it.
 
-## Part II: Narrative and the Measurement Gap
+## Narrative and the Measurement Gap
 
 Narrative is not causal information. It is derivative information—produced after state change, recording the difference between two system configurations under constraint. Narrative occupies a higher informational layer than signal or coordination. It is the compressed residue of transition.
 
@@ -90,13 +90,13 @@ The structural analysis completes the circuit. Constraint structure determines f
 
 Nothing here exempts humans from structure. It merely specifies the narrow conditions under which coherence is affordable—and explains why those conditions are absent precisely when systems move fastest.
 
-## Part III: The Architecture of Information Asymmetry
+## The Architecture of Information Asymmetry
 
 The structural dynamics described above—gradient-following below the strategic threshold, coordination without coherence, the exploitable measurement gap—have been understood and exploited for millennia. The historical record provides 2,500 years of evidence that those who grasped these principles accumulated systematic advantage over those who did not.
 
 The mechanisms evolved from human spies to carrier pigeons to telegraph networks to satellite surveillance. The fundamental dynamic remained constant: asymmetric information creates asymmetric outcomes, and those outcomes compound over time into dynasty, empire, and institutional dominance.
 
-### Intelligence Gathering as Force Multiplier
+### Intelligence as Force Multiplier
 
 Sun Tzu understood the mathematics of intelligence 2,500 years ago. "Hostile armies may face each other for years, striving for the victory which is decided in a single day," he wrote. "To remain in ignorance of the enemy's condition simply because one grudges the outlay of a hundred ounces of silver in honors and emoluments, is the height of inhumanity."[^1] Spending on intelligence prevented armies from dying, treasuries from emptying, and campaigns from failing.
 
@@ -108,17 +108,17 @@ Napoleon's spymaster Charles Schulmeister demonstrated how deeply planted agents
 
 When Britain broke the German Enigma cipher at Bletchley Park, the intelligence advantage was so decisive that Eisenhower called Ultra decisive to Allied victory, and historian Harry Hinsley estimated it may have shortened the war by two years.[^3][^4] In the Battle of the Atlantic, once naval Enigma was broken in mid-1941, Allies could reroute convoys away from U-boat wolfpacks. Before D-Day, Allies knew locations of all but two of Germany's 58 Western-front divisions. Information superiority turned probable defeat into inevitable victory.
 
-### Deception as the Soul of Strategy
+### Deception and Strategic Outcome
 
 Gathering intelligence is half the equation. Controlling what adversaries believe often proves more powerful than controlling what they know. Deception shapes reality by manipulating perception. When done correctly, enemies make the wrong decisions confidently, committing resources to strategies that serve their opponent's interests.
 
 "All warfare is based on deception," Sun Tzu declared. "When we are able to attack, we must seem unable; when using our forces, we must appear inactive; when we are near, we must make the enemy believe we are far away; when far away, we must make him believe we are near." Warfare existed in the realm of perception. The general who controlled perception controlled outcomes.
 
-Hannibal Barca's victory at Cannae in 216 BCE became the gold standard of tactical deception. He deliberately weakened his center, deploying Gauls and Iberians who slowly gave ground while his elite African infantry held the flanks. Romans pressed forward, believing they were winning. The appearance of success was the trap. Once Romans were committed, Hannibal's flanks curled inward and cavalry swept around to attack the rear, creating complete encirclement. Approximately 50,000 Roman soldiers died in a single day.[^5]
+Hannibal Barca's victory at Cannae in 216 BCE remains a canonical case of tactical deception. He deliberately weakened his center, deploying Gauls and Iberians who slowly gave ground while his elite African infantry held the flanks. Romans pressed forward, believing they were winning. The appearance of success was the trap. Once Romans were committed, Hannibal's flanks curled inward and cavalry swept around to attack the rear, creating complete encirclement. Approximately 50,000 Roman soldiers died in a single day.[^5]
 
-Zhuge Liang's Empty Fort Strategy elevated deception to art. In 228 CE, with only 2,500 men facing Sima Yi's 200,000-strong army, Zhuge Liang ordered all flags hidden, war drums silenced, gates opened, and soldiers dressed as civilians sweeping the streets. He sat atop the city walls calmly playing his guqin. Sima Yi suspected there was an ambush because Zhuge had a reputation for using ambush tactics—the apparent vulnerability seemed like a trap. Despite his son counseling against retreat, Sima Yi withdrew his forces. Zhuge exploited Sima Yi's knowledge of his reputation. Game theorists Christopher Cotton and Chang Liu later proved that bluffing arose naturally as the optimal strategy in Zhuge's situation.[^6]
+Zhuge Liang's Empty Fort Strategy extended the same principle. In 228 CE, with only 2,500 men facing Sima Yi's 200,000-strong army, Zhuge Liang ordered all flags hidden, war drums silenced, gates opened, and soldiers dressed as civilians sweeping the streets. He sat atop the city walls calmly playing his guqin. Sima Yi suspected there was an ambush because Zhuge had a reputation for using ambush tactics—the apparent vulnerability seemed like a trap. Despite his son counseling against retreat, Sima Yi withdrew his forces. Zhuge exploited Sima Yi's knowledge of his reputation. Game theorists Christopher Cotton and Chang Liu later proved that bluffing arose naturally as the optimal strategy in Zhuge's situation.[^6]
 
-Francis Walsingham perfected operational deception in the Babington Plot of 1586. His double agent Gilbert Gifford infiltrated Mary Queen of Scots' network and arranged a courier system using hollow bungs in beer barrels. Mary believed her letters were secure, but Gifford delivered every message to Walsingham first. Thomas Phelippes, one of Europe's finest cryptanalysts, broke Mary's cipher using frequency analysis. After Mary approved the plot to assassinate Elizabeth, Walsingham ordered Phelippes to forge a postscript requesting names of all conspirators. The forged inquiry extracted the final intelligence needed. Mary faced trial where she accused Walsingham directly. His response: "God is my witness that as a private person I have done nothing unworthy of an honest man, and as Secretary of State, nothing unbefitting my duty."[^7]
+Francis Walsingham perfected operational deception in the Babington Plot of 1586. His double agent Gilbert Gifford infiltrated Mary Queen of Scots' network and arranged a courier system using hollow bungs in beer barrels. Mary believed her letters were secure, but Gifford delivered every message to Walsingham first. Thomas Phelippes, a leading contemporary cryptanalyst, broke Mary's cipher using frequency analysis. After Mary approved the plot to assassinate Elizabeth, Walsingham ordered Phelippes to forge a postscript requesting names of all conspirators. The forged inquiry extracted the final intelligence needed. Mary faced trial where she accused Walsingham directly. His response: "God is my witness that as a private person I have done nothing unworthy of an honest man, and as Secretary of State, nothing unbefitting my duty."[^7]
 
 The KGB's Operation Denver demonstrated how disinformation creates lasting strategic effects by pre-allocating the narrative gap. In September 1985, KGB told Bulgarian intelligence the goal was to create favorable opinion abroad that AIDS was the result of secret experiments with biological weapons by US secret services. The Stasi recruited retired biologists Jakob and Lilli Segal to produce pseudo-scientific research claiming HIV was genetically engineered at Fort Detrick, Maryland. Brochures were distributed at the Non-Aligned Movement summit in Harare. The conspiracy theory persists today in medical disinformation about Ebola and COVID-19. Once the narrative gap was filled, the incentive to measure—to actually investigate origins—was suppressed in populations that had already cached the explanation.[^8]
 
@@ -134,13 +134,13 @@ Metternich recognized that controlling postal infrastructure meant controlling i
 
 Jesse Livermore discovered that speed advantages existed even within single trading days. Starting in bucket shops at age 14 in 1891, Livermore mastered tape reading—analyzing the ticker tape's price and volume patterns faster than other traders. He watched for heavy volume on declines versus weak rallies on light volume, identified when specialists were stepping up or stepping down quotes, and followed institutional order flow by watching large order execution patterns. Processing the same information milliseconds faster created statistical edges that compounded into hundreds of millions of dollars in profits.[^11]
 
-### Building Information Monopolies
+### Information Monopolies as Institutional Architecture
 
 Individual information advantages are temporary. What persists is institutional architecture—systems that systematically gather, process, and exploit information flows.
 
 The Medici Bank (1397-1494) pioneered the intelligence-industrial complex. Operating as Europe's first holding company with branches across Europe, the Medici created two types of correspondence: lettere di compagnia (business letters on bills and shipments) and lettere private (confidential letters discussing business prospects, political events, and financial conditions). Their competitive advantage came from information architecture. Double-entry bookkeeping gave superior financial intelligence—they could track their position with unprecedented accuracy while competitors operated partially blind. Letters of credit allowing deposits in one branch and payment in another created an information monopoly on exchange rates and currency flows.[^12]
 
-J. Edgar Hoover built perhaps history's most fearsome information monopoly through bureaucratic architecture. His Official and Confidential File comprised 164 folders with approximately 17,700 pages containing various items believed inadvisable to be included in the general files of the Bureau. The files documented derogatory information on Eleanor Roosevelt, JFK, Adlai Stevenson, plus authorization of illegal break-ins, wiretaps, and politically motivated investigations. A separate Do Not File precluded discovery of the most sensitive operations. Hoover maintained power for 48 years under eight presidents through implied threats. What Hoover might know was sufficient for control.[^13]
+J. Edgar Hoover built a uniquely durable information monopoly through bureaucratic architecture. His Official and Confidential File comprised 164 folders with approximately 17,700 pages containing various items believed inadvisable to be included in the general files of the Bureau. The files documented derogatory information on Eleanor Roosevelt, JFK, Adlai Stevenson, plus authorization of illegal break-ins, wiretaps, and politically motivated investigations. A separate Do Not File precluded discovery of the most sensitive operations. Hoover maintained power for 48 years under eight presidents through implied threats. What Hoover might know was sufficient for control.[^13]
 
 ### Financial Information Asymmetry
 
@@ -150,7 +150,7 @@ Research on 18th century Amsterdam and London markets by Mathijs Cosemans and Ri
 
 The LIBOR scandal (banks deliberately submitting inaccurate data to influence benchmark calculations) and FX manipulation (JPMorgan Chase, Citigroup, Barclays, Royal Bank of Scotland using exclusive chatroom "The Cartel") showed information asymmetry persisting into modern markets. As one trader wrote: "If you are not cheating, you are not trying." Banks paid over $1.8 billion in penalties, but the underlying dynamic remained. Those who controlled information about pricing mechanisms could manipulate the mechanisms themselves.[^15]
 
-## The Structure Beneath the History
+## Structural Invariants Across the Historical Record
 
 The technologies changed across 2,500 years—from human spies to postal networks to algorithmic trading—but the structural mechanisms remained constant. The cross-domain patterns reduce to five:
 

@@ -3,10 +3,10 @@ title: 'Compressors, Curl, & Constraint Geometry'
 description: "Axial compressors instantiate constraint geometry: the surge line is a finite-residence manifold, rotating stall is curl made visible, and balanced states are crossed but never occupied."
 pubDate: '2026-01-25'
 category: 'applications'
-zenodoDepositionId: 18724801
-zenodoUrl: "https://zenodo.org/records/18724801"
-doi: "10.5281/zenodo.18724801"
-updatedDate: '2026-01-28'
+zenodoDepositionId: 19653840
+zenodoUrl: "https://zenodo.org/records/19653840"
+doi: "10.5281/zenodo.19653840"
+updatedDate: "2026-04-19"
 keywords:
   - "compressors"
   - "turbomachinery"
@@ -74,7 +74,7 @@ The curl diagnostic predicts this directly. Zero curl in the correction field pr
 
 This is why surge mitigation is architectural rather than parametric. Effective interventions change the geometry—wider bleed paths, different stator scheduling, redesigned diffuser sections—rather than retuning existing controllers. Engineers learned this empirically. The geometry explains why.
 
-## What This Validates
+## Ground-Truth Validation from Turbomachinery
 
 The compressor provides ground-truth validation for abstract geometric claims.
 
@@ -84,7 +84,7 @@ The surge line is a physical measurement of the finite-residence principle, mapp
 
 The persistence of limit cycles across controller redesigns validates the structural nature of curl. If cycling were parametric, decades of control engineering would have eliminated it. That it persists despite sophisticated model-predictive control, adaptive gain scheduling, and detailed aerodynamic modeling indicates the obstruction is geometric. The theory says it must be; the hardware confirms it is.
 
-## Scope and Limitations
+## Residual Vulnerabilities
 
 The compressor application has a narrower attack surface than most posts in the corpus because the mapping to Theorem 4 is a direct instance, not an analogy. The residual vulnerabilities lie upstream.
 
@@ -94,7 +94,7 @@ The compressor application has a narrower attack surface than most posts in the 
 
 **Active surge control.** Advanced research programs have demonstrated active stall control through flow injection, boundary layer suction, and tip clearance modulation[^4]. These interventions work by changing the feasibility geometry—reshaping the constraint cone rather than tuning within it—which is precisely what the theory predicts: effective interventions are architectural, not parametric. If a future active control system achieved sustained stable operation near the surge line without changing the constraint geometry, that would falsify the application.
 
-## Synthesis
+## Two Results, One Hardware Instance
 
 Axial compressors sit at the intersection of two results: Navier–Stokes shows why balanced amplification cannot persist, and the geometry of self-correction explains why engineering responds with projection, curl, and cycling rather than convergence. The compressor control system satisfies the premises of Theorem 4 directly—compact state space, gradient proposal, state-dependent feasibility projection, non-integrable constraints—making the irreducible curl floor a deductive consequence rather than an interpretive claim.
 

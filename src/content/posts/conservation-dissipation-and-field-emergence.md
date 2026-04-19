@@ -3,10 +3,10 @@ title: 'Conservation, Dissipation, & Field Emergence'
 description: "Conservation plus symmetry yields Maxwell, Klein-Gordon, and Euler field equations. Fermi's golden rule derives the microscopic origin of ξ, whose RG flow follows the constraint geometry β-function."
 pubDate: '2025-10-06'
 category: 'supporting'
-updatedDate: '2026-01-28'
-zenodoDepositionId: 19192740
-zenodoUrl: "https://zenodo.org/records/19192740"
-doi: "10.5281/zenodo.19192740"
+updatedDate: "2026-04-19"
+zenodoDepositionId: 19653835
+zenodoUrl: "https://zenodo.org/records/19653835"
+doi: "10.5281/zenodo.19653835"
 keywords:
   - "field theory"
   - "Noether theorem"
@@ -27,7 +27,7 @@ zenodoDescription: |
   This microscopic derivation establishes ξ as a physical, derivable quantity—the essential prerequisite for its role as the maintenance fraction ξ ∈ [0,1] in the constraint geometry's β-function. The decade-spaced regime structure from ξ ~ 10⁻⁶ (particles) through 10⁻¹ (biological systems) to 1 (black holes) follows from the RG coupling u* = 4πφ²/10 ≈ 3.29, derived from triadic tension and C₁₀ decade symmetry. The microscopic origin derived here provides the UV boundary condition; the constraint geometry determines the flow.
 ---
 
-Conservation plus symmetry produces field equations. Start with a single constraint—a conserved current $n^\mu$ with vanishing divergence—and impose symmetry requirements. U(1) gauge symmetry generates Maxwell's equations. Lorentz invariance yields Klein-Gordon. Galilean symmetry produces Euler's fluid equations. Mathematical consistency alone. Add dissipation through thermal coupling with maintenance fraction $\xi$ ranging from $10^{-6}$ for elementary particles to unity for black holes, [quantifying the energy required to maintain organizational structure](/binding-energy-critical-radii-and-information-maintenance-tax). Fermi's golden rule provides the microscopic origin of $\xi$, establishing it as a physical quantity whose flow across scales is governed by the [constraint geometry's $\beta$-function](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry).
+A copper wire at room temperature carries electrons whose motion would, in the absence of scattering, persist indefinitely—charge conservation guarantees it. What actually happens is different: the electrons relax against the lattice at a rate set by electron-phonon coupling, and the fine-structure constant $\alpha = 1/137$ appears in the answer. The dimensionless dissipation baseline that emerges, $\eta_0 = \alpha^2\sqrt{m_e/M} \approx 10^{-6}$, is the same number that shows up as the UV end of the maintenance fraction $\xi$ in the constraint geometry's renormalization flow. That coincidence is not decorative. The bridge from Noether's 1918 Göttingen paper—where symmetry first produced conserved currents on demand—to the decade-spaced ladder of $\xi$ running from elementary particles through biological systems to black holes is a single line of reasoning: conservation and symmetry fix the reversible dynamics, thermal coupling supplies the arrow of time, and Fermi's golden rule sets the floor. What the constraint geometry adds is the flow equation on top of that floor, [with the $\beta$-function from triadic tension and $C_{10}$ decade symmetry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) governing how $\xi$ climbs across scales, and the [maintenance interpretation](/binding-energy-critical-radii-and-information-maintenance-tax) fixing what the climb costs.
 
 ## The Conservation Constraint
 
@@ -175,7 +175,7 @@ $$
 g \sim \frac{e^2}{4\pi\epsilon_0 a_0^2} \times \sqrt{\frac{\hbar}{M\omega_{ph}}},
 $$
 
-where $a_0 = 0.529\,\AA$ is the Bohr radius and $M$ the nuclear mass. Expressing the Coulomb energy in terms of $\alpha$ and evaluating $|g|^2\rho(E)$ at the Debye scale gives the dimensionless dissipation rate,
+where $a_0 = 0.529\,\AA$ is the Bohr radius and $M$ the nuclear mass. The first factor is the atomic Coulomb energy scale, and the second is the zero-point amplitude of the phonon mode; their product sets how strongly an electron couples to a lattice vibration. Substituting into Fermi's rule with the phonon density of states evaluated at the Debye scale, the explicit factors of $\hbar$, $\omega_{ph}$, and $M$ cancel cleanly, leaving a dimensionless ratio that depends only on $\alpha$ and the electron-to-nucleon mass ratio:
 
 $$
 \eta_0 = \alpha^2 \sqrt{\frac{m_e}{M}} \approx 10^{-6},
@@ -205,7 +205,7 @@ $$
 
 recovering the Boltzmann distribution.
 
-## Application to Field Theories
+## Conductors, Viscous Fluids, and Drude Dissipation
 
 The derivation reproduces established field equations with dissipation emerging from thermal coupling. Electromagnetic fields in conductors obey Maxwell's equations,
 
@@ -223,11 +223,9 @@ $$
 
 where kinematic viscosity $\nu \sim v_{\mathrm{th}}^2 \tau$ in kinetic theory, with $v_{\mathrm{th}}$ the thermal velocity and $\tau$ the mean collision time. Stronger microscopic coupling (larger $\eta$) increases the collision rate $\Gamma \propto \eta$, shortening $\tau$ and reducing $\nu$ in the dilute limit.
 
-## Fundamental Structure
+## From Microscopic Dissipation to the Maintenance Flow
 
-Conservation plus symmetry generates the reversible dynamics of physical fields—Maxwell from U(1), Klein-Gordon from Lorentz invariance, Euler from Galilean symmetry. Thermal coupling breaks time-reversal symmetry through the maintenance fraction $\xi$, whose microscopic origin traces to Fermi's golden rule. The baseline $\eta_0 = \alpha^2\sqrt{m_e/M} \approx 10^{-6}$ is derived from quantum mechanics through Fermi's golden rule.
-
-This microscopic floor is the starting point of the macroscopic maintenance fraction $\xi \in [0,1]$ that appears in the [constraint geometry's $\beta$-function](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). The $\beta$-function governs how $\xi$ flows across scales, with the RG coupling $u^* = 4\pi\varphi^2/10 \approx 3.29$ producing the observed decade-spaced walking plateaus from elementary particles through biological systems to black holes. The microscopic derivation here establishes that $\xi$ is physical—the constraint geometry determines how it flows.
+What the derivation establishes is a specific claim about the status of $\xi$: it is not a phenomenological knob tuned to match data at each scale, but a derivable quantity whose UV value is fixed by quantum mechanics and whose scale dependence is fixed by a flow equation. The baseline $\eta_0 = \alpha^2\sqrt{m_e/M} \approx 10^{-6}$ is the boundary condition—elementary particles sit there because that is where Fermi's golden rule leaves them. Everything above that number—the $10^{-3}$ of atoms, the $10^{-1}$ of biological systems, the unit saturation at black hole horizons—is the output of integrating the [constraint geometry's $\beta$-function](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) from the UV boundary outward, with the decade spacing forced by $u^* = 4\pi\varphi^2/10$ and $C_{10}$ symmetry rather than fit to it. The microscopic calculation here supplies the anchor; the flow equation supplies the climb.
 
 [^1]: Noether, E. (1918). Invariante Variationsprobleme. *Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse*, 1918, 235-257.
 

@@ -3,10 +3,10 @@ title: 'Pentagonal Constraints & Quantum Computing'
 description: "Fibonacci anyon fusion τ × τ = 1 + τ forces quantum dimension d_τ = φ—the same identity underlying the recursive sector. Fibonacci pulses extend qubit coherence 3.7× via Hurwitz protection."
 pubDate: '2025-10-19'
 category: 'applications'
-updatedDate: '2026-01-28'
-zenodoDepositionId: 18724810
-zenodoUrl: "https://zenodo.org/records/18724810"
-doi: "10.5281/zenodo.18724810"
+updatedDate: "2026-04-19"
+zenodoDepositionId: 19653847
+zenodoUrl: "https://zenodo.org/records/19653847"
+doi: "10.5281/zenodo.19653847"
 keywords:
   - "quantum computing"
   - "Fibonacci anyons"
@@ -70,13 +70,13 @@ The same principle suggests that gate timing with irrational ratios should outpe
 
 Constraint geometry suggests design principles for quantum architectures, though specific implementations require experimental validation.
 
-**Qubit counts**: Prime numbers minimize divisor-based resonances. A lattice of $n$ sites admits oscillations at every divisor of $n$; the divisor function $\tau(n)$ counts these modes. For $n = 12 = 2^2 \times 3$, the divisor count $\tau(12) = 6$ creates six resonant modes. For prime $p$, divisor count $\tau(p) = 2$ (minimal). Prime Fibonacci numbers—like 89, 233, 1597—combine minimal discrete curvature with the $\varphi$-sector's recursive structure.
+Prime numbers minimize divisor-based resonances in qubit counts. A lattice of $n$ sites admits oscillations at every divisor of $n$; the divisor function $\tau(n)$ counts these modes. For $n = 12 = 2^2 \times 3$, the divisor count $\tau(12) = 6$ creates six resonant modes, while for prime $p$ the divisor count $\tau(p) = 2$ is minimal. Prime Fibonacci numbers—like 89, 233, 1597—combine minimal discrete curvature with the $\varphi$-sector's recursive structure.
 
-**Spatial arrangement**: Constraint geometry suggests that $\varphi$-ratio spacing between modules should minimize standing wave resonances, following the same logic as Penrose tilings. Hierarchical structures with scale factors of $\varphi$ would maintain aperiodic order across levels.
+For spatial arrangement, constraint geometry suggests that $\varphi$-ratio spacing between modules should minimize standing wave resonances, following the same logic as Penrose tilings, and hierarchical structures with scale factors of $\varphi$ would maintain aperiodic order across levels.
 
-**Frequency allocation**: $\varphi$-based frequency detuning maintains irrational ratios between all qubit pairs. Unlike uniform or rational spacing, irrational ratios prevent any harmonic from coinciding exactly—the same principle that makes Fibonacci pulse sequences effective for temporal protection.
+Frequency allocation benefits from the same principle: $\varphi$-based frequency detuning maintains irrational ratios between all qubit pairs. Unlike uniform or rational spacing, irrational ratios prevent any harmonic from coinciding exactly—the same principle that makes Fibonacci pulse sequences effective for temporal protection.
 
-**Error correction**: Prime code distances (5, 7, 11, 13) avoid harmonic relationships with gate durations, potentially reducing systematic error accumulation compared to composite distances. Recent qLDPC codes achieve significant overhead reduction[^4], and prime structure may provide additional benefits through resonance elimination.
+Error correction also inherits these considerations. Prime code distances (5, 7, 11, 13) avoid harmonic relationships with gate durations, potentially reducing systematic error accumulation compared to composite distances. Recent qLDPC codes achieve significant overhead reduction[^4], and prime structure may provide additional benefits through resonance elimination.
 
 ## Organizational Overhead and Coherence
 
@@ -94,15 +94,15 @@ The confirmed predictions—Fibonacci temporal protection and the fusion algebra
 
 The application to quantum computing rests on several identifications that could fail independently.
 
-**The $\xi \propto P \times \tan\delta$ mapping.** The identification of participation ratio with organizational overhead is motivated by analogy—both measure the fraction of resources consumed by maintenance rather than useful work—but is not derived from the constraint functional. If coherence in superconducting qubits is governed by mechanisms that do not map onto the $\beta$-function's maintenance flow, the quantitative predictions from the exponent $\nu$ would not apply.
+The identification of participation ratio with organizational overhead through $\xi \propto P \times \tan\delta$ is motivated by analogy—both measure the fraction of resources consumed by maintenance rather than useful work—but is not derived from the constraint functional. If coherence in superconducting qubits is governed by mechanisms that do not map onto the $\beta$-function's maintenance flow, the quantitative predictions from the exponent $\nu$ would not apply.
 
-**Prime qubit counts.** The claim that prime qubit counts minimize discrete curvature rests on the observation that fewer divisors means fewer rational commensurabilities. This is plausible but has not been tested against controlled experiments comparing prime versus composite qubit counts on identical hardware.
+The claim that prime qubit counts minimize discrete curvature rests on the observation that fewer divisors means fewer rational commensurabilities. This is plausible but has not been tested against controlled experiments comparing prime versus composite qubit counts on identical hardware.
 
-**$\varphi$-ratio frequency spacing.** The prediction that irrational frequency ratios outperform rational ones follows from the Hurwitz argument, but competing engineering constraints (fabrication tolerances, control electronics) may dominate the resonance-minimization benefit in practice.
+The prediction that $\varphi$-ratio frequency spacing—irrational frequency ratios—outperforms rational ratios follows from the Hurwitz argument, but competing engineering constraints (fabrication tolerances, control electronics) may dominate the resonance-minimization benefit in practice.
 
-**Scope of the fusion algebra connection.** The algebraic identity $d^2 - d - 1 = 0$ forces $d_\tau = \varphi$ independently of the constraint geometry—it is a consequence of the fusion rule, not a prediction of constraint geometry. Constraint geometry provides an interpretation ($\varphi$-sector recursive consistency) but does not predict the fusion rule itself. The connection is downstream, not upstream.
+The scope of the fusion algebra connection also warrants care. The algebraic identity $d^2 - d - 1 = 0$ forces $d_\tau = \varphi$ independently of the constraint geometry—it is a consequence of the fusion rule, not a prediction of constraint geometry. Constraint geometry provides an interpretation ($\varphi$-sector recursive consistency) but does not predict the fusion rule itself. The connection is downstream, not upstream.
 
-## Conclusion
+## Pentagonal Encoding of the φ- and Discrete Sectors
 
 Pentagonal geometry encodes the $\varphi$-sector and the discrete sector of the constraint functional. The recursive fixed-point equation $x = 1 + 1/x$ that determines the $\varphi$-sector eigenvalue is the same algebraic identity as the Fibonacci anyon fusion rule $\tau \times \tau = \mathbb{1} + \tau$, and the number-theoretic property that makes $\varphi$ optimal for resonance protection (Hurwitz's theorem) is the same property that makes Fibonacci pulse sequences optimal for dynamical decoupling. The confirmed experimental results—3.7× coherence extension from Fibonacci timing and $d_\tau = \varphi$ from anyon fusion measurements—follow from these mathematical necessities. The architectural design principles that emerge from constraint geometry (prime qubit counts, $\varphi$-ratio spacing, prime code distances) provide testable predictions for current quantum hardware.
 

@@ -3,9 +3,9 @@ title: 'ADE Domain Walls and Branch Selection'
 description: "Domain wall energies between ADE branches are finite, spanning 456×. Gap-set nesting makes E₈ maximal under inclusion. Thermal stability and frozen tunneling make selection primordial and irreversible."
 pubDate: '2026-02-18'
 updatedDate: "2026-04-19"
-zenodoDepositionId: 19652105
-zenodoUrl: "https://zenodo.org/records/19652105"
-doi: "10.5281/zenodo.19652105"
+zenodoDepositionId: 19653834
+zenodoUrl: "https://zenodo.org/records/19653834"
+doi: "10.5281/zenodo.19653834"
 category: 'core'
 order: 4
 zenodoDescription: |
@@ -33,9 +33,9 @@ keywords:
   - "spectral mismatch"
 ---
 
-The [KK spectrum computation](/kk-spectrum-e8-and-the-lcd-question) established that the Poincaré homology sphere $S^3/\mathrm{2I}$ has the deepest spectral protection gap among ADE orbifolds—56× enhancement of the KK mass gap, 15 forbidden levels, genus $g = h/2$. The ADE classification[^1] permits other branches: $E_7$ (binary octahedral), $E_6$ (binary tetrahedral), and the $D$-series (binary dihedral), each with its own orbifold, semigroup, and spectral gap. The question is whether these branches can coexist on the same 6D substrate, and if so, what energy cost the domain walls between them carry. If domain wall energies are infinite, branches are globally exclusive and $E_8$ selection is a boundary condition. If finite, coexistence is possible and the stability hierarchy determines relative populations.
+The 120-cell is the regular 4-polytope whose symmetry group $\mathrm{2I}$ (binary icosahedral, order 120) defines the Poincaré homology sphere $S^3/\mathrm{2I}$—a concrete piece of geometry built from 120 dodecahedral cells meeting at golden-ratio dihedral angles. The [KK spectrum computation](/kk-spectrum-e8-and-the-lcd-question) established that this orbifold carries the deepest spectral protection gap among ADE orbifolds—56× enhancement of the KK mass gap, 15 forbidden levels, genus $g = h/2$. The ADE classification[^1] permits other branches: $E_7$ (binary octahedral), $E_6$ (binary tetrahedral), and the $D$-series (binary dihedral), each with its own orbifold, semigroup, and spectral gap. Whether these branches coexist on the same 6D substrate reduces to a finite question about the energy cost of the domain walls between them. If domain wall energies are infinite, branches are globally exclusive and $E_8$ selection is a boundary condition. If finite, coexistence is possible and the stability hierarchy determines relative populations.
 
-## 1. Gap Sets and Structural Ordering
+## Gap Sets and Structural Ordering
 
 The [semigroup selection rule](/kk-spectrum-e8-and-the-lcd-question#4-the-numerical-semigroup) determines the forbidden KK levels for each branch from the Klein invariant degrees[^2] alone. The numerical semigroup[^3] gap sets for the four branches are:
 
@@ -62,7 +62,7 @@ $E_8$ is the unique maximal element under gap-set inclusion in the sparse regime
 
 The gap-depth hierarchy has a character-theoretic origin in the Chebyshev polynomials of the second kind. The KK multiplicity at spin $l$ on $S^3/\Gamma$ is determined by a character sum over conjugacy classes of $\Gamma$, each evaluated at the Chebyshev polynomial $U_{2l}(\cos(\theta_g/2))$, where $\theta_g$ is the rotation angle of the group element. A spin $l$ falls in the gap set precisely when destructive interference among these Chebyshev amplitudes produces exact cancellation. The depth of each branch's gap set therefore depends on the algebraic nature of the cosines at its characteristic half-angles. For binary tetrahedral ($\mathrm{2T}$, $E_6$), the half-angles are $\pi/3$ and $\pi/2$, giving $\cos(\pi/3) = 1/2$ and $\cos(\pi/2) = 0$. All even-index Chebyshev values $U_{2l}$ at these arguments are integers cycling through $\{0, \pm 1\}$, and the resulting character sums cancel at only 3 spins. For binary octahedral ($\mathrm{2O}$, $E_7$), the additional half-angle $\pi/4$ introduces $\cos(\pi/4) = \sqrt{2}/2$, but the irrationality cancels at even indices: $U_{2l}(\sqrt{2}/2) = \sin((2l+1)\pi/4)/\sin(\pi/4)$, and since $(2l+1)$ is always odd, $\sin((2l+1)\pi/4) \in \{\pm\sqrt{2}/2\}$, so $U_{2l}(\sqrt{2}/2) \in \{\pm 1\}$ exactly. Six gaps result. For binary dihedral ($\mathrm{BD}_6$, $D_8$), the half-angle $\pi/6$ gives $\cos(\pi/6) = \sqrt{3}/2$, and $U_{2l}(\sqrt{3}/2) = 2\sin((2l+1)\pi/6) \in \{\pm 1, \pm 2\}$—again all integer. Three gaps. For binary icosahedral ($\mathrm{2I}$, $E_8$), the half-angle $\pi/5$ gives $\cos(\pi/5) = \varphi/2$. The even-index values $U_{2l}(\varphi/2) = \sin((2l+1)\pi/5)/\sin(\pi/5)$ cycle through $\{0, \pm 1, \pm\varphi\}$ with period 5 in $l$. The golden ratio $\varphi$ enters the character formula directly at even indices—the only branch where this occurs. Because $\varphi$ is the worst-approximable irrational[^6] (Hurwitz 1891), the resulting destructive interference in the character sum is maximally effective: integer and irrational amplitudes cannot achieve the partial cancellations that would produce near-zero but nonzero multiplicities. They either cancel exactly or miss by an irreducible irrational margin. This algebraic incompatibility between $\varphi$ and $\mathbb{Z}$ produces the deepest gap structure—15 forbidden spins—among all ADE branches. The same period-5 cycle carries an exact algebraic identity, $\|U_{2\bullet}(\varphi/2)\|^2_5 / \|U_{2\bullet}(1/(2\varphi))\|^2_5 = \varphi^2$—the Chebyshev norm ratio that factorizes the ground-state curvature $I = 4\pi\varphi^2$ in the triadic tension analysis and sets the effective spectral dimension at the Coxeter threshold in the KK spectrum computation.
 
-## 2. Spectral Mismatch and Domain Walls
+## Spectral Mismatch and Domain Walls
 
 At a domain wall between branches $\Gamma_1$ and $\Gamma_2$, a KK mode at spin $l$ that propagates on one side ($n_l > 0$) but sits in the gap set of the other ($n_l = 0$) becomes evanescent, with decay length $\delta_l = R / \sqrt{4l(l+1)}$. Each evanescent mode contributes boundary energy proportional to its multiplicity times inverse penetration depth,
 
@@ -83,7 +83,7 @@ The hard mismatch set $\mathcal{M}$ consists of all spin values that survive on 
 
 At every $E_8$ wall, the mismatch is entirely one-directional: the column "modes forbidden only in $E_8$" is empty. The partner branch always has modes that $E_8$ forbids; $E_8$ never has modes the partner forbids. This is the set-theoretic consequence of gap-set nesting. The only pair with bidirectional mismatch is $E_6 \leftrightarrow D_8$, where each branch uniquely forbids one mode the other permits.
 
-## 3. Wall Tension Hierarchy
+## Wall Tension Hierarchy
 
 The dimensionless hard wall tension $T_{\mathrm{hard}} = \sum_{l \in \mathcal{M}} m_l \cdot \sqrt{4l(l+1)}$ was computed for each pair. The physical tension is $\sigma_{\mathrm{wall}} = T_{\mathrm{hard}} / R^3$, where $R$ is the compactification radius.
 
@@ -100,7 +100,7 @@ The hierarchy spans a factor of $\sim$456 between cheapest and most expensive. T
 
 The $E_8 \leftrightarrow E_7$ wall is dominated by its highest mismatched mode: $l = 29$ (the Frobenius number of $E_8$) contributes $\sim$49% of the total tension due to its high multiplicity ($n_{29} = 2$ in $E_7$, giving $m_{29} = 118$).
 
-## 4. Thermal Stability and the Selection Epoch
+## Thermal Stability and the Selection Epoch
 
 A domain wall is stable against thermal hole nucleation when the wall energy exceeds the available thermal energy at the thermal wavelength: $\sigma_{\mathrm{wall}} > T_{\mathrm{cosmo}}^3$. The critical temperature for each wall is
 
@@ -132,7 +132,7 @@ $E_8$ walls form first and are the last to dissolve.
 
 The dissolution ordering has a statistical-mechanical origin. The KK partition function on each orbifold $S^3/\Gamma$ is $Z_\Gamma(T) = \sum_l m_l \, e^{-\sqrt{\lambda_l}/(TR)}$, where the sum runs only over modes surviving the quotient. Branches with more gap-set deletions have fewer thermally active modes at any temperature below the compactification scale. $E_8$ deletes 15 of the first 30 levels and pushes the spectral floor to $\lambda_1 = 168$; $E_6$ deletes 3 and has $\lambda_1 = 48$; $D_8$ deletes 3 and has $\lambda_1 = 24$. As the universe cools below the compactification scale, branches with lower spectral floors activate thermal excitations first—each activated mode contributes $\sim T^4$ to the effective potential density, raising $V_{\mathrm{eff}}$ above the value of branches whose modes remain frozen. The branch that activates last has the lowest effective potential at every temperature in the cooling sequence. Gap-set nesting ($\mathrm{gap}(E_6) \subset \mathrm{gap}(E_7) \subset \mathrm{gap}(E_8)$) guarantees that $E_8$ activates last at every level: any mode frozen in a smaller gap set is necessarily frozen in $E_8$, but $E_8$ freezes additional modes that the smaller sets permit. The wall dissolution hierarchy is the domain-wall manifestation of this partition function ordering—the same physics viewed from the boundary rather than the bulk.
 
-## 5. Frozen Tunneling
+## Frozen Tunneling
 
 In the thin-wall approximation, the Euclidean bounce action for tunneling from a false vacuum to a true vacuum separated by a domain wall of tension $\sigma$ with vacuum energy splitting $\varepsilon$ is[^4]
 
@@ -167,7 +167,7 @@ At finite temperature, the thermal bounce action is $B_{\mathrm{thermal}} = 16\p
 
 Branch selection is primordial. Once a region of the 6D substrate compactifies to a particular $S^3/\Gamma$, it cannot convert to another branch by bubble nucleation—at any temperature below the compactification scale. Selection occurs during the compactification phase transition itself, when $E_8$ has the highest critical temperature, the deepest spectral gap, and the most distributed gap structure. Once formed, the frozen tunneling rates ensure it is irreversible.
 
-## 6. The Five-Leg Argument
+## Five Independent Arguments for E₈ Selection
 
 Five independent properties converge on $E_8$:
 

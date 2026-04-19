@@ -3,10 +3,10 @@ title: "Simulation Horizons, Constraints, & the Emergence of Strategic Agency"
 description: "A phase boundary for when optimization becomes strategy: systems play games only when horizon and authority justify intervention over migration under thermodynamic and institutional constraints."
 pubDate: "2025-12-21"
 category: 'applications'
-zenodoDepositionId: 19192763
-zenodoUrl: "https://zenodo.org/records/19192763"
-doi: "10.5281/zenodo.19192763"
-updatedDate: "2026-02-06"
+zenodoDepositionId: 19653864
+zenodoUrl: "https://zenodo.org/records/19653864"
+doi: "10.5281/zenodo.19653864"
+updatedDate: "2026-04-19"
 type: "analysis"
 keywords:
   - "agency"
@@ -26,13 +26,11 @@ zenodoDescription: |
   The goal is not to "prove" a single theory of agency, but to make the domain of validity of game-theoretic explanations explicit—especially in regimes (crises, panics, coordination breakdowns) where game theory is often invoked precisely as the system exits the strategic regime.
 ---
 
-Most systems do not play games. They respond to gradients.
+At 1:00 p.m. on September 16, 2008, the Reserve Primary Fund broke the buck—its share price fell to $0.97 as Lehman Brothers commercial paper on its books turned worthless overnight. Within seventy-two hours the Treasury had announced a temporary guarantee of money market fund shares, and the Federal Reserve had stood up the AMLF facility to buy asset-backed commercial paper directly from money funds. Two qualitatively different things happened inside that window. Millions of shareholders migrated—redeeming, rotating to Treasuries, following the local gradient toward safety. A small number of institutions intervened—rewriting the constraint topology itself, changing what the feasible action set looked like for everyone downstream.
 
-The distinction matters because economics and biology both reach for optimization language to compress behavior into a single object. But optimization hides a structural split: some systems move toward better conditions, while others change the conditions themselves. A migrating herd follows food gradients. A central bank reshapes the constraint topology. Both can be described as "optimizing," yet only one exhibits strategic agency in any meaningful sense.
+The distinction matters because economics and biology both reach for optimization language to compress behavior into a single object. But optimization hides a structural split: some systems move toward better conditions, while others change the conditions themselves. A migrating herd follows food gradients. A central bank reshapes the constraint topology. Both can be described as "optimizing," yet only one exhibits strategic agency in any meaningful sense. Game theory is not wrong—it is conditional. A system can only behave strategically when it can afford to model counterfactual futures and has enough authority to convert those models into world-editing actions. Below that threshold, what looks like optimization is often just motion along a constraint field.
 
-This note sketches a boundary condition for that transition. The claim is not that game theory is wrong—it is that game theory is conditional. A system can only behave strategically when it can afford to model counterfactual futures and has enough authority to convert those models into world-editing actions. Below that threshold, what looks like optimization is often just motion along a constraint field.
-
-Academically, the same boundary shows up in several nearby literatures. In control, it is the distinction between **receding-horizon control** (model predictive control) and myopic or saturated feedback: strategy requires a long enough lookahead to justify costly intervention.[^1] In economics, it aligns with **bounded rationality** (limited feasible computation) and **rational inattention** (limited feasible information processing), both of which turn foresight into a resource allocation problem.[^2][^3] In networked systems, “authority” corresponds to whether interventions can actually reach the relevant degrees of freedom—captured in the language of controllability and structural reachability.[^4]
+Academically, the same boundary shows up in several nearby literatures. In control, it is the distinction between *receding-horizon control* (model predictive control) and myopic or saturated feedback: strategy requires a long enough lookahead to justify costly intervention.[^1] In economics, it aligns with *bounded rationality* (limited feasible computation) and *rational inattention* (limited feasible information processing), both of which turn foresight into a resource allocation problem.[^2][^3] In networked systems, “authority” corresponds to whether interventions can actually reach the relevant degrees of freedom—captured in the language of controllability and structural reachability.[^4]
 
 ## The Gradient–Game Distinction
 
@@ -64,16 +62,13 @@ If strategic behavior persists as $\kappa \ll 1$, this analysis is wrong. The cl
 
 This is not a moral distinction—smart versus dumb, rational versus irrational. It is a constraint distinction. When $\kappa$ collapses through stress, bandwidth loss, or depleted slack, systems revert to migration even if they were strategic the day before.
 
-## Empirical operationalization
+## Observables for Horizon, Environment, and Authority
 
-Operationalizing the threshold means choosing observables for $\tau_{\text{ctrl}}$, $\tau_{\text{env}}$, and authority, then asking a timing question: when do the horizon and control conditions shift enough that intervention becomes the dominant mode (or collapses back into migration)? In practice, $\tau_{\text{env}}$ is set by the timescale of payoff/constraint change, $\tau_{\text{ctrl}}$ by the agent’s decision-and-actuation cycle, and authority by the geometry of the feasible action set $\mathcal{U}(x)$ and its reach through the system.
+Operationalizing the threshold means choosing observables for $\tau_{\text{ctrl}}$, $\tau_{\text{env}}$, and authority, then asking a timing question: when do the horizon and control conditions shift enough that intervention becomes the dominant mode (or collapses back into migration)? In practice, $\tau_{\text{env}}$ is set by the timescale of payoff/constraint change, $\tau_{\text{ctrl}}$ by the agent's decision-and-actuation cycle, and authority by the geometry of the feasible action set $\mathcal{U}(x)$ and its reach through the system.
 
-- **Proxies for $\tau_{\text{env}}$**: regime-switch timescales in volatility/correlation; liquidity regime half-lives; policy/constraint update cadence; characteristic time-to-forced-action in plumbing (margin/collateral cycles, settlement timelines).
-- **Proxies for $\tau_{\text{ctrl}}$**: decision cycle time $\Delta t$; time-to-build and time-to-exit for positions/projects; latency to deploy capital or policy (funding access, approval chains); effective lookahead length $H^\star\Delta t$ implied by planning artifacts (budgets, hedging horizons, inventory cycles).
-- **Proxies for authority**: balance-sheet slack and constraint capital; mandate scope; rule-setting power; actuator saturation indicators; network position for reach (critical nodes, chokepoints) as a practical proxy for structural reachability.[^4]
-- **Testable signature**: a rising gap between environment acceleration and controllable horizon—$\kappa$ compressing toward 1 from above—followed by a switch from smooth policy/position adjustment to constraint-driven discontinuities (forced deleveraging, default choices, hard rationing).
+The environment timescale is readable from regime-switch dynamics in volatility and correlation, liquidity regime half-lives, the cadence of policy and constraint updates, and the characteristic time-to-forced-action embedded in plumbing—margin and collateral cycles, settlement timelines. Each of these measures how long the constraint and payoff structure stays fixed before mutating. The controllable horizon is readable from the agent's decision cycle time $\Delta t$, the time-to-build and time-to-exit for positions or projects, the latency to deploy capital or policy (funding access, approval chains), and the effective lookahead length $H^\star \Delta t$ implied by planning artifacts such as budgets, hedging horizons, and inventory cycles. Authority is readable from balance-sheet slack and constraint capital, mandate scope, rule-setting power, actuator saturation indicators, and network position for reach—critical nodes and chokepoints as a practical proxy for structural reachability.[^4] The testable signature of regime transition is a rising gap between environment acceleration and controllable horizon—$\kappa$ compressing toward 1 from above—followed by a switch from smooth policy and position adjustment to constraint-driven discontinuities such as forced deleveraging, default choices, and hard rationing.
 
-These measurements matter because they let you mark the regime boundary empirically: the same system can exhibit “strategic” behavior in a slack, slow environment and “gradient” behavior hours later when constraint timelines shorten and admissible actions saturate.
+These measurements matter because they let you mark the regime boundary empirically: the same system can exhibit "strategic" behavior in a slack, slow environment and "gradient" behavior hours later when constraint timelines shorten and admissible actions saturate.
 
 ## Thermodynamics of Horizon
 
@@ -185,7 +180,7 @@ Once $H^\star$ falls below the environment's strategic timescale, the system cro
 
 ## A Toy Model: Leveraged Crowded Trade
 
-To see these dynamics concretely, consider a minimal model of leveraged trading with endogenous price impact, margin constraints, finite simulation horizon, and a controller that can reshape constraints. Formally, each agent is solving a constrained **receding-horizon (MPC)** problem: optimize a horizon-$H_i$ objective under state dynamics and margin feasibility, implement the first step, then roll the horizon forward.[^1]
+To see these dynamics concretely, consider a minimal model of leveraged trading with endogenous price impact, margin constraints, finite simulation horizon, and a controller that can reshape constraints. Formally, each agent is solving a constrained receding-horizon (MPC) problem: optimize a horizon-$H_i$ objective under state dynamics and margin feasibility, implement the first step, then roll the horizon forward.[^1]
 
 In discrete time, there is one risky asset with price $p_t > 0$ and two strategic agents $i \in \{1, 2\}$ holding positions $q_{i,t}$. Each agent has equity $W_{i,t} > 0$. A controller—clearinghouse, prime broker, central bank proxy—sets a margin requirement $m_t \in (0,1)$ each period.
 
@@ -251,7 +246,7 @@ Intervention replaces migration at higher complexity. This is the defining featu
 
 Crisis is horizon collapse. Panic, herding, flight-to-safety—these are not failures of rationality but rational responses under collapsed $\kappa$. Forced liquidation, margin calls, default choices—all reflect the system crossing from the strategic regime into gradient descent. Game-theoretic explanations lose power precisely because the system has exited their domain of validity.
 
-## Closing Note
+## Horizon Adequacy as the Operative Variable
 
 This piece is intended to sit alongside [Bounded Reflexivity & Constraint Theory](/bounded-reflexivity-and-constraint-theory) (the market substrate: constraints and feedback) and [Complex Adaptive Systems & Stepwise Structure Buildup](/complex-adaptive-systems-and-stepwise-structure-buildup) (the scale-by-scale buildup of organized structure) as a third foundation: when does optimization become strategy at all?
 

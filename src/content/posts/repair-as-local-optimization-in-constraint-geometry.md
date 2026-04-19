@@ -3,10 +3,10 @@ title: 'Repair as Local Optimization in Constraint Geometry'
 description: "Repair is local optimization under geometric constraint—it bends RG flow without inverting it, persists even when ineffective, and becomes structurally decisive only when net capacity exceeds overhead."
 pubDate: '2026-02-09'
 category: 'supporting'
-updatedDate: '2026-02-10'
-zenodoDepositionId: 18724813
-zenodoUrl: "https://zenodo.org/records/18724813"
-doi: "10.5281/zenodo.18724813"
+updatedDate: "2026-04-19"
+zenodoDepositionId: 19653846
+zenodoUrl: "https://zenodo.org/records/19653846"
+doi: "10.5281/zenodo.19653846"
 zenodoDescription: |
   Repair is local optimization under irreducible geometric constraint. This paper introduces repair as a first-class process in constraint geometry, proving via a Repair–Geometry Compatibility lemma that any repair operation traversing a non-integrable feasibility map incurs a strictly positive geometric overhead bounded below by the Hodge spectral gap. Two empirically distinct modes emerge—persistent local optimization (aging-like decay) and net-positive structural repair (sharp threshold)—captured by a single gating function whose sharpness classifies system regimes. The repair-augmented RG system couples maintenance load, effective dimension, and repair actuation with explicit parameter dependence. Empirical validation from 7,515 Gaia DR3 white dwarfs reveals a sharp compactness-controlled threshold at R/R_S ≈ 10³ (14.5σ, Wilcoxon p = 4.3 × 10⁻⁸⁴), with a monotonic gradient from +345 Myr median excess in the ultra-massive 500–700 bin (using relativistic ONe-core tracks) through +108 Myr at 700–900 to null above R/R_S ≈ 1300, yielding ξ_crit = 0.46 and total overhead c = 0.292.
 keywords:
@@ -139,7 +139,7 @@ A boundary note is worth stating explicitly. The repair capacity $\mathcal{R}(\x
 
 The repair analysis makes a specific empirical prediction: systems in the small-$\Delta$ regime should exhibit a sharp compactness-controlled threshold rather than smooth aging-like decay. White dwarfs provide a natural test case[^2]. As a white dwarf cools, gravitational self-energy drives $\xi$ upward through the structural saturation regime identified in the [triadic tension analysis](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry). If Mode II applies, repair effectiveness should shut off sharply once $\xi$ crosses $\xi_{\mathrm{crit}} = 1 - \sqrt{c}$, producing a discrete transition in cooling behavior at a specific compactness.
 
-To test this prediction, we examine cooling-age residuals across a compactness-stratified sample of massive white dwarfs, asking whether the data exhibit the sharp gate structure the analysis requires.
+To test this prediction, the test examines cooling-age residuals across a compactness-stratified sample of massive white dwarfs, asking whether the data exhibit the sharp gate structure the analysis requires.
 
 The test uses 7,515 DA white dwarfs from the Gaia DR3 catalog[^3], pre-filtered for $R/R_S \in [500, 1500]$ and $M \geq 1.1 \, M_\odot$ (hydrogen-atmosphere, thick-envelope fits). Cooling ages are derived from Montréal evolutionary tracks[^4] (thick-hydrogen-envelope sequences, $0.20$–$1.30 \, M_\odot$), supplemented by La Plata relativistic ONe-core tracks[^5] extending coverage to $1.369 \, M_\odot$ and CO-core GR tracks[^6] as a systematic check on core-composition sensitivity. Cooling-age residuals are constructed by $k$-nearest-neighbor matching ($k = 10$) in standardized $(M, \log T_{\mathrm{eff}})$ space against a reference population at $R/R_S \in [1000, 1500]$ where no anomaly is expected. For the ultra-massive 500–700 bin, where all objects have $M > 1.32 \, M_\odot$ and no reference population exists at comparable mass, a direct Mann-Whitney comparison against the 700–900 bin replaces kNN matching. Full methodological details are given in the Appendix.
 

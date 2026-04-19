@@ -3,10 +3,10 @@ title: 'Complex Adaptive Systems & Stepwise Structure Buildup'
 description: "Physical structure builds through a stepwise decomposition—constraints, structure, invariance, emergence—repeating across decade-organized walking plateaus of the dissipation flow."
 pubDate: '2025-10-18'
 category: 'applications'
-updatedDate: '2026-01-28'
-zenodoDepositionId: 19192737
-zenodoUrl: "https://zenodo.org/records/19192737"
-doi: "10.5281/zenodo.19192737"
+updatedDate: "2026-04-19"
+zenodoDepositionId: 19653855
+zenodoUrl: "https://zenodo.org/records/19653855"
+doi: "10.5281/zenodo.19653855"
 keywords:
   - "complexity"
   - "emergence"
@@ -26,7 +26,7 @@ zenodoDescription: |
 
 ---
 
-Every organized system maintains structure against entropy, and the cost of that maintenance increases with organizational complexity. The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) establishes the mathematical foundations: three curvature sectors compete under a single variational functional, their frustration forces nonzero ground-state curvature, and the resulting dissipation $\beta$-function governs how maintenance overhead flows across scales.
+Hydrogen's Balmer-alpha line sits at 656.3 nm in a laboratory discharge tube, and it sits at 656.3 nm in a galaxy 13 billion light-years away—redshifted by cosmological expansion, but structurally identical in every rest-frame spectrum ever measured. The same invariance recurs downward in the stack: ATP hydrolysis releases roughly 50 kJ/mol in bacteria, in plants, and in human neurons, and the resting potential across neuronal membranes stabilizes near $-70$ mV regardless of species. These invariants are not coincidences of convergent history; they are the signatures of completed scale transitions, each locking in constraints that the next scale inherits. The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) establishes the underlying machinery: three curvature sectors compete under a single variational functional, their frustration forces nonzero ground-state curvature, and the resulting dissipation $\beta$-function governs how maintenance overhead flows across scales.
 
 A structural principle follows from that geometry: one coarse-graining flow can be resolved into a recurring stepwise decomposition in which inherited constraints select stable structure, structure preserves invariants under recursion, and stabilized emergence supplies the inherited constraints for the next regime.
 
@@ -44,15 +44,15 @@ This sequence is irreversible. Each stage presupposes the previous one: structur
 
 Each completed step occupies a characteristic maintenance fraction $\xi$, the fraction of a system's energy budget devoted to curvature maintenance. The [maintenance $\beta$-function](/triadic-tension-decade-symmetry-and-dissipation-flow-in-constraint-geometry) governs how $\xi$ flows across scales, driven by the coupling constant $u^* = 4\pi\varphi^2/10 \approx 3.29$ derived from triadic tension. The observed regime structure—particles at $\xi \sim 10^{-6}$, atoms at $\sim 10^{-3}$, molecules at $\sim 10^{-2}$, biological systems at $\sim 10^{-1}$—occupies walking plateaus of this flow, each corresponding to a completed stepwise transition at a new physical scale.
 
-## Across Physical Regimes
+## Physical Regimes and Stepwise Buildup
 
 **Quantum fields to particles.** Quantum field theory provides the initial constraints: gauge symmetries, conservation laws, and the uncertainty principle define what configurations of field excitations can persist. Structure appears as stable solutions to the field equations—the electron as a stable excitation of the Dirac field[^1], quarks confined by QCD[^2]. Invariance manifests through conserved quantum numbers: spin, charge, color, and flavor, each following from symmetry via Noether's theorem. Emergence produces particles with definite mass, charge, and spin—properties that no individual field fluctuation possesses. These emerged particles, with their specific masses and coupling constants, become the constraints for atomic physics.
 
-**Particles to atoms.** Electron mass, charge, and spin set electromagnetic coupling strength. Quark confinement establishes nucleon masses. The Coulomb potential and Pauli exclusion organize electrons into shells following the aufbau principle, producing the periodic table as emerged structure from quantum constraints. Invariance appears through atomic spectra—hydrogen's Balmer series[^3] at 656.3 nm, 486.1 nm, 434.0 nm, 410.2 nm is identical whether measured on Earth or observed in galaxies 13 billion light-years away. Emergence produces stable atoms with shell structure and spectral identities that persist across environments.
+**Particles to atoms.** Electron mass, charge, and spin set electromagnetic coupling strength. Quark confinement establishes nucleon masses. The Coulomb potential and Pauli exclusion organize electrons into shells following the aufbau principle, producing the periodic table as emerged structure from quantum constraints. Invariance appears through atomic spectra—hydrogen's Balmer series[^3] at 656.3 nm, 486.1 nm, 434.0 nm, 410.2 nm is identical whether measured on Earth or observed in galaxies 13 billion light-years away. Emergence produces stable atoms with shell structure and spectral identities that persist across environments. The Balmer wavelengths are the observable readout of a completed transition: inherited particle properties select a discrete shell structure whose spectrum is the invariant the next scale inherits.
 
 **Atoms to molecules.** Atomic shell structure, valence restrictions, and thermodynamic stability constrain which bonds can persist. Structure appears as molecular orbitals, bond geometries, and conformational families. Invariance appears through conserved stoichiometric and spectroscopic signatures that survive across repeated reactions and environments. Emergence produces chemical functionality: catalysis, collective vibrational structure, and reaction pathways absent in isolated atoms.
 
-**Molecules to biology.** Covalent bonding rules, thermodynamic stability limits, and reaction kinetics constrain what biological structures can exist. Metabolic networks organize around ATP synthesis. Genetic systems organize around the DNA-RNA-protein information flow. Membranes form compartments separating inside from outside. Invariance manifests through universal biological constants: ATP provides approximately 50 kJ/mol across all known life[^4], the genetic code maps codons to amino acids identically from bacteria to humans[^5], and membrane potentials maintain approximately $-70$ mV regardless of cell type[^6]. Emergence produces metabolism, replication, and homeostasis—collective functions no individual molecule possesses.
+**Molecules to biology.** Covalent bonding rules, thermodynamic stability limits, and reaction kinetics constrain what biological structures can exist. Metabolic networks organize around ATP synthesis. Genetic systems organize around the DNA-RNA-protein information flow. Membranes form compartments separating inside from outside. Invariance manifests through universal biological constants: ATP provides approximately 50 kJ/mol across all known life[^4], the genetic code maps codons to amino acids identically from bacteria to humans[^5], and membrane potentials maintain approximately $-70$ mV regardless of cell type[^6]. Emergence produces metabolism, replication, and homeostasis—collective functions no individual molecule possesses. The constancy of the 50 kJ/mol energy quantum, the codon table, and the $-70$ mV setpoint across every lineage ever measured is the operational signature that the molecule-to-biology transition is complete—these are the invariants living systems must inherit intact or cease to be living systems.
 
 ## Curl and Irreversibility
 
@@ -74,7 +74,7 @@ Stepwise buildup proceeds unidirectionally because curl accumulation is one-way.
 
 The stepwise decomposition describes the local anatomy of one resolved transition. Across broader ranges of scale, completed transitions appear as walking plateaus of the same flow. Particles, atoms, molecules, and biological systems label stabilized physical regimes where the flow dwells while the inherited constraints of one completed step organize the next. The decade spacing of these plateaus follows from the $C_{10}$ shell structure of the RG flow.
 
-## Scope and Limitations
+## Failure Modes of the Stepwise Principle
 
 The structural principle rests on claims that can be challenged at several levels.
 

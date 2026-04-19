@@ -4,9 +4,9 @@ description: "Hilbert's 1900 call for axiomatic physics asked whether nature dem
 pubDate: '2026-01-10'
 category: 'supporting'
 updatedDate: "2026-04-19"
-zenodoDepositionId: 19653009
-zenodoUrl: "https://zenodo.org/records/19653009"
-doi: "10.5281/zenodo.19653009"
+zenodoDepositionId: 19653845
+zenodoUrl: "https://zenodo.org/records/19653845"
+doi: "10.5281/zenodo.19653845"
 zenodoDescription: |
   In 1900, David Hilbert challenged mathematicians to axiomatize physics with the same rigor as geometry. The sixth of his famous problems specifically called for a mathematical treatment of probability in mechanics. Over a century later, the problem remains formally open.
 
@@ -28,9 +28,9 @@ keywords:
   - "emergence"
 ---
 
-In 1900, David Hilbert called for the axiomatization of physics, specifically naming probability in mechanics as requiring rigorous foundation. The problem remains formally open. The following analysis argues that Hilbert's question reduces to whether nature demands infinite information to specify its state. Three established constraints—Landauer's principle, the Margolus-Levitin bound, and the holographic principle—together imply a finite universal information capacity of approximately $10^{123}$ bits. Statistical mechanics works because the universe cannot track trajectories with infinite precision. What appears as fundamental randomness is the resolution limit of a finite information substrate.
+In 1900, David Hilbert called for the axiomatization of physics, specifically naming probability in mechanics as requiring rigorous foundation. The problem remains formally open. Hilbert's question reduces to whether nature demands infinite information to specify its state. Three established constraints—Landauer's principle, the Margolus-Levitin bound, and the holographic principle—together imply a finite universal information capacity of approximately $10^{123}$ bits. Statistical mechanics works because the universe cannot track trajectories with infinite precision. What appears as fundamental randomness is the resolution limit of a finite information substrate.
 
-## What Hilbert Actually Asked
+## Hilbert's Sixth Problem and the Axiomatization of Physics
 
 At the 1900 International Congress of Mathematicians in Paris, Hilbert presented twenty-three problems intended to guide mathematical research for the coming century. The sixth concerned physics:
 
@@ -122,7 +122,7 @@ $$
 
 where the entropy constraint $S[P] = S_0$ prevents degenerate solutions—delta functions that would concentrate all information at a single point. This constraint is precisely the variational analog of finite information capacity: it forces the system to spread its information budget across the domain rather than concentrating it with infinite precision at any location. The well-posedness of the constraint functional depends on this finite-information condition. Without it, the variational problem admits singular solutions that correspond to infinite-precision states—the variational analog of the ultraviolet catastrophe.
 
-## What This Reframes
+## Reframings from Finite Information Capacity
 
 The finite-information perspective clarifies phenomena that otherwise require ad hoc explanation.
 
@@ -132,25 +132,25 @@ Emergence in complex systems—the appearance of collective behavior irreducible
 
 Gravitational collapse is the sharpest instance of the same principle. The electromagnetic ultraviolet catastrophe was an information overflow in *spectral density*—too many modes, each costing $k_B T \ln 2$ to specify—and Planck resolved it by spectral truncation, capping the number of effectively occupied modes in frequency space. A gravitational system approaching the black hole regime faces an analogous divergence in a different variable. Three-dimensional information processing at Planck-scale densities requires coordination overhead scaling as $N^{4/3}$, which exceeds the holographic area budget as compactness rises. The divergence is in *spatial coordination*—too many communication channels—rather than spectral density. The resolution is *dimensional truncation*: the radial dimension freezes, effective dimension drops from 3 to 2, and coordination overhead drops from $N^{4/3}$ to $N$. The [Bekenstein-Hawking area law](/black-hole-horizons-and-dimensional-reduction-correspondence) is the specific form of the cutoff—the geometric analog of Planck's spectral cutoff, operating in real space rather than frequency space. The cascade has two rungs with integer-exact structure: the white-dwarf-to-neutron-star transition at the Chandrasekhar limit ([Type Ia supernovae](/type-ia-supernova-information-theoretic-energetics), Landauer-priced at $4.3 \times 10^{44}$ J) resolves an information bankruptcy in the complexity multiplier; the neutron-star-to-black-hole transition at the $E_8$ Coxeter threshold, via the [geometric slack mapping](/from-lattice-projection-to-cosmic-expansion) $l_{\max} = \lfloor h(1/\xi - 1)\rfloor = \lfloor 30(1/\xi - 1)\rfloor$, resolves a geometric bankruptcy. PSR J0740+6620 at $\xi = 0.493$ lands on $l_{\max} = 30$ exactly. Both rungs are the same principle Hilbert's sixth problem reduces to: infinite information request from finite substrate, resolved by the minimum structural change that renders the demand finite.
 
-## Scope and Boundaries
+## Scope of the Finite-Information Claim
 
-Hilbert's sixth problem asked for axioms. This analysis offers none. No formal system is proposed from which statistical mechanics follows as theorem. The contribution is explanatory rather than foundational in the technical sense—an account of why physics admits statistical description given physical constraints on information, rather than a derivation of statistical mechanics from first principles.
+Hilbert's sixth problem asked for axioms. This analysis offers none. No formal system is proposed from which statistical mechanics follows as theorem. The contribution is explanatory rather than foundational in the technical sense—an account of why physics admits statistical description given physical constraints on information, rather than a derivation of statistical mechanics from first principles. What the analysis does provide is a physical reason for statistical description in mechanics: finite information capacity is the foundation, and statistics enters physics because the alternative—infinite-precision determinism—requires infinite information that finite physical systems cannot process.
 
-The finite-information bound constrains what models are possible without selecting among them uniquely. What follows from the bound is that some discretization at some scale must exist, since continuous fields with infinite precision at infinite points would require infinite information. The specific discrete structure—its geometry, topology, and dynamics—remains underdetermined by the information bound alone.
+### The Information-Theoretic Reframing
 
-Similarly, explaining why a cutoff must exist differs from deriving quantum mechanics. The information-theoretic argument establishes that infinite modes cannot be processed, which motivates the quantum but does not determine its form. Why the cutoff takes the specific shape of Planck's constant, why Bose-Einstein and Fermi-Dirac statistics govern particles, why the Born rule assigns probabilities as it does—these remain beyond what information-capacity arguments alone can reach. The measurement problem and interpretational disputes about quantum probability persist independently.
+The claim that Hilbert's question "reduces to" whether nature requires infinite information is an interpretive move, not a derivation. One could accept all three physical bounds while denying that they answer Hilbert's question, which asked for axioms, not physical explanations. The reframing offers explanatory closure but not the formal resolution Hilbert sought.
 
-What the analysis does provide is a physical reason for statistical description in mechanics. Hilbert asked for rigorous foundations. The answer emerging from a century of physics is that finite information capacity is the foundation. Statistics enters physics because the alternative—infinite-precision determinism—requires infinite information that finite physical systems cannot process.
+### The Holographic Bound's Status
 
-## Scope and Limitations
+The $10^{123}$-bit estimate relies on the holographic principle, which is well-established for black holes but whose status as a universal information bound remains debated. If holography applies only to gravitational horizons rather than to arbitrary spatial regions, the universal bound weakens and the argument's quantitative force diminishes (though Landauer and Margolus-Levitin still impose finite capacity).
 
-**The information-theoretic reframing itself.** The claim that Hilbert's question "reduces to" whether nature requires infinite information is an interpretive move, not a derivation. One could accept all three physical bounds while denying that they answer Hilbert's question, which asked for axioms, not physical explanations. The reframing offers explanatory closure but not the formal resolution Hilbert sought.
+### Discretization Without Specified Structure
 
-**The holographic bound as fundamental.** The $10^{123}$-bit estimate relies on the holographic principle, which is well-established for black holes but whose status as a universal information bound remains debated. If holography applies only to gravitational horizons rather than to arbitrary spatial regions, the universal bound weakens and the argument's quantitative force diminishes (though Landauer and Margolus-Levitin still impose finite capacity).
+The finite-information bound constrains what models are possible without selecting among them uniquely. It establishes that some discretization at some scale must exist, since continuous fields with infinite precision at infinite points would require infinite information, but it does not determine the character of that discretization—its geometry, topology, and dynamics remain underdetermined by the information bound alone. This is a feature (the conclusion is robust to implementation details) and a vulnerability (it cannot make predictions that depend on the specific discrete structure). Any observation requiring knowledge of the discretization's geometry would exceed what the information bound alone can provide. Similarly, explaining why a cutoff must exist differs from deriving quantum mechanics: the information-theoretic argument establishes that infinite modes cannot be processed, which motivates the quantum but does not determine its form. Why the cutoff takes the specific shape of Planck's constant, why Bose-Einstein and Fermi-Dirac statistics govern particles, why the Born rule assigns probabilities as it does—these remain beyond what information-capacity arguments alone can reach, and the measurement problem and interpretational disputes about quantum probability persist independently.
 
-**Discretization without specifying structure.** The argument establishes that some discretization must exist but does not determine its character. This is a feature (the conclusion is robust to implementation details) and a vulnerability (it cannot make predictions that depend on the specific discrete structure). Any observation requiring knowledge of the discretization's geometry would exceed what the information bound alone can provide.
+### Statistical Necessity Versus Statistical Convenience
 
-**Statistical necessity vs. statistical convenience.** The strongest claim—that probability is *physically necessary* rather than merely *practically convenient*—requires that finite information capacity is a feature of nature rather than of our models. If future physics discovers a way to encode infinite precision in finite energy (violating Landauer's bound), the necessity claim collapses to a convenience claim. Landauer's principle has strong theoretical and experimental support[^12], but it is a physical law, not a mathematical theorem, and remains in principle falsifiable.
+The strongest claim—that probability is *physically necessary* rather than merely *practically convenient*—requires that finite information capacity is a feature of nature rather than of our models. If future physics discovers a way to encode infinite precision in finite energy (violating Landauer's bound), the necessity claim collapses to a convenience claim. Landauer's principle has strong theoretical and experimental support[^12], but it is a physical law, not a mathematical theorem, and remains in principle falsifiable.
 
 [^1]: Hilbert, D. (1902). Mathematical Problems. *Bulletin of the American Mathematical Society*, 8(10), 437-479. English translation by Mary Frances Winston Newson of the original 1900 address.
 

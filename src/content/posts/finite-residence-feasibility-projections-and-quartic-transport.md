@@ -2,11 +2,12 @@
 title: 'Finite Residence, Feasibility Projections, & Quartic Transport'
 description: "A state-dependent feasibility projection annihilates the first-order shear operator, forcing hydrodynamic relaxation from k² to k⁴. Finite residence of balanced Navier–Stokes states is the dynamical realization."
 pubDate: '2026-02-09'
+updatedDate: "2026-04-19"
 category: 'supporting'
 draft: true
-zenodoDepositionId: 19228183
-zenodoUrl: "https://zenodo.org/records/19228183"
-doi: "10.5281/zenodo.19228183"
+zenodoDepositionId: 19653848
+zenodoUrl: "https://zenodo.org/records/19653848"
+doi: "10.5281/zenodo.19653848"
 zenodoDescription: |
   When a state-dependent feasibility projection acts on the constitutive stress tensor and places the first-order shear operator in its nullspace, the k² diffusive pole is structurally forbidden—not parametrically suppressed. The leading admissible relaxation shifts to k⁴ via a Burnett-type operator, with k³ excluded by stress tensor symmetry σ_ij = σ_ji. The selection rule Π_x[σ_ij] = 0 is an operator-level statement whose dynamical realization is the finite residence of balanced Navier–Stokes states: DNS shows these configurations are crossed but not occupied, with escape occurring preferentially through loss of recursive coherence rather than collapse of stretching. The mechanism unifies independent k⁴ observations across non-relativistic Lifshitz holography (where bulk couplings cancel k² contributions), fracton and dipole-conserving fluids (where enhanced symmetry constraints forbid first-order kinetics), and photonic quasicrystal spectral reorganization under irrational projection methods. The analysis situates quartic transport within constraint geometry as a transport-sector instantiation of the curl-maintenance floor established in the geometry of self-correction.
 keywords:
@@ -27,7 +28,7 @@ keywords:
   - "dipole conservation"
 ---
 
-Subdiffusive shear modes—relaxation scaling as $k^4$ rather than the standard $k^2$—appear in systems with no disorder, no exotic symmetries, and no fine-tuning. The phenomenon arises independently in non-relativistic holographic field theories dual to Lifshitz spacetimes[^1], in dipole-conserving and fracton fluids where enhanced symmetry constraints suppress first-order kinetics[^2][^3], and in fully classical Navier–Stokes turbulence where the [finite-residence observation](/navier-stokes-vorticity-growth-and-finite-residence-of-balanced-states) shows balanced configurations are crossed but not occupied. The diversity of settings suggests a structural origin: the configurations that would support standard diffusive transport cannot persist dynamically. This paper makes the mechanism precise. When a state-dependent feasibility projection acts on the constitutive stress tensor and annihilates the first-order shear operator, the $k^2$ pole is removed from the hydrodynamic spectrum. The leading admissible relaxation is then quartic, arising from the next operator in the gradient expansion that survives the projection. The result is a selection rule—the first-order transport operator is structurally forbidden, not parametrically suppressed—and finite residence of balanced states is its dynamical signature.
+Subdiffusive shear modes—relaxation scaling as $k^4$ rather than the standard $k^2$—appear in systems with no disorder, no exotic symmetries, and no fine-tuning. The phenomenon arises independently in non-relativistic holographic field theories dual to Lifshitz spacetimes[^1], in dipole-conserving and fracton fluids where enhanced symmetry constraints suppress first-order kinetics[^2][^3], and in fully classical Navier–Stokes turbulence where the [finite-residence observation](/navier-stokes-vorticity-growth-and-finite-residence-of-balanced-states) shows balanced configurations are crossed but not occupied. The diversity of settings suggests a structural origin: the configurations that would support standard diffusive transport cannot persist dynamically. When a state-dependent feasibility projection acts on the constitutive stress tensor and annihilates the first-order shear operator, the $k^2$ pole is removed from the hydrodynamic spectrum. The leading admissible relaxation is then quartic, arising from the next operator in the gradient expansion that survives the projection. The result is a selection rule—the first-order transport operator is structurally forbidden, not parametrically suppressed—and finite residence of balanced states is its dynamical signature.
 
 ## The Shear Channel and Standard Diffusion
 
@@ -87,7 +88,7 @@ The critical distinction is between suppressing a coefficient and forbidding an 
 
 ### Basin of Attraction, Not Exact Feasibility
 
-Following physics-corrected DDIM for ACOPF[^5], we treat feasibility as enforced by an external projection/correction operator; the role of the proposal dynamics is to place trajectories within the projector's attraction basin, not to satisfy feasibility identically.
+Following physics-corrected DDIM for ACOPF[^5], feasibility is treated as enforced by an external projection/correction operator; the role of the proposal dynamics is to place trajectories within the projector's attraction basin, not to satisfy feasibility identically.
 
 **Lemma (Basin sufficiency).** It is sufficient that the proposal dynamics land within the basin of attraction of the feasibility operator $\Pi_x$; exact feasibility is enforced by the projector[^5].
 
@@ -149,7 +150,7 @@ The shift is by two derivative orders because rotational invariance of the stres
 
 The nullspace selection rule has an independent spectral formulation: in the Mori–Zwanzig continued-fraction expansion of the transverse resolvent, the condition $\Pi_x[\sigma_{xy}] = 0$ forces the leading Lanczos coefficient to scale as $O(k^2)$ rather than $O(1)$, shifting the continued-fraction pole from $k^2$ to $k^4$ without invoking the gradient expansion[^7]. The hydrodynamic generator is non-Hermitian, so this route uses memory-function recursion rather than the Hermitian Lanczos algorithm; recent work on resolvent-dressed Krylov distributions provides a static diagnostic procedure for detecting the regime shift numerically[^7].
 
-The structure mirrors the deterministic-path/correction split in constrained diffusion for ACOPF[^5]. DDPM corresponds to many small stochastic steps preserving a Markovian approximation; DDIM corresponds to a deterministic, non-Markovian path with explicit constraint correction at each step[^5]. This mirrors constrained DDIM for ACOPF: a fast deterministic trajectory is taken, and feasibility is enforced by explicit residual-gradient corrections at each step rather than by requiring the base model to be feasible. In the present analysis, the first-order integrable channel ($k^2$) plays the role of the slow stochastic path, and the quartic channel ($k^4$) is the deterministic fast path that survives projection. The drift risk from skipping intermediate steps maps to falling off the integrable manifold, and the correction at each scale maps to the projection defect that forces the $k^4$ channel.
+The structure mirrors the deterministic-path/correction split in constrained diffusion for ACOPF[^5]. DDPM corresponds to many small stochastic steps preserving a Markovian approximation; DDIM corresponds to a deterministic, non-Markovian path with explicit constraint correction at each step[^5]. In the present analysis, the first-order integrable channel ($k^2$) plays the role of the slow stochastic path, and the quartic channel ($k^4$) is the deterministic fast path that survives projection. The drift risk from skipping intermediate steps maps to falling off the integrable manifold, and the correction at each scale maps to the projection defect that forces the $k^4$ channel.
 
 ## Finite Residence as the Dynamical Realization
 
@@ -165,7 +166,7 @@ A clarification on the logical status of this correspondence: the DNS motivates 
 
 The conjecture is independently testable through static spectral diagnostics. A resolvent-dressed Krylov distribution—measuring how inverse-energy response spreads along Lanczos basis indices[^7]—localizes exponentially when the spectral parameter $\xi$ lies near a quasi-bound state (a persistent integrable manifold) and spreads extensively when $\xi$ lies in a continuous band. If balanced configurations were dynamically persistent, the distribution near $\xi = 0$ would localize at low Krylov levels; finite residence predicts extensive spreading instead. Computing this distribution around high-vorticity balanced configurations in DNS would test the nullspace condition spectrally, independent of the constitutive argument.
 
-## Connection to Constraint Geometry
+## The Nullspace Rule as Sectorized Curl Floor
 
 The selection rule $\Pi_x[\sigma_{ij}] = 0$ is a sectorized version of the same obstruction that appears throughout constraint geometry.
 
@@ -179,7 +180,7 @@ The [compressor instantiation](/compressors-curl-and-constraint-geometry) exhibi
 
 The independent emergence of $k^4$ shear across multiple settings admits a unified reading through the feasibility projection mechanism. In Lifshitz holography[^1], the Lifshitz scaling exponent and bulk couplings cause the $k^2$ contributions from the two coupled perturbation channels (metric and gauge/momentum) to cancel in the matched asymptotic expansion, leaving quartic dispersion as the leading survivor—a cancellation that the selection rule identifies as structural rather than algebraic. In dipole-conserving fluids[^2][^3], the conservation of dipole moment imposes kinematic constraints that forbid the first-order transport operator at the level of symmetry, producing subdiffusive shear as the generic outcome—precisely the operator-nullspace mechanism formalized here. In non-Hermitian acoustic Chern lattices[^9], a single dislocation defect reorganizes the bulk spectrum globally—extended states collapse onto the defect site and the skin effect converts from boundary-bound to dislocation-bound—so that a finite local constraint annihilates bulk operator channels in an experimentally realized setting. In each case, some constraint (Lifshitz scaling, dipole conservation, non-Hermitian dislocation, feasibility projection) removes the first-order shear operator from the implemented dynamics, and the leading admissible channel shifts to $k^4$. The feasibility projection analysis provides the operator-level account of why this shift occurs: the constraint architecture places $\sigma_{ij}$ in the nullspace of the implementation map, regardless of the specific physical mechanism that enforces the constraint.
 
-## Limitations and Falsifiability
+## Exposed Assumptions and Falsifiability Criteria
 
 The derivation of quartic dispersion from the nullspace condition $\Pi_x[\sigma_{ij}] = 0$ is an operator-level result that does not depend on Navier–Stokes specifically. The interpretive step—identifying finite residence of balanced DNS states with the nullspace condition—is where the argument is most exposed.
 
