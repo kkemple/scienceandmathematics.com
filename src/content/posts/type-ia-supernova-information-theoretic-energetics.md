@@ -3,10 +3,10 @@ title: 'Type Ia Supernova Information-Theoretic Energetics'
 description: "A thermodynamic lower bound on Type Ia supernova energetics from Landauer's principle applied to phase-space reorganization at the Chandrasekhar limit. Four inputs yield E ≳ 10⁴⁴ J."
 pubDate: '2025-09-29'
 category: 'supporting'
-updatedDate: "2026-03-28"
-zenodoDepositionId: 19283885
-zenodoUrl: "https://zenodo.org/records/19283885"
-doi: "10.5281/zenodo.19283885"
+updatedDate: "2026-04-19"
+zenodoDepositionId: 19652973
+zenodoUrl: "https://zenodo.org/records/19652973"
+doi: "10.5281/zenodo.19652973"
 keywords:
   - "Type Ia supernova"
   - "Chandrasekhar limit"
@@ -132,7 +132,9 @@ The [constraint geometry](/triadic-tension-decade-symmetry-and-dissipation-flow-
 
 The four observational inputs—Chandrasekhar mass, white dwarf radius, compression proxy, and shock temperature—enter the Landauer calculation. No parameters from the constraint geometry appear in the energy estimate itself. The constraint geometry's role is to predict *when* the transition occurs (at the $(1-\xi)^{-u^*}$ divergence) and *why* (information bankruptcy under triadic tension).
 
-## Discussion
+The Type Ia transition is the first rung of a two-rung gravitational cascade. The second rung—neutron star collapse to a black hole—occurs at the $E_8$ Coxeter threshold via the [geometric slack mapping](/from-lattice-projection-to-cosmic-expansion) $l_{\max} = \lfloor h(1/\xi - 1)\rfloor = \lfloor 30(1/\xi - 1)\rfloor$, when macroscopic compactness $\xi = R_S/R$ reaches $0.5$. PSR J0740+6620 at $\xi = 0.493$ sits on this boundary at $l_{\max} = 30$; beyond it, the system requests internal Kaluza–Klein modes below the Coxeter number, descending into the 15 forbidden levels of the $\langle 6, 10, 15\rangle$ gap set, and the internal geometry executes the topological phase transition to a two-dimensional horizon. The first rung is driven by information bankruptcy in the complexity multiplier $(1-\xi)^{-u^*}$; the second by geometric bankruptcy in the slack mapping. Both rungs are Landauer-priced reorganizations of a single substrate failure—a gravitational ultraviolet catastrophe structurally parallel to Planck's 1900 problem, with dimensional cutoff (gravity, 3D $\to$ 2D) replacing spectral cutoff (electromagnetism, $h\nu$). The Type Ia energy quantifies the Landauer cost of the first rung; the Bekenstein–Hawking area law quantifies the geometric cost of the second.
+
+## Conclusion
 
 The bound is most transparently written as,
 
@@ -140,7 +142,7 @@ $$
 E \gtrsim N \, k_B T \ln 2 \, \log_2 \chi \simeq \Delta N_b \, k_B T \ln 2,
 $$
 
-which makes clear that the estimate depends only logarithmically on the compression proxy $\chi$ but linearly on $T$. With four inputs ($M_{\text{Ch}}$, $R_{\text{WD}}$, a density-contrast proxy such as $R_{\text{nuc}}$ or $\chi$, and a characteristic $T$), a simple state-counting model combined with Landauer's bound provides a compact constraint on the SN Ia energy scale. Whether (and in what sense) the explosion dynamics approach this bound requires a microphysical identification of the relevant dissipative degrees of freedom, which is beyond the scope of this estimate.
+which factors the bit budget into the baryon count $N$ and the compression $\log_2 \chi$. With four inputs ($M_{\text{Ch}}$, $R_{\text{WD}}$, a density-contrast proxy such as $R_{\text{nuc}}$ or $\chi$, and a characteristic $T$), a simple state-counting model combined with Landauer's bound provides a compact constraint on the SN Ia energy scale. Whether (and in what sense) the explosion dynamics approach this bound requires a microphysical identification of the relevant dissipative degrees of freedom, which is beyond the scope of this estimate.
 
 [^1]: Maoz, D., Mannucci, F., & Nelemans, G. (2014). Observational Clues to the Progenitors of Type Ia Supernovae. *Annual Review of Astronomy and Astrophysics*, 52, 107-170.
 

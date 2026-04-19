@@ -24,6 +24,7 @@ pnpm-debug.log*
 .DS_Store
 
 #local files
+logs/
 notes/
 pdfs/
 retired_posts/
@@ -31,4 +32,3 @@ retired_posts/
 # Claude
 Claude.md
 .claude/
-logs/
