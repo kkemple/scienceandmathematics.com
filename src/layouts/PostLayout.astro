@@ -133,7 +133,6 @@ const citationDate = pubDate.toISOString().split('T')[0].replace(/-/g, '/')
         <div class="title">
           <div class="title-header">
             <h1>{title}</h1>
-            <CopyPostButton />
           </div>
           <div class="date">
             <FormattedDate date={pubDate} context="post" />
@@ -155,6 +154,9 @@ const citationDate = pubDate.toISOString().split('T')[0].replace(/-/g, '/')
               authors={authors}
             />
           )}
+        </div>
+        <div class="copy-post-wrapper">
+          <CopyPostButton />
         </div>
         <slot />
       </div>
@@ -192,6 +194,10 @@ const citationDate = pubDate.toISOString().split('T')[0].replace(/-/g, '/')
   .title-header h1 {
     margin: 0;
     flex: 1;
+  }
+
+  .copy-post-wrapper {
+    margin: 1.5rem 0 2rem;
   }
 
   @media (max-width: 640px) {
