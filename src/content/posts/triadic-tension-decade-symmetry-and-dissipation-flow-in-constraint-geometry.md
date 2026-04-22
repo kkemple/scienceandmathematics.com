@@ -2,10 +2,10 @@
 title: 'Triadic Tension, Decade Symmetry, & Dissipation Flow in Constraint Geometry'
 description: "Three curvature sectors compete under one constraint functional on S³/2I. Their incompatibility forces ground-state curvature I = 4πφ², C₁₀ decade symmetry, and a geometrically determined β-function."
 pubDate: '2025-11-28'
-zenodoDepositionId: 19655445
-zenodoUrl: "https://zenodo.org/records/19655445"
-doi: "10.5281/zenodo.19655445"
-updatedDate: "2026-04-19"
+zenodoDepositionId: 19700763
+zenodoUrl: "https://zenodo.org/records/19700763"
+doi: "10.5281/zenodo.19700763"
+updatedDate: "2026-04-22"
 category: 'core'
 order: 2
 keywords:
@@ -157,6 +157,8 @@ encodes correlations among sector fluctuations. The sign and magnitude of the of
 ## The Triadic Tension Theorem
 
 The constraint functional $F[P] = F_\pi[P] + F_\varphi[P] + F_N[P]$ decomposes into three curvature sectors that cannot be simultaneously minimized. This mutual incompatibility—triadic tension—is the foundational structural claim of constraint geometry. It forces nonzero ground-state curvature, generates the composite invariant $I = 4\pi\varphi^2$, and ultimately determines the RG coupling $u^* = I/10$ that governs all dissipation flow.
+
+Tension here names a coexistence condition: mutually restricting constraints whose joint admissible set is strictly smaller than either set alone, with a minimum displaced from every individual sector's minimum. That displacement is what forces the positive ground-state curvature stated in T4. Triadic tension is this condition in its three-sector form.
 
 If this claim fails—if some configuration simultaneously minimizes all three sectors—then the ground state carries zero curvature, the composite invariant $I$ vanishes, $u^* = 0$, the $\beta$-function has zero coupling, and the entire RG structure collapses.
 
@@ -397,10 +399,6 @@ where the Chebyshev polynomials evaluated at $\cos(\pi/5) = \varphi/2$ and $\cos
 The product $\kappa_\pi \cdot \lambda_\varphi$—rather than a sum—arises because the angular and log-radial sectors probe independent coordinates of a locally product configuration space $\mathcal{M}_\pi \times \mathbb{R}_\varphi$, and spectral content on product spaces factorizes (heat-kernel product identity). Every factor is forced: $\kappa_\pi = 4\pi$ by Gauss–Bonnet on $S^2$ at the $\mathcal{D} = 2$ IR endpoint; $\varphi^2$ by the Penrose substitution matrix spectrum; the denominator $10$ by the decagonal order of $\mathrm{2I}$; the product being nonzero by triadic tension (T4). $C_{10}$ symmetry of the ground state and the decade partition yielding $u^* = I/10$ follow (Section 5).
 
 The constraint functional arises from projecting a 6D periodic lattice to 3D, producing the orbifold $S^3/\mathrm{2I}$ (the Poincaré homology sphere). The same projection that creates the frustration also creates a spectral gap: scalar fields on $S^3/\mathrm{2I}$ decompose into Kaluza–Klein modes, and the orbifold quotient deletes every mode not invariant under $\mathrm{2I}$. The surviving spins form the numerical semigroup $\langle 6, 10, 15 \rangle$, with 15 gaps. Those 15 missing KK modes are the spectral signature of the frustration; the nonzero ground-state curvature $I > 0$ is the variational signature. The Chebyshev norm ratio is exact over the full period that controls the gap structure. The full chain from the 6D lattice through the KK spectrum to the $\beta$-function is developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion).
-
-### Open Questions and Eigenmode Transition Dynamics
-
-**Eigenmode transition dynamics.** The $\beta$-function's cosmological consequences—eigenmode switching at $z \approx 0.63$, the dark energy equation of state from the N-sector curvature pump, and the approach window $[\xi_c, u^*/10] = [0.304, 0.329]$—are developed in [From Lattice Projection to Cosmic Expansion](/from-lattice-projection-to-cosmic-expansion). A first-principles derivation of the bare constraint coupling in the pump amplitude from the Euler–Lagrange equation would strengthen this link.
 
 ### Frustration Precedents and Trilateral Frustration
 
@@ -697,6 +695,8 @@ $$
 $$
 
 At $\xi = 0$, dimension remains constant (vacuum preserves dimensionality). As $\xi$ increases, dimension decreases—organizational complexity drives dimensional reduction. At $\xi = 1$, the flow drives $\mathcal{D} \to 2$. The coupled system $(\xi, \mathcal{D})$ flows from the UV fixed point $(0, 3)$ toward the IR fixed point $(1, 2)$.
+
+The walk from $(\xi, \mathcal{D}) = (0, 3)$ to $(1, 2)$ is the entire dissipation flow compressed to a displacement vector in the integer lattice $\{0, 1\} \times \{2, 3\}$. The UV corner $(0, 3)$ names no maintenance overhead in full three-space; the IR corner $(1, 2)$ names complete overhead in the area-law dimension. The direction vector $(+1, -1)$ adds one unit of maintenance and removes one unit of effective dimension as the flow descends. Every physical regime observed at any scale—particles at $\xi \sim 10^{-6}$, atoms at $10^{-3}$, molecules at $10^{-2}$, biological systems at $10^{-1}$, neutron stars at $\xi \sim 0.3$–$0.5$, black holes at $\xi = 1$—is a walking plateau along this single walk, with decade spacing produced by the $C_{10}$ partition. The endpoints are the only integer values the coupled flow can end at: $(0, 3)$ is the unique corner with no overhead in three-space, and $(1, 2)$ is the unique corner with complete overhead in the area-law dimension.
 
 ### Wilsonian Derivation of the β-Function
 

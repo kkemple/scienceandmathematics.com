@@ -20,8 +20,14 @@ const { Content, remarkPluginFrontmatter } = await render(post)
 
 const readingTime = remarkPluginFrontmatter.readingTime
 const toc = remarkPluginFrontmatter.toc || []
+
+const rawBody = post.body ?? ''
+const rawTitle = post.data.title
 ---
 
 <PostLayout {...post.data} readingTime={readingTime} toc={toc}>
   <Content />
 </PostLayout>
+<script define:vars={{ rawBody, rawTitle }}>
+  window.__rawMarkdown = `# ${rawTitle}\n\n${rawBody}`
+</script>

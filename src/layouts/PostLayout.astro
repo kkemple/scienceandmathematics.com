@@ -17,6 +17,7 @@ import XPOST from '@/components/ui/XPOST.astro'
 import CopyCode from '@/components/ui/CopyCode.astro'
 import BaseLayout from '@/layouts/BaseLayout.astro'
 import Citation from '@/components/ui/Citation.astro'
+import CopyPostButton from '@/components/ui/CopyPostButton.astro'
 
 import { themeConfig } from '@/config'
 
@@ -132,6 +133,7 @@ const citationDate = pubDate.toISOString().split('T')[0].replace(/-/g, '/')
         <div class="title">
           <div class="title-header">
             <h1>{title}</h1>
+            <CopyPostButton />
           </div>
           <div class="date">
             <FormattedDate date={pubDate} context="post" />

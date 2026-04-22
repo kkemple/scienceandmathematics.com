@@ -1,0 +1,49 @@
+---
+/**
+ * CopyPostButton - copies the raw markdown of the current post to the clipboard.
+ * Reads from window.__rawMarkdown, which is injected by src/pages/[...slug].astro.
+ */
+---
+
+<button id="copy-post-btn" class="copy-post-btn" type="button">Copy Post</button>
+
+<script>
+  const btn = document.getElementById('copy-post-btn')
+  if (btn) {
+    btn.addEventListener('click', async () => {
+      const raw = (window as any).__rawMarkdown || ''
+      try {
+        await navigator.clipboard.writeText(raw)
+        btn.textContent = 'Copied!'
+      } catch {
+        btn.textContent = 'Failed to copy'
+      }
+      setTimeout(() => {
+        btn.textContent = 'Copy Post'
+      }, 2000)
+    })
+  }
+</script>
+
+<style>
+  .copy-post-btn {
+    flex-shrink: 0;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-family: var(--sans);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--text-tertiary);
+    transition: all 0.15s;
+    white-space: nowrap;
+    align-self: flex-start;
+    margin-top: 0.35rem;
+  }
+
+  .copy-post-btn:hover {
+    color: var(--text-primary);
+    border-color: var(--text-tertiary);
+  }
+</style>
